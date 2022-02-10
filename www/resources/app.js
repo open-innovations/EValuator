@@ -137,15 +137,116 @@
 					}
 					return '<div class="marker-group"><div class="marker-group-head" style="background:linear-gradient(to right, '+grad+');color:black;"></div><span>'+pins.length+'</span></div>';
 				}
+			},
+			'carparks': {
+				'file': 'data/west-yorkshire-amenities-parking.geojson',
+				'color': '#F9BC26',
+				'popuptitle': 'Car park'
+			},
+			'supermarkets': {
+				'file': 'data/west-yorkshire-shop-supermarket.geojson',
+				'color': '#1DD3A7',
+				'popuptitle': 'Supermarket'
 			}
 		};
-		this.loadFile('ev',this.addMarkers);
+		this.loadCSVFile('ev',this.addMarkers);
+
+		this.loadGeoJSON('carparks');
+		this.loadGeoJSON('supermarkets');
 
 		return this;
 	}
 	
-	EV.prototype.loadFile = function(key,cb){
+	EV.prototype.loadGeoJSON = function(key){
 
+		var color = this.maplayers[key].color||'black';
+		var defaulttitle = this.maplayers[key].popuptitle||'?';
+		
+		fetch(this.maplayers[key].file).then(response => {
+			if(!response.ok) throw new Error('Network response was not OK');
+			return response.json();
+		}).then(data => {
+			console.log(data,this);
+			for(var f = data.features.length-1 ; f >= 0; f--){
+				if(data.features[f].geometry.type=="Point"){
+					data.features.splice(f,1);
+				}
+			}
+			this.maplayers[key].data = data;
+			if(this.mapper && this.mapper.map){
+				
+				var _obj = this;
+				
+				L.geoJSON(data, {
+					style: function (feature) {
+						return {color: color};
+					}
+				}).bindPopup(function (layer){
+					console.log(layer.feature);
+					g = layer.feature.geometry;
+					p = layer.feature.properties;
+					popup = "";
+
+					if(p){
+						// If this feature has a default popup
+						// Convert "other_tags" e.g "\"ele:msl\"=>\"105.8\",\"ele:source\"=>\"GPS\",\"material\"=>\"stone\""
+						if(p.other_tags){
+							tags = p.other_tags.split(/,/);
+							for(var t = 0; t < tags.length; t++){
+								tags[t] = tags[t].replace(/\"/g,"");
+								bits = tags[t].split(/\=\>/);
+								if(bits.length == 2){
+									if(!p[bits[0]]) p[bits[0]] = bits[1];
+								}
+							}
+						}
+
+
+						var title = defaulttitle;
+						if(p.title || p.name || p.Name) title = (p.title || p.name || p.Name);
+						popup += '<h3>'+(title)+'</h3>';
+						var added = 0;
+						for(var f in p){
+							if(f != "Name" && f!="name" && f!="title" && f!="other_tags" && (typeof p[f]==="number" || (typeof p[f]==="string" && p[f].length > 0))){
+								popup += (added > 0 ? '<br />':'')+'<strong>'+f+':</strong> '+(typeof p[f]==="string" && p[f].indexOf("http")==0 ? '<a href="'+p[f]+'" target="_blank">'+p[f]+'</a>' : p[f])+'';
+								added++;
+							}
+						}
+						popup += '<p class="footer">Something not quite right? <a href="http://www.openstreetmap.org/edit?pk_campaign=open-innovations-edit'+(g.type == "Point" ? '&node=%osm_id%':'')+(g.type == "Polygon" ? '&way=%osm_way_id%' : '')+'#map=%Zoom%/%Latitude%/%Longitude%">Help improve the data on OpenStreetMap</a>.</p>';
+
+
+						popup = popup.replace(/\%IF ([^\s]+) (.*?) ENDIF\%/g,function(str,p1,p2){ return (p[p1] && p[p1] != "N/a" ? p2 : ''); });
+						// Loop over properties and replace anything
+						for(var p in p){
+							if(p[p]){
+								while(popup.indexOf("%"+p+"%") >= 0){
+									popup = popup.replace("%"+p+"%",p[p] || "?");
+								}
+								while(popup.indexOf("{{"+p+"}}") >= 0){
+									popup = popup.replace("{{"+p+"}}",p[p] || "?");
+								}
+							}
+						}
+						popup = popup.replace(/%Latitude%/g,(p.centroid ? p.centroid.latitude : (g.coordinates ? g.coordinates[1] : '')));
+						popup = popup.replace(/%Longitude%/g,(p.centroid ? p.centroid.longitude : (g.coordinates ? g.coordinates[0] : '')));
+						popup = popup.replace(/%Zoom%/g,_obj.mapper.map.getZoom()||18);
+						popup = popup.replace(/%type%/g,g.type.toLowerCase());
+						// Replace any remaining unescaped parts
+						//popup = popup.replace(/%[^\%]+%/g,"?");
+					}
+
+					return popup;
+				}).addTo(this.mapper.map);
+			}
+			
+		}).catch(error => {
+			console.error('There has been a problem with your fetch operation:', error);
+		});
+		return this;
+	}
+
+	EV.prototype.loadCSVFile = function(key,cb){
+		
 		var _obj = this;
 		
 		fetch(this.maplayers[key].file).then(response => {
@@ -156,10 +257,10 @@
 			rows = [];
 			for(var r = 1; r < lines.length; r++){
 				row = lines[r].split(/\,/);
-				if(row[0]) rows.push(_obj.maplayers[key].parserow.call(_obj,row)||{'id':row[0]});
+				if(row[0]) rows.push(_obj.maplayers[key].parserow.call(this,row)||{'id':row[0]});
 			}
 			this.maplayers[key].data = rows;
-			if(typeof cb==="function") cb.call(_obj,key);
+			if(typeof cb==="function") cb.call(this,key);
 		}).catch(error => {
 			console.error('There has been a problem with your fetch operation:', error);
 		});
