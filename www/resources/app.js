@@ -169,13 +169,14 @@
 			if(!response.ok) throw new Error('Network response was not OK');
 			return response.json();
 		}).then(data => {
-			console.log(data,this);
+
 			for(var f = data.features.length-1 ; f >= 0; f--){
 				if(data.features[f].geometry.type=="Point"){
 					data.features.splice(f,1);
 				}
 			}
 			this.maplayers[key].data = data;
+
 			if(this.mapper && this.mapper.map){
 				
 				var _obj = this;
@@ -185,9 +186,9 @@
 						return {color: color};
 					}
 				}).bindPopup(function (layer){
-					console.log(layer.feature);
 					g = layer.feature.geometry;
 					p = layer.feature.properties;
+					p.centroid = layer.getBounds().getCenter();
 					popup = "";
 
 					if(p){
@@ -215,27 +216,20 @@
 								added++;
 							}
 						}
-						popup += '<p class="footer">Something not quite right? <a href="http://www.openstreetmap.org/edit?pk_campaign=open-innovations-edit'+(g.type == "Point" ? '&node=%osm_id%':'')+(g.type == "Polygon" ? '&way=%osm_way_id%' : '')+'#map=%Zoom%/%Latitude%/%Longitude%">Help improve the data on OpenStreetMap</a>.</p>';
+						popup += '<p class="footer">Something not quite right? <a href="http://www.openstreetmap.org/edit?pk_campaign=open-innovations-edit'+(g.type == "Point" ? '&node={{osm_id}}':'')+(g.type == "Polygon" ? '&way={{osm_way_id}}' : '')+(g.type == "MultiPolygon" ? '&way={{osm_way_id}}' : '')+'#map=17/{{Latitude}}/{{Longitude}}" target="_osm">Help improve the data on OpenStreetMap</a>.</p>';
 
-
-						popup = popup.replace(/\%IF ([^\s]+) (.*?) ENDIF\%/g,function(str,p1,p2){ return (p[p1] && p[p1] != "N/a" ? p2 : ''); });
 						// Loop over properties and replace anything
-						for(var p in p){
-							if(p[p]){
-								while(popup.indexOf("%"+p+"%") >= 0){
-									popup = popup.replace("%"+p+"%",p[p] || "?");
-								}
-								while(popup.indexOf("{{"+p+"}}") >= 0){
-									popup = popup.replace("{{"+p+"}}",p[p] || "?");
+						for(var f in p){
+							if(p[f]){
+								while(popup.indexOf("{{"+f+"}}") >= 0){
+									popup = popup.replace("{{"+f+"}}",p[f] || "?");
 								}
 							}
 						}
-						popup = popup.replace(/%Latitude%/g,(p.centroid ? p.centroid.latitude : (g.coordinates ? g.coordinates[1] : '')));
-						popup = popup.replace(/%Longitude%/g,(p.centroid ? p.centroid.longitude : (g.coordinates ? g.coordinates[0] : '')));
-						popup = popup.replace(/%Zoom%/g,_obj.mapper.map.getZoom()||18);
-						popup = popup.replace(/%type%/g,g.type.toLowerCase());
-						// Replace any remaining unescaped parts
-						//popup = popup.replace(/%[^\%]+%/g,"?");
+						popup = popup.replace(/{{Latitude}}/g,(p.centroid ? p.centroid.lat : (g.coordinates ? g.coordinates[1] : '')));
+						popup = popup.replace(/{{Longitude}}/g,(p.centroid ? p.centroid.lng : (g.coordinates ? g.coordinates[0] : '')));
+						popup = popup.replace(/{{Zoom}}/g,_obj.mapper.map.getZoom()||18);
+						popup = popup.replace(/{{type}}/g,g.type.toLowerCase());
 					}
 
 					return popup;
@@ -656,7 +650,25 @@
 
 		return this;
 	}
+	function getCentroid2(arr){
+		var twoTimesSignedArea = 0;
+		var cxTimes6SignedArea = 0;
+		var cyTimes6SignedArea = 0;
 
+		var length = arr.length
+
+		var x = function (i) { return arr[i % length][0] };
+		var y = function (i) { return arr[i % length][1] };
+
+		for ( var i = 0; i < arr.length; i++) {
+			var twoSA = x(i)*y(i+1) - x(i+1)*y(i);
+			twoTimesSignedArea += twoSA;
+			cxTimes6SignedArea += (x(i) + x(i+1)) * twoSA;
+			cyTimes6SignedArea += (y(i) + y(i+1)) * twoSA;
+		}
+		var sixSignedArea = 3 * twoTimesSignedArea;
+		return [ cxTimes6SignedArea / sixSignedArea, cyTimes6SignedArea / sixSignedArea];        
+	}
 	function Tiler(){
 		var R = 6378137, sphericalScale = 0.5 / (Math.PI * R);
 
