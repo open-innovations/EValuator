@@ -328,7 +328,7 @@
 				maxZoom: 19
 			});
 		}
-		this.selectedLayer = "CartoDB Voyager";
+		this.selectedLayer = "Greyscale";
 
 		var lat = 53.79659;
 		var lon = -1.53385;
