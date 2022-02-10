@@ -150,12 +150,19 @@
 				'color': '#1DD3A7',
 				'popuptitle': 'Supermarket',
 				'credit': 'OpenStreetMap Contributors (ODbL)'
+			},
+			'distribution': {
+				'file': 'data/distribution-centres.geojson',
+				'color': '#2254F4',
+				'popuptitle': 'Distribution Centre',
+				'credit': 'OpenStreetMap Contributors (ODbL)'
 			}
 		};
 		this.loadCSVFile('ev',this.addMarkers);
 
 		this.loadGeoJSON('carparks');
 		this.loadGeoJSON('supermarkets');
+		this.loadGeoJSON('distribution');
 
 		return this;
 	}
@@ -171,6 +178,7 @@
 		}).then(data => {
 
 			for(var f = data.features.length-1 ; f >= 0; f--){
+				// Remove points
 				if(data.features[f].geometry.type=="Point"){
 					data.features.splice(f,1);
 				}

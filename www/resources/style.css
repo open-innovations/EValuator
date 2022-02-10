@@ -133,8 +133,9 @@ code .str, pre .str { color: #D73058; }
 .key li { display: inline-block; line-height: 2em; margin-right: 0.5em; }
 .key li svg { height: 2em; float: left; }
 .key .poly { width: 1.5em; height: 1.5em; display: inline-block; float: left; margin: 0.25em 0.5em 0 0; border: 2px solid black; background: rgba(0,0,0,0.3); }
-.supermarket { border-color: #1DD3A7!important; background: rgb(29, 211, 167,0.3)!important; }
-.carpark { border-color: #F9BC26!important; background: rgb(249, 188, 38,0.3)!important; }
+.supermarket { border-color: #1DD3A7!important; background: rgba(29, 211, 167,0.3)!important; }
+.carpark { border-color: #F9BC26!important; background: rgba(249, 188, 38,0.3)!important; }
+.distribution { border-color: #2254F4!important; background: rgba(34, 84, 244,0.3)!important; }
 
 #map {
 	width: 100%;
