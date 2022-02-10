@@ -166,3 +166,13 @@ The CSV (13MB) contains lat/lon as well as UPRN and lots of details about the ch
   * connector8Validated
   
 Even limiting things to just a truncated ID and latitude and longitude takes up 540kB. For optimisation in the future we could think about splitting the CSV up into tiled chunks of data (perhaps like the GeoJSON chunks created for [osm-geojson](https://github.com/odileeds/osm-geojson/tree/master/tiles)) and an extract of JS from [osm.editor.js](https://odileeds.github.io/osmedit/resources/osm.editor.js).
+
+
+## Supermarkets
+
+These come from Open Street Map (ODbL).
+
+## Car parks
+
+These come from Open Street Map (ODbL).
+

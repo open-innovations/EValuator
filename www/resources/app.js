@@ -136,17 +136,20 @@
 						grad += ' '+Math.round(p)+'%';
 					}
 					return '<div class="marker-group"><div class="marker-group-head" style="background:linear-gradient(to right, '+grad+');color:black;"></div><span>'+pins.length+'</span></div>';
-				}
+				},
+				'credit': 'National Charge Point Registry (OGL3)'
 			},
 			'carparks': {
 				'file': 'data/west-yorkshire-amenities-parking.geojson',
 				'color': '#F9BC26',
-				'popuptitle': 'Car park'
+				'popuptitle': 'Car park',
+				'credit': 'OpenStreetMap Contributors (ODbL)'
 			},
 			'supermarkets': {
 				'file': 'data/west-yorkshire-shop-supermarket.geojson',
 				'color': '#1DD3A7',
-				'popuptitle': 'Supermarket'
+				'popuptitle': 'Supermarket',
+				'credit': 'OpenStreetMap Contributors (ODbL)'
 			}
 		};
 		this.loadCSVFile('ev',this.addMarkers);
@@ -237,6 +240,7 @@
 
 					return popup;
 				}).addTo(this.mapper.map);
+				this.updateCredits();
 			}
 			
 		}).catch(error => {
@@ -261,12 +265,26 @@
 			}
 			this.maplayers[key].data = rows;
 			if(typeof cb==="function") cb.call(this,key);
+			this.updateCredits();
 		}).catch(error => {
 			console.error('There has been a problem with your fetch operation:', error);
 		});
 
 		return this;
 	}
+	
+	EV.prototype.updateCredits = function(){
+		var attrib = '';
+		var done = {};
+		for(var l in this.maplayers){
+			if(this.maplayers[l].credit && !done[this.maplayers[l].credit]){
+				attrib += (attrib ? ', ':'')+this.maplayers[l].credit;
+				done[this.maplayers[l].credit] = 1;
+			}
+		}
+		this.mapper.map.attributionControl.setPrefix(attrib ? '<span class="AttributionClass">'+attrib+'</span>':'');
+	}
+
 	EV.prototype.addMarkers = function(key){
 
 		this.mapper.buildMarkerLayer(key,this.maplayers[key].data,{
@@ -398,7 +416,6 @@
 				iconCreateFunction: function (cluster){
 					var pins = cluster.getAllChildMarkers();
 					var html = (typeof opts.clusterhtml==="function") ? opts.clusterhtml.call(opts.this,key,pins) : '<div class="marker-group" style="background:black;color:white;">'+pins.length+'</div>';
-					
 					return L.divIcon({ html: html, className: '',iconSize: L.point(40, 40) });
 				},
 				// Disable all of the defaults:
