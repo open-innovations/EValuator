@@ -87,7 +87,7 @@
 						return response.json();
 					}).then(data => {
 						var str = '<h3>'+data.name+'</h3>';
-						str += '<p>';
+						str += '<p>ID: '+data.chargeDeviceID+'<br />';
 						addr = (data.street ? data.street : '');
 						addr += (data.town ? (addr ? ', ':'')+data.town : '');
 						addr += (data.county ? (addr ? ', ':'')+data.county : '');
@@ -116,7 +116,7 @@
 					});
 					return true;
 				},
-				'clusterstyle': function(key,pins){
+				'clusterhtml': function(key,pins){
 					var colours = {'S':0,'F':0,'R':0};
 					var total = 0;
 					for(var i = 0; i < pins.length; i++){
@@ -135,7 +135,7 @@
 						p += (100*colours[s]/total);
 						grad += ' '+Math.round(p)+'%';
 					}
-					return 'background:linear-gradient(to right, '+grad+');color:black;';
+					return '<div class="marker-group"><div class="marker-group-head" style="background:linear-gradient(to right, '+grad+');color:black;"></div><span>'+pins.length+'</span></div>';
 				}
 			}
 		};
@@ -171,7 +171,7 @@
 		this.mapper.buildMarkerLayer(key,this.maplayers[key].data,{
 			'icon':this.maplayers[key].icon,
 			'popupopen':this.maplayers[key].popupopen,
-			'clusterstyle': this.maplayers[key].clusterstyle,
+			'clusterhtml': this.maplayers[key].clusterhtml,
 			'this': this
 		});
 
@@ -296,9 +296,9 @@
 				maxClusterRadius: 40,
 				iconCreateFunction: function (cluster){
 					var pins = cluster.getAllChildMarkers();
-					var sty = (typeof opts.clusterstyle==="function") ? opts.clusterstyle.call(opts.this,key,pins) : 'background:black;color:white;';
+					var html = (typeof opts.clusterhtml==="function") ? opts.clusterhtml.call(opts.this,key,pins) : '<div class="marker-group" style="background:black;color:white;">'+pins.length+'</div>';
 					
-					return L.divIcon({ html: '<div class="marker-group" style="'+sty+'">'+pins.length+'</div>', className: '',iconSize: L.point(40, 40) });
+					return L.divIcon({ html: html, className: '',iconSize: L.point(40, 40) });
 				},
 				// Disable all of the defaults:
 				spiderfyOnMaxZoom: true,

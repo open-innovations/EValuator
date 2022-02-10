@@ -114,8 +114,9 @@ code .str, pre .str { color: #D73058; }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip { box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4); }
 .leaflet-bar.leaflet-control-geolocate a { padding: 4px; }
 .leaflet-bar.leaflet-control-geolocate a svg { width: 100%; height: 100%; }
-.leaflet-marker-icon .marker-group { border-radius: 100%; width: 3em; height: 3em; line-height: 3em; text-align:center; background: black; color: white; }
-
+.leaflet-marker-icon .marker-group { display: inline-block; height: 2.5em; line-height: 2em; text-align:center; background: white; color: black; }
+.leaflet-marker-icon .marker-group .marker-group-head { width: 100%; height: 0.5em; }
+.leaflet-marker-icon .marker-group span { padding: 0 0.5em; }
 
 
 
