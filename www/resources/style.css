@@ -1,0 +1,224 @@
+/* ODI Site Styles. Last updated 2021-06-16 */
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Main site styling */
+body { background-color: #000000; font-family: Arial,sans-serif; font-size: 16px; color: #efefef; line-height: 1.44em; text-rendering: optimizeLegibility; }
+p, iframe, h2, h3, figure, ul, ol, .block, .padded-bottom { margin-bottom: 16px; }
+h1,h2,h3,h4 { font-family: Poppins; line-height: 1em; }
+h1 { font-size: 2em; margin-top: 1em; }
+h2 { font-size: 1.7em; margin-top: 1.7647058823529411em; font-weight: 500; }
+h3 { font-size: 1.4em; margin-top: 1.428571em; }
+h1:first-child, h2:first-child, h3:first-child { margin-top: 0; }
+strong, b { font-weight: 700; }
+em, i { font-style: italic; }
+h2 a, h3 a,p a { color: #2254F4; text-decoration: underline; }
+p, time, li, td, th, footer, div { font-weight: 300; }
+button, .button { border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; vertical-align: top; line-height: 1.25em; }
+a:hover, a:focus { text-decoration: underline; }
+iframe { width: 100%; }
+figure iframe, figure img { margin-bottom: 0px; max-width: 100%; }
+figcaption {
+	font-size: 0.8em;
+	margin-top: 0.5em;
+	line-height: 1.5em;
+	color: #999999;
+	text-align: center;
+}
+blockquote { min-height: auto!important; background: #efefef; padding: 1em 3em; margin-bottom: 1em; position: relative; quotes: "\201C""\201D""\2018""\2019"; }
+blockquote:before { content: open-quote; left: 0.25em; }
+blockquote:after { content: close-quote; right: 0.25em; }
+blockquote:before, blockquote:after { color: #ccc; position: absolute; top: 0.6em; line-height: 0.1em; font-size: 4em; }
+blockquote footer { padding: 1em 0 0 0; }
+blockquote cite:before { content: "-- "; }
+blockquote a { color: inherit; }
+blockquote:last-child { margin-bottom: 0; }
+code,pre { font-family: monospace; color: #555555; background-color: #efefef; }
+code { padding: 0.125em 0.25em; }
+pre { max-width: 100%; overflow-x: auto; padding: 16px; margin-bottom: 16px; }
+code .comment, pre .comment { color: #0DBC37; }
+code .fn, pre .fn { color: #00B6FF; }
+code .str, pre .str { color: #D73058; }
+
+
+.holder { position: relative; width: 1080px; max-width: 100%; margin: auto; }
+.padded { padding: 1em; }
+.block { display: block; }
+.padded-vertical { padding: 1em 0; }
+.doublepadded { padding: 2em; }
+.tallpadded, #main .tallpadded { padding-top: 5em; padding-bottom: 5em; }
+
+.b6-bg { background: white; color: #222; }
+
+
+
+/* Open Innovations Leaflet styles */
+.leaflet-container { font-size: 1em; }
+.leaflet-popup-content { margin: 1em; max-width: 90%; width: 400px!important; }
+.leaflet-popup-content h3 { margin-bottom: 0.5em; }
+.leaflet-popup-content p { margin-top: 0; }
+.leaflet-popup-content p.footer { margin-top: 1em; padding-top: 0.5em; font-size: 0.8em; color: #999; border-top: 1px solid #999; }
+.leaflet-popup-content table td:first-child { padding-right: 0.5em; }
+.leaflet-popup-content ul { margin: 0px!important; margin-bottom: 0px!important; list-style: none; padding: 0px; }
+.leaflet-popup-content ul li { margin: 0px; list-style: none; padding: 0px; }
+.leaflet-popup-content-wrapper { border-radius: 0px; font-size: 1em; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4); }
+.leaflet-bar.leaflet-control-geolocate a { padding: 4px; }
+.leaflet-bar.leaflet-control-geolocate a svg { width: 100%; height: 100%; }
+.leaflet-marker-icon .marker-group { border-radius: 100%; width: 3em; height: 3em; line-height: 3em; text-align:center; background: black; color: white; }
+
+
+
+
+.my-location-accuracy, .my-location:after { position: absolute; left:50%; top:50%; transform:translate3D(-50%,-50%,0); border-radius: 100%; }
+.my-location:after { content: ''; width: 14px; height: 14px; background-color: #2254F4; border: 3px solid white; }
+.my-location-accuracy { background-color: rgba(34, 84, 244, 0.3); transition: width 0.1s ease-in, height 0.1s ease-in; }
+
+.leaflet-popup-content ul.ev-connectors { display: grid; grid-template-columns: repeat(8,1fr); grid-gap: 2px; }
+.leaflet-popup-content ul.ev-connectors li { padding: 0 2px; text-align: center; }
+.speed-S { fill: #efd463; background: #efd463; color: white; }
+.speed-F { fill: #00a3da; background: #00a3da; color: black; }
+.speed-R { fill: #d772da; background: #d772da; color: black; }
+.key { margin-top: 0.5em; }
+.key li { display: inline-block; line-height: 2em; margin-right: 0.5em; }
+.key li svg { height: 2em; float: left; }
+
+#map {
+	width: 100%;
+	height: 800px;
+	max-height: 80vh;
+	position: relative;
+}
+.loader { 
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+
+/* Marker Cluster styles */
+.marker-cluster-small {
+	background-color: rgba(181, 226, 140, 0.6);
+	}
+.marker-cluster-small div {
+	background-color: rgba(110, 204, 57, 0.6);
+	}
+
+.marker-cluster-medium {
+	background-color: rgba(241, 211, 87, 0.6);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(240, 194, 12, 0.6);
+	}
+
+.marker-cluster-large {
+	background-color: rgba(253, 156, 115, 0.6);
+	}
+.marker-cluster-large div {
+	background-color: rgba(241, 128, 23, 0.6);
+	}
+
+	/* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small {
+	background-color: rgb(181, 226, 140);
+	}
+.leaflet-oldie .marker-cluster-small div {
+	background-color: rgb(110, 204, 57);
+	}
+
+.leaflet-oldie .marker-cluster-medium {
+	background-color: rgb(241, 211, 87);
+	}
+.leaflet-oldie .marker-cluster-medium div {
+	background-color: rgb(240, 194, 12);
+	}
+
+.leaflet-oldie .marker-cluster-large {
+	background-color: rgb(253, 156, 115);
+	}
+.leaflet-oldie .marker-cluster-large div {
+	background-color: rgb(241, 128, 23);
+}
+
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 20px;
+	}
+.marker-cluster div {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+	text-align: center;
+	border-radius: 15px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+.marker-cluster span {
+	line-height: 30px;
+	}
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow {
+	-webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-moz-transition: -moz-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-o-transition: -o-transform 0.3s ease-out, opacity 0.3s ease-in;
+	transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+}
+.leaflet-cluster-spider-leg {
+	/* stroke-dashoffset (duration and function) should match with leaflet-marker-icon transform in order to track it exactly */
+	-webkit-transition: -webkit-stroke-dashoffset 0.3s ease-out, -webkit-stroke-opacity 0.3s ease-in;
+	-moz-transition: -moz-stroke-dashoffset 0.3s ease-out, -moz-stroke-opacity 0.3s ease-in;
+	-o-transition: -o-stroke-dashoffset 0.3s ease-out, -o-stroke-opacity 0.3s ease-in;
+	transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
+}
+/* End of Marker Cluster styles */
