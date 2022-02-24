@@ -1,9 +1,15 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
+use JSON::XS;
+use Data::Dumper;
+
+
 sub trimGeoJSONFile {
 	my $file = $_[0];
 	my $out = "";
-	my ($row,$comma);
+	my ($row,$comma,$other);
 
 	open(FILE,$file);
 	while(<FILE>){
@@ -33,7 +39,10 @@ sub trimGeoJSONFile {
 
 			$row =~ s/ ?([\-\+]?[0-9]+\.[0-9]{5})[0-9]+, ?([\-\+]?[0-9]+\.[0-9]{5})[0-9]+/$1,$2/g;
 			$row =~ s/, ?\"[^\"]*": null//g;
+			$row =~ s/{\"[^\"]*": null ?\, ?/\{/g;
 			$row =~ s/" \}, "/"\},"/g;
+			$row =~ s/": \[ /":\[/g;
+			$row =~ s/", "/","/g;
 			
 			$row =~ s/\, ?\"[^\"]+\":\"\"//g;
 			
@@ -54,11 +63,11 @@ sub trimGeoJSONFile {
 	close(FILE);
 }
 
-sub getMSOAWKT {
-	my $msoa = $_[0];
+sub getGeoJSONLasWKT {
+	my $file = $_[0];
 	my (@lines,$out);
 
-	open(FILE,$msoadir.$msoa.".geojsonl");
+	open(FILE,$file);
 	@lines = <FILE>;
 	close(FILE);
 	
@@ -69,7 +78,7 @@ sub getMSOAWKT {
 		$out =~ s/\]/\)/g;
 		$out = "MULTIPOLYGON ".$out;
 	}else{
-		print "WARNING: $msoa doesn't seem to contain a MultiPolygon.\n";
+		print "WARNING: $file doesn't seem to contain a MultiPolygon.\n";
 	}
 	return $out;
 }
@@ -93,7 +102,7 @@ sub makeDir {
 
 sub getLookup {
 	my $file = "www/data/lookupLAD.tsv";
-	my (%lookup,$i,$line,$lad,$ms,$n);
+	my (%lookup,$i,$line,$lad,$ms,$n,$m);
 
 	%lookup = ('LAD'=>{},'MSOA'=>{});
 
@@ -117,6 +126,86 @@ sub getLookup {
 		$i++;
 	}
 	return %lookup;
+}
+
+sub polyify {
+
+	my (@lines,$name,$coder,$str,$json,@features,@feature,$nf,$n,$f,@polygons,$npoly,$p,@parts,$pt,$npt,$poly,@coords,$c,$file);
+
+	$file = $_[0];
+
+	#print "Opening $file\n";
+	open(GEOJSON,$file);
+	@lines = <GEOJSON>;
+	close(GEOJSON);
+	$str = join("",@lines);
+
+	$coder = JSON::XS->new->utf8->canonical(1);
+
+	if($file =~ /\.geojsonl/){
+		$str = "{\"type\": \"FeatureCollection\",\"features\": [".$str."]}";
+	}
+
+	$json = $coder->decode($str);
+	@features = @{$json->{'features'}};
+	$n = @features;
+
+	$name = $file;
+	$name =~ s/\.[^\.]*$//;
+	$name =~ s/[\/]/\_/g;
+
+	$poly = "$name\n";
+	#print "$n features\n";
+	if($n > 0){
+		for($f = 0; $f < $n; $f++){
+			# If this feature is a MultiPolygon
+			if($features[$f]{'geometry'}{'type'} eq "MultiPolygon"){
+				@feature = @{$features[$f]{'geometry'}{'coordinates'}};
+				$nf = @feature;
+				#print "\tnf = $nf\n";
+				for($p = 0; $p < $nf; $p++){
+					@parts = @{$features[$f]{'geometry'}{'coordinates'}[$p]};
+					$npt = @parts;
+					for($pt = 0; $pt < $npt; $pt++){
+						if($pt > 0){
+							# Prefix for a hole
+							$poly .= "!";
+						}
+						$poly .= "polygon\_$f\_$p\_$pt\n";
+						@coords = @{$features[$f]{'geometry'}{'coordinates'}[$p][$pt]};
+						# Print all the coordinates for this part
+						for($c = 0; $c < @coords; $c++){
+							$poly .= "\t".$coords[$c][0]."\t".$coords[$c][1]."\n";
+						}
+						$poly .= "END\n";
+					}
+				}
+			}elsif($features[$f]{'geometry'}{'type'} eq "Polygon"){
+				@feature = @{$features[$f]{'geometry'}{'coordinates'}};
+				$nf = @feature;
+				#print "\tnf = $nf\n";
+				for($p = 0; $p < $nf; $p++){
+					if($p > 0){
+						# Prefix for a hole
+						$poly .= "!";
+					}
+					$poly .= "polygon\_$f\_$p\n";
+					@coords = @{$features[$f]{'geometry'}{'coordinates'}[$p]};
+					$npt = @parts;
+					#print "\t\tnpt = $npt\n";
+					# Print all the coordinates for this part
+					for($c = 0; $c < @coords; $c++){
+						$poly .= "\t".$coords[$c][0]."\t".$coords[$c][1]."\n";
+					}
+					$poly .= "END\n";
+				}
+			}else{
+				print "Unknown type\n";
+			}
+		}
+	}
+	$poly .= "END\n";
+	return $poly;
 }
 
 1;

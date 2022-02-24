@@ -5,7 +5,7 @@ Google doc on thoughts: https://docs.google.com/document/d/1JGvk4ODUaRWJ8caFH-Sn
 
 ## Processing data
 
-### Making lookups
+### Setting up
 
 Make sure to have downloaded the [Postcode to Output Area to Lower Layer Super Output Area to Middle Layer Super Output Area to Local Authority District November 2021](https://geoportal.statistics.gov.uk/datasets/postcode-to-output-area-to-lower-layer-super-output-area-to-middle-layer-super-output-area-to-local-authority-district-november-2021-lookup-in-the-uk/about) [zip file](https://www.arcgis.com/sharing/rest/content/items/7db6988a695f4c75989f0dc6701d4167/data) and unzipped it.
 
@@ -15,6 +15,7 @@ Running `perl makeLookup.pl` will create three lookup files within `www/data/`:
   * `lookupMSOA.tsv` - every MSOA with its associated LAD
   * `lookupOA.tsv` - columns for OA, LSOA, MSOA, and LAD
 
+Next make a clone of our [geography-bits repo](https://github.com/odileeds/geography-bits/) so that we have boundaries for MSOAs and LADs.
 
 ### Local Authority District data
 
@@ -35,8 +36,29 @@ The supermarkets, distribution centres, and parking all come from OpenStreetMap 
 Running `perl makeLADs.pl` will loop over all the LADs to create extracts for each layer using their boundaries e.g.
 
 ```
-ogr2ogr -f GeoJSON E08000035.geojson chargepoints.csv.sqlite -clipsrc www/boundaries/E08000035.geojsonl
+ogr2ogr -f GeoJSON E08000035-data.geojson chargepoints.csv.sqlite -clipsrc www/boundaries/E08000035.geojsonl
 ```
+
+But it could be more efficient to clip the SQLite for the whole of GB to the bounding box of the LAD first. We could use `ogrinfo` to find the extent:
+
+```
+ogrinfo -so -al www/boundaries/E08000035.geojsonl | grep Extent
+```
+
+which returns
+
+```
+Extent (lon1, lat2 - lon2, lat2)
+```
+
+Then we could clip the SQLite file with `osmconvert` and then clip that file with the e.g.
+
+```
+osmconvert chargepoints.csv.sqlite -b=lon1,lat1,lon2,lat2 --complete-ways -o=temporary.sqlite
+ogr2ogr -f SQLite E08000035-data.geojson temporary.sqlite -clipsrc www/boundaries/E08000035.geojsonl 2>&1`;
+```
+
+For some big/fractal-coasty Local Authorities, this two-step process makes it much quicker.
 
 ### MSOA-level data
 
@@ -46,10 +68,12 @@ We can now create temporary extracts of the data at MSOA level in preparation fo
 perl makeMSOAGeoJSON.pl
 ```
 
-It loads the LAD-MSOA lookup table from `www/data/lookupLAD.tsv` to get a mapping from LAD to MSOA. Rather than clip to each MSOA (there are several thousand) from the GB-level data - which would be slow - we clip the LAD-level data that we created previously.
+It loads the LAD-MSOA lookup table from `www/data/lookupLAD.tsv` to get a mapping from LAD to MSOA. Rather than clip to each MSOA (there are 7201) from the GB-level data - which would be slow - we clip the LAD-level data that we created previously.
 
 For every layer and MSOA we can run something like this:
 
-`ogr2ogr -f GeoJSON E02006875.geojson E08000035.geojson -clipsrc ../geography-bits/data/MSOA11CD/E02006875.geojsonl`;
+```
+ogr2ogr -f GeoJSON E02006875.geojson E08000035.geojson -clipsrc ../geography-bits/data/MSOA11CD/E02006875.geojsonl
+```
 
-where `E08000035.geojson` is our input file for the LAD, `E02006875.geojson` is our output file for MSOA, and `../geography-bits/data/MSOA11CD/E02006875.geojsonl` is the boundary for the MSOA taken from our [geography-bits repo](https://github.com/odileeds/geography-bits/).
+where `E08000035.geojson` is our input file for the LAD, `E02006875.geojson` is our output file for MSOA, and `../geography-bits/data/MSOA11CD/E02006875.geojsonl` is the boundary for the MSOA in our [geography-bits repo](https://github.com/odileeds/geography-bits/).

@@ -14,7 +14,7 @@ $adir = "www/data/LAD/";
 $osmpbf = "raw/great-britain-latest.pbf";
 $osmfile = "raw/great-britain-latest.o5m";
 # Directories to look for boundaries
-@boundarydirs = ("www/boundaries/GB/");
+@boundarydirs = ("../geography-bits/data/LAD21CD/");
 
 
 # Download the GB extract
@@ -35,7 +35,7 @@ if(!-d $adir){
 @extracts = (
 	{ 'key'=>'supermarket', 'args'=>['--keep="shop=supermarket" --drop="entrance= amenity=atm barrier="'], 'file'=>'raw/GB-supermarket.o5m', 'layers'=>['points','multipolygons','polygons'] },
 	{ 'key'=>'parking', 'args'=>['--keep= --keep-ways="amenity=parking" --drop="barrier= or entrance="'], 'file'=>'raw/GB-parking.o5m', 'layers'=>['points','multipolygons','polygons'] },
-	{ 'key'=>'distribution', 'args'=>['--keep="name=*Distribution*"'], 'file'=>'raw/GB-distribution.o5m' }
+	{ 'key'=>'distribution', 'args'=>['--keep="name=*Distribution*" --drop="amenity=loading_dock"'], 'file'=>'raw/GB-distribution.o5m' }
 );
 
 %chargepoints = (
@@ -55,9 +55,9 @@ if(!-d $adir){
 for($d = 0; $d < @boundarydirs; $d++){
 	opendir(SUBDIR,$boundarydirs[$d]) or die "Couldn't open directory, $!";
 	while($file = readdir SUBDIR){
-		if($file =~ /^(.*).geojson/){
+		if($file =~ /^(.*).geojsonl/){
 			$code = $1;
-			push(@files,{'code'=>$code,'poly'=>$boundarydirs[$d].$code.".poly",'geojson'=>$boundarydirs[$d].$file,'dir'=>$boundarydirs[$d]});
+			push(@files,{'code'=>$code,'geojson'=>$boundarydirs[$d].$file,'dir'=>$boundarydirs[$d]});
 		}
 	}
 	closedir(SUBDIR);
@@ -103,12 +103,22 @@ for($e = 0; $e < @extracts; $e++){
 	
 	for($f = 0; $f < @files; $f++){
 		
-		$tfile = $adir.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}.".osm";
+		$tfile = $adir.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}.".sqlite";
+		$cfile = $adir.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}."-cut.sqlite";
 		$gfile = $adir.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}.".geojson";
 
+
 		if(!-e $gfile){
-			print "\tProcessing $files[$f]{'code'}: ";
-			`$osmconvert $extracts[$e]->{'file'} -B=$files[$f]{'poly'} -o=$tfile`;
+			
+			print "\tProcessing $files[$f]{'code'}... ";
+			
+			# Create a temporary clipped file based on bounding box (to speed things up)
+			$extent = `ogrinfo -so -al $files[$f]{'geojson'} | grep Extent`;
+			if($extent =~ /\(([0-9\.\-\+]+), ([0-9\.\-\+]+)\) - \(([0-9\.\-\+]+), ([0-9\.\-\+]+)\)/){
+				`$osmconvert $extracts[$e]->{'file'} -b=$1,$2,$3,$4 --complete-ways -o=$cfile`;
+				`ogr2ogr -f SQLite $tfile $cfile -clipsrc $files[$f]{'geojson'} 2>&1`;
+				`rm $cfile`;
+			}
 
 			# We need to find the layers
 			@lines = `$ogrinfo $tfile`;
@@ -133,31 +143,6 @@ for($e = 0; $e < @extracts; $e++){
 						$row = $flines[$j];
 						if($row =~ /{ "type": "Feature"/){
 							$row =~ s/\,?[\n\r]+//g;
-							
-							$row =~ s/ ?\], \[ ?/\],\[/g;
-							$row =~ s/: \{ /:\{/g;
-							$row =~ s/", "/","/g;
-							$row =~ s/": "/":"/g;
-							$row =~ s/ \] \]/\]\]/g;
-							$row =~ s/ ?\[ \[ /\[\[/g;
-							$row =~ s/ \} \}/\}\}/g;
-							$row =~ s/([0-9]), (\-?[0-9])/$1,$2/g;
-							$row =~ s/,"z_order": [0-9]+//g;
-										
-							if($row =~ /"other_tags":"(.*?)" \},/){
-								#\"power\"=>\"generator\",\"generator:type\"=>\"horizontal_axis\"
-								$other = $1;
-								$other =~ s/\\\\/\\/g;
-								$other =~ s/\\\\"/'/g;
-								$other =~ s/\\\"([^\"]*)\\\"=>\\\"([^\"]*)\\\"/\"$1\":\"$2\"/g;
-							}
-							$row =~ s/"other_tags":"(.*?)" \},/\"other\":\{$other\}\},/g;
-
-							$row =~ s/ ?([\-\+]?[0-9]+\.[0-9]{5})[0-9]+, ?([\-\+]?[0-9]+\.[0-9]{5})[0-9]+/$1,$2/g;
-							$row =~ s/, ?\"[^\"]*": null//g;
-							$row =~ s/" \}, "/"\},"/g;
-							
-							
 							push(@features,$row);
 						}
 					}
@@ -167,7 +152,6 @@ for($e = 0; $e < @extracts; $e++){
 				}
 			}
 
-			print "$gfile";
 			open(FILE,">",$gfile);
 			print FILE "{\n";
 			print FILE "\"type\": \"FeatureCollection\",\n";
@@ -177,11 +161,13 @@ for($e = 0; $e < @extracts; $e++){
 			print FILE "]\n";
 			print FILE "}\n";
 			close(FILE);
+
+			trimGeoJSONFile($gfile);
 			
 			if(-e $tfile){
 				`rm $tfile`;
 			}
-			print "\n";
+			print "saved to $gfile\n";
 		}
 	}
 }
@@ -203,7 +189,7 @@ if(getFile($chargepoints{'url'},$chargepoints{'raw'},86400)){
 
 	for($f = 0; $f < @files; $f++){
 		$gfile = $adir.$files[$f]{'code'}."-chargepoints.geojson";
-		$bfile = $files[$f]{'dir'}.$files[$f]{'code'}.".geojson";
+		$bfile = $files[$f]{'geojson'};
 		if(!-e $gfile){
 			print "\tCreating chargepoints for $files[$f]{'code'} using $bfile\n";
 			`ogr2ogr -f GeoJSON $gfile 	$sqlfile -clipsrc $bfile`;
