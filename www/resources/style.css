@@ -142,6 +142,7 @@ code .str, pre .str { color: #D73058; }
 	height: 800px;
 	max-height: 80vh;
 	position: relative;
+  margin: 1em 0;
 }
 .loader { 
 	position: absolute;
