@@ -32,7 +32,7 @@ The command drops the two entries that are missing geometry and sets the longitu
 
 The supermarkets, distribution centres, and parking all come from OpenStreetMap data. If you don't already have it, the code will download the [latest GB extract from GeoFabrik](https://download.geofabrik.de/europe/great-britain-latest.osm.pbf) into the `raw/` directory.
 
-Running `makeLADs.pl` will loop over all the LADs to create extracts for each layer using their boundaries e.g.
+Running `perl makeLADs.pl` will loop over all the LADs to create extracts for each layer using their boundaries e.g.
 
 ```
 ogr2ogr -f GeoJSON E08000035.geojson chargepoints.csv.sqlite -clipsrc www/boundaries/E08000035.geojsonl
@@ -40,3 +40,16 @@ ogr2ogr -f GeoJSON E08000035.geojson chargepoints.csv.sqlite -clipsrc www/bounda
 
 ### MSOA-level data
 
+We can now create temporary extracts of the data at MSOA level in preparation for analysis. 
+
+```
+perl makeMSOAGeoJSON.pl
+```
+
+It loads the LAD-MSOA lookup table from `www/data/lookupLAD.tsv` to get a mapping from LAD to MSOA. Rather than clip to each MSOA (there are several thousand) from the GB-level data - which would be slow - we clip the LAD-level data that we created previously.
+
+For every layer and MSOA we can run something like this:
+
+`ogr2ogr -f GeoJSON E02006875.geojson E08000035.geojson -clipsrc ../geography-bits/data/MSOA11CD/E02006875.geojsonl`;
+
+where `E08000035.geojson` is our input file for the LAD, `E02006875.geojson` is our output file for MSOA, and `../geography-bits/data/MSOA11CD/E02006875.geojsonl` is the boundary for the MSOA taken from our [geography-bits repo](https://github.com/odileeds/geography-bits/).
