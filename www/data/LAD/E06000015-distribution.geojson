@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"8804486160","name":"Pentagon Parts Distribution","other":{"addr:city":"Derby","addr:housenumber":"1","addr:postcode":"DE21 4AA","addr:street":"Alfreton Road","phone":"+44 1332 369666","shop":"car_parts"}}, "geometry":{"type":"Point","coordinates":[-1.47057,52.93612 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"131599967","name":"Zadran Distribution","building":"retail","shop":"convenience","other":{"addr:city":"Derby","addr:street":"Normanton Road","addr:postcode":"DE23 6WA","addr:housenumber":"230"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.47705,52.91184],[-1.47719,52.91186],[-1.47716,52.9119],[-1.47723,52.91192],[-1.47721,52.91194],[-1.4772,52.91194],[-1.47701,52.9119],[-1.47705,52.91184]] ]}}
+]
+}

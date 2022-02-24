@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"828719831","name":"Marine International Distribution","building":"commercial"},"geometry":{"type":"Polygon","coordinates":[[[ -1.12162,50.79072],[-1.1216,50.79064],[-1.12153,50.7906],[-1.12158,50.79056],[-1.12175,50.79071],[-1.12162,50.79072]] ]}}
+]
+}

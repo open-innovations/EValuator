@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"4364788690","name":"ADI Global Distribution","other":{"office":"yes","addr:city":"Gateshead","addr:street":"Stadium Road"}}, "geometry":{"type":"Point","coordinates":[-1.58281,54.96134 ]}},
+{ "type":"Feature","properties":{"osm_id":"4409386495","name":"Bondgate Electrical Distribution","other":{"shop":"yes","addr:city":"Gateshead","addr:street":"Mayoral Way"}}, "geometry":{"type":"Point","coordinates":[-1.61765,54.92596 ]}}
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"5638647366","name":"Receipts and Distribution","other":{"office":"logistics"}}, "geometry":{"type":"Point","coordinates":[-0.096,51.4673 ]}}
+]
+}

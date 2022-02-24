@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"2050601547","name":"Rase Distribution","other":{"office":"haulage"}}, "geometry":{"type":"Point","coordinates":[-0.30401,53.20444 ]}}
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"201444209","name":"Claygate Distribution","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ 0.49166,51.17879],[0.49199,51.17834],[0.49186,51.1783],[0.49243,51.17752],[0.49175,51.17733],[0.49085,51.17856],[0.49166,51.17879]] ]}}
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"556709225","name":"Western Power Distribution","craft":"electrician","other":{"fhrs:id":"95422","addr:city":"Taunton","addr:street":"Venture Way","addr:country":"GB","addr:postcode":"TA2 8DE"}}, "geometry":{"type":"Polygon","coordinates":[[[ -3.0839,51.02547],[-3.08567,51.02515],[-3.0861,51.02632],[-3.08543,51.02671],[-3.08494,51.02701],[-3.08433,51.02659],[-3.08423,51.02664],[-3.08412,51.02669],[-3.0838,51.02686],[-3.08286,51.02744],[-3.08265,51.02696],[-3.08233,51.02571],[-3.0839,51.02547]] ]}}
+]
+}

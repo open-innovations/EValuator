@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"93166522","name":"Perspex Distribution","building":"warehouse","other":{"email":"sales.chelmsford@perspex.co.uk","phone":"+44 1245 232800","website":"https:\/\/www.perspex.co.uk\/","addr:city":"Chelmsford","addr:street":"Lonebarn Link","addr:country":"GB","addr:postcode":"CM2 5AR","addr:housename":"Springfield Business Park","addr:housenumber":"2-3"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.51413,51.74559],[0.51454,51.74558],[0.51453,51.745],[0.5141,51.74501],[0.51413,51.74559]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"328373603","name":"Currys Distribution","building":"industrial","other":{"addr:city":"Chelmsford","addr:housenumber":"18","addr:street":"Baynes Place"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.45691,51.7306],[0.45714,51.73087],[0.45745,51.73077],[0.45722,51.7305],[0.45691,51.7306]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"1025368803","name":"Cadmus Distribution Group Limited (CDGL)","office":"company","other":{"addr:city":"Chelmsford","addr:housenumber":"5","addr:postcode":"CM2 6UN","addr:street":"Suffolk Drive","building:part":"yes","phone":"+44 330 088 0595","website":"https:\/\/cdgl.co.uk\/"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.50747,51.74247],[0.50786,51.7424],[0.50776,51.74219],[0.50742,51.74225],[0.50744,51.7423],[0.5074,51.74231],[0.50747,51.74247]] ]}}
+]
+}

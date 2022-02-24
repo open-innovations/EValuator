@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"3695179389","name":"S&J Distribution","other":{"phone":"+44 1756 796300","website":"www.sjdistribution.co.uk","building":"warehouse","addr:city":"Skipton","addr:street":"Ghyll Way","addr:postcode":"BD23 2TZ","addr:housenumber":"7"}}, "geometry":{"type":"Point","coordinates":[-2.01583,53.94138 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"366080582","name":"Whitakers Chocolates Distribution Centre","building":"commercial","other":{"phone":"+44 1756 791317","website":"https:\/\/www.whitakerschocolates.com\/","addr:city":"Skipton","addr:street":"Snaygill Industrial Estate","addr:postcode":"BD23 2QR"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.01555,53.94447],[-2.01634,53.94418],[-2.01669,53.94452],[-2.0159,53.9448],[-2.01555,53.94447]] ]}}
+]
+}

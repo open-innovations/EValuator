@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"459162632","name":"ExaClair Limited (Distribution Centre)","building":"warehouse","other":{"addr:city":"King's Lynn","addr:country":"GB","addr:housename":"Warehouse","addr:postcode":"PE30 4LS","addr:street":"Rollesby Road","operator":"ExaClair Limited","website":"http:\/\/www.exaclair.co.uk"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.42056,52.74842],[0.42118,52.74823],[0.42063,52.74756],[0.42061,52.74756],[0.42057,52.74751],[0.42039,52.74756],[0.42043,52.74761],[0.42005,52.74773],[0.42018,52.74787],[0.42012,52.74789],[0.42056,52.74842]] ]}}
+]
+}

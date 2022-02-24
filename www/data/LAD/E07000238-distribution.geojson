@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"234882037","name":"Harrison Distribution Hub","building":"commercial","other":{"addr:housenumber":"Unit 420","addr:postcode":"WR11 1JH","addr:street":"Bramley Drive","phone":"+441451830083","website":"http:\/\/www.harrisonproducts.net\/"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.93879,52.07361],[-1.93801,52.07361],[-1.93801,52.07324],[-1.93809,52.07324],[-1.93854,52.07324],[-1.93879,52.07324],[-1.93879,52.07361]] ]}}
+]
+}

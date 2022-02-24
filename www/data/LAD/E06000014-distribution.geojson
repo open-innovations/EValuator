@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"5536588522","name":"Rosti Automotive Dunnington Distribution Centre","other":{"office":"company","website":"http:\/\/RostiAutomotive.com","addr:street":"Stamford Bridge Road","addr:postcode":"YO19 5LN","opening_hours":"Mo-Th 08:00-17:00; Fr 08:00-16:00"}}, "geometry":{"type":"Point","coordinates":[-1.00237,53.96237 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"162941703","name":"Menzies Distribution","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -1.09871,53.98741],[-1.09965,53.98695],[-1.09996,53.98716],[-1.09901,53.98762],[-1.09871,53.98741]] ]}}
+]
+}

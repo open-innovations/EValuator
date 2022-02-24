@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"8510267843","name":"Warming Up The Homeless Distribution Centre","other":{"addr:city":"Bexhill-on-Sea","addr:place":"8-12 Wickham Avenue","addr:postcode":"TN39 3EN","amenity":"social_facility","contact:email":"info@warmingupthehomeless.org.uk","contact:facebook":"https:\/\/www.facebook.com\/wuthofficial\/","contact:phone":"+44 7367 060708","contact:website":"https:\/\/wuth.org\/","fhrs:id":"1297196","level":"0","opening_hours":"Mo-Fr 09:00-15:00","ref:GB:uprn":"10093333073","ref:charity":"1180417","social_facility":"outreach","social_facility:for":"homeless"}}, "geometry":{"type":"Point","coordinates":[0.46899,50.84003 ]}}
+]
+}

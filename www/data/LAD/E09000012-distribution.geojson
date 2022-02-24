@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"454553582","name":"The Five Points Brewing Co Warehouse & Distribution","building":"yes","other":{"addr:city":"London","addr:housenumber":"61","addr:postcode":"E8 4RG","addr:street":"Mare Street","building:colour":"light_brown","building:levels":"2","building:material":"brick","fhrs:id":"912262","roof:colour":"grey"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.05729,51.53618],[-0.05766,51.53618],[-0.05785,51.53619],[-0.05784,51.53628],[-0.05774,51.53628],[-0.05773,51.53646],[-0.05744,51.53646],[-0.05741,51.53646],[-0.05728,51.53637],[-0.05729,51.53618]] ]}}
+]
+}

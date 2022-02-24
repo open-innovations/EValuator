@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"408420671","name":"Complete Warehousing & Distribution","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -1.17304,52.57799],[-1.17235,52.57817],[-1.17178,52.57733],[-1.17247,52.57716],[-1.17304,52.57799]] ]}}
+]
+}

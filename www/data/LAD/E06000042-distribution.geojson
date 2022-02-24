@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"101853562","name":"Tesco Distribution Centre (Closed)","building":"warehouse","other":{"disused":"yes","fhrs:id":"132097","addr:city":"Milton Keynes","addr:street":"Bletcham Way V7 To A5","addr:country":"GB","addr:postcode":"MK1 1QA","fhrs:authority":"Milton Keynes","fhrs:local_authority_id":"63775"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.71471,52.00508],[-0.71295,52.00542],[-0.71235,52.00421],[-0.71207,52.00427],[-0.71194,52.00398],[-0.71223,52.00393],[-0.7116,52.00266],[-0.71133,52.00272],[-0.71122,52.00252],[-0.7115,52.00247],[-0.7113,52.00204],[-0.71284,52.00175],[-0.7128,52.00166],[-0.71303,52.00161],[-0.71404,52.00368],[-0.71431,52.00363],[-0.71441,52.00383],[-0.71414,52.00389],[-0.71455,52.00473],[-0.71501,52.00463],[-0.71503,52.00471],[-0.71518,52.00468],[-0.71529,52.00489],[-0.71468,52.00502],[-0.71471,52.00508]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"169143483","name":"Waitrose Regional Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -0.68742,52.03299],[-0.68598,52.03291],[-0.68608,52.03234],[-0.68528,52.03229],[-0.6853,52.03215],[-0.68611,52.0322],[-0.68648,52.03008],[-0.68787,52.03017],[-0.68742,52.03299]] ]}}
+]
+}

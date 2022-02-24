@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1002146027","name":"New Banbury Rd Primary Distribution 11kV","z_order": 0, "other":{"power":"substation"}}, "geometry":{"type":"LineString","coordinates":[[-1.56532,52.25757],[-1.5656,52.25738],[-1.5651,52.25711],[-1.56482,52.25729],[-1.56508,52.25744],[-1.56532,52.25757]]}},
+{ "type":"Feature","properties":{"osm_way_id":"327123635","name":"Power Jointing & Distribution Services","building":"industrial","other":{"addr:street":"Harriott Drive","addr:postcode":"CV34 6TJ","addr:housenumber":"12"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.55161,52.27172],[-1.55121,52.2717],[-1.55123,52.2716],[-1.55162,52.27162],[-1.55161,52.27172]] ]}}
+]
+}

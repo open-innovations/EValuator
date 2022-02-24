@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"40198042","name":"Western Power Distribution: Nottingham Depot","building":"industrial","other":{"addr:street":"Harrimans Lane"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.18295,52.93255],[-1.18342,52.93278],[-1.18288,52.93318],[-1.18238,52.93294],[-1.18288,52.93256],[-1.18295,52.93255]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"220442838","name":"Great Bear Distribution","building":"warehouse","other":{"addr:city":"Nottingham","addr:housenumber":"4","addr:postcode":"NG6 8UZ","addr:street":"Freeston Drive","old_fhrs:id":"931440","old_name":"The Co-operative Food Nottingham Distribution Centre","source:addr:postcode":"NCC Open Data planning","source:name":"survey"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.21479,53.00838],[-1.21524,53.00854],[-1.21587,53.00876],[-1.21668,53.00905],[-1.2158,53.00994],[-1.2132,53.00901],[-1.21329,53.00892],[-1.21351,53.009],[-1.2138,53.0087],[-1.214,53.00877],[-1.21406,53.00871],[-1.21436,53.00882],[-1.21479,53.00838]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"659563755","name":"Imperial Tobacco Distribution Warehouse","landuse":"industrial","other":{"industry":"tobacco","operator":"Imperial Tobacco","addr:street":"Bull Close Road","source:addr":"NCC Open Data planning","addr:postcode":"NG7 2UL"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.17417,52.93009],[-1.17507,52.92995],[-1.17771,52.92933],[-1.17791,52.92976],[-1.178,52.93027],[-1.17836,52.93109],[-1.17873,52.93168],[-1.17734,52.93215],[-1.1755,52.93276],[-1.17541,52.93274],[-1.17508,52.93231],[-1.17494,52.93196],[-1.17479,52.93133],[-1.17461,52.93088],[-1.1745,52.93064],[-1.17417,52.93009]] ]}}
+]
+}

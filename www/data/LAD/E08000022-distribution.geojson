@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"4695686031","name":"Bondgate Electrical Distribution Ltd.","other":{"office":"yes","addr:city":"North Shields","addr:street":"Hamar Close"}}, "geometry":{"type":"Point","coordinates":[-1.48287,55.00445 ]}}
+]
+}

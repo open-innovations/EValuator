@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"519662755","ref":"TR21 17","other":{"amenity":"post_box"}}, "geometry":{"type":"Point","coordinates":[-6.2932,49.9262 ]}},
+{ "type":"Feature","properties":{"osm_id":"3475246070","name":"Co-op Food","other":{"addr:city":"Hugh Town","addr:housenumber":"4","addr:postcode":"TR21 0LL","addr:street":"Hugh Street","brand":"Co-op Food","brand:wikidata":"Q3277439","brand:wikipedia":"en:Co-op Food","opening_hours":"Mo-Sa 08:00-22:00; Su 10:00-16:00","operator":"The Co-operative Group","shop":"supermarket"}}, "geometry":{"type":"Point","coordinates":[-6.31671,49.91498 ]}},
+{ "type":"Feature","properties":{"osm_id":"3577069494","name":"Tresco Stores and Deli","other":{"shop":"supermarket"}}, "geometry":{"type":"Point","coordinates":[-6.33754,49.95333 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"232838230","name":"The Store","building":"yes","shop":"supermarket"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-6.30766,49.91664],[-6.30758,49.91659],[-6.30756,49.9166],[-6.30755,49.9166],[-6.30754,49.9166],[-6.30736,49.91648],[-6.30738,49.91647],[-6.30736,49.91646],[-6.30742,49.91642],[-6.30744,49.91643],[-6.30752,49.91638],[-6.3077,49.91649],[-6.30768,49.91651],[-6.30771,49.91653],[-6.30772,49.91653],[-6.30778,49.91657],[-6.30766,49.91664]]]]}}
+]
+}

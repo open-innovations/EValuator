@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"60693771","name":"Menzies Distribution","building":"yes","other":{"source:name":"survey (seen from motorway)"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.64915,53.78271],[-2.64857,53.78284],[-2.64803,53.78201],[-2.6486,53.78188],[-2.64915,53.78271]] ]}}
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"161913833","name":"Lakeland Ltd Distribution Centre","building":"industrial","other":{"fhrs:id":"299414","website":"https:\/\/www.lakeland.co.uk\/","addr:city":"Kendal","addr:street":"Gilthwaiterigg Lane","addr:postcode":"LA9 6NW"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.74048,54.34846],[-2.7399,54.34841],[-2.74014,54.34751],[-2.73984,54.34749],[-2.74024,54.346],[-2.7409,54.34607],[-2.74089,54.34609],[-2.74107,54.34611],[-2.74104,54.34619],[-2.74114,54.3462],[-2.74102,54.34654],[-2.74155,54.34659],[-2.74151,54.34672],[-2.74199,54.34677],[-2.74186,54.34721],[-2.74136,54.34717],[-2.74133,54.34729],[-2.74158,54.34732],[-2.74144,54.34775],[-2.74071,54.34767],[-2.74048,54.34846]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"354488592","name":"Menzies Distribution","building":"commercial","other":{"phone":"+44 1539 734511","addr:city":"Kendal","addr:street":"Gilthwaiterigg Lane","addr:postcode":"LA9 6NS","addr:housenumber":"Unit 2"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.74011,54.34588],[-2.74009,54.3457],[-2.74062,54.34568],[-2.74064,54.34586],[-2.74011,54.34588]] ]}}
+]
+}

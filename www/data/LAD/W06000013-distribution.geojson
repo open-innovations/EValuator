@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"8623669716","name":"Lidl Distribution Centre","other":{"addr:city":"Bridgend","addr:country":"GB","addr:place":"Waterton Industrial Estate","addr:postcode":"CF31 3PH","brand":"Lidl","brand:wikidata":"Q151954","brand:wikipedia":"en:Lidl","fhrs:id":"1008799","office":"company"}}, "geometry":{"type":"Point","coordinates":[-3.5484,51.49138 ]}}
+]
+}

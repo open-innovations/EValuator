@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"4509245118","name":"City AM Distribution point"},"geometry":{"type":"Point","coordinates":[0.09316,51.6039 ]}}
+]
+}

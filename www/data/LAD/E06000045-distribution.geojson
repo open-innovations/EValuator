@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"386611184","name":"Lidl Distribution Centre","building":"warehouse","office":"company","other":{"addr:city":"Nursling","addr:country":"GB","addr:housename":"Foxes Park","addr:postcode":"SO16 0AW","addr:street":"Brownhill Way","brand":"Lidl","brand:wikidata":"Q151954","brand:wikipedia":"en:Lidl","fhrs:id":"928300"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.47026,50.93159],[-1.4708,50.93019],[-1.47182,50.93034],[-1.47156,50.93162],[-1.47026,50.93159]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"571077191","name":"John Lewis Distribution Centre (Unit 3)","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -1.47287,50.92522],[-1.47268,50.92521],[-1.47137,50.92517],[-1.47138,50.92505],[-1.4714,50.92477],[-1.47288,50.92482],[-1.4729,50.92482],[-1.47287,50.92522]] ]}}
+]
+}

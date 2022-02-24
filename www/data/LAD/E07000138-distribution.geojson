@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"238053652","name":"Omlet Distribution Centre","building":"commercial","other":{"addr:city":"Lincoln","addr:street":"Whisby Road","addr:postcode":"LN6 3QT"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.59612,53.20251],[-0.59649,53.20286],[-0.59608,53.20301],[-0.59589,53.20283],[-0.59568,53.2029],[-0.59533,53.20257],[-0.59573,53.20241],[-0.59612,53.20251]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"324799047","name":"Western Power Distribution","building":"commercial"},"geometry":{"type":"Polygon","coordinates":[[[ -0.51403,53.2376],[-0.51386,53.23659],[-0.51494,53.23652],[-0.51501,53.23711],[-0.51433,53.23715],[-0.51439,53.23758],[-0.51403,53.2376]] ]}}
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"112156995","name":"Tesco Distribution Centre","landuse":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -0.9803,51.41568],[-0.98151,51.41607],[-0.98438,51.41722],[-0.98459,51.41773],[-0.98333,51.41845],[-0.98306,51.41871],[-0.98194,51.41814],[-0.981,51.41721],[-0.9803,51.41568]] ]}}
+]
+}

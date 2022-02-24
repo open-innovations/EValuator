@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"200033833","name":"B&M Distribution Centre","building":"yes","other":{"name:en":"B&M Distribution Centre","addr:street":"Pochin Way","addr:postcode":"CW10 0GY"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.42918,53.19007],[-2.42762,53.19079],[-2.42516,53.18886],[-2.42671,53.18815],[-2.42879,53.18978],[-2.42926,53.18956],[-2.42949,53.18975],[-2.42904,53.18995],[-2.42918,53.19007]] ]}}
+]
+}

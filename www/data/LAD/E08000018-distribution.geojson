@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"114435379","name":"Stelrad Ideal Distribution Centre","building":"yes","other":{"addr:street":"Rowms Lane","addr:postcode":"S64 8AE"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.29959,53.4914],[-1.29952,53.49149],[-1.29973,53.49155],[-1.29954,53.49182],[-1.29935,53.49178],[-1.2991,53.49213],[-1.29932,53.49219],[-1.29911,53.4925],[-1.29892,53.49245],[-1.29888,53.4925],[-1.29726,53.4921],[-1.29802,53.49101],[-1.29959,53.4914]] ]}}
+]
+}

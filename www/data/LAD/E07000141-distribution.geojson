@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"194155014","name":"Downtown Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -0.67979,52.94611],[-0.67897,52.94591],[-0.67941,52.94525],[-0.68023,52.94545],[-0.67979,52.94611]] ]}}
+]
+}

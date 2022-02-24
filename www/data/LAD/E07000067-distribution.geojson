@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"376986599","name":"AJW Distribution","building":"commercial","other":{"phone":"+44 1376 511 005","addr:city":"Witham","addr:street":"Eastways","addr:postcode":"CM8 3YQ","addr:housename":"Unit F"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.65144,51.80914],[0.65171,51.80901],[0.65132,51.80871],[0.65105,51.80884],[0.65144,51.80914]] ]}}
+]
+}

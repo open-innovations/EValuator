@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"183157116","name":"Tesco Distribution Centre","building":"warehouse","other":{"height":"4"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.16796,51.52144],[0.1636,51.52204],[0.16401,51.52315],[0.16569,51.52291],[0.16574,51.52307],[0.16633,51.52299],[0.16635,51.52306],[0.16668,51.52301],[0.1666,51.52279],[0.16834,51.52254],[0.16796,51.52144]] ]}}
+]
+}

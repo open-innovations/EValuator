@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"6732230732","name":"Wolseley Distribution Centre","highway":"bus_stop","other":{"bus":"yes","naptan:AtcoCode":"2500LAA16465","naptan:verified":"no","naptan:Indicator":"opp","public_transport":"platform","naptan:CommonName":"Wolseley Distribution Centre","naptan:NaptanCode":"lanpajwj"}}, "geometry":{"type":"Point","coordinates":[-2.65091,53.67427 ]}},
+{ "type":"Feature","properties":{"osm_id":"6732230733","name":"Wolseley Distribution Centre","highway":"bus_stop","other":{"bus":"yes","naptan:AtcoCode":"2500LAA16464","naptan:verified":"no","naptan:Indicator":"by","public_transport":"platform","naptan:CommonName":"Wolseley Distribution Centre","naptan:NaptanCode":"lanpajwg"}}, "geometry":{"type":"Point","coordinates":[-2.65094,53.67413 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"314274805","name":"ParcelForce Distribution Depot","building":"commercial"},"geometry":{"type":"Polygon","coordinates":[[[ -2.64746,53.6751],[-2.64593,53.67439],[-2.64613,53.67424],[-2.64609,53.67422],[-2.64638,53.674],[-2.64797,53.67473],[-2.64746,53.6751]] ]}}
+]
+}

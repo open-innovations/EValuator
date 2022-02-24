@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"181252263","name":"Fuller's Distribution Centre","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -0.99641,50.90747],[-0.99631,50.90747],[-0.99631,50.9075],[-0.99584,50.90752],[-0.99584,50.90749],[-0.99574,50.9075],[-0.99573,50.90745],[-0.99563,50.90746],[-0.99561,50.90722],[-0.99638,50.90719],[-0.99641,50.90747]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"792324599","name":"Natural Gas Distribution Plant","building":"industrial","other":{"operator":"Southern Gas Networks","substation":"distribution","addr:street":"Redhill Road","building:levels":"1"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.96244,50.89023],[-0.96239,50.89027],[-0.96234,50.89024],[-0.96239,50.8902],[-0.96244,50.89023]] ]}}
+]
+}

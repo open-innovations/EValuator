@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"90146132","name":"Royal Mail Distribution Centre","building":"yes","other":{"was:amenity":"post_office"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.72808,52.67047],[-0.72808,52.67047],[-0.72799,52.67056],[-0.72793,52.67054],[-0.72791,52.67056],[-0.72773,52.6705],[-0.7278,52.67042],[-0.72773,52.6704],[-0.72777,52.67036],[-0.72808,52.67047]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"259213202","name":"Lands' End Outlet Shop and Distribution Centre","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -0.73439,52.68105],[-0.7324,52.68062],[-0.73296,52.67967],[-0.73468,52.68004],[-0.73473,52.67996],[-0.73528,52.68008],[-0.73514,52.68032],[-0.73485,52.68026],[-0.73439,52.68105]] ]}}
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"161897876","name":"Menzies Distribution","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ 1.37223,52.63182],[1.37226,52.63215],[1.3725,52.63214],[1.3725,52.63221],[1.37336,52.63218],[1.37332,52.63178],[1.37223,52.63182]] ]}}
+]
+}

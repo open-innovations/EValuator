@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"546931076","name":"Glasswells Storage & Distribution","building":"industrial","other":{"addr:postcode":"IP32 7GL"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.75023,52.24047],[0.75074,52.24046],[0.75073,52.24028],[0.7507,52.23947],[0.75007,52.23948],[0.75008,52.23974],[0.7502,52.23973],[0.75023,52.24047]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"546931077","name":"Glasswells Storage & Distribution","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ 0.75073,52.24028],[0.75124,52.24027],[0.75121,52.23946],[0.7507,52.23947],[0.75073,52.24028]] ]}}
+]
+}

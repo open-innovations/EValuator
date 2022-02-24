@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1968536131","name":"Browns Chilled Distribution Limited","other":{"building":"warehouse","addr:postcode":"PE20 3AN","addr:housename":"Bar Farm"}}, "geometry":{"type":"Point","coordinates":[-0.15655,52.92856 ]}}
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"70394861","name":"Great Bear Distribution","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -1.40163,53.40129],[-1.40602,53.40295],[-1.40519,53.40372],[-1.40087,53.40211],[-1.40163,53.40129]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"110565484","name":"Insight UK Distribution Centre","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -1.41212,53.39894],[-1.41139,53.39913],[-1.41143,53.39919],[-1.4113,53.39922],[-1.41102,53.39885],[-1.41109,53.39883],[-1.4108,53.39845],[-1.41159,53.39824],[-1.41212,53.39894]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"119969131","name":"Shepherd Distribution Services","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -1.41188,53.35182],[-1.41176,53.3518],[-1.41174,53.35181],[-1.41159,53.35178],[-1.4116,53.35176],[-1.41154,53.35175],[-1.4118,53.35123],[-1.41184,53.35124],[-1.41186,53.35121],[-1.41192,53.35122],[-1.41193,53.3512],[-1.41211,53.35123],[-1.41209,53.35126],[-1.41214,53.35127],[-1.41212,53.3513],[-1.41216,53.35131],[-1.41188,53.35182]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"122597425","name":"Red Arrow Electrical Distribution","building":"yes","shop":"electrical"},"geometry":{"type":"Polygon","coordinates":[[[ -1.49458,53.41213],[-1.49413,53.41222],[-1.4941,53.41217],[-1.49366,53.41226],[-1.49347,53.41192],[-1.49436,53.41174],[-1.49458,53.41213]] ]}}
+]
+}

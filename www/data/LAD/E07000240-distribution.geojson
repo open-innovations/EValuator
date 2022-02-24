@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"317836803","name":"NFT Distribution","landuse":"commercial"},"geometry":{"type":"Polygon","coordinates":[[[ -0.28958,51.72352],[-0.28783,51.722],[-0.2883,51.72179],[-0.28987,51.7211],[-0.29024,51.7214],[-0.29085,51.72114],[-0.29152,51.72172],[-0.2901,51.72234],[-0.29082,51.72297],[-0.28958,51.72352]] ]}}
+]
+}

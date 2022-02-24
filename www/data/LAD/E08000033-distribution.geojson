@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"907306318","name":"GWD Convenience Distribution Ltd","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -1.88961,53.70674],[-1.88923,53.70704],[-1.88868,53.70679],[-1.88906,53.70649],[-1.88961,53.70674]] ]}}
+]
+}

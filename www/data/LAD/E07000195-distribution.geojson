@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"68248064","name":"Foster Grant International Distribution Centre","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -2.21746,53.04166],[-2.21772,53.04189],[-2.21762,53.04193],[-2.21794,53.04222],[-2.21804,53.04218],[-2.2185,53.04259],[-2.21841,53.04263],[-2.21854,53.04275],[-2.21835,53.04282],[-2.21718,53.04177],[-2.21746,53.04166]] ]}}
+]
+}

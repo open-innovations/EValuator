@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"46034799","name":"Sainsburys Greenford Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -0.3463,51.54817],[-0.34912,51.54773],[-0.34953,51.54875],[-0.34706,51.54914],[-0.34681,51.54855],[-0.34645,51.54862],[-0.34635,51.54836],[-0.34637,51.54836],[-0.3463,51.54817]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"324865234","name":"Easigrass Distribution Ltd","landuse":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -0.37391,51.50744],[-0.37361,51.50747],[-0.37184,51.50768],[-0.37143,51.50755],[-0.36995,51.50744],[-0.37362,51.50695],[-0.37369,51.50695],[-0.37385,51.50697],[-0.37391,51.50744]] ]}}
+]
+}

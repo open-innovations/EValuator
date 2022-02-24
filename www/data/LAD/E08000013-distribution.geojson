@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"32199581","name":"Sainsbury's Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -2.65616,53.47649],[-2.65207,53.47828],[-2.65226,53.47843],[-2.65134,53.47882],[-2.65117,53.47867],[-2.6498,53.47927],[-2.649,53.4786],[-2.65533,53.47583],[-2.65616,53.47649]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"32199888","name":"Booker Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -2.65901,53.47857],[-2.65906,53.47943],[-2.65712,53.47947],[-2.65713,53.47963],[-2.65487,53.47968],[-2.65486,53.47951],[-2.65361,53.47954],[-2.65355,53.47869],[-2.65901,53.47857]] ]}}
+]
+}

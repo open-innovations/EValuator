@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"21148187","name":"B&M Distribution Centre","building":"warehouse","other":{"addr:city":"Runcorn","addr:county":"Cheshire","addr:housename":"B&M Distribution Centre","addr:postcode":"WA7 1SE","addr:street":"Blackheath lane","building:levels":"1","fhrs:id":"893608"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.65353,53.35523],[-2.65165,53.35581],[-2.65164,53.3558],[-2.65161,53.35581],[-2.65084,53.35492],[-2.65066,53.35498],[-2.65058,53.35488],[-2.65076,53.35482],[-2.65064,53.35468],[-2.65045,53.35473],[-2.6502,53.35444],[-2.65041,53.35438],[-2.65016,53.35408],[-2.65204,53.3535],[-2.65205,53.35352],[-2.65225,53.35345],[-2.6525,53.35374],[-2.65229,53.35381],[-2.65353,53.35523]] ]}}
+]
+}

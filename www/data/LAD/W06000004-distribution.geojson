@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"6152458880","name":"St Kentigern Distribution Shop","other":{"addr:city":"Rhyl","addr:place":"Bodelwyddan","addr:postcode":"LL18 5SS","addr:street":"Abergele Road","operator":"St Kentigern Hospice","shop":"charity","website":"http:\/\/www.stkentigernhospice.org.uk\/shops\/distribution-shop\/"}}, "geometry":{"type":"Point","coordinates":[-3.50681,53.26841 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"158241244","name":"Menzies Distribution","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -3.50655,53.26341],[-3.50646,53.26357],[-3.50631,53.26354],[-3.50631,53.26355],[-3.5061,53.26351],[-3.50611,53.26349],[-3.50589,53.26344],[-3.50593,53.26338],[-3.50589,53.26337],[-3.50593,53.26331],[-3.50597,53.26332],[-3.50598,53.26329],[-3.50655,53.26341]] ]}}
+]
+}

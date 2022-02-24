@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"4561866802","name":"NBS Distribution","other":{"office":"yes","addr:city":"Newcastle Upon Tyne","addr:street":"Invincible Drive"}}, "geometry":{"type":"Point","coordinates":[-1.63802,54.96157 ]}},
+{ "type":"Feature","properties":{"osm_id":"4625628641","name":"Brown Brothers Distribution","other":{"shop":"yes","addr:city":"Newcastle Upon Tyne","addr:street":"Brough Park Way"}}, "geometry":{"type":"Point","coordinates":[-1.56699,54.97907 ]}}
+]
+}

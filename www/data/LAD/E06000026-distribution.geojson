@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"40188919","name":"SIG Distribution","building":"yes","shop":"trade","other":{"trade":"building_supplies"}}, "geometry":{"type":"Polygon","coordinates":[[[ -4.08741,50.39777],[-4.08675,50.39762],[-4.08703,50.39711],[-4.0873,50.39717],[-4.08733,50.39713],[-4.08748,50.39716],[-4.08745,50.39721],[-4.08769,50.39727],[-4.08741,50.39777]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"499015039","name":"Eriks Industrial Distribution","building":"warehouse","other":{"website":"https:\/\/www.eriks.co.uk\/","addr:city":"Plymouth","addr:street":"Sisna Park Road","addr:housenumber":"28"}}, "geometry":{"type":"Polygon","coordinates":[[[ -4.09153,50.42231],[-4.09166,50.42239],[-4.09155,50.42247],[-4.09141,50.4224],[-4.09153,50.42231]] ]}}
+]
+}

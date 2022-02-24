@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"257066263","z_order": 0 }, "geometry":{"type":"LineString","coordinates":[[1.28882,52.67062],[1.28864,52.67064],[1.28861,52.67047],[1.28879,52.67046]]}},
+{ "type":"Feature","properties":{"osm_id":"257476982","z_order": 0 }, "geometry":{"type":"LineString","coordinates":[[1.28879,52.67046],[1.28897,52.67044],[1.289,52.67061],[1.28882,52.67062]]}},
+{ "type":"Feature","properties":{"osm_id":"3445715","name":"CaterLink Distribution","type":"multipolygon","building":"warehouse","other":{"fax":"+44 1603 406060","email":"sales@caterlinkuk.net","phone":"+44 1603 253530","website":"http:\/\/www.caterlinkuk.net\/","opening_hours":"Mo-Fr 9:00-17:00; Sa 11:00-15:00"}}, "geometry":{"type":"Polygon","coordinates":[[[ 1.28882,52.67062],[1.289,52.67061],[1.28897,52.67044],[1.28879,52.67046],[1.28861,52.67047],[1.28864,52.67064],[1.28882,52.67062]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"116106250","building":"yes","other":{"fax":"+44 1603 409551","phone":"+44 1603 789696","addr:city":"Norwich","addr:street":"Telford Close","addr:country":"GB","addr:postcode":"NR3 2BN","addr:housename":"Unit 17","addr:housenumber":"17"}}, "geometry":{"type":"Polygon","coordinates":[[[ 1.2642,52.64565],[1.2642,52.64572],[1.26443,52.64573],[1.26443,52.64565],[1.26432,52.64565],[1.2642,52.64565]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"188868431","name":"EF Distribution Ltd","building":"unit","other":{"phone":"+44 1603 488689","website":"http:\/\/www.efdistribution.co.uk\/","addr:city":"Norwich","addr:street":"Hornet Court","addr:country":"GB","addr:postcode":"NR6 6HJ","addr:housenumber":"2"}}, "geometry":{"type":"Polygon","coordinates":[[[ 1.29023,52.67016],[1.29025,52.67026],[1.29025,52.67028],[1.29058,52.67025],[1.29055,52.67014],[1.29023,52.67016]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"360602237","building":"yes","other":{"addr:city":"Norwich","addr:street":"Telford Close","addr:country":"GB","addr:postcode":"NR3 2BN","addr:housename":"Unit 18","addr:housenumber":"18"}}, "geometry":{"type":"Polygon","coordinates":[[[ 1.26443,52.64573],[1.2642,52.64572],[1.2642,52.6458],[1.26443,52.6458],[1.26443,52.64573]] ]}}
+]
+}

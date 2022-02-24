@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"685937321","name":"Morrisons Distribution Warehouse","other":{"building":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.72217,53.77589 ]}},
+{ "type":"Feature","properties":{"osm_id":"685937674","name":"Co-op Food Distribution Centre","other":{"building":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.71827,53.77836 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"51943312","name":"Marks & Spencer Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -1.74679,53.76735],[-1.74649,53.76743],[-1.74617,53.76698],[-1.74376,53.76756],[-1.74065,53.76332],[-1.74251,53.76284],[-1.74243,53.76267],[-1.743,53.76252],[-1.74611,53.76683],[-1.74636,53.76678],[-1.74679,53.76735]] ]}}
+]
+}

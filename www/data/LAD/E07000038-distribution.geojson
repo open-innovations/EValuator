@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"3761699173","name":"Perrys Parts Distribution","other":{"office":"company"}}, "geometry":{"type":"Point","coordinates":[-1.36163,53.19221 ]}}
+]
+}

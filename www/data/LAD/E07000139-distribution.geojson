@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"238053652","name":"Omlet Distribution Centre","building":"commercial","other":{"addr:city":"Lincoln","addr:street":"Whisby Road","addr:postcode":"LN6 3QT"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.59573,53.20241],[-0.59588,53.20236],[-0.59593,53.20241],[-0.59599,53.20239],[-0.59612,53.20251],[-0.59573,53.20241]] ]}}
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"181399689","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -0.1015,51.59865],[-0.10147,51.59859],[-0.10157,51.59857],[-0.1016,51.59862],[-0.1015,51.59865]] ]}}
+]
+}

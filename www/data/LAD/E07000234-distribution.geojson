@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"54611507","name":"GB Courrier & Distribution Services","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -2.05859,52.31943],[-2.05855,52.31951],[-2.05841,52.31948],[-2.05845,52.3194],[-2.05859,52.31943]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"343578294","name":"TTM Distribution","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -2.05913,52.32046],[-2.05901,52.32067],[-2.0588,52.32063],[-2.05889,52.32047],[-2.05899,52.32049],[-2.05902,52.32043],[-2.05913,52.32046]] ]}}
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"8492059316","name":"Defence Storage and Distribution Centre","other":{"railway":"yard"}}, "geometry":{"type":"Point","coordinates":[-2.10249,52.00286 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"30636271","name":"Wincanton National Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -2.17173,51.84348],[-2.17162,51.84348],[-2.17163,51.84375],[-2.17174,51.84375],[-2.17174,51.84385],[-2.16946,51.84385],[-2.16945,51.84364],[-2.16943,51.84245],[-2.16968,51.84245],[-2.16969,51.8426],[-2.17117,51.8426],[-2.17117,51.8425],[-2.17171,51.8425],[-2.17173,51.84348]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"30636362","name":"GlaxoSmithKline Distribution Centre","building":"commercial","other":{"operator":"Wincanton"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.16911,51.84079],[-2.16838,51.84213],[-2.16855,51.84217],[-2.16847,51.84231],[-2.16641,51.84187],[-2.16722,51.8404],[-2.16911,51.84079]] ]}}
+]
+}

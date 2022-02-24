@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"3787820583","name":"Global Distribution","other":{"office":"yes","website":"https:\/\/www.globaldistribution.com\/","addr:city":"Cambridge","addr:full":"Kings Court, Kirkwood Road","addr:street":"Kirkwood Road","addr:postcode":"CB4 2PH","addr:housenumber":"7"}}, "geometry":{"type":"Point","coordinates":[0.13581,52.23228 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"168984046","name":"Bennettt's Automotive Distribution","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ 0.17437,52.19599],[0.17478,52.19583],[0.17469,52.19574],[0.17428,52.19589],[0.17437,52.19599]] ]}}
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"125674881","name":"DLP Distribution","building":"yes","other":{"addr:housename":"Block 4","addr:postcode":"CO11 1UN","addr:unit":"b","website":"www.dlpdistribution.co.uk"}}, "geometry":{"type":"Polygon","coordinates":[[[ 1.05656,51.94883],[1.05664,51.94891],[1.05684,51.94883],[1.05676,51.94875],[1.05656,51.94883]] ]}}
+]
+}

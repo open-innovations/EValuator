@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"502539045","name":"Distribution Depot","highway":"bus_stop","other":{"bench":"no","bin":"no","bus":"yes","naptan:AtcoCode":"210021302810","naptan:Bearing":"NW","naptan:CommonName":"Distribution Depot","naptan:Crossing":"Sainsbury's Depot","naptan:Indicator":"opp","naptan:Landmark":"Sainsbury's Depot","naptan:NaptanCode":"hrtdtpmg","naptan:ShortCommonName":"NA","naptan:Street":"London Road","naptan:verified":"no","public_transport":"platform","shelter":"no"}}, "geometry":{"type":"Point","coordinates":[-0.01199,51.93769 ]}},
+{ "type":"Feature","properties":{"osm_id":"502540844","name":"Distribution Depot","highway":"bus_stop","other":{"bench":"no","bin":"no","bus":"yes","naptan:AtcoCode":"210021309920","naptan:Bearing":"SE","naptan:CommonName":"Distribution Depot","naptan:Crossing":"Sainsbury's Depot","naptan:Indicator":"adj","naptan:Landmark":"Sainsbury's Depot","naptan:NaptanCode":"hrtdpgmj","naptan:ShortCommonName":"NA","naptan:Street":"London Road","naptan:verified":"no","public_transport":"platform","shelter":"no"}}, "geometry":{"type":"Point","coordinates":[-0.01144,51.93724 ]}}
+]
+}

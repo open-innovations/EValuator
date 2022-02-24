@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"9014371334","name":"Five Star Food Distribution","other":{"addr:city":"London","addr:housename":"Uplands Business Park","addr:postcode":"E17 5QJ","addr:street":"Blackhorse Lane","addr:unit":"Unit 2B-1","craft":"caterer"}}, "geometry":{"type":"Point","coordinates":[-0.04315,51.59296 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"377090013","name":"The Leaflet Distribution Centre","building":"retail","shop":"yes","other":{"addr:city":"Walthamstow","addr:street":"Palmerston Road","addr:country":"GB","addr:housenumber":"75"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.03009,51.58786],[-0.03007,51.58782],[-0.03019,51.5878],[-0.03029,51.58777],[-0.03035,51.58776],[-0.03036,51.5878],[-0.03029,51.58782],[-0.03021,51.58784],[-0.03009,51.58786]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"694532541","name":"Argos Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -0.00463,51.60923],[-0.00491,51.60969],[-0.00431,51.60983],[-0.00422,51.60967],[-0.00412,51.60952],[-0.00403,51.60937],[-0.00463,51.60923]] ]}}
+]
+}

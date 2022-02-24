@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"7580304246","other":{"addr:street":"Queen's Gate Gardens","addr:housenumber":"47-48"}}, "geometry":{"type":"Point","coordinates":[-0.18208,51.49587 ]}},
+{ "type":"Feature","properties":{"osm_id":"7580304247","other":{"addr:street":"Queen's Gate Gardens","addr:housenumber":"46"}}, "geometry":{"type":"Point","coordinates":[-0.18193,51.49589 ]}},
+{ "type":"Feature","properties":{"osm_id":"7580304248","other":{"addr:street":"Queen's Gate Gardens","addr:housenumber":"45"}}, "geometry":{"type":"Point","coordinates":[-0.18183,51.49589 ]}},
+{ "type":"Feature","properties":{"osm_id":"7580304257","other":{"addr:street":"Queen's Gate Gardens","addr:housenumber":"44"}}, "geometry":{"type":"Point","coordinates":[-0.18171,51.49591 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"788797450","building":"house","other":{"addr:street":"Princedale Road","building:levels":"3","addr:housenumber":"56"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.20996,51.50854],[-0.20999,51.50858],[-0.2099,51.50861],[-0.20984,51.50864],[-0.20975,51.50867],[-0.20972,51.50863],[-0.2098,51.5086],[-0.20996,51.50854]] ]}}
+]
+}

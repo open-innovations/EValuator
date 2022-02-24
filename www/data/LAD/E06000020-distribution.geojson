@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"5090727371","name":"Expo Distribution","man_made":"works"},"geometry":{"type":"Point","coordinates":[-2.46962,52.71335 ]}},
+{ "type":"Feature","properties":{"osm_id":"5090727372","name":"K G Distributions","man_made":"works"},"geometry":{"type":"Point","coordinates":[-2.47,52.71319 ]}}
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"605079118","name":"Poundland Distribution Centre","building":"yes","other":{"addr:postcode":"CM19 5AA"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.0695,51.77044],[0.07108,51.77013],[0.0699,51.76781],[0.06832,51.76811],[0.0695,51.77044]] ]}}
+]
+}

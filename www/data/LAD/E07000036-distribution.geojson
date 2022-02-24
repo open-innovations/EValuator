@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1347947238","barrier":"gate"},"geometry":{"type":"Point","coordinates":[-1.30148,52.98445 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"120162525","name":"CPL Distribution (Ilkeston Distribution Centre)","shop":"wholesale","other":{"website":"https:\/\/www.cpldistribution.co.uk\/derbyshire","wholesale":"coal_merchant","addr:street":"Awsworth Road","addr:postcode":"DE7 8JP"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.30219,52.98509],[-1.30209,52.9852],[-1.30199,52.98529],[-1.30165,52.98547],[-1.30122,52.98565],[-1.301,52.98579],[-1.30078,52.98596],[-1.30063,52.98609],[-1.30054,52.98618],[-1.29944,52.98573],[-1.29965,52.98549],[-1.30017,52.98496],[-1.30081,52.98452],[-1.30111,52.98431],[-1.30134,52.98444],[-1.30148,52.98445],[-1.30155,52.98445],[-1.3016,52.98445],[-1.30158,52.98454],[-1.30156,52.98473],[-1.30206,52.98502],[-1.30219,52.98509]] ]}}
+]
+}

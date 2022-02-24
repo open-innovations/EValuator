@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"80584696","name":"Menzies Distribution","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -4.16774,55.83379],[-4.16586,55.83424],[-4.16563,55.83394],[-4.16642,55.83375],[-4.16636,55.83367],[-4.16752,55.83339],[-4.16781,55.83377],[-4.16774,55.83379]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"132545143","name":"Direct Distribution Ltd","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -4.3071,55.85518],[-4.30571,55.85492],[-4.30607,55.85434],[-4.30676,55.85446],[-4.3069,55.85425],[-4.30714,55.8543],[-4.30719,55.85424],[-4.30767,55.85424],[-4.3071,55.85518]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"134605155","name":"Baillieston Distribution Centre","landuse":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -4.12654,55.85664],[-4.12585,55.85697],[-4.12496,55.85738],[-4.1245,55.85725],[-4.12407,55.85631],[-4.12475,55.85623],[-4.12678,55.85453],[-4.12763,55.85606],[-4.12654,55.85664]] ]}}
+]
+}

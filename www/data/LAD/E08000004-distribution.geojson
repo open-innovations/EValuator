@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1965786635","name":"Shop Direct Shaw National Distribution Centre","other":{"building":"yes"}}, "geometry":{"type":"Point","coordinates":[-2.08817,53.5795 ]}}
+]
+}

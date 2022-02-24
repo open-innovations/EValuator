@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"6696636071","name":"NFT Distribution","other":{"phone":"+44 1773 407300","office":"yes","website":"http:\/\/www.nft.co.uk\/","addr:city":"Penrith","addr:street":"Cowper Road","addr:country":"GB","addr:postcode":"CA11 9BD"}}, "geometry":{"type":"Point","coordinates":[-2.77093,54.66801 ]}},
+{ "type":"Feature","properties":{"osm_id":"6698465960","name":"Hart Distribution","other":{"phone":"+44 1768 866229","office":"yes","website":"https:\/\/www.hartdistribution.co.uk\/","addr:city":"Penrith","addr:street":"Gilwilly Road","addr:country":"GB","addr:postcode":"CA11 9BL","addr:housenumber":"50,51"}}, "geometry":{"type":"Point","coordinates":[-2.76181,54.66709 ]}}
+]
+}

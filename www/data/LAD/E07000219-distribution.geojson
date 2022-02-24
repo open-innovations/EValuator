@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"186437576","name":"Dairy Crest Distribution Centre","amenity":"post_depot","building":"yes","other":{"email":"Nuneaton@dairycrest.co.uk","phone":"+44 24 7637 8800","website":"https:\/\/www.dairycrest.co.uk\/","operator":"Dairy Cresst","addr:street":"Walsingham Drive","addr:postcode":"CV10 7RG","opening_hours":"24\/7"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.48139,52.50221],[-1.48096,52.50224],[-1.48091,52.50204],[-1.47915,52.50219],[-1.47902,52.50186],[-1.4789,52.50186],[-1.47869,52.50087],[-1.48006,52.50073],[-1.48013,52.50094],[-1.48047,52.50091],[-1.48047,52.5008],[-1.48106,52.50075],[-1.48113,52.50113],[-1.48096,52.50116],[-1.48108,52.50175],[-1.48126,52.50173],[-1.48139,52.50221]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"379151213","name":"Wincanton  Distribution","amenity":"parking","other":{"access":"private","capacity:disabled":"yes"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.48387,52.4994],[-1.48323,52.49987],[-1.4829,52.49973],[-1.48253,52.49996],[-1.48231,52.49999],[-1.48229,52.49961],[-1.48248,52.49939],[-1.48248,52.49916],[-1.4833,52.4991],[-1.48387,52.4994]] ]}}
+]
+}

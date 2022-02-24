@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"28560773","name":"Cardinal Distribution Park","landuse":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -0.15312,52.31666],[-0.15319,52.31657],[-0.15434,52.31506],[-0.15587,52.31306],[-0.15766,52.31405],[-0.15987,52.31496],[-0.15991,52.31499],[-0.16104,52.31554],[-0.16139,52.31573],[-0.16066,52.31673],[-0.15965,52.31798],[-0.15941,52.31806],[-0.15911,52.31809],[-0.15681,52.31759],[-0.15345,52.31674],[-0.15312,52.31666]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"204809550","name":"Co-op Food Distribution Centre","building":"yes","other":{"old_name":"Somerfield Distribution Centre","addr:street":"Cardinal Way","addr:postcode":"PE29 2XF"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.15568,52.31638],[-0.15559,52.3165],[-0.1554,52.31645],[-0.15495,52.31705],[-0.15337,52.3166],[-0.15384,52.31598],[-0.15526,52.31638],[-0.15532,52.31628],[-0.15568,52.31638]] ]}},
+{ "type":"Feature","properties":{"osm_way_id":"1010369339","name":"Gas Distribution Station i","landuse":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -0.18433,52.32636],[-0.18405,52.32641],[-0.18405,52.32635],[-0.1843,52.32632],[-0.18433,52.32636]] ]}}
+]
+}

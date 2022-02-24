@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"2011658437","name":"Fleets Lane Distribution Site","ref":"11401","man_made":"water_works","other":{"operator":"Wessex Water"}}, "geometry":{"type":"Point","coordinates":[-1.98677,50.7358 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"340135734","name":"RNLI Distribution","building":"commercial"},"geometry":{"type":"Polygon","coordinates":[[[ -1.98908,50.71665],[-1.98833,50.71687],[-1.98795,50.71641],[-1.98871,50.71617],[-1.98908,50.71665]] ]}}
+]
+}

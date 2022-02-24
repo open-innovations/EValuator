@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"132952071","name":"Menzies Distribution","building":"commercial","other":{"addr:housename":"Unit E","building:levels":"2","roof:shape":"flat"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.00356,51.52252],[-0.00274,51.52228],[-0.00303,51.52189],[-0.00385,51.52213],[-0.00356,51.52252]] ]}}
+]
+}
