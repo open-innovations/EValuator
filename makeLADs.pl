@@ -10,10 +10,11 @@ $ogr = "ogr2ogr";
 $ogrinfo = "ogrinfo";
 
 
-$ddir = "www/boundaries/";
 $adir = "www/data/LAD/";
 $osmpbf = "raw/great-britain-latest.pbf";
 $osmfile = "raw/great-britain-latest.o5m";
+# Directories to look for boundaries
+@boundarydirs = ("www/boundaries/GB/");
 
 
 # Download the GB extract
@@ -49,67 +50,18 @@ if(!-d $adir){
 
 @files = ();
 # Find sub directories in areas folder
-@dirs = ();
-opendir (DIR,$ddir) or die "Couldn't open directory, $!";
-while ($cc = readdir DIR){
 
-	# Only process files
-	if(-d $ddir.$cc && -d $ddir.$cc && $cc !~ /^\.+$/){
-		$ccspat = "";
-		$ccspatcomma = "";
-		$bbfile = $ddir.$cc.".yaml";
 
-		# If there is a yaml file for this country code
-		if(-e $bbfile){
-			open(BOUNDS,$bbfile);
-			@lines = <BOUNDS>;
-			close(BOUNDS);
-			foreach $line (@lines){
-				$line =~ s/[\n\r]//g;
-				if($line =~ /BOUNDS: +(.*)/){
-					$ccspat = "$1";
-				}
-			}
+for($d = 0; $d < @boundarydirs; $d++){
+	opendir(SUBDIR,$boundarydirs[$d]) or die "Couldn't open directory, $!";
+	while($file = readdir SUBDIR){
+		if($file =~ /^(.*).geojson/){
+			$code = $1;
+			push(@files,{'code'=>$code,'poly'=>$boundarydirs[$d].$code.".poly",'geojson'=>$boundarydirs[$d].$file,'dir'=>$boundarydirs[$d]});
 		}
-
-		if($ccspat){
-			$ccspatcomma = $ccspat;
-			$ccspatcomma =~ s/ /\,/g;
-		}
-		
-		opendir(SUBDIR,$ddir.$cc) or die "Couldn't open directory, $!";
-		while($file = readdir SUBDIR){
-			if($file =~ /^(.*).geojson/){
-				$code = $1;
-				$bbfile = $ddir.$cc."/".$1.".yaml";
-				$polyfile = $ddir.$cc."/".$1.".poly";
-				$clipfile = $ddir.$cc."/".$file;
-				$spat = "";
-				$nm = "";
-				if(-e $bbfile){
-					open(BOUNDS,$bbfile);
-					@lines = <BOUNDS>;
-					close(BOUNDS);
-					foreach $line (@lines){
-						$line =~ s/[\n\r]//g;
-						if($line =~ /BOUNDS: +(.*)/){
-							$spat = "$1";
-						}elsif($line =~ /NAME: +(.*)/){
-							$nm = $1;
-						}
-					}
-					#print "\tUsing $spat for $nm\n";
-				}else{
-					print "\tNo spatial bounds provided for $code (this may be slow)\n";
-				}
-				
-				push(@files,{'cc'=>$cc,'b'=>$spat,'code'=>$code,'geojson'=>$clipfile,'poly'=>$polyfile,'yaml'=>$bbfile,'bounds'=>($spat ? "-spat $spat":""),'name'=>$nm});
-			}
-		}
-		closedir(SUBDIR);
 	}
+	closedir(SUBDIR);
 }
-closedir(DIR);
 
 
 
@@ -251,9 +203,8 @@ if(getFile($chargepoints{'url'},$chargepoints{'raw'},86400)){
 
 	for($f = 0; $f < @files; $f++){
 		$gfile = $adir.$files[$f]{'code'}."-chargepoints.geojson";
-		$bfile = $ddir.$files[$f]{'cc'}."/".$files[$f]{'code'}.".geojson";
+		$bfile = $files[$f]{'dir'}.$files[$f]{'code'}.".geojson";
 		if(!-e $gfile){
-			#`rm $gfile`;
 			print "\tCreating chargepoints for $files[$f]{'code'} using $bfile\n";
 			`ogr2ogr -f GeoJSON $gfile 	$sqlfile -clipsrc $bfile`;
 			trimGeoJSONFile($gfile);

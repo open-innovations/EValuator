@@ -73,4 +73,50 @@ sub getMSOAWKT {
 	}
 	return $out;
 }
+
+sub makeDir {
+	my $dir = $_[0];
+	if(-d $dir){
+		return 0;
+	}
+	my @bits = split(/\//,$dir);
+	my ($i,$path);
+	$path = "";
+	for($i = 0; $i < @bits; $i++){
+		$path .= ($path ? "/":"").$bits[$i];
+		if(!-d $path){
+			`mkdir $path`;
+		}
+	}
+	return 1;
+}
+
+sub getLookup {
+	my $file = "www/data/lookupLAD.tsv";
+	my (%lookup,$i,$line,$lad,$ms,$n);
+
+	%lookup = ('LAD'=>{},'MSOA'=>{});
+
+	# Open the LAD/MSOA lookup file
+	open(FILE,$file) || error("Couldn't open the file");
+	$i = 0;
+	while(<FILE>){
+		$line = $_;
+		if($i > 0){
+			$line =~ s/[\n\r]//;
+			($lad,$ms) = split(/\t/,$line);
+			# Split the MSOAs for the LAD
+			@{$lookup{'LAD'}{$lad}} = split(/;/,$ms);
+			# Count the number of MSOAs
+			$n = @{$lookup{'LAD'}{$lad}};
+			for($m = 0; $m < $n;$m++){
+				# Create a lookup for MSOAs
+				$lookup{'MSOA'}{$lookup{'LAD'}{$lad}[$m]} = $lad;
+			}
+		}
+		$i++;
+	}
+	return %lookup;
+}
+
 1;
