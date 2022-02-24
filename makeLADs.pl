@@ -6,7 +6,6 @@ require "./lib.pl";
 
 $osmconvert = "osmconvert";
 $osmfilter = "osmfilter";
-$mode = "info";
 $ogr = "ogr2ogr";
 $ogrinfo = "ogrinfo";
 

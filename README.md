@@ -18,7 +18,9 @@ Running `perl makeLookup.pl` will create three lookup files within `www/data/`:
 
 ### Local Authority District data
 
-Running `makeLADs.pl` will create JSON files for chargepoints (UK Chargepoint Registry), supermarkets (OSM), distribution centres (OSM), and parking (OSM) for every LAD.
+The next step is to create JSON files for chargepoints (UK Chargepoint Registry), supermarkets (OSM), distribution centres (OSM), and parking (OSM) for every LAD.
+
+There are some dependencies that you will need. These come from the GDAL suite of tools: `ogr2ogr`, `ogrinfo`, `osmconvert`, and `osmfilter`.
 
 The [chargepoint data comes from the UK Chargepoint Registry](https://chargepoints.dft.gov.uk/api/retrieve/registry/format/csv) as CSV. This is first converted into sqlite by `ogr2ogr` to make later processing faster e.g.
 
@@ -30,7 +32,7 @@ The command drops the two entries that are missing geometry and sets the longitu
 
 The supermarkets, distribution centres, and parking all come from OpenStreetMap data. If you don't already have it, the code will download the [latest GB extract from GeoFabrik](https://download.geofabrik.de/europe/great-britain-latest.osm.pbf) into the `raw/` directory.
 
-The code loops over all the LADs to create extracts using their boundaries e.g.
+Running `makeLADs.pl` will loop over all the LADs to create extracts for each layer using their boundaries e.g.
 
 ```
 ogr2ogr -f GeoJSON E08000035.geojson chargepoints.csv.sqlite -clipsrc www/boundaries/E08000035.geojsonl
