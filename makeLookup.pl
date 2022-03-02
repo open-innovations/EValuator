@@ -24,6 +24,7 @@ while(<FILE>){
 		($pcd7,$pcd8,$pcds,$dointr,$doterm,$usertype,$oa11cd,$lsoa11cd,$msoa11cd,$ladcd,$lsoa11nm,$msoa11nm,$ladnm,$ladnmw) = split(/,/,$line);
 		# Remove quotation marks
 		$ladcd =~ s/(^\"|\"$)//g;
+		$ladnm =~ s/(^\"|\"$)//g;
 		$msoa11cd =~ s/(^\"|\"$)//g;
 		$lsoa11cd =~ s/(^\"|\"$)//g;
 		$oa11cd =~ s/(^\"|\"$)//g;
@@ -37,10 +38,10 @@ while(<FILE>){
 			}
 			if($ladcd ne ""){
 				if(!$lad{$ladcd}){
-					$lad{$ladcd} = {};
+					$lad{$ladcd} = {'msoas'=>{},'name'=>$ladnm};
 				}
-				if(!$lad{$ladcd}{$msoa11cd}){ $lad{$ladcd}{$msoa11cd} = 0; }
-				$lad{$ladcd}{$msoa11cd}++;
+				if(!$lad{$ladcd}{'msoas'}{$msoa11cd}){ $lad{$ladcd}{'msoas'}{$msoa11cd} = 0; }
+				$lad{$ladcd}{'msoas'}{$msoa11cd}++;
 			}
 		}
 	}
@@ -63,11 +64,36 @@ close(LOOKUP);
 
 
 open(LOOKUP,">",$lookupdir."lookupLAD.tsv");
-print LOOKUP "LAD\tMSOAs\n";
+print LOOKUP "LAD\tLAD nAme\tMSOAs\n";
 foreach $l (sort(keys(%lad))){
-	print LOOKUP "$l\t";
-	print LOOKUP join(";",sort(keys(%{$lad{$l}})));
+	print LOOKUP "$l\t$lad{$l}{'name'}\t";
+	print LOOKUP join(";",sort(keys(%{$lad{$l}{'msoas'}})));
 	print LOOKUP "\n";
 }
 close(LOOKUP);
 
+
+open(LOOKUP,">",$lookupdir."lookupLAD.tsv");
+print LOOKUP "LAD\tMSOAs\n";
+foreach $l (sort(keys(%lad))){
+	print LOOKUP "$l\t";
+	print LOOKUP join(";",sort(keys(%{$lad{$l}{'msoas'}})));
+	print LOOKUP "\n";
+}
+close(LOOKUP);
+
+open(LOOKUP,">",$lookupdir."LAD.tsv");
+print LOOKUP "LAD\tLAD name\n";
+foreach $l (sort(keys(%lad))){
+	print LOOKUP "$l\t$lad{$l}{'name'}\n";
+}
+close(LOOKUP);
+
+foreach $l (sort(keys(%lad))){
+	open(LADLOOKUP,">",$lookupdir."LAD/$l/$l-msoas.tsv");
+	@msoas = sort(keys(%{$lad{$l}{'msoas'}}));
+	for($m = 0; $m < @msoas; $m++){
+		print LADLOOKUP "$msoas[$m]\n";
+	}
+	close(LADLOOKUP);
+}

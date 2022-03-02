@@ -105,8 +105,11 @@ for($e = 0; $e < @extracts; $e++){
 		
 		$tfile = $adir.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}.".sqlite";
 		$cfile = $adir.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}."-cut.sqlite";
-		$gfile = $adir.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}.".geojson";
+		$gfile = $adir.$files[$f]{'code'}.'/'.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}.".geojson";
 
+		if(!-d $adir.$files[$f]{'code'}){
+			`mkdir $adir$files[$f]{'code'}`;
+		}
 
 		if(!-e $gfile){
 			
@@ -128,7 +131,7 @@ for($e = 0; $e < @extracts; $e++){
 			for($l = 0; $l < @lines; $l++){
 				if($lines[$l] =~ /^[0-9]+\: ([a-z]+) /){
 					$layer = $1;
-					$lfile = $adir.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}."-".$layer.".geojson";
+					$lfile = $adir.$files[$f]{'code'}.'/'.$files[$f]{'code'}.'-'.$extracts[$e]->{'key'}."-".$layer.".geojson";
 					# Remove any existing layer file
 					if(-e $lfile){
 						`rm $lfile`;
