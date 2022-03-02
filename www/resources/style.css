@@ -129,3 +129,5 @@ input,select { line-height: 2em; padding: 0 0.25em; font-size: inherit; }
 .typeahead-results li > a { padding: 0.25em 0.5em; background: #efefef; text-decoration: none; display: block; color: inherit; line-height: 1.5em; }
 .typeahead-results li > a:hover, .typeahead-results li.selected > a:hover { background-color: #2254F4; color: white; }
 .typeahead-results li.selected > a { background-color: #444; color: white; }
+
+html, footer { background: #000; color: white; }
