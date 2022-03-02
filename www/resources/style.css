@@ -131,3 +131,6 @@ input,select { line-height: 2em; padding: 0 0.25em; font-size: inherit; }
 .typeahead-results li.selected > a { background-color: #444; color: white; }
 
 html, footer { background: #000; color: white; }
+footer ul { list-style: disc; }
+footer ul li { margin-left: 1em; }
+footer a, footer a:visited { color: inherit; }
