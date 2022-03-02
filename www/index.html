@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<title>EValuator - EV Bulk Charging Planner</title>
+	<link rel="StyleSheet" href="resources/leaflet.css" type="text/css" />
+	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
+	<script type="text/javascript" src="resources/leaflet.js"></script>
+	<script type="text/javascript" src="resources/leaflet.markercluster.js"></script>
+	<script type="text/javascript" src="resources/app.js"></script>
+</head>
+<body class="b6-bg">
+
+	<div id="messages"></div>
+
+	<div id="app" class="doublepadded">
+
+		<div class="bg"></div>
+		<div class="holder">
+			<h1>EValuator - EV Bulk Charging Planner</h1>
+			
+			<form id="LAD-typeahead">
+				<label for="typeahead">Local Authority name:</label>
+				<input type="text" id="LAD" value="" placeholder="e.g. Leeds" autocomplete=“off”>
+			</form>
+			
+			<section id="map" class="screen">
+				<div id="location"><div id='tooltip'></div></div>
+			</section>
+
+			<h2>MSOAs</h2>
+			<ul id="MSOAs">
+			</ul>
+			
+			<h3>Data sources</h3>
+			<ul>
+				<li>Chargepoints - <a href="https://chargepoints.dft.gov.uk/">National Chargepoint Registry</a></li>
+				<li>Supermarkets - Open Street Map (<code>shop=supermarket</code>)</li>
+				<li>Car parks - Open Street Map (<code>amenity=parking</code>)</li>
+				<li>Distribution Centres - Open Street Map (<code>building=warehouse or landuse=industrial</code> and <code>name</code> contains "Distribution")</li>
+			</ul>
+		</div>
+	</div>
+	
+	<script>
+	OI.ready(function(){
+		app = new OI.EValuator({});
+	})
+	</script>
+</body>
+</html>

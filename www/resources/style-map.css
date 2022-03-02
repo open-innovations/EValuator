@@ -100,17 +100,49 @@ code .str, pre .str { color: #D73058; }
 .b6-bg { background: white; color: #222; }
 
 
-h1 + * { margin-top: 1em; }
 
-input,select { line-height: 2em; padding: 0 0.25em; }
+/* Open Innovations Leaflet styles */
+.leaflet-container { font-size: 1em; }
+.leaflet-popup-content { margin: 1em; max-width: 90%; width: 400px!important; }
+.leaflet-popup-content h3 { margin-bottom: 0.5em; }
+.leaflet-popup-content p { margin-top: 0; }
+.leaflet-popup-content p.footer { margin-top: 1em; padding-top: 0.5em; font-size: 0.8em; color: #999; border-top: 1px solid #999; }
+.leaflet-popup-content table td:first-child { padding-right: 0.5em; }
+.leaflet-popup-content ul { margin: 0px!important; margin-bottom: 0px!important; list-style: none; padding: 0px; }
+.leaflet-popup-content ul li { margin: 0px; list-style: none; padding: 0px; }
+.leaflet-popup-content-wrapper { border-radius: 0px; font-size: 1em; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4); }
+.leaflet-bar.leaflet-control-geolocate a { padding: 4px; }
+.leaflet-bar.leaflet-control-geolocate a svg { width: 100%; height: 100%; }
+.leaflet-marker-icon .marker-group { display: inline-block; height: 2.5em; line-height: 2em; text-align:center; background: white; color: black; }
+.leaflet-marker-icon .marker-group .marker-group-head { width: 100%; height: 0.5em; }
+.leaflet-marker-icon .marker-group span { padding: 0 0.5em; }
+
+
+
+.my-location-accuracy, .my-location:after { position: absolute; left:50%; top:50%; transform:translate3D(-50%,-50%,0); border-radius: 100%; }
+.my-location:after { content: ''; width: 14px; height: 14px; background-color: #2254F4; border: 3px solid white; }
+.my-location-accuracy { background-color: rgba(34, 84, 244, 0.3); transition: width 0.1s ease-in, height 0.1s ease-in; }
+
+.leaflet-popup-content ul.ev-connectors { display: grid; grid-template-columns: repeat(8,1fr); grid-gap: 2px; }
+.leaflet-popup-content ul.ev-connectors li { padding: 0 2px; text-align: center; }
+.speed-S { fill: #efd463; background: #efd463; color: white; }
+.speed-F { fill: #00a3da; background: #00a3da; color: black; }
+.speed-R { fill: #d772da; background: #d772da; color: black; }
+.key { margin-top: 0.5em; }
+.key li { display: inline-block; line-height: 2em; margin-right: 0.5em; }
+.key li svg { height: 2em; float: left; }
+.key .poly { width: 1.5em; height: 1.5em; display: inline-block; float: left; margin: 0.25em 0.5em 0 0; border: 2px solid black; background: rgba(0,0,0,0.3); }
+.supermarket { border-color: #1DD3A7!important; background: rgba(29, 211, 167,0.3)!important; }
+.carpark { border-color: #F9BC26!important; background: rgba(249, 188, 38,0.3)!important; }
+.distribution { border-color: #2254F4!important; background: rgba(34, 84, 244,0.3)!important; }
 
 #map {
 	width: 100%;
-	height: 500px;
+	height: 800px;
 	max-height: 80vh;
 	position: relative;
-	margin: 1em 0;
-	border: 1px solid #ddd;
+  margin: 1em 0;
 }
 .loader { 
 	position: absolute;
@@ -119,8 +151,80 @@ input,select { line-height: 2em; padding: 0 0.25em; }
 	transform: translate3d(-50%,-50%,0);
 }
 
-.typeahead-results { width: 100%; z-index: 1000; }
-.typeahead-results ol { list-style: none; margin: 0px; padding: 0px; max-height: 20em; overflow-y: auto;  }
-.typeahead-results li > a { padding: 0.25em 0.5em; background: #efefef; text-decoration: none; display: block; color: inherit; line-height: 1.5em; }
-.typeahead-results li > a:hover, .typeahead-results li.selected > a:hover { background-color: #7dc5ea; color: black; }
-.typeahead-results li.selected > a { background-color: #444; color: white; }
+
+
+/* Marker Cluster styles */
+.marker-cluster-small {
+	background-color: rgba(181, 226, 140, 0.6);
+	}
+.marker-cluster-small div {
+	background-color: rgba(110, 204, 57, 0.6);
+	}
+
+.marker-cluster-medium {
+	background-color: rgba(241, 211, 87, 0.6);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(240, 194, 12, 0.6);
+	}
+
+.marker-cluster-large {
+	background-color: rgba(253, 156, 115, 0.6);
+	}
+.marker-cluster-large div {
+	background-color: rgba(241, 128, 23, 0.6);
+	}
+
+	/* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small {
+	background-color: rgb(181, 226, 140);
+	}
+.leaflet-oldie .marker-cluster-small div {
+	background-color: rgb(110, 204, 57);
+	}
+
+.leaflet-oldie .marker-cluster-medium {
+	background-color: rgb(241, 211, 87);
+	}
+.leaflet-oldie .marker-cluster-medium div {
+	background-color: rgb(240, 194, 12);
+	}
+
+.leaflet-oldie .marker-cluster-large {
+	background-color: rgb(253, 156, 115);
+	}
+.leaflet-oldie .marker-cluster-large div {
+	background-color: rgb(241, 128, 23);
+}
+
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 20px;
+	}
+.marker-cluster div {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+	text-align: center;
+	border-radius: 15px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+.marker-cluster span {
+	line-height: 30px;
+	}
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow {
+	-webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-moz-transition: -moz-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-o-transition: -o-transform 0.3s ease-out, opacity 0.3s ease-in;
+	transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+}
+.leaflet-cluster-spider-leg {
+	/* stroke-dashoffset (duration and function) should match with leaflet-marker-icon transform in order to track it exactly */
+	-webkit-transition: -webkit-stroke-dashoffset 0.3s ease-out, -webkit-stroke-opacity 0.3s ease-in;
+	-moz-transition: -moz-stroke-dashoffset 0.3s ease-out, -moz-stroke-opacity 0.3s ease-in;
+	-o-transition: -o-stroke-dashoffset 0.3s ease-out, -o-stroke-opacity 0.3s ease-in;
+	transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
+}
+/* End of Marker Cluster styles */
