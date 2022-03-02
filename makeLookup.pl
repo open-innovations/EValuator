@@ -92,8 +92,8 @@ foreach $o (sort(keys(%oa))){
 close(LOOKUP);
 
 
-open(LOOKUP,">",$lookupdir."lookupLAD.tsv");
-print LOOKUP "LAD\tLAD name\tMSOAs\n";
+open(LOOKUP,">",$lookupdir."lookupArea.tsv");
+print LOOKUP "Area\tArea name\tMSOAs\n";
 foreach $l (sort(keys(%lad))){
 	print LOOKUP "$l\t$lad{$l}{'name'}\t";
 	print LOOKUP join(";",sort(keys(%{$lad{$l}{'msoas'}})));
@@ -102,8 +102,8 @@ foreach $l (sort(keys(%lad))){
 close(LOOKUP);
 
 
-open(LOOKUP,">",$lookupdir."LAD.tsv");
-print LOOKUP "LAD\tLAD name\n";
+open(LOOKUP,">",$lookupdir."Area.tsv");
+print LOOKUP "Area\tArea name\n";
 foreach $l (sort(keys(%lad))){
 	print LOOKUP "$l\t$lad{$l}{'name'}\n";
 }
@@ -111,10 +111,10 @@ close(LOOKUP);
 
 foreach $l (sort(keys(%lad))){
 	$geojson = "";
-	open(LADLOOKUP,">",$lookupdir."LAD/$l/$l-msoas.tsv");
+	open(LOOKUP,">",$lookupdir."areas/$l/$l-msoas.tsv");
 	@msoas = sort(keys(%{$lad{$l}{'msoas'}}));
 	for($m = 0; $m < @msoas; $m++){
-		print LADLOOKUP "$msoas[$m]\t$msoa{$msoas[$m]}{'name'}\n";
+		print LOOKUP "$msoas[$m]\t$msoa{$msoas[$m]}{'name'}\n";
 		$mfile = $boundarydir.$msoas[$m].".geojsonl";
 		if(-e $mfile){
 			open(MSOA,$mfile);
@@ -125,17 +125,17 @@ foreach $l (sort(keys(%lad))){
 			$geojson .= ($geojson ? ",\n":"").$lines[0];
 		}
 	}
-	close(LADLOOKUP);
-	$gfile = $lookupdir."LAD/$l/$l.geojson";
+	close(LOOKUP);
+	$gfile = $lookupdir."areas/$l/$l.geojson";
 	if($geojson){
-		open(LADGEO,">",$gfile);
-		print LADGEO "{\n";
-		print LADGEO "\"type\": \"FeatureCollection\",\n";
-		print LADGEO "\"features\":[\n";
-		print LADGEO $geojson."\n";
-		print LADGEO "]\n";
-		print LADGEO "}\n";
-		close(LADGEO);
+		open(GEO,">",$gfile);
+		print GEO "{\n";
+		print GEO "\"type\": \"FeatureCollection\",\n";
+		print GEO "\"features\":[\n";
+		print GEO $geojson."\n";
+		print GEO "]\n";
+		print GEO "}\n";
+		close(GEO);
 	}else{
 		print "WARNING: No GeoJSON for $l ($gfile)\n";
 	}

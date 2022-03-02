@@ -56,25 +56,24 @@
 
 		this.el = el;
 		
-		this.lookup = {};
+		this.arealookup = {};
 		this.scores = {};
-		this.LAD = "E08000035";
+		this.area = "E08000035";
 		
 		
 		
-		// Get the LAD lookup
-		fetch('data/LAD.tsv').then(response => {
+		// Get the area lookup
+		fetch('data/Area.tsv').then(response => {
 			if(!response.ok) throw new Error('Network response was not OK');
 			return response.text();
 		}).then(data => {
 			lines = data.split(/\n/);
 			lines.shift();
-			this.lookup.LAD = {};
 			for(var i = 0; i < lines.length; i++){
 				if(lines[i][1]){
 					lines[i] = lines[i].split(/\t/);
 					if(lines[i].length == 2){
-						this.lookup.LAD[lines[i][0]] = {'name':lines[i][1]};
+						this.arealookup[lines[i][0]] = {'name':lines[i][1]};
 					}
 				}
 			}
@@ -102,12 +101,12 @@
 
 		var _obj = this;
 
-		this.input = document.getElementById('LAD');
+		this.input = document.getElementById('area');
 
-		// Build the barchart object attached to <input type="text" id="LAD">
+		// Build the barchart object attached to <input type="text" id="area">
 		this.typeahead = TypeAhead.init(this.input,{
-			'items': obj2arr(this.lookup.LAD),
-			'process': function(d){ _obj.setLAD(d.id); },
+			'items': obj2arr(this.arealookup),
+			'process': function(d){ _obj.setArea(d.id); },
 			'rank': function(d,str){
 				// Calculate a weighting
 				var r = 0;
@@ -140,39 +139,21 @@
 		return this;
 	};
 	
-	EValuator.prototype.setLAD = function(id){
-		if(id && this.lookup.LAD[id]){
-			if(!this.lookup.LAD[id].MSOA){
+	EValuator.prototype.setArea = function(id){
+		if(id && this.arealookup[id]){
+			if(!this.arealookup[id].MSOA){
 
-/*
-				fetch('data/LAD/'+id+'/'+id+'-msoas.tsv').then(response => {
+				fetch('data/areas/'+id+'/'+id+'.csv').then(response => {
 					if(!response.ok) throw new Error('Network response was not OK');
 					return response.text();
 				}).then(data => {
 					lines = data.split(/\n/);
-					this.lookup.LAD[id].MSOA = {};
-					for(var i = 0; i < lines.length; i++){
-						if(lines[i][1]){
-							lines[i] = lines[i].split(/\t/);
-							this.lookup.LAD[id].MSOA[lines[i][0]] = {'name':lines[i][1]};
-						}
-					}
-					this.postLAD(id);
-				}).catch(error => {
-					console.error('There has been a problem with your fetch operation:', error);
-				});
-*/
-				fetch('data/LAD/'+id+'/'+id+'.csv').then(response => {
-					if(!response.ok) throw new Error('Network response was not OK');
-					return response.text();
-				}).then(data => {
-					lines = data.split(/\n/);
-					this.lookup.LAD[id].MSOA = {};
+					this.arealookup[id].MSOA = {};
 					header = lines[0].split(/,/);
 					for(var i = 1; i < lines.length; i++){
 						if(lines[i][1]){
 							lines[i] = lines[i].split(/\,/);
-							this.lookup.LAD[id].MSOA[lines[i][0]] = {'name':lines[i][1].replace(/(^\"|\"$)/g,"")};
+							this.arealookup[id].MSOA[lines[i][0]] = {'name':lines[i][1].replace(/(^\"|\"$)/g,"")};
 							for(h = 2; h < header.length; h++){
 								if(!this.scores[lines[i][0]]) this.scores[lines[i][0]] = {};
 								this.scores[lines[i][0]][header[h]] = parseFloat(lines[i][h]);
@@ -180,7 +161,7 @@
 						}
 					}
 
-					this.postLAD(id);
+					this.postArea(id);
 				}).catch(error => {
 					console.error('There has been a problem with your fetch operation:', error);
 				});
@@ -188,22 +169,22 @@
 
 			}else{
 				this.log.info('Already loaded MSOAs for '+id);
-				this.postLAD(id);
+				this.postArea(id);
 			}
 		}
 	};
 	
-	EValuator.prototype.postLAD = function(id){
-		console.log(id,this.lookup.LAD[id]);
-		if(!this.lookup.LAD[id].MSOA){
-			this.log.error('No MSOAs defined for '+this.lookup.LAD[id].name+' ('+id+')');
+	EValuator.prototype.postArea = function(id){
+		console.log(id,this.arealookup[id]);
+		if(!this.arealookup[id].MSOA){
+			this.log.error('No MSOAs defined for '+this.arealookup[id].name+' ('+id+')');
 			return this;
 		}
 
-		this.LAD = id;
+		this.area = id;
 
 		// Update the input field
-		this.input.setAttribute('placeholder',this.lookup.LAD[id].name);
+		this.input.setAttribute('placeholder',this.arealookup[id].name);
 		this.input.value = "";
 
 
@@ -212,8 +193,8 @@
 		for(var l = 0; l < this.layers.length; l++){
 			min = 1e100;
 			max = -1e100;
-			// Loop over the MSOAs in this LAD
-			for(msoa in this.lookup.LAD[id].MSOA){
+			// Loop over the MSOAs in this area
+			for(msoa in this.arealookup[id].MSOA){
 				if(typeof this.scores[msoa][this.layers[l].id]==="number"){
 					min = Math.min(this.scores[msoa][this.layers[l].id],min);
 					max = Math.max(this.scores[msoa][this.layers[l].id],max);
@@ -232,11 +213,11 @@
 		var weight = 0;
 		for(var l = 0; l < this.layers.length; l++) weight += this.layers[l].weight;
 
-		for(msoa in this.lookup.LAD[id].MSOA){
+		for(msoa in this.arealookup[id].MSOA){
 			this.scores[msoa].total = 0;
 			for(var l = 0; l < this.layers.length; l++){
 				if(this.layers[l].invert){
-					this.scores[msoa].total += 1 - (this.layers[l].weight)*(this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range;
+					this.scores[msoa].total += 1 - ((this.layers[l].weight)*(this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range);
 				}else{
 					this.scores[msoa].total += (this.layers[l].weight)*(this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range;
 				}
@@ -246,12 +227,8 @@
 
 
 		totals = [];
-		for(var msoa in this.lookup.LAD[this.LAD].MSOA){
-			totals.push([msoa,this.scores[msoa].total]);
-		}
-		totals.sort(function(a, b) {
-			return b[1] - a[1];
-		});
+		for(var msoa in this.arealookup[this.area].MSOA) totals.push([msoa,this.scores[msoa].total]);
+		totals.sort(function(a, b) { return b[1] - a[1]; });
 
 		list = '<tr><th>Rank</th><th>MSOA</th><th>Name</th>';
 		for(var l = 0; l < this.layers.length; l++){
@@ -262,7 +239,7 @@
 		for(var t = 0; t < totals.length; t++){
 			msoa = totals[t][0];
 			list += '<tr><td class="num">'+(t+1)+'</td><td>'+msoa+'</td>';
-			list += '<td>'+this.lookup.LAD[this.LAD].MSOA[msoa].name+'</td>';
+			list += '<td><a href="https://findthatpostcode.uk/areas/'+msoa+'.html">'+this.arealookup[this.area].MSOA[msoa].name+'</a></td>';
 			for(var l = 0; l < this.layers.length; l++){
 				list += '<td class="num">'+this.scores[msoa][this.layers[l].id]+'</td>';
 			}
@@ -279,12 +256,12 @@
 
 
 
-		if(!this.lookup.LAD[id].geoJSON){
-			fetch('data/LAD/'+id+'/'+id+'.geojson').then(response => {
+		if(!this.arealookup[id].geoJSON){
+			fetch('data/areas/'+id+'/'+id+'.geojson').then(response => {
 				if(!response.ok) throw new Error('Network response was not OK');
 				return response.json();
 			}).then(data => {
-				this.lookup.LAD[id].geoJSON = data;
+				this.arealookup[id].geoJSON = data;
 				this.updateMap(id);
 			}).catch(error => {
 				console.error('There has been a problem with your fetch operation:', error);
@@ -299,14 +276,14 @@
 
 	EValuator.prototype.updateMap = function(id){
 		
-		if(this.lookup.LAD[id].geoJSON){
-			if(this.LADlayer) this.map.removeLayer(this.LADlayer);
+		if(this.arealookup[id].geoJSON){
+			if(this.arealayer) this.map.removeLayer(this.arealayer);
 
 			var weight = 0;
 			for(var l = 0; l < this.layers.length; l++) weight += this.layers[l].weight;
 
 			var _obj = this;
-			this.LADlayer = L.geoJSON(this.lookup.LAD[id].geoJSON, {
+			this.arealayer = L.geoJSON(this.arealookup[id].geoJSON, {
 				style: function (feature){
 					msoa = feature.properties['msoa11cd'];
 					v = _obj.scores[msoa].total||0;
@@ -324,7 +301,7 @@
 				}
 			}).addTo(this.map);
 			
-			this.map.fitBounds(this.LADlayer.getBounds());
+			this.map.fitBounds(this.arealayer.getBounds());
 		}else{
 			this.log.error('No GeoJSON for '+id);
 		}

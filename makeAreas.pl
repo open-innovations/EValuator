@@ -10,7 +10,7 @@ $ogr = "ogr2ogr";
 $ogrinfo = "ogrinfo";
 
 
-$adir = "www/data/LAD/";
+$adir = "www/data/areas/";
 $osmpbf = "raw/great-britain-latest.pbf";
 $osmfile = "raw/great-britain-latest.o5m";
 # Directories to look for boundaries

@@ -8,10 +8,10 @@ $osmfilter = "osmfilter";
 $mode = "info";
 $ogr = "ogr2ogr";
 $ogrinfo = "ogrinfo";
-$lookup = "www/data/lookupLAD.tsv";
+$lookup = "www/data/lookupArea.tsv";
 
 $msoadir = "../geography-bits/data/MSOA11CD/";
-$laddir = "www/data/LAD/";
+$laddir = "www/data/areas/";
 
 %data = (
 	'chargepoints' => { 'odir'=>'raw/MSOA/chargepoints/' },

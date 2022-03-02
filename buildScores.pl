@@ -2,8 +2,8 @@
 use JSON::XS;
 use Data::Dumper;
 
-$layerfile = "layers.json";
-$dir = "LAD/";
+$layerfile = "www/data/layers.json";
+$dir = "www/data/areas/";
 
 $coder = JSON::XS->new->utf8->canonical(1);
 
