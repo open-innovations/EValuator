@@ -108,6 +108,22 @@
 			'render': function(d){ return d.name; },
 			'this': this
 		});
+		
+		// Map
+		baseMaps = {
+			'Greyscale': L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+				attribution: 'Tiles: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+				subdomains: 'abcd',
+				maxZoom: 19
+			})
+		};
+
+		var lat = 53.79659;
+		var lon = -1.53385;
+		var d = 4;
+		var bbox = [[lat-d, lon-d],[lat+d, lon+d]];
+
+		this.map = L.map(this.el,{'layers':[baseMaps["Greyscale"]],'scrollWheelZoom':true,'editable': true,'zoomControl': true}).fitBounds(bbox);
 
 		return this;
 	};
@@ -115,6 +131,7 @@
 	EValuator.prototype.setLAD = function(id){
 		if(id && this.lookup.LAD[id]){
 			if(!this.lookup.LAD[id].MSOA){
+
 				fetch('data/LAD/'+id+'/'+id+'-msoas.tsv').then(response => {
 					if(!response.ok) throw new Error('Network response was not OK');
 					return response.text();
@@ -131,6 +148,7 @@
 				}).catch(error => {
 					console.error('There has been a problem with your fetch operation:', error);
 				});
+
 			}else{
 				this.log.info('Already loaded MSOAs for '+id);
 				this.postLAD(id);
@@ -144,9 +162,27 @@
 			this.log.error('No MSOAs defined for '+this.lookup.LAD[id].name+' ('+id+')');
 			return this;
 		}
+
 		this.LAD = id;
+
+		// Update the input field
 		this.input.setAttribute('placeholder',this.lookup.LAD[id].name);
 		this.input.value = "";
+
+
+		if(!this.lookup.LAD[id].geoJSON){
+			fetch('data/LAD/'+id+'/'+id+'.geojson').then(response => {
+				if(!response.ok) throw new Error('Network response was not OK');
+				return response.json();
+			}).then(data => {
+				this.lookup.LAD[id].geoJSON = data;
+				this.updateMap(id);
+			}).catch(error => {
+				console.error('There has been a problem with your fetch operation:', error);
+			});
+		}else{
+			this.updateMap(id);
+		}
 
 		list = '';
 		for(var m in this.lookup.LAD[this.LAD].MSOA){
@@ -160,6 +196,37 @@
 		}
 		el.innerHTML = list;
 		return this;
+	};
+
+	EValuator.prototype.updateMap = function(id){
+		
+		if(this.lookup.LAD[id].geoJSON){
+			if(this.LADlayer) this.map.removeLayer(this.LADlayer);
+
+console.log('here',id);
+
+			this.LADlayer = L.geoJSON(this.lookup.LAD[id].geoJSON, {
+				style: function (feature){
+					if(!feature.properties.style){
+						feature.properties.style = {
+							"color": "#2254F4",
+							"weight": 0.4,
+							"opacity": 0.65
+						}
+					}
+					return feature.properties && feature.properties.style;
+				},
+				onEachFeature: function(feature, layer) {
+					var popupContent = '<h2>'+feature.properties.msoa11hclnm+'</h2>';
+					if(feature.properties && feature.properties.popupContent) popupContent += feature.properties.popupContent;
+					layer.bindPopup(popupContent);
+				}
+			}).addTo(this.map);
+			
+			this.map.fitBounds(this.LADlayer.getBounds());
+		}else{
+			this.log.error('No GeoJSON for '+id);
+		}
 	};
 
 	EValuator.prototype.loadGeoJSON = function(key){

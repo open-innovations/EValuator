@@ -102,7 +102,12 @@ code .str, pre .str { color: #D73058; }
 
 h1 + * { margin-top: 1em; }
 
-input,select { line-height: 2em; padding: 0 0.25em; }
+input,select { line-height: 2em; padding: 0 0.25em; font-size: inherit; }
+
+.leaflet-popup { font-size: 1em; }
+.leaflet-popup-content { margin: 2em; }
+.leaflet-popup-content *:last-child { margin-bottom: 0; }
+.leaflet-popup-content-wrapper { border-radius: 0; }
 
 #map {
 	width: 100%;
@@ -122,5 +127,5 @@ input,select { line-height: 2em; padding: 0 0.25em; }
 .typeahead-results { width: 100%; z-index: 1000; }
 .typeahead-results ol { list-style: none; margin: 0px; padding: 0px; max-height: 20em; overflow-y: auto;  }
 .typeahead-results li > a { padding: 0.25em 0.5em; background: #efefef; text-decoration: none; display: block; color: inherit; line-height: 1.5em; }
-.typeahead-results li > a:hover, .typeahead-results li.selected > a:hover { background-color: #7dc5ea; color: black; }
+.typeahead-results li > a:hover, .typeahead-results li.selected > a:hover { background-color: #2254F4; color: white; }
 .typeahead-results li.selected > a { background-color: #444; color: white; }

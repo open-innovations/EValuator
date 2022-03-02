@@ -6,6 +6,7 @@ use Data::Dumper;
 $namefile = "raw/MSOA-Names-Latest.csv";
 $lookupfile = "raw/PCD_OA_LSOA_MSOA_LAD_NOV21_UK_LU.csv";
 $lookupdir = "www/data/";
+$boundarydir = "../geography-bits/data/MSOA11CD/";
 
 if(!-e $lookupfile){
 	print "WARNING: No lookup file exists at $lookupfile\n";
@@ -109,10 +110,33 @@ foreach $l (sort(keys(%lad))){
 close(LOOKUP);
 
 foreach $l (sort(keys(%lad))){
+	$geojson = "";
 	open(LADLOOKUP,">",$lookupdir."LAD/$l/$l-msoas.tsv");
 	@msoas = sort(keys(%{$lad{$l}{'msoas'}}));
 	for($m = 0; $m < @msoas; $m++){
 		print LADLOOKUP "$msoas[$m]\t$msoa{$msoas[$m]}{'name'}\n";
+		$mfile = $boundarydir.$msoas[$m].".geojsonl";
+		if(-e $mfile){
+			open(MSOA,$mfile);
+			@lines = <MSOA>;
+			close(MSOA);
+			$lines[0] =~ s/[\n\r]//g;
+			$lines[0] =~ s/(,"msoa11nm":"[^\"]*")/$1,"msoa11hclnm":"$msoa{$msoas[$m]}{'name'}"/g;
+			$geojson .= ($geojson ? ",\n":"").$lines[0];
+		}
 	}
 	close(LADLOOKUP);
+	$gfile = $lookupdir."LAD/$l/$l.geojson";
+	if($geojson){
+		open(LADGEO,">",$gfile);
+		print LADGEO "{\n";
+		print LADGEO "\"type\": \"FeatureCollection\",\n";
+		print LADGEO "\"features\":[\n";
+		print LADGEO $geojson."\n";
+		print LADGEO "]\n";
+		print LADGEO "}\n";
+		close(LADGEO);
+	}else{
+		print "WARNING: No GeoJSON for $l ($gfile)\n";
+	}
 }
