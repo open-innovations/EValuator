@@ -1,31 +1,31 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000464,0,0.00
-E02000465,0,0.01
-E02000466,0,0.00
-E02000467,0,0.00
-E02000468,0,0.00
-E02000469,0,0.00
-E02000470,0,0.05
-E02000471,0,0.01
-E02000472,0,0.00
-E02000473,0,0.00
-E02000474,0,0.00
-E02000475,0,0.01
-E02000476,0,0.01
-E02000477,0,0.00
-E02000478,0,0.00
-E02000479,0,0.01
-E02000480,0,0.02
-E02000481,0,0.00
-E02000482,0,0.00
-E02000483,0,0.01
-E02000484,0,0.00
-E02000485,0,0.01
-E02000486,0,0.01
-E02000487,0,0.00
-E02000488,0,0.01
-E02000489,0,0.00
-E02000490,0,0.00
-E02000491,0,0.04
-E02000492,0,0.00
-E02000493,0,0.02
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000464,"Dagnam Park & Noak Hill",0,0
+E02000465,"Petersfield Avenue & Duck Wood",0,2
+E02000466,"Havering-atte-Bower & Chase Cross",0,0
+E02000467,"Harold Hill East",0,0
+E02000468,"Collier Row & Park Farm",0,0
+E02000469,"Harold Hill West",0,0
+E02000470,"Harold Park & Harold Wood",0,9
+E02000471,"Rise Park",0,1
+E02000472,"Romford North",0,0
+E02000473,"Ardleigh Green",0,0
+E02000474,"Romford North West",0,0
+E02000475,"Gidea Park",0,1
+E02000476,"Central Romford",0,2
+E02000477,"Romford East",0,0
+E02000478,"Emerson Park",0,0
+E02000479,"Romford South",0,1
+E02000480,"Rush Green",0,3
+E02000481,"Cranham East",0,0
+E02000482,"Upminster North & Cranham West",0,0
+E02000483,"Hornchurch",0,1
+E02000484,"Hylands",0,0
+E02000485,"Upminster Bridge",0,1
+E02000486,"Elm Park East",0,1
+E02000487,"Upminster South & Corbets Tey",0,0
+E02000488,"Hacton",0,2
+E02000489,"Elm Park West",0,0
+E02000490,"South Hornchurch",0,0
+E02000491,"Hornchurch Marshes",0,7
+E02000492,"Rainham East & Wennington",0,0
+E02000493,"Rainham West",0,3

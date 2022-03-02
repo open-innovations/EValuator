@@ -1,26 +1,26 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000372,0,0.20
-E02000373,0,0.30
-E02000374,0,0.14
-E02000375,0,0.35
-E02000376,0,0.08
-E02000377,0,0.13
-E02000378,0,0.10
-E02000379,0,0.19
-E02000380,0,0.17
-E02000381,0,0.25
-E02000382,0,0.08
-E02000383,0,0.17
-E02000384,0,0.19
-E02000385,0,0.18
-E02000386,0,0.05
-E02000387,0,0.08
-E02000388,0,0.12
-E02000389,0,0.23
-E02000390,0,0.09
-E02000391,0,0.22
-E02000392,0,0.17
-E02000393,0,0.11
-E02000394,0,0.08
-E02000395,0,0.38
-E02000396,0,0.15
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000372,"Old Oak & Wormwood",0,34
+E02000373,"White City",0,51
+E02000374,"Wormholt Road",0,24
+E02000375,"Shepherd's Bush North",0,61
+E02000376,"Shepherd's Bush West",0,14
+E02000377,"Askew",0,22
+E02000378,"Shepherd's Bush South",0,17
+E02000379,"Ravenscourt Park North",0,32
+E02000380,"Brackenbury",0,30
+E02000381,"Brook Green",0,43
+E02000382,"Ravenscourt Park South",0,13
+E02000383,"West Kensington",0,30
+E02000384,"Hammersmith Broadway",0,32
+E02000385,"Barons Court",0,31
+E02000386,"North End",0,8
+E02000387,"Lillie Road & Greyhound Road",0,14
+E02000388,"Fulham Broadway",0,21
+E02000389,"Fulham Reach",0,39
+E02000390,"Fulham Aintree",0,15
+E02000391,"Parsons Green East & Eel Brook Common",0,38
+E02000392,"Parsons Green West",0,29
+E02000393,"Munster",0,19
+E02000394,"Sands End & Chelsea Harbour",0,14
+E02000395,"Fulham Palace & Hurlingham Park",0,65
+E02000396,"South Park",0,25

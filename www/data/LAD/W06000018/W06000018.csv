@@ -1,25 +1,25 @@
-MSOA,index-of-transport-accesibility,chargepoints
-W02000290,0,0.00
-W02000291,0,0.01
-W02000292,0,0.00
-W02000293,0,0.00
-W02000294,0,0.00
-W02000295,0,0.00
-W02000296,0,0.00
-W02000297,0,0.00
-W02000298,0,0.01
-W02000299,0,0.01
-W02000300,0,0.00
-W02000301,0,0.00
-W02000302,0,0.02
-W02000303,0,0.02
-W02000304,0,0.01
-W02000305,0,0.00
-W02000306,0,0.03
-W02000307,0,0.01
-W02000308,0,0.01
-W02000309,0,0.01
-W02000310,0,0.00
-W02000311,0,0.02
-W02000312,0,0.00
-W02000313,0,0.02
+MSOA,Name,index-of-transport-accesibility,chargepoints
+W02000290,"Rhymney",0,0
+W02000291,"New Tredegar & Darren Valley",0,1
+W02000292,"Aberbargoed & Gilfach",0,0
+W02000293,"Bargoed",0,0
+W02000294,"North Blackwood",0,0
+W02000295,"Oakdale & Pen-twyn",0,0
+W02000296,"Pengam & Cefn Fforest",0,0
+W02000297,"St Cattwg",0,0
+W02000298,"Blackwood",0,2
+W02000299,"Newbridge",0,2
+W02000300,"Pontllan-fraith",0,0
+W02000301,"Hengoed & Maesycwmer",0,0
+W02000302,"Ystrad Mynach & Nelson",0,4
+W02000303,"Crosskeys North & Abercarn",0,3
+W02000304,"Crosskeys South & Ynysddu",0,1
+W02000305,"Risca East",0,0
+W02000306,"Risca West",0,5
+W02000307,"Aber Valley",0,1
+W02000308,"Llanbradach & Penyrheol",0,1
+W02000309,"Bedwas & Trethomas",0,2
+W02000310,"Machen",0,0
+W02000311,"Caerphilly East",0,3
+W02000312,"Caerphilly West",0,0
+W02000313,"Caerphilly South",0,3

@@ -1,15 +1,15 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005795,0.172,0.00
-E02005796,0.501,0.00
-E02005797,0.199,0.00
-E02005798,0.049,0.01
-E02005799,0.133,0.01
-E02005800,0.067,0.00
-E02005801,0.09,0.00
-E02005802,0.092,0.00
-E02005803,0.139,0.01
-E02005804,0.122,0.01
-E02005805,0.113,0.00
-E02005806,0.139,0.00
-E02005807,0.199,0.00
-E02005808,0.079,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005795,"Whitby West",0.172,0
+E02005796,"Esk Valley & Runswick Coast",0.501,0
+E02005797,"Whitby South & East",0.199,0
+E02005798,"Burniston",0.049,2
+E02005799,"Newby & Scalby",0.133,1
+E02005800,"Scarborough Town & North Bay",0.067,0
+E02005801,"Barrowcliff & Northstead",0.09,0
+E02005802,"Scarborough Central",0.092,0
+E02005803,"Falsgrave",0.139,1
+E02005804,"Ramshill & South Cliff",0.122,2
+E02005805,"Wheatcroft & Cayton",0.113,0
+E02005806,"Eastfield",0.139,0
+E02005807,"Ayton & Snainton",0.199,0
+E02005808,"Filey & Hummanby",0.079,0

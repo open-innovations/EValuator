@@ -1,16 +1,16 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004909,0,0.00
-E02004910,0,0.01
-E02004911,0,0.00
-E02004912,0,0.02
-E02004913,0,0.01
-E02004914,0,0.02
-E02004915,0,0.00
-E02004916,0,0.02
-E02004917,0,0.00
-E02004918,0,0.00
-E02004919,0,0.00
-E02004920,0,0.03
-E02004921,0,0.01
-E02004922,0,0.02
-E02004923,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004909,"Royston North & Central",0,0
+E02004910,"Royston South",0,2
+E02004911,"Letchworth Grange",0,0
+E02004912,"Baldock",0,4
+E02004913,"Great Ashby",0,2
+E02004914,"Letchworth East",0,3
+E02004915,"Letchworth Wilbury",0,0
+E02004916,"Letchworth South West",0,3
+E02004917,"Letchworth South East",0,0
+E02004918,"Hitchin Bearton",0,0
+E02004919,"Hitchin Walsworth",0,0
+E02004920,"Hitchin Town & West",0,5
+E02004921,"Hitchin Highbury",0,1
+E02004922,"Ickleford",0,3
+E02004923,"Knebworth",0,0

@@ -1,17 +1,17 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005819,0,0.00
-E02005820,0,0.00
-E02005821,0,0.00
-E02005822,0,0.01
-E02005823,0,0.02
-E02005824,0,0.00
-E02005825,0,0.01
-E02005826,0,0.02
-E02005827,0,0.00
-E02005828,0,0.01
-E02005829,0,0.00
-E02005830,0,0.00
-E02005831,0,0.00
-E02005832,0,0.07
-E02005833,0,0.00
-E02005834,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005819,"Stanton Hill & Skegby",0,0
+E02005820,"The Dales & South Skegby",0,0
+E02005821,"Huthwaite",0,0
+E02005822,"Sutton Forest Side & New Cross",0,1
+E02005823,"Sutton Central & Leamington",0,4
+E02005824,"Sutton St Mary's & Ashfields",0,0
+E02005825,"East Kirkby",0,1
+E02005826,"Kirkby Central",0,4
+E02005827,"Kirkby Larwood & Kingsway",0,0
+E02005828,"Annesley & Kirkby Woodhouse",0,1
+E02005829,"Selston",0,0
+E02005830,"Jacksdale & Underwoood",0,0
+E02005831,"Hucknall North & East",0,0
+E02005832,"Hucknall Town",0,12
+E02005833,"West Hucknall",0,0
+E02005834,"Hucknall Westville",0,0

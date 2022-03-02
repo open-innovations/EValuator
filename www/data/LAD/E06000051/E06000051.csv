@@ -1,40 +1,40 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006008,0,0.01
-E02006009,0,0.01
-E02006010,0,0.01
-E02006011,0,0.00
-E02006012,0,0.01
-E02006013,0,0.00
-E02006014,0,0.00
-E02006015,0,0.01
-E02006016,0,0.00
-E02006017,0,0.01
-E02006018,0,0.01
-E02006019,0,0.00
-E02006020,0,0.00
-E02006021,0,0.00
-E02006022,0,0.01
-E02006023,0,0.00
-E02006024,0,0.01
-E02006025,0,0.01
-E02006026,0,0.00
-E02006027,0,0.01
-E02006028,0,0.00
-E02006029,0,0.01
-E02006030,0,0.01
-E02006031,0,0.01
-E02006032,0,0.00
-E02006033,0,0.00
-E02006034,0,0.01
-E02006035,0,0.00
-E02006036,0,0.02
-E02006037,0,0.00
-E02006038,0,0.01
-E02006039,0,0.00
-E02006040,0,0.00
-E02006041,0,0.00
-E02006042,0,0.02
-E02006043,0,0.00
-E02006044,0,0.01
-E02006045,0,0.01
-E02006046,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006008,"Shifnal",0,2
+E02006009,"Cosford & Albrighton",0,1
+E02006010,"Much Wenlock & Broseley",0,1
+E02006011,"Bridgnorth West",0,0
+E02006012,"Bridgnorth East",0,1
+E02006013,"Alveley",0,0
+E02006014,"Highley & Ditton Priors",0,0
+E02006015,"Whitchurch",0,1
+E02006016,"Woore",0,0
+E02006017,"Ellesmere",0,1
+E02006018,"Market Drayton",0,1
+E02006019,"Wem",0,0
+E02006020,"Hinstock & Hodnet",0,0
+E02006021,"Baschurch",0,0
+E02006022,"Shawbury & Weston",0,1
+E02006023,"Gobowen",0,0
+E02006024,"Oswestry East",0,2
+E02006025,"Oswestry West",0,1
+E02006026,"Ruyton-XI-Towns",0,0
+E02006027,"Trefonen & Pant",0,1
+E02006028,"Bomere Heath & Montford Bridge",0,0
+E02006029,"Shrewsbury Harlescott Grange",0,1
+E02006030,"Shrewsbury Harlescott & Sundorne",0,1
+E02006031,"Shrewsbury Greenfields",0,2
+E02006032,"Shrewsbury Monkmoor",0,0
+E02006033,"Shrewsbury Town",0,0
+E02006034,"Shrewsbury Copthorne & Bowbrook",0,2
+E02006035,"Shrewsbury London Road",0,0
+E02006036,"Shrewsbury Sutton & Coleham",0,4
+E02006037,"Shrewsbury Meole & Kingsland",0,0
+E02006038,"Bayston Hill & Atcham",0,1
+E02006039,"Hanwood",0,0
+E02006040,"Cressage",0,0
+E02006041,"Bishop's Castle",0,0
+E02006042,"Church Stretton",0,3
+E02006043,"Craven Arms & Broadstone",0,0
+E02006044,"Clun & Bucknell",0,1
+E02006045,"Ludlow Town",0,1
+E02006046,"Cleobury Mortimer",0,1

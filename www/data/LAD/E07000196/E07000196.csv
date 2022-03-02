@@ -1,15 +1,15 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006174,0,0.02
-E02006175,0,0.00
-E02006176,0,0.00
-E02006177,0,0.00
-E02006178,0,0.00
-E02006179,0,0.00
-E02006180,0,0.02
-E02006181,0,0.05
-E02006182,0,0.03
-E02006183,0,0.01
-E02006184,0,0.00
-E02006185,0,0.00
-E02006186,0,0.00
-E02006187,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006174,"Penkridge & Acton Trussell",0,3
+E02006175,"Huntington",0,0
+E02006176,"Brewood & Wheaton Aston",0,0
+E02006177,"Cheslyn Hay",0,0
+E02006178,"Great Wyrley",0,0
+E02006179,"Featherstone West",0,0
+E02006180,"Featherstone East & Essington",0,4
+E02006181,"Bilbrook",0,9
+E02006182,"Codsall",0,5
+E02006183,"Perton West & Pattingham",0,1
+E02006184,"Perton East",0,0
+E02006185,"Wombourne Inner",0,0
+E02006186,"Wombourne Outer",0,0
+E02006187,"Kinver",0,2

@@ -1,19 +1,19 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005940,0,0.01
-E02005941,0,0.02
-E02005942,0,0.04
-E02005943,0,0.00
-E02005944,0,0.00
-E02005945,0,0.03
-E02005946,0,0.01
-E02005947,0,0.06
-E02005948,0,0.03
-E02005949,0,0.00
-E02005950,0,0.02
-E02005951,0,0.01
-E02005952,0,0.01
-E02005953,0,0.01
-E02005954,0,0.00
-E02005955,0,0.06
-E02005956,0,0.02
-E02005957,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005940,"Wolvercote & Cutteslowe",0,2
+E02005941,"Summertown",0,4
+E02005942,"North Central Oxford",0,7
+E02005943,"Marston",0,0
+E02005944,"Barton",0,0
+E02005945,"Headington",0,6
+E02005946,"Risinghurst & Sandhills",0,1
+E02005947,"Oxford Central",0,11
+E02005948,"Osney",0,5
+E02005949,"Churchill",0,0
+E02005950,"East Central Oxford",0,4
+E02005951,"Grandpont & New Hinksey",0,1
+E02005952,"Cowley North",0,2
+E02005953,"Iffley Fields",0,1
+E02005954,"Cowley South & Iffley",0,0
+E02005955,"Littlemore & Rose Hill",0,11
+E02005956,"Blackbird Leys",0,3
+E02005957,"Greater Leys",0,1

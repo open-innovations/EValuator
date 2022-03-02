@@ -1,26 +1,26 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02001132,0.083,0.01
-E02001133,0.075,0.00
-E02001134,0.106,0.00
-E02001135,0.119,0.00
-E02001136,0.094,0.00
-E02001137,0.095,0.00
-E02001138,0.1,0.00
-E02001139,0.101,0.00
-E02001140,0.117,0.00
-E02001141,0.152,0.10
-E02001142,0.116,0.00
-E02001143,0.124,0.01
-E02001144,0.19,0.00
-E02001145,0.169,0.00
-E02001146,0.16,0.03
-E02001147,0.137,0.00
-E02001148,0.126,0.01
-E02001149,0.129,0.00
-E02001150,0.1,0.00
-E02001151,0.212,0.01
-E02001152,0.137,0.00
-E02001153,0.097,0.02
-E02001154,0.129,0.00
-E02001155,0.111,0.03
-E02001156,0.128,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02001132,"Littleborough North & Calderbook",0.083,1
+E02001133,"Littleborough West & Wardle",0.075,0
+E02001134,"Littleborough South & Smithy Bridge",0.106,0
+E02001135,"Hurstead & Smallbridge",0.119,0
+E02001136,"Healey",0.094,0
+E02001137,"Hooley Bridge & Norden West",0.095,0
+E02001138,"Norden East & Bagslate Moor",0.1,0
+E02001139,"Wardleworth & Newbold Brow",0.101,0
+E02001140,"Spotland Bridge",0.117,0
+E02001141,"Central Rochdale & Mandale Park",0.152,17
+E02001142,"Springfield Park",0.116,0
+E02001143,"Kingsway",0.124,1
+E02001144,"Milnrow West",0.19,0
+E02001145,"Milnrow East & Newhey",0.169,0
+E02001146,"Deeplish",0.16,6
+E02001147,"Balderstone & Kirkholt",0.137,0
+E02001148,"Castleton & Trub",0.126,2
+E02001149,"Heywood Town",0.129,0
+E02001150,"Heywood Heap Bridge & Darnhill",0.1,0
+E02001151,"Heywood Hopwood & Siddal Moor",0.212,2
+E02001152,"North Middleton & Stakehill",0.137,0
+E02001153,"Langley & Wood Side",0.097,3
+E02001154,"Middleton East",0.129,0
+E02001155,"Middleton Town & Rhodes",0.111,5
+E02001156,"Alkrington",0.128,0

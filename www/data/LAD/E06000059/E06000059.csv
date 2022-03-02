@@ -1,48 +1,48 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004243,0,0.00
-E02004244,0,0.00
-E02004245,0,0.01
-E02004246,0,0.01
-E02004247,0,0.01
-E02004248,0,0.01
-E02004249,0,0.00
-E02004250,0,0.01
-E02004251,0,0.00
-E02004252,0,0.02
-E02004253,0,0.00
-E02004254,0,0.00
-E02004255,0,0.01
-E02004256,0,0.00
-E02004257,0,0.02
-E02004258,0,0.00
-E02004259,0,0.00
-E02004260,0,0.01
-E02004261,0,0.01
-E02004262,0,0.00
-E02004263,0,0.01
-E02004264,0,0.00
-E02004265,0,0.00
-E02004266,0,0.00
-E02004267,0,0.01
-E02004268,0,0.03
-E02004269,0,0.01
-E02004270,0,0.00
-E02004271,0,0.00
-E02004272,0,0.00
-E02004273,0,0.05
-E02004274,0,0.00
-E02004275,0,0.00
-E02004276,0,0.03
-E02004277,0,0.06
-E02004278,0,0.01
-E02004279,0,0.00
-E02004280,0,0.01
-E02004281,0,0.00
-E02004282,0,0.01
-E02004283,0,0.05
-E02004284,0,0.03
-E02004285,0,0.00
-E02004286,0,0.00
-E02004287,0,0.01
-E02004288,0,0.01
-E02004289,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004243,"Alderholt & Sixpenny Handley",0,0
+E02004244,"East Verwood",0,0
+E02004245,"West Verwood",0,2
+E02004246,"St Leonards",0,2
+E02004247,"Sturminster Marshall & Crichel",0,2
+E02004248,"West Moors",0,1
+E02004249,"Colehill",0,0
+E02004250,"Ferndown Town",0,2
+E02004251,"Ferndown West & Canford Bottom",0,0
+E02004252,"Wimborne Minster",0,3
+E02004253,"Parley & Hampreston",0,0
+E02004254,"Corfe Mullen",0,0
+E02004255,"Gillingham",0,2
+E02004256,"Gillingham Outer",0,0
+E02004257,"Shaftesbury",0,3
+E02004258,"Sturminster Newton & Stalbridge",0,0
+E02004259,"Child Okeford & Iwerne Minster",0,0
+E02004260,"Blandford Outer & Tarrants",0,2
+E02004261,"Blandford Forum Town",0,2
+E02004262,"Milborne",0,0
+E02004263,"Bere Regis & Lytchett Matravers",0,1
+E02004264,"Upton & Lytchett Minster",0,0
+E02004265,"Wareham",0,0
+E02004266,"Bovington",0,0
+E02004267,"Corfe Castle & Langton Matravers",0,2
+E02004268,"Swanage",0,5
+E02004269,"Sherborne",0,2
+E02004270,"Yetminster",0,0
+E02004271,"Beaminster",0,0
+E02004272,"Charlton Down",0,0
+E02004273,"Lyme Regis",0,8
+E02004274,"Bridport North",0,0
+E02004275,"Burton Bradstock & Chideock",0,0
+E02004276,"Bridport South & West Bay",0,5
+E02004277,"Dorchester West & Poundbury",0,11
+E02004278,"Dorchester East",0,2
+E02004279,"Owermoigne",0,0
+E02004280,"Chickerell & Chesil Bank",0,1
+E02004281,"Broadwey & Littlemoor",0,0
+E02004282,"Preston & Lodmoor",0,1
+E02004283,"Westham North & Radipole",0,9
+E02004284,"Weymouth Town",0,5
+E02004285,"Westham South",0,0
+E02004286,"Weymouth West",0,0
+E02004287,"Wyke Regis",0,1
+E02004288,"Underhill & The Grove",0,1
+E02004289,"Southwell & Weston",0,2

@@ -1,21 +1,21 @@
-MSOA,index-of-transport-accesibility,chargepoints
-W02000058,0,0.00
-W02000059,0,0.01
-W02000060,0,0.01
-W02000061,0,0.00
-W02000062,0,0.00
-W02000063,0,0.00
-W02000064,0,0.00
-W02000065,0,0.00
-W02000066,0,0.00
-W02000067,0,0.00
-W02000068,0,0.00
-W02000069,0,0.00
-W02000070,0,0.01
-W02000071,0,0.01
-W02000072,0,0.02
-W02000073,0,0.01
-W02000074,0,0.00
-W02000075,0,0.00
-W02000076,0,0.00
-W02000077,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+W02000058,"Gronant",0,0
+W02000059,"Mostyn & Holway",0,1
+W02000060,"Holywell & Bagillt",0,2
+W02000061,"Flint North East",0,0
+W02000062,"Flint South West",0,0
+W02000063,"Caerwys",0,0
+W02000064,"Connah's Quay North",0,0
+W02000065,"Connah's Quay Wepre",0,0
+W02000066,"Shotton & Garden City",0,0
+W02000067,"Connah's Quay South & Northop Hall",0,0
+W02000068,"Queensferry & Sandycroft",0,0
+W02000069,"Buckley North",0,0
+W02000070,"Ewloe & Hawarden",0,1
+W02000071,"New Brighton & Mynyddisa",0,1
+W02000072,"Broughton & Saltney",0,3
+W02000073,"Mold",0,2
+W02000074,"Buckley South",0,0
+W02000075,"Pen-y-ffordd & Higher Kinnerton",0,0
+W02000076,"Leeswood",0,0
+W02000077,"Hope",0,0

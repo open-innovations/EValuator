@@ -1,16 +1,16 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006504,0,0.00
-E02006505,0,0.00
-E02006506,0,0.00
-E02006507,0,0.04
-E02006508,0,0.02
-E02006509,0,0.03
-E02006510,0,0.03
-E02006511,0,0.00
-E02006512,0,0.06
-E02006513,0,0.01
-E02006514,0,0.02
-E02006515,0,0.02
-E02006516,0,0.02
-E02006517,0,0.01
-E02006518,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006504,"Earlswood",0,0
+E02006505,"Henley-in-Arden & Claverdon",0,0
+E02006506,"Studley",0,0
+E02006507,"Southam",0,7
+E02006508,"Harbury",0,4
+E02006509,"Alcester",0,5
+E02006510,"Wilmcote & Great Alne",0,6
+E02006511,"Wellesbourne & Snitterfield",0,0
+E02006512,"Stratford North",0,10
+E02006513,"Stratford South East & Tiddington",0,1
+E02006514,"Stratford South West",0,4
+E02006515,"Bidford & Welford",0,3
+E02006516,"Kineton",0,4
+E02006517,"Lower Quinton & Ettington",0,1
+E02006518,"Shipston-on-Stour & Brailes",0,0

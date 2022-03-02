@@ -1,16 +1,16 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004600,0,0.01
-E02004601,0,0.01
-E02004602,0,0.00
-E02004603,0,0.01
-E02004604,0,0.00
-E02004605,0,0.00
-E02004606,0,0.02
-E02004607,0,0.01
-E02004608,0,0.01
-E02004609,0,0.01
-E02004610,0,0.00
-E02004611,0,0.01
-E02004612,0,0.00
-E02004613,0,0.01
-E02004614,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004600,"Swindon Village & Wyman's Brook",0,1
+E02004601,"Prestbury & Racecourse",0,2
+E02004602,"Springbank",0,0
+E02004603,"St Paul's",0,1
+E02004604,"Arle & Hesters Way",0,0
+E02004605,"Oakley",0,0
+E02004606,"Alstone & St Mark's",0,4
+E02004607,"Pittville & Fairview",0,1
+E02004608,"Lansdown & Montpellier",0,2
+E02004609,"Benhall & The Reddings",0,1
+E02004610,"The Park & Warden Hill",0,0
+E02004611,"Battledown & Charlton Kings",0,1
+E02004612,"Hatherley",0,0
+E02004613,"Charlton Park",0,1
+E02004614,"Leckhampton",0,0

@@ -1,21 +1,21 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005958,0,0.00
-E02005959,0,0.00
-E02005960,0,0.00
-E02005961,0,0.06
-E02005962,0,0.00
-E02005963,0,0.00
-E02005964,0,0.00
-E02005965,0,0.01
-E02005966,0,0.01
-E02005967,0,0.01
-E02005968,0,0.01
-E02005969,0,0.01
-E02005970,0,0.00
-E02005971,0,0.00
-E02005972,0,0.00
-E02005973,0,0.02
-E02005974,0,0.01
-E02005975,0,0.00
-E02005976,0,0.02
-E02005977,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005958,"Thame North",0,0
+E02005959,"Beckley & Horspath",0,0
+E02005960,"Thame South",0,0
+E02005961,"Wheatley & Great Haseley",0,10
+E02005962,"Chinnor & Tetsworth",0,0
+E02005963,"Berinsfield & Wittenham",0,0
+E02005964,"Chalgrove",0,0
+E02005965,"Watlington & Nettlebed",0,2
+E02005966,"Didcot Ladygrove",0,2
+E02005967,"Didcot West",0,2
+E02005968,"Benson & Crowmarsh Gifford",0,1
+E02005969,"Wallingford & Brightwell",0,2
+E02005970,"Didcot South East",0,0
+E02005971,"Didcot South West",0,0
+E02005972,"Hagbourne",0,0
+E02005973,"Henley North",0,3
+E02005974,"Henley South",0,2
+E02005975,"Goring",0,0
+E02005976,"Shiplake & Binfield Heath",0,3
+E02005977,"Sonning Common & Kidmore End",0,0

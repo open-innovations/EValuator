@@ -6,8 +6,9 @@
 		"src": "https://github.com/dringtech/index-of-transport-accesibility/raw/main/accessibility_index.csv"
 	},{
 		"id": "chargepoints",
-		"title": "Number of chargepoints",
-		"desc": "The number of chargepoints in the National Chargepoint Registry normalised to the MSOA with the most.",
-		"src": "layers/chargepoints.csv"
+		"title": "Existing chargepoints",
+		"desc": "The number of chargepoints in the National Chargepoint Registry.",
+		"src": "layers/chargepoints.csv",
+		"invert": true
 	}
 ]

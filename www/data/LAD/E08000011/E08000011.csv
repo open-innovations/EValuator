@@ -1,21 +1,21 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02001327,0.208,0.00
-E02001328,0.223,0.00
-E02001329,0.194,0.00
-E02001330,0.344,0.01
-E02001331,0.283,0.01
-E02001332,0.03,0.00
-E02001333,0.258,0.02
-E02001334,0.251,0.00
-E02001335,0.193,0.02
-E02001336,0.282,0.00
-E02001337,0.307,0.00
-E02001338,0.237,0.00
-E02001339,0.202,0.00
-E02001340,0.254,0.00
-E02001341,0.228,0.00
-E02001342,0.2,0.00
-E02001343,0.417,0.00
-E02001344,0.121,0.00
-E02001345,0.132,0.01
-E02001346,0.195,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02001327,"Kirkby North East",0.208,0
+E02001328,"Kirkby North West",0.223,0
+E02001329,"Kirkby South East",0.194,0
+E02001330,"Kirkby South West & Field Lane",0.344,1
+E02001331,"Knowsley Village & Southdene",0.283,2
+E02001332,"Stockbridge Village",0.03,0
+E02001333,"Prescot",0.258,3
+E02001334,"Page Moss & Fincham",0.251,0
+E02001335,"Whiston North",0.193,3
+E02001336,"Longview & Knowsley Park",0.282,0
+E02001337,"Mosscroft & Bakers Green",0.307,0
+E02001338,"Huyton Farm",0.237,0
+E02001339,"Whiston South",0.202,0
+E02001340,"Court Hey & Swanside",0.254,0
+E02001341,"Huyton East",0.228,0
+E02001342,"Huyton West & Roby",0.2,0
+E02001343,"Halsnead",0.417,0
+E02001344,"Halewood North",0.121,0
+E02001345,"Halewood Central",0.132,1
+E02001346,"Halewood South",0.195,0

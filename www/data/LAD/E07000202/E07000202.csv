@@ -1,17 +1,17 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006245,0,0.01
-E02006246,0,0.00
-E02006247,0,0.01
-E02006248,0,0.00
-E02006249,0,0.00
-E02006250,0,0.01
-E02006251,0,0.01
-E02006252,0,0.00
-E02006253,0,0.01
-E02006254,0,0.01
-E02006255,0,0.00
-E02006256,0,0.00
-E02006257,0,0.00
-E02006258,0,0.03
-E02006259,0,0.00
-E02006260,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006245,"Whitton",0,1
+E02006246,"Castle Hill",0,0
+E02006247,"Whitehouse",0,2
+E02006248,"Rushmere",0,0
+E02006249,"Christchurch Park",0,0
+E02006250,"Westgate",0,1
+E02006251,"Ipswich Central",0,2
+E02006252,"California",0,0
+E02006253,"Broke Hall",0,2
+E02006254,"Gipping & Chantry Park",0,2
+E02006255,"Holywells",0,0
+E02006256,"Maidenhall",0,0
+E02006257,"Belstead Hills",0,0
+E02006258,"Priory Heath",0,5
+E02006259,"Stoke Park",0,0
+E02006260,"Gainsborough",0,0

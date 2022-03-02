@@ -1,14 +1,14 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004843,0,0.00
-E02004844,0,0.00
-E02004845,0,0.02
-E02004846,0,0.01
-E02004847,0,0.00
-E02004848,0,0.00
-E02004849,0,0.00
-E02004850,0,0.01
-E02004851,0,0.01
-E02004852,0,0.04
-E02004853,0,0.02
-E02004854,0,0.00
-E02004855,0,0.03
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004843,"Hoddesdon Ware Road",0,0
+E02004844,"Rye Park",0,0
+E02004845,"Hoddesdon Town",0,4
+E02004846,"Broxbourne Town",0,1
+E02004847,"Wormley & Turnford",0,0
+E02004848,"Flamstead End",0,0
+E02004849,"Goffs Oak",0,0
+E02004850,"Cheshunt Coopers Walk",0,1
+E02004851,"Rosedale",0,1
+E02004852,"Cheshunt Central",0,7
+E02004853,"Churchgate",0,4
+E02004854,"Cheshunt South",0,0
+E02004855,"Waltham Cross Town",0,5

@@ -1,15 +1,15 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005319,0.05,0.02
-E02005320,0.055,0.00
-E02005321,0.066,0.00
-E02005322,0.163,0.00
-E02005323,0.09,0.00
-E02005324,0.194,0.02
-E02005325,0.213,0.01
-E02005326,0.118,0.01
-E02005327,0.201,0.00
-E02005328,0.15,0.01
-E02005329,0.119,0.00
-E02005330,0.117,0.00
-E02005331,0.164,0.01
-E02005332,0.162,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005319,"Fleetwood Town",0.05,4
+E02005320,"Fleetwood Warren",0.055,0
+E02005321,"Fleetwood Rossall & Chatsworth",0.066,0
+E02005322,"Preesall",0.163,0
+E02005323,"Fleetwood South East",0.09,0
+E02005324,"Bonds",0.194,4
+E02005325,"Garstang & Catterall",0.213,2
+E02005326,"Cleveleys West",0.118,2
+E02005327,"Pilling",0.201,0
+E02005328,"Cleveleys East",0.15,2
+E02005329,"Thornton West",0.119,0
+E02005330,"Thornton East & Carleton West",0.117,0
+E02005331,"Poulton North & Carleton East",0.164,2
+E02005332,"Poulton South",0.162,0

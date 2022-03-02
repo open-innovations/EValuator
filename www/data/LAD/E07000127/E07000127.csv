@@ -1,16 +1,16 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005304,0.109,0.00
-E02005305,0.146,0.01
-E02005306,0.261,0.00
-E02005307,0.177,0.01
-E02005308,0.211,0.01
-E02005309,0.249,0.01
-E02005310,0.249,0.11
-E02005311,0.296,0.00
-E02005312,0.258,0.00
-E02005313,0.257,0.01
-E02005314,0.161,0.04
-E02005315,0.273,0.00
-E02005316,0.179,0.00
-E02005317,0.168,0.00
-E02005318,0.226,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005304,"Hesketh Bank & Tarleton",0.109,0
+E02005305,"Rufford & Banks",0.146,2
+E02005306,"Scarisbrick",0.261,0
+E02005307,"Burscough",0.177,2
+E02005308,"Parbold",0.211,1
+E02005309,"Ormskirk North & West",0.249,1
+E02005310,"Ormskirk Town & East",0.249,19
+E02005311,"Bickerstaffe & Newburgh",0.296,0
+E02005312,"Skelmersdale Ashurst",0.258,0
+E02005313,"Skelmersdale Central",0.257,2
+E02005314,"Skelmersdale West",0.161,7
+E02005315,"Aughton",0.273,0
+E02005316,"Skelmersdale East",0.179,0
+E02005317,"Skelmersdale South East",0.168,0
+E02005318,"Upholland",0.226,2

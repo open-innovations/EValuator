@@ -1,34 +1,34 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02002149,0,0.01
-E02002150,0,0.00
-E02002151,0,0.00
-E02002152,0,0.00
-E02002153,0,0.00
-E02002154,0,0.00
-E02002155,0,0.00
-E02002156,0,0.01
-E02002157,0,0.01
-E02002158,0,0.00
-E02002159,0,0.00
-E02002160,0,0.00
-E02002161,0,0.01
-E02002162,0,0.00
-E02002163,0,0.00
-E02002164,0,0.02
-E02002165,0,0.01
-E02002166,0,0.01
-E02002167,0,0.01
-E02002168,0,0.04
-E02002169,0,0.00
-E02002170,0,0.00
-E02002171,0,0.00
-E02002174,0,0.00
-E02002175,0,0.00
-E02002176,0,0.00
-E02002177,0,0.00
-E02002178,0,0.00
-E02002179,0,0.00
-E02002180,0,0.00
-E02002181,0,0.01
-E02002182,0,0.00
-E02006894,0,0.04
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02002149,"Bushbury",0,1
+E02002150,"Fordhouses",0,0
+E02002151,"Pendeford",0,0
+E02002152,"Bushbury Hill",0,0
+E02002153,"Ashmore Park",0,0
+E02002154,"Oxley Park",0,0
+E02002155,"Low Hill",0,0
+E02002156,"Wood End",0,1
+E02002157,"Tettenhall North",0,1
+E02002158,"Wednesfield North East",0,0
+E02002159,"Park Lane",0,0
+E02002160,"Wednesfield Town",0,0
+E02002161,"Whitmore Reans & Dunstall Hill",0,1
+E02002162,"Tettenhall South",0,0
+E02002163,"Heath Town",0,0
+E02002164,"Waterloo Road",0,3
+E02002165,"West Park",0,1
+E02002166,"East Park",0,1
+E02002167,"Castlecroft",0,1
+E02002168,"Wolverhampton Central",0,7
+E02002169,"Compton & Merryhill North",0,0
+E02002170,"Bilston North West",0,0
+E02002171,"Bilston North East",0,0
+E02002174,"Bradmore",0,0
+E02002175,"Bilston Lunt & Loxdale",0,0
+E02002176,"Merryhill South",0,0
+E02002177,"Ettingshall",0,0
+E02002178,"Goldthorn Park",0,0
+E02002179,"Upper Penn",0,0
+E02002180,"Ettingshall Park",0,0
+E02002181,"Bradley",0,1
+E02002182,"Woodcross",0,0
+E02006894,"Blakenhall",0,7

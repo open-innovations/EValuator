@@ -1,6 +1,6 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02002863,0,0.03
-E02002864,0,0.01
-E02002865,0,0.01
-E02002866,0,0.01
-E02002867,0,0.03
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02002863,"Market Overton",0,6
+E02002864,"Oakham West",0,1
+E02002865,"Oakham East",0,2
+E02002866,"Ketton",0,1
+E02002867,"Uppingham",0,5

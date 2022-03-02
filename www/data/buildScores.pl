@@ -57,14 +57,15 @@ while (defined(my $name = readdir $dh)) {
 	@lines = <FILE>;
 	close(FILE);
 	open(OUT,">","$dir$name/$name.csv");
-	print OUT "MSOA";
+	print OUT "MSOA,Name";
 	for($h = 0; $h < @headers; $h++){
 		print OUT ",$headers[$h]";
 	}
 	print OUT "\n";
 	foreach $line (@lines){
+		$line =~ s/[\n\r]//g;
 		($m,$name) = split(/\t/,$line);
-		print OUT "$m";
+		print OUT "$m,\"$name\"";
 		for($h = 0; $h < @headers; $h++){
 			print OUT",".($msoa{$m}{$headers[$h]}||0);
 		}

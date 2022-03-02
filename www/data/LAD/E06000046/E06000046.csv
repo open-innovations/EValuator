@@ -1,19 +1,19 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02003581,0,0.01
-E02003582,0,0.00
-E02003583,0,0.00
-E02003584,0,0.00
-E02003585,0,0.01
-E02003586,0,0.00
-E02003587,0,0.00
-E02003588,0,0.01
-E02003589,0,0.01
-E02003590,0,0.02
-E02003591,0,0.00
-E02003592,0,0.01
-E02003593,0,0.00
-E02003594,0,0.02
-E02003595,0,0.01
-E02003596,0,0.00
-E02003597,0,0.00
-E02003598,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02003581,"Cowes Central",0,2
+E02003582,"Cowes West",0,0
+E02003583,"East Cowes & Osborne",0,0
+E02003584,"Ryde Central",0,0
+E02003585,"Binstead & Wootton",0,1
+E02003586,"Ryde West & Havenstreet",0,0
+E02003587,"Ryde South",0,0
+E02003588,"Newport East & Parkhurst East",0,2
+E02003589,"Newport Central & Parkhurst West",0,1
+E02003590,"Bembridge & Nettlestone",0,3
+E02003591,"Newport South & West",0,0
+E02003592,"Yarmouth & Freshwater",0,2
+E02003593,"Brighstone & Shalfleet",0,0
+E02003594,"Sandown & Brading",0,4
+E02003595,"Shanklin West & Newchurch",0,1
+E02003596,"Shanklin Central & Lake",0,0
+E02003597,"Niton",0,0
+E02003598,"Ventnor & Wroxall",0,1

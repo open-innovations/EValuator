@@ -1,8 +1,8 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006468,0,0.01
-E02006469,0,0.00
-E02006470,0,0.01
-E02006471,0,0.02
-E02006472,0,0.00
-E02006473,0,0.03
-E02006474,0,0.03
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006468,"Polesworth",0,1
+E02006469,"Dordon",0,0
+E02006470,"Atherstone",0,2
+E02006471,"Kingsbury & Curdworth",0,4
+E02006472,"Hartshill & Ansley",0,0
+E02006473,"Coleshill & Water Orton",0,6
+E02006474,"New Arley & Fillongley",0,6

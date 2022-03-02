@@ -1,15 +1,15 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005041,0,0.00
-E02005042,0,0.06
-E02005043,0,0.00
-E02005044,0,0.05
-E02005045,0,0.00
-E02005046,0,0.00
-E02005047,0,0.00
-E02005048,0,0.00
-E02005049,0,0.00
-E02005050,0,0.02
-E02005051,0,0.00
-E02005052,0,0.04
-E02005053,0,0.02
-E02005054,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005041,"Ash & Wingham",0,0
+E02005042,"Sandwich & Eastry",0,10
+E02005043,"Deal North & West",0,0
+E02005044,"Deal East",0,9
+E02005045,"Mill Hill",0,0
+E02005046,"Aylesham & Elvington",0,0
+E02005047,"Walmer",0,0
+E02005048,"Eythorne & Shepherdswell",0,0
+E02005049,"Kingsdown & St Margaret's-at-Cliffe",0,0
+E02005050,"Kearsney",0,3
+E02005051,"Buckland & St Radigunds",0,0
+E02005052,"Dover East",0,7
+E02005053,"Dover West",0,3
+E02005054,"Elms Vale & Capel-le-Ferne",0,0

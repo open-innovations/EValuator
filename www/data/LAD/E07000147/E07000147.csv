@@ -1,15 +1,15 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005570,0,0.03
-E02005571,0,0.03
-E02005572,0,0.03
-E02005573,0,0.02
-E02005574,0,0.01
-E02005575,0,0.02
-E02005576,0,0.01
-E02005577,0,0.00
-E02005578,0,0.01
-E02005579,0,0.03
-E02005580,0,0.03
-E02005581,0,0.01
-E02005582,0,0.01
-E02005583,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005570,"Sheringham",0,5
+E02005571,"Wells & Blakeney",0,5
+E02005572,"Cromer",0,6
+E02005573,"Holt & Weybourne",0,4
+E02005574,"Overstrand",0,2
+E02005575,"Beeston Regis",0,3
+E02005576,"Mundesley",0,2
+E02005577,"Melton Constable",0,0
+E02005578,"Walsingham & Raynham",0,2
+E02005579,"North Walsham",0,6
+E02005580,"Fakenham",0,6
+E02005581,"Felmingham",0,2
+E02005582,"Stalham & Sea Palling",0,2
+E02005583,"Hoveton",0,1

@@ -1,52 +1,52 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02003811,0.16,0.01
-E02003812,0.294,0.01
-E02003813,0.324,0.01
-E02003814,0.225,0.00
-E02003815,0.075,0.00
-E02003816,0.174,0.03
-E02003817,0.189,0.00
-E02003818,0.191,0.00
-E02003819,0.292,0.01
-E02003820,0.223,0.00
-E02003821,0.387,0.00
-E02003822,0.283,0.01
-E02003823,0.206,0.00
-E02003824,0.15,0.00
-E02003825,0.136,0.00
-E02003826,0.152,0.00
-E02003827,0.001,0.01
-E02003828,0.106,0.00
-E02003829,0.212,0.06
-E02003830,0.108,0.03
-E02003831,0.186,0.01
-E02003832,0.121,0.00
-E02003833,0.114,0.00
-E02003834,0.192,0.00
-E02003835,0.172,0.00
-E02003836,0.241,0.00
-E02003837,0.199,0.00
-E02003838,0.217,0.00
-E02003839,0.171,0.02
-E02003840,0.15,0.01
-E02003853,0.106,0.01
-E02003854,0.166,0.00
-E02003855,0.1,0.00
-E02003856,0.193,0.03
-E02003857,0.147,0.00
-E02003858,0.188,0.02
-E02003859,0.156,0.03
-E02003860,0.123,0.00
-E02003861,0.207,0.00
-E02003862,0.169,0.00
-E02003863,0.411,0.01
-E02003864,0.269,0.05
-E02003865,0.136,0.00
-E02003866,0.052,0.00
-E02003867,0.22,0.00
-E02003868,0.143,0.00
-E02003869,0.146,0.00
-E02003870,0.178,0.00
-E02003871,0.231,0.00
-E02003872,0,0.00
-E02003873,0.194,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02003811,"Cranage & Goostrey",0.16,2
+E02003812,"Holmes Chapel",0.294,1
+E02003813,"Middlewich West",0.324,1
+E02003814,"Middlewich East",0.225,0
+E02003815,"Buglawton",0.075,0
+E02003816,"Congleton Town",0.174,5
+E02003817,"Congleton West Heath",0.189,0
+E02003818,"Hightown",0.191,0
+E02003819,"Sandbach North",0.292,2
+E02003820,"Sandbach Ettiley Heath & Wheelock",0.223,0
+E02003821,"Sandbach Heath",0.387,0
+E02003822,"Scholar Green",0.283,2
+E02003823,"Alsager East",0.206,0
+E02003824,"Alsager West",0.15,0
+E02003825,"Crewe Leighton",0.136,0
+E02003826,"Crewe North East",0.152,0
+E02003827,"Crewe Coppenhall & Underwood",0.001,2
+E02003828,"Crewe North West",0.106,0
+E02003829,"Crewe Sydney & Gateway",0.212,10
+E02003830,"Crewe Town & Victoria Avenue",0.108,6
+E02003831,"Haslington & Weston",0.186,1
+E02003832,"Crewe Mill Street & College",0.121,0
+E02003833,"Wistaston Green",0.114,0
+E02003834,"Crewe Gresty Road",0.192,0
+E02003835,"Crewe South West & Wistaston",0.172,0
+E02003836,"Nantwich North East",0.241,0
+E02003837,"Nantwich South East & Wybunbury",0.199,0
+E02003838,"Willaston & Shavington",0.217,0
+E02003839,"Nantwich South West",0.171,3
+E02003840,"Audlem",0.15,1
+E02003853,"Disley & Lyme Park",0.106,2
+E02003854,"Poynton West",0.166,0
+E02003855,"Poynton East",0.1,0
+E02003856,"Handforth & Dean Row",0.193,6
+E02003857,"Lacey Green & Wilmslow Park",0.147,0
+E02003858,"Wilmslow Town",0.188,3
+E02003859,"Mobberley",0.156,5
+E02003860,"Fulshaw Park & Lindow",0.123,0
+E02003861,"Knutsford North",0.207,0
+E02003862,"Prestbury & Adlington",0.169,0
+E02003863,"South Knutsford & Bexton",0.411,2
+E02003864,"Alderley Edge & Chelford",0.269,8
+E02003865,"Bollington",0.136,0
+E02003866,"Macclesfield Tytherington",0.052,0
+E02003867,"Macclesfield Upton Priory & Greenside",0.22,0
+E02003868,"Macclesfield East & Hurdsfield",0.143,0
+E02003869,"Macclesfield Bollinbrook",0.146,0
+E02003870,"Central Macclesfield",0.178,0
+E02003871,"Macclesfield Weston",0.231,0
+E02003872,"Gawsworth & Macclesfield Forest",0,0
+E02003873,"Macclesfield South & Lyme Green",0.194,0

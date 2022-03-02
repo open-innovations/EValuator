@@ -1,16 +1,16 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006131,0,0.00
-E02006132,0,0.00
-E02006133,0,0.02
-E02006134,0,0.00
-E02006135,0,0.00
-E02006136,0,0.01
-E02006137,0,0.00
-E02006138,0,0.01
-E02006139,0,0.00
-E02006140,0,0.00
-E02006141,0,0.03
-E02006142,0,0.00
-E02006143,0,0.03
-E02006144,0,0.00
-E02006145,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006131,"Mayfield",0,0
+E02006132,"Uttoxeter Heath",0,0
+E02006133,"Uttoxeter Town",0,4
+E02006134,"Rolleston-on-Dove & Tutbury",0,0
+E02006135,"Burton Stretton",0,0
+E02006136,"Abbots Bromley",0,1
+E02006137,"Burton Horninglow",0,0
+E02006138,"Burton Eton Park",0,1
+E02006139,"Burton Shobnall",0,0
+E02006140,"Burton Winshill",0,0
+E02006141,"Burton Central",0,6
+E02006142,"Burton Brizlincote",0,0
+E02006143,"Branston",0,6
+E02006144,"Burton Stapenhill",0,0
+E02006145,"Barton-under-Needwood",0,0

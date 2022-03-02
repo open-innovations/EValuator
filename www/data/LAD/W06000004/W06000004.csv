@@ -1,16 +1,16 @@
-MSOA,index-of-transport-accesibility,chargepoints
-W02000042,0,0.00
-W02000043,0,0.00
-W02000044,0,0.00
-W02000045,0,0.00
-W02000047,0,0.01
-W02000049,0,0.00
-W02000050,0,0.02
-W02000051,0,0.01
-W02000052,0,0.01
-W02000053,0,0.00
-W02000054,0,0.00
-W02000055,0,0.00
-W02000056,0,0.02
-W02000057,0,0.00
-W02000419,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+W02000042,"Prestatyn North",0,0
+W02000043,"Prestatyn Central & East",0,0
+W02000044,"Prestatyn South",0,0
+W02000045,"Rhyl North",0,0
+W02000047,"Rhyl South West",0,1
+W02000049,"Dyserth & Tremeirchion",0,0
+W02000050,"Rhuddlan & Bodelwyddan",0,4
+W02000051,"St Asaph & Trefnant",0,2
+W02000052,"Denbigh West",0,1
+W02000053,"Denbigh East & Pentre Llanrhaeadr",0,0
+W02000054,"Llandyrnog & Llanarmon-yn-Iâl",0,0
+W02000055,"Ruthin",0,0
+W02000056,"Corwen",0,3
+W02000057,"Llangollen & Llandrillo",0,0
+W02000419,"Rhyl East",0,0

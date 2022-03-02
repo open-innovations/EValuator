@@ -1,21 +1,21 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02003616,0,0.00
-E02003617,0,0.00
-E02003618,0,0.00
-E02003619,0,0.01
-E02003620,0,0.00
-E02003621,0,0.00
-E02003622,0,0.01
-E02003623,0,0.00
-E02003624,0,0.07
-E02003625,0,0.08
-E02003626,0,0.01
-E02003627,0,0.12
-E02003628,0,0.03
-E02003629,0,0.01
-E02003630,0,0.05
-E02003631,0,0.01
-E02003632,0,0.01
-E02003633,0,0.00
-E02003634,0,0.01
-E02003635,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02003616,"Riseley & Sharnbrook",0,0
+E02003617,"Harrold",0,0
+E02003618,"Clapham",0,0
+E02003619,"Wyboston",0,1
+E02003620,"Brickhill",0,0
+E02003621,"Putnoe",0,0
+E02003622,"Goldington",0,1
+E02003623,"Bromham & Biddenham",0,0
+E02003624,"De Parys",0,12
+E02003625,"Harpur",0,14
+E02003626,"Newnham",0,2
+E02003627,"Castle & Kingsway",0,20
+E02003628,"Queens Park",0,5
+E02003629,"Kingsbrook",0,1
+E02003630,"Cauldwell",0,9
+E02003631,"Kempston North",0,1
+E02003632,"Kempston Central & East",0,1
+E02003633,"Kempston West & South",0,0
+E02003634,"Elstow",0,2
+E02003635,"Wootton & Stewartby",0,0

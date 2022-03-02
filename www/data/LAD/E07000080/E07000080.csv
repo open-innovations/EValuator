@@ -1,11 +1,11 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004626,0,0.00
-E02004627,0,0.00
-E02004628,0,0.00
-E02004629,0,0.00
-E02004630,0,0.00
-E02004631,0,0.01
-E02004632,0,0.01
-E02004633,0,0.01
-E02004634,0,0.02
-E02004635,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004626,"Dymock",0,0
+E02004627,"Newent",0,0
+E02004628,"Mitcheldean",0,0
+E02004629,"Cinderford",0,0
+E02004630,"Longhope",0,0
+E02004631,"Lydbrook",0,1
+E02004632,"Coleford",0,1
+E02004633,"Bream",0,1
+E02004634,"Lydney",0,3
+E02004635,"Tidenham & Woolaston",0,2

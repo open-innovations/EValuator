@@ -1,18 +1,18 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005115,0,0.01
-E02005116,0,0.01
-E02005117,0,0.00
-E02005118,0,0.00
-E02005119,0,0.00
-E02005120,0,0.00
-E02005121,0,0.00
-E02005122,0,0.01
-E02005123,0,0.00
-E02005124,0,0.04
-E02005125,0,0.00
-E02005126,0,0.00
-E02005127,0,0.01
-E02005128,0,0.00
-E02005129,0,0.02
-E02005130,0,0.00
-E02005131,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005115,"Sheerness East",0,2
+E02005116,"Sheerness West",0,2
+E02005117,"Minster North",0,0
+E02005118,"Minster South",0,0
+E02005119,"Queenborough",0,0
+E02005120,"Sheppey East",0,0
+E02005121,"Iwade & Kemsley",0,0
+E02005122,"Newington",0,1
+E02005123,"Borden & The Meads",0,0
+E02005124,"Sittingbourne Central & Milton Regis",0,7
+E02005125,"Sittingbourne East",0,0
+E02005126,"Sittingbourne West",0,0
+E02005127,"Sittingbourne South",0,1
+E02005128,"Faversham West",0,0
+E02005129,"Faversham East",0,3
+E02005130,"Teynham & Badlesmere",0,0
+E02005131,"Boughton & Selling",0,0

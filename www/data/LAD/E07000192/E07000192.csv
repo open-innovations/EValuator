@@ -1,14 +1,14 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006118,0,0.00
-E02006119,0,0.01
-E02006120,0,0.00
-E02006121,0,0.00
-E02006122,0,0.01
-E02006123,0,0.00
-E02006124,0,0.00
-E02006125,0,0.00
-E02006126,0,0.00
-E02006127,0,0.02
-E02006128,0,0.00
-E02006129,0,0.04
-E02006130,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006118,"Rugeley North & Etchinghill",0,0
+E02006119,"Rugeley Town",0,2
+E02006120,"Rugeley South & Brereton",0,0
+E02006121,"Hednesford Pye Green",0,0
+E02006122,"Hednesford Central",0,2
+E02006123,"Wimblebury & Cannock Wood",0,0
+E02006124,"Cannock North",0,0
+E02006125,"Cannock North East",0,0
+E02006126,"Hednesford South & Heath Hayes",0,0
+E02006127,"Hawks Green",0,3
+E02006128,"Cannock West & Mill Green",0,0
+E02006129,"Cannock South",0,7
+E02006130,"Norton Canes",0,2

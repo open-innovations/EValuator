@@ -57,8 +57,10 @@
 		this.el = el;
 		
 		this.lookup = {};
-		this.LADs = [];
+		this.scores = {};
 		this.LAD = "E08000035";
+		
+		
 		
 		// Get the LAD lookup
 		fetch('data/LAD.tsv').then(response => {
@@ -67,18 +69,28 @@
 		}).then(data => {
 			lines = data.split(/\n/);
 			lines.shift();
-			this.LADs = [];
 			this.lookup.LAD = {};
 			for(var i = 0; i < lines.length; i++){
 				if(lines[i][1]){
 					lines[i] = lines[i].split(/\t/);
 					if(lines[i].length == 2){
 						this.lookup.LAD[lines[i][0]] = {'name':lines[i][1]};
-						this.LADs.push({'id':lines[i][0],'name':lines[i][1]});
 					}
 				}
 			}
-			this.init();
+			
+				
+			fetch("data/layers.json").then(response => {
+				if(!response.ok) throw new Error('Network response was not OK');
+				return response.json();
+			}).then(data => {
+				this.layers = data;
+				this.init();
+			}).catch(error => {
+				console.error('There has been a problem with your fetch operation:', error);
+			});
+			
+			
 		}).catch(error => {
 			console.error('There has been a problem with your fetch operation:', error);
 		});
@@ -132,6 +144,7 @@
 		if(id && this.lookup.LAD[id]){
 			if(!this.lookup.LAD[id].MSOA){
 
+/*
 				fetch('data/LAD/'+id+'/'+id+'-msoas.tsv').then(response => {
 					if(!response.ok) throw new Error('Network response was not OK');
 					return response.text();
@@ -148,6 +161,30 @@
 				}).catch(error => {
 					console.error('There has been a problem with your fetch operation:', error);
 				});
+*/
+				fetch('data/LAD/'+id+'/'+id+'.csv').then(response => {
+					if(!response.ok) throw new Error('Network response was not OK');
+					return response.text();
+				}).then(data => {
+					lines = data.split(/\n/);
+					this.lookup.LAD[id].MSOA = {};
+					header = lines[0].split(/,/);
+					for(var i = 1; i < lines.length; i++){
+						if(lines[i][1]){
+							lines[i] = lines[i].split(/\,/);
+							this.lookup.LAD[id].MSOA[lines[i][0]] = {'name':lines[i][1].replace(/(^\"|\"$)/g,"")};
+							for(h = 2; h < header.length; h++){
+								if(!this.scores[lines[i][0]]) this.scores[lines[i][0]] = {};
+								this.scores[lines[i][0]][header[h]] = parseFloat(lines[i][h]);
+							}
+						}
+					}
+
+					this.postLAD(id);
+				}).catch(error => {
+					console.error('There has been a problem with your fetch operation:', error);
+				});
+
 
 			}else{
 				this.log.info('Already loaded MSOAs for '+id);
@@ -170,6 +207,41 @@
 		this.input.value = "";
 
 
+
+		// Find the min/max for each layers
+		for(var l = 0; l < this.layers.length; l++){
+			min = 1e100;
+			max = -1e100;
+			// Loop over the MSOAs in this LAD
+			for(msoa in this.lookup.LAD[id].MSOA){
+				if(typeof this.scores[msoa][this.layers[l].id]==="number"){
+					min = Math.min(this.scores[msoa][this.layers[l].id],min);
+					max = Math.max(this.scores[msoa][this.layers[l].id],max);
+				}else{
+					this.log.warning('No score for '+this.layers[l].id+' for '+msoa);
+				}
+			}
+			this.layers[l].min = min;
+			this.layers[l].max = max;
+			this.layers[l].range = max - min;
+			this.layers[l].weight = 1;
+		}
+		
+		var weight = 0;
+		for(var l = 0; l < this.layers.length; l++) weight += this.layers[l].weight;
+
+		for(msoa in this.lookup.LAD[id].MSOA){
+			this.scores[msoa].total = 0;
+			for(var l = 0; l < this.layers.length; l++){
+				if(this.layers[l].invert){
+					this.scores[msoa].total += 1 - (this.layers[l].weight)*(this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range;
+				}else{
+					this.scores[msoa].total += (this.layers[l].weight)*(this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range;
+				}
+			}
+			this.scores[msoa].total = this.scores[msoa].total/weight;
+		}
+
 		if(!this.lookup.LAD[id].geoJSON){
 			fetch('data/LAD/'+id+'/'+id+'.geojson').then(response => {
 				if(!response.ok) throw new Error('Network response was not OK');
@@ -184,9 +256,30 @@
 			this.updateMap(id);
 		}
 
-		list = '';
-		for(var m in this.lookup.LAD[this.LAD].MSOA){
-			list += '<li>'+m+' - '+this.lookup.LAD[this.LAD].MSOA[m].name+'</li>';
+
+		totals = [];
+		for(var msoa in this.lookup.LAD[this.LAD].MSOA){
+			totals.push([msoa,this.scores[msoa].total]);
+		}
+		totals.sort(function(a, b) {
+			return b[1] - a[1];
+		});
+
+		list = '<tr><th>MSOA</th><th>Name</th>';
+		for(var l = 0; l < this.layers.length; l++){
+			list += '<th>'+this.layers[l].title+'</th>';
+		}
+		list += '<th>Total</th>';
+		list += '</tr>';
+		for(var t = 0; t < totals.length; t++){
+			msoa = totals[t][0];
+			list += '<tr><td>'+msoa+'</td>';
+			list += '<td>'+this.lookup.LAD[this.LAD].MSOA[msoa].name+'</td>';
+			for(var l = 0; l < this.layers.length; l++){
+				list += '<td>'+this.scores[msoa][this.layers[l].id]+'</td>';
+			}
+			list += '<td>'+this.scores[msoa].total.toFixed(2)+'</td>';
+			list += '</tr>';
 		}
 		el = document.getElementById('MSOAs');
 		if(!el){
@@ -194,7 +287,7 @@
 			el.id = 'MSOAs';
 			this.el.appendChild(el);
 		}
-		el.innerHTML = list;
+		el.innerHTML = '<table>'+list+'</table>';
 		return this;
 	};
 
@@ -203,18 +296,20 @@
 		if(this.lookup.LAD[id].geoJSON){
 			if(this.LADlayer) this.map.removeLayer(this.LADlayer);
 
-console.log('here',id);
+			var weight = 0;
+			for(var l = 0; l < this.layers.length; l++) weight += this.layers[l].weight;
 
+			var _obj = this;
 			this.LADlayer = L.geoJSON(this.lookup.LAD[id].geoJSON, {
 				style: function (feature){
-					if(!feature.properties.style){
-						feature.properties.style = {
-							"color": "#2254F4",
-							"weight": 0.4,
-							"opacity": 0.65
-						}
+					msoa = feature.properties['msoa11cd'];
+					v = _obj.scores[msoa].total||0;
+					return {
+						"color": "#2254F4",
+						"weight": 0.4,
+						"opacity": 0.5,
+						"fillOpacity": v
 					}
-					return feature.properties && feature.properties.style;
 				},
 				onEachFeature: function(feature, layer) {
 					var popupContent = '<h2>'+feature.properties.msoa11hclnm+'</h2>';
@@ -228,115 +323,6 @@ console.log('here',id);
 			this.log.error('No GeoJSON for '+id);
 		}
 	};
-
-	EValuator.prototype.loadGeoJSON = function(key){
-
-		var color = this.maplayers[key].color||'black';
-		var defaulttitle = this.maplayers[key].popuptitle||'?';
-		
-		fetch(this.maplayers[key].file).then(response => {
-			if(!response.ok) throw new Error('Network response was not OK');
-			return response.json();
-		}).then(data => {
-
-			for(var f = data.features.length-1 ; f >= 0; f--){
-				// Remove points
-				if(data.features[f].geometry.type=="Point"){
-					data.features.splice(f,1);
-				}
-			}
-			this.maplayers[key].data = data;
-
-			if(this.mapper && this.mapper.map){
-				
-				var _obj = this;
-				
-				L.geoJSON(data, {
-					style: function (feature) {
-						return {color: color};
-					}
-				}).bindPopup(function (layer){
-					g = layer.feature.geometry;
-					p = layer.feature.properties;
-					p.centroid = layer.getBounds().getCenter();
-					popup = "";
-
-					if(p){
-						// If this feature has a default popup
-						// Convert "other_tags" e.g "\"ele:msl\"=>\"105.8\",\"ele:source\"=>\"GPS\",\"material\"=>\"stone\""
-						if(p.other_tags){
-							tags = p.other_tags.split(/,/);
-							for(var t = 0; t < tags.length; t++){
-								tags[t] = tags[t].replace(/\"/g,"");
-								bits = tags[t].split(/\=\>/);
-								if(bits.length == 2){
-									if(!p[bits[0]]) p[bits[0]] = bits[1];
-								}
-							}
-						}
-
-
-						var title = defaulttitle;
-						if(p.title || p.name || p.Name) title = (p.title || p.name || p.Name);
-						popup += '<h3>'+(title)+'</h3>';
-						var added = 0;
-						for(var f in p){
-							if(f != "Name" && f!="name" && f!="title" && f!="other_tags" && (typeof p[f]==="number" || (typeof p[f]==="string" && p[f].length > 0))){
-								popup += (added > 0 ? '<br />':'')+'<strong>'+f+':</strong> '+(typeof p[f]==="string" && p[f].indexOf("http")==0 ? '<a href="'+p[f]+'" target="_blank">'+p[f]+'</a>' : p[f])+'';
-								added++;
-							}
-						}
-						popup += '<p class="footer">Something not quite right? <a href="http://www.openstreetmap.org/edit?pk_campaign=open-innovations-edit'+(g.type == "Point" ? '&node={{osm_id}}':'')+(g.type == "Polygon" ? '&way={{osm_way_id}}' : '')+(g.type == "MultiPolygon" ? '&way={{osm_way_id}}' : '')+'#map=17/{{Latitude}}/{{Longitude}}" target="_osm">Help improve the data on OpenStreetMap</a>.</p>';
-
-						// Loop over properties and replace anything
-						for(var f in p){
-							if(p[f]){
-								while(popup.indexOf("{{"+f+"}}") >= 0){
-									popup = popup.replace("{{"+f+"}}",p[f] || "?");
-								}
-							}
-						}
-						popup = popup.replace(/{{Latitude}}/g,(p.centroid ? p.centroid.lat : (g.coordinates ? g.coordinates[1] : '')));
-						popup = popup.replace(/{{Longitude}}/g,(p.centroid ? p.centroid.lng : (g.coordinates ? g.coordinates[0] : '')));
-						popup = popup.replace(/{{Zoom}}/g,_obj.mapper.map.getZoom()||18);
-						popup = popup.replace(/{{type}}/g,g.type.toLowerCase());
-					}
-
-					return popup;
-				}).addTo(this.mapper.map);
-				this.updateCredits();
-			}
-			
-		}).catch(error => {
-			console.error('There has been a problem with your fetch operation:', error);
-		});
-		return this;
-	}
-
-	EValuator.prototype.loadCSVFile = function(key,cb){
-		
-		var _obj = this;
-		
-		fetch(this.maplayers[key].file).then(response => {
-			if(!response.ok) throw new Error('Network response was not OK');
-			return response.text();
-		}).then(txt => {
-			lines = txt.split(/\n/);
-			rows = [];
-			for(var r = 1; r < lines.length; r++){
-				row = lines[r].split(/\,/);
-				if(row[0]) rows.push(_obj.maplayers[key].parserow.call(this,row)||{'id':row[0]});
-			}
-			this.maplayers[key].data = rows;
-			if(typeof cb==="function") cb.call(this,key);
-			this.updateCredits();
-		}).catch(error => {
-			console.error('There has been a problem with your fetch operation:', error);
-		});
-
-		return this;
-	}
-	
 
 
 

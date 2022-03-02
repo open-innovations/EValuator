@@ -1,14 +1,14 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004105,0,0.00
-E02004106,0,0.00
-E02004108,0,0.01
-E02004109,0,0.00
-E02004110,0,0.00
-E02004111,0,0.00
-E02004112,0,0.00
-E02004113,0,0.00
-E02004114,0,0.00
-E02004115,0,0.00
-E02004116,0,0.03
-E02004117,0,0.00
-E02006804,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004105,"Killamarsh",0,0
+E02004106,"Eckington West & Coal Aston",0,0
+E02004108,"Dronfield Town & Unstone",0,1
+E02004109,"Dronfield Woodhouse & Holmesfield",0,0
+E02004110,"Dronfield South & Gosforth Lane",0,0
+E02004111,"Arkwright Town & Temple Normanton",0,0
+E02004112,"Wingerworth & Holymoorside",0,0
+E02004113,"Grassmoor & Holmewood",0,0
+E02004114,"Ashover & New Tupton",0,0
+E02004115,"North Wingfield & Pilsley",0,0
+E02004116,"Clay Cross",0,6
+E02004117,"Stonebroom",0,0
+E02006804,"Eckington East & Renishaw",0,0

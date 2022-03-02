@@ -1,16 +1,16 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004651,0,0.02
-E02004652,0,0.00
-E02004653,0,0.00
-E02004654,0,0.00
-E02004655,0,0.01
-E02004656,0,0.03
-E02004657,0,0.00
-E02004658,0,0.00
-E02004659,0,0.00
-E02004660,0,0.00
-E02004661,0,0.01
-E02004662,0,0.04
-E02004663,0,0.02
-E02004664,0,0.00
-E02004665,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004651,"Upton St Leonards & Hardwicke",0,4
+E02004652,"Painswick",0,0
+E02004653,"Frampton",0,0
+E02004654,"Ebley & Randwick",0,0
+E02004655,"Stonehouse",0,1
+E02004656,"Stroud Town",0,6
+E02004657,"Rodborough & Thrupp",0,0
+E02004658,"Chalford & Bussage",0,0
+E02004659,"Leonard Stanley & Uley",0,0
+E02004660,"Minchinhampton & Amberley",0,0
+E02004661,"Cam",0,2
+E02004662,"Berkeley & Sharpness",0,7
+E02004663,"Nailsworth",0,3
+E02004664,"Dursley",0,0
+E02004665,"Wotton-under-Edge & Kingswood",0,1

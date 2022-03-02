@@ -1,20 +1,20 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006099,0,0.00
-E02006100,0,0.00
-E02006101,0,0.01
-E02006102,0,0.01
-E02006103,0,0.01
-E02006104,0,0.01
-E02006105,0,0.01
-E02006106,0,0.00
-E02006107,0,0.00
-E02006108,0,0.01
-E02006109,0,0.01
-E02006110,0,0.00
-E02006111,0,0.01
-E02006112,0,0.02
-E02006113,0,0.01
-E02006114,0,0.01
-E02006115,0,0.00
-E02006116,0,0.00
-E02006117,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006099,"Bishops Lydeard & Cotford St Luke",0,0
+E02006100,"Taunton Rowbarton & Kingston",0,0
+E02006101,"Wiveliscombe & Milverton",0,1
+E02006102,"Taunton Pyrland & Priorswood",0,2
+E02006103,"Ruishton & North Curry",0,2
+E02006104,"Taunton Halcon & Monkton Heathfield",0,1
+E02006105,"Taunton North Town",0,1
+E02006106,"Bishop's Hull & Norton Fitzwarren",0,0
+E02006107,"Taunton Holway & Lambrook",0,0
+E02006108,"Taunton Wilton",0,2
+E02006109,"Taunton Galmington & Trull",0,2
+E02006110,"Wellington North",0,0
+E02006111,"Wellington South",0,1
+E02006112,"Dowslands & Blackdown",0,3
+E02006113,"Minehead Town",0,1
+E02006114,"Minehead Outer & Porlock",0,2
+E02006115,"Watchet",0,0
+E02006116,"Williton",0,0
+E02006117,"Dunster",0,0

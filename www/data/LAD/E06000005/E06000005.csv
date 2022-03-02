@@ -1,16 +1,16 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02002559,0.004,0.03
-E02002560,0.197,0.00
-E02002561,0.226,0.00
-E02002562,0.111,0.01
-E02002563,0.264,0.00
-E02002564,0.245,0.00
-E02002565,0.213,0.00
-E02002566,0.163,0.11
-E02002567,0.195,0.06
-E02002568,0.244,0.00
-E02002569,0.17,0.00
-E02002570,0.251,0.00
-E02002571,0.249,0.00
-E02002572,0.307,0.00
-E02002573,0.281,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02002559,"Faverdale",0.004,6
+E02002560,"Harrowgate Hill",0.197,0
+E02002561,"Whinfield",0.226,0
+E02002562,"Rise Carr",0.111,1
+E02002563,"Haughton Le Skerne",0.264,0
+E02002564,"Cockerton & Hopetown",0.245,0
+E02002565,"Pierremont",0.213,0
+E02002566,"Central Darlington",0.163,19
+E02002567,"Albert Hill & Red Hall",0.195,10
+E02002568,"College & Park West",0.244,0
+E02002569,"Hummersknott",0.17,0
+E02002570,"Bank Top",0.251,0
+E02002571,"Firthmoor",0.249,0
+E02002572,"Park East",0.307,0
+E02002573,"Middleton & Hurworth",0.281,0

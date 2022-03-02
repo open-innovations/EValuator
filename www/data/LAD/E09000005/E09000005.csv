@@ -1,35 +1,35 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000093,0,0.03
-E02000094,0,0.02
-E02000095,0,0.01
-E02000096,0,0.02
-E02000097,0,0.01
-E02000098,0,0.01
-E02000099,0,0.01
-E02000100,0,0.00
-E02000101,0,0.02
-E02000102,0,0.00
-E02000103,0,0.01
-E02000104,0,0.00
-E02000105,0,0.01
-E02000106,0,0.01
-E02000107,0,0.06
-E02000108,0,0.00
-E02000109,0,0.01
-E02000110,0,0.06
-E02000111,0,0.00
-E02000112,0,0.08
-E02000113,0,0.03
-E02000114,0,0.02
-E02000115,0,0.03
-E02000116,0,0.03
-E02000117,0,0.02
-E02000118,0,0.00
-E02000119,0,0.01
-E02000120,0,0.16
-E02000121,0,0.02
-E02000122,0,0.03
-E02000123,0,0.06
-E02000124,0,0.13
-E02000125,0,0.12
-E02000126,0,0.03
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000093,"Queensbury South",0,6
+E02000094,"Kingsbury East & Colindale",0,3
+E02000095,"Kingsbury West",0,2
+E02000096,"Kenton Woodcock Park",0,3
+E02000097,"Kingsbury South",0,2
+E02000098,"Barnhill The Avenue",0,1
+E02000099,"Preston Park & East Lane",0,2
+E02000100,"Northwick Park",0,0
+E02000101,"Forty Lane",0,4
+E02000102,"Welsh Harp",0,0
+E02000103,"Dollis Hill",0,2
+E02000104,"Wembley North",0,0
+E02000105,"Sudbury East",0,1
+E02000106,"Neasden",0,1
+E02000107,"Cricklewood Anson Road",0,10
+E02000108,"Sudbury West",0,0
+E02000109,"Tokyngton",0,2
+E02000110,"Dudden Hill",0,10
+E02000111,"Wembley West",0,0
+E02000112,"Wembley East",0,13
+E02000113,"St Raphaels",0,6
+E02000114,"Willesden Green",0,4
+E02000115,"Brondesbury",0,6
+E02000116,"Roundwood Park",0,6
+E02000117,"Church End",0,3
+E02000118,"Alperton East",0,0
+E02000119,"Stonebridge",0,2
+E02000120,"Kilburn West",0,27
+E02000121,"Alperton West",0,3
+E02000122,"Brondesbury Park",0,5
+E02000123,"Harlesden",0,10
+E02000124,"Queens Park",0,23
+E02000125,"Kensal Green",0,20
+E02000126,"Kilburn Park",0,6

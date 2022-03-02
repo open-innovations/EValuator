@@ -1,37 +1,37 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000397,0,0.01
-E02000398,0,0.01
-E02000400,0,0.02
-E02000401,0,0.01
-E02000402,0,0.01
-E02000403,0,0.01
-E02000404,0,0.02
-E02000405,0,0.01
-E02000406,0,0.00
-E02000407,0,0.00
-E02000408,0,0.02
-E02000409,0,0.02
-E02000410,0,0.02
-E02000411,0,0.00
-E02000412,0,0.07
-E02000413,0,0.00
-E02000414,0,0.00
-E02000415,0,0.02
-E02000416,0,0.00
-E02000417,0,0.05
-E02000418,0,0.03
-E02000419,0,0.02
-E02000420,0,0.06
-E02000421,0,0.02
-E02000422,0,0.00
-E02000423,0,0.01
-E02000424,0,0.00
-E02000425,0,0.01
-E02000426,0,0.01
-E02000427,0,0.00
-E02000428,0,0.01
-E02000429,0,0.04
-E02000430,0,0.02
-E02000431,0,0.02
-E02000432,0,0.02
-E02006794,0,0.10
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000397,"Bowes Park",0,2
+E02000398,"Northumberland Park",0,1
+E02000400,"Bounds Green",0,3
+E02000401,"Roundway",0,2
+E02000402,"Tottenham Bruce Castle Park",0,1
+E02000403,"Wood Green North",0,2
+E02000404,"Scotch Estate",0,3
+E02000405,"Alexandra Park",0,2
+E02000406,"Noel Park",0,0
+E02000407,"Bruce Grove North",0,0
+E02000408,"Tottenham North West",0,4
+E02000409,"Lordship Lane & Broadwater Farm",0,4
+E02000410,"Muswell Hill North",0,3
+E02000411,"Tottenham Lea Valley",0,0
+E02000412,"Wood Green South",0,12
+E02000413,"Fortis Green & Coldfall",0,0
+E02000414,"Bruce Grove South",0,0
+E02000415,"Downhills Park",0,4
+E02000416,"Hornsey East",0,0
+E02000417,"Muswell Hill South",0,8
+E02000418,"Hornsey West",0,5
+E02000419,"Harringay Ladder North",0,3
+E02000420,"Tottenham Green West",0,10
+E02000421,"Tottenham Green East",0,4
+E02000422,"West Green & St Ann's",0,0
+E02000423,"Harringay East",0,2
+E02000424,"Hornsey Vale",0,0
+E02000425,"South Tottenham",0,1
+E02000426,"Highgate Wood",0,1
+E02000427,"Harringay Ladder South",0,0
+E02000428,"Harringay Warehouse District & Vartry",0,2
+E02000429,"Crouch End West",0,7
+E02000430,"Crouch End East",0,3
+E02000431,"Highgate East",0,3
+E02000432,"Stroud Green",0,3
+E02006794,"White Hart Lane",0,17

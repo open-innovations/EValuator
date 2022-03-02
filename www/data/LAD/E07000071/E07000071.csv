@@ -1,21 +1,21 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004506,0,0.01
-E02004507,0,0.00
-E02004508,0,0.00
-E02004509,0,0.05
-E02004512,0,0.00
-E02004513,0,0.01
-E02004514,0,0.00
-E02004515,0,0.00
-E02004516,0,0.02
-E02004517,0,0.03
-E02004518,0,0.01
-E02004519,0,0.00
-E02004520,0,0.00
-E02004521,0,0.00
-E02004522,0,0.00
-E02004523,0,0.00
-E02004524,0,0.00
-E02004525,0,0.00
-E02004526,0,0.00
-E02006922,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004506,"Horkesley Heath",0,1
+E02004507,"Highwoods",0,0
+E02004508,"West Bergholt & Wormingford",0,0
+E02004509,"Mile End & Braiswick",0,8
+E02004512,"Central Colchester",0,0
+E02004513,"Greenstead",0,2
+E02004514,"Lexden",0,0
+E02004515,"Marks Tey & Wakes Colne",0,0
+E02004516,"New Town & Hythe",0,3
+E02004517,"Stanway",0,5
+E02004518,"Abbey Field",0,2
+E02004519,"Prettygate & Westlands",0,0
+E02004520,"Shrub End",0,0
+E02004521,"Old Heath & Rowhedge",0,0
+E02004522,"Wivenhoe & University",0,0
+E02004523,"Monkwick",0,0
+E02004524,"Layer-de-la-Haye",0,0
+E02004525,"Tiptree",0,0
+E02004526,"West Mersea",0,0
+E02006922,"Parson's Heath",0,2

@@ -1,34 +1,34 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000807,0,0.02
-E02000808,0,0.10
-E02000809,0,0.06
-E02000810,0,0.11
-E02000812,0,0.10
-E02000813,0,0.10
-E02000814,0,0.03
-E02000815,0,0.02
-E02000816,0,0.05
-E02000817,0,0.02
-E02000818,0,0.06
-E02000819,0,0.01
-E02000820,0,0.09
-E02000821,0,0.05
-E02000822,0,0.03
-E02000823,0,0.02
-E02000824,0,0.03
-E02000825,0,0.02
-E02000826,0,0.06
-E02000827,0,0.09
-E02000828,0,0.05
-E02000829,0,0.07
-E02000830,0,0.13
-E02000831,0,0.05
-E02000832,0,0.07
-E02000833,0,0.04
-E02000834,0,0.16
-E02000835,0,0.07
-E02000836,0,0.20
-E02000837,0,0.26
-E02000838,0,0.05
-E02000839,0,0.04
-E02006802,0,0.06
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000807,"Rotherhithe",0,4
+E02000808,"Borough & Southwark Street",0,18
+E02000809,"Bermondsey North",0,10
+E02000810,"Bermondsey East",0,19
+E02000812,"London Bridge & Bermondsey West",0,17
+E02000813,"Canada Water",0,17
+E02000814,"Surrey Quays",0,6
+E02000815,"Elephant & Castle",0,4
+E02000816,"South Bermondsey Central",0,9
+E02000817,"South Bermondsey East",0,3
+E02000818,"Walworth North",0,10
+E02000819,"South Bermondsey West",0,1
+E02000820,"Newington",0,16
+E02000821,"Burgess Park",0,8
+E02000822,"Walworth South",0,6
+E02000823,"Burgess Park West & John Ruskin Street",0,4
+E02000824,"Peckham Park Road",0,6
+E02000825,"Peckham North West",0,3
+E02000826,"Camberwell North",0,11
+E02000827,"Camberwell Green",0,15
+E02000828,"Peckham North",0,9
+E02000829,"Queens Road Peckham",0,12
+E02000830,"Camberwell South",0,23
+E02000831,"Peckham Rye",0,8
+E02000832,"Nunhead North",0,12
+E02000833,"North Dulwich",0,7
+E02000834,"Peckham Rye Common",0,27
+E02000835,"Nunhead South & Newlands",0,12
+E02000836,"East Dulwich",0,34
+E02000837,"Herne Hill & Dulwich Park",0,44
+E02000838,"Dulwich Hill",0,8
+E02000839,"Sydenham Hill",0,7
+E02006802,"Southwark St George's",0,10

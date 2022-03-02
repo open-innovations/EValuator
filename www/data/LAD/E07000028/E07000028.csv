@@ -1,14 +1,14 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02003987,0.654,0.02
-E02003988,0.62,0.01
-E02003989,0.316,0.00
-E02003990,0.24,0.02
-E02003991,0.454,0.00
-E02003992,0.27,0.05
-E02003993,0.449,0.00
-E02003994,0.209,0.01
-E02003995,0.264,0.01
-E02003996,0.22,0.03
-E02003997,0.271,0.00
-E02003998,0.382,0.00
-E02003999,0.284,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02003987,"Longtown & Border",0.654,3
+E02003988,"Brampton & Irthing",0.62,1
+E02003989,"Carlisle Belah",0.316,0
+E02003990,"Kingmoor",0.24,4
+E02003991,"Belle Vue & Burgh",0.454,0
+E02003992,"Central Carlisle",0.27,8
+E02003993,"Wetheral",0.449,0
+E02003994,"Longsowerby & Caldewgate",0.209,2
+E02003995,"Raffles & Morton",0.264,1
+E02003996,"Denton Holme & Harraby Green",0.22,6
+E02003997,"Botcherby & Harraby",0.271,0
+E02003998,"Currock & Upperby",0.382,0
+E02003999,"Garlands & Dalston",0.284,1

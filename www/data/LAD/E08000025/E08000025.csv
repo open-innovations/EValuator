@@ -1,133 +1,133 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02001827,0,0.00
-E02001828,0,0.00
-E02001829,0,0.00
-E02001830,0,0.00
-E02001831,0,0.00
-E02001832,0,0.00
-E02001833,0,0.00
-E02001834,0,0.00
-E02001835,0,0.02
-E02001836,0,0.01
-E02001837,0,0.00
-E02001838,0,0.01
-E02001839,0,0.00
-E02001840,0,0.00
-E02001841,0,0.00
-E02001842,0,0.00
-E02001843,0,0.00
-E02001844,0,0.00
-E02001845,0,0.00
-E02001846,0,0.00
-E02001847,0,0.01
-E02001848,0,0.00
-E02001849,0,0.00
-E02001850,0,0.00
-E02001851,0,0.01
-E02001852,0,0.00
-E02001854,0,0.02
-E02001855,0,0.01
-E02001856,0,0.01
-E02001857,0,0.00
-E02001858,0,0.00
-E02001859,0,0.00
-E02001860,0,0.00
-E02001861,0,0.00
-E02001862,0,0.00
-E02001863,0,0.00
-E02001864,0,0.00
-E02001865,0,0.00
-E02001866,0,0.00
-E02001867,0,0.00
-E02001868,0,0.00
-E02001869,0,0.00
-E02001870,0,0.00
-E02001871,0,0.00
-E02001872,0,0.00
-E02001873,0,0.01
-E02001874,0,0.00
-E02001875,0,0.03
-E02001876,0,0.05
-E02001877,0,0.00
-E02001878,0,0.02
-E02001879,0,0.00
-E02001880,0,0.00
-E02001881,0,0.00
-E02001882,0,0.00
-E02001883,0,0.01
-E02001884,0,0.00
-E02001886,0,0.00
-E02001888,0,0.00
-E02001889,0,0.00
-E02001890,0,0.00
-E02001892,0,0.00
-E02001893,0,0.00
-E02001895,0,0.00
-E02001896,0,0.00
-E02001897,0,0.01
-E02001898,0,0.00
-E02001899,0,0.00
-E02001900,0,0.00
-E02001901,0,0.01
-E02001902,0,0.00
-E02001903,0,0.00
-E02001904,0,0.02
-E02001905,0,0.04
-E02001906,0,0.02
-E02001907,0,0.00
-E02001908,0,0.00
-E02001909,0,0.00
-E02001910,0,0.00
-E02001911,0,0.00
-E02001913,0,0.01
-E02001914,0,0.00
-E02001915,0,0.01
-E02001916,0,0.00
-E02001918,0,0.01
-E02001919,0,0.00
-E02001920,0,0.00
-E02001921,0,0.01
-E02001922,0,0.03
-E02001923,0,0.00
-E02001924,0,0.01
-E02001925,0,0.01
-E02001926,0,0.00
-E02001927,0,0.00
-E02001928,0,0.00
-E02001929,0,0.00
-E02001930,0,0.01
-E02001931,0,0.01
-E02001932,0,0.01
-E02001933,0,0.00
-E02001934,0,0.00
-E02001935,0,0.00
-E02001936,0,0.00
-E02001937,0,0.00
-E02001938,0,0.00
-E02001939,0,0.01
-E02001941,0,0.00
-E02001942,0,0.00
-E02001943,0,0.01
-E02001944,0,0.00
-E02001945,0,0.00
-E02001946,0,0.01
-E02001947,0,0.00
-E02001948,0,0.00
-E02001949,0,0.00
-E02001950,0,0.03
-E02001951,0,0.00
-E02001952,0,0.00
-E02001953,0,0.00
-E02001954,0,0.00
-E02001955,0,0.01
-E02001956,0,0.01
-E02001957,0,0.00
-E02006807,0,0.00
-E02006809,0,0.00
-E02006895,0,0.01
-E02006896,0,0.07
-E02006897,0,0.01
-E02006898,0,0.01
-E02006899,0,0.04
-E02006900,0,0.02
-E02006901,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02001827,"Hill Hook",0,0
+E02001828,"Four Oaks",0,0
+E02001829,"Little Sutton & Roughley",0,0
+E02001830,"Sutton Coldfield North & Park",0,0
+E02001831,"Reddicap Heath",0,0
+E02001832,"Rectory Park & New Hall Valley",0,0
+E02001833,"Kingstanding North",0,0
+E02001834,"Old Oscott",0,0
+E02001835,"Sutton Coldfield South & Central",0,3
+E02001836,"New Oscott",0,2
+E02001837,"Kingstanding South East",0,0
+E02001838,"Walmley",0,1
+E02001839,"Queslett",0,0
+E02001840,"Perry Common - College Road",0,0
+E02001841,"Wylde Green",0,0
+E02001842,"Perry Beeches West",0,0
+E02001843,"Kingstanding South West",0,0
+E02001844,"Chester Road",0,0
+E02001845,"Perry Beeches East",0,0
+E02001846,"Short Heath",0,0
+E02001847,"Minworth",0,1
+E02001848,"Upper Witton",0,0
+E02001849,"Erdington Town",0,0
+E02001850,"Perry Barr & South Hamstead",0,0
+E02001851,"Pype Hayes Park",0,1
+E02001852,"Stockland Green - Marsh Hill",0,0
+E02001854,"Birches Green",0,4
+E02001855,"Castle Vale",0,2
+E02001856,"Brookvale",0,2
+E02001857,"Gravelly Hill & South Erdington",0,0
+E02001858,"Handsworth East",0,0
+E02001859,"Birchfield East",0,0
+E02001860,"Handsworth West",0,0
+E02001861,"Birchfield West",0,0
+E02001862,"Middlemore",0,0
+E02001863,"Aston Park",0,0
+E02001864,"Bromford",0,0
+E02001865,"Handsworth South",0,0
+E02001866,"Lozells West",0,0
+E02001867,"Lozells East",0,0
+E02001868,"Hodge Hill",0,0
+E02001869,"Nechells",0,0
+E02001870,"Ward End & Bromford West",0,0
+E02001871,"Buckland End",0,0
+E02001872,"Shard End & Kingfisher",0,0
+E02001873,"Winson Green & Gib Heath",0,1
+E02001874,"Washwood Heath",0,0
+E02001875,"Hockley & Jewellery Quarter",0,5
+E02001876,"North Central & Dartmouth Circus",0,9
+E02001877,"Saltley East",0,0
+E02001878,"Saltley West",0,4
+E02001879,"Summerfield",0,0
+E02001880,"Glebe Farm",0,0
+E02001881,"Belchers Lane & Eastfield Road",0,0
+E02001882,"Stechford",0,0
+E02001883,"Kitts Green",0,1
+E02001884,"Bordesley Green North",0,0
+E02001886,"Rotton Park",0,0
+E02001888,"Kent's Moat",0,0
+E02001889,"Little Bromwich",0,0
+E02001890,"Edgbaston North",0,0
+E02001892,"Yardley Fields",0,0
+E02001893,"Yardley",0,0
+E02001895,"Sheldon North",0,0
+E02001896,"Small Heath Park",0,0
+E02001897,"Sparkbrook North",0,1
+E02001898,"Lyndon Green",0,0
+E02001899,"Harborne West",0,0
+E02001900,"Five Ways South & Calthorpe Park",0,0
+E02001901,"Harborne East",0,2
+E02001902,"Yardley South",0,0
+E02001903,"Sparkbrook South",0,0
+E02001904,"Hay Mills & Tyseley",0,4
+E02001905,"Edgbaston South & University",0,7
+E02001906,"Quinton Ridgacre",0,3
+E02001907,"Sheldon South",0,0
+E02001908,"Sparkhill North",0,0
+E02001909,"Balsall Heath East",0,0
+E02001910,"Balsall Heath West & Kingswood Road",0,0
+E02001911,"Quinton East",0,0
+E02001913,"Metchley",0,1
+E02001914,"Moor Green & Cannon Hill",0,0
+E02001915,"Acocks Green East",0,2
+E02001916,"Acocks Green West",0,0
+E02001918,"Moseley Village",0,2
+E02001919,"Moseley",0,0
+E02001920,"Woodgate Valley",0,0
+E02001921,"California",0,1
+E02001922,"Selly Oak",0,5
+E02001923,"Springfield & Hall Green West",0,0
+E02001924,"Hall Green East",0,1
+E02001925,"Selly Oak Park & Lodge Hill",0,1
+E02001926,"Stirchley North & Selly Park",0,0
+E02001927,"Weoley Castle",0,0
+E02001928,"Woodgate",0,0
+E02001929,"Fox Hollies",0,0
+E02001930,"Kings Heath",0,1
+E02001931,"Wake Green East & Moseley Bog",0,2
+E02001932,"Bartley Green & Shenley Fields",0,1
+E02001933,"Kings Heath Park & Stirchley East",0,0
+E02001934,"Hall Green Central",0,0
+E02001935,"Shenley Lane",0,0
+E02001936,"Brandwood North",0,0
+E02001937,"Billesley Common",0,0
+E02001938,"Bournville East & Stirchley West",0,0
+E02001939,"Bournville West",0,1
+E02001941,"Yardley Wood West",0,0
+E02001942,"Cotteridge",0,0
+E02001943,"Brandwood East",0,1
+E02001944,"Brandwood End",0,0
+E02001945,"Allens Cross",0,0
+E02001946,"Northfield Victoria Common",0,2
+E02001947,"Druids Heath",0,0
+E02001948,"Highter's Heath & Maypole",0,0
+E02001949,"Lifford & Walkers Heath",0,0
+E02001950,"Longbridge North",0,6
+E02001951,"Frankley",0,0
+E02001952,"Turves Green",0,0
+E02001953,"King's Norton",0,0
+E02001954,"Hawkesley",0,0
+E02001955,"Longbridge South",0,2
+E02001956,"Rubery East",0,1
+E02001957,"West Heath",0,0
+E02006807,"Yardley Wood East",0,0
+E02006809,"Handsworth Wood",0,0
+E02006895,"Attwood Green & Park Central",0,1
+E02006896,"Digbeth",0,12
+E02006897,"Five Ways North",0,1
+E02006898,"Ladywood - Summer Hill",0,1
+E02006899,"Central",0,7
+E02006900,"Bordesley",0,3
+E02006901,"Greet & Sparkhill South",0,0

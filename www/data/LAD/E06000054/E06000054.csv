@@ -1,63 +1,63 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006634,0,0.00
-E02006635,0,0.01
-E02006636,0,0.00
-E02006637,0,0.00
-E02006638,0,0.01
-E02006639,0,0.00
-E02006640,0,0.00
-E02006641,0,0.00
-E02006642,0,0.01
-E02006643,0,0.00
-E02006644,0,0.00
-E02006645,0,0.00
-E02006646,0,0.00
-E02006647,0,0.00
-E02006648,0,0.00
-E02006649,0,0.01
-E02006650,0,0.00
-E02006651,0,0.01
-E02006652,0,0.00
-E02006653,0,0.01
-E02006654,0,0.02
-E02006655,0,0.02
-E02006656,0,0.00
-E02006657,0,0.00
-E02006658,0,0.00
-E02006659,0,0.01
-E02006660,0,0.02
-E02006661,0,0.00
-E02006662,0,0.00
-E02006663,0,0.03
-E02006664,0,0.00
-E02006665,0,0.00
-E02006666,0,0.01
-E02006667,0,0.00
-E02006668,0,0.02
-E02006669,0,0.00
-E02006670,0,0.01
-E02006671,0,0.02
-E02006672,0,0.01
-E02006673,0,0.00
-E02006674,0,0.01
-E02006675,0,0.00
-E02006676,0,0.01
-E02006677,0,0.00
-E02006678,0,0.00
-E02006679,0,0.00
-E02006680,0,0.01
-E02006681,0,0.00
-E02006682,0,0.01
-E02006683,0,0.00
-E02006684,0,0.03
-E02006685,0,0.01
-E02006686,0,0.00
-E02006687,0,0.01
-E02006688,0,0.00
-E02006689,0,0.01
-E02006690,0,0.01
-E02006691,0,0.01
-E02006692,0,0.00
-E02006693,0,0.00
-E02006694,0,0.01
-E02006695,0,0.02
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006634,"Ramsbury",0,0
+E02006635,"Marlborough",0,2
+E02006636,"Pewsey & Lockeridge",0,0
+E02006637,"Devizes East",0,0
+E02006638,"Devizes West",0,1
+E02006639,"Potterne & Rowde",0,0
+E02006640,"Bedwyn",0,0
+E02006641,"Market Lavington & Bishops Cannings",0,0
+E02006642,"Netheravon & Upavon",0,1
+E02006643,"Tidworth & Ludgershall",0,0
+E02006644,"Cricklade & Ashton Keynes",0,0
+E02006645,"Malmesbury",0,0
+E02006646,"Lydiard Millicent & Purton",0,0
+E02006647,"Somerford",0,0
+E02006648,"Sherston & Hullavington",0,0
+E02006649,"Royal Wootton Bassett Town",0,1
+E02006650,"Royal Wootton Bassett Outer & Lyneham",0,0
+E02006651,"Sutton Benger",0,2
+E02006652,"Chippenham North",0,0
+E02006653,"Chippenham West",0,1
+E02006654,"Chippenham South & East",0,4
+E02006655,"Derry Hill & Hilmarton",0,3
+E02006656,"Chippenham Pewsham",0,0
+E02006657,"Calne North",0,0
+E02006658,"Calne South",0,0
+E02006659,"Box",0,1
+E02006660,"Corsham",0,4
+E02006661,"Larkhill",0,0
+E02006662,"Durrington & Bulford",0,0
+E02006663,"Amesbury",0,5
+E02006664,"Great Wishford",0,0
+E02006665,"Mere & East Knoyle",0,0
+E02006666,"Salisbury Bishopsdown",0,1
+E02006667,"Salisbury Bemerton",0,0
+E02006668,"Salisbury Stratford",0,4
+E02006669,"Wilton",0,0
+E02006670,"Salisbury Churchfields",0,1
+E02006671,"Salisbury Town North & Milford",0,4
+E02006672,"Laverstock",0,2
+E02006673,"Salisbury Cathedral & Harnham",0,0
+E02006674,"Salisbury East Harnham",0,1
+E02006675,"Whaddon",0,0
+E02006676,"Tisbury",0,2
+E02006677,"Downton & Morgan's Vale",0,0
+E02006678,"Melksham North",0,0
+E02006679,"Bowerhill",0,0
+E02006680,"Melksham South",0,2
+E02006681,"Winsley",0,0
+E02006682,"Bradford-on-Avon",0,1
+E02006683,"Staverton",0,0
+E02006684,"Trowbridge North",0,6
+E02006685,"Trowbridge East",0,1
+E02006686,"Trowbridge West",0,0
+E02006687,"Trowbridge South East",0,2
+E02006688,"Trowbridge South",0,0
+E02006689,"Steeple Ashton",0,1
+E02006690,"Dilton Marsh & Bratton",0,1
+E02006691,"Westbury",0,2
+E02006692,"Warminster East",0,0
+E02006693,"Warminster West & North",0,0
+E02006694,"Warminster Central",0,2
+E02006695,"Wylye Valley",0,4

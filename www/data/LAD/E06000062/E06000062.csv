@@ -1,53 +1,53 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005619,0,0.00
-E02005620,0,0.00
-E02005621,0,0.00
-E02005622,0,0.00
-E02005623,0,0.00
-E02005624,0,0.00
-E02005625,0,0.00
-E02005626,0,0.00
-E02005627,0,0.00
-E02005628,0,0.00
-E02005650,0,0.00
-E02005651,0,0.00
-E02005652,0,0.00
-E02005653,0,0.00
-E02005654,0,0.00
-E02005655,0,0.00
-E02005656,0,0.00
-E02005657,0,0.00
-E02005658,0,0.00
-E02005659,0,0.00
-E02005660,0,0.00
-E02005661,0,0.00
-E02005662,0,0.00
-E02005663,0,0.00
-E02005664,0,0.00
-E02005665,0,0.00
-E02005666,0,0.00
-E02005667,0,0.00
-E02005668,0,0.00
-E02005669,0,0.00
-E02005670,0,0.00
-E02005671,0,0.00
-E02005672,0,0.00
-E02005673,0,0.00
-E02005674,0,0.00
-E02005675,0,0.00
-E02005676,0,0.00
-E02005677,0,0.00
-E02005678,0,0.00
-E02005679,0,0.00
-E02005680,0,0.00
-E02005681,0,0.00
-E02005682,0,0.00
-E02005683,0,0.00
-E02005684,0,0.00
-E02005685,0,0.00
-E02005686,0,0.00
-E02005687,0,0.00
-E02005688,0,0.00
-E02005689,0,0.00
-E02005690,0,0.00
-E02005691,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005619,"Clipston",0,0
+E02005620,"Brixworth & Spratton",0,0
+E02005621,"Braunston & Crick",0,0
+E02005622,"Long Buckby East & Ravensthorpe",0,0
+E02005623,"Walgrave & Moulton",0,0
+E02005624,"Daventry North",0,0
+E02005625,"Daventry Central",0,0
+E02005626,"Daventry South & Southbrook",0,0
+E02005627,"Long Buckby West & Weedon",0,0
+E02005628,"Woodford Halse",0,0
+E02005650,"Boughton",0,0
+E02005651,"Moulton",0,0
+E02005652,"Sunnyside",0,0
+E02005653,"Thorplands & Round Spinney",0,0
+E02005654,"Overstone Lodge & Rectory Farm",0,0
+E02005655,"Boothville & Spinney Hill",0,0
+E02005656,"Blackthorn & Lings",0,0
+E02005657,"Kingsthorpe",0,0
+E02005658,"St David's",0,0
+E02005659,"Westone",0,0
+E02005660,"Billing & Riverside",0,0
+E02005661,"Eastfield",0,0
+E02005662,"Phippsville",0,0
+E02005663,"New Duston West",0,0
+E02005664,"Kingsley Park & Racecourse",0,0
+E02005665,"Little Billing",0,0
+E02005666,"King's Heath & Spencer",0,0
+E02005667,"Lodge Farm",0,0
+E02005668,"New Duston East",0,0
+E02005669,"Abington Vale",0,0
+E02005670,"Town Centre & Semilong",0,0
+E02005671,"Abington",0,0
+E02005672,"St Michael's Road",0,0
+E02005673,"Stornton & Sixfields",0,0
+E02005674,"Cliftonville & Rushmere",0,0
+E02005675,"Briar Hill & Hunsbury Hill",0,0
+E02005676,"Delapre",0,0
+E02005677,"Cotton End",0,0
+E02005678,"Upton & West Hunsbury",0,0
+E02005679,"East Hunsbury",0,0
+E02005680,"Wootton & Collingtree",0,0
+E02005681,"Harpole",0,0
+E02005682,"Cogenhoe",0,0
+E02005683,"Blisworth",0,0
+E02005684,"Towcester West & Blakesley",0,0
+E02005685,"Towcester East & Paulerspury",0,0
+E02005686,"Middleton Cheney & Chipping Warden",0,0
+E02005687,"Silverstone & Syresham & Helmdon",0,0
+E02005688,"Deanshanger",0,0
+E02005689,"Brackley North",0,0
+E02005690,"Brackley South",0,0
+E02005691,"Kings Sutton",0,0

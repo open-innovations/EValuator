@@ -1,11 +1,11 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004045,0,0.03
-E02004046,0,0.00
-E02004047,0,0.00
-E02004048,0,0.03
-E02004049,0,0.00
-E02004050,0,0.00
-E02004051,0,0.00
-E02004052,0,0.02
-E02004053,0,0.01
-E02004054,0,0.02
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004045,"Clowne & Barlborough",0,6
+E02004046,"Whitwell & Elmton",0,0
+E02004047,"Creswell & Hodthorpe",0,0
+E02004048,"Bolsover North & Shuttlewood",0,5
+E02004049,"Bolsover South & Glapwell",0,0
+E02004050,"Shirebrook North",0,0
+E02004051,"Langwith",0,0
+E02004052,"Tibshelf",0,3
+E02004053,"South Normanton West",0,1
+E02004054,"South Normanton Broadmeadows & Pinxton",0,4

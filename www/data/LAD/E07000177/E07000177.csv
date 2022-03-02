@@ -1,20 +1,20 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005921,0,0.00
-E02005922,0,0.00
-E02005923,0,0.02
-E02005924,0,0.03
-E02005925,0,0.00
-E02005926,0,0.00
-E02005927,0,0.01
-E02005928,0,0.01
-E02005929,0,0.01
-E02005930,0,0.01
-E02005931,0,0.06
-E02005932,0,0.00
-E02005933,0,0.05
-E02005934,0,0.00
-E02005935,0,0.03
-E02005936,0,0.03
-E02005937,0,0.01
-E02005938,0,0.00
-E02005939,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005921,"Cropredy",0,0
+E02005922,"Banbury Hardwick",0,0
+E02005923,"Banbury Neithrop",0,3
+E02005924,"Banbury Grimsbury",0,5
+E02005925,"Banbury Ruscote",0,0
+E02005926,"Banbury Easington",0,0
+E02005927,"Banbury Calthorpe",0,2
+E02005928,"Bodicote",0,2
+E02005929,"Sibford",0,1
+E02005930,"Deddington",0,2
+E02005931,"Caversfield",0,11
+E02005932,"Bicester North",0,0
+E02005933,"Bicester East",0,8
+E02005934,"Bicester West",0,0
+E02005935,"Bicester South",0,5
+E02005936,"Islip",0,6
+E02005937,"Kidlington North",0,2
+E02005938,"Kidlington South",0,0
+E02005939,"Begbroke",0,2

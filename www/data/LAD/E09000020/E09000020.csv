@@ -1,22 +1,22 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000577,0,0.09
-E02000578,0,0.10
-E02000579,0,0.23
-E02000580,0,0.16
-E02000581,0,0.11
-E02000582,0,0.19
-E02000583,0,0.31
-E02000584,0,0.17
-E02000585,0,0.23
-E02000586,0,0.21
-E02000587,0,0.19
-E02000588,0,0.31
-E02000589,0,0.10
-E02000590,0,0.13
-E02000591,0,0.12
-E02000592,0,0.23
-E02000593,0,0.19
-E02000594,0,0.21
-E02000595,0,0.20
-E02000596,0,0.16
-E02000597,0,0.09
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000577,"Golborne & Swinbrook",0,15
+E02000578,"Ladbroke Grove",0,18
+E02000579,"North Kensington",0,39
+E02000580,"Portobello",0,28
+E02000581,"Notting Dale",0,19
+E02000582,"Notting Hill Gate",0,32
+E02000583,"Notting Hill West",0,54
+E02000584,"Notting Hill South",0,29
+E02000585,"Holland Park",0,39
+E02000586,"Queen's Gate",0,36
+E02000587,"Kensington Abingdon",0,33
+E02000588,"Hans Town",0,53
+E02000589,"Kensington Gardens",0,17
+E02000590,"Brompton",0,22
+E02000591,"Earl's Court",0,20
+E02000592,"South Kensington",0,39
+E02000593,"West Brompton",0,33
+E02000594,"Chelsea Manor & Royal Hospital",0,36
+E02000595,"Chelsea Riverside East",0,35
+E02000596,"Fulham Road",0,27
+E02000597,"Chelsea Riverside West",0,16

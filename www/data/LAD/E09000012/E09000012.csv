@@ -1,29 +1,29 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000345,0,0.03
-E02000346,0,0.00
-E02000347,0,0.02
-E02000348,0,0.02
-E02000350,0,0.01
-E02000351,0,0.02
-E02000352,0,0.03
-E02000353,0,0.05
-E02000354,0,0.01
-E02000355,0,0.08
-E02000356,0,0.02
-E02000357,0,0.01
-E02000358,0,0.02
-E02000359,0,0.03
-E02000360,0,0.01
-E02000361,0,0.01
-E02000362,0,0.06
-E02000363,0,0.02
-E02000364,0,0.05
-E02000365,0,0.06
-E02000366,0,0.06
-E02000367,0,0.07
-E02000368,0,0.02
-E02000369,0,0.01
-E02000370,0,0.01
-E02000371,0,0.08
-E02006918,0,0.01
-E02006921,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000345,"Stamford Hill North",0,5
+E02000346,"Woodberry Down & Manor House",0,0
+E02000347,"Stamford Hill West",0,4
+E02000348,"Stamford Hill South",0,3
+E02000350,"Stoke Newington East & Cazenove",0,1
+E02000351,"Brownswood",0,4
+E02000352,"Clissold North",0,6
+E02000353,"Stoke Newington North",0,8
+E02000354,"Hackney Downs",0,1
+E02000355,"Lower Clapton",0,13
+E02000356,"Clissold South",0,4
+E02000357,"Hackney Marshes",0,2
+E02000358,"Stoke Newington South",0,4
+E02000359,"Homerton North",0,6
+E02000360,"Amhurst Road & Pembury Estate",0,2
+E02000361,"Hackney Central",0,2
+E02000362,"Hackney Wick",0,10
+E02000363,"Homerton South",0,3
+E02000364,"Dalston East",0,9
+E02000365,"Dalston Kingsland & De Beauvoir",0,10
+E02000366,"South Hackney",0,11
+E02000367,"London Fields & Mare Street",0,12
+E02000368,"Haggerston East",0,3
+E02000369,"Haggerston West & Kingsland Basin",0,2
+E02000370,"Hoxton & Wenlock",0,1
+E02000371,"Shoreditch",0,14
+E02006918,"Clapton Leaside",0,2
+E02006921,"Upper Clapton",0,1

@@ -1,24 +1,24 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02002749,0.254,0.02
-E02002750,0.254,0.00
-E02002751,0.217,0.00
-E02002752,0.334,0.00
-E02002753,0.242,0.02
-E02002754,0.133,0.00
-E02002755,0.188,0.01
-E02002756,0.171,0.01
-E02002757,0.146,0.00
-E02002758,0.161,0.01
-E02002759,0.086,0.01
-E02002760,0.216,0.00
-E02002761,0.2,0.00
-E02002762,0.173,0.00
-E02002763,0.238,0.00
-E02002764,0.186,0.00
-E02002765,0.222,0.00
-E02002766,0.101,0.00
-E02002767,0.228,0.00
-E02002768,0.176,0.00
-E02002769,0.278,0.01
-E02002770,0.463,0.00
-E02002771,0.216,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02002749,"Barton upon Humber",0.254,3
+E02002750,"Goxhill",0.254,0
+E02002751,"Winterton & Winteringham",0.217,0
+E02002752,"Barnetby",0.334,0
+E02002753,"Burton upon Stather",0.242,3
+E02002754,"Crowle & Keadby",0.133,0
+E02002755,"Scunthorpe North",0.188,1
+E02002756,"Scunthorpe Central & Crosby",0.171,1
+E02002757,"Scunthorpe Berkeley",0.146,0
+E02002758,"Scunthorpe Frodingham",0.161,1
+E02002759,"Brigg & South Ferriby",0.086,2
+E02002760,"Scunthorpe Central Park",0.216,0
+E02002761,"Broughton & Appleby",0.2,0
+E02002762,"Scunthorpe Lincoln Gardens",0.173,0
+E02002763,"Scunthorpe Lakeside",0.238,0
+E02002764,"Scunthorpe Westcliff",0.186,0
+E02002765,"Scunthorpe Ashby",0.222,0
+E02002766,"Scunthorpe Bottesford",0.101,0
+E02002767,"Scunthorpe Yaddlethorpe",0.228,0
+E02002768,"Epworth & Bracon",0.176,0
+E02002769,"Messingham & Scawby",0.278,1
+E02002770,"Kirton in Lindsey & Hibaldstow",0.463,0
+E02002771,"Westwoodside",0.216,0

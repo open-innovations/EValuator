@@ -1,25 +1,25 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000960,0,0.30
-E02000961,0,0.48
-E02000962,0,0.19
-E02000963,0,0.44
-E02000964,0,0.53
-E02000965,0,0.42
-E02000966,0,0.58
-E02000967,0,0.14
-E02000968,0,0.16
-E02000969,0,0.13
-E02000970,0,0.51
-E02000971,0,0.25
-E02000972,0,0.34
-E02000973,0,0.44
-E02000974,0,0.17
-E02000975,0,0.15
-E02000976,0,0.26
-E02000977,0,0.32
-E02000978,0,0.52
-E02000979,0,0.18
-E02000980,0,0.10
-E02000981,0,0.19
-E02000982,0,0.09
-E02000983,0,0.13
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000960,"St John's Wood North",0,52
+E02000961,"Abbey Road",0,82
+E02000962,"St John's Wood South",0,32
+E02000963,"Queen's Park Gardens",0,76
+E02000964,"Maida Hill",0,92
+E02000965,"Maida Vale",0,72
+E02000966,"Little Venice",0,99
+E02000967,"Regent's Park",0,24
+E02000968,"Church Street",0,27
+E02000969,"Westbourne",0,23
+E02000970,"Marylebone & Park Lane",0,87
+E02000971,"Bryanston & Dorset Square",0,43
+E02000972,"Fitzrovia West & Soho",0,58
+E02000973,"Westbourne Grove",0,76
+E02000974,"Paddington & St George's Fields",0,29
+E02000975,"Bayswater East",0,25
+E02000976,"Queensway",0,44
+E02000977,"Strand",0,55
+E02000978,"Knightsbridge",0,90
+E02000979,"Central Westminster",0,31
+E02000980,"Millbank",0,17
+E02000981,"Pimlico North",0,32
+E02000982,"Victoria",0,16
+E02000983,"Pimlico South",0,23

@@ -1,9 +1,9 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005270,0.19,0.01
-E02005271,0.215,0.08
-E02005272,0.178,0.00
-E02005273,0.223,0.00
-E02005274,0.233,0.00
-E02005275,0.214,0.00
-E02005276,0.311,0.02
-E02005277,0.184,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005270,"Waddington",0.19,2
+E02005271,"Clitheroe North",0.215,14
+E02005272,"Clitheroe South",0.178,0
+E02005273,"Longridge North",0.223,0
+E02005274,"Read",0.233,0
+E02005275,"Longridge South",0.214,0
+E02005276,"Whalley & Brockhall",0.311,3
+E02005277,"Wilpshire & Mellor",0.184,1

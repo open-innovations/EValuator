@@ -1,11 +1,11 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02003977,0.252,0.00
-E02003978,0.241,0.00
-E02003979,0.17,0.00
-E02003980,0.116,0.02
-E02003981,0.113,0.00
-E02003982,0.184,0.00
-E02003983,0.133,0.00
-E02003984,0.095,0.01
-E02003985,0.054,0.01
-E02003986,0.064,0.02
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02003977,"Askam & Dalton North",0.252,0
+E02003978,"Dalton South",0.241,0
+E02003979,"Hawcoat & Furness Abbey",0.17,0
+E02003980,"Orsmgill & Hindpool",0.116,3
+E02003981,"Parkside",0.113,0
+E02003982,"Roose",0.184,0
+E02003983,"Abbotsmead & Salthouse",0.133,0
+E02003984,"Barrow Central",0.095,1
+E02003985,"Walney Island North",0.054,1
+E02003986,"Walney Island South & Barrow Island",0.064,4

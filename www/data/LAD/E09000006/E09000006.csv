@@ -1,40 +1,40 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000127,0,0.01
-E02000128,0,0.00
-E02000130,0,0.04
-E02000131,0,0.00
-E02000132,0,0.05
-E02000133,0,0.00
-E02000134,0,0.02
-E02000135,0,0.01
-E02000136,0,0.00
-E02000137,0,0.03
-E02000138,0,0.00
-E02000139,0,0.02
-E02000140,0,0.02
-E02000141,0,0.00
-E02000142,0,0.00
-E02000144,0,0.04
-E02000145,0,0.02
-E02000146,0,0.02
-E02000147,0,0.01
-E02000148,0,0.00
-E02000149,0,0.00
-E02000150,0,0.00
-E02000151,0,0.00
-E02000152,0,0.00
-E02000153,0,0.00
-E02000154,0,0.01
-E02000155,0,0.00
-E02000156,0,0.06
-E02000157,0,0.00
-E02000158,0,0.00
-E02000159,0,0.00
-E02000160,0,0.02
-E02000161,0,0.00
-E02000162,0,0.00
-E02000163,0,0.01
-E02000165,0,0.00
-E02006782,0,0.04
-E02006787,0,0.01
-E02006789,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000127,"Mottingham",0,2
+E02000128,"Chislehurst North",0,0
+E02000130,"Penge East",0,7
+E02000131,"Crystal Palace Park",0,0
+E02000132,"New Beckenham",0,9
+E02000133,"Chislehurst West & Elmstead",0,0
+E02000134,"Bromley North & Sundridge",0,4
+E02000135,"Anerley North & Penge West",0,2
+E02000136,"Chislehurst East & Hoblingwell Wood",0,0
+E02000137,"Shortlands Bromley Road",0,5
+E02000138,"Beckenham East & Kelsey Park",0,0
+E02000139,"Clock House & Cator Park",0,3
+E02000140,"St Mary Cray North",0,3
+E02000141,"Anerley South",0,0
+E02000142,"Widmore",0,0
+E02000144,"Bromley South",0,7
+E02000145,"St Mary Cray East",0,3
+E02000146,"Bickley West",0,3
+E02000147,"Langley Park",0,2
+E02000148,"Bickley East",0,0
+E02000149,"St Mary Cray South",0,0
+E02000150,"Eden Park & Bethlem",0,0
+E02000151,"Petts Wood",0,0
+E02000152,"Bromley Common",0,0
+E02000153,"Hayes North",0,0
+E02000154,"Orpington West",0,2
+E02000155,"Orpington East",0,0
+E02000156,"West Wickham",0,10
+E02000157,"Crofton",0,0
+E02000158,"Goddington",0,0
+E02000159,"Keston",0,0
+E02000160,"Hayes South & Coney Hall",0,3
+E02000161,"Orpington South",0,0
+E02000162,"Farnborough",0,0
+E02000163,"Chelsfield & Green Street Green",0,2
+E02000165,"Biggin Hill West",0,0
+E02006782,"Plaistow (Bromley)",0,7
+E02006787,"Elmers End",0,2
+E02006789,"Biggin Hill East & Cudham",0,0

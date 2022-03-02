@@ -1,14 +1,14 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005240,0.249,0.00
-E02005241,0.189,0.01
-E02005242,0.209,0.01
-E02005243,0.209,0.03
-E02005244,0.21,0.00
-E02005245,0.141,0.00
-E02005246,0.158,0.00
-E02005247,0.141,0.00
-E02005248,0.198,0.00
-E02005249,0.14,0.01
-E02005250,0.157,0.01
-E02005251,0.096,0.00
-E02005252,0.164,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005240,"Barnoldswick North",0.249,0
+E02005241,"Barnoldswick South",0.189,2
+E02005242,"Earby & Salterforth",0.209,2
+E02005243,"Colne Horsfield",0.209,5
+E02005244,"Colne Vivary Bridge",0.21,0
+E02005245,"East Colne",0.141,0
+E02005246,"Colne Waterside",0.158,0
+E02005247,"Barrowford",0.141,0
+E02005248,"Nelson Bradley",0.198,0
+E02005249,"Nelson East",0.14,2
+E02005250,"Nelson West",0.157,1
+E02005251,"Marsden",0.096,0
+E02005252,"Brierfield & Reedley",0.164,0

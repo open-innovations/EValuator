@@ -1,34 +1,34 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000313,0,0.00
-E02000314,0,0.03
-E02000315,0,0.04
-E02000316,0,0.08
-E02000317,0,0.02
-E02000318,0,0.02
-E02000319,0,0.00
-E02000320,0,0.01
-E02000321,0,0.00
-E02000323,0,0.08
-E02000324,0,0.03
-E02000326,0,0.05
-E02000327,0,0.04
-E02000328,0,0.02
-E02000329,0,0.03
-E02000331,0,0.02
-E02000332,0,0.03
-E02000333,0,0.01
-E02000334,0,0.02
-E02000335,0,0.03
-E02000337,0,0.03
-E02000339,0,0.01
-E02000340,0,0.02
-E02000341,0,0.01
-E02000342,0,0.00
-E02000343,0,0.00
-E02000344,0,0.03
-E02006786,0,0.00
-E02006927,0,0.01
-E02006928,0,0.04
-E02006929,0,0.47
-E02006930,0,0.03
-E02006931,0,0.08
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000313,"Thamesmead Birchmere Park",0,0
+E02000314,"West Thamesmead",0,6
+E02000315,"Abbey Wood North",0,7
+E02000316,"Woolwich Dockyard",0,14
+E02000317,"Woolwich West",0,3
+E02000318,"Plumstead High Street",0,3
+E02000319,"Plumstead Common & Riverside",0,0
+E02000320,"Abbey Wood South",0,2
+E02000321,"Woolwich Glyndon",0,0
+E02000323,"Woolwich South",0,14
+E02000324,"Charlton Village",0,6
+E02000326,"Charlton Slopes",0,9
+E02000327,"Woolwich Common",0,7
+E02000328,"Westcombe Park & Maze Hill",0,3
+E02000329,"Plumstead South",0,6
+E02000331,"Hornfair Park",0,4
+E02000332,"Shooters Hill",0,6
+E02000333,"Blackheath Standard & Village",0,1
+E02000334,"Kidbrooke North",0,3
+E02000335,"Eltham North",0,5
+E02000337,"Eltham West",0,5
+E02000339,"Eltham Park",0,1
+E02000340,"Eltham South",0,4
+E02000341,"Middlepark & Horn Park",0,1
+E02000342,"Avery Hill",0,0
+E02000343,"Mottingham East",0,0
+E02000344,"New Eltham",0,6
+E02006786,"Wickham Lane & Winns Common",0,0
+E02006927,"Kidbrooke South",0,2
+E02006928,"Greenwich & Deptford Creekside",0,7
+E02006929,"Greenwich Peninsula",0,80
+E02006930,"Greenwich East",0,6
+E02006931,"Greenwich Town & Park",0,14

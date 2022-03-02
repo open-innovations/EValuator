@@ -1,12 +1,12 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004615,0,0.00
-E02004616,0,0.02
-E02004617,0,0.02
-E02004618,0,0.00
-E02004619,0,0.01
-E02004620,0,0.00
-E02004621,0,0.01
-E02004622,0,0.02
-E02004623,0,0.00
-E02004624,0,0.00
-E02004625,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004615,"Willersey",0,0
+E02004616,"Moreton & Stow-on-the-Wold",0,4
+E02004617,"Bourton-on-the-Water & Vale",0,3
+E02004618,"Sandywell",0,0
+E02004619,"Northleach",0,2
+E02004620,"Cirencester East & Stratton",0,0
+E02004621,"Cirencester Central",0,2
+E02004622,"Cirencester South",0,4
+E02004623,"Fairford & Lechlade",0,0
+E02004624,"Kemble & South Cerney",0,0
+E02004625,"Tetbury",0,2

@@ -1,10 +1,10 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005212,0.112,0.03
-E02005213,0.093,0.00
-E02005214,0.181,0.04
-E02005215,0.162,0.01
-E02005216,0.244,0.00
-E02005217,0.117,0.01
-E02005218,0.103,0.01
-E02005219,0.105,0.01
-E02005220,0.109,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005212,"Great Harwood",0.112,5
+E02005213,"Clayton-le-Moors & Huncoat",0.093,0
+E02005214,"Rishton",0.181,7
+E02005215,"Accrington North East",0.162,2
+E02005216,"Church",0.244,0
+E02005217,"Accrington West",0.117,2
+E02005218,"Oswaldtwistle",0.103,2
+E02005219,"Accrington South East",0.105,2
+E02005220,"Broadfield & Knuzden",0.109,0

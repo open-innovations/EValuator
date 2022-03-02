@@ -1,15 +1,15 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006696,0,0.00
-E02006697,0,0.01
-E02006698,0,0.00
-E02006699,0,0.00
-E02006700,0,0.01
-E02006701,0,0.00
-E02006702,0,0.01
-E02006703,0,0.01
-E02006704,0,0.02
-E02006705,0,0.00
-E02006706,0,0.02
-E02006707,0,0.00
-E02006708,0,0.02
-E02006709,0,0.02
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006696,"Hagley",0,0
+E02006697,"Dodford",0,2
+E02006698,"Rubery West",0,0
+E02006699,"Hollywood & Drakes Cross",0,0
+E02006700,"Wythall & Gay Hill",0,1
+E02006701,"Barnt Green & Lickey Hills",0,0
+E02006702,"Catshill",0,1
+E02006703,"Marlbrook & Lickey End",0,2
+E02006704,"Alvechurch",0,3
+E02006705,"Bromsgrove Sidemoor",0,0
+E02006706,"Bromsgrove Central & Sanders Park",0,4
+E02006707,"Bromsgrove Stoney Hill",0,0
+E02006708,"Bromsgrove Charford",0,3
+E02006709,"Stoke Heath",0,3

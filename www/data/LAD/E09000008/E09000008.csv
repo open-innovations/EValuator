@@ -1,45 +1,45 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000194,0,0.04
-E02000195,0,0.01
-E02000196,0,0.01
-E02000197,0,0.06
-E02000198,0,0.01
-E02000199,0,0.00
-E02000200,0,0.03
-E02000201,0,0.02
-E02000202,0,0.01
-E02000203,0,0.02
-E02000204,0,0.06
-E02000206,0,0.00
-E02000207,0,0.01
-E02000208,0,0.01
-E02000209,0,0.03
-E02000210,0,0.03
-E02000211,0,0.00
-E02000212,0,0.02
-E02000213,0,0.06
-E02000214,0,0.02
-E02000215,0,0.04
-E02000216,0,0.03
-E02000217,0,0.05
-E02000218,0,0.01
-E02000219,0,0.01
-E02000220,0,0.08
-E02000221,0,0.02
-E02000222,0,0.00
-E02000223,0,0.01
-E02000224,0,0.03
-E02000225,0,0.01
-E02000226,0,0.00
-E02000227,0,0.00
-E02000228,0,0.01
-E02000229,0,0.00
-E02000230,0,0.05
-E02000231,0,0.01
-E02000232,0,0.00
-E02000233,0,0.02
-E02000234,0,0.03
-E02000235,0,0.01
-E02000236,0,0.00
-E02000237,0,0.01
-E02006788,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000194,"Crystal Palace Triangle",0,7
+E02000195,"Upper Norwood",0,2
+E02000196,"Norbury East",0,1
+E02000197,"Norbury West",0,10
+E02000198,"Thornton Heath North West",0,2
+E02000199,"Thornton Heath North East",0,0
+E02000200,"South Norwood Hill",0,5
+E02000201,"South Norwood Central",0,3
+E02000202,"Thornton Heath West",0,2
+E02000203,"Thornton Heath Central",0,3
+E02000204,"West Thornton North",0,10
+E02000206,"Selhurst North",0,0
+E02000207,"Woodside & Ashburton",0,2
+E02000208,"University Hospital & Queen's Road",0,2
+E02000209,"West Thornton South & Ampere Way",0,6
+E02000210,"Addiscombe North",0,5
+E02000211,"Monks Orchard",0,0
+E02000212,"Broad Green & Waddon Marsh",0,4
+E02000213,"Selhurst South & West Croydon",0,10
+E02000214,"Addiscombe East",0,4
+E02000215,"Addiscombe West",0,7
+E02000216,"Park Hill & Lloyd Park",0,5
+E02000217,"Croydon Minster & Waddon North",0,9
+E02000218,"Shirley East",0,2
+E02000219,"Shirley West",0,1
+E02000220,"Central Croydon",0,14
+E02000221,"Waddon South",0,4
+E02000222,"Croham",0,0
+E02000223,"New Addington North",0,2
+E02000224,"Purley North",0,5
+E02000225,"New Addington Central",0,1
+E02000226,"Selsdon",0,0
+E02000227,"Forestdale",0,0
+E02000228,"Sanderstead",0,1
+E02000229,"New Addington South",0,0
+E02000230,"Purley Central",0,8
+E02000231,"Woodcote",0,1
+E02000232,"Selsdon Park & Hamsey Green",0,0
+E02000233,"Kenley North",0,3
+E02000234,"Coulsdon",0,6
+E02000235,"Kenley South",0,2
+E02000236,"Woodmansterne",0,0
+E02000237,"Old Coulsdon",0,1
+E02006788,"South Norwood Park",0,2

@@ -1,33 +1,33 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02003549,0,0.00
-E02003550,0,0.00
-E02003551,0,0.00
-E02003552,0,0.00
-E02003553,0,0.00
-E02003554,0,0.01
-E02003555,0,0.01
-E02003556,0,0.00
-E02003557,0,0.01
-E02003558,0,0.00
-E02003559,0,0.00
-E02003560,0,0.01
-E02003561,0,0.00
-E02003562,0,0.00
-E02003563,0,0.01
-E02003564,0,0.01
-E02003565,0,0.00
-E02003566,0,0.00
-E02003567,0,0.01
-E02003568,0,0.01
-E02003569,0,0.00
-E02003570,0,0.04
-E02003571,0,0.19
-E02003572,0,0.05
-E02003573,0,0.00
-E02003574,0,0.00
-E02003575,0,0.00
-E02003576,0,0.02
-E02003577,0,0.00
-E02003578,0,0.00
-E02003579,0,0.02
-E02003580,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02003549,"Bassett Green",0,0
+E02003550,"Aldermoor & Lordswood",0,0
+E02003551,"Stoneham",0,0
+E02003552,"Coxford & Lords Hill",0,0
+E02003553,"Swaythling",0,0
+E02003554,"Hollybrook",0,1
+E02003555,"Maybush",0,1
+E02003556,"Townhill Park",0,0
+E02003557,"Highfield & University",0,2
+E02003558,"Shirley Warren",0,0
+E02003559,"Upper Shirley",0,0
+E02003560,"Redbridge & Millbrook West",0,1
+E02003561,"St Denys",0,0
+E02003562,"Bitterne West",0,0
+E02003563,"Shirley South",0,1
+E02003564,"Bitterne East",0,2
+E02003565,"Bevois Town",0,0
+E02003566,"Harefield",0,0
+E02003567,"Regents Park & Millbrook East",0,1
+E02003568,"Banister Park & Howard Road",0,1
+E02003569,"Freemantle",0,0
+E02003570,"Newtown & Nicholstown",0,7
+E02003571,"Central Southampton West",0,32
+E02003572,"Bitterne South",0,8
+E02003573,"Thornhill",0,0
+E02003574,"Sholing East",0,0
+E02003575,"Hightown",0,0
+E02003576,"Itchen",0,4
+E02003577,"Central Southampton East",0,0
+E02003578,"Sholing West",0,0
+E02003579,"Woolston",0,4
+E02003580,"Weston",0,0

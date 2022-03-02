@@ -1,15 +1,15 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005189,0.269,0.00
-E02005190,0.206,0.01
-E02005191,0.179,0.00
-E02005192,0.16,0.00
-E02005193,0.185,0.00
-E02005194,0.102,0.03
-E02005195,0.202,0.00
-E02005196,0.09,0.01
-E02005197,0.096,0.00
-E02005198,0.079,0.02
-E02005199,0.191,0.03
-E02005200,0.1,0.00
-E02005201,0.139,0.00
-E02005202,0.137,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005189,"Clayton Brook",0.269,0
+E02005190,"Brindle & Withnell",0.206,2
+E02005191,"Clayton-le-Woods",0.179,0
+E02005192,"Whittle-le-Woods & Anglezarke",0.16,0
+E02005193,"Euxton",0.185,0
+E02005194,"Chorley North",0.102,5
+E02005195,"Croston & Mawdesley",0.202,0
+E02005196,"Chorley West",0.09,2
+E02005197,"Chorley East",0.096,0
+E02005198,"Chorley Town & South",0.079,3
+E02005199,"Eccleston & Charnock Richard",0.191,6
+E02005200,"Chorley South West",0.1,0
+E02005201,"Coppull",0.139,0
+E02005202,"Adlington & Rivington",0.137,2

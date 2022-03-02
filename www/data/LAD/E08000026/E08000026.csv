@@ -1,43 +1,43 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02001958,0,0.17
-E02001959,0,0.10
-E02001961,0,0.01
-E02001962,0,0.02
-E02001963,0,0.13
-E02001964,0,0.02
-E02001965,0,0.02
-E02001966,0,0.04
-E02001967,0,0.00
-E02001968,0,0.12
-E02001969,0,0.16
-E02001970,0,0.00
-E02001971,0,0.03
-E02001972,0,0.02
-E02001973,0,0.08
-E02001974,0,0.11
-E02001975,0,0.08
-E02001976,0,0.06
-E02001977,0,0.18
-E02001978,0,0.10
-E02001979,0,0.05
-E02001980,0,0.00
-E02001981,0,0.03
-E02001982,0,0.00
-E02001983,0,0.32
-E02001984,0,0.16
-E02001985,0,0.11
-E02001986,0,0.00
-E02001987,0,0.10
-E02001988,0,0.21
-E02001989,0,0.00
-E02001990,0,0.02
-E02001991,0,0.10
-E02001992,0,0.08
-E02001993,0,0.02
-E02001994,0,0.09
-E02001995,0,0.02
-E02001996,0,0.01
-E02001997,0,0.00
-E02001998,0,0.00
-E02001999,0,0.01
-E02006805,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02001958,"Longford",0,30
+E02001959,"Keresley",0,18
+E02001961,"Bell Green",0,2
+E02001962,"Little Heath",0,4
+E02001963,"Whitmore Park",0,22
+E02001964,"Henley Green & Wood End",0,3
+E02001965,"Walsgrave & Woodway Park",0,3
+E02001966,"Foleshill West",0,7
+E02001967,"Brownshill Green",0,0
+E02001968,"Radford East",0,20
+E02001969,"Radford West",0,28
+E02001970,"Wyken Croft",0,0
+E02001971,"Coundon",0,6
+E02001972,"Foleshill East",0,3
+E02001973,"Stoke Heath",0,14
+E02001974,"Sherbourne",0,19
+E02001975,"Ravensdale",0,13
+E02001976,"Clifford Park",0,11
+E02001977,"Naul's Mill & Bishopsgate Green",0,31
+E02001978,"Barras Heath",0,18
+E02001979,"Allesley Park",0,8
+E02001980,"Allesley Green & Lower Eastern Green",0,0
+E02001981,"Hillfields",0,5
+E02001982,"Eastern Green & Tanyard Farm",0,0
+E02001983,"Whoberley",0,55
+E02001984,"Copsewood",0,27
+E02001985,"Lower Stoke & Gosford Park",0,19
+E02001986,"Tile Hill",0,0
+E02001987,"Chapelfields",0,18
+E02001988,"Central Coventry",0,36
+E02001989,"Earl Place & Lime Tree Park",0,0
+E02001990,"Binley",0,4
+E02001991,"Earlsdon & Canley Gardens",0,17
+E02001992,"Ernesford Grange & Stoke Aldermoor",0,13
+E02001993,"Canley & Westwood Heath",0,3
+E02001994,"Cheylesmore Daventry Road",0,15
+E02001995,"Whitley & Tollbar End",0,4
+E02001996,"Willenhall",0,1
+E02001997,"Stivichall & Finham",0,0
+E02001998,"Finham Park",0,0
+E02001999,"Cannon Park & University",0,2
+E02006805,"Holbrooks",0,0

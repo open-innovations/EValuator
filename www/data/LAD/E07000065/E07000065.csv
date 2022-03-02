@@ -1,22 +1,22 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004403,0,0.00
-E02004404,0,0.00
-E02004405,0,0.00
-E02004406,0,0.01
-E02004407,0,0.00
-E02004408,0,0.02
-E02004409,0,0.02
-E02004410,0,0.00
-E02004411,0,0.01
-E02004412,0,0.00
-E02004413,0,0.00
-E02004414,0,0.00
-E02004415,0,0.01
-E02004416,0,0.01
-E02004417,0,0.04
-E02004418,0,0.00
-E02004419,0,0.00
-E02004420,0,0.01
-E02004421,0,0.00
-E02004422,0,0.01
-E02004423,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004403,"Forest Row & Coleman's Hatch",0,0
+E02004404,"Frant & Groombridge",0,0
+E02004405,"Crowborough North East",0,0
+E02004406,"Crowborough Whitehill & Warren",0,1
+E02004407,"Mayfield & Wadhurst",0,0
+E02004408,"Crowborough South East",0,4
+E02004409,"Chelwood & Nutley",0,3
+E02004410,"Buxted",0,0
+E02004411,"Uckfield Town & North",0,2
+E02004412,"Heathfield",0,0
+E02004413,"Broad Oak & Horam",0,0
+E02004414,"Uckfield South",0,0
+E02004415,"Five Ash Down",0,1
+E02004416,"Herstmonceux & Ninfield",0,2
+E02004417,"Hailsham Central & East",0,7
+E02004418,"Hailsham South & West",0,0
+E02004419,"Hailsham East",0,0
+E02004420,"Hailsham North",0,2
+E02004421,"Polegate",0,0
+E02004422,"Stone Cross",0,1
+E02004423,"Willingdon",0,0

@@ -1,18 +1,18 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006439,0,0.00
-E02006440,0,0.01
-E02006441,0,0.03
-E02006442,0,0.00
-E02006443,0,0.01
-E02006444,0,0.00
-E02006445,0,0.05
-E02006446,0,0.00
-E02006447,0,0.00
-E02006448,0,0.01
-E02006449,0,0.00
-E02006450,0,0.00
-E02006451,0,0.01
-E02006453,0,0.00
-E02006454,0,0.01
-E02006455,0,0.01
-E02006839,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006439,"Farnham Weybourne & Badshot Lea",0,0
+E02006440,"Farnham Upper Hale",0,1
+E02006441,"Farnham Town",0,5
+E02006442,"Farnham Moor Park & Bourne",0,0
+E02006443,"Farncombe",0,2
+E02006444,"Farnham Shortheath",0,0
+E02006445,"Godalming North",0,9
+E02006446,"Blackheath",0,0
+E02006447,"Farnham Wrecclesham",0,0
+E02006448,"Godalming South",0,1
+E02006449,"Elstead & Milford",0,0
+E02006450,"Wheelerstreet",0,0
+E02006451,"Cranleigh",0,2
+E02006453,"Ewhurst & Chiddingfold",0,0
+E02006454,"Haslemere East",0,1
+E02006455,"Haslemere West",0,2
+E02006839,"Hindhead",0,1

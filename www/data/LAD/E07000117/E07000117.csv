@@ -1,13 +1,13 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02005176,0.095,0.00
-E02005177,0.113,0.01
-E02005178,0.12,0.03
-E02005179,0.156,0.01
-E02005180,0.079,0.00
-E02005181,0.212,0.02
-E02005182,0.123,0.01
-E02005183,0.116,0.00
-E02005184,0.109,0.00
-E02005185,0.229,0.01
-E02005186,0.198,0.00
-E02006881,0.158,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02005176,"Harle Syke & Lanehead",0.095,0
+E02005177,"Queensgate",0.113,1
+E02005178,"Central Burnley & Daneshouse",0.12,5
+E02005179,"Padiham",0.156,2
+E02005180,"Habergham & Ightenhill",0.079,0
+E02005181,"Whittlefield & Rose Grove",0.212,3
+E02005182,"Bank Hall & Fulledge",0.123,2
+E02005183,"Brunshaw & Brownside",0.116,0
+E02005184,"Cliviger",0.109,0
+E02005185,"Barclay Hills & Trinity",0.229,2
+E02005186,"Hapton & Lowerhouse",0.198,0
+E02006881,"Rose Hill & Burnley Wood",0.158,2

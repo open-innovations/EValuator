@@ -1,10 +1,10 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004464,0,0.00
-E02004465,0,0.01
-E02004466,0,0.00
-E02004467,0,0.00
-E02004468,0,0.01
-E02004469,0,0.02
-E02004470,0,0.01
-E02004471,0,0.03
-E02004472,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004464,"Kelvedon Hatch & Doddinghurst",0,0
+E02004465,"Ingatestone & Mountnessing",0,1
+E02004466,"Hutton",0,0
+E02004467,"Brentwood North",0,0
+E02004468,"Shenfield & Hutton Mount",0,1
+E02004469,"Brook Street & Pilgrim's Hatch",0,3
+E02004470,"Brentwood Central",0,1
+E02004471,"Brentwood South & Warley",0,5
+E02004472,"Herongate",0,0

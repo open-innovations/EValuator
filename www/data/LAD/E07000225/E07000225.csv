@@ -1,15 +1,15 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006561,0,0.00
-E02006562,0,0.00
-E02006563,0,0.00
-E02006564,0,0.01
-E02006565,0,0.01
-E02006566,0,0.01
-E02006567,0,0.01
-E02006568,0,0.02
-E02006569,0,0.01
-E02006570,0,0.06
-E02006571,0,0.00
-E02006572,0,0.00
-E02006573,0,0.02
-E02006574,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006561,"Fernhurst & Northchapel",0,0
+E02006562,"Ifold & Wisborough Green",0,0
+E02006563,"Milland & South Harting",0,0
+E02006564,"Midhurst & Cocking",0,2
+E02006565,"Easebourne & Petworth",0,1
+E02006566,"Dean",0,2
+E02006567,"Westbourne & Funtington",0,2
+E02006568,"College Lane & Oaklands",0,3
+E02006569,"Southbourne",0,1
+E02006570,"Central Chichester",0,11
+E02006571,"Stockbridge & Fishbourne",0,0
+E02006572,"Tangmere",0,0
+E02006573,"Wittering & Birdham",0,3
+E02006574,"Selsey",0,2

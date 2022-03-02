@@ -1,23 +1,23 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02000002,0,0.00
-E02000003,0,0.02
-E02000004,0,0.02
-E02000005,0,0.04
-E02000007,0,0.01
-E02000008,0,0.00
-E02000009,0,0.02
-E02000010,0,0.00
-E02000011,0,0.00
-E02000012,0,0.03
-E02000013,0,0.02
-E02000014,0,0.02
-E02000015,0,0.00
-E02000016,0,0.02
-E02000017,0,0.00
-E02000018,0,0.01
-E02000019,0,0.01
-E02000020,0,0.02
-E02000021,0,0.04
-E02000022,0,0.00
-E02000023,0,0.03
-E02006799,0,0.02
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02000002,"Marks Gate",0,0
+E02000003,"Chadwell Heath East",0,4
+E02000004,"Eastbrookend",0,3
+E02000005,"Becontree Heath",0,7
+E02000007,"Central Park & Frizlands Lane",0,2
+E02000008,"Becontree East",0,0
+E02000009,"Becontree West",0,4
+E02000010,"Dagenham North",0,0
+E02000011,"Dagenham Eastbrook",0,0
+E02000012,"Longbridge & Barking Park",0,6
+E02000013,"Becontree South",0,3
+E02000014,"Dagenham Central",0,3
+E02000015,"Old Dagenham Park & Village",0,0
+E02000016,"Barking Central",0,4
+E02000017,"Barking East",0,0
+E02000018,"Mayesbrook Park & Rippleside",0,1
+E02000019,"Goresbrook & Scrattons Farm",0,2
+E02000020,"Creekmouth & Barking Riverside",0,3
+E02000021,"Rylands Estate & Dagenham Dock",0,7
+E02000022,"Gascoigne Estate & Roding Riverside",0,0
+E02000023,"Thames View",0,6
+E02006799,"Becontree North",0,3

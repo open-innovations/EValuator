@@ -1,19 +1,19 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004446,0,0.00
-E02004447,0,0.00
-E02004448,0,0.00
-E02004449,0,0.00
-E02004450,0,0.00
-E02004451,0,0.00
-E02004452,0,0.00
-E02004453,0,0.02
-E02004454,0,0.06
-E02004455,0,0.00
-E02004456,0,0.00
-E02004457,0,0.00
-E02004458,0,0.01
-E02004459,0,0.00
-E02004460,0,0.01
-E02004461,0,0.00
-E02004462,0,0.09
-E02004463,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004446,"Steeple Bumpstead & Great Yeldham",0,0
+E02004447,"Bures Hamlet",0,0
+E02004448,"Hedingham",0,0
+E02004449,"Halstead Central & West",0,0
+E02004450,"Panfield",0,0
+E02004451,"Halstead East & Colnes",0,0
+E02004452,"Bocking Churchstreet & Blackwater",0,0
+E02004453,"Bocking",0,3
+E02004454,"Central Braintree",0,11
+E02004455,"Braintree West & Rayne",0,0
+E02004456,"Braintree South",0,0
+E02004457,"Silver End & Stisted",0,0
+E02004458,"Great Notley & Black Notley",0,2
+E02004459,"Coggeshall & Kelvedon",0,0
+E02004460,"North Witham",0,1
+E02004461,"West Witham",0,0
+E02004462,"Witham Town",0,15
+E02004463,"Witham South",0,0

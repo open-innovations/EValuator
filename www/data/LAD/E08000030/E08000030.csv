@@ -1,40 +1,40 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02002110,0,0.02
-E02002111,0,0.00
-E02002112,0,0.01
-E02002113,0,0.00
-E02002114,0,0.00
-E02002115,0,0.00
-E02002116,0,0.00
-E02002117,0,0.00
-E02002118,0,0.00
-E02002119,0,0.01
-E02002120,0,0.00
-E02002121,0,0.00
-E02002122,0,0.00
-E02002123,0,0.00
-E02002124,0,0.02
-E02002125,0,0.00
-E02002126,0,0.00
-E02002127,0,0.00
-E02002128,0,0.00
-E02002129,0,0.00
-E02002130,0,0.00
-E02002131,0,0.00
-E02002132,0,0.00
-E02002133,0,0.01
-E02002134,0,0.00
-E02002135,0,0.00
-E02002136,0,0.01
-E02002137,0,0.01
-E02002138,0,0.00
-E02002139,0,0.01
-E02002140,0,0.01
-E02002141,0,0.00
-E02002142,0,0.02
-E02002143,0,0.00
-E02002144,0,0.00
-E02002145,0,0.00
-E02002146,0,0.00
-E02002147,0,0.01
-E02002148,0,0.00
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02002110,"Brownhills West & Clayhanger",0,3
+E02002111,"Brownhills",0,0
+E02002112,"Pelsall North",0,1
+E02002113,"Walsall Wood",0,0
+E02002114,"Pelsall South",0,0
+E02002115,"Little Bloxwich",0,0
+E02002116,"Aldridge North",0,0
+E02002117,"Bloxwich Central & North",0,0
+E02002118,"Bloxwich North West",0,0
+E02002119,"Shelfield",0,2
+E02002120,"Ashmore",0,0
+E02002121,"Blakenall North",0,0
+E02002122,"Blakenall South",0,0
+E02002123,"New Invention",0,0
+E02002124,"Aldridge Central",0,4
+E02002125,"Rushall",0,0
+E02002126,"Bloxwich South",0,0
+E02002127,"Walsall Ryecroft",0,0
+E02002128,"Short Heath East",0,0
+E02002129,"Short Heath West",0,0
+E02002130,"Leamore",0,0
+E02002131,"Aldridge South",0,0
+E02002132,"Bentley",0,0
+E02002133,"Walsall North East",0,1
+E02002134,"Willenhall Park",0,0
+E02002135,"Walsall West",0,0
+E02002136,"Willenhall Town",0,1
+E02002137,"Streetly North",0,2
+E02002138,"Walsall East",0,0
+E02002139,"Walsall Central",0,1
+E02002140,"Pleck",0,1
+E02002141,"Streetly South",0,0
+E02002142,"Darlaston East",0,3
+E02002143,"Palfrey",0,0
+E02002144,"Walsall South East",0,0
+E02002145,"Darlaston Central",0,0
+E02002146,"The Delves",0,0
+E02002147,"Darlaston West",0,1
+E02002148,"Pheasey & Sutton Road",0,0

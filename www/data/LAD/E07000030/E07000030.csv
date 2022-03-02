@@ -1,8 +1,8 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02004008,0.248,0.01
-E02004009,0.326,0.02
-E02004010,0.489,0.02
-E02004011,0.373,0.00
-E02004012,0.873,0.02
-E02004013,0.516,0.02
-E02004014,0.396,0.02
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02004008,"Langwathby",0.248,1
+E02004009,"Hesket",0.326,4
+E02004010,"Penrith Central & West",0.489,3
+E02004011,"Penrith Outer",0.373,0
+E02004012,"Askham",0.873,4
+E02004013,"Appleby",0.516,3
+E02004014,"Kirkby Stephen",0.396,4

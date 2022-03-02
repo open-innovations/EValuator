@@ -1,24 +1,24 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02002928,0,0.00
-E02002929,0,0.00
-E02002930,0,0.00
-E02002931,0,0.01
-E02002932,0,0.00
-E02002933,0,0.00
-E02002934,0,0.00
-E02002935,0,0.00
-E02002936,0,0.01
-E02002937,0,0.00
-E02002938,0,0.01
-E02002939,0,0.01
-E02002940,0,0.00
-E02002941,0,0.00
-E02002942,0,0.01
-E02002943,0,0.01
-E02002944,0,0.01
-E02002945,0,0.02
-E02002946,0,0.00
-E02002947,0,0.00
-E02002948,0,0.00
-E02002949,0,0.01
-E02002950,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02002928,"Newport North",0,0
+E02002929,"Edgmond & Church Aston",0,0
+E02002930,"Newport South",0,0
+E02002931,"Muxton & Lilleshall",0,1
+E02002932,"Donnington",0,0
+E02002933,"Dothill & Shawbirch",0,0
+E02002934,"Apley & Leegomery",0,0
+E02002935,"Wrockwardine Wood & Trench",0,0
+E02002936,"Hadley & Horton",0,1
+E02002937,"Ironbridge",0,0
+E02002938,"Wellington East",0,1
+E02002939,"Wellington West",0,1
+E02002940,"St George's",0,0
+E02002941,"Oakengates & Ketley",0,0
+E02002942,"Priorslee",0,1
+E02002943,"Horsehay & The Rock",0,1
+E02002944,"Malinslee",0,2
+E02002945,"Hollinswood & Randlay",0,3
+E02002946,"Dawley & Aqueduct",0,0
+E02002947,"Brookside",0,0
+E02002948,"Woodside",0,0
+E02002949,"Madeley",0,2
+E02002950,"Sutton Hill",0,1

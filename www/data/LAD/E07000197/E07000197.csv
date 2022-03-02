@@ -1,17 +1,17 @@
-MSOA,index-of-transport-accesibility,chargepoints
-E02006188,0,0.00
-E02006189,0,0.00
-E02006190,0,0.01
-E02006191,0,0.01
-E02006192,0,0.01
-E02006193,0,0.01
-E02006194,0,0.01
-E02006195,0,0.01
-E02006196,0,0.01
-E02006197,0,0.06
-E02006198,0,0.08
-E02006199,0,0.00
-E02006200,0,0.00
-E02006201,0,0.00
-E02006202,0,0.00
-E02006203,0,0.01
+MSOA,Name,index-of-transport-accesibility,chargepoints
+E02006188,"Fulford & Meir Heath",0,0
+E02006189,"Barlaston",0,0
+E02006190,"Stone Town",0,1
+E02006191,"Little Stoke & Milwich",0,2
+E02006192,"Eccleshall & Yarnfield",0,2
+E02006193,"Stafford Common & Great Bridgeford",0,1
+E02006194,"Doxey & Holmcroft",0,1
+E02006195,"Weston & Haywood",0,2
+E02006196,"Stafford North East",0,2
+E02006197,"Central Stafford",0,10
+E02006198,"Littleworth & Hopton",0,13
+E02006199,"Rowley & Derrington",0,0
+E02006200,"Highfields & Burton Manor",0,0
+E02006201,"Weeping Cross & Brocton",0,0
+E02006202,"Gnosall & Haughton",0,0
+E02006203,"Mosspit & Silkmore Lane",0,2
