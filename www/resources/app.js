@@ -224,6 +224,8 @@
 			this.layers[l].min = min;
 			this.layers[l].max = max;
 			this.layers[l].range = max - min;
+			// Avoid zero ranges causing divide-by-zero errors
+			if(this.layers[l].range == 0) this.layers[l].range = 1;
 			this.layers[l].weight = 1;
 		}
 		
@@ -242,6 +244,41 @@
 			this.scores[msoa].total = this.scores[msoa].total/weight;
 		}
 
+
+		totals = [];
+		for(var msoa in this.lookup.LAD[this.LAD].MSOA){
+			totals.push([msoa,this.scores[msoa].total]);
+		}
+		totals.sort(function(a, b) {
+			return b[1] - a[1];
+		});
+
+		list = '<tr><th>Rank</th><th>MSOA</th><th>Name</th>';
+		for(var l = 0; l < this.layers.length; l++){
+			list += '<th>'+this.layers[l].title+'</th>';
+		}
+		list += '<th>Total</th>';
+		list += '</tr>';
+		for(var t = 0; t < totals.length; t++){
+			msoa = totals[t][0];
+			list += '<tr><td class="num">'+(t+1)+'</td><td>'+msoa+'</td>';
+			list += '<td>'+this.lookup.LAD[this.LAD].MSOA[msoa].name+'</td>';
+			for(var l = 0; l < this.layers.length; l++){
+				list += '<td class="num">'+this.scores[msoa][this.layers[l].id]+'</td>';
+			}
+			list += '<td class="num">'+this.scores[msoa].total.toFixed(2)+'</td>';
+			list += '</tr>';
+		}
+		el = document.getElementById('MSOAs');
+		if(!el){
+			el = document.createElement('ul');
+			el.id = 'MSOAs';
+			this.el.appendChild(el);
+		}
+		el.innerHTML = '<table>'+list+'</table>';
+
+
+
 		if(!this.lookup.LAD[id].geoJSON){
 			fetch('data/LAD/'+id+'/'+id+'.geojson').then(response => {
 				if(!response.ok) throw new Error('Network response was not OK');
@@ -257,37 +294,6 @@
 		}
 
 
-		totals = [];
-		for(var msoa in this.lookup.LAD[this.LAD].MSOA){
-			totals.push([msoa,this.scores[msoa].total]);
-		}
-		totals.sort(function(a, b) {
-			return b[1] - a[1];
-		});
-
-		list = '<tr><th>MSOA</th><th>Name</th>';
-		for(var l = 0; l < this.layers.length; l++){
-			list += '<th>'+this.layers[l].title+'</th>';
-		}
-		list += '<th>Total</th>';
-		list += '</tr>';
-		for(var t = 0; t < totals.length; t++){
-			msoa = totals[t][0];
-			list += '<tr><td>'+msoa+'</td>';
-			list += '<td>'+this.lookup.LAD[this.LAD].MSOA[msoa].name+'</td>';
-			for(var l = 0; l < this.layers.length; l++){
-				list += '<td>'+this.scores[msoa][this.layers[l].id]+'</td>';
-			}
-			list += '<td>'+this.scores[msoa].total.toFixed(2)+'</td>';
-			list += '</tr>';
-		}
-		el = document.getElementById('MSOAs');
-		if(!el){
-			el = document.createElement('ul');
-			el.id = 'MSOAs';
-			this.el.appendChild(el);
-		}
-		el.innerHTML = '<table>'+list+'</table>';
 		return this;
 	};
 
