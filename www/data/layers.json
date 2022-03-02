@@ -1,0 +1,13 @@
+[
+	{
+		"id": "index-of-transport-accesibility",
+		"title": "Transport Accessibility",
+		"desc": "An index created to show transport accessibilty across the North of England. This builds on the <a href='https://github.com/odileeds/OpenJourneyTime'>Open Journey Time</a> work by Open Innovations for Transport for the North.",
+		"src": "https://github.com/dringtech/index-of-transport-accesibility/raw/main/accessibility_index.csv"
+	},{
+		"id": "chargepoints",
+		"title": "Number of chargepoints",
+		"desc": "The number of chargepoints in the National Chargepoint Registry normalised to the MSOA with the most.",
+		"src": "layers/chargepoints.csv"
+	}
+]
