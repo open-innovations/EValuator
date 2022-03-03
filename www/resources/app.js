@@ -69,7 +69,7 @@
 		}
 		// Map
 		baseMaps = {
-			'Greyscale': L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+			'Greyscale': L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
 				attribution: 'Tiles: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
 				subdomains: 'abcd',
 				maxZoom: 19
@@ -82,6 +82,16 @@
 		var bbox = [[lat-d, lon-d],[lat+d, lon+d]];
 
 		this.map = L.map(this.el.map,{'layers':[baseMaps["Greyscale"]],'scrollWheelZoom':true,'editable': true,'zoomControl': true}).fitBounds(bbox);
+
+
+		// Create a map label pane so labels can sit above polygons
+		this.map.createPane('labels');
+		this.map.getPane('labels').style.zIndex = 650;
+		this.map.getPane('labels').style.pointerEvents = 'none';
+		L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
+			attribution: '',
+			pane: 'labels'
+		}).addTo(this.map);
 
 
 		// Get the area lookup
@@ -334,12 +344,12 @@
 			this.arealayer = L.geoJSON(this.arealookup[id].geoJSON, {
 				style: function (feature){
 					msoa = feature.properties['msoa11cd'];
-					v = _obj.scores[msoa].total||0;
-					console.log(v);
+					// Scale the opacity to the range 0.1 - 0.8 so that we can still see some map
+					v = (_obj.scores[msoa].total||0)*0.7 + 0.1;
 					return {
 						"color": "#2254F4",
 						"weight": 0.6,
-						"opacity":0.4,//Math.max(0.4,v),
+						"opacity":0.3,
 						"fillOpacity": v
 					}
 				},
