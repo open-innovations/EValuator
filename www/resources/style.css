@@ -104,7 +104,7 @@ h1 + * { margin-top: 1em; }
 
 input,select { line-height: 2em; padding: 0 0.25em; font-size: inherit; }
 
-.leaflet-popup { font-size: 1em; }
+.leaflet-container, .leaflet-popup { font-size: 1em; }
 .leaflet-popup-content { margin: 2em; }
 .leaflet-popup-content *:last-child { margin-bottom: 0; }
 .leaflet-popup-content-wrapper { border-radius: 0; }

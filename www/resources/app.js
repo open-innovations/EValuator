@@ -100,7 +100,7 @@
 				}
 			}
 
-			fetch("data/layers.json").then(response => {
+			fetch("data/domains.json").then(response => {
 				if(!response.ok) throw new Error('Network response was not OK');
 				return response.json();
 			}).then(data => {
@@ -285,7 +285,7 @@
 				list += '<th><div><span>'+this.categories[c].layers[l].title+'</span></div></th>';
 			}
 		}
-		list += '<th>Total</th>';
+		list += '<th>Score</th>';
 		list += '</tr>';
 		for(var t = 0; t < totals.length; t++){
 			msoa = totals[t][0];
@@ -344,11 +344,13 @@
 					}
 				},
 				onEachFeature: function(feature, layer) {
-					var popupContent = '<h2>'+feature.properties.msoa11hclnm+'</h2>';
+					var popupContent = '<h3>'+feature.properties.msoa11hclnm+'</h3>';
 					if(feature.properties && feature.properties.popupContent) popupContent += feature.properties.popupContent;
 					layer.bindPopup(popupContent);
 				}
 			}).addTo(this.map);
+			
+			this.map.attributionControl.setPrefix('<span class="AttributionClass"><a href=\"https://geoportal.statistics.gov.uk/datasets/middle-layer-super-output-areas-december-2011-boundaries-ew-bgc\">Boundaries</a>: ONS (Contains OS data © Crown copyright and database right 2021).</span>');
 			
 			this.map.fitBounds(this.arealayer.getBounds());
 		}else{
