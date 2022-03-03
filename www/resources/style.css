@@ -130,6 +130,7 @@ input,select { line-height: 2em; padding: 0 0.25em; font-size: inherit; }
 .typeahead-results li > a:hover, .typeahead-results li.selected > a:hover { background-color: #2254F4; color: white; }
 .typeahead-results li.selected > a { background-color: #444; color: white; }
 
+.table-wrapper { max-width: 100%; overflow-x: auto; }
 table { border-collapse: collapse; width: 100%; }
 table tr:hover { background: #ddd; }
 table td, table th { border: 1px solid #ddd; padding: 0.25em 0.5em; }
@@ -141,7 +142,7 @@ section {
 	padding: 1em 0;
 }
 
-#weights { display: grid; grid-template-columns: auto 1fr auto; vertical-align: middle; grid-gap: 0.5em; }
+#weights { display: grid; grid-template-columns: minmax(auto, 180px) 1fr auto; vertical-align: middle; grid-gap: 0.5em; }
 #weights input { margin: auto; padding: 0; width: 100%; }
 #weights label { display: block; text-align: left; padding-right: 0.5em; }
 #weights .value { min-width: 2em; padding-left: 0.5em; text-align: right; }

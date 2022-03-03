@@ -9,6 +9,7 @@
 		"title": "Existing chargepoints",
 		"desc": "The number of chargepoints in the National Chargepoint Registry.",
 		"src": "layers/chargepoints.csv",
-		"invert": true
+		"invert": true,
+		"weight": 0.8
 	}
 ]

@@ -148,6 +148,7 @@
 				'label':this.layers[l].title,
 				'class':'slider',
 				'data': {'layer':l},
+				'value': this.layers[l].weight||1,
 				'onchange':function(e){
 					this.updateValue(e.currentTarget.value);
 					_obj.layers[e.data.layer].weight = parseFloat(e.currentTarget.value);
@@ -160,72 +161,7 @@
 
 		return this;
 	};
-	
-	function Slider(opt){
-		if(!opt) opt = {};
-		var inp,lbl,val,cls,_obj;
 
-		_obj = this;
-
-		cls = opt.class||'slider';
-
-//		holder = document.createElement('div');
-//		holder.classList.add(cls);
-
-		if(opt.label){
-			lbl = document.createElement('label');
-			lbl.innerHTML = opt.label;
-			if(opt.id) lbl.setAttribute('for',opt.id);
-		}
-
-		val = document.createElement('div');
-		val.classList.add('value');
-
-		inp = document.createElement('input');
-		inp.setAttribute('type','range');
-		inp.setAttribute('min',opt.min||0);
-		inp.setAttribute('max',opt.max||1);
-		inp.setAttribute('step',opt.step||0.1);
-		if(opt.id) inp.setAttribute('id',opt.id);
-		if(opt.vertical){
-			inp.setAttribute('orient','vertical');
-			inp.setAttribute('style','writing-mode: bt-lr;-webkit-appearance: slider-vertical;');
-		}
-		inp.addEventListener('input',function(e){
-			var fn = function(e){ _obj.updateValue(inp.value); };
-			if(typeof opt.onchange==="function") fn = opt.onchange;
-			if(opt.data) e.data = opt.data;
-			fn.call(_obj,e);
-		});
-		
-		//if(opt.label) holder.appendChild(lbl);
-		//holder.appendChild(inp);
-		//holder.appendChild(val);
-
-		this.addTo = function(el){
-			//el.appendChild(holder);
-			el.appendChild(lbl);
-			el.appendChild(inp);
-			el.appendChild(val);
-			
-			// Trigger the change event when we first add it
-			var event = document.createEvent('HTMLEvents');
-			event.initEvent('change', true, false);
-			el.dispatchEvent(event);
-			return this;
-		};
-		this.setValue = function(v){
-			inp.setAttribute('value',v);
-			this.updateValue(v);
-		}
-		this.updateValue = function(txt){
-			val.innerHTML = txt;
-			return this;
-		}
-		this.setValue(opt.value||1);
-		return this;
-	}
-	
 	EValuator.prototype.setArea = function(id){
 		if(id && this.arealookup[id]){
 			if(!this.arealookup[id].MSOA){
@@ -344,7 +280,7 @@
 			this.el.ranking.id = 'MSOAs';
 			this.el.map.insertAdjacentElement('afterend', this.el.ranking);
 		}
-		this.el.ranking.innerHTML = '<table>'+list+'</table>';
+		this.el.ranking.innerHTML = '<div class="table-wrapper"><table>'+list+'</table></div>';
 
 
 		if(!this.arealookup[id].geoJSON){
@@ -375,10 +311,11 @@
 				style: function (feature){
 					msoa = feature.properties['msoa11cd'];
 					v = _obj.scores[msoa].total||0;
+					console.log(v);
 					return {
 						"color": "#2254F4",
 						"weight": 0.6,
-						"opacity": Math.max(0.4,v),
+						"opacity":0.4,//Math.max(0.4,v),
 						"fillOpacity": v
 					}
 				},
@@ -396,7 +333,62 @@
 	};
 
 
+	function Slider(opt){
+		if(!opt) opt = {};
+		var inp,lbl,val,cls,_obj;
 
+		_obj = this;
+
+		cls = opt.class||'slider';
+
+		if(opt.label){
+			lbl = document.createElement('label');
+			lbl.innerHTML = opt.label;
+			if(opt.id) lbl.setAttribute('for',opt.id);
+		}
+
+		val = document.createElement('div');
+		val.classList.add('value');
+
+		inp = document.createElement('input');
+		inp.setAttribute('type','range');
+		inp.setAttribute('min',opt.min||0);
+		inp.setAttribute('max',opt.max||1);
+		inp.setAttribute('step',opt.step||0.1);
+		if(opt.id) inp.setAttribute('id',opt.id);
+		if(opt.vertical){
+			inp.setAttribute('orient','vertical');
+			inp.setAttribute('style','writing-mode: bt-lr;-webkit-appearance: slider-vertical;');
+		}
+		inp.addEventListener('input',function(e){
+			var fn = function(e){ _obj.updateValue(inp.value); };
+			if(typeof opt.onchange==="function") fn = opt.onchange;
+			if(opt.data) e.data = opt.data;
+			fn.call(_obj,e);
+		});
+		
+		this.addTo = function(el){
+			el.appendChild(lbl);
+			el.appendChild(inp);
+			el.appendChild(val);
+			
+			// Trigger the change event when we first add it
+			var event = document.createEvent('HTMLEvents');
+			event.initEvent('change', true, false);
+			el.dispatchEvent(event);
+			return this;
+		};
+		this.setValue = function(v){
+			inp.setAttribute('value',v);
+			this.updateValue(v);
+		}
+		this.updateValue = function(txt){
+			val.innerHTML = txt;
+			return this;
+		}
+		this.setValue(opt.value||1);
+		return this;
+	}
 
 
 	// Define a logging function

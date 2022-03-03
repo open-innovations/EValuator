@@ -26,15 +26,21 @@ if($str){
 		$src = $json->[$l]{'src'};
 		print "$l - $src\n";
 		push(@headers,$json->[$l]{'id'});
-		
+
+		@lines = "";
+
 		if($src =~ /^http/){
 			@lines = `wget -q --no-check-certificate -O- "$src"`;
-		}elsif(-e $src){
-			open(FILE,$src);
-			@lines = <FILE>;
-			close(FILE);
+		}else{
+			$dir = $layerfile;
+			$dir =~ s/[^\/]*$//;
+			if(-e $dir.$src){
+				open(FILE,$dir.$src);
+				@lines = <FILE>;
+				close(FILE);
+			}
 		}
-		
+
 		for($i = 0; $i < @lines; $i++){
 			$lines[$i] =~ s/[\n\r]//g;
 			($m,$score) = split(/\,/,$lines[$i]);
