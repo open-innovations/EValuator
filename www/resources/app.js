@@ -429,6 +429,7 @@
 
 		invlbl = document.createElement('label');
 		invlbl.innerHTML = 'Invert?';
+		if(opt.label) invlbl.setAttribute('title','Invert '+opt.label);
 		invlbl.classList.add('invert');
 		if(opt.id) invlbl.setAttribute('for',opt.id+'-invert');
 
