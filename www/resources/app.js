@@ -104,7 +104,7 @@
 				if(!response.ok) throw new Error('Network response was not OK');
 				return response.json();
 			}).then(data => {
-				this.layers = data;
+				this.categories = data;
 				this.init();
 			}).catch(error => {
 				console.error('There has been a problem with your fetch operation:', error);
@@ -142,20 +142,34 @@
 		});
 
 		// Sliders
-		for(var l = 0; l < this.layers.length; l++){
-			inp = new Slider({
-				'id':this.layers[l].id,
-				'label':this.layers[l].title,
-				'class':'slider',
-				'data': {'layer':l},
-				'value': this.layers[l].weight||1,
-				'onchange':function(e){
-					this.updateValue(e.currentTarget.value);
-					_obj.layers[e.data.layer].weight = parseFloat(e.currentTarget.value);
-					_obj.postArea();
-				}
-			});
-			inp.addTo(this.el.weights);
+		for(var c = 0; c < this.categories.length; c++){
+			heading = document.createElement('h3');
+			heading.innerHTML = this.categories[c].title;
+			this.el.weights.appendChild(heading);
+
+			if(this.categories[c].desc){
+				desc = document.createElement('p');
+				desc.innerHTML = this.categories[c].desc;
+				this.el.weights.appendChild(desc);
+			}
+			category = document.createElement('div');
+			category.classList.add('category');
+			for(var l = 0; l < this.categories[c].layers.length; l++){
+				inp = new Slider({
+					'id':this.categories[c].layers[l].id,
+					'label':this.categories[c].layers[l].title,
+					'class':'slider',
+					'data': {'layer':l,'category':c},
+					'value': this.categories[c].layers[l].weight||1,
+					'onchange':function(e){
+						this.updateValue(e.currentTarget.value);
+						_obj.categories[e.data.category].layers[e.data.layer].weight = parseFloat(e.currentTarget.value);
+						_obj.postArea();
+					}
+				});
+				inp.addTo(category);
+			}
+			this.el.weights.appendChild(category);
 		}
 		//this.el.weights.setAttribute('style','grid-template-columns: repeat('+this.layers.length+',1fr);');
 
@@ -212,27 +226,31 @@
 		this.input.value = "";
 
 		// Find the min/max for each layers
-		for(var l = 0; l < this.layers.length; l++){
-			min = 1e100;
-			max = -1e100;
-			// Loop over the MSOAs in this area
-			for(msoa in this.arealookup[id].MSOA){
-				if(typeof this.scores[msoa][this.layers[l].id]==="number"){
-					min = Math.min(this.scores[msoa][this.layers[l].id],min);
-					max = Math.max(this.scores[msoa][this.layers[l].id],max);
-				}else{
-					this.log.warning('No score for '+this.layers[l].id+' for '+msoa);
+		for(var c = 0; c < this.categories.length; c++){
+			for(var l = 0; l < this.categories[c].layers.length; l++){
+				min = 1e100;
+				max = -1e100;
+				// Loop over the MSOAs in this area
+				for(msoa in this.arealookup[id].MSOA){
+					if(typeof this.scores[msoa][this.categories[c].layers[l].id]==="number"){
+						min = Math.min(this.scores[msoa][this.categories[c].layers[l].id],min);
+						max = Math.max(this.scores[msoa][this.categories[c].layers[l].id],max);
+					}else{
+						this.log.warning('No score for '+this.categories[c].layers[l].id+' for '+msoa);
+					}
 				}
+				this.categories[c].layers[l].min = min;
+				this.categories[c].layers[l].max = max;
+				this.categories[c].layers[l].range = max - min;
+				if(typeof this.categories[c].layers[l].weight!=="number") this.categories[c].layers[l].weight = 1;
 			}
-			this.layers[l].min = min;
-			this.layers[l].max = max;
-			this.layers[l].range = max - min;
-			if(typeof this.layers[l].weight!=="number") this.layers[l].weight = 1;
 		}
 		
 		var weight = 0;
-		for(var l = 0; l < this.layers.length; l++){
-			if(this.layers[l].range > 0) weight += this.layers[l].weight;
+		for(var c = 0; c < this.categories.length; c++){
+			for(var l = 0; l < this.categories[c].layers.length; l++){
+				if(this.categories[c].layers[l].range > 0) weight += this.categories[c].layers[l].weight;
+			}
 		}
 
 		var v;
@@ -240,11 +258,13 @@
 			this.scores[msoa].total = 0;
 			// Avoid divide-by-zero errors
 			if(weight > 0){
-				for(var l = 0; l < this.layers.length; l++){
-					// Only include if the range for this layer is non-zero
-					if(this.layers[l].range > 0){
-						v = (this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range;
-						this.scores[msoa].total += (this.layers[l].weight)*(this.layers[l].invert ? (1 - v) : v);
+				for(var c = 0; c < this.categories.length; c++){
+					for(var l = 0; l < this.categories[c].layers.length; l++){
+						// Only include if the range for this layer is non-zero
+						if(this.categories[c].layers[l].range > 0){
+							v = (this.scores[msoa][this.categories[c].layers[l].id] - this.categories[c].layers[l].min)/this.categories[c].layers[l].range;
+							this.scores[msoa].total += (this.categories[c].layers[l].weight)*(this.categories[c].layers[l].invert ? (1 - v) : v);
+						}
 					}
 				}
 				this.scores[msoa].total = this.scores[msoa].total/weight;
@@ -260,8 +280,10 @@
 		});
 
 		list = '<tr><th>Rank</th><th>MSOA</th><th>Name</th>';
-		for(var l = 0; l < this.layers.length; l++){
-			list += '<th><div><span>'+this.layers[l].title+'</span></div></th>';
+		for(var c = 0; c < this.categories.length; c++){
+			for(var l = 0; l < this.categories[c].layers.length; l++){
+				list += '<th><div><span>'+this.categories[c].layers[l].title+'</span></div></th>';
+			}
 		}
 		list += '<th>Total</th>';
 		list += '</tr>';
@@ -269,8 +291,10 @@
 			msoa = totals[t][0];
 			list += '<tr><td class="num">'+(t+1)+'</td><td>'+msoa+'</td>';
 			list += '<td><a href="https://findthatpostcode.uk/areas/'+msoa+'.html">'+this.arealookup[this.area].MSOA[msoa].name+'</a></td>';
-			for(var l = 0; l < this.layers.length; l++){
-				list += '<td class="num">'+this.scores[msoa][this.layers[l].id]+'</td>';
+			for(var c = 0; c < this.categories.length; c++){
+				for(var l = 0; l < this.categories[c].layers.length; l++){
+					list += '<td class="num">'+this.scores[msoa][this.categories[c].layers[l].id]+'</td>';
+				}
 			}
 			list += '<td class="num">'+this.scores[msoa].total.toFixed(2)+'</td>';
 			list += '</tr>';

@@ -19,36 +19,40 @@ if($str){
 
 	$json = $coder->decode($str);
 
-	@layers = @{$json};
-	$n = @layers;
+	@categories = @{$json};
+	for($c = 0; $c < @categories; $c++){
+		
+		@layers = @{$json->[$c]{'layers'}};
+		$n = @layers;
 
-	for($l = 0; $l < $n; $l++){
-		$src = $json->[$l]{'src'};
-#		print "$l - $src\n";
-		push(@headers,$json->[$l]{'id'});
+		for($l = 0; $l < $n; $l++){
+			$src = $json->[$c]{'layers'}[$l]{'src'};
+	#		print "$l - $src\n";
+			push(@headers,$json->[$c]{'layers'}[$l]{'id'});
 
-		@lines = "";
+			@lines = "";
 
-		if($src =~ /^http/){
-			print "Downloading file from: $src\n";
-			@lines = `wget -q --no-check-certificate -O- "$src"`;
-		}else{
-			$tdir = $layerfile;
-			$tdir =~ s/[^\/]*$//;
-			if(-e $tdir.$src){
-				print "Using file: $tdir$src\n";
-				open(FILE,$tdir.$src);
-				@lines = <FILE>;
-				close(FILE);
+			if($src =~ /^http/){
+				print "Downloading file from: $src\n";
+				@lines = `wget -q --no-check-certificate -O- "$src"`;
+			}else{
+				$tdir = $layerfile;
+				$tdir =~ s/[^\/]*$//;
+				if(-e $tdir.$src){
+					print "Using file: $tdir$src\n";
+					open(FILE,$tdir.$src);
+					@lines = <FILE>;
+					close(FILE);
+				}
 			}
-		}
 
-		for($i = 0; $i < @lines; $i++){
-			$lines[$i] =~ s/[\n\r]//g;
-			($m,$score) = split(/\,/,$lines[$i]);
-			if($m){
-				if(!$msoa{$m}){ $msoa{$m} = {}; }
-				$msoa{$m}{$json->[$l]{'id'}} = $score;
+			for($i = 0; $i < @lines; $i++){
+				$lines[$i] =~ s/[\n\r]//g;
+				($m,$score) = split(/\,/,$lines[$i]);
+				if($m){
+					if(!$msoa{$m}){ $msoa{$m} = {}; }
+					$msoa{$m}{$json->[$c]{'layers'}[$l]{'id'}} = $score;
+				}
 			}
 		}
 	}
@@ -60,10 +64,10 @@ while (defined(my $name = readdir $dh)) {
 	next if $name eq ".";
 	next if $name eq "..";
 
-	print "$dir$name\n";
 	open(FILE,"$dir$name/$name-msoas.tsv");
 	@lines = <FILE>;
 	close(FILE);
+	print "Saving to file $dir$name/$name.csv\n";
 	open(OUT,">","$dir$name/$name.csv");
 	print OUT "MSOA,Name";
 	for($h = 0; $h < @headers; $h++){

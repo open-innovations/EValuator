@@ -142,7 +142,7 @@ section {
 	padding: 1em 0;
 }
 
-#weights { display: grid; grid-template-columns: minmax(auto, 180px) 1fr auto; vertical-align: middle; grid-gap: 0.5em; }
+#weights .category { display: grid; grid-template-columns: minmax(auto, 180px) 1fr auto; vertical-align: middle; grid-gap: 0.5em; }
 #weights input { margin: auto; padding: 0; width: 100%; }
 #weights label { display: block; text-align: left; padding-right: 0.5em; }
 #weights .value { min-width: 2em; padding-left: 0.5em; text-align: right; }
