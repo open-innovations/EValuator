@@ -44,24 +44,46 @@
 	}
 
 	function EValuator(opts){
+
 		this.name = "EValuator";
 		this.version = "0.1";
 		if(!opts) opts = {};
-		this.log = new Logger({'id':this.name,'logging':(location.search.indexOf("logging=true")>=0)});
-		var el = opts.el||document.getElementById('map');
-		if(!el){
-			this.log.error('No element found to attach map to');
-			return this;
-		}
 
-		this.el = el;
-		
+		this.log = new Logger({'id':this.name,'logging':(location.search.indexOf("logging=true")>=0)});
+
 		this.arealookup = {};
 		this.scores = {};
 		this.area = "E08000035";
 		
-		
-		
+		this.el = {};
+		this.el.map = opts.map||document.getElementById('map');
+		this.el.ranking = opts.ranking||document.getElementById('ranking');
+		this.el.weights = opts.weights||document.getElementById('weights');
+		if(!this.el.map){
+			this.log.error('No element found to attach map to');
+			return this;
+		}
+		if(!this.el.ranking){
+			this.log.error('No element found to attach ranking to');
+			return this;
+		}
+		// Map
+		baseMaps = {
+			'Greyscale': L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+				attribution: 'Tiles: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+				subdomains: 'abcd',
+				maxZoom: 19
+			})
+		};
+
+		var lat = 53.79659;
+		var lon = -1.53385;
+		var d = 4;
+		var bbox = [[lat-d, lon-d],[lat+d, lon+d]];
+
+		this.map = L.map(this.el.map,{'layers':[baseMaps["Greyscale"]],'scrollWheelZoom':true,'editable': true,'zoomControl': true}).fitBounds(bbox);
+
+
 		// Get the area lookup
 		fetch('data/Area.tsv').then(response => {
 			if(!response.ok) throw new Error('Network response was not OK');
@@ -77,8 +99,7 @@
 					}
 				}
 			}
-			
-				
+
 			fetch("data/layers.json").then(response => {
 				if(!response.ok) throw new Error('Network response was not OK');
 				return response.json();
@@ -119,25 +140,91 @@
 			'render': function(d){ return d.name; },
 			'this': this
 		});
-		
-		// Map
-		baseMaps = {
-			'Greyscale': L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
-				attribution: 'Tiles: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-				subdomains: 'abcd',
-				maxZoom: 19
-			})
-		};
 
-		var lat = 53.79659;
-		var lon = -1.53385;
-		var d = 4;
-		var bbox = [[lat-d, lon-d],[lat+d, lon+d]];
-
-		this.map = L.map(this.el,{'layers':[baseMaps["Greyscale"]],'scrollWheelZoom':true,'editable': true,'zoomControl': true}).fitBounds(bbox);
+		// Sliders
+		for(var l = 0; l < this.layers.length; l++){
+			inp = new Slider({
+				'id':this.layers[l].id,
+				'label':this.layers[l].title,
+				'class':'slider',
+				'data': {'layer':l},
+				'onchange':function(e){
+					this.updateValue(e.currentTarget.value);
+					_obj.layers[e.data.layer].weight = parseFloat(e.currentTarget.value);
+					_obj.postArea();
+				}
+			});
+			inp.addTo(this.el.weights);
+		}
+		//this.el.weights.setAttribute('style','grid-template-columns: repeat('+this.layers.length+',1fr);');
 
 		return this;
 	};
+	
+	function Slider(opt){
+		if(!opt) opt = {};
+		var inp,lbl,val,cls,_obj;
+
+		_obj = this;
+
+		cls = opt.class||'slider';
+
+//		holder = document.createElement('div');
+//		holder.classList.add(cls);
+
+		if(opt.label){
+			lbl = document.createElement('label');
+			lbl.innerHTML = opt.label;
+			if(opt.id) lbl.setAttribute('for',opt.id);
+		}
+
+		val = document.createElement('div');
+		val.classList.add('value');
+
+		inp = document.createElement('input');
+		inp.setAttribute('type','range');
+		inp.setAttribute('min',opt.min||0);
+		inp.setAttribute('max',opt.max||1);
+		inp.setAttribute('step',opt.step||0.1);
+		if(opt.id) inp.setAttribute('id',opt.id);
+		if(opt.vertical){
+			inp.setAttribute('orient','vertical');
+			inp.setAttribute('style','writing-mode: bt-lr;-webkit-appearance: slider-vertical;');
+		}
+		inp.addEventListener('input',function(e){
+			var fn = function(e){ _obj.updateValue(inp.value); };
+			if(typeof opt.onchange==="function") fn = opt.onchange;
+			if(opt.data) e.data = opt.data;
+			fn.call(_obj,e);
+		});
+		
+		//if(opt.label) holder.appendChild(lbl);
+		//holder.appendChild(inp);
+		//holder.appendChild(val);
+
+		this.addTo = function(el){
+			//el.appendChild(holder);
+			el.appendChild(lbl);
+			el.appendChild(inp);
+			el.appendChild(val);
+			
+			// Trigger the change event when we first add it
+			var event = document.createEvent('HTMLEvents');
+			event.initEvent('change', true, false);
+			el.dispatchEvent(event);
+			return this;
+		};
+		this.setValue = function(v){
+			inp.setAttribute('value',v);
+			this.updateValue(v);
+		}
+		this.updateValue = function(txt){
+			val.innerHTML = txt;
+			return this;
+		}
+		this.setValue(opt.value||1);
+		return this;
+	}
 	
 	EValuator.prototype.setArea = function(id){
 		if(id && this.arealookup[id]){
@@ -160,7 +247,6 @@
 							}
 						}
 					}
-
 					this.postArea(id);
 				}).catch(error => {
 					console.error('There has been a problem with your fetch operation:', error);
@@ -175,9 +261,11 @@
 	};
 	
 	EValuator.prototype.postArea = function(id){
-		console.log(id,this.arealookup[id]);
+		
+		if(!id) id = this.area;
+
 		if(!this.arealookup[id].MSOA){
-			this.log.error('No MSOAs defined for '+this.arealookup[id].name+' ('+id+')');
+			this.log.warning('No MSOAs defined for '+this.arealookup[id].name+' ('+id+')');
 			return this;
 		}
 
@@ -186,8 +274,6 @@
 		// Update the input field
 		this.input.setAttribute('placeholder',this.arealookup[id].name);
 		this.input.value = "";
-
-
 
 		// Find the min/max for each layers
 		for(var l = 0; l < this.layers.length; l++){
@@ -207,32 +293,33 @@
 			this.layers[l].range = max - min;
 			// Avoid zero ranges causing divide-by-zero errors
 			if(this.layers[l].range == 0) this.layers[l].range = 1;
-			this.layers[l].weight = 1;
+			if(typeof this.layers[l].weight!=="number") this.layers[l].weight = 1;
 		}
 		
 		var weight = 0;
 		for(var l = 0; l < this.layers.length; l++) weight += this.layers[l].weight;
+		// Avoid divide-by-zero errors
+		if(weight == 0) weight = 1;
 
 		for(msoa in this.arealookup[id].MSOA){
 			this.scores[msoa].total = 0;
 			for(var l = 0; l < this.layers.length; l++){
-				if(this.layers[l].invert){
-					this.scores[msoa].total += 1 - ((this.layers[l].weight)*(this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range);
-				}else{
-					this.scores[msoa].total += (this.layers[l].weight)*(this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range;
-				}
+				this.scores[msoa].total += (this.layers[l].weight)*(this.layers[l].invert ? (1 - (this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range) : ((this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range));
 			}
 			this.scores[msoa].total = this.scores[msoa].total/weight;
 		}
 
 
 		totals = [];
-		for(var msoa in this.arealookup[this.area].MSOA) totals.push([msoa,this.scores[msoa].total]);
-		totals.sort(function(a, b) { return b[1] - a[1]; });
+		for(var msoa in this.arealookup[this.area].MSOA) totals.push([msoa,this.scores[msoa].total,this.arealookup[this.area].MSOA[msoa].name]);
+		totals.sort(function(a,b){
+			if(b[1] == a[1]) return a[2].localeCompare(b[2]);
+			else return b[1] - a[1];
+		});
 
 		list = '<tr><th>Rank</th><th>MSOA</th><th>Name</th>';
 		for(var l = 0; l < this.layers.length; l++){
-			list += '<th>'+this.layers[l].title+'</th>';
+			list += '<th><div><span>'+this.layers[l].title+'</span></div></th>';
 		}
 		list += '<th>Total</th>';
 		list += '</tr>';
@@ -246,14 +333,12 @@
 			list += '<td class="num">'+this.scores[msoa].total.toFixed(2)+'</td>';
 			list += '</tr>';
 		}
-		el = document.getElementById('MSOAs');
-		if(!el){
-			el = document.createElement('ul');
-			el.id = 'MSOAs';
-			this.el.appendChild(el);
+		if(!this.el.ranking){
+			this.el.ranking = document.createElement('ul');
+			this.el.ranking.id = 'MSOAs';
+			this.el.map.insertAdjacentElement('afterend', this.el.ranking);
 		}
-		el.innerHTML = '<table>'+list+'</table>';
-
+		this.el.ranking.innerHTML = '<table>'+list+'</table>';
 
 
 		if(!this.arealookup[id].geoJSON){
@@ -278,9 +363,6 @@
 		
 		if(this.arealookup[id].geoJSON){
 			if(this.arealayer) this.map.removeLayer(this.arealayer);
-
-			var weight = 0;
-			for(var l = 0; l < this.layers.length; l++) weight += this.layers[l].weight;
 
 			var _obj = this;
 			this.arealayer = L.geoJSON(this.arealookup[id].geoJSON, {

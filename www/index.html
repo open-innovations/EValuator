@@ -28,10 +28,16 @@
 			<section id="map" class="screen">
 				<div id="location"><div id='tooltip'></div></div>
 			</section>
+			
+			<section>
+				<h2>Weightings</h2>
+				<div id="weights"></div>
+			</section>
 
-			<h2>MSOAs</h2>
-			<div id="MSOAs">
-			</div>
+			<section>
+				<h2>Ranked MSOAs</h2>
+				<div id="ranking"></div>
+			</section>
 			
 		</div>
 	</div>
@@ -51,7 +57,7 @@
 	</footer>
 	<script>
 	OI.ready(function(){
-		app = new OI.EValuator({});
+		app = new OI.EValuator({'map':document.getElementById('map'),'ranking':document.getElementById('ranking'),'weights':document.getElementById('weights')});
 	})
 	</script>
 </body>
