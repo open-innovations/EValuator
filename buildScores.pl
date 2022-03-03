@@ -24,18 +24,20 @@ if($str){
 
 	for($l = 0; $l < $n; $l++){
 		$src = $json->[$l]{'src'};
-		print "$l - $src\n";
+#		print "$l - $src\n";
 		push(@headers,$json->[$l]{'id'});
 
 		@lines = "";
 
 		if($src =~ /^http/){
+			print "Downloading file from: $src\n";
 			@lines = `wget -q --no-check-certificate -O- "$src"`;
 		}else{
-			$dir = $layerfile;
-			$dir =~ s/[^\/]*$//;
-			if(-e $dir.$src){
-				open(FILE,$dir.$src);
+			$tdir = $layerfile;
+			$tdir =~ s/[^\/]*$//;
+			if(-e $tdir.$src){
+				print "Using file: $tdir$src\n";
+				open(FILE,$tdir.$src);
 				@lines = <FILE>;
 				close(FILE);
 			}
@@ -54,11 +56,11 @@ if($str){
 
 opendir my $dh, $dir || die "$0: opendir: $!";
 while (defined(my $name = readdir $dh)) {
-	next unless -d "$dir/$name";
+	next unless -d "$dir$name";
 	next if $name eq ".";
 	next if $name eq "..";
 
-	print "$name\n";
+	print "$dir$name\n";
 	open(FILE,"$dir$name/$name-msoas.tsv");
 	@lines = <FILE>;
 	close(FILE);
