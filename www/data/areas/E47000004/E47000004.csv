@@ -1,0 +1,201 @@
+MSOA,Name,index-of-transport-accessibility,chargepoints
+E02001327,"Kirkby North East",0.208,0
+E02001328,"Kirkby North West",0.223,0
+E02001329,"Kirkby South East",0.194,0
+E02001330,"Kirkby South West & Field Lane",0.344,1
+E02001331,"Knowsley Village & Southdene",0.283,2
+E02001332,"Stockbridge Village",0.03,0
+E02001333,"Prescot",0.258,3
+E02001334,"Page Moss & Fincham",0.251,0
+E02001335,"Whiston North",0.193,3
+E02001336,"Longview & Knowsley Park",0.282,0
+E02001337,"Mosscroft & Bakers Green",0.307,0
+E02001338,"Huyton Farm",0.237,0
+E02001339,"Whiston South",0.202,0
+E02001340,"Court Hey & Swanside",0.254,0
+E02001341,"Huyton East",0.228,0
+E02001342,"Huyton West & Roby",0.2,0
+E02001343,"Halsnead",0.417,0
+E02001344,"Halewood North",0.121,0
+E02001345,"Halewood Central",0.132,1
+E02001346,"Halewood South",0.195,0
+E02001347,"Fazakerley North",0.149,2
+E02001348,"Walton Vale",0.129,2
+E02001349,"Orrell Park",0.104,0
+E02001350,"Croxteth West & Gillmoss",0.202,2
+E02001351,"Fazakerley South",0.224,13
+E02001352,"Walton North",0.116,0
+E02001353,"Croxteth East",0.056,0
+E02001354,"Walton East",0.139,0
+E02001355,"Walton Hall",0.124,0
+E02001356,"Norris Green East",0.148,0
+E02001357,"Norris Green West",0.172,0
+E02001358,"Walton South",0.119,0
+E02001359,"Croxteth Park",0.127,0
+E02001360,"Kirkdale North",0,0
+E02001361,"Anfield North",0.119,0
+E02001362,"Muirhead Avenue",0.156,0
+E02001363,"Yewtree",0.131,2
+E02001364,"Anfield West",0.117,0
+E02001365,"Anfield East",0.114,0
+E02001366,"Tuebrook",0.131,0
+E02001367,"Sandfield Park & Holly Lodge",0.122,0
+E02001368,"Kirkdale South & Vauxhall",0.088,0
+E02001369,"Everton West",0.092,2
+E02001370,"Everton East",0.081,2
+E02001371,"Knotty Ash",0.177,0
+E02001372,"Dovecot",0.197,4
+E02001373,"Fairfield East",0.145,13
+E02001374,"Fairfield West & Newsham Park",0.095,9
+E02001375,"Stoneycroft",0.23,7
+E02001376,"Kensington",0.078,0
+E02001377,"Edge Hill",0.077,3
+E02001378,"Wavertree East",0.213,0
+E02001380,"Broad Green",0.22,1
+E02001381,"Wavertree West",0.078,0
+E02001382,"Childwall East",0.184,1
+E02001383,"Chinatown",0.086,20
+E02001384,"Wavertree South",0.104,0
+E02001385,"Toxteth Park",0.085,0
+E02001386,"Belle Vale",0.109,0
+E02001387,"Childwall West & Wavertree Green",0.17,0
+E02001388,"Wavertree Penny Lane",0.121,6
+E02001389,"Princes Park",0.087,0
+E02001390,"Toxteth",0.069,2
+E02001391,"Netherley",0.356,0
+E02001392,"Gateacre",0.118,0
+E02001393,"Calderstones",0.14,0
+E02001394,"Mossley Hill West & Sefton Park",0.115,0
+E02001395,"Mossley Hill East",0.121,2
+E02001396,"Dingle",0.061,18
+E02001397,"Woolton",0.126,0
+E02001398,"St Michael's & Otterspool",0.062,2
+E02001399,"West Allerton",0.113,0
+E02001400,"Allerton",0.115,0
+E02001401,"Hunts Cross",0.134,0
+E02001402,"Aigburth & Grassendale",0.091,2
+E02001403,"Garston",0.095,6
+E02001404,"Speke West & Airport",0.087,1
+E02001405,"Speke East",0.166,1
+E02001406,"Rainford",0.186,0
+E02001407,"Billinge",0.141,0
+E02001408,"Garswood",0.208,0
+E02001409,"Moss Bank",0.601,0
+E02001410,"Haydock East",0.379,4
+E02001411,"Haydock West",0.374,0
+E02001412,"Windle & Denton's Green",0.305,0
+E02001413,"Blackbrook",0.327,0
+E02001414,"Eccleston",0.294,0
+E02001415,"Earlestown North",0.099,1
+E02001416,"Broad Oak",0.099,0
+E02001417,"Town Centre West",0.233,1
+E02001418,"Earlestown South",0.099,2
+E02001419,"Town Centre East & Fingerpost",0.253,6
+E02001420,"Newton-le-Willows",0.123,5
+E02001421,"West Park",0.181,2
+E02001422,"Derbyshire Hill",0.148,0
+E02001423,"Eccleston Park",0.213,0
+E02001424,"Thatto Heath & Lea Green",0.187,5
+E02001425,"Sutton Leach",0.139,0
+E02001426,"Rainhill North",0.202,0
+E02001427,"Bold & Clock Face",0.152,0
+E02001428,"Rainhill South",0.292,0
+E02001429,"Crossens",0.091,0
+E02001430,"Marshside",0.112,0
+E02001431,"Hesketh Park",0.096,0
+E02001432,"Southport Waterfront",0.099,1
+E02001433,"Southport High Park",0.12,0
+E02001434,"Meols Cop",0.117,0
+E02001435,"Southport South",0.126,0
+E02001436,"Southport Kew",0.158,6
+E02001437,"Birkdale",0.115,0
+E02001438,"Hillside",0.169,0
+E02001439,"Ainsdale East",0.165,0
+E02001440,"Ainsdale West",0.162,0
+E02001441,"Formby West & Freshfield North",0.07,1
+E02001442,"Formby Central & Freshfield South",0.178,0
+E02001443,"Formby South West",0.135,0
+E02001444,"Formby South East & Ince Blundell",0.2,2
+E02001445,"Maghull North West & Lydiate",0.239,0
+E02001446,"Maghull North East",0.349,0
+E02001447,"Maghull South East",0.242,0
+E02001448,"Maghull South West",0.331,2
+E02001449,"Hightown & Thornton",0.192,0
+E02001450,"Blundellsands",0.077,0
+E02001451,"Netherton North",0.133,0
+E02001452,"Ford",0.127,0
+E02001453,"Crosby East",0.107,0
+E02001454,"Aintree East & Waddicar",0.162,0
+E02001455,"Aintree West & Old Roan",0.278,5
+E02001456,"Brighton le Sands & Crosby West",0.061,1
+E02001457,"Netherton South",0.242,0
+E02001458,"Waterloo",0.071,0
+E02001459,"Litherland North",0.108,0
+E02001460,"Seaforth North",0.099,2
+E02001461,"Litherland South",0.101,0
+E02001462,"Seaforth South",0.075,0
+E02001463,"Orrell",0.107,1
+E02001464,"Bootle North",0.087,0
+E02001465,"Bootle South",0.108,0
+E02001466,"Bootle East",0.131,0
+E02001467,"New Brighton",0.041,8
+E02001468,"Wallasey East",0.059,4
+E02001469,"Wallasey Village",0.15,0
+E02001470,"Wallasey Central",0.102,1
+E02001471,"Egremont",0.07,3
+E02001472,"Leasowe",0.094,0
+E02001473,"Liscard",0.161,4
+E02001474,"Seacombe",0.067,4
+E02001475,"Leasowe South & Moreton East",0.121,0
+E02001476,"Poulton",0.085,1
+E02001477,"Bidston Hill",0.166,5
+E02001478,"Moreton West",0.187,1
+E02001479,"Great Meols",0.059,0
+E02001480,"Hoylake",0.046,13
+E02001481,"Claughton North",0.12,2
+E02001482,"Birkenhead Central",0.089,4
+E02001483,"Saughall Massie",0.212,0
+E02001484,"Upton West",0.199,0
+E02001485,"Noctorum North & Upton East",0.097,0
+E02001486,"Claughton South & Oxton North",0.134,0
+E02001487,"Birkenhead South",0.1,0
+E02001488,"Oxton South",0.115,0
+E02001489,"Greasby",0.159,0
+E02001490,"Noctorum South",0.199,0
+E02001491,"Woodchurch",0.181,9
+E02001492,"West Kirby",0.075,1
+E02001493,"Tranmere",0.106,0
+E02001494,"Caldy & Newton",0.087,0
+E02001495,"Egerton Park",0.125,0
+E02001496,"Prenton",0.118,2
+E02001497,"Bebington New Ferry",0.083,0
+E02001498,"Woodhey",0.11,0
+E02001499,"Thursaston & Irby",0.122,0
+E02001500,"Pensby & Thingwall",0.116,0
+E02001501,"Higher Bebington",0.242,0
+E02001502,"Lower Bebington & Bromborough Pool",0.118,0
+E02001503,"Heswall",0.121,2
+E02001504,"Poulton",0.23,0
+E02001505,"Bromborough North",0.127,8
+E02001506,"Gayton & Lower Heswall",0.128,0
+E02001507,"Bromborough South",0.158,0
+E02001508,"Eastham",0.179,0
+E02002574,"Farnworth",0.222,0
+E02002575,"Upton Rocks",0.1,0
+E02002576,"Halton View",0.192,0
+E02002577,"Hough Green",0.001,0
+E02002578,"Victoria Park",0.19,0
+E02002579,"Ditton",0.206,0
+E02002580,"Widnes Riverside",0.332,20
+E02002581,"Hale Bank",0.265,0
+E02002582,"Sandymoor",0.162,2
+E02002583,"Halton Castlefield",0.204,0
+E02002584,"Runcorn Halton Road",0.163,2
+E02002585,"Runcorn Town & Westfield",0.155,11
+E02002586,"Grange",0,1
+E02002587,"Norton",0.116,0
+E02002588,"Halton Lea & Brookvale",0.099,0
+E02002589,"Beechwood & Heath",0.139,0
+E02006932,"Central & Islington",0.096,2
+E02006933,"Albert Dock & Queen's Dock",0.054,3
+E02006934,"Pier Head",0.085,6

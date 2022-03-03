@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type":"Feature","properties":{"osm_id":"150936773","name":"Distribution Road","highway":"unclassified","z_order": 3 }, "geometry":{"type":"LineString","coordinates":[[-2.8879,55.94538],[-2.88818,55.94582],[-2.88834,55.94608],[-2.88862,55.94658],[-2.88902,55.94728]]}},
-{ "type":"Feature","properties":{"osm_way_id":"995516991","building":"house","other":{"building:levels":"1"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.97145,55.95436],[-2.97151,55.95435],[-2.97152,55.95437],[-2.9716,55.95435],[-2.97165,55.9544],[-2.97151,55.95444],[-2.97145,55.95436]] ]}}
-]
-}

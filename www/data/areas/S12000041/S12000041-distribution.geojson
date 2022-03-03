@@ -1,6 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type":"Feature","properties":{"osm_way_id":"387019426","name":"SGM Distribution","building":"commercial"},"geometry":{"type":"Polygon","coordinates":[[[ -2.7885,56.62518],[-2.78821,56.62492],[-2.78842,56.62485],[-2.78871,56.62511],[-2.7885,56.62518]] ]}}
-]
-}

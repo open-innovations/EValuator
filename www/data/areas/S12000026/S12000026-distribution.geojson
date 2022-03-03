@@ -1,6 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type":"Feature","properties":{"osm_way_id":"424761654","name":"Menzies Distribution","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -2.75415,55.60443],[-2.75392,55.60465],[-2.75358,55.60454],[-2.75382,55.60432],[-2.75415,55.60443]] ]}}
-]
-}

@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type":"Feature","properties":{"osm_way_id":"97057656","name":"Distribution NOW","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -2.15912,57.07014],[-2.15905,57.07042],[-2.15842,57.07037],[-2.1585,57.07009],[-2.15912,57.07014]] ]}},
-{ "type":"Feature","properties":{"osm_way_id":"495560947","name":"McIntosh Donald Ltd, Distribution Centre","building":"industrial","other":{"addr:city":"Portlethen","addr:postcode":"AB12 4PF","addr:street":"Barclayhill Place"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.13251,57.06755],[-2.13201,57.06783],[-2.13178,57.06771],[-2.13228,57.06743],[-2.13251,57.06755]] ]}}
-]
-}
