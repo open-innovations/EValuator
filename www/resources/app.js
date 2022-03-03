@@ -291,22 +291,28 @@
 			this.layers[l].min = min;
 			this.layers[l].max = max;
 			this.layers[l].range = max - min;
-			// Avoid zero ranges causing divide-by-zero errors
-			if(this.layers[l].range == 0) this.layers[l].range = 1;
 			if(typeof this.layers[l].weight!=="number") this.layers[l].weight = 1;
 		}
 		
 		var weight = 0;
-		for(var l = 0; l < this.layers.length; l++) weight += this.layers[l].weight;
-		// Avoid divide-by-zero errors
-		if(weight == 0) weight = 1;
+		for(var l = 0; l < this.layers.length; l++){
+			if(this.layers[l].range > 0) weight += this.layers[l].weight;
+		}
 
+		var v;
 		for(msoa in this.arealookup[id].MSOA){
 			this.scores[msoa].total = 0;
-			for(var l = 0; l < this.layers.length; l++){
-				this.scores[msoa].total += (this.layers[l].weight)*(this.layers[l].invert ? (1 - (this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range) : ((this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range));
+			// Avoid divide-by-zero errors
+			if(weight > 0){
+				for(var l = 0; l < this.layers.length; l++){
+					// Only include if the range for this layer is non-zero
+					if(this.layers[l].range > 0){
+						v = (this.scores[msoa][this.layers[l].id] - this.layers[l].min)/this.layers[l].range;
+						this.scores[msoa].total += (this.layers[l].weight)*(this.layers[l].invert ? (1 - v) : v);
+					}
+				}
+				this.scores[msoa].total = this.scores[msoa].total/weight;
 			}
-			this.scores[msoa].total = this.scores[msoa].total/weight;
 		}
 
 
@@ -371,8 +377,8 @@
 					v = _obj.scores[msoa].total||0;
 					return {
 						"color": "#2254F4",
-						"weight": 0.4,
-						"opacity": 0.5,
+						"weight": 0.6,
+						"opacity": Math.max(0.4,v),
 						"fillOpacity": v
 					}
 				},
