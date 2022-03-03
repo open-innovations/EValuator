@@ -308,16 +308,16 @@ E09000030	Tower Hamlets
 E09000031	Waltham Forest
 E09000032	Wandsworth
 E09000033	Westminster
-E47000001	Greater Manchester
-E47000002	South Yorkshire
-E47000003	West Yorkshire
-E47000004	Liverpool City Region
-E47000006	Tees Valley
-E47000007	West Midlands
-E47000008	Cambridgeshire and Peterborough
-E47000009	West of England
-E47000010	North East
-E47000011	North of Tyne
+E47000001	Greater Manchester (Combined Authority)
+E47000002	South Yorkshire (Combined Authority)
+E47000003	West Yorkshire (Combined Authority)
+E47000004	Liverpool City Region (Combined Authority)
+E47000006	Tees Valley (Combined Authority)
+E47000007	West Midlands (Combined Authority)
+E47000008	Cambridgeshire and Peterborough (Combined Authority)
+E47000009	West of England (Combined Authority)
+E47000010	North East (Combined Authority)
+E47000011	North of Tyne (Combined Authority)
 W06000001	Isle of Anglesey
 W06000002	Gwynedd
 W06000003	Conwy
