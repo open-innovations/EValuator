@@ -138,14 +138,13 @@ table th { background: #222; color: white; vertical-align: bottom; }
 table td.num { text-align: center; }
 /*table th span { writing-mode: vertical-lr; }*/
 
-section {
-	padding: 1em 0;
-}
+section { padding: 1em 0; }
 
-#weights .category { display: grid; grid-template-columns: minmax(auto, 180px) 1fr auto; vertical-align: middle; grid-gap: 0.5em; }
+#weights .category { display: grid; grid-template-columns: minmax(auto, 180px) 1fr auto auto auto; vertical-align: middle; grid-gap: 0.5em; }
 #weights input { margin: auto; padding: 0; width: 100%; }
 #weights label { display: block; text-align: left; padding-right: 0.5em; }
-#weights .value { min-width: 2em; padding-left: 0.5em; text-align: right; }
+#weights label.invert { padding-right: 0; }
+#weights .value { min-width: 2em; padding-left: 0.25em; padding-right: 0.5em; text-align: left; }
 
 html, footer { background: #000; color: white; }
 footer ul { list-style: disc; }

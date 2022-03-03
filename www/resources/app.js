@@ -170,11 +170,16 @@
 					'label':this.categories[c].layers[l].title,
 					'class':'slider',
 					'data': {'layer':l,'category':c},
+					'invert': this.categories[c].layers[l].invert,
 					'value': this.categories[c].layers[l].weight||1,
 					'onchange':function(e){
 						this.updateValue(e.currentTarget.value);
 						_obj.categories[e.data.category].layers[e.data.layer].weight = parseFloat(e.currentTarget.value);
 						_obj.postArea();
+					},
+					'oninvert':function(e){
+						console.log('invert',e,this,_obj);
+						_obj.invertLayer(e.data.category,e.data.layer);
 					}
 				});
 				inp.addTo(category);
@@ -183,6 +188,13 @@
 		}
 		//this.el.weights.setAttribute('style','grid-template-columns: repeat('+this.layers.length+',1fr);');
 
+		return this;
+	};
+
+	EValuator.prototype.invertLayer = function(cat,lay){
+		if(typeof this.categories[cat].layers[lay].invert!=="boolean") this.categories[cat].layers[lay].invert = false;
+		this.categories[cat].layers[lay].invert = !this.categories[cat].layers[lay].invert;
+		this.postArea();
 		return this;
 	};
 
@@ -371,7 +383,7 @@
 
 	function Slider(opt){
 		if(!opt) opt = {};
-		var inp,lbl,val,cls,_obj;
+		var inp,inv,lbl,invlbl,val,cls,_obj;
 
 		_obj = this;
 
@@ -403,10 +415,30 @@
 			fn.call(_obj,e);
 		});
 		
+
+		inv = document.createElement('input');
+		inv.setAttribute('type','checkbox');
+		if(typeof opt.invert==="boolean" && opt.invert) inv.setAttribute('checked','checked');
+		if(opt.id) inv.setAttribute('id',opt.id+'-invert');
+		inv.addEventListener('change',function(e){
+			if(typeof opt.oninvert==="function"){
+				if(opt.data) e.data = opt.data;
+				opt.oninvert.call(_obj,e);
+			}
+		});
+
+		invlbl = document.createElement('label');
+		invlbl.innerHTML = 'Invert?';
+		invlbl.classList.add('invert');
+		if(opt.id) invlbl.setAttribute('for',opt.id+'-invert');
+
+		
 		this.addTo = function(el){
 			el.appendChild(lbl);
 			el.appendChild(inp);
 			el.appendChild(val);
+			el.appendChild(invlbl);
+			el.appendChild(inv);
 			
 			// Trigger the change event when we first add it
 			var event = document.createEvent('HTMLEvents');
