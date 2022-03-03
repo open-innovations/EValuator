@@ -6,8 +6,11 @@ Google doc on thoughts: https://docs.google.com/document/d/1JGvk4ODUaRWJ8caFH-Sn
 
 Currently the tool contains Local Authorities and Combined Authorities. If you want to add a new area, add it to the file `www/data/areas.tsv` with the ONS code and the name. Make sure that the code is included in the lookup file `www/data/OA11-LAD21-CAUTH21.tsv` in a column with a header ending with `CD` so that we know which MSOAs it is connected to. Then run the following steps:
 
-   * `perl updateAreas.pl` - this will create the appropriate sub-directory within `www/data/areas/`, it will create an MSOA lookup file in `www/data/areas/CODE/CODE-msoas.tsv`, and it will make a GeoJSON file in `www/data/areas/CODE/CODE.geojson`
-   * `perl buildScores.pl` - this will update the scores for every area listed in `www/data/areas.tsv` creating `www/data/areas/CODE/CODE.csv` as necessary
+  * `perl updateAreas.pl` - this will:
+     * create the appropriate sub-directory within `www/data/areas/`
+	 * create an MSOA lookup file in `www/data/areas/CODE/CODE-msoas.tsv`
+	 * make a GeoJSON file in `www/data/areas/CODE/CODE.geojson`
+  * `perl buildScores.pl` - this will update the scores for every area listed in `www/data/areas.tsv` creating `www/data/areas/CODE/CODE.csv` as necessary
 
 
 
