@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-W02000116,"Borth & Bont-goch",0,1,160.0
-W02000117,"Aberystwyth North",0,5,122.0
-W02000118,"Aberystwyth South",0,6,102.0
-W02000120,"Aberaeron & Llanrhystud",0,2,155.0
-W02000122,"New Quay & Penbryn",0,0,187.0
-W02000123,"Lampeter & Llanfihangel Ystrad",0,0,245.0
-W02000124,"Cardigan & Aber-porth",0,2,97.0
-W02000125,"Beulah",0,0,158.0
-W02000421,"Rheidol",0,0,180.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+W02000116,"Borth & Bont-goch",0,1,160.0,1.165
+W02000117,"Aberystwyth North",0,5,122.0,8.382
+W02000118,"Aberystwyth South",0,6,102.0,4.534
+W02000120,"Aberaeron & Llanrhystud",0,2,155.0,4.697
+W02000122,"New Quay & Penbryn",0,0,187.0,5.959
+W02000123,"Lampeter & Llanfihangel Ystrad",0,0,245.0,7.506
+W02000124,"Cardigan & Aber-porth",0,2,97.0,10.096
+W02000125,"Beulah",0,0,158.0,8.019
+W02000421,"Rheidol",0,0,180.0,8.425

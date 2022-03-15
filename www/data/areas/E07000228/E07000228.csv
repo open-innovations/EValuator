@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006604,"East Grinstead Central & North",0,5,327.0
-E02006605,"Copthorne & Turners Hill",0,0,865.0
-E02006606,"East Grinstead East",0,0,257.0
-E02006607,"East Grinstead West & South",0,7,257.0
-E02006608,"Crawley Down",0,0,792.0
-E02006609,"Horsted Keynes",0,0,1652.0
-E02006610,"Balcombe & Handcross",0,5,1741.0
-E02006611,"Haywards Heath North East",0,0,645.0
-E02006612,"Haywards Heath West",0,10,645.0
-E02006613,"Haywards Heath East",0,0,315.0
-E02006614,"Haywards Heath South & Cuckfield",0,0,861.0
-E02006615,"Burgess Hill West",0,0,216.0
-E02006616,"Burgess Hill East",0,0,216.0
-E02006617,"Burgess Hill Central",0,3,216.0
-E02006618,"Burgess Hill South",0,5,216.0
-E02006619,"Hurstpierpoint & Bolney",0,0,1361.0
-E02006620,"Hassocks",0,3,467.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006604,"East Grinstead Central & North",0,5,327.0,100.198
+E02006605,"Copthorne & Turners Hill",0,0,865.0,12.569
+E02006606,"East Grinstead East",0,0,257.0,17.460
+E02006607,"East Grinstead West & South",0,7,257.0,27.491
+E02006608,"Crawley Down",0,0,792.0,14.225
+E02006609,"Horsted Keynes",0,0,1652.0,40.626
+E02006610,"Balcombe & Handcross",0,5,1741.0,58.053
+E02006611,"Haywards Heath North East",0,0,645.0,35.401
+E02006612,"Haywards Heath West",0,10,645.0,128.498
+E02006613,"Haywards Heath East",0,0,315.0,19.586
+E02006614,"Haywards Heath South & Cuckfield",0,0,861.0,53.894
+E02006615,"Burgess Hill West",0,0,216.0,41.992
+E02006616,"Burgess Hill East",0,0,216.0,24.946
+E02006617,"Burgess Hill Central",0,3,216.0,33.365
+E02006618,"Burgess Hill South",0,5,216.0,18.189
+E02006619,"Hurstpierpoint & Bolney",0,0,1361.0,63.851
+E02006620,"Hassocks",0,3,467.0,78.836

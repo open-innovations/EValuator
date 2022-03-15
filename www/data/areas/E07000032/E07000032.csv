@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004029,"Alfreton",0,0,603.0
-E02004030,"Crich",0,1,840.0
-E02004031,"Somercotes & Pye Bridge",0,0,672.0
-E02004032,"Swanwick & Leabrooks",0,1,351.0
-E02004033,"Ripley East",0,0,672.0
-E02004034,"Ripley West",0,7,354.0
-E02004035,"Ambergate",0,0,831.0
-E02004036,"Ripley South & Loscoe",0,0,407.0
-E02004037,"Belper Far Laund",0,0,354.0
-E02004038,"Belper Town",0,6,597.0
-E02004039,"Openwoodgate & Holbrook",0,0,2086.0
-E02004040,"Heanor Gate & Aldercar",0,2,626.0
-E02004041,"Heanor East & Langley Mill",0,0,626.0
-E02004043,"Kilburn & Horsley",0,0,2391.0
-E02004044,"Duffield",0,2,1211.0
-E02006827,"Heanor South & Shipley Park",0,0,626.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004029,"Alfreton",0,0,603.0,23.422
+E02004030,"Crich",0,1,840.0,21.654
+E02004031,"Somercotes & Pye Bridge",0,0,672.0,40.930
+E02004032,"Swanwick & Leabrooks",0,1,351.0,17.406
+E02004033,"Ripley East",0,0,672.0,12.309
+E02004034,"Ripley West",0,7,354.0,14.531
+E02004035,"Ambergate",0,0,831.0,38.469
+E02004036,"Ripley South & Loscoe",0,0,407.0,12.208
+E02004037,"Belper Far Laund",0,0,354.0,31.249
+E02004038,"Belper Town",0,6,597.0,93.434
+E02004039,"Openwoodgate & Holbrook",0,0,2086.0,32.602
+E02004040,"Heanor Gate & Aldercar",0,2,626.0,23.949
+E02004041,"Heanor East & Langley Mill",0,0,626.0,24.572
+E02004043,"Kilburn & Horsley",0,0,2391.0,15.772
+E02004044,"Duffield",0,2,1211.0,52.345
+E02006827,"Heanor South & Shipley Park",0,0,626.0,23.909

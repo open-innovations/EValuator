@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004615,"Willersey",0,0,458.0
-E02004616,"Moreton & Stow-on-the-Wold",0,4,656.0
-E02004617,"Bourton-on-the-Water & Vale",0,3,656.0
-E02004618,"Sandywell",0,0,1532.0
-E02004619,"Northleach",0,2,1147.0
-E02004620,"Cirencester East & Stratton",0,0,468.0
-E02004621,"Cirencester Central",0,2,468.0
-E02004622,"Cirencester South",0,4,468.0
-E02004623,"Fairford & Lechlade",0,0,468.0
-E02004624,"Kemble & South Cerney",0,0,1072.0
-E02004625,"Tetbury",0,2,1274.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004615,"Willersey",0,0,458.0,58.963
+E02004616,"Moreton & Stow-on-the-Wold",0,4,656.0,56.130
+E02004617,"Bourton-on-the-Water & Vale",0,3,656.0,51.556
+E02004618,"Sandywell",0,0,1532.0,51.920
+E02004619,"Northleach",0,2,1147.0,54.091
+E02004620,"Cirencester East & Stratton",0,0,468.0,26.051
+E02004621,"Cirencester Central",0,2,468.0,56.580
+E02004622,"Cirencester South",0,4,468.0,53.052
+E02004623,"Fairford & Lechlade",0,0,468.0,49.253
+E02004624,"Kemble & South Cerney",0,0,1072.0,35.378
+E02004625,"Tetbury",0,2,1274.0,55.705

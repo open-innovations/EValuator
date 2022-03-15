@@ -1,32 +1,32 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002796,"Allestree North",0,0,329.0
-E02002797,"Allestree South",0,1,329.0
-E02002798,"Oakwood",0,1,1732.0
-E02002799,"Breadsall Hilltop",0,6,1732.0
-E02002800,"Darley Abbey",0,0,2161.0
-E02002801,"Chaddesden North",0,0,1732.0
-E02002802,"Chaddesden West",0,1,1832.0
-E02002803,"Little Chester",0,0,2161.0
-E02002804,"Mackworth",0,0,329.0
-E02002805,"Spondon North",0,0,1732.0
-E02002806,"New Zealand",0,0,429.0
-E02002807,"Chaddesden Park",0,0,1732.0
-E02002808,"Cathedral Quarter & California",0,36,614.0
-E02002809,"Spondon South",0,0,2206.0
-E02002810,"Mickleover North",0,0,329.0
-E02002811,"New Normanton",0,2,614.0
-E02002812,"Littleover East",0,7,514.0
-E02002813,"Rose Hill & Castleward",0,4,2957.0
-E02002814,"Mickleover South",0,0,290.0
-E02002815,"Normanton North & Peartree",0,0,290.0
-E02002816,"Littleover West & Heatherton",0,3,821.0
-E02002817,"Normanton West",0,0,290.0
-E02002818,"Normanton South",0,0,290.0
-E02002819,"Wilmorton & Alvaston Village",0,12,2039.0
-E02002820,"Alvaston & Crewton",0,2,2039.0
-E02002821,"Allenton & Osmaston",0,0,207.0
-E02002822,"Sunny Hill",0,0,290.0
-E02002823,"Boulton",0,0,207.0
-E02002824,"Sinfin",0,1,307.0
-E02002825,"Chellaston West & Shelton Lock",0,1,603.0
-E02002826,"Chellaston East",0,0,396.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002796,"Allestree North",0,0,329.0,28.370
+E02002797,"Allestree South",0,1,329.0,36.440
+E02002798,"Oakwood",0,1,1732.0,26.690
+E02002799,"Breadsall Hilltop",0,6,1732.0,16.401
+E02002800,"Darley Abbey",0,0,2161.0,31.306
+E02002801,"Chaddesden North",0,0,1732.0,13.854
+E02002802,"Chaddesden West",0,1,1832.0,18.065
+E02002803,"Little Chester",0,0,2161.0,8.067
+E02002804,"Mackworth",0,0,329.0,37.113
+E02002805,"Spondon North",0,0,1732.0,12.225
+E02002806,"New Zealand",0,0,429.0,17.618
+E02002807,"Chaddesden Park",0,0,1732.0,17.929
+E02002808,"Cathedral Quarter & California",0,36,614.0,33.876
+E02002809,"Spondon South",0,0,2206.0,18.053
+E02002810,"Mickleover North",0,0,329.0,14.458
+E02002811,"New Normanton",0,2,614.0,16.066
+E02002812,"Littleover East",0,7,514.0,25.968
+E02002813,"Rose Hill & Castleward",0,4,2957.0,79.285
+E02002814,"Mickleover South",0,0,290.0,17.697
+E02002815,"Normanton North & Peartree",0,0,290.0,12.644
+E02002816,"Littleover West & Heatherton",0,3,821.0,29.472
+E02002817,"Normanton West",0,0,290.0,21.304
+E02002818,"Normanton South",0,0,290.0,15.557
+E02002819,"Wilmorton & Alvaston Village",0,12,2039.0,14.630
+E02002820,"Alvaston & Crewton",0,2,2039.0,12.321
+E02002821,"Allenton & Osmaston",0,0,207.0,13.962
+E02002822,"Sunny Hill",0,0,290.0,23.739
+E02002823,"Boulton",0,0,207.0,9.373
+E02002824,"Sinfin",0,1,307.0,12.859
+E02002825,"Chellaston West & Shelton Lock",0,1,603.0,29.920
+E02002826,"Chellaston East",0,0,396.0,42.687

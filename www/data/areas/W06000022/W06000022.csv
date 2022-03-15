@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-W02000347,"Caerleon",0,0,285.0
-W02000348,"Malpas",0,4,163.0
-W02000349,"Bettws",0,0,163.0
-W02000350,"Langstone & Llan-wern",0,2,410.0
-W02000351,"Beechwood",0,0,154.0
-W02000352,"Shaftesbury & Crindai",0,0,290.0
-W02000353,"St Julians & Barnardtown",0,1,154.0
-W02000354,"Lawrence Hill",0,0,285.0
-W02000355,"Rogerstone",0,2,127.0
-W02000356,"Ringland",0,1,285.0
-W02000357,"Maendy",0,3,154.0
-W02000358,"Ridgeway & Glasllwch",0,5,163.0
-W02000359,"Victoria & Somerton",0,0,154.0
-W02000360,"Stow Hill",0,7,163.0
-W02000361,"Liswerry & Uskmouth",0,0,285.0
-W02000362,"Pye Corner & Graig",0,4,290.0
-W02000363,"Gaer",0,3,290.0
-W02000364,"Pillgwenlly & Docks",0,6,163.0
-W02000365,"Duffryn & Maesglas",0,0,290.0
-W02000366,"Marshfield",0,2,544.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+W02000347,"Caerleon",0,0,285.0,46.240
+W02000348,"Malpas",0,4,163.0,8.287
+W02000349,"Bettws",0,0,163.0,8.843
+W02000350,"Langstone & Llan-wern",0,2,410.0,33.754
+W02000351,"Beechwood",0,0,154.0,4.593
+W02000352,"Shaftesbury & Crindai",0,0,290.0,36.127
+W02000353,"St Julians & Barnardtown",0,1,154.0,6.326
+W02000354,"Lawrence Hill",0,0,285.0,5.623
+W02000355,"Rogerstone",0,2,127.0,39.843
+W02000356,"Ringland",0,1,285.0,4.749
+W02000357,"Maendy",0,3,154.0,6.890
+W02000358,"Ridgeway & Glasllwch",0,5,163.0,8.692
+W02000359,"Victoria & Somerton",0,0,154.0,9.630
+W02000360,"Stow Hill",0,7,163.0,16.575
+W02000361,"Liswerry & Uskmouth",0,0,285.0,31.246
+W02000362,"Pye Corner & Graig",0,4,290.0,28.737
+W02000363,"Gaer",0,3,290.0,6.879
+W02000364,"Pillgwenlly & Docks",0,6,163.0,13.695
+W02000365,"Duffryn & Maesglas",0,0,290.0,14.183
+W02000366,"Marshfield",0,2,544.0,43.953

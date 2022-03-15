@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005492,"Caistor",0,1,450.0
-E02005493,"Morton",0,1,276.0
-E02005494,"Market Rasen & Brookenby",0,4,354.0
-E02005495,"Gainsborough West",0,5,172.0
-E02005496,"Hemswell & Spital",0,0,665.0
-E02005497,"Gainsborough East",0,2,172.0
-E02005498,"Torksey & Stow",0,3,348.0
-E02005499,"Dunholme & Welton",0,1,554.0
-E02005500,"Saxilby & Scampton",0,0,530.0
-E02005501,"Nettleham",0,0,237.0
-E02005502,"Cherry Willingham & Bardney",0,0,202.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005492,"Caistor",0,1,450.0,38.172
+E02005493,"Morton",0,1,276.0,22.160
+E02005494,"Market Rasen & Brookenby",0,4,354.0,40.572
+E02005495,"Gainsborough West",0,5,172.0,35.077
+E02005496,"Hemswell & Spital",0,0,665.0,29.934
+E02005497,"Gainsborough East",0,2,172.0,12.674
+E02005498,"Torksey & Stow",0,3,348.0,20.890
+E02005499,"Dunholme & Welton",0,1,554.0,20.254
+E02005500,"Saxilby & Scampton",0,0,530.0,18.926
+E02005501,"Nettleham",0,0,237.0,18.254
+E02005502,"Cherry Willingham & Bardney",0,0,202.0,18.311

@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006344,"West Clandon & Send",0,0,809.0
-E02006345,"Pirbright & Normandy",0,0,715.0
-E02006346,"Horsley & Effingham",0,0,1371.0
-E02006347,"Ash Vale",0,1,3822.0
-E02006348,"Worplesdon",0,0,927.0
-E02006349,"Stoughton",0,1,198.0
-E02006350,"Bellfields",0,3,571.0
-E02006351,"Burpham North & Merrow East",0,0,582.0
-E02006352,"Woodbridge Hill",0,0,198.0
-E02006353,"Ash Wharf",0,0,563.0
-E02006354,"Burpham",0,0,582.0
-E02006355,"Park Barn & Royal Surrey",0,2,345.0
-E02006356,"Guildford Town Centre",0,4,582.0
-E02006357,"Tongham",0,0,563.0
-E02006358,"Onslow Village and University",0,9,1099.0
-E02006359,"Pewley Down & The Mount",0,0,780.0
-E02006360,"Shalford & Wanborough",0,0,1582.0
-E02006361,"Gomshall",0,0,797.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006344,"West Clandon & Send",0,0,809.0,68.493
+E02006345,"Pirbright & Normandy",0,0,715.0,32.324
+E02006346,"Horsley & Effingham",0,0,1371.0,115.929
+E02006347,"Ash Vale",0,1,3822.0,24.671
+E02006348,"Worplesdon",0,0,927.0,36.626
+E02006349,"Stoughton",0,1,198.0,16.152
+E02006350,"Bellfields",0,3,571.0,12.374
+E02006351,"Burpham North & Merrow East",0,0,582.0,42.474
+E02006352,"Woodbridge Hill",0,0,198.0,16.152
+E02006353,"Ash Wharf",0,0,563.0,17.719
+E02006354,"Burpham",0,0,582.0,27.291
+E02006355,"Park Barn & Royal Surrey",0,2,345.0,19.803
+E02006356,"Guildford Town Centre",0,4,582.0,52.059
+E02006357,"Tongham",0,0,563.0,32.828
+E02006358,"Onslow Village and University",0,9,1099.0,133.554
+E02006359,"Pewley Down & The Mount",0,0,780.0,27.434
+E02006360,"Shalford & Wanborough",0,0,1582.0,68.043
+E02006361,"Gomshall",0,0,797.0,48.189

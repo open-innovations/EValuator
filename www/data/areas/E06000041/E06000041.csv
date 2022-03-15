@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003439,"Twyford East & Wargrave",0,1,949.0
-E02003440,"Twyford West & Charvil",0,0,422.0
-E02003441,"Sonning & Woodley North",0,0,1047.0
-E02003442,"Woodley East",0,0,422.0
-E02003443,"Woodley South",0,0,436.0
-E02003444,"Earley",0,4,1266.0
-E02003445,"Southlake",0,0,436.0
-E02003446,"Lower Earley North",0,0,496.0
-E02003447,"Winnersh",0,6,619.0
-E02003448,"Wokingham North & Hurst",0,1,1639.0
-E02003449,"Lower Earley South",0,0,619.0
-E02003450,"Shinfield",0,0,603.0
-E02003451,"Wokingham Town",0,1,966.0
-E02003452,"Wokingham East",0,1,779.0
-E02003453,"Barkham & Woose Hill",0,0,1105.0
-E02003454,"Wokingham West & South",0,5,779.0
-E02003455,"Spencers Wood & Swallowfield",0,4,912.0
-E02003456,"Arborfield & Garrison",0,6,1876.0
-E02003457,"Finchampstead",0,0,966.0
-E02003458,"Crowthorne North",0,0,624.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003439,"Twyford East & Wargrave",0,1,949.0,63.136
+E02003440,"Twyford West & Charvil",0,0,422.0,50.351
+E02003441,"Sonning & Woodley North",0,0,1047.0,40.668
+E02003442,"Woodley East",0,0,422.0,32.378
+E02003443,"Woodley South",0,0,436.0,29.904
+E02003444,"Earley",0,4,1266.0,81.812
+E02003445,"Southlake",0,0,436.0,28.022
+E02003446,"Lower Earley North",0,0,496.0,36.110
+E02003447,"Winnersh",0,6,619.0,48.354
+E02003448,"Wokingham North & Hurst",0,1,1639.0,62.463
+E02003449,"Lower Earley South",0,0,619.0,16.720
+E02003450,"Shinfield",0,0,603.0,31.261
+E02003451,"Wokingham Town",0,1,966.0,192.096
+E02003452,"Wokingham East",0,1,779.0,34.412
+E02003453,"Barkham & Woose Hill",0,0,1105.0,33.615
+E02003454,"Wokingham West & South",0,5,779.0,56.910
+E02003455,"Spencers Wood & Swallowfield",0,4,912.0,46.852
+E02003456,"Arborfield & Garrison",0,6,1876.0,41.258
+E02003457,"Finchampstead",0,0,966.0,51.411
+E02003458,"Crowthorne North",0,0,624.0,50.511

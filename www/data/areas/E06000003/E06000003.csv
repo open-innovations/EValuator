@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002515,"Redcar Town & Coatham",0.123,1,110.0
-E02002516,"Redcar Lakes North",0.122,0,110.0
-E02002517,"Dormanstown",0.107,4,196.0
-E02002518,"Redcar East",0.114,2,110.0
-E02002519,"Redcar Lakes South",0.076,0,142.0
-E02002520,"Marske",0.202,4,201.0
-E02002521,"Saltburn",0.157,0,59.0
-E02002523,"Grangetown",0.116,0,68.0
-E02002524,"Brotton",0.13,0,77.0
-E02002525,"Eston",0.23,0,164.0
-E02002526,"Skelton",0.226,1,132.0
-E02002527,"Loftus & Skinningrove",0.152,1,18.0
-E02002529,"Bankfields",0.149,2,126.0
-E02002530,"Boosbeck",0.128,0,132.0
-E02002532,"Guisborough North",0.172,5,127.0
-E02002533,"Guisborough West",0.115,0,55.0
-E02002534,"Guisborough Outer & Upleatham",0.113,2,249.0
-E02006812,"Ormesby",0.332,0,111.0
-E02006910,"South Bank & Teesville",0.129,0,72.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002515,"Redcar Town & Coatham",182,1,110.0,11.054
+E02002516,"Redcar Lakes North",185,0,110.0,6.371
+E02002517,"Dormanstown",193,4,196.0,14.544
+E02002518,"Redcar East",176,2,110.0,9.175
+E02002519,"Redcar Lakes South",194,0,142.0,6.323
+E02002520,"Marske",191,4,201.0,29.075
+E02002521,"Saltburn",167,0,59.0,13.014
+E02002523,"Grangetown",235,0,68.0,5.729
+E02002524,"Brotton",137,0,77.0,9.207
+E02002525,"Eston",245,0,164.0,5.620
+E02002526,"Skelton",160,1,132.0,18.522
+E02002527,"Loftus & Skinningrove",115,1,18.0,4.957
+E02002529,"Bankfields",191,2,126.0,4.591
+E02002530,"Boosbeck",118,0,132.0,12.604
+E02002532,"Guisborough North",175,5,127.0,20.634
+E02002533,"Guisborough West",139,0,55.0,12.799
+E02002534,"Guisborough Outer & Upleatham",126,2,249.0,12.840
+E02006812,"Ormesby",306,0,111.0,27.400
+E02006910,"South Bank & Teesville",221,0,72.0,13.044

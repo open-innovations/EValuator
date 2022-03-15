@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004896,"Potters Bar Parkfield",0,2,997.0
-E02004897,"Potters Bar Furzefield",0,0,685.0
-E02004898,"Potters Bar Oakmere",0,1,309.0
-E02004899,"Shenley & South Mimms",0,3,1994.0
-E02004900,"Radlett",0,0,989.0
-E02004901,"Borehamwood Cowley Hill",0,3,487.0
-E02004902,"Borehamwood Brookmeadow",0,0,761.0
-E02004903,"Bushey North",0,1,488.0
-E02004904,"Borehamwood Kenilworth",0,1,487.0
-E02004905,"Elstree & Aldenham",0,0,998.0
-E02004906,"Borehamwood Hillside",0,1,487.0
-E02004907,"Bushey Central",0,0,414.0
-E02004908,"Bushey Heath",0,1,1413.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004896,"Potters Bar Parkfield",0,2,997.0,69.932
+E02004897,"Potters Bar Furzefield",0,0,685.0,21.488
+E02004898,"Potters Bar Oakmere",0,1,309.0,25.787
+E02004899,"Shenley & South Mimms",0,3,1994.0,47.335
+E02004900,"Radlett",0,0,989.0,149.211
+E02004901,"Borehamwood Cowley Hill",0,3,487.0,31.446
+E02004902,"Borehamwood Brookmeadow",0,0,761.0,74.364
+E02004903,"Bushey North",0,1,488.0,39.632
+E02004904,"Borehamwood Kenilworth",0,1,487.0,22.741
+E02004905,"Elstree & Aldenham",0,0,998.0,40.214
+E02004906,"Borehamwood Hillside",0,1,487.0,31.990
+E02004907,"Bushey Central",0,0,414.0,88.623
+E02004908,"Bushey Heath",0,1,1413.0,60.042

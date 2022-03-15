@@ -1,29 +1,29 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02001259,"Old Trafford",0.07,0,189.0
-E02001260,"Trafford Park West & Kingsway Park",0.265,25,295.0
-E02001261,"Gorse Hill",0.087,3,341.0
-E02001262,"Firswood",0.078,0,259.0
-E02001263,"Davyhulme",0.064,9,213.0
-E02001264,"Trafford Park East & Sevenways",0.09,0,554.0
-E02001265,"Flixton & Moorside",0.049,0,213.0
-E02001266,"Lostock & Stretford Meadows",0.129,0,554.0
-E02001267,"Urmston East",0.082,0,213.0
-E02001268,"Urmston West",0,0,213.0
-E02001269,"Stretford East",0.191,3,261.0
-E02001270,"Sale North",0.148,0,456.0
-E02001271,"Ashton upon Mersey North",0.154,1,343.0
-E02001272,"Sale East",0.189,0,343.0
-E02001273,"Sale Central",0.089,2,343.0
-E02001274,"Ashton upon Mersey South",0.069,0,343.0
-E02001275,"Partington",0.112,0,702.0
-E02001276,"Sale Moor",0.124,0,566.0
-E02001277,"Broadheath & Firsway",0.039,2,720.0
-E02001278,"West Timperley",0.001,0,1091.0
-E02001279,"Timperley North",0.084,0,789.0
-E02001280,"Timperley East",0.137,0,446.0
-E02001281,"Timperley South",0.113,0,371.0
-E02001282,"Altrincham East",0.151,3,894.0
-E02001283,"Altrincham West",0.195,3,523.0
-E02001284,"Hale",0.161,0,748.0
-E02001285,"Bowdon",0.199,0,748.0
-E02001286,"Hale Barns",0.167,0,371.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02001259,"Old Trafford",705,0,189.0,13.896
+E02001260,"Trafford Park West & Kingsway Park",923,25,295.0,28.131
+E02001261,"Gorse Hill",798,3,341.0,16.616
+E02001262,"Firswood",723,0,259.0,7.594
+E02001263,"Davyhulme",801,9,213.0,27.772
+E02001264,"Trafford Park East & Sevenways",866,0,554.0,14.028
+E02001265,"Flixton & Moorside",749,0,213.0,23.822
+E02001266,"Lostock & Stretford Meadows",870,0,554.0,12.063
+E02001267,"Urmston East",856,0,213.0,52.791
+E02001268,"Urmston West",802,0,213.0,23.702
+E02001269,"Stretford East",865,3,261.0,27.812
+E02001270,"Sale North",870,0,456.0,63.619
+E02001271,"Ashton upon Mersey North",877,1,343.0,24.413
+E02001272,"Sale East",862,0,343.0,31.517
+E02001273,"Sale Central",815,2,343.0,120.903
+E02001274,"Ashton upon Mersey South",811,0,343.0,37.459
+E02001275,"Partington",743,0,702.0,0.437
+E02001276,"Sale Moor",838,0,566.0,22.129
+E02001277,"Broadheath & Firsway",768,2,720.0,31.668
+E02001278,"West Timperley",742,0,1091.0,29.031
+E02001279,"Timperley North",658,0,789.0,30.279
+E02001280,"Timperley East",736,0,446.0,44.804
+E02001281,"Timperley South",692,0,371.0,37.459
+E02001282,"Altrincham East",706,3,894.0,194.252
+E02001283,"Altrincham West",746,3,523.0,88.579
+E02001284,"Hale",728,0,748.0,55.795
+E02001285,"Bowdon",747,0,748.0,62.698
+E02001286,"Hale Barns",798,0,371.0,65.599

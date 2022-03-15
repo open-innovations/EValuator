@@ -1,26 +1,26 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003524,"Paulsgrove East",0,1,6947.0
-E02003525,"Wymering",0,4,6947.0
-E02003526,"Cosham North",0,1,7226.0
-E02003527,"Paulsgrove West & Port Solent",0,0,7001.0
-E02003529,"Cosham South",0,0,6947.0
-E02003530,"Hilsea",0,0,180.0
-E02003531,"Anchorage Park & Copnor",0,1,180.0
-E02003532,"Alexandra Park",0,7,58.0
-E02003533,"North End West & Whale Island",0,1,58.0
-E02003534,"North End East",0,6,180.0
-E02003535,"Fratton North",0,0,257.0
-E02003536,"Landport",0,1,135.0
-E02003537,"Baffins",0,3,238.0
-E02003538,"Fratton Kingston",0,3,135.0
-E02003539,"Fratton West & Portsea",0,4,439.0
-E02003540,"Milton",0,9,238.0
-E02003541,"Somers Town",0,1,143.0
-E02003542,"Southsea Haslemere Road",0,3,116.0
-E02003543,"Southsea Fawcett Road",0,4,182.0
-E02003544,"Southsea Prince Albert Road",0,4,116.0
-E02003545,"Southsea West",0,2,66.0
-E02003546,"Eastney",0,5,116.0
-E02003547,"Old Portsmouth & Southsea Common",0,11,259.0
-E02003548,"Southsea Waverley Road",0,7,182.0
-E02006821,"Drayton & Farlington",0,0,6947.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003524,"Paulsgrove East",0,1,6947.0,10.852
+E02003525,"Wymering",0,4,6947.0,12.024
+E02003526,"Cosham North",0,1,7226.0,10.422
+E02003527,"Paulsgrove West & Port Solent",0,0,7001.0,22.516
+E02003529,"Cosham South",0,0,6947.0,10.051
+E02003530,"Hilsea",0,0,180.0,3.403
+E02003531,"Anchorage Park & Copnor",0,1,180.0,10.112
+E02003532,"Alexandra Park",0,7,58.0,2.008
+E02003533,"North End West & Whale Island",0,1,58.0,2.008
+E02003534,"North End East",0,6,180.0,2.854
+E02003535,"Fratton North",0,0,257.0,2.807
+E02003536,"Landport",0,1,135.0,1.954
+E02003537,"Baffins",0,3,238.0,6.701
+E02003538,"Fratton Kingston",0,3,135.0,0.174
+E02003539,"Fratton West & Portsea",0,4,439.0,9.782
+E02003540,"Milton",0,9,238.0,11.409
+E02003541,"Somers Town",0,1,143.0,3.571
+E02003542,"Southsea Haslemere Road",0,3,116.0,6.696
+E02003543,"Southsea Fawcett Road",0,4,182.0,5.883
+E02003544,"Southsea Prince Albert Road",0,4,116.0,5.870
+E02003545,"Southsea West",0,2,66.0,3.891
+E02003546,"Eastney",0,5,116.0,8.943
+E02003547,"Old Portsmouth & Southsea Common",0,11,259.0,5.010
+E02003548,"Southsea Waverley Road",0,7,182.0,3.925
+E02006821,"Drayton & Farlington",0,0,6947.0,12.825

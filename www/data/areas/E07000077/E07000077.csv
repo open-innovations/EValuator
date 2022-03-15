@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004591,"Audley End",0,2,1064.0
-E02004592,"Saffron Walden Town",0,2,373.0
-E02004593,"Newport",0,1,801.0
-E02004594,"Thaxted",0,1,1202.0
-E02004595,"Stansted Mountfitchet & Elsenham",0,6,1324.0
-E02004596,"Takeley",0,1,705.0
-E02004597,"Great Dunmow",0,9,409.0
-E02004598,"Flitch Green",0,0,1612.0
-E02004599,"Hatfield Heath",0,0,1655.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004591,"Audley End",0,2,1064.0,38.410
+E02004592,"Saffron Walden Town",0,2,373.0,83.917
+E02004593,"Newport",0,1,801.0,65.980
+E02004594,"Thaxted",0,1,1202.0,40.300
+E02004595,"Stansted Mountfitchet & Elsenham",0,6,1324.0,60.787
+E02004596,"Takeley",0,1,705.0,52.912
+E02004597,"Great Dunmow",0,9,409.0,46.459
+E02004598,"Flitch Green",0,0,1612.0,57.446
+E02004599,"Hatfield Heath",0,0,1655.0,51.656

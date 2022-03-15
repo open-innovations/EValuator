@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006734,"Northwick",0,0,133.0
-E02006735,"Warndon West",0,0,117.0
-E02006736,"Warndon East",0,4,1984.0
-E02006737,"Barbourne & Rainbow Hill",0,0,170.0
-E02006738,"King George's Field",0,0,250.0
-E02006739,"Henwick",0,4,171.0
-E02006740,"Worcester Town North",0,3,170.0
-E02006741,"Lyppard Grange",0,0,1323.0
-E02006742,"Dines Green & St Johns",0,0,171.0
-E02006743,"Ronkswood & Nunnery Wood",0,2,1456.0
-E02006744,"Worcester Town South",0,4,1984.0
-E02006745,"Lower Wick & Bromwich Road",0,1,208.0
-E02006746,"Battenhall & Diglis",0,4,1243.0
-E02006747,"St Peters",0,2,1278.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006734,"Northwick",0,0,133.0,30.780
+E02006735,"Warndon West",0,0,117.0,8.314
+E02006736,"Warndon East",0,4,1984.0,76.891
+E02006737,"Barbourne & Rainbow Hill",0,0,170.0,27.700
+E02006738,"King George's Field",0,0,250.0,15.114
+E02006739,"Henwick",0,4,171.0,13.045
+E02006740,"Worcester Town North",0,3,170.0,9.732
+E02006741,"Lyppard Grange",0,0,1323.0,13.342
+E02006742,"Dines Green & St Johns",0,0,171.0,18.140
+E02006743,"Ronkswood & Nunnery Wood",0,2,1456.0,17.341
+E02006744,"Worcester Town South",0,4,1984.0,46.336
+E02006745,"Lower Wick & Bromwich Road",0,1,208.0,27.027
+E02006746,"Battenhall & Diglis",0,4,1243.0,23.132
+E02006747,"St Peters",0,2,1278.0,15.713

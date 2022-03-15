@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003389,"Caversham Emmer Green",0,2,348.0
-E02003390,"Caversham Heights",0,0,348.0
-E02003391,"Caversham Balmore Park",0,1,348.0
-E02003392,"Lower Caversham",0,1,348.0
-E02003393,"Tilehurst North",0,0,401.0
-E02003394,"Norcot North",0,0,401.0
-E02003395,"Battle & Caversham Bridge",0,3,1847.0
-E02003396,"Norcot South",0,1,375.0
-E02003397,"Tilehurst South",0,0,401.0
-E02003398,"Palmer Park",0,2,496.0
-E02003399,"Reading Central",0,19,1592.0
-E02003400,"Wokingham Road",0,0,496.0
-E02003401,"Coley Park",0,0,701.0
-E02003402,"Southampton Street & Redlands Road",0,0,545.0
-E02003403,"Southcote",0,0,433.0
-E02003404,"Leighton Park",0,0,822.0
-E02003405,"Kennet Island & Green Park",0,8,2108.0
-E02003406,"Whitley Wood",0,2,326.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003389,"Caversham Emmer Green",0,2,348.0,47.393
+E02003390,"Caversham Heights",0,0,348.0,28.011
+E02003391,"Caversham Balmore Park",0,1,348.0,36.507
+E02003392,"Lower Caversham",0,1,348.0,36.109
+E02003393,"Tilehurst North",0,0,401.0,28.602
+E02003394,"Norcot North",0,0,401.0,9.510
+E02003395,"Battle & Caversham Bridge",0,3,1847.0,57.193
+E02003396,"Norcot South",0,1,375.0,10.801
+E02003397,"Tilehurst South",0,0,401.0,11.499
+E02003398,"Palmer Park",0,2,496.0,7.515
+E02003399,"Reading Central",0,19,1592.0,77.462
+E02003400,"Wokingham Road",0,0,496.0,7.955
+E02003401,"Coley Park",0,0,701.0,5.860
+E02003402,"Southampton Street & Redlands Road",0,0,545.0,9.930
+E02003403,"Southcote",0,0,433.0,11.739
+E02003404,"Leighton Park",0,0,822.0,17.040
+E02003405,"Kennet Island & Green Park",0,8,2108.0,78.194
+E02003406,"Whitley Wood",0,2,326.0,24.659

@@ -1,40 +1,40 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002110,"Brownhills West & Clayhanger",0,3,143.0
-E02002111,"Brownhills",0,0,48.0
-E02002112,"Pelsall North",0,1,95.0
-E02002113,"Walsall Wood",0,0,223.0
-E02002114,"Pelsall South",0,0,152.0
-E02002115,"Little Bloxwich",0,0,95.0
-E02002116,"Aldridge North",0,0,223.0
-E02002117,"Bloxwich Central & North",0,0,167.0
-E02002118,"Bloxwich North West",0,0,143.0
-E02002119,"Shelfield",0,2,57.0
-E02002120,"Ashmore",0,0,136.0
-E02002121,"Blakenall North",0,0,95.0
-E02002122,"Blakenall South",0,0,167.0
-E02002123,"New Invention",0,0,136.0
-E02002124,"Aldridge Central",0,4,175.0
-E02002125,"Rushall",0,0,232.0
-E02002126,"Bloxwich South",0,0,167.0
-E02002127,"Walsall Ryecroft",0,0,167.0
-E02002128,"Short Heath East",0,0,120.0
-E02002129,"Short Heath West",0,0,109.0
-E02002130,"Leamore",0,0,72.0
-E02002131,"Aldridge South",0,0,561.0
-E02002132,"Bentley",0,0,72.0
-E02002133,"Walsall North East",0,1,191.0
-E02002134,"Willenhall Park",0,0,149.0
-E02002135,"Walsall West",0,0,134.0
-E02002136,"Willenhall Town",0,1,222.0
-E02002137,"Streetly North",0,2,504.0
-E02002138,"Walsall East",0,0,157.0
-E02002139,"Walsall Central",0,1,429.0
-E02002140,"Pleck",0,1,134.0
-E02002141,"Streetly South",0,0,329.0
-E02002142,"Darlaston East",0,3,161.0
-E02002143,"Palfrey",0,0,62.0
-E02002144,"Walsall South East",0,0,230.0
-E02002145,"Darlaston Central",0,0,89.0
-E02002146,"The Delves",0,0,157.0
-E02002147,"Darlaston West",0,1,246.0
-E02002148,"Pheasey & Sutton Road",0,0,343.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002110,"Brownhills West & Clayhanger",0,3,143.0,15.306
+E02002111,"Brownhills",0,0,48.0,11.911
+E02002112,"Pelsall North",0,1,95.0,6.066
+E02002113,"Walsall Wood",0,0,223.0,16.601
+E02002114,"Pelsall South",0,0,152.0,7.195
+E02002115,"Little Bloxwich",0,0,95.0,7.928
+E02002116,"Aldridge North",0,0,223.0,16.150
+E02002117,"Bloxwich Central & North",0,0,167.0,8.653
+E02002118,"Bloxwich North West",0,0,143.0,7.344
+E02002119,"Shelfield",0,2,57.0,15.373
+E02002120,"Ashmore",0,0,136.0,6.229
+E02002121,"Blakenall North",0,0,95.0,7.290
+E02002122,"Blakenall South",0,0,167.0,6.328
+E02002123,"New Invention",0,0,136.0,7.521
+E02002124,"Aldridge Central",0,4,175.0,50.989
+E02002125,"Rushall",0,0,232.0,18.891
+E02002126,"Bloxwich South",0,0,167.0,5.289
+E02002127,"Walsall Ryecroft",0,0,167.0,5.935
+E02002128,"Short Heath East",0,0,120.0,6.181
+E02002129,"Short Heath West",0,0,109.0,8.493
+E02002130,"Leamore",0,0,72.0,1.949
+E02002131,"Aldridge South",0,0,561.0,28.265
+E02002132,"Bentley",0,0,72.0,1.769
+E02002133,"Walsall North East",0,1,191.0,17.756
+E02002134,"Willenhall Park",0,0,149.0,9.217
+E02002135,"Walsall West",0,0,134.0,3.554
+E02002136,"Willenhall Town",0,1,222.0,7.226
+E02002137,"Streetly North",0,2,504.0,40.771
+E02002138,"Walsall East",0,0,157.0,5.028
+E02002139,"Walsall Central",0,1,429.0,41.227
+E02002140,"Pleck",0,1,134.0,2.605
+E02002141,"Streetly South",0,0,329.0,39.623
+E02002142,"Darlaston East",0,3,161.0,4.378
+E02002143,"Palfrey",0,0,62.0,3.550
+E02002144,"Walsall South East",0,0,230.0,18.797
+E02002145,"Darlaston Central",0,0,89.0,3.747
+E02002146,"The Delves",0,0,157.0,11.515
+E02002147,"Darlaston West",0,1,246.0,5.409
+E02002148,"Pheasey & Sutton Road",0,0,343.0,22.967

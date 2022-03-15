@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005442,"Ermine",0,0,352.0
-E02005443,"Glebe Park",0,0,176.0
-E02005444,"Cathedral & West Common",0,2,352.0
-E02005445,"Monks Road",0,6,237.0
-E02005446,"Wharf & University",0,8,1122.0
-E02005447,"Pelham Bridge & South Common",0,12,885.0
-E02005448,"Birchwood West",0,0,330.0
-E02005449,"Boultham & New Boultham",0,7,1061.0
-E02005450,"Hartsholme & Birchwood East",0,1,330.0
-E02005451,"Bracebridge North & Boultham Moor",0,0,490.0
-E02005452,"Bracebridge South & Swallow Beck",0,0,490.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005442,"Ermine",0,0,352.0,12.457
+E02005443,"Glebe Park",0,0,176.0,11.115
+E02005444,"Cathedral & West Common",0,2,352.0,31.400
+E02005445,"Monks Road",0,6,237.0,32.837
+E02005446,"Wharf & University",0,8,1122.0,81.051
+E02005447,"Pelham Bridge & South Common",0,12,885.0,14.175
+E02005448,"Birchwood West",0,0,330.0,14.851
+E02005449,"Boultham & New Boultham",0,7,1061.0,18.848
+E02005450,"Hartsholme & Birchwood East",0,1,330.0,26.917
+E02005451,"Bracebridge North & Boultham Moor",0,0,490.0,16.327
+E02005452,"Bracebridge South & Swallow Beck",0,0,490.0,19.322

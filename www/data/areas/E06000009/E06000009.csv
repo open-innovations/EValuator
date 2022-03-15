@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002633,"Little Bispham & Anchorsholme",0.12,0,206.0
-E02002634,"Churchtown",0.106,0,357.0
-E02002635,"Norbreck & Bispham",0.068,0,206.0
-E02002636,"Warbreck & Bispham Road",0.095,0,449.0
-E02002637,"Hoohill",0.079,0,429.0
-E02002638,"North Shore",0.075,1,276.0
-E02002639,"Little Layton & Little Carleton",0.134,0,92.0
-E02002640,"North East Centre",0.084,0,276.0
-E02002641,"Queenstown & Layton",0.108,0,92.0
-E02002642,"Central Blackpool",0.074,2,591.0
-E02002643,"Park Road",0.099,0,223.0
-E02002644,"Stanley Park & Great Marton",0.145,0,385.0
-E02002645,"South Promenade & Seasiders Way",0.086,0,293.0
-E02002646,"Little Marton & Marton Moss Side",0.224,6,606.0
-E02002647,"Victoria",0.103,0,293.0
-E02002648,"Hawes Side",0.127,0,162.0
-E02002649,"South Shore",0.077,2,162.0
-E02002650,"Common Edge",0.152,0,383.0
-E02002651,"Squires Gate",0.084,0,254.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002633,"Little Bispham & Anchorsholme",136,0,206.0,11.867
+E02002634,"Churchtown",131,0,357.0,11.544
+E02002635,"Norbreck & Bispham",94,0,206.0,11.741
+E02002636,"Warbreck & Bispham Road",123,0,449.0,12.467
+E02002637,"Hoohill",154,0,429.0,6.533
+E02002638,"North Shore",141,1,276.0,5.188
+E02002639,"Little Layton & Little Carleton",200,0,92.0,7.572
+E02002640,"North East Centre",178,0,276.0,3.728
+E02002641,"Queenstown & Layton",223,0,92.0,10.796
+E02002642,"Central Blackpool",225,2,591.0,15.769
+E02002643,"Park Road",261,0,223.0,3.200
+E02002644,"Stanley Park & Great Marton",355,0,385.0,8.398
+E02002645,"South Promenade & Seasiders Way",337,0,293.0,11.264
+E02002646,"Little Marton & Marton Moss Side",456,6,606.0,12.692
+E02002647,"Victoria",322,0,293.0,6.020
+E02002648,"Hawes Side",346,0,162.0,7.458
+E02002649,"South Shore",283,2,162.0,10.451
+E02002650,"Common Edge",401,0,383.0,13.974
+E02002651,"Squires Gate",354,0,254.0,8.879

@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002496,"Middlesbrough Central",0.142,28,96.0
-E02002497,"North Ormesby & Brambles",0,1,93.0
-E02002498,"Ayresome",0.19,0,156.0
-E02002499,"Berwick Hills",0.086,1,39.0
-E02002500,"Linthorpe East & Albert Park",0.097,0,103.0
-E02002501,"Park Vale",0.131,0,85.0
-E02002502,"Thorntree",0.131,0,111.0
-E02002503,"Newport & Maze Park",0.17,0,225.0
-E02002504,"Linthorpe West",0.123,0,78.0
-E02002505,"Park End",0.095,0,39.0
-E02002506,"Beechwood & James Cook",0.086,0,25.0
-E02002507,"Acklam",0.161,0,60.0
-E02002508,"Kader",0.19,0,93.0
-E02002509,"Easterside",0.17,2,130.0
-E02002510,"Trimdon",0.085,0,279.0
-E02002512,"Marton West",0.195,0,105.0
-E02002513,"Stainton & Hemlington",0.191,0,180.0
-E02002514,"Coulby Newham",0.163,4,195.0
-E02006811,"Nunthorpe & Marton East",0.231,0,130.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002496,"Middlesbrough Central",279,28,96.0,3.696
+E02002497,"North Ormesby & Brambles",277,1,93.0,0.024
+E02002498,"Ayresome",300,0,156.0,2.694
+E02002499,"Berwick Hills",260,1,39.0,0.000
+E02002500,"Linthorpe East & Albert Park",267,0,103.0,7.495
+E02002501,"Park Vale",266,0,85.0,6.466
+E02002502,"Thorntree",227,0,111.0,1.484
+E02002503,"Newport & Maze Park",301,0,225.0,9.496
+E02002504,"Linthorpe West",295,0,78.0,11.217
+E02002505,"Park End",235,0,39.0,0.000
+E02002506,"Beechwood & James Cook",252,0,25.0,6.201
+E02002507,"Acklam",296,0,60.0,8.257
+E02002508,"Kader",299,0,93.0,6.430
+E02002509,"Easterside",272,2,130.0,7.623
+E02002510,"Trimdon",280,0,279.0,7.101
+E02002512,"Marton West",273,0,105.0,12.257
+E02002513,"Stainton & Hemlington",279,0,180.0,22.029
+E02002514,"Coulby Newham",261,4,195.0,32.318
+E02006811,"Nunthorpe & Marton East",266,0,130.0,32.969

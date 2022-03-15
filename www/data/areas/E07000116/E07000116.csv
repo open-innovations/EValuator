@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005162,"Paddock Wood & Five Oak Green",0,0,744.0
-E02005163,"Southborough West",0,0,616.0
-E02005164,"Southborough East & Longfield Road",0,5,1110.0
-E02005165,"Pembury & Matfield",0,2,744.0
-E02005166,"High Brooms & Sherwood",0,0,474.0
-E02005167,"Langton Green",0,0,616.0
-E02005168,"Tunbridge Wells West",0,2,275.0
-E02005169,"Tunbridge Wells Central",0,4,541.0
-E02005170,"Ferndale & Hawkenbury",0,1,538.0
-E02005171,"Ramslye & Rusthall",0,0,746.0
-E02005172,"Goudhurst",0,0,696.0
-E02005173,"Tunbridge Wells South",0,0,541.0
-E02005174,"Cranbrook",0,2,302.0
-E02005175,"Hawkhurst",0,1,302.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005162,"Paddock Wood & Five Oak Green",0,0,744.0,37.118
+E02005163,"Southborough West",0,0,616.0,35.133
+E02005164,"Southborough East & Longfield Road",0,5,1110.0,97.830
+E02005165,"Pembury & Matfield",0,2,744.0,29.924
+E02005166,"High Brooms & Sherwood",0,0,474.0,21.422
+E02005167,"Langton Green",0,0,616.0,52.561
+E02005168,"Tunbridge Wells West",0,2,275.0,27.667
+E02005169,"Tunbridge Wells Central",0,4,541.0,25.999
+E02005170,"Ferndale & Hawkenbury",0,1,538.0,26.144
+E02005171,"Ramslye & Rusthall",0,0,746.0,27.413
+E02005172,"Goudhurst",0,0,696.0,54.050
+E02005173,"Tunbridge Wells South",0,0,541.0,29.892
+E02005174,"Cranbrook",0,2,302.0,39.217
+E02005175,"Hawkhurst",0,1,302.0,40.321

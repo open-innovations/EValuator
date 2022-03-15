@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005503,"Bawdeswell",0,0,382.0
-E02005504,"Whissonsett",0,0,493.0
-E02005505,"Dereham North & Neatherd",0,0,183.0
-E02005506,"Dereham West",0,0,338.0
-E02005507,"Dereham Central & Toftwood",0,2,416.0
-E02005508,"Hockering",0,0,399.0
-E02005509,"Swaffham",0,4,149.0
-E02005510,"Shipdham",0,0,236.0
-E02005511,"Watton",0,0,102.0
-E02005512,"Wayland",0,1,422.0
-E02005513,"Attleborough",0,0,171.0
-E02005514,"Mundford",0,0,477.0
-E02005515,"Buckenhams & Snetterton",0,1,171.0
-E02005516,"East Harling",0,1,312.0
-E02005517,"Thetford North",0,0,102.0
-E02005518,"Thetford Central & East",0,2,204.0
-E02005519,"Thetford South",0,2,102.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005503,"Bawdeswell",0,0,382.0,24.584
+E02005504,"Whissonsett",0,0,493.0,25.164
+E02005505,"Dereham North & Neatherd",0,0,183.0,10.199
+E02005506,"Dereham West",0,0,338.0,12.935
+E02005507,"Dereham Central & Toftwood",0,2,416.0,24.253
+E02005508,"Hockering",0,0,399.0,22.047
+E02005509,"Swaffham",0,4,149.0,22.325
+E02005510,"Shipdham",0,0,236.0,15.910
+E02005511,"Watton",0,0,102.0,14.601
+E02005512,"Wayland",0,1,422.0,27.982
+E02005513,"Attleborough",0,0,171.0,37.442
+E02005514,"Mundford",0,0,477.0,15.103
+E02005515,"Buckenhams & Snetterton",0,1,171.0,23.750
+E02005516,"East Harling",0,1,312.0,22.520
+E02005517,"Thetford North",0,0,102.0,5.453
+E02005518,"Thetford Central & East",0,2,204.0,18.330
+E02005519,"Thetford South",0,2,102.0,10.115

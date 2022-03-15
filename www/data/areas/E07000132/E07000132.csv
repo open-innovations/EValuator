@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005377,"Markfield & Thornton",0,0,789.0
-E02005378,"Groby East",0,0,398.0
-E02005379,"Groby West & Ratby",0,0,353.0
-E02005380,"Market Bosworth",0,0,758.0
-E02005381,"Desford & Newbold Verdon",0,0,292.0
-E02005382,"Earl Shilton",0,0,629.0
-E02005383,"Barwell",0,0,292.0
-E02005384,"Stoke Golding",0,23,999.0
-E02005385,"Hinckley East",0,0,592.0
-E02005386,"Hinckley Central",0,12,1469.0
-E02005387,"Hinckley West",0,1,300.0
-E02005388,"Hinckley Clarendon Park",0,2,300.0
-E02005389,"Burbage St Catherines",0,0,300.0
-E02005390,"Burbage Sketchley & Stretton",0,0,300.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005377,"Markfield & Thornton",0,0,789.0,32.401
+E02005378,"Groby East",0,0,398.0,3.018
+E02005379,"Groby West & Ratby",0,0,353.0,5.225
+E02005380,"Market Bosworth",0,0,758.0,53.607
+E02005381,"Desford & Newbold Verdon",0,0,292.0,25.604
+E02005382,"Earl Shilton",0,0,629.0,38.287
+E02005383,"Barwell",0,0,292.0,21.979
+E02005384,"Stoke Golding",0,23,999.0,39.261
+E02005385,"Hinckley East",0,0,592.0,23.349
+E02005386,"Hinckley Central",0,12,1469.0,122.086
+E02005387,"Hinckley West",0,1,300.0,34.398
+E02005388,"Hinckley Clarendon Park",0,2,300.0,23.232
+E02005389,"Burbage St Catherines",0,0,300.0,20.891
+E02005390,"Burbage Sketchley & Stretton",0,0,300.0,42.142

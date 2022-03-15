@@ -1,37 +1,37 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02000277,"Bullsmoor & Freezywater",0,0,451.0
-E02000278,"Turkey Street",0,5,766.0
-E02000279,"Enfield Lock",0,2,490.0
-E02000280,"Chase & Crews Hill",0,4,1468.0
-E02000281,"Carterhatch & Forty Hall",0,0,536.0
-E02000282,"Enfield Wash",0,2,586.0
-E02000283,"Brimsdown Avenue",0,0,271.0
-E02000284,"Chase Side",0,0,667.0
-E02000285,"Enfield Town North",0,0,315.0
-E02000286,"Chase Farm & The Ridgeway",0,0,221.0
-E02000287,"Cockfosters & Hadley Wood",0,3,907.0
-E02000288,"Southbury East",0,0,872.0
-E02000289,"World's End",0,1,754.0
-E02000290,"Brimsdown & Ponders End",0,0,718.0
-E02000291,"Enfield Town South & Bush Hill Park",0,5,807.0
-E02000292,"Southbury West",0,8,657.0
-E02000293,"Grange Park",0,0,783.0
-E02000294,"Ponders End South",0,1,613.0
-E02000295,"Oakwood Park & Highlands",0,0,533.0
-E02000296,"Southgate",0,9,598.0
-E02000297,"Bury Street West & Village Road",0,0,904.0
-E02000298,"Winchmore Hill",0,2,459.0
-E02000299,"Lower Edmonton North",0,0,342.0
-E02000300,"Haslebury North",0,3,657.0
-E02000301,"Lower Edmonton South",0,11,342.0
-E02000302,"Palmers Green East",0,0,1036.0
-E02000303,"Haslebury South",0,1,752.0
-E02000304,"Southgate Green",0,1,848.0
-E02000305,"Palmers Green West",0,4,459.0
-E02000306,"Edmonton Green",0,2,495.0
-E02000307,"Tatem Park",0,4,707.0
-E02000308,"New Southgate & Arnos Grove",0,11,848.0
-E02000309,"Upper Edmonton East & Meridian Water",0,29,757.0
-E02000311,"Bowes",0,7,365.0
-E02000312,"Broomfield Park",0,10,1105.0
-E02006793,"Upper Edmonton West",0,12,153.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02000277,"Bullsmoor & Freezywater",0,0,451.0,3.827
+E02000278,"Turkey Street",0,5,766.0,5.945
+E02000279,"Enfield Lock",0,2,490.0,5.926
+E02000280,"Chase & Crews Hill",0,4,1468.0,23.368
+E02000281,"Carterhatch & Forty Hall",0,0,536.0,11.351
+E02000282,"Enfield Wash",0,2,586.0,5.399
+E02000283,"Brimsdown Avenue",0,0,271.0,3.976
+E02000284,"Chase Side",0,0,667.0,17.363
+E02000285,"Enfield Town North",0,0,315.0,8.347
+E02000286,"Chase Farm & The Ridgeway",0,0,221.0,21.698
+E02000287,"Cockfosters & Hadley Wood",0,3,907.0,42.602
+E02000288,"Southbury East",0,0,872.0,9.389
+E02000289,"World's End",0,1,754.0,17.096
+E02000290,"Brimsdown & Ponders End",0,0,718.0,7.555
+E02000291,"Enfield Town South & Bush Hill Park",0,5,807.0,67.171
+E02000292,"Southbury West",0,8,657.0,9.572
+E02000293,"Grange Park",0,0,783.0,23.082
+E02000294,"Ponders End South",0,1,613.0,4.318
+E02000295,"Oakwood Park & Highlands",0,0,533.0,27.677
+E02000296,"Southgate",0,9,598.0,86.977
+E02000297,"Bury Street West & Village Road",0,0,904.0,18.954
+E02000298,"Winchmore Hill",0,2,459.0,80.712
+E02000299,"Lower Edmonton North",0,0,342.0,4.411
+E02000300,"Haslebury North",0,3,657.0,3.100
+E02000301,"Lower Edmonton South",0,11,342.0,5.235
+E02000302,"Palmers Green East",0,0,1036.0,18.330
+E02000303,"Haslebury South",0,1,752.0,10.694
+E02000304,"Southgate Green",0,1,848.0,23.285
+E02000305,"Palmers Green West",0,4,459.0,15.272
+E02000306,"Edmonton Green",0,2,495.0,5.500
+E02000307,"Tatem Park",0,4,707.0,5.765
+E02000308,"New Southgate & Arnos Grove",0,11,848.0,21.409
+E02000309,"Upper Edmonton East & Meridian Water",0,29,757.0,6.949
+E02000311,"Bowes",0,7,365.0,11.653
+E02000312,"Broomfield Park",0,10,1105.0,22.342
+E02006793,"Upper Edmonton West",0,12,153.0,2.725

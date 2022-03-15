@@ -1,40 +1,40 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02001539,"Moorends",0.148,0,1109.0
-E02001540,"Askern",0.18,0,445.0
-E02001541,"Thorne",0.283,5,1109.0
-E02001542,"Stainforth",0.207,0,1360.0
-E02001543,"Carcroft",0.195,0,222.0
-E02001544,"Hatfield West",0.149,1,60.0
-E02001545,"Kirk Sandall & Barnby Dun",0.114,0,290.0
-E02001546,"Hatfield East",0.157,2,1268.0
-E02001547,"Adwick le Street & Woodlands",0.246,0,222.0
-E02001548,"Bentley & Toll Bar",0.138,1,150.0
-E02001549,"Edenthorpe & Mere Lane",0.143,0,230.0
-E02001550,"Scawthorpe",0.137,1,150.0
-E02001551,"Bentley Rise",0.146,0,150.0
-E02001552,"Armthorpe North",0.142,1,159.0
-E02001553,"Wheatley Hills",0.109,1,162.0
-E02001554,"Cusworth",0.225,0,150.0
-E02001555,"Armthorpe South",0.135,0,99.0
-E02001556,"Intake",0.109,0,131.0
-E02001557,"Belle Vue & Town Fields",0.129,0,377.0
-E02001558,"Cadeby",0.169,0,334.0
-E02001559,"Sprotbrough",0.109,1,150.0
-E02001560,"Central Doncaster & Hyde Park",0.137,3,2233.0
-E02001561,"Hexthorpe & Balby North",0.138,0,246.0
-E02001562,"Cantley Park",0.099,1,215.0
-E02001563,"Bessacarr Bawtry Road",0.112,3,215.0
-E02001564,"Old Cantley",0.156,0,481.0
-E02001565,"Bessacarr Grange & Lakeside",0.092,5,314.0
-E02001566,"Balby Carr",0.109,3,373.0
-E02001567,"Balby South",0.285,0,215.0
-E02001568,"Mexborough East",0.133,0,112.0
-E02001569,"Mexborough West",0.11,0,64.0
-E02001570,"Conisbrough North",0.113,0,112.0
-E02001571,"Warmsworth",0.304,1,841.0
-E02001572,"Edlington",0.199,0,175.0
-E02001573,"Conisbrough South",0.146,0,48.0
-E02001574,"Rossington",0.122,0,426.0
-E02001575,"New Rossington",0.104,1,127.0
-E02001576,"Bawtry",0.218,0,318.0
-E02001577,"Tickhill & Wadworth",0.227,0,127.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02001539,"Moorends",440,0,1109.0,5.631
+E02001540,"Askern",431,0,445.0,21.122
+E02001541,"Thorne",489,5,1109.0,11.293
+E02001542,"Stainforth",415,0,1360.0,15.537
+E02001543,"Carcroft",511,0,222.0,10.001
+E02001544,"Hatfield West",438,1,60.0,11.163
+E02001545,"Kirk Sandall & Barnby Dun",363,0,290.0,21.422
+E02001546,"Hatfield East",428,2,1268.0,15.302
+E02001547,"Adwick le Street & Woodlands",511,0,222.0,12.472
+E02001548,"Bentley & Toll Bar",382,1,150.0,13.411
+E02001549,"Edenthorpe & Mere Lane",389,0,230.0,13.298
+E02001550,"Scawthorpe",435,1,150.0,11.210
+E02001551,"Bentley Rise",419,0,150.0,10.275
+E02001552,"Armthorpe North",414,1,159.0,13.071
+E02001553,"Wheatley Hills",362,1,162.0,10.308
+E02001554,"Cusworth",472,0,150.0,11.944
+E02001555,"Armthorpe South",377,0,99.0,10.763
+E02001556,"Intake",336,0,131.0,7.151
+E02001557,"Belle Vue & Town Fields",373,0,377.0,7.631
+E02001558,"Cadeby",425,0,334.0,14.771
+E02001559,"Sprotbrough",422,1,150.0,13.411
+E02001560,"Central Doncaster & Hyde Park",402,3,2233.0,52.772
+E02001561,"Hexthorpe & Balby North",448,0,246.0,10.987
+E02001562,"Cantley Park",315,1,215.0,14.849
+E02001563,"Bessacarr Bawtry Road",323,3,215.0,19.656
+E02001564,"Old Cantley",333,0,481.0,38.194
+E02001565,"Bessacarr Grange & Lakeside",302,5,314.0,15.019
+E02001566,"Balby Carr",436,3,373.0,23.090
+E02001567,"Balby South",493,0,215.0,18.540
+E02001568,"Mexborough East",325,0,112.0,12.121
+E02001569,"Mexborough West",283,0,64.0,16.095
+E02001570,"Conisbrough North",319,0,112.0,9.253
+E02001571,"Warmsworth",496,1,841.0,17.444
+E02001572,"Edlington",436,0,175.0,6.521
+E02001573,"Conisbrough South",347,0,48.0,6.121
+E02001574,"Rossington",384,0,426.0,13.090
+E02001575,"New Rossington",404,1,127.0,19.147
+E02001576,"Bawtry",299,0,318.0,31.492
+E02001577,"Tickhill & Wadworth",289,0,127.0,24.346

@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005520,"Aylsham",0,3,230.0
-E02005521,"Reepham",0,0,542.0
-E02005522,"Coltishall",0,3,357.0
-E02005523,"Horsford",0,0,246.0
-E02005524,"Spixworth & St Faiths",0,0,246.0
-E02005525,"Taverham",0,0,215.0
-E02005526,"Drayton & Thorpe Marriott",0,0,215.0
-E02005527,"Wroxham",0,0,331.0
-E02005528,"Old Catton",0,0,384.0
-E02005529,"Hellesdon North West",0,0,257.0
-E02005530,"Hellesdon South East",0,0,153.0
-E02005531,"Sprowston Central",0,0,605.0
-E02005532,"Sprowston East",0,1,2060.0
-E02005533,"Blofield",0,0,331.0
-E02005534,"Thorpe St Andrew North",0,0,144.0
-E02005535,"Thorpe St Andrew South & Dussindale",0,2,453.0
-E02005536,"Brundall & Cantley",0,1,348.0
-E02005537,"Acle & Reedham",0,1,260.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005520,"Aylsham",0,3,230.0,24.525
+E02005521,"Reepham",0,0,542.0,42.617
+E02005522,"Coltishall",0,3,357.0,18.834
+E02005523,"Horsford",0,0,246.0,20.327
+E02005524,"Spixworth & St Faiths",0,0,246.0,11.139
+E02005525,"Taverham",0,0,215.0,35.738
+E02005526,"Drayton & Thorpe Marriott",0,0,215.0,31.431
+E02005527,"Wroxham",0,0,331.0,26.241
+E02005528,"Old Catton",0,0,384.0,11.555
+E02005529,"Hellesdon North West",0,0,257.0,8.599
+E02005530,"Hellesdon South East",0,0,153.0,10.601
+E02005531,"Sprowston Central",0,0,605.0,8.938
+E02005532,"Sprowston East",0,1,2060.0,86.146
+E02005533,"Blofield",0,0,331.0,38.081
+E02005534,"Thorpe St Andrew North",0,0,144.0,12.190
+E02005535,"Thorpe St Andrew South & Dussindale",0,2,453.0,15.852
+E02005536,"Brundall & Cantley",0,1,348.0,28.573
+E02005537,"Acle & Reedham",0,1,260.0,28.019

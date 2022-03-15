@@ -1,6 +1,6 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002863,"Market Overton",0,6,537.0
-E02002864,"Oakham West",0,1,299.0
-E02002865,"Oakham East",0,2,299.0
-E02002866,"Ketton",0,1,537.0
-E02002867,"Uppingham",0,5,614.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002863,"Market Overton",0,6,537.0,40.308
+E02002864,"Oakham West",0,1,299.0,29.074
+E02002865,"Oakham East",0,2,299.0,68.591
+E02002866,"Ketton",0,1,537.0,39.241
+E02002867,"Uppingham",0,5,614.0,46.668

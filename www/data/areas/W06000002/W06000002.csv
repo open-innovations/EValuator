@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-W02000010,"Bangor City",0,2,95.0
-W02000011,"Bangor South",0,2,228.0
-W02000012,"Bethesda",0,1,111.0
-W02000013,"Bethel & Llanrug",0,0,182.0
-W02000014,"Llanberis & Deiniolen",0,0,182.0
-W02000015,"Caernarfon East",0,1,96.0
-W02000016,"Caernarfon West & Waunfawr",0,0,96.0
-W02000017,"Pen-y-groes",0,0,26.0
-W02000018,"Blaenau Ffestiniog & Trawsfynydd",0,0,24.0
-W02000019,"Porthmadog",0,3,149.0
-W02000020,"Cricieth & Llanaelhaearn",0,2,87.0
-W02000021,"Pwllheli & Morfa Nefyn",0,0,43.0
-W02000022,"Harlech & Llanbedr",0,0,43.0
-W02000023,"Abersoch & Aberdaron",0,0,43.0
-W02000024,"Bala & Mawddwy",0,2,87.0
-W02000025,"Barmouth & Dolgellau",0,0,28.0
-W02000026,"Tywyn & Llangelynnin",0,0,84.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+W02000010,"Bangor City",0,2,95.0,10.884
+W02000011,"Bangor South",0,2,228.0,14.201
+W02000012,"Bethesda",0,1,111.0,10.443
+W02000013,"Bethel & Llanrug",0,0,182.0,15.879
+W02000014,"Llanberis & Deiniolen",0,0,182.0,11.336
+W02000015,"Caernarfon East",0,1,96.0,13.236
+W02000016,"Caernarfon West & Waunfawr",0,0,96.0,11.957
+W02000017,"Pen-y-groes",0,0,26.0,16.146
+W02000018,"Blaenau Ffestiniog & Trawsfynydd",0,0,24.0,0.000
+W02000019,"Porthmadog",0,3,149.0,1.475
+W02000020,"Cricieth & Llanaelhaearn",0,2,87.0,6.280
+W02000021,"Pwllheli & Morfa Nefyn",0,0,43.0,9.969
+W02000022,"Harlech & Llanbedr",0,0,43.0,0.000
+W02000023,"Abersoch & Aberdaron",0,0,43.0,8.225
+W02000024,"Bala & Mawddwy",0,2,87.0,0.343
+W02000025,"Barmouth & Dolgellau",0,0,28.0,0.000
+W02000026,"Tywyn & Llangelynnin",0,0,84.0,0.000

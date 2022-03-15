@@ -1,34 +1,34 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003599,"Sandy North",0,0,195.0
-E02003600,"Sandy South",0,0,195.0
-E02003601,"Potton",0,0,893.0
-E02003602,"Blunham",0,1,2299.0
-E02003603,"Biggleswade West",0,2,172.0
-E02003604,"Biggleswade East",0,0,422.0
-E02003605,"Cranfield & Aspley Guise",0,2,1106.0
-E02003606,"Houghton Conquest & Clophill",0,0,1302.0
-E02003607,"Marston Moretaine",0,4,2007.0
-E02003608,"Arlesey & Henlow",0,0,242.0
-E02003609,"Shefford & Shillington",0,3,826.0
-E02003610,"Ampthill & Millbrook",0,2,1176.0
-E02003611,"Clifton",0,0,452.0
-E02003612,"Stotfold",0,0,457.0
-E02003613,"Flitwick East",0,0,415.0
-E02003614,"Flitwick West",0,0,415.0
-E02003615,"Westoning",0,0,947.0
-E02003636,"Barton-le-Clay & Upper Sundon",0,0,903.0
-E02003637,"Toddington",0,5,1222.0
-E02003638,"Leighton Buzzard North & East",0,0,486.0
-E02003639,"Leighton Buzzard Central",0,3,486.0
-E02003640,"Linslade East",0,0,486.0
-E02003641,"Linslade West",0,0,486.0
-E02003642,"Houghton Regis North",0,0,187.0
-E02003643,"Leighton Buzzard South East",0,0,486.0
-E02003644,"Houghton Regis South",0,2,405.0
-E02003645,"Dunstable East",0,2,391.0
-E02003646,"Dunstable West",0,2,405.0
-E02003647,"Dunstable Central",0,4,405.0
-E02003648,"Dunstable Manshead",0,0,405.0
-E02003649,"Dunstable South",0,0,218.0
-E02003650,"Eaton Bray",0,0,1066.0
-E02003651,"Caddington & Slip End",0,3,1714.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003599,"Sandy North",0,0,195.0,16.039
+E02003600,"Sandy South",0,0,195.0,50.860
+E02003601,"Potton",0,0,893.0,34.679
+E02003602,"Blunham",0,1,2299.0,35.669
+E02003603,"Biggleswade West",0,2,172.0,63.383
+E02003604,"Biggleswade East",0,0,422.0,38.206
+E02003605,"Cranfield & Aspley Guise",0,2,1106.0,59.771
+E02003606,"Houghton Conquest & Clophill",0,0,1302.0,46.857
+E02003607,"Marston Moretaine",0,4,2007.0,65.447
+E02003608,"Arlesey & Henlow",0,0,242.0,36.239
+E02003609,"Shefford & Shillington",0,3,826.0,65.933
+E02003610,"Ampthill & Millbrook",0,2,1176.0,72.636
+E02003611,"Clifton",0,0,452.0,37.388
+E02003612,"Stotfold",0,0,457.0,34.638
+E02003613,"Flitwick East",0,0,415.0,25.894
+E02003614,"Flitwick West",0,0,415.0,40.590
+E02003615,"Westoning",0,0,947.0,49.516
+E02003636,"Barton-le-Clay & Upper Sundon",0,0,903.0,24.445
+E02003637,"Toddington",0,5,1222.0,43.859
+E02003638,"Leighton Buzzard North & East",0,0,486.0,40.681
+E02003639,"Leighton Buzzard Central",0,3,486.0,58.571
+E02003640,"Linslade East",0,0,486.0,36.515
+E02003641,"Linslade West",0,0,486.0,18.503
+E02003642,"Houghton Regis North",0,0,187.0,16.322
+E02003643,"Leighton Buzzard South East",0,0,486.0,89.818
+E02003644,"Houghton Regis South",0,2,405.0,28.695
+E02003645,"Dunstable East",0,2,391.0,19.015
+E02003646,"Dunstable West",0,2,405.0,22.495
+E02003647,"Dunstable Central",0,4,405.0,86.316
+E02003648,"Dunstable Manshead",0,0,405.0,10.870
+E02003649,"Dunstable South",0,0,218.0,14.761
+E02003650,"Eaton Bray",0,0,1066.0,23.226
+E02003651,"Caddington & Slip End",0,3,1714.0,7.442

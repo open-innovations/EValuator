@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005270,"Waddington",0.19,2,947.0
-E02005271,"Clitheroe North",0.215,14,265.0
-E02005272,"Clitheroe South",0.178,0,265.0
-E02005273,"Longridge North",0.223,0,559.0
-E02005274,"Read",0.233,0,449.0
-E02005275,"Longridge South",0.214,0,294.0
-E02005276,"Whalley & Brockhall",0.311,3,315.0
-E02005277,"Wilpshire & Mellor",0.184,1,801.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005270,"Waddington",273,2,947.0,45.370
+E02005271,"Clitheroe North",339,14,265.0,57.320
+E02005272,"Clitheroe South",301,0,265.0,30.122
+E02005273,"Longridge North",297,0,559.0,35.522
+E02005274,"Read",549,0,449.0,39.076
+E02005275,"Longridge South",354,0,294.0,26.048
+E02005276,"Whalley & Brockhall",527,3,315.0,41.589
+E02005277,"Wilpshire & Mellor",523,1,801.0,15.409

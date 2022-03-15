@@ -1,38 +1,38 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002827,"Beaumont Park",0,0,402.0
-E02002828,"Rushey Mead North",0,7,628.0
-E02002829,"Stocking Farm & Mowmacre",0,0,402.0
-E02002830,"Bradgate Heights & Beaumont Leys",0,1,1109.0
-E02002831,"Rushey Mead South",0,0,402.0
-E02002832,"Belgrave North West",0,0,1109.0
-E02002833,"Belgrave North East",0,0,402.0
-E02002834,"Abbey Park",0,6,855.0
-E02002835,"Hamilton & Humberstone",0,2,628.0
-E02002836,"Belgrave South",0,0,518.0
-E02002837,"Northfields & Merrydale",0,0,628.0
-E02002838,"New Parks & Stokeswood",0,0,337.0
-E02002839,"Colchester Road",0,0,226.0
-E02002842,"Newfoundpool",0,0,739.0
-E02002843,"Spinney Hill Road",0,0,1663.0
-E02002844,"St Matthews & Highfields North",0,2,2116.0
-E02002845,"North Evington & Rowlatts Hill",0,0,226.0
-E02002846,"Dane Hills & Western Park",0,0,337.0
-E02002847,"Crown Hills",0,0,1663.0
-E02002848,"Highfields South",0,0,1663.0
-E02002849,"West End & Westcotes",0,6,1890.0
-E02002851,"Evington",0,0,1663.0
-E02002852,"Braunstone Park West",0,6,337.0
-E02002853,"Stoneygate North",0,0,1663.0
-E02002854,"Braunstone Park East",0,0,337.0
-E02002855,"Rowley Fields & Faircharm",0,0,1774.0
-E02002856,"Clarendon Park & Stoneygate South",0,20,1553.0
-E02002857,"Aylestone North & Saffron Fields",0,2,1774.0
-E02002858,"Knighton",0,0,1437.0
-E02002860,"Aylestone South",0,0,1774.0
-E02002861,"Saffron Lane",0,0,1437.0
-E02002862,"Eyres Monsell",0,0,1437.0
-E02006815,"Thurnby Lodge",0,0,596.0
-E02006817,"West Knighton",0,0,1437.0
-E02006819,"Kirby Frith",0,0,337.0
-E02006850,"Leicester City South",0,0,1553.0
-E02006851,"Leicester City Centre",0,17,2486.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002827,"Beaumont Park",0,0,402.0,4.944
+E02002828,"Rushey Mead North",0,7,628.0,9.931
+E02002829,"Stocking Farm & Mowmacre",0,0,402.0,10.462
+E02002830,"Bradgate Heights & Beaumont Leys",0,1,1109.0,8.766
+E02002831,"Rushey Mead South",0,0,402.0,6.017
+E02002832,"Belgrave North West",0,0,1109.0,22.193
+E02002833,"Belgrave North East",0,0,402.0,4.215
+E02002834,"Abbey Park",0,6,855.0,12.450
+E02002835,"Hamilton & Humberstone",0,2,628.0,13.017
+E02002836,"Belgrave South",0,0,518.0,5.173
+E02002837,"Northfields & Merrydale",0,0,628.0,9.470
+E02002838,"New Parks & Stokeswood",0,0,337.0,7.440
+E02002839,"Colchester Road",0,0,226.0,7.229
+E02002842,"Newfoundpool",0,0,739.0,8.776
+E02002843,"Spinney Hill Road",0,0,1663.0,12.859
+E02002844,"St Matthews & Highfields North",0,2,2116.0,11.251
+E02002845,"North Evington & Rowlatts Hill",0,0,226.0,11.345
+E02002846,"Dane Hills & Western Park",0,0,337.0,10.588
+E02002847,"Crown Hills",0,0,1663.0,10.673
+E02002848,"Highfields South",0,0,1663.0,11.784
+E02002849,"West End & Westcotes",0,6,1890.0,16.498
+E02002851,"Evington",0,0,1663.0,9.766
+E02002852,"Braunstone Park West",0,6,337.0,5.666
+E02002853,"Stoneygate North",0,0,1663.0,15.078
+E02002854,"Braunstone Park East",0,0,337.0,8.070
+E02002855,"Rowley Fields & Faircharm",0,0,1774.0,7.079
+E02002856,"Clarendon Park & Stoneygate South",0,20,1553.0,23.544
+E02002857,"Aylestone North & Saffron Fields",0,2,1774.0,14.435
+E02002858,"Knighton",0,0,1437.0,14.738
+E02002860,"Aylestone South",0,0,1774.0,14.762
+E02002861,"Saffron Lane",0,0,1437.0,10.155
+E02002862,"Eyres Monsell",0,0,1437.0,13.749
+E02006815,"Thurnby Lodge",0,0,596.0,10.735
+E02006817,"West Knighton",0,0,1437.0,15.097
+E02006819,"Kirby Frith",0,0,337.0,8.413
+E02006850,"Leicester City South",0,0,1553.0,17.074
+E02006851,"Leicester City Centre",0,17,2486.0,59.521

@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004968,"Woodside & Leavesden Green",0,0,354.0
-E02004969,"Stanborough",0,0,354.0
-E02004970,"Garston",0,0,237.0
-E02004971,"Leggatts",0,0,582.0
-E02004972,"Tudor",0,5,582.0
-E02004973,"North Watford",0,6,345.0
-E02004974,"Nascot Wood",0,3,345.0
-E02004975,"Cassiobury",0,9,8294.0
-E02004976,"Central Watford",0,29,7877.0
-E02004977,"West Watford",0,5,7532.0
-E02004978,"Holywell",0,6,8778.0
-E02004979,"Oxhey",0,2,8174.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004968,"Woodside & Leavesden Green",0,0,354.0,30.487
+E02004969,"Stanborough",0,0,354.0,23.779
+E02004970,"Garston",0,0,237.0,29.069
+E02004971,"Leggatts",0,0,582.0,7.988
+E02004972,"Tudor",0,5,582.0,10.481
+E02004973,"North Watford",0,6,345.0,9.332
+E02004974,"Nascot Wood",0,3,345.0,24.171
+E02004975,"Cassiobury",0,9,8294.0,13.155
+E02004976,"Central Watford",0,29,7877.0,37.419
+E02004977,"West Watford",0,5,7532.0,3.047
+E02004978,"Holywell",0,6,8778.0,99.209
+E02004979,"Oxhey",0,2,8174.0,22.458

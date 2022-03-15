@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003258,"Bramingham",0,0,488.0
-E02003259,"Sundon Park",0,0,227.0
-E02003260,"Marsh Farm",0,0,227.0
-E02003261,"Warden Hill",0,0,488.0
-E02003262,"Leagrave",0,0,668.0
-E02003263,"Limbury",0,0,431.0
-E02003264,"Barnfield",0,0,488.0
-E02003265,"Stopsley North",0,2,261.0
-E02003266,"Lewsey North",0,0,204.0
-E02003267,"Montrose Avenue",0,0,431.0
-E02003268,"Challney",0,0,431.0
-E02003269,"Stopsley South & Round Green",0,0,488.0
-E02003270,"Lewsey South",0,1,204.0
-E02003271,"Wigmore & Airport",0,1,261.0
-E02003272,"Kingsway",0,2,624.0
-E02003273,"St Anns Hill",0,6,454.0
-E02003274,"Bury Park",0,0,624.0
-E02003275,"Central Luton & Park Town",0,31,885.0
-E02003276,"Dallow Road",0,0,397.0
-E02003277,"Farley Hill & Stockwood Park",0,1,193.0
-E02003278,"New Town",0,8,679.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003258,"Bramingham",0,0,488.0,9.021
+E02003259,"Sundon Park",0,0,227.0,6.813
+E02003260,"Marsh Farm",0,0,227.0,6.871
+E02003261,"Warden Hill",0,0,488.0,7.212
+E02003262,"Leagrave",0,0,668.0,9.892
+E02003263,"Limbury",0,0,431.0,30.747
+E02003264,"Barnfield",0,0,488.0,10.792
+E02003265,"Stopsley North",0,2,261.0,13.679
+E02003266,"Lewsey North",0,0,204.0,8.016
+E02003267,"Montrose Avenue",0,0,431.0,8.663
+E02003268,"Challney",0,0,431.0,7.239
+E02003269,"Stopsley South & Round Green",0,0,488.0,16.568
+E02003270,"Lewsey South",0,1,204.0,7.525
+E02003271,"Wigmore & Airport",0,1,261.0,23.962
+E02003272,"Kingsway",0,2,624.0,8.328
+E02003273,"St Anns Hill",0,6,454.0,17.288
+E02003274,"Bury Park",0,0,624.0,7.516
+E02003275,"Central Luton & Park Town",0,31,885.0,64.728
+E02003276,"Dallow Road",0,0,397.0,3.831
+E02003277,"Farley Hill & Stockwood Park",0,1,193.0,4.718
+E02003278,"New Town",0,8,679.0,8.338

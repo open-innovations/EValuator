@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006561,"Fernhurst & Northchapel",0,0,745.0
-E02006562,"Ifold & Wisborough Green",0,0,829.0
-E02006563,"Milland & South Harting",0,0,595.0
-E02006564,"Midhurst & Cocking",0,2,537.0
-E02006565,"Easebourne & Petworth",0,1,883.0
-E02006566,"Dean",0,2,529.0
-E02006567,"Westbourne & Funtington",0,2,791.0
-E02006568,"College Lane & Oaklands",0,3,363.0
-E02006569,"Southbourne",0,1,281.0
-E02006570,"Central Chichester",0,11,625.0
-E02006571,"Stockbridge & Fishbourne",0,0,625.0
-E02006572,"Tangmere",0,0,625.0
-E02006573,"Wittering & Birdham",0,3,262.0
-E02006574,"Selsey",0,2,262.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006561,"Fernhurst & Northchapel",0,0,745.0,30.680
+E02006562,"Ifold & Wisborough Green",0,0,829.0,41.350
+E02006563,"Milland & South Harting",0,0,595.0,52.557
+E02006564,"Midhurst & Cocking",0,2,537.0,38.776
+E02006565,"Easebourne & Petworth",0,1,883.0,56.057
+E02006566,"Dean",0,2,529.0,32.229
+E02006567,"Westbourne & Funtington",0,2,791.0,32.053
+E02006568,"College Lane & Oaklands",0,3,363.0,21.731
+E02006569,"Southbourne",0,1,281.0,29.358
+E02006570,"Central Chichester",0,11,625.0,65.824
+E02006571,"Stockbridge & Fishbourne",0,0,625.0,18.298
+E02006572,"Tangmere",0,0,625.0,50.409
+E02006573,"Wittering & Birdham",0,3,262.0,35.653
+E02006574,"Selsey",0,2,262.0,32.875

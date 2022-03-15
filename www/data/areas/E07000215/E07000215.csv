@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006429,"Warlingham West & Whyteleafe",0,3,663.0
-E02006430,"Caterham North",0,0,950.0
-E02006431,"Caterham Valley",0,0,392.0
-E02006432,"Caterham West",0,0,249.0
-E02006433,"Oxted North",0,0,899.0
-E02006434,"Oxted South",0,0,183.0
-E02006435,"Nutfield & Bletchingley",0,0,660.0
-E02006436,"Godstone",0,0,475.0
-E02006437,"Lingfield & Dormansland",0,4,665.0
-E02006438,"Smallfield & Felbridge",0,0,1531.0
-E02006790,"Warlingham East & Tatsfield",0,4,721.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006429,"Warlingham West & Whyteleafe",0,3,663.0,36.244
+E02006430,"Caterham North",0,0,950.0,17.396
+E02006431,"Caterham Valley",0,0,392.0,60.294
+E02006432,"Caterham West",0,0,249.0,12.019
+E02006433,"Oxted North",0,0,899.0,76.584
+E02006434,"Oxted South",0,0,183.0,21.455
+E02006435,"Nutfield & Bletchingley",0,0,660.0,19.547
+E02006436,"Godstone",0,0,475.0,18.869
+E02006437,"Lingfield & Dormansland",0,4,665.0,43.901
+E02006438,"Smallfield & Felbridge",0,0,1531.0,22.755
+E02006790,"Warlingham East & Tatsfield",0,4,721.0,46.974

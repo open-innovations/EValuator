@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006261,"Eye",0,1,271.0
-E02006262,"Rickinghall",0,1,569.0
-E02006263,"Fressingfield",0,0,648.0
-E02006264,"Thurston",0,0,395.0
-E02006265,"Stowupland",0,0,426.0
-E02006266,"Elmswell South",0,0,491.0
-E02006267,"Debenham",0,0,426.0
-E02006268,"Stowmarket West",0,0,233.0
-E02006269,"Stowmarket Outer",0,0,370.0
-E02006270,"Stowmarket East & Needham Market North",0,2,370.0
-E02006271,"Needham Market South & Great Blakenham",0,5,563.0
-E02006272,"Claydon & Bramford",0,0,427.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006261,"Eye",0,1,271.0,31.233
+E02006262,"Rickinghall",0,1,569.0,27.829
+E02006263,"Fressingfield",0,0,648.0,30.816
+E02006264,"Thurston",0,0,395.0,34.840
+E02006265,"Stowupland",0,0,426.0,23.793
+E02006266,"Elmswell South",0,0,491.0,35.320
+E02006267,"Debenham",0,0,426.0,37.617
+E02006268,"Stowmarket West",0,0,233.0,11.853
+E02006269,"Stowmarket Outer",0,0,370.0,19.744
+E02006270,"Stowmarket East & Needham Market North",0,2,370.0,38.282
+E02006271,"Needham Market South & Great Blakenham",0,5,563.0,28.305
+E02006272,"Claydon & Bramford",0,0,427.0,27.390

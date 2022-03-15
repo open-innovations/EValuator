@@ -1,37 +1,37 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02000397,"Bowes Park",0,2,819.0
-E02000398,"Northumberland Park",0,1,415.0
-E02000400,"Bounds Green",0,3,964.0
-E02000401,"Roundway",0,2,731.0
-E02000402,"Tottenham Bruce Castle Park",0,1,262.0
-E02000403,"Wood Green North",0,2,257.0
-E02000404,"Scotch Estate",0,3,519.0
-E02000405,"Alexandra Park",0,2,964.0
-E02000406,"Noel Park",0,0,257.0
-E02000407,"Bruce Grove North",0,0,440.0
-E02000408,"Tottenham North West",0,4,262.0
-E02000409,"Lordship Lane & Broadwater Farm",0,4,697.0
-E02000410,"Muswell Hill North",0,3,357.0
-E02000411,"Tottenham Lea Valley",0,0,262.0
-E02000412,"Wood Green South",0,12,561.0
-E02000413,"Fortis Green & Coldfall",0,0,813.0
-E02000414,"Bruce Grove South",0,0,440.0
-E02000415,"Downhills Park",0,4,697.0
-E02000416,"Hornsey East",0,0,304.0
-E02000417,"Muswell Hill South",0,8,918.0
-E02000418,"Hornsey West",0,5,661.0
-E02000419,"Harringay Ladder North",0,3,717.0
-E02000420,"Tottenham Green West",0,10,178.0
-E02000421,"Tottenham Green East",0,4,440.0
-E02000422,"West Green & St Ann's",0,0,178.0
-E02000423,"Harringay East",0,2,413.0
-E02000424,"Hornsey Vale",0,0,539.0
-E02000425,"South Tottenham",0,1,178.0
-E02000426,"Highgate Wood",0,1,1307.0
-E02000427,"Harringay Ladder South",0,0,717.0
-E02000428,"Harringay Warehouse District & Vartry",0,2,413.0
-E02000429,"Crouch End West",0,7,798.0
-E02000430,"Crouch End East",0,3,539.0
-E02000431,"Highgate East",0,3,494.0
-E02000432,"Stroud Green",0,3,235.0
-E02006794,"White Hart Lane",0,17,262.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02000397,"Bowes Park",0,2,819.0,5.100
+E02000398,"Northumberland Park",0,1,415.0,0.033
+E02000400,"Bounds Green",0,3,964.0,15.696
+E02000401,"Roundway",0,2,731.0,0.420
+E02000402,"Tottenham Bruce Castle Park",0,1,262.0,0.000
+E02000403,"Wood Green North",0,2,257.0,2.870
+E02000404,"Scotch Estate",0,3,519.0,2.344
+E02000405,"Alexandra Park",0,2,964.0,7.951
+E02000406,"Noel Park",0,0,257.0,1.770
+E02000407,"Bruce Grove North",0,0,440.0,0.000
+E02000408,"Tottenham North West",0,4,262.0,0.000
+E02000409,"Lordship Lane & Broadwater Farm",0,4,697.0,0.287
+E02000410,"Muswell Hill North",0,3,357.0,50.507
+E02000411,"Tottenham Lea Valley",0,0,262.0,0.000
+E02000412,"Wood Green South",0,12,561.0,4.533
+E02000413,"Fortis Green & Coldfall",0,0,813.0,27.048
+E02000414,"Bruce Grove South",0,0,440.0,0.000
+E02000415,"Downhills Park",0,4,697.0,0.335
+E02000416,"Hornsey East",0,0,304.0,19.659
+E02000417,"Muswell Hill South",0,8,918.0,19.027
+E02000418,"Hornsey West",0,5,661.0,5.285
+E02000419,"Harringay Ladder North",0,3,717.0,5.572
+E02000420,"Tottenham Green West",0,10,178.0,0.000
+E02000421,"Tottenham Green East",0,4,440.0,0.000
+E02000422,"West Green & St Ann's",0,0,178.0,0.000
+E02000423,"Harringay East",0,2,413.0,0.425
+E02000424,"Hornsey Vale",0,0,539.0,4.377
+E02000425,"South Tottenham",0,1,178.0,0.000
+E02000426,"Highgate Wood",0,1,1307.0,39.505
+E02000427,"Harringay Ladder South",0,0,717.0,4.370
+E02000428,"Harringay Warehouse District & Vartry",0,2,413.0,0.443
+E02000429,"Crouch End West",0,7,798.0,17.629
+E02000430,"Crouch End East",0,3,539.0,7.314
+E02000431,"Highgate East",0,3,494.0,25.011
+E02000432,"Stroud Green",0,3,235.0,1.191
+E02006794,"White Hart Lane",0,17,262.0,0.000

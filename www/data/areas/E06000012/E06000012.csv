@@ -1,24 +1,24 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002726,"Immingham & Habrough",0.226,1,201.0
-E02002727,"Grimsby East Marsh & Port",0.134,0,150.0
-E02002728,"Grimsby West Marsh",0.161,7,488.0
-E02002729,"Great Coates & The Willows",0.148,0,167.0
-E02002730,"Sidney Park",0.1,0,121.0
-E02002731,"New Clee",0.134,0,86.0
-E02002732,"Laceby",0.398,2,248.0
-E02002733,"Littlefield North",0.155,2,177.0
-E02002734,"Yarborough",0.163,0,130.0
-E02002735,"Cleethorpes North",0.09,0,57.0
-E02002736,"Holme Hill",0.168,0,150.0
-E02002737,"Weelsby & Old Clee",0.114,0,143.0
-E02002738,"Laceby Acres & Wybers Wood",0.217,0,179.0
-E02002739,"Cleethorpes Beacon Hill",0.098,0,57.0
-E02002740,"Littlefield South & Grange",0.177,0,179.0
-E02002741,"Wellow",0.16,2,226.0
-E02002742,"Cleethorpes Haverstoe",0.098,2,57.0
-E02002743,"Cleethorpes West",0.12,0,57.0
-E02002744,"Nunsthorpe",0.102,0,76.0
-E02002745,"Humberston",0.12,0,159.0
-E02002746,"Scartho",0.105,0,49.0
-E02002747,"New Waltham",0.17,3,311.0
-E02002748,"Waltham & East Ravendale",0.285,0,456.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002726,"Immingham & Habrough",125,1,201.0,19.298
+E02002727,"Grimsby East Marsh & Port",101,0,150.0,5.129
+E02002728,"Grimsby West Marsh",114,7,488.0,9.828
+E02002729,"Great Coates & The Willows",104,0,167.0,9.469
+E02002730,"Sidney Park",97,0,121.0,6.292
+E02002731,"New Clee",95,0,86.0,1.867
+E02002732,"Laceby",104,2,248.0,30.674
+E02002733,"Littlefield North",101,2,177.0,3.348
+E02002734,"Yarborough",98,0,130.0,6.146
+E02002735,"Cleethorpes North",85,0,57.0,6.876
+E02002736,"Holme Hill",92,0,150.0,2.476
+E02002737,"Weelsby & Old Clee",85,0,143.0,5.133
+E02002738,"Laceby Acres & Wybers Wood",85,0,179.0,5.457
+E02002739,"Cleethorpes Beacon Hill",70,0,57.0,8.315
+E02002740,"Littlefield South & Grange",85,0,179.0,4.359
+E02002741,"Wellow",85,2,226.0,6.786
+E02002742,"Cleethorpes Haverstoe",66,2,57.0,8.045
+E02002743,"Cleethorpes West",70,0,57.0,7.191
+E02002744,"Nunsthorpe",79,0,76.0,9.465
+E02002745,"Humberston",57,0,159.0,15.462
+E02002746,"Scartho",61,0,49.0,15.241
+E02002747,"New Waltham",63,3,311.0,24.069
+E02002748,"Waltham & East Ravendale",66,0,456.0,18.896

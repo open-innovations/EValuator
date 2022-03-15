@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005253,"Grimsargh & Goosnargh",0.142,4,685.0
-E02005254,"Broughton & Wychnor",0.253,1,1091.0
-E02005255,"Fulwood",0.179,2,1091.0
-E02005256,"Longsands",0.077,8,391.0
-E02005257,"Ingol",0.132,0,391.0
-E02005258,"Cadley & College",0.098,1,997.0
-E02005259,"Brookfield & Holme Slack",0.102,0,591.0
-E02005260,"Haslam Park",0.096,0,391.0
-E02005261,"Ribbleton",0.074,0,788.0
-E02005262,"Lea & Marina",0.001,3,997.0
-E02005263,"Moor Park",0.098,0,591.0
-E02005264,"Plungington & University",0.12,2,591.0
-E02005265,"Ashton-on-Ribble & Larches",0.083,2,797.0
-E02005266,"St Matthew's",0.093,0,591.0
-E02005267,"St George's",0.097,0,200.0
-E02005268,"Frenchwood & Fishwick",0.089,0,788.0
-E02005269,"Preston Town Centre",0.052,12,1291.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005253,"Grimsargh & Goosnargh",523,4,685.0,22.182
+E02005254,"Broughton & Wychnor",677,1,1091.0,32.729
+E02005255,"Fulwood",721,2,1091.0,25.115
+E02005256,"Longsands",718,8,391.0,25.187
+E02005257,"Ingol",597,0,391.0,10.315
+E02005258,"Cadley & College",636,1,997.0,33.131
+E02005259,"Brookfield & Holme Slack",713,0,591.0,15.405
+E02005260,"Haslam Park",580,0,391.0,11.194
+E02005261,"Ribbleton",688,0,788.0,19.062
+E02005262,"Lea & Marina",506,3,997.0,23.672
+E02005263,"Moor Park",582,0,591.0,6.752
+E02005264,"Plungington & University",524,2,591.0,24.906
+E02005265,"Ashton-on-Ribble & Larches",419,2,797.0,19.681
+E02005266,"St Matthew's",707,0,591.0,8.264
+E02005267,"St George's",619,0,200.0,5.896
+E02005268,"Frenchwood & Fishwick",710,0,788.0,8.789
+E02005269,"Preston Town Centre",592,12,1291.0,86.692

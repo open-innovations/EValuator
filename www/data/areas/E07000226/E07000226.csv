@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006575,"Langley Green & Gatwick Airport",0,5,984.0
-E02006576,"Pound Hill",0,4,799.0
-E02006577,"Ewhurst & West Green",0,1,720.0
-E02006578,"Manor Royal & Northgate",0,15,984.0
-E02006579,"Three Bridges",0,15,535.0
-E02006580,"Ifield & Gossops Green",0,1,185.0
-E02006581,"Southgate",0,0,720.0
-E02006582,"Maidenbower East & Worth",0,1,535.0
-E02006583,"Maidenbower West & Furnace Green",0,0,535.0
-E02006584,"Bewbush",0,0,185.0
-E02006585,"Tilgate",0,0,720.0
-E02006586,"Broadfield West",0,0,185.0
-E02006587,"Broadfield East",0,0,185.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006575,"Langley Green & Gatwick Airport",0,5,984.0,23.022
+E02006576,"Pound Hill",0,4,799.0,21.961
+E02006577,"Ewhurst & West Green",0,1,720.0,10.407
+E02006578,"Manor Royal & Northgate",0,15,984.0,117.371
+E02006579,"Three Bridges",0,15,535.0,21.494
+E02006580,"Ifield & Gossops Green",0,1,185.0,10.027
+E02006581,"Southgate",0,0,720.0,14.155
+E02006582,"Maidenbower East & Worth",0,1,535.0,12.263
+E02006583,"Maidenbower West & Furnace Green",0,0,535.0,15.156
+E02006584,"Bewbush",0,0,185.0,7.569
+E02006585,"Tilgate",0,0,720.0,12.965
+E02006586,"Broadfield West",0,0,185.0,5.592
+E02006587,"Broadfield East",0,0,185.0,7.810

@@ -1,49 +1,49 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003172,"Kinson East",0,5,140.0
-E02003173,"Kinson West",0,1,243.0
-E02003174,"Northbourne",0,0,72.0
-E02003175,"Throop & Muscliffe",0,0,203.0
-E02003176,"West Howe",0,0,140.0
-E02003177,"Moordown",0,0,175.0
-E02003178,"East Howe & Ensbury Park",0,0,243.0
-E02003179,"Townsend & Strouden",0,1,100.0
-E02003180,"Winton",0,2,243.0
-E02003181,"Queens Park",0,0,203.0
-E02003182,"Littledown",0,7,384.0
-E02003183,"Talbot & Branksome Woods",0,0,300.0
-E02003184,"Charminster",0,0,287.0
-E02003185,"Iford",0,0,224.0
-E02003186,"Springbourne & Queen's Park",0,0,226.0
-E02003187,"Boscombe East",0,0,323.0
-E02003188,"Central Bournemouth",0,5,200.0
-E02003189,"Southbourne West",0,1,257.0
-E02003190,"Boscombe West",0,2,165.0
-E02003191,"East Southbourne & Hengistbury Head",0,0,158.0
-E02003192,"East Cliff",0,3,507.0
-E02003194,"Merley",0,0,606.0
-E02003195,"Bearwood",0,1,686.0
-E02003196,"Broadstone",0,0,655.0
-E02003197,"Canford Heath West",0,0,439.0
-E02003198,"Canford Heath East",0,0,322.0
-E02003199,"Creekmoor",0,2,306.0
-E02003200,"Rossmore",0,0,507.0
-E02003201,"Newtown",0,2,692.0
-E02003202,"Branksome East",0,5,346.0
-E02003203,"Branksome West",0,3,422.0
-E02003204,"Oakdale East",0,4,692.0
-E02003205,"Oakdale West",0,1,270.0
-E02003206,"Penn Hill",0,2,364.0
-E02003207,"Hamworthy West",0,0,300.0
-E02003208,"Poole Town",0,4,261.0
-E02003209,"Hamworthy East",0,0,149.0
-E02003210,"Parkstone",0,0,714.0
-E02003211,"Branksome Park",0,0,625.0
-E02004236,"Burton & Airport",0,1,825.0
-E02004237,"Jumpers Common & Fairmile",0,0,361.0
-E02004238,"Highcliffe & Walkford",0,0,361.0
-E02004239,"West Highcliffe",0,0,361.0
-E02004240,"Somerford",0,2,361.0
-E02004241,"Christchurch Town",0,3,361.0
-E02004242,"Mudeford",0,0,361.0
-E02006883,"Westbourne",0,0,442.0
-E02006885,"West Cliff",0,1,81.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003172,"Kinson East",0,5,140.0,13.902
+E02003173,"Kinson West",0,1,243.0,24.844
+E02003174,"Northbourne",0,0,72.0,16.805
+E02003175,"Throop & Muscliffe",0,0,203.0,15.225
+E02003176,"West Howe",0,0,140.0,10.984
+E02003177,"Moordown",0,0,175.0,16.666
+E02003178,"East Howe & Ensbury Park",0,0,243.0,15.727
+E02003179,"Townsend & Strouden",0,1,100.0,12.769
+E02003180,"Winton",0,2,243.0,25.482
+E02003181,"Queens Park",0,0,203.0,16.737
+E02003182,"Littledown",0,7,384.0,17.602
+E02003183,"Talbot & Branksome Woods",0,0,300.0,18.403
+E02003184,"Charminster",0,0,287.0,13.196
+E02003185,"Iford",0,0,224.0,22.220
+E02003186,"Springbourne & Queen's Park",0,0,226.0,8.609
+E02003187,"Boscombe East",0,0,323.0,16.280
+E02003188,"Central Bournemouth",0,5,200.0,8.488
+E02003189,"Southbourne West",0,1,257.0,26.924
+E02003190,"Boscombe West",0,2,165.0,7.889
+E02003191,"East Southbourne & Hengistbury Head",0,0,158.0,27.000
+E02003192,"East Cliff",0,3,507.0,43.008
+E02003194,"Merley",0,0,606.0,14.244
+E02003195,"Bearwood",0,1,686.0,9.632
+E02003196,"Broadstone",0,0,655.0,63.418
+E02003197,"Canford Heath West",0,0,439.0,30.784
+E02003198,"Canford Heath East",0,0,322.0,15.638
+E02003199,"Creekmoor",0,2,306.0,23.121
+E02003200,"Rossmore",0,0,507.0,40.018
+E02003201,"Newtown",0,2,692.0,18.575
+E02003202,"Branksome East",0,5,346.0,12.105
+E02003203,"Branksome West",0,3,422.0,12.766
+E02003204,"Oakdale East",0,4,692.0,25.611
+E02003205,"Oakdale West",0,1,270.0,9.099
+E02003206,"Penn Hill",0,2,364.0,35.975
+E02003207,"Hamworthy West",0,0,300.0,10.211
+E02003208,"Poole Town",0,4,261.0,35.559
+E02003209,"Hamworthy East",0,0,149.0,6.900
+E02003210,"Parkstone",0,0,714.0,65.098
+E02003211,"Branksome Park",0,0,625.0,46.840
+E02004236,"Burton & Airport",0,1,825.0,20.993
+E02004237,"Jumpers Common & Fairmile",0,0,361.0,17.966
+E02004238,"Highcliffe & Walkford",0,0,361.0,24.575
+E02004239,"West Highcliffe",0,0,361.0,19.083
+E02004240,"Somerford",0,2,361.0,17.314
+E02004241,"Christchurch Town",0,3,361.0,66.185
+E02004242,"Mudeford",0,0,361.0,17.780
+E02006883,"Westbourne",0,0,442.0,27.779
+E02006885,"West Cliff",0,1,81.0,6.420

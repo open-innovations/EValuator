@@ -1,44 +1,44 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002684,"Bridlington North & Bempton",0.167,0,266.0
-E02002685,"Bridlington East & Flamborough",0.094,0,101.0
-E02002686,"Bridlington West",0.181,1,101.0
-E02002687,"Bridlington Central",0.125,3,101.0
-E02002688,"Bridlington Hilderthorpe",0.138,1,101.0
-E02002689,"Burton Agnes",0.238,0,336.0
-E02002691,"Driffield West & Huggate",0.229,0,271.0
-E02002692,"Stamford Bridge & Sutton Upon Derwent",0.231,0,192.0
-E02002693,"Skipsea",0.35,0,251.0
-E02002694,"Pocklington",0.239,1,450.0
-E02002695,"Hornsea",0.137,2,86.0
-E02002696,"Cherry Burton",0.281,0,481.0
-E02002697,"Leven & Tickton",0.001,0,470.0
-E02002698,"Market Weighton",0.318,2,93.0
-E02002699,"Molescroft",0.131,0,223.0
-E02002700,"Beverley North",0.134,1,223.0
-E02002701,"Holme",0.237,0,593.0
-E02002702,"Beverley South",0.141,4,309.0
-E02002703,"Walkington",0.12,1,331.0
-E02002704,"Aldbrough & Sproatley",0.066,0,147.0
-E02002705,"Cottingham West",0.155,0,157.0
-E02002706,"Cottingham East",0.132,0,171.0
-E02002707,"South Cave",0.302,0,477.0
-E02002708,"Cottingham South & North Ella",0.136,1,220.0
-E02002709,"Gilberdyke & North Cave",0.153,0,445.0
-E02002710,"Willerby",0.114,0,157.0
-E02002711,"Kirk Ella",0.152,0,171.0
-E02002712,"Hedon & Preston",0.171,1,95.0
-E02002714,"Withernsea West & Keyingham",0.204,2,176.0
-E02002715,"Brough",0.185,1,247.0
-E02002716,"Burstwick & Thorngumbald",0.169,0,95.0
-E02002717,"Hessle East & Anlaby South",0.164,0,358.0
-E02002718,"North Ferriby & Swanland",0.144,1,247.0
-E02002719,"Hessle West",0.185,1,132.0
-E02002720,"Howden South & Goole North",0.106,0,394.0
-E02002721,"Howden North",0.1,0,352.0
-E02002722,"Withernsea East & Patrington",0.096,2,109.0
-E02002723,"Goole West",0.11,1,191.0
-E02002724,"Goole East",0.064,1,191.0
-E02002725,"Snaith",0.187,0,1300.0
-E02006814,"Anlaby Common",0.108,0,335.0
-E02006891,"Driffield East & Nafferton",0.145,0,165.0
-E02006892,"Driffield Central",0.235,3,165.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002684,"Bridlington North & Bempton",24,0,266.0,6.365
+E02002685,"Bridlington East & Flamborough",26,0,101.0,3.999
+E02002686,"Bridlington West",29,1,101.0,4.179
+E02002687,"Bridlington Central",28,3,101.0,2.217
+E02002688,"Bridlington Hilderthorpe",35,1,101.0,0.060
+E02002689,"Burton Agnes",34,0,336.0,22.527
+E02002691,"Driffield West & Huggate",81,0,271.0,30.932
+E02002692,"Stamford Bridge & Sutton Upon Derwent",119,0,192.0,41.919
+E02002693,"Skipsea",67,0,251.0,15.786
+E02002694,"Pocklington",90,1,450.0,63.811
+E02002695,"Hornsea",53,2,86.0,14.513
+E02002696,"Cherry Burton",106,0,481.0,16.658
+E02002697,"Leven & Tickton",75,0,470.0,18.886
+E02002698,"Market Weighton",139,2,93.0,37.794
+E02002699,"Molescroft",94,0,223.0,23.907
+E02002700,"Beverley North",96,1,223.0,16.335
+E02002701,"Holme",189,0,593.0,37.350
+E02002702,"Beverley South",111,4,309.0,75.319
+E02002703,"Walkington",118,1,331.0,27.357
+E02002704,"Aldbrough & Sproatley",66,0,147.0,9.318
+E02002705,"Cottingham West",136,0,157.0,22.148
+E02002706,"Cottingham East",115,0,171.0,14.852
+E02002707,"South Cave",324,0,477.0,34.543
+E02002708,"Cottingham South & North Ella",126,1,220.0,24.467
+E02002709,"Gilberdyke & North Cave",297,0,445.0,52.753
+E02002710,"Willerby",149,0,157.0,26.371
+E02002711,"Kirk Ella",168,0,171.0,34.211
+E02002712,"Hedon & Preston",67,1,95.0,18.196
+E02002714,"Withernsea West & Keyingham",48,2,176.0,18.898
+E02002715,"Brough",260,1,247.0,74.727
+E02002716,"Burstwick & Thorngumbald",69,0,95.0,18.431
+E02002717,"Hessle East & Anlaby South",183,0,358.0,55.069
+E02002718,"North Ferriby & Swanland",207,1,247.0,57.811
+E02002719,"Hessle West",208,1,132.0,19.902
+E02002720,"Howden South & Goole North",414,0,394.0,15.833
+E02002721,"Howden North",381,0,352.0,18.386
+E02002722,"Withernsea East & Patrington",20,2,109.0,11.608
+E02002723,"Goole West",438,1,191.0,27.254
+E02002724,"Goole East",389,1,191.0,16.669
+E02002725,"Snaith",469,0,1300.0,16.396
+E02006814,"Anlaby Common",149,0,335.0,11.488
+E02006891,"Driffield East & Nafferton",60,0,165.0,19.521
+E02006892,"Driffield Central",75,3,165.0,24.298

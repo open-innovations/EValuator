@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004636,"Longlevens",0,2,619.0
-E02004637,"Kingsholm & Wotton",0,1,619.0
-E02004638,"Elmbridge",0,0,619.0
-E02004639,"Central Gloucester & Hempsted",0,5,619.0
-E02004640,"Barton",0,0,299.0
-E02004641,"Hucclecote",0,1,370.0
-E02004642,"Coney Hill",0,2,1098.0
-E02004643,"Tredworth",0,0,299.0
-E02004644,"Podsmead & Linden",0,0,619.0
-E02004645,"Abbeymead & Abbeydale",0,1,370.0
-E02004646,"Matson & Robinswood",0,0,199.0
-E02004647,"Tuffley",0,0,299.0
-E02004648,"Lower Tuffley",0,0,718.0
-E02004649,"Quedgeley North",0,1,818.0
-E02004650,"Quedgeley South",0,7,1098.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004636,"Longlevens",0,2,619.0,21.382
+E02004637,"Kingsholm & Wotton",0,1,619.0,11.836
+E02004638,"Elmbridge",0,0,619.0,13.851
+E02004639,"Central Gloucester & Hempsted",0,5,619.0,34.053
+E02004640,"Barton",0,0,299.0,4.313
+E02004641,"Hucclecote",0,1,370.0,22.235
+E02004642,"Coney Hill",0,2,1098.0,53.000
+E02004643,"Tredworth",0,0,299.0,6.545
+E02004644,"Podsmead & Linden",0,0,619.0,22.274
+E02004645,"Abbeymead & Abbeydale",0,1,370.0,22.954
+E02004646,"Matson & Robinswood",0,0,199.0,26.815
+E02004647,"Tuffley",0,0,299.0,12.148
+E02004648,"Lower Tuffley",0,0,718.0,9.222
+E02004649,"Quedgeley North",0,1,818.0,20.584
+E02004650,"Quedgeley South",0,7,1098.0,66.739

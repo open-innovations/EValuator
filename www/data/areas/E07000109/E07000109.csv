@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005055,"Northfleet North",0,0,171.0
-E02005056,"Gravesend Town",0,1,367.0
-E02005057,"Milton & Chalk",0,0,505.0
-E02005058,"Perry Street",0,0,171.0
-E02005059,"Windmill Hill",0,0,367.0
-E02005060,"Northfleet South",0,0,171.0
-E02005061,"Westcourt",0,0,196.0
-E02005062,"Riverview Park",0,0,196.0
-E02005063,"Gravesend South & Coldharbour",0,0,505.0
-E02005064,"Higham & Shorne",0,0,985.0
-E02005065,"Singlewell",0,1,196.0
-E02005066,"Istead Rise & Meopham",0,3,261.0
-E02005067,"Sole Street & Vigo",0,0,705.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005055,"Northfleet North",0,0,171.0,10.313
+E02005056,"Gravesend Town",0,1,367.0,21.920
+E02005057,"Milton & Chalk",0,0,505.0,48.519
+E02005058,"Perry Street",0,0,171.0,7.722
+E02005059,"Windmill Hill",0,0,367.0,11.523
+E02005060,"Northfleet South",0,0,171.0,9.785
+E02005061,"Westcourt",0,0,196.0,8.108
+E02005062,"Riverview Park",0,0,196.0,6.611
+E02005063,"Gravesend South & Coldharbour",0,0,505.0,10.105
+E02005064,"Higham & Shorne",0,0,985.0,22.349
+E02005065,"Singlewell",0,1,196.0,8.669
+E02005066,"Istead Rise & Meopham",0,3,261.0,38.788
+E02005067,"Sole Street & Vigo",0,0,705.0,21.249

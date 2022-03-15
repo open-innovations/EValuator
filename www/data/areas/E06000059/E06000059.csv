@@ -1,48 +1,48 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004243,"Alderholt & Sixpenny Handley",0,0,1091.0
-E02004244,"East Verwood",0,0,522.0
-E02004245,"West Verwood",0,2,522.0
-E02004246,"St Leonards",0,2,628.0
-E02004247,"Sturminster Marshall & Crichel",0,2,1070.0
-E02004248,"West Moors",0,1,614.0
-E02004249,"Colehill",0,0,417.0
-E02004250,"Ferndown Town",0,2,197.0
-E02004251,"Ferndown West & Canford Bottom",0,0,614.0
-E02004252,"Wimborne Minster",0,3,417.0
-E02004253,"Parley & Hampreston",0,0,614.0
-E02004254,"Corfe Mullen",0,0,534.0
-E02004255,"Gillingham",0,2,123.0
-E02004256,"Gillingham Outer",0,0,311.0
-E02004257,"Shaftesbury",0,3,103.0
-E02004258,"Sturminster Newton & Stalbridge",0,0,291.0
-E02004259,"Child Okeford & Iwerne Minster",0,0,539.0
-E02004260,"Blandford Outer & Tarrants",0,2,436.0
-E02004261,"Blandford Forum Town",0,2,173.0
-E02004262,"Milborne",0,0,768.0
-E02004263,"Bere Regis & Lytchett Matravers",0,1,818.0
-E02004264,"Upton & Lytchett Minster",0,0,645.0
-E02004265,"Wareham",0,0,228.0
-E02004266,"Bovington",0,0,467.0
-E02004267,"Corfe Castle & Langton Matravers",0,2,497.0
-E02004268,"Swanage",0,5,89.0
-E02004269,"Sherborne",0,2,171.0
-E02004270,"Yetminster",0,0,765.0
-E02004271,"Beaminster",0,0,880.0
-E02004272,"Charlton Down",0,0,607.0
-E02004273,"Lyme Regis",0,8,396.0
-E02004274,"Bridport North",0,0,258.0
-E02004275,"Burton Bradstock & Chideock",0,0,373.0
-E02004276,"Bridport South & West Bay",0,5,150.0
-E02004277,"Dorchester West & Poundbury",0,11,351.0
-E02004278,"Dorchester East",0,2,128.0
-E02004279,"Owermoigne",0,0,490.0
-E02004280,"Chickerell & Chesil Bank",0,1,502.0
-E02004281,"Broadwey & Littlemoor",0,0,279.0
-E02004282,"Preston & Lodmoor",0,1,279.0
-E02004283,"Westham North & Radipole",0,9,279.0
-E02004284,"Weymouth Town",0,5,279.0
-E02004285,"Westham South",0,0,140.0
-E02004286,"Weymouth West",0,0,140.0
-E02004287,"Wyke Regis",0,1,140.0
-E02004288,"Underhill & The Grove",0,1,182.0
-E02004289,"Southwell & Weston",0,2,42.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004243,"Alderholt & Sixpenny Handley",0,0,1091.0,32.932
+E02004244,"East Verwood",0,0,522.0,56.171
+E02004245,"West Verwood",0,2,522.0,42.853
+E02004246,"St Leonards",0,2,628.0,32.797
+E02004247,"Sturminster Marshall & Crichel",0,2,1070.0,34.548
+E02004248,"West Moors",0,1,614.0,22.850
+E02004249,"Colehill",0,0,417.0,26.154
+E02004250,"Ferndown Town",0,2,197.0,47.781
+E02004251,"Ferndown West & Canford Bottom",0,0,614.0,31.179
+E02004252,"Wimborne Minster",0,3,417.0,66.199
+E02004253,"Parley & Hampreston",0,0,614.0,32.168
+E02004254,"Corfe Mullen",0,0,534.0,32.568
+E02004255,"Gillingham",0,2,123.0,20.969
+E02004256,"Gillingham Outer",0,0,311.0,27.796
+E02004257,"Shaftesbury",0,3,103.0,24.000
+E02004258,"Sturminster Newton & Stalbridge",0,0,291.0,42.965
+E02004259,"Child Okeford & Iwerne Minster",0,0,539.0,26.146
+E02004260,"Blandford Outer & Tarrants",0,2,436.0,26.278
+E02004261,"Blandford Forum Town",0,2,173.0,41.127
+E02004262,"Milborne",0,0,768.0,26.170
+E02004263,"Bere Regis & Lytchett Matravers",0,1,818.0,19.490
+E02004264,"Upton & Lytchett Minster",0,0,645.0,27.143
+E02004265,"Wareham",0,0,228.0,35.155
+E02004266,"Bovington",0,0,467.0,27.308
+E02004267,"Corfe Castle & Langton Matravers",0,2,497.0,16.837
+E02004268,"Swanage",0,5,89.0,27.239
+E02004269,"Sherborne",0,2,171.0,30.926
+E02004270,"Yetminster",0,0,765.0,27.465
+E02004271,"Beaminster",0,0,880.0,44.156
+E02004272,"Charlton Down",0,0,607.0,57.623
+E02004273,"Lyme Regis",0,8,396.0,33.134
+E02004274,"Bridport North",0,0,258.0,24.679
+E02004275,"Burton Bradstock & Chideock",0,0,373.0,25.145
+E02004276,"Bridport South & West Bay",0,5,150.0,13.988
+E02004277,"Dorchester West & Poundbury",0,11,351.0,55.858
+E02004278,"Dorchester East",0,2,128.0,14.286
+E02004279,"Owermoigne",0,0,490.0,31.895
+E02004280,"Chickerell & Chesil Bank",0,1,502.0,25.008
+E02004281,"Broadwey & Littlemoor",0,0,279.0,16.960
+E02004282,"Preston & Lodmoor",0,1,279.0,20.582
+E02004283,"Westham North & Radipole",0,9,279.0,14.390
+E02004284,"Weymouth Town",0,5,279.0,38.334
+E02004285,"Westham South",0,0,140.0,8.059
+E02004286,"Weymouth West",0,0,140.0,4.997
+E02004287,"Wyke Regis",0,1,140.0,5.763
+E02004288,"Underhill & The Grove",0,1,182.0,5.045
+E02004289,"Southwell & Weston",0,2,42.0,6.045

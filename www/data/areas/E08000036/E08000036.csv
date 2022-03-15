@@ -1,46 +1,46 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002438,"Ferry Fryston",0.088,0,174.0
-E02002439,"Castleford Town",0.098,2,174.0
-E02002440,"Airedale",0.126,0,337.0
-E02002441,"Castleford West",0.12,0,174.0
-E02002442,"Glasshoughton",0.196,6,337.0
-E02002443,"Outwood East",0.09,1,305.0
-E02002444,"Stanley",0.115,0,546.0
-E02002445,"Outwood West",0.093,4,619.0
-E02002446,"Altofts",0.046,0,410.0
-E02002447,"Knottingley",0.192,1,57.0
-E02002448,"Ferrybridge & West Knottingley",0.43,4,57.0
-E02002449,"Pontefract North East",0.184,0,163.0
-E02002450,"Normanton East",0.126,1,245.0
-E02002451,"Wrenthorpe & Kirkhamgate",0.094,0,454.0
-E02002452,"Pontefract North West",0.109,2,300.0
-E02002453,"Normanton West",0.113,2,211.0
-E02002454,"Wakefield Central",0.078,4,867.0
-E02002455,"Pontefract South East",0.112,1,163.0
-E02002456,"Wakefield St John's",0.081,1,454.0
-E02002457,"Eastmoor",0.076,0,140.0
-E02002458,"Ossett North",0.125,0,222.0
-E02002459,"Alverthorpe & Flanshaw",0.08,0,426.0
-E02002460,"Pontefract South West",0.116,0,163.0
-E02002461,"Streethouse & Sharlston Common",0.132,0,573.0
-E02002462,"Ossett West",0.099,1,222.0
-E02002463,"Lupset",0.099,0,426.0
-E02002464,"Featherstone",0.142,1,80.0
-E02002465,"Thornes",0.094,2,454.0
-E02002466,"Ossett South East & Horbury Bridge",0.07,0,360.0
-E02002467,"Agbrigg & Belle Isle",0.106,2,454.0
-E02002468,"Horbury",0.069,2,248.0
-E02002469,"Crofton",0.108,0,468.0
-E02002470,"Sandal",0.171,2,314.0
-E02002471,"Ackworth & Darrington",0.001,2,635.0
-E02002472,"Netherton & Middlestown",0.001,0,498.0
-E02002473,"Durkar & Crigglestone",0.176,1,562.0
-E02002474,"Kettlethorpe & Chapelthorpe",0.166,0,562.0
-E02002475,"Walton",0.215,3,1008.0
-E02002476,"Kinsley & Fitzwilliam",0.087,0,415.0
-E02002477,"Ryhill & South Hiendley",0.157,0,396.0
-E02002478,"Upton",0.233,0,250.0
-E02002479,"Hemsworth Town",0.25,2,228.0
-E02002480,"Moorthorpe",0.169,1,87.0
-E02002481,"South Elmsall",0.232,1,87.0
-E02002482,"South Kirkby",0.134,0,148.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002438,"Ferry Fryston",540,0,174.0,11.296
+E02002439,"Castleford Town",553,2,174.0,24.585
+E02002440,"Airedale",593,0,337.0,12.374
+E02002441,"Castleford West",595,0,174.0,16.346
+E02002442,"Glasshoughton",629,6,337.0,11.909
+E02002443,"Outwood East",582,1,305.0,14.088
+E02002444,"Stanley",651,0,546.0,28.448
+E02002445,"Outwood West",599,4,619.0,13.343
+E02002446,"Altofts",585,0,410.0,16.198
+E02002447,"Knottingley",537,1,57.0,11.139
+E02002448,"Ferrybridge & West Knottingley",644,4,57.0,12.624
+E02002449,"Pontefract North East",577,0,163.0,18.513
+E02002450,"Normanton East",632,1,245.0,35.619
+E02002451,"Wrenthorpe & Kirkhamgate",667,0,454.0,25.365
+E02002452,"Pontefract North West",569,2,300.0,50.239
+E02002453,"Normanton West",551,2,211.0,26.960
+E02002454,"Wakefield Central",591,4,867.0,69.845
+E02002455,"Pontefract South East",515,1,163.0,11.141
+E02002456,"Wakefield St John's",583,1,454.0,23.759
+E02002457,"Eastmoor",531,0,140.0,7.862
+E02002458,"Ossett North",608,0,222.0,21.538
+E02002459,"Alverthorpe & Flanshaw",582,0,426.0,28.950
+E02002460,"Pontefract South West",512,0,163.0,17.776
+E02002461,"Streethouse & Sharlston Common",597,0,573.0,28.655
+E02002462,"Ossett West",591,1,222.0,24.690
+E02002463,"Lupset",603,0,426.0,23.252
+E02002464,"Featherstone",485,1,80.0,23.276
+E02002465,"Thornes",548,2,454.0,27.979
+E02002466,"Ossett South East & Horbury Bridge",590,0,360.0,27.003
+E02002467,"Agbrigg & Belle Isle",469,2,454.0,17.010
+E02002468,"Horbury",508,2,248.0,26.111
+E02002469,"Crofton",411,0,468.0,20.807
+E02002470,"Sandal",506,2,314.0,27.074
+E02002471,"Ackworth & Darrington",414,2,635.0,36.477
+E02002472,"Netherton & Middlestown",469,0,498.0,22.013
+E02002473,"Durkar & Crigglestone",639,1,562.0,20.389
+E02002474,"Kettlethorpe & Chapelthorpe",573,0,562.0,19.903
+E02002475,"Walton",470,3,1008.0,26.214
+E02002476,"Kinsley & Fitzwilliam",329,0,415.0,11.023
+E02002477,"Ryhill & South Hiendley",369,0,396.0,17.365
+E02002478,"Upton",489,0,250.0,9.079
+E02002479,"Hemsworth Town",410,2,228.0,14.304
+E02002480,"Moorthorpe",448,1,87.0,9.171
+E02002481,"South Elmsall",442,1,87.0,11.024
+E02002482,"South Kirkby",393,0,148.0,10.247

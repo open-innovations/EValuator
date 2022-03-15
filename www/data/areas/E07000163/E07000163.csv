@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005742,"Ingleton & High Bentham",0.447,2,277.0
-E02005743,"Grassington",0.232,8,251.0
-E02005744,"Settle",0.397,6,251.0
-E02005745,"Skipton North & Barden Fell",0.335,0,1065.0
-E02005746,"Skipton Town & East",0.329,2,205.0
-E02005747,"Skipton South",0.239,2,251.0
-E02005748,"Carleton",0.221,0,674.0
-E02005749,"Sutton & Crosshills",0.292,0,534.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005742,"Ingleton & High Bentham",111,2,277.0,39.407
+E02005743,"Grassington",111,8,251.0,26.372
+E02005744,"Settle",104,6,251.0,28.226
+E02005745,"Skipton North & Barden Fell",169,0,1065.0,23.275
+E02005746,"Skipton Town & East",169,2,205.0,21.058
+E02005747,"Skipton South",172,2,251.0,38.846
+E02005748,"Carleton",208,0,674.0,33.615
+E02005749,"Sutton & Crosshills",187,0,534.0,47.125

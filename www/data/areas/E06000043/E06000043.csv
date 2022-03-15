@@ -1,34 +1,34 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003491,"Patcham East",0,0,441.0
-E02003492,"Coldean & Moulsecoomb North",0,3,771.0
-E02003493,"Patcham West & Westdene",0,3,459.0
-E02003494,"Hollingbury",0,2,441.0
-E02003495,"Mile Oak",0,0,146.0
-E02003496,"Hangleton North",0,0,923.0
-E02003497,"West Blatchington",0,2,482.0
-E02003498,"Hollingdean & Moulsecoomb West",0,6,771.0
-E02003499,"Bevendean & Moulsecoomb East",0,1,330.0
-E02003500,"Fiveways",0,16,441.0
-E02003501,"Withdean Woods",0,13,923.0
-E02003502,"Portslade Village",0,1,146.0
-E02003503,"Hangleton South",0,0,628.0
-E02003504,"Preston Park",0,16,441.0
-E02003505,"Round Hill",0,4,771.0
-E02003506,"Aldrington",0,23,482.0
-E02003507,"Woodingdean",0,0,330.0
-E02003508,"Elm Grove & Bear Road",0,9,330.0
-E02003509,"Goldsmid West",0,11,482.0
-E02003510,"Goldsmid East",0,14,923.0
-E02003511,"Portslade by Sea",0,18,669.0
-E02003512,"Hanover",0,12,330.0
-E02003513,"Aldrington South",0,8,482.0
-E02003514,"Seven Dials",0,9,923.0
-E02003515,"Whitehawk",0,5,330.0
-E02003516,"Hove Central",0,14,923.0
-E02003517,"North Laine & the Lanes",0,32,789.0
-E02003518,"King Alfred",0,14,482.0
-E02003519,"Brunswick",0,15,923.0
-E02003520,"St James's Street & Queen's Park",0,8,1504.0
-E02003521,"Kemptown",0,9,330.0
-E02003522,"Roedean & Marina",0,8,330.0
-E02003523,"Rottingdean & Saltdean",0,1,771.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003491,"Patcham East",0,0,441.0,10.485
+E02003492,"Coldean & Moulsecoomb North",0,3,771.0,11.941
+E02003493,"Patcham West & Westdene",0,3,459.0,12.464
+E02003494,"Hollingbury",0,2,441.0,7.333
+E02003495,"Mile Oak",0,0,146.0,6.802
+E02003496,"Hangleton North",0,0,923.0,15.772
+E02003497,"West Blatchington",0,2,482.0,16.178
+E02003498,"Hollingdean & Moulsecoomb West",0,6,771.0,9.572
+E02003499,"Bevendean & Moulsecoomb East",0,1,330.0,6.854
+E02003500,"Fiveways",0,16,441.0,6.111
+E02003501,"Withdean Woods",0,13,923.0,17.004
+E02003502,"Portslade Village",0,1,146.0,7.472
+E02003503,"Hangleton South",0,0,628.0,15.628
+E02003504,"Preston Park",0,16,441.0,9.584
+E02003505,"Round Hill",0,4,771.0,7.017
+E02003506,"Aldrington",0,23,482.0,16.460
+E02003507,"Woodingdean",0,0,330.0,8.397
+E02003508,"Elm Grove & Bear Road",0,9,330.0,6.173
+E02003509,"Goldsmid West",0,11,482.0,68.474
+E02003510,"Goldsmid East",0,14,923.0,17.970
+E02003511,"Portslade by Sea",0,18,669.0,28.839
+E02003512,"Hanover",0,12,330.0,11.439
+E02003513,"Aldrington South",0,8,482.0,14.109
+E02003514,"Seven Dials",0,9,923.0,11.544
+E02003515,"Whitehawk",0,5,330.0,9.714
+E02003516,"Hove Central",0,14,923.0,20.569
+E02003517,"North Laine & the Lanes",0,32,789.0,101.229
+E02003518,"King Alfred",0,14,482.0,23.797
+E02003519,"Brunswick",0,15,923.0,23.084
+E02003520,"St James's Street & Queen's Park",0,8,1504.0,20.483
+E02003521,"Kemptown",0,9,330.0,11.075
+E02003522,"Roedean & Marina",0,8,330.0,9.714
+E02003523,"Rottingdean & Saltdean",0,1,771.0,18.493

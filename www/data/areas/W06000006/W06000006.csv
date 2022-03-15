@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-W02000080,"Llay South & Gwersyllt East",0,2,242.0
-W02000081,"Gwersyllt West & Summerhill",0,0,242.0
-W02000082,"New Broughton & Bryn Cefn",0,0,242.0
-W02000083,"Coedpoeth & Brymbo",0,0,319.0
-W02000084,"Borras & Rhosnesni",0,0,366.0
-W02000085,"Town North",0,1,443.0
-W02000086,"Acton & Maes-y-dre",0,1,366.0
-W02000087,"Caia Park",0,0,252.0
-W02000088,"Wrexham West",0,3,329.0
-W02000089,"Hermitage & Whitegate",0,3,252.0
-W02000090,"Pen-y-cae & Minera",0,0,205.0
-W02000091,"Johnstown North & Rhostyllen",0,0,201.0
-W02000092,"Rhosllannerchrugog & Johnstown South",0,0,77.0
-W02000093,"Ruabon & Marchwiel",0,0,329.0
-W02000094,"Cefn Mawr",0,4,113.0
-W02000095,"Bangor-on-Dee",0,0,419.0
-W02000096,"Chirk & Ceiriog Valley",0,0,243.0
-W02000420,"Gresford",0,0,366.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+W02000080,"Llay South & Gwersyllt East",0,2,242.0,11.568
+W02000081,"Gwersyllt West & Summerhill",0,0,242.0,7.617
+W02000082,"New Broughton & Bryn Cefn",0,0,242.0,11.416
+W02000083,"Coedpoeth & Brymbo",0,0,319.0,11.485
+W02000084,"Borras & Rhosnesni",0,0,366.0,7.460
+W02000085,"Town North",0,1,443.0,39.200
+W02000086,"Acton & Maes-y-dre",0,1,366.0,11.613
+W02000087,"Caia Park",0,0,252.0,7.178
+W02000088,"Wrexham West",0,3,329.0,14.897
+W02000089,"Hermitage & Whitegate",0,3,252.0,10.261
+W02000090,"Pen-y-cae & Minera",0,0,205.0,7.179
+W02000091,"Johnstown North & Rhostyllen",0,0,201.0,9.500
+W02000092,"Rhosllannerchrugog & Johnstown South",0,0,77.0,11.410
+W02000093,"Ruabon & Marchwiel",0,0,329.0,13.730
+W02000094,"Cefn Mawr",0,4,113.0,14.902
+W02000095,"Bangor-on-Dee",0,0,419.0,17.804
+W02000096,"Chirk & Ceiriog Valley",0,0,243.0,10.640
+W02000420,"Gresford",0,0,366.0,36.109

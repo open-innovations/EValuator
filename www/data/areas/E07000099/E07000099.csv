@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004909,"Royston North & Central",0,0,428.0
-E02004910,"Royston South",0,2,428.0
-E02004911,"Letchworth Grange",0,0,250.0
-E02004912,"Baldock",0,4,98.0
-E02004913,"Great Ashby",0,2,1675.0
-E02004914,"Letchworth East",0,3,662.0
-E02004915,"Letchworth Wilbury",0,0,250.0
-E02004916,"Letchworth South West",0,3,583.0
-E02004917,"Letchworth South East",0,0,348.0
-E02004918,"Hitchin Bearton",0,0,618.0
-E02004919,"Hitchin Walsworth",0,0,333.0
-E02004920,"Hitchin Town & West",0,5,618.0
-E02004921,"Hitchin Highbury",0,1,333.0
-E02004922,"Ickleford",0,3,920.0
-E02004923,"Knebworth",0,0,1404.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004909,"Royston North & Central",0,0,428.0,22.223
+E02004910,"Royston South",0,2,428.0,82.817
+E02004911,"Letchworth Grange",0,0,250.0,14.605
+E02004912,"Baldock",0,4,98.0,28.162
+E02004913,"Great Ashby",0,2,1675.0,75.798
+E02004914,"Letchworth East",0,3,662.0,57.933
+E02004915,"Letchworth Wilbury",0,0,250.0,11.241
+E02004916,"Letchworth South West",0,3,583.0,33.515
+E02004917,"Letchworth South East",0,0,348.0,19.477
+E02004918,"Hitchin Bearton",0,0,618.0,35.162
+E02004919,"Hitchin Walsworth",0,0,333.0,22.311
+E02004920,"Hitchin Town & West",0,5,618.0,93.389
+E02004921,"Hitchin Highbury",0,1,333.0,30.797
+E02004922,"Ickleford",0,3,920.0,66.385
+E02004923,"Knebworth",0,0,1404.0,71.865

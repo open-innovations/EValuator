@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005221,"Carnforth",0.162,6,238.0
-E02005222,"Kellet & Lune Valley",0.337,0,355.0
-E02005223,"Hest Bank & Bolton-le-Sands",0.157,0,457.0
-E02005224,"Bare",0.108,0,50.0
-E02005225,"Halton & Caton",0.388,12,419.0
-E02005226,"Morecambe Town",0.081,9,165.0
-E02005228,"Morecambe South West",0.088,0,165.0
-E02005229,"Morecambe West End",0.064,0,165.0
-E02005230,"Morecambe Westgate",0.112,3,353.0
-E02005231,"Skerton & Vale",0.119,0,188.0
-E02005233,"Lancaster East",0.138,2,188.0
-E02005234,"Lancaster Central",0.097,8,333.0
-E02005235,"Moorlands & Greaves",0.142,0,188.0
-E02005236,"Heysham & Overton",0.089,1,115.0
-E02005237,"Marsh",0.096,2,333.0
-E02005238,"Scotforth East & Bowerham",0.213,3,188.0
-E02005239,"University",0.216,3,627.0
-E02006871,"Scale Hall & Torrisholme",0.15,0,498.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005221,"Carnforth",204,6,238.0,50.044
+E02005222,"Kellet & Lune Valley",164,0,355.0,28.486
+E02005223,"Hest Bank & Bolton-le-Sands",193,0,457.0,26.065
+E02005224,"Bare",158,0,50.0,8.046
+E02005225,"Halton & Caton",292,12,419.0,19.675
+E02005226,"Morecambe Town",142,9,165.0,23.460
+E02005228,"Morecambe South West",110,0,165.0,9.804
+E02005229,"Morecambe West End",88,0,165.0,11.628
+E02005230,"Morecambe Westgate",160,3,353.0,12.077
+E02005231,"Skerton & Vale",196,0,188.0,8.762
+E02005233,"Lancaster East",179,2,188.0,8.190
+E02005234,"Lancaster Central",164,8,333.0,43.590
+E02005235,"Moorlands & Greaves",189,0,188.0,4.762
+E02005236,"Heysham & Overton",101,1,115.0,25.155
+E02005237,"Marsh",191,2,333.0,15.284
+E02005238,"Scotforth East & Bowerham",258,3,188.0,6.571
+E02005239,"University",323,3,627.0,26.768
+E02006871,"Scale Hall & Torrisholme",238,0,498.0,15.349

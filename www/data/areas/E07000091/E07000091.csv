@@ -1,24 +1,24 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004779,"Fordingbridge",0,11,396.0
-E02004780,"Totton Calmore",0,0,242.0
-E02004781,"West Totton",0,0,307.0
-E02004782,"Totton Town",0,3,242.0
-E02004783,"Totton Rushington",0,0,242.0
-E02004784,"Ashurst & Cadnam",0,0,529.0
-E02004785,"Lyndhurst & Minstead",0,0,857.0
-E02004786,"Marchwood & Dibden",0,2,438.0
-E02004787,"Hythe",0,2,196.0
-E02004788,"Ringwood North & Ibsley",0,0,922.0
-E02004789,"Langdown & Dibden Purlieu",0,0,196.0
-E02004790,"Ringwood South",0,5,267.0
-E02004791,"Holbury South",0,0,196.0
-E02004792,"Holbury North",0,5,273.0
-E02004793,"Brockenhurst & Sway",0,3,557.0
-E02004794,"Bransgore & Burley",0,1,628.0
-E02004795,"Lymington Town & Boldre",0,7,865.0
-E02004796,"Hordle & Bashley",0,0,838.0
-E02004797,"Lymington North & West",0,0,347.0
-E02004798,"New Milton West",0,0,130.0
-E02004799,"New Milton East",0,3,130.0
-E02004800,"Barton on Sea",0,0,477.0
-E02004801,"Milford & Lymington South",0,2,347.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004779,"Fordingbridge",0,11,396.0,56.262
+E02004780,"Totton Calmore",0,0,242.0,13.264
+E02004781,"West Totton",0,0,307.0,48.134
+E02004782,"Totton Town",0,3,242.0,26.830
+E02004783,"Totton Rushington",0,0,242.0,19.294
+E02004784,"Ashurst & Cadnam",0,0,529.0,17.569
+E02004785,"Lyndhurst & Minstead",0,0,857.0,36.627
+E02004786,"Marchwood & Dibden",0,2,438.0,19.093
+E02004787,"Hythe",0,2,196.0,41.096
+E02004788,"Ringwood North & Ibsley",0,0,922.0,54.124
+E02004789,"Langdown & Dibden Purlieu",0,0,196.0,29.720
+E02004790,"Ringwood South",0,5,267.0,43.127
+E02004791,"Holbury South",0,0,196.0,11.376
+E02004792,"Holbury North",0,5,273.0,23.987
+E02004793,"Brockenhurst & Sway",0,3,557.0,34.806
+E02004794,"Bransgore & Burley",0,1,628.0,29.772
+E02004795,"Lymington Town & Boldre",0,7,865.0,93.062
+E02004796,"Hordle & Bashley",0,0,838.0,22.229
+E02004797,"Lymington North & West",0,0,347.0,29.220
+E02004798,"New Milton West",0,0,130.0,12.133
+E02004799,"New Milton East",0,3,130.0,25.433
+E02004800,"Barton on Sea",0,0,477.0,18.133
+E02004801,"Milford & Lymington South",0,2,347.0,33.102

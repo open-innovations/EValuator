@@ -1,31 +1,31 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02000433,"Stanmore Park",0,3,1274.0
-E02000434,"Canons Park",0,3,1023.0
-E02000435,"Stanmore Uxbridge Road",0,0,438.0
-E02000436,"Hatch End North",0,0,1420.0
-E02000437,"Harrow Weald",0,4,939.0
-E02000438,"Hatch End South",0,1,1392.0
-E02000439,"Edgware West",0,0,585.0
-E02000440,"Belmont",0,0,939.0
-E02000441,"Pinner Green",0,1,481.0
-E02000442,"Queensbury East",0,0,1023.0
-E02000443,"Wealdstone North",0,0,501.0
-E02000444,"Queensbury West",0,0,939.0
-E02000445,"Wealdstone South",0,3,836.0
-E02000447,"Headstone Lane",0,0,1727.0
-E02000448,"Pinner Central",0,1,481.0
-E02000449,"Kenton East",0,0,1697.0
-E02000451,"North Harrow",0,0,1226.0
-E02000452,"Greenhill North",0,4,1246.0
-E02000453,"Pinner Road",0,13,745.0
-E02000454,"Pinner South",0,0,891.0
-E02000455,"Greenhill South",0,3,836.0
-E02000456,"West Harrow",0,6,745.0
-E02000457,"Rayners Lane North",0,4,891.0
-E02000459,"South Harrow",0,4,745.0
-E02000460,"Newton Farm",0,1,410.0
-E02000461,"Harrow-on-the-Hill",0,5,1174.0
-E02000462,"Alexandra Park",0,2,692.0
-E02000463,"Earlsmead",0,0,1127.0
-E02006795,"Rayners Lane South",0,4,891.0
-E02006882,"Kenton West",0,0,501.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02000433,"Stanmore Park",0,3,1274.0,49.552
+E02000434,"Canons Park",0,3,1023.0,96.151
+E02000435,"Stanmore Uxbridge Road",0,0,438.0,35.367
+E02000436,"Hatch End North",0,0,1420.0,24.983
+E02000437,"Harrow Weald",0,4,939.0,19.451
+E02000438,"Hatch End South",0,1,1392.0,29.123
+E02000439,"Edgware West",0,0,585.0,28.340
+E02000440,"Belmont",0,0,939.0,31.477
+E02000441,"Pinner Green",0,1,481.0,29.507
+E02000442,"Queensbury East",0,0,1023.0,22.606
+E02000443,"Wealdstone North",0,0,501.0,23.667
+E02000444,"Queensbury West",0,0,939.0,19.050
+E02000445,"Wealdstone South",0,3,836.0,22.855
+E02000447,"Headstone Lane",0,0,1727.0,12.185
+E02000448,"Pinner Central",0,1,481.0,104.706
+E02000449,"Kenton East",0,0,1697.0,12.156
+E02000451,"North Harrow",0,0,1226.0,14.187
+E02000452,"Greenhill North",0,4,1246.0,109.576
+E02000453,"Pinner Road",0,13,745.0,9.907
+E02000454,"Pinner South",0,0,891.0,28.434
+E02000455,"Greenhill South",0,3,836.0,18.864
+E02000456,"West Harrow",0,6,745.0,6.547
+E02000457,"Rayners Lane North",0,4,891.0,17.800
+E02000459,"South Harrow",0,4,745.0,17.011
+E02000460,"Newton Farm",0,1,410.0,12.380
+E02000461,"Harrow-on-the-Hill",0,5,1174.0,12.123
+E02000462,"Alexandra Park",0,2,692.0,11.693
+E02000463,"Earlsmead",0,0,1127.0,8.756
+E02006795,"Rayners Lane South",0,4,891.0,9.649
+E02006882,"Kenton West",0,0,501.0,27.779

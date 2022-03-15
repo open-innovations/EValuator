@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005368,"Tilton",0,4,1458.0
-E02005369,"Kibworth & Great Glen",0,1,1771.0
-E02005370,"Broughton Astley",0,1,292.0
-E02005371,"Fleckney",0,0,1989.0
-E02005372,"Dunton Bassett",0,0,1546.0
-E02005373,"Market Harborough West",0,0,1235.0
-E02005374,"Market Harborough Central",0,4,649.0
-E02005375,"Market Harborough South & Little Bowden",0,0,315.0
-E02005376,"Lutterworth",0,3,920.0
-E02006816,"Houghton",0,0,2033.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005368,"Tilton",0,4,1458.0,41.965
+E02005369,"Kibworth & Great Glen",0,1,1771.0,35.903
+E02005370,"Broughton Astley",0,1,292.0,27.708
+E02005371,"Fleckney",0,0,1989.0,51.124
+E02005372,"Dunton Bassett",0,0,1546.0,63.341
+E02005373,"Market Harborough West",0,0,1235.0,47.569
+E02005374,"Market Harborough Central",0,4,649.0,83.213
+E02005375,"Market Harborough South & Little Bowden",0,0,315.0,30.531
+E02005376,"Lutterworth",0,3,920.0,70.566
+E02006816,"Houghton",0,0,2033.0,29.854

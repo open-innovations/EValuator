@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004403,"Forest Row & Coleman's Hatch",0,0,703.0
-E02004404,"Frant & Groombridge",0,0,829.0
-E02004405,"Crowborough North East",0,0,225.0
-E02004406,"Crowborough Whitehill & Warren",0,1,250.0
-E02004407,"Mayfield & Wadhurst",0,0,731.0
-E02004408,"Crowborough South East",0,4,250.0
-E02004409,"Chelwood & Nutley",0,3,901.0
-E02004410,"Buxted",0,0,679.0
-E02004411,"Uckfield Town & North",0,2,580.0
-E02004412,"Heathfield",0,0,140.0
-E02004413,"Broad Oak & Horam",0,0,730.0
-E02004414,"Uckfield South",0,0,261.0
-E02004415,"Five Ash Down",0,1,927.0
-E02004416,"Herstmonceux & Ninfield",0,2,593.0
-E02004417,"Hailsham Central & East",0,7,197.0
-E02004418,"Hailsham South & West",0,0,270.0
-E02004419,"Hailsham East",0,0,270.0
-E02004420,"Hailsham North",0,2,870.0
-E02004421,"Polegate",0,0,73.0
-E02004422,"Stone Cross",0,1,829.0
-E02004423,"Willingdon",0,0,301.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004403,"Forest Row & Coleman's Hatch",0,0,703.0,36.939
+E02004404,"Frant & Groombridge",0,0,829.0,56.265
+E02004405,"Crowborough North East",0,0,225.0,25.359
+E02004406,"Crowborough Whitehill & Warren",0,1,250.0,71.989
+E02004407,"Mayfield & Wadhurst",0,0,731.0,49.381
+E02004408,"Crowborough South East",0,4,250.0,30.866
+E02004409,"Chelwood & Nutley",0,3,901.0,35.939
+E02004410,"Buxted",0,0,679.0,42.822
+E02004411,"Uckfield Town & North",0,2,580.0,79.576
+E02004412,"Heathfield",0,0,140.0,43.500
+E02004413,"Broad Oak & Horam",0,0,730.0,33.228
+E02004414,"Uckfield South",0,0,261.0,16.349
+E02004415,"Five Ash Down",0,1,927.0,33.002
+E02004416,"Herstmonceux & Ninfield",0,2,593.0,24.772
+E02004417,"Hailsham Central & East",0,7,197.0,32.600
+E02004418,"Hailsham South & West",0,0,270.0,9.715
+E02004419,"Hailsham East",0,0,270.0,14.064
+E02004420,"Hailsham North",0,2,870.0,39.343
+E02004421,"Polegate",0,0,73.0,29.991
+E02004422,"Stone Cross",0,1,829.0,46.226
+E02004423,"Willingdon",0,0,301.0,15.428

@@ -1,24 +1,24 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02000784,"North Barnes",0,33,366.0
-E02000785,"Kew Gardens",0,45,849.0
-E02000786,"Mortlake & South Barnes",0,46,1365.0
-E02000787,"North Sheen",0,29,1140.0
-E02000788,"East Sheen North",0,32,1140.0
-E02000789,"Queen's Road",0,8,849.0
-E02000790,"St Margarets",0,12,753.0
-E02000791,"Richmond Central",0,4,849.0
-E02000792,"Twickenham Marble Hill",0,12,349.0
-E02000793,"Whitton",0,4,962.0
-E02000794,"Twickenham North",0,3,1101.0
-E02000795,"Richmond Park",0,9,2065.0
-E02000796,"Heathfield",0,2,1067.0
-E02000797,"Twickenham Town",0,20,697.0
-E02000798,"Twickenham West",0,12,937.0
-E02000799,"Strawberry Hill",0,19,949.0
-E02000800,"Ham",0,2,912.0
-E02000801,"Teddington North",0,15,949.0
-E02000802,"Hampton Hill",0,6,463.0
-E02000803,"Nursery Lands & Hampton North",0,0,211.0
-E02000804,"Teddington Central",0,16,382.0
-E02000805,"Hampton Wick & Teddington East",0,17,382.0
-E02000806,"Hampton Village",0,10,420.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02000784,"North Barnes",0,33,366.0,37.998
+E02000785,"Kew Gardens",0,45,849.0,24.750
+E02000786,"Mortlake & South Barnes",0,46,1365.0,80.477
+E02000787,"North Sheen",0,29,1140.0,22.087
+E02000788,"East Sheen North",0,32,1140.0,27.543
+E02000789,"Queen's Road",0,8,849.0,24.331
+E02000790,"St Margarets",0,12,753.0,13.705
+E02000791,"Richmond Central",0,4,849.0,94.049
+E02000792,"Twickenham Marble Hill",0,12,349.0,22.034
+E02000793,"Whitton",0,4,962.0,15.905
+E02000794,"Twickenham North",0,3,1101.0,63.298
+E02000795,"Richmond Park",0,9,2065.0,28.716
+E02000796,"Heathfield",0,2,1067.0,18.721
+E02000797,"Twickenham Town",0,20,697.0,35.182
+E02000798,"Twickenham West",0,12,937.0,26.369
+E02000799,"Strawberry Hill",0,19,949.0,18.482
+E02000800,"Ham",0,2,912.0,21.754
+E02000801,"Teddington North",0,15,949.0,17.076
+E02000802,"Hampton Hill",0,6,463.0,25.040
+E02000803,"Nursery Lands & Hampton North",0,0,211.0,27.866
+E02000804,"Teddington Central",0,16,382.0,55.385
+E02000805,"Hampton Wick & Teddington East",0,17,382.0,22.213
+E02000806,"Hampton Village",0,10,420.0,61.354

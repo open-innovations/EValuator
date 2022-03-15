@@ -1,34 +1,34 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02001098,"Shaw & Crompton",0.089,0,130.0
-E02001099,"Wood End",0.135,1,130.0
-E02001100,"Clough & Shaw Side",0.107,2,462.0
-E02001101,"Royton North",0.115,0,334.0
-E02001102,"Royton East & Cowlishaw",0.131,0,130.0
-E02001103,"Diggle",0.129,0,155.0
-E02001104,"Moorside & Sholver",0.148,0,322.0
-E02001105,"Royton South West",0.172,3,285.0
-E02001106,"Royton South East",0.15,0,184.0
-E02001107,"Chadderton North",0.229,0,157.0
-E02001108,"Derker",0.117,3,192.0
-E02001109,"Waterhead",0.142,0,192.0
-E02001110,"New Delph",0.123,0,239.0
-E02001111,"Oldham Town North",0.107,15,425.0
-E02001112,"Middleton Junction",0.11,0,330.0
-E02001113,"Busk",0.201,2,157.0
-E02001114,"Chadderton Central",0.177,3,103.0
-E02001115,"Lees & Hey",0.135,0,192.0
-E02001116,"Salem",0.148,0,192.0
-E02001117,"Greenfield & Uppermill",0.09,2,101.0
-E02001118,"Springhead & Grasscroft",0.143,0,174.0
-E02001119,"Alexandra Park",0.113,2,528.0
-E02001121,"Oldham Town South",0.131,4,295.0
-E02001123,"Alt",0.127,3,241.0
-E02001124,"Chadderton South East",0.137,0,206.0
-E02001125,"Chadderton South West",0.219,1,187.0
-E02001126,"Hathershaw",0.1,0,103.0
-E02001127,"Lime Side & Garden Suburb",0.105,0,149.0
-E02001128,"Failsworth East",0.177,9,353.0
-E02001129,"Failsworth West",0.115,2,46.0
-E02001130,"Holt Lane End & Bardsley",0.104,0,149.0
-E02001131,"Failsworth South",0.096,0,130.0
-E02006860,"Werneth",0.129,0,206.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02001098,"Shaw & Crompton",794,0,130.0,11.540
+E02001099,"Wood End",844,1,130.0,11.345
+E02001100,"Clough & Shaw Side",795,2,462.0,12.889
+E02001101,"Royton North",840,0,334.0,8.349
+E02001102,"Royton East & Cowlishaw",855,0,130.0,9.519
+E02001103,"Diggle",680,0,155.0,31.060
+E02001104,"Moorside & Sholver",777,0,322.0,4.615
+E02001105,"Royton South West",921,3,285.0,12.694
+E02001106,"Royton South East",902,0,184.0,11.919
+E02001107,"Chadderton North",957,0,157.0,4.567
+E02001108,"Derker",766,3,192.0,2.543
+E02001109,"Waterhead",774,0,192.0,11.006
+E02001110,"New Delph",557,0,239.0,28.576
+E02001111,"Oldham Town North",849,15,425.0,7.571
+E02001112,"Middleton Junction",901,0,330.0,8.560
+E02001113,"Busk",909,2,157.0,9.655
+E02001114,"Chadderton Central",943,3,103.0,11.686
+E02001115,"Lees & Hey",671,0,192.0,9.582
+E02001116,"Salem",794,0,192.0,9.728
+E02001117,"Greenfield & Uppermill",439,2,101.0,34.456
+E02001118,"Springhead & Grasscroft",644,0,174.0,9.856
+E02001119,"Alexandra Park",808,2,528.0,25.377
+E02001121,"Oldham Town South",854,4,295.0,6.543
+E02001123,"Alt",715,3,241.0,7.174
+E02001124,"Chadderton South East",926,0,206.0,6.031
+E02001125,"Chadderton South West",940,1,187.0,8.324
+E02001126,"Hathershaw",794,0,103.0,3.551
+E02001127,"Lime Side & Garden Suburb",833,0,149.0,3.102
+E02001128,"Failsworth East",903,9,353.0,6.806
+E02001129,"Failsworth West",811,2,46.0,7.828
+E02001130,"Holt Lane End & Bardsley",832,0,149.0,3.522
+E02001131,"Failsworth South",741,0,130.0,3.665
+E02006860,"Werneth",890,0,206.0,9.881

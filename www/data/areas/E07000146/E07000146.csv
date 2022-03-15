@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005551,"Hunstanton",0,2,29.0
-E02005552,"Brancaster",0,0,334.0
-E02005553,"Heacham & Snettisham",0,0,121.0
-E02005554,"Dersingham",0,0,188.0
-E02005555,"Wootton",0,0,273.0
-E02005556,"Gaywood North Bank",0,0,181.0
-E02005557,"North Lynn",0,0,181.0
-E02005558,"Terrington & Clenchwarton",0,0,73.0
-E02005559,"Gaywood Chase & Old Gaywood",0,1,181.0
-E02005560,"Fairstead & Springwood",0,0,181.0
-E02005561,"Town",0,8,673.0
-E02005562,"Grimston",0,0,277.0
-E02005563,"Marshland",0,0,289.0
-E02005564,"West Winch",0,2,426.0
-E02005565,"Watlington",0,0,232.0
-E02005566,"Upwell",0,0,229.0
-E02005567,"Downham Market",0,2,149.0
-E02005568,"Stoke Ferry",0,0,469.0
-E02005569,"Southery",0,0,293.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005551,"Hunstanton",0,2,29.0,12.206
+E02005552,"Brancaster",0,0,334.0,23.196
+E02005553,"Heacham & Snettisham",0,0,121.0,19.714
+E02005554,"Dersingham",0,0,188.0,14.174
+E02005555,"Wootton",0,0,273.0,7.718
+E02005556,"Gaywood North Bank",0,0,181.0,6.043
+E02005557,"North Lynn",0,0,181.0,7.063
+E02005558,"Terrington & Clenchwarton",0,0,73.0,12.405
+E02005559,"Gaywood Chase & Old Gaywood",0,1,181.0,6.867
+E02005560,"Fairstead & Springwood",0,0,181.0,6.239
+E02005561,"Town",0,8,673.0,45.048
+E02005562,"Grimston",0,0,277.0,18.231
+E02005563,"Marshland",0,0,289.0,15.378
+E02005564,"West Winch",0,2,426.0,26.252
+E02005565,"Watlington",0,0,232.0,14.192
+E02005566,"Upwell",0,0,229.0,21.138
+E02005567,"Downham Market",0,2,149.0,19.816
+E02005568,"Stoke Ferry",0,0,469.0,20.259
+E02005569,"Southery",0,0,293.0,13.292

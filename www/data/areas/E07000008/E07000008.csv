@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003719,"Kings Hedges",0,0,250.0
-E02003720,"Arbury",0,0,439.0
-E02003721,"East Chesterton",0,0,250.0
-E02003722,"West Chesterton",0,0,250.0
-E02003723,"Eddington & Castle",0,4,1114.0
-E02003724,"East Barnwell & Abbey",0,2,2630.0
-E02003725,"Central & West Cambridge",0,2,1058.0
-E02003726,"Petersfield",0,1,507.0
-E02003727,"Romsey",0,0,266.0
-E02003728,"Coleridge",0,0,2432.0
-E02003729,"Cherry Hinton",0,1,266.0
-E02003730,"Trumpington",0,4,507.0
-E02003731,"Addenbrooke's & Queen Edith's",0,3,894.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003719,"Kings Hedges",0,0,250.0,7.385
+E02003720,"Arbury",0,0,439.0,7.263
+E02003721,"East Chesterton",0,0,250.0,7.627
+E02003722,"West Chesterton",0,0,250.0,6.840
+E02003723,"Eddington & Castle",0,4,1114.0,9.277
+E02003724,"East Barnwell & Abbey",0,2,2630.0,88.088
+E02003725,"Central & West Cambridge",0,2,1058.0,32.512
+E02003726,"Petersfield",0,1,507.0,11.135
+E02003727,"Romsey",0,0,266.0,7.386
+E02003728,"Coleridge",0,0,2432.0,38.877
+E02003729,"Cherry Hinton",0,1,266.0,12.855
+E02003730,"Trumpington",0,4,507.0,35.747
+E02003731,"Addenbrooke's & Queen Edith's",0,3,894.0,20.801

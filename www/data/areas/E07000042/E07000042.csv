@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004164,"Bampton",0,0,541.0
-E02004165,"Tiverton North & Outer",0,0,153.0
-E02004166,"Uffculme & Hemyock",0,0,525.0
-E02004167,"Tiverton East",0,3,153.0
-E02004168,"Tiverton West",0,2,153.0
-E02004169,"Willand",0,1,300.0
-E02004170,"Cullompton",0,3,147.0
-E02004171,"Bradninch",0,0,641.0
-E02004172,"Bow",0,0,401.0
-E02004173,"Morchard Bishop",0,0,633.0
-E02004174,"Crediton",0,2,128.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004164,"Bampton",0,0,541.0,21.940
+E02004165,"Tiverton North & Outer",0,0,153.0,14.120
+E02004166,"Uffculme & Hemyock",0,0,525.0,20.789
+E02004167,"Tiverton East",0,3,153.0,12.793
+E02004168,"Tiverton West",0,2,153.0,20.042
+E02004169,"Willand",0,1,300.0,16.604
+E02004170,"Cullompton",0,3,147.0,23.629
+E02004171,"Bradninch",0,0,641.0,26.261
+E02004172,"Bow",0,0,401.0,17.136
+E02004173,"Morchard Bishop",0,0,633.0,20.731
+E02004174,"Crediton",0,2,128.0,21.456

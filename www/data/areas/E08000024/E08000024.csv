@@ -1,37 +1,37 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02001791,"Fulwell",0.107,1,237.0
-E02001792,"Seaburn",0.077,5,118.0
-E02001793,"Town End Farm",0.175,2,119.0
-E02001794,"Hylton Red House & Marley Pots",0.146,0,119.0
-E02001795,"Southwick",0.101,13,495.0
-E02001796,"Monkwearmouth",0.066,6,246.0
-E02001797,"Springwell & Usworth",0.242,59,466.0
-E02001798,"North Hylton",0.294,5,119.0
-E02001799,"Concord and Sulgrave",0.337,6,41.0
-E02001800,"Albany and Blackfell",0.47,3,417.0
-E02001801,"Millfield",0.125,23,258.0
-E02001802,"Pallion North",0.147,0,86.0
-E02001803,"Sunderland Central & Deptford",0.122,35,293.0
-E02001804,"South Hylton",0.277,0,77.0
-E02001805,"Pallion South & High Barnes",0.207,0,77.0
-E02001806,"Hendon & Docks",0.078,10,97.0
-E02001807,"Columbia",0.52,2,274.0
-E02001808,"Barnes Park",0.126,4,249.0
-E02001809,"Washington Town Centre & Biddick",0.283,4,196.0
-E02001810,"Oxclose and Lambton",0.365,1,196.0
-E02001811,"Pennywell and Grindon",0.582,0,77.0
-E02001812,"Hill View & Tunstall",0.143,4,258.0
-E02001813,"Thorney Close & Plains Farm",0.195,0,84.0
-E02001814,"Grangetown",0.127,7,97.0
-E02001815,"Harraton",0.448,1,297.0
-E02001816,"Lakeside & Farrington",0.13,1,84.0
-E02001817,"Silksworth",0.175,0,172.0
-E02001818,"Ryhope",0.211,2,88.0
-E02001819,"Herrington & Doxford",0.212,1,203.0
-E02001820,"Shiney Row",0.357,0,101.0
-E02001821,"Hall Farm",0.133,0,294.0
-E02001822,"Newbottle & Penshaw",0.334,4,224.0
-E02001823,"Houghton West",0.189,1,101.0
-E02001824,"Houghton Town",0.22,2,147.0
-E02001825,"Hetton-le-Hole North",0.116,7,231.0
-E02001826,"Hetton-le-Hole South",0.19,2,269.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02001791,"Fulwell",296,1,237.0,14.834
+E02001792,"Seaburn",294,5,118.0,26.956
+E02001793,"Town End Farm",328,2,119.0,6.497
+E02001794,"Hylton Red House & Marley Pots",321,0,119.0,5.772
+E02001795,"Southwick",315,13,495.0,31.564
+E02001796,"Monkwearmouth",294,6,246.0,41.463
+E02001797,"Springwell & Usworth",329,59,466.0,13.214
+E02001798,"North Hylton",329,5,119.0,5.798
+E02001799,"Concord and Sulgrave",331,6,41.0,9.913
+E02001800,"Albany and Blackfell",333,3,417.0,27.958
+E02001801,"Millfield",316,23,258.0,8.463
+E02001802,"Pallion North",319,0,86.0,7.983
+E02001803,"Sunderland Central & Deptford",304,35,293.0,9.931
+E02001804,"South Hylton",325,0,77.0,7.207
+E02001805,"Pallion South & High Barnes",319,0,77.0,6.775
+E02001806,"Hendon & Docks",307,10,97.0,12.091
+E02001807,"Columbia",337,2,274.0,33.546
+E02001808,"Barnes Park",313,4,249.0,6.351
+E02001809,"Washington Town Centre & Biddick",332,4,196.0,27.620
+E02001810,"Oxclose and Lambton",333,1,196.0,20.969
+E02001811,"Pennywell and Grindon",332,0,77.0,10.616
+E02001812,"Hill View & Tunstall",315,4,258.0,20.034
+E02001813,"Thorney Close & Plains Farm",321,0,84.0,16.460
+E02001814,"Grangetown",316,7,97.0,9.500
+E02001815,"Harraton",331,1,297.0,29.763
+E02001816,"Lakeside & Farrington",322,1,84.0,13.891
+E02001817,"Silksworth",319,0,172.0,19.324
+E02001818,"Ryhope",328,2,88.0,13.656
+E02001819,"Herrington & Doxford",328,1,203.0,15.924
+E02001820,"Shiney Row",331,0,101.0,27.673
+E02001821,"Hall Farm",327,0,294.0,9.926
+E02001822,"Newbottle & Penshaw",329,4,224.0,34.077
+E02001823,"Houghton West",326,1,101.0,25.294
+E02001824,"Houghton Town",331,2,147.0,43.604
+E02001825,"Hetton-le-Hole North",326,7,231.0,20.107
+E02001826,"Hetton-le-Hole South",327,2,269.0,14.150

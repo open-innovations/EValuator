@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005212,"Great Harwood",0.112,5,590.0
-E02005213,"Clayton-le-Moors & Huncoat",0.093,0,166.0
-E02005214,"Rishton",0.181,7,441.0
-E02005215,"Accrington North East",0.162,2,166.0
-E02005216,"Church",0.244,0,166.0
-E02005217,"Accrington West",0.117,2,166.0
-E02005218,"Oswaldtwistle",0.103,2,166.0
-E02005219,"Accrington South East",0.105,2,166.0
-E02005220,"Broadfield & Knuzden",0.109,0,441.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005212,"Great Harwood",511,5,590.0,22.275
+E02005213,"Clayton-le-Moors & Huncoat",678,0,166.0,12.687
+E02005214,"Rishton",675,7,441.0,9.581
+E02005215,"Accrington North East",698,2,166.0,11.039
+E02005216,"Church",711,0,166.0,5.257
+E02005217,"Accrington West",625,2,166.0,12.476
+E02005218,"Oswaldtwistle",597,2,166.0,7.184
+E02005219,"Accrington South East",688,2,166.0,19.275
+E02005220,"Broadfield & Knuzden",641,0,441.0,6.811

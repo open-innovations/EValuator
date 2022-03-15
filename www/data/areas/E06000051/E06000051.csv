@@ -1,40 +1,40 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006008,"Shifnal",0,2,868.0
-E02006009,"Cosford & Albrighton",0,1,479.0
-E02006010,"Much Wenlock & Broseley",0,1,297.0
-E02006011,"Bridgnorth West",0,0,201.0
-E02006012,"Bridgnorth East",0,1,201.0
-E02006013,"Alveley",0,0,731.0
-E02006014,"Highley & Ditton Priors",0,0,270.0
-E02006015,"Whitchurch",0,1,167.0
-E02006016,"Woore",0,0,489.0
-E02006017,"Ellesmere",0,1,258.0
-E02006018,"Market Drayton",0,1,134.0
-E02006019,"Wem",0,0,169.0
-E02006020,"Hinstock & Hodnet",0,0,532.0
-E02006021,"Baschurch",0,0,329.0
-E02006022,"Shawbury & Weston",0,1,515.0
-E02006023,"Gobowen",0,0,305.0
-E02006024,"Oswestry East",0,2,228.0
-E02006025,"Oswestry West",0,1,330.0
-E02006026,"Ruyton-XI-Towns",0,0,448.0
-E02006027,"Trefonen & Pant",0,1,279.0
-E02006028,"Bomere Heath & Montford Bridge",0,0,727.0
-E02006029,"Shrewsbury Harlescott Grange",0,1,325.0
-E02006030,"Shrewsbury Harlescott & Sundorne",0,1,325.0
-E02006031,"Shrewsbury Greenfields",0,2,156.0
-E02006032,"Shrewsbury Monkmoor",0,0,77.0
-E02006033,"Shrewsbury Town",0,0,734.0
-E02006034,"Shrewsbury Copthorne & Bowbrook",0,2,332.0
-E02006035,"Shrewsbury London Road",0,0,565.0
-E02006036,"Shrewsbury Sutton & Coleham",0,4,254.0
-E02006037,"Shrewsbury Meole & Kingsland",0,0,332.0
-E02006038,"Bayston Hill & Atcham",0,1,837.0
-E02006039,"Hanwood",0,0,332.0
-E02006040,"Cressage",0,0,725.0
-E02006041,"Bishop's Castle",0,0,440.0
-E02006042,"Church Stretton",0,3,88.0
-E02006043,"Craven Arms & Broadstone",0,0,495.0
-E02006044,"Clun & Bucknell",0,1,209.0
-E02006045,"Ludlow Town",0,1,112.0
-E02006046,"Cleobury Mortimer",0,1,202.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006008,"Shifnal",0,2,868.0,34.039
+E02006009,"Cosford & Albrighton",0,1,479.0,19.236
+E02006010,"Much Wenlock & Broseley",0,1,297.0,51.933
+E02006011,"Bridgnorth West",0,0,201.0,38.612
+E02006012,"Bridgnorth East",0,1,201.0,19.429
+E02006013,"Alveley",0,0,731.0,32.958
+E02006014,"Highley & Ditton Priors",0,0,270.0,38.936
+E02006015,"Whitchurch",0,1,167.0,32.368
+E02006016,"Woore",0,0,489.0,31.967
+E02006017,"Ellesmere",0,1,258.0,25.988
+E02006018,"Market Drayton",0,1,134.0,50.675
+E02006019,"Wem",0,0,169.0,18.469
+E02006020,"Hinstock & Hodnet",0,0,532.0,25.940
+E02006021,"Baschurch",0,0,329.0,38.007
+E02006022,"Shawbury & Weston",0,1,515.0,25.549
+E02006023,"Gobowen",0,0,305.0,23.714
+E02006024,"Oswestry East",0,2,228.0,14.173
+E02006025,"Oswestry West",0,1,330.0,33.985
+E02006026,"Ruyton-XI-Towns",0,0,448.0,22.991
+E02006027,"Trefonen & Pant",0,1,279.0,15.995
+E02006028,"Bomere Heath & Montford Bridge",0,0,727.0,39.844
+E02006029,"Shrewsbury Harlescott Grange",0,1,325.0,7.421
+E02006030,"Shrewsbury Harlescott & Sundorne",0,1,325.0,5.556
+E02006031,"Shrewsbury Greenfields",0,2,156.0,5.709
+E02006032,"Shrewsbury Monkmoor",0,0,77.0,17.152
+E02006033,"Shrewsbury Town",0,0,734.0,69.611
+E02006034,"Shrewsbury Copthorne & Bowbrook",0,2,332.0,32.554
+E02006035,"Shrewsbury London Road",0,0,565.0,17.251
+E02006036,"Shrewsbury Sutton & Coleham",0,4,254.0,22.723
+E02006037,"Shrewsbury Meole & Kingsland",0,0,332.0,33.295
+E02006038,"Bayston Hill & Atcham",0,1,837.0,33.653
+E02006039,"Hanwood",0,0,332.0,35.601
+E02006040,"Cressage",0,0,725.0,41.441
+E02006041,"Bishop's Castle",0,0,440.0,25.797
+E02006042,"Church Stretton",0,3,88.0,26.667
+E02006043,"Craven Arms & Broadstone",0,0,495.0,25.297
+E02006044,"Clun & Bucknell",0,1,209.0,18.352
+E02006045,"Ludlow Town",0,1,112.0,29.632
+E02006046,"Cleobury Mortimer",0,1,202.0,27.051

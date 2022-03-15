@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006588,"Rusper",0,0,987.0
-E02006589,"Littlehaven",0,0,426.0
-E02006590,"Broadbridge Heath & Warnham",0,2,663.0
-E02006591,"Horsham East & Roffey",0,0,802.0
-E02006592,"Rudgwick",0,0,1223.0
-E02006593,"Horsham Central",0,12,802.0
-E02006594,"Horsham West",0,0,426.0
-E02006595,"Horsham South",0,1,1132.0
-E02006596,"Southwater",0,0,376.0
-E02006597,"Billingshurst",0,3,873.0
-E02006598,"Cowfold & Partridge Green",0,0,811.0
-E02006599,"West Chiltington Common",0,0,873.0
-E02006600,"Amberley",0,5,405.0
-E02006601,"Henfield & Small Dole",0,0,817.0
-E02006602,"Ashington & Washington",0,0,912.0
-E02006603,"Steyning & Upper Beeding",0,1,340.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006588,"Rusper",0,0,987.0,33.779
+E02006589,"Littlehaven",0,0,426.0,36.181
+E02006590,"Broadbridge Heath & Warnham",0,2,663.0,32.527
+E02006591,"Horsham East & Roffey",0,0,802.0,35.691
+E02006592,"Rudgwick",0,0,1223.0,44.944
+E02006593,"Horsham Central",0,12,802.0,160.368
+E02006594,"Horsham West",0,0,426.0,27.005
+E02006595,"Horsham South",0,1,1132.0,48.330
+E02006596,"Southwater",0,0,376.0,44.951
+E02006597,"Billingshurst",0,3,873.0,80.080
+E02006598,"Cowfold & Partridge Green",0,0,811.0,28.334
+E02006599,"West Chiltington Common",0,0,873.0,39.953
+E02006600,"Amberley",0,5,405.0,99.781
+E02006601,"Henfield & Small Dole",0,0,817.0,66.344
+E02006602,"Ashington & Washington",0,0,912.0,46.275
+E02006603,"Steyning & Upper Beeding",0,1,340.0,36.195

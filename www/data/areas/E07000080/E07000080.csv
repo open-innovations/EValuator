@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004626,"Dymock",0,0,972.0
-E02004627,"Newent",0,0,241.0
-E02004628,"Mitcheldean",0,0,255.0
-E02004629,"Cinderford",0,0,347.0
-E02004630,"Longhope",0,0,866.0
-E02004631,"Lydbrook",0,1,607.0
-E02004632,"Coleford",0,1,74.0
-E02004633,"Bream",0,1,195.0
-E02004634,"Lydney",0,3,121.0
-E02004635,"Tidenham & Woolaston",0,2,330.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004626,"Dymock",0,0,972.0,41.808
+E02004627,"Newent",0,0,241.0,24.532
+E02004628,"Mitcheldean",0,0,255.0,23.051
+E02004629,"Cinderford",0,0,347.0,32.667
+E02004630,"Longhope",0,0,866.0,16.338
+E02004631,"Lydbrook",0,1,607.0,16.406
+E02004632,"Coleford",0,1,74.0,22.762
+E02004633,"Bream",0,1,195.0,22.334
+E02004634,"Lydney",0,3,121.0,34.181
+E02004635,"Tidenham & Woolaston",0,2,330.0,34.186

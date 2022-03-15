@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003742,"Leverington",0,0,133.0
-E02003743,"Wisbech North",0,0,216.0
-E02003744,"Wisbech South & Peckover",0,3,216.0
-E02003745,"Wisbech St Mary",0,2,769.0
-E02003746,"March North",0,1,464.0
-E02003747,"Whittlesey",0,0,233.0
-E02003748,"March East",0,0,181.0
-E02003749,"Coates",0,0,389.0
-E02003750,"March West",0,0,331.0
-E02003751,"Doddington",0,1,284.0
-E02003752,"Chatteris",0,0,983.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003742,"Leverington",0,0,133.0,12.418
+E02003743,"Wisbech North",0,0,216.0,14.141
+E02003744,"Wisbech South & Peckover",0,3,216.0,39.600
+E02003745,"Wisbech St Mary",0,2,769.0,20.185
+E02003746,"March North",0,1,464.0,17.873
+E02003747,"Whittlesey",0,0,233.0,42.198
+E02003748,"March East",0,0,181.0,11.495
+E02003749,"Coates",0,0,389.0,22.330
+E02003750,"March West",0,0,331.0,22.264
+E02003751,"Doddington",0,1,284.0,14.641
+E02003752,"Chatteris",0,0,983.0,22.341

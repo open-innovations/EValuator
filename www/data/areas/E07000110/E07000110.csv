@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005068,"Boxley & Detling",0,3,1081.0
-E02005069,"Penenden Heath",0,0,242.0
-E02005070,"Allington",0,0,167.0
-E02005071,"Ringlestone & Central Maidstone",0,17,990.0
-E02005072,"Grove Green",0,0,242.0
-E02005073,"Maidstone West",0,2,673.0
-E02005074,"Bearsted & Downswood",0,0,506.0
-E02005075,"Barming",0,0,167.0
-E02005076,"Tovil",0,2,431.0
-E02005077,"Mote Park",0,1,506.0
-E02005078,"Harrietsham",0,3,925.0
-E02005079,"Loose Valley & Boughton Monchelsea",0,0,494.0
-E02005080,"Parkwood & Senacre",0,0,264.0
-E02005081,"Yalding & Farleigh",0,0,793.0
-E02005082,"Kingswood",0,2,1178.0
-E02005083,"Loose & Coxheath",0,0,494.0
-E02005084,"Headcorn & Sutton Valence",0,0,637.0
-E02005085,"Marden",0,2,856.0
-E02005086,"Staplehurst",0,0,383.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005068,"Boxley & Detling",0,3,1081.0,23.942
+E02005069,"Penenden Heath",0,0,242.0,17.654
+E02005070,"Allington",0,0,167.0,28.827
+E02005071,"Ringlestone & Central Maidstone",0,17,990.0,108.799
+E02005072,"Grove Green",0,0,242.0,18.279
+E02005073,"Maidstone West",0,2,673.0,34.957
+E02005074,"Bearsted & Downswood",0,0,506.0,17.994
+E02005075,"Barming",0,0,167.0,31.899
+E02005076,"Tovil",0,2,431.0,21.657
+E02005077,"Mote Park",0,1,506.0,18.844
+E02005078,"Harrietsham",0,3,925.0,51.732
+E02005079,"Loose Valley & Boughton Monchelsea",0,0,494.0,25.602
+E02005080,"Parkwood & Senacre",0,0,264.0,35.513
+E02005081,"Yalding & Farleigh",0,0,793.0,34.022
+E02005082,"Kingswood",0,2,1178.0,65.508
+E02005083,"Loose & Coxheath",0,0,494.0,26.711
+E02005084,"Headcorn & Sutton Valence",0,0,637.0,38.669
+E02005085,"Marden",0,2,856.0,42.835
+E02005086,"Staplehurst",0,0,383.0,29.029

@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02002483,"Clavering",0.144,0,138.0
-E02002484,"Headland & West View",0.058,0,31.0
-E02002485,"Jesmond",0.134,0,105.0
-E02002487,"Harbour & Victoria",0.135,3,105.0
-E02002488,"Wooler Road",0.151,0,138.0
-E02002489,"Old Town & Grange",0.121,13,202.0
-E02002490,"Foggy Furze",0.116,0,95.0
-E02002491,"Rift House & Summerhill",0.129,0,64.0
-E02002492,"Rossmere & Mill",0.127,0,64.0
-E02002493,"Seaton Carew",0.107,1,64.0
-E02002494,"Owton Manor",0.102,0,64.0
-E02006909,"The Fens",0.112,0,329.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02002483,"Clavering",323,0,138.0,10.956
+E02002484,"Headland & West View",296,0,31.0,5.255
+E02002485,"Jesmond",305,0,105.0,10.594
+E02002487,"Harbour & Victoria",297,3,105.0,18.757
+E02002488,"Wooler Road",306,0,138.0,19.590
+E02002489,"Old Town & Grange",285,13,202.0,32.170
+E02002490,"Foggy Furze",267,0,95.0,6.340
+E02002491,"Rift House & Summerhill",280,0,64.0,6.434
+E02002492,"Rossmere & Mill",291,0,64.0,8.006
+E02002493,"Seaton Carew",255,1,64.0,7.006
+E02002494,"Owton Manor",291,0,64.0,9.222
+E02006909,"The Fens",300,0,329.0,41.237

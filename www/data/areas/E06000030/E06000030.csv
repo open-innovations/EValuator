@@ -1,28 +1,28 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003212,"Highworth",0,0,317.0
-E02003214,"Penhill",0,0,370.0
-E02003215,"Haydon Wick",0,1,370.0
-E02003216,"Upper Stratton",0,1,598.0
-E02003217,"Moredon",0,0,370.0
-E02003218,"Pinehurst",0,0,370.0
-E02003219,"Broad Blunsdon",0,1,1312.0
-E02003220,"Lower Stratton",0,0,349.0
-E02003221,"Gorse Hill",0,0,261.0
-E02003222,"Roughmoor",0,0,23657.0
-E02003223,"Rodbourne & Cheney Manor",0,1,24401.0
-E02003224,"Covingham",0,0,228.0
-E02003225,"Westlea & Shaw",0,2,23853.0
-E02003226,"Central North",0,5,121.0
-E02003227,"Walcot East",0,0,228.0
-E02003228,"Central East & Walcot West",0,5,489.0
-E02003229,"Freshbrook North & Grange Park",0,0,23657.0
-E02003230,"Central South & Eastcott",0,4,121.0
-E02003231,"Park North & Park South",0,0,228.0
-E02003232,"Kingshill & Okus",0,2,23778.0
-E02003233,"Freshbrook South & Toothill",0,1,23657.0
-E02003234,"Eldene & Dorcan",0,2,1185.0
-E02003235,"Lawn & East Wichel",0,13,349.0
-E02003236,"Wroughton",0,2,594.0
-E02006847,"Mouldon Hill & Oakhurst",0,1,370.0
-E02006848,"Abbey Park",0,8,370.0
-E02006849,"Groundwell & Abbey Meads",0,2,370.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003212,"Highworth",0,0,317.0,28.620
+E02003214,"Penhill",0,0,370.0,6.886
+E02003215,"Haydon Wick",0,1,370.0,31.652
+E02003216,"Upper Stratton",0,1,598.0,11.245
+E02003217,"Moredon",0,0,370.0,16.998
+E02003218,"Pinehurst",0,0,370.0,6.279
+E02003219,"Broad Blunsdon",0,1,1312.0,81.536
+E02003220,"Lower Stratton",0,0,349.0,21.901
+E02003221,"Gorse Hill",0,0,261.0,7.180
+E02003222,"Roughmoor",0,0,23657.0,20.937
+E02003223,"Rodbourne & Cheney Manor",0,1,24401.0,15.033
+E02003224,"Covingham",0,0,228.0,15.792
+E02003225,"Westlea & Shaw",0,2,23853.0,39.959
+E02003226,"Central North",0,5,121.0,13.492
+E02003227,"Walcot East",0,0,228.0,12.283
+E02003228,"Central East & Walcot West",0,5,489.0,10.786
+E02003229,"Freshbrook North & Grange Park",0,0,23657.0,11.407
+E02003230,"Central South & Eastcott",0,4,121.0,20.238
+E02003231,"Park North & Park South",0,0,228.0,15.473
+E02003232,"Kingshill & Okus",0,2,23778.0,10.571
+E02003233,"Freshbrook South & Toothill",0,1,23657.0,19.361
+E02003234,"Eldene & Dorcan",0,2,1185.0,70.996
+E02003235,"Lawn & East Wichel",0,13,349.0,20.347
+E02003236,"Wroughton",0,2,594.0,42.367
+E02006847,"Mouldon Hill & Oakhurst",0,1,370.0,31.046
+E02006848,"Abbey Park",0,8,370.0,31.842
+E02006849,"Groundwell & Abbey Meads",0,2,370.0,45.135

@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02006393,"Egham Town",0,2,186.0
-E02006394,"Englefield Green & University",0,7,4369.0
-E02006395,"Egham Hythe & Pooley Green",0,11,492.0
-E02006396,"Thorpe",0,3,532.0
-E02006397,"Virginia Water",0,1,890.0
-E02006398,"Chertsey",0,0,162.0
-E02006399,"Addlestone North",0,3,720.0
-E02006400,"Ottershaw & Lyne",0,0,496.0
-E02006401,"Addlestone South",0,0,191.0
-E02006402,"New Haw & Woodham",0,0,315.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02006393,"Egham Town",0,2,186.0,21.084
+E02006394,"Englefield Green & University",0,7,4369.0,28.795
+E02006395,"Egham Hythe & Pooley Green",0,11,492.0,71.683
+E02006396,"Thorpe",0,3,532.0,18.848
+E02006397,"Virginia Water",0,1,890.0,63.528
+E02006398,"Chertsey",0,0,162.0,35.274
+E02006399,"Addlestone North",0,3,720.0,36.486
+E02006400,"Ottershaw & Lyne",0,0,496.0,17.086
+E02006401,"Addlestone South",0,0,191.0,47.657
+E02006402,"New Haw & Woodham",0,0,315.0,24.413

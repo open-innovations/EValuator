@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-W02000058,"Gronant",0,0,259.0
-W02000059,"Mostyn & Holway",0,1,205.0
-W02000060,"Holywell & Bagillt",0,2,119.0
-W02000061,"Flint North East",0,0,328.0
-W02000062,"Flint South West",0,0,254.0
-W02000063,"Caerwys",0,0,328.0
-W02000064,"Connah's Quay North",0,0,180.0
-W02000065,"Connah's Quay Wepre",0,0,344.0
-W02000066,"Shotton & Garden City",0,0,408.0
-W02000067,"Connah's Quay South & Northop Hall",0,0,344.0
-W02000068,"Queensferry & Sandycroft",0,0,135.0
-W02000069,"Buckley North",0,0,344.0
-W02000070,"Ewloe & Hawarden",0,1,344.0
-W02000071,"New Brighton & Mynyddisa",0,1,209.0
-W02000072,"Broughton & Saltney",0,3,342.0
-W02000073,"Mold",0,2,209.0
-W02000074,"Buckley South",0,0,209.0
-W02000075,"Pen-y-ffordd & Higher Kinnerton",0,0,551.0
-W02000076,"Leeswood",0,0,209.0
-W02000077,"Hope",0,0,658.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+W02000058,"Gronant",0,0,259.0,11.768
+W02000059,"Mostyn & Holway",0,1,205.0,11.949
+W02000060,"Holywell & Bagillt",0,2,119.0,21.667
+W02000061,"Flint North East",0,0,328.0,18.354
+W02000062,"Flint South West",0,0,254.0,6.907
+W02000063,"Caerwys",0,0,328.0,25.489
+W02000064,"Connah's Quay North",0,0,180.0,12.270
+W02000065,"Connah's Quay Wepre",0,0,344.0,13.496
+W02000066,"Shotton & Garden City",0,0,408.0,27.237
+W02000067,"Connah's Quay South & Northop Hall",0,0,344.0,15.684
+W02000068,"Queensferry & Sandycroft",0,0,135.0,27.594
+W02000069,"Buckley North",0,0,344.0,18.424
+W02000070,"Ewloe & Hawarden",0,1,344.0,26.988
+W02000071,"New Brighton & Mynyddisa",0,1,209.0,14.984
+W02000072,"Broughton & Saltney",0,3,342.0,43.312
+W02000073,"Mold",0,2,209.0,54.397
+W02000074,"Buckley South",0,0,209.0,23.702
+W02000075,"Pen-y-ffordd & Higher Kinnerton",0,0,551.0,25.613
+W02000076,"Leeswood",0,0,209.0,24.066
+W02000077,"Hope",0,0,658.0,16.936

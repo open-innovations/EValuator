@@ -1,41 +1,41 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02001287,"Standish North",0.127,0,159.0
-E02001288,"Standish South",0.144,0,216.0
-E02001289,"Shevington",0.161,0,159.0
-E02001290,"Aspull & Red Rock",0.116,0,365.0
-E02001291,"Beech Hill",0.094,0,159.0
-E02001292,"Wigan Marylebone & Bottling Wood",0.102,6,216.0
-E02001293,"New Springs",0.064,0,206.0
-E02001294,"Wigan Central",0.08,3,653.0
-E02001295,"Wigan East",0.082,0,206.0
-E02001296,"Laithwaite & Marsh Green",0.076,1,287.0
-E02001297,"Pemberton North",0.151,0,287.0
-E02001298,"Ince-in-Makerfield",0.086,0,282.0
-E02001299,"Hindley West",0.085,2,149.0
-E02001300,"Pemberton South",0.139,0,128.0
-E02001301,"Wigan South",0.064,3,420.0
-E02001302,"Hindley East",0.088,1,149.0
-E02001303,"Atherton North",0.08,0,149.0
-E02001304,"Orrell & Longshaw",0.133,0,371.0
-E02001305,"Hindley Green",0.101,0,297.0
-E02001306,"Worsley Mesnes & Hawkley",0.15,0,76.0
-E02001307,"Winstanley",0.116,0,288.0
-E02001308,"Atherton South East & Tyldesley West",0.092,0,149.0
-E02001309,"Atherton South West",0.093,1,297.0
-E02001310,"Platt Bridge & Spring View",0.078,0,225.0
-E02001311,"Tyldesley North",0.074,0,81.0
-E02001312,"Abram & Bickershaw",0.001,0,655.0
-E02001313,"Leigh North",0.103,2,229.0
-E02001314,"Tyldesley South",0.082,0,81.0
-E02001315,"Astley",0.182,1,778.0
-E02001316,"Leigh Central",0.117,20,148.0
-E02001317,"Leigh East & Higher Folds",0.103,0,229.0
-E02001318,"Ashton-in-Makerfield North",0.132,0,84.0
-E02001319,"Leigh West",0.111,0,297.0
-E02001320,"Leigh South East",0.162,0,229.0
-E02001321,"Ashton-in-Makerfield East",0.071,0,442.0
-E02001322,"Ashton-in-Makerfield West",0.171,0,84.0
-E02001323,"Leigh South",0.161,1,148.0
-E02001324,"Golborne",0.247,2,358.0
-E02001325,"Lowton",0.159,0,447.0
-E02001326,"Lowton Common",0.215,0,506.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02001287,"Standish North",803,0,159.0,19.386
+E02001288,"Standish South",762,0,216.0,30.098
+E02001289,"Shevington",794,0,159.0,26.339
+E02001290,"Aspull & Red Rock",728,0,365.0,13.207
+E02001291,"Beech Hill",689,0,159.0,22.729
+E02001292,"Wigan Marylebone & Bottling Wood",687,6,216.0,9.845
+E02001293,"New Springs",676,0,206.0,12.901
+E02001294,"Wigan Central",653,3,653.0,68.050
+E02001295,"Wigan East",675,0,206.0,9.521
+E02001296,"Laithwaite & Marsh Green",764,1,287.0,16.848
+E02001297,"Pemberton North",823,0,287.0,11.565
+E02001298,"Ince-in-Makerfield",680,0,282.0,19.240
+E02001299,"Hindley West",659,2,149.0,21.644
+E02001300,"Pemberton South",811,0,128.0,18.290
+E02001301,"Wigan South",758,3,420.0,27.248
+E02001302,"Hindley East",630,1,149.0,13.558
+E02001303,"Atherton North",778,0,149.0,29.208
+E02001304,"Orrell & Longshaw",801,0,371.0,24.664
+E02001305,"Hindley Green",679,0,297.0,13.532
+E02001306,"Worsley Mesnes & Hawkley",814,0,76.0,9.379
+E02001307,"Winstanley",785,0,288.0,16.866
+E02001308,"Atherton South East & Tyldesley West",765,0,149.0,22.187
+E02001309,"Atherton South West",787,1,297.0,35.675
+E02001310,"Platt Bridge & Spring View",642,0,225.0,20.480
+E02001311,"Tyldesley North",770,0,81.0,30.530
+E02001312,"Abram & Bickershaw",698,0,655.0,13.916
+E02001313,"Leigh North",734,2,229.0,12.135
+E02001314,"Tyldesley South",797,0,81.0,13.346
+E02001315,"Astley",875,1,778.0,28.977
+E02001316,"Leigh Central",752,20,148.0,17.754
+E02001317,"Leigh East & Higher Folds",756,0,229.0,14.275
+E02001318,"Ashton-in-Makerfield North",806,0,84.0,16.540
+E02001319,"Leigh West",751,0,297.0,13.922
+E02001320,"Leigh South East",838,0,229.0,12.066
+E02001321,"Ashton-in-Makerfield East",806,0,442.0,15.466
+E02001322,"Ashton-in-Makerfield West",834,0,84.0,15.966
+E02001323,"Leigh South",808,1,148.0,18.623
+E02001324,"Golborne",835,2,358.0,28.393
+E02001325,"Lowton",830,0,447.0,30.988
+E02001326,"Lowton Common",849,0,506.0,24.495

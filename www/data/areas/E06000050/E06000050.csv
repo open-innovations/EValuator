@@ -1,48 +1,48 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02003794,"Elton",0.079,4,994.0
-E02003795,"Capenhurst",0.19,4,680.0
-E02003796,"Upton East",0.176,0,434.0
-E02003797,"Upton West & Heath",0.131,0,434.0
-E02003798,"Blacon North",0.091,0,273.0
-E02003799,"Blacon South",0.08,0,273.0
-E02003800,"Kelsall",0.347,1,404.0
-E02003801,"Vicars Cross & Hoole East",0.261,0,710.0
-E02003802,"Chester Boughton West & Hoole",0.075,4,917.0
-E02003803,"Chester City & Garden Quarter",0.095,5,434.0
-E02003804,"Chester Boughton East",0.188,0,710.0
-E02003805,"Christleton",0.137,0,549.0
-E02003806,"Boughton Heath & Huntington",0.11,0,276.0
-E02003807,"Chester Handbridge Park",0.078,0,480.0
-E02003808,"Lache",0.119,0,207.0
-E02003809,"Dodleston",0.227,6,884.0
-E02003810,"Churton",0.306,0,443.0
-E02003841,"Neston & Parkgate",0.134,2,234.0
-E02003842,"Hooton",0.178,4,449.0
-E02003843,"Little Sutton North & Overpool",0.19,0,220.0
-E02003844,"Little Neston",0.132,0,135.0
-E02003845,"Ellesmere Port Town & Rossmore",0.211,8,220.0
-E02003846,"Little Sutton East",0.136,0,220.0
-E02003847,"Little Sutton West",0.164,0,384.0
-E02003848,"Ellesmere Port Pooltown Road",0.135,1,220.0
-E02003849,"Wolverham & Stanlow",0.135,1,270.0
-E02003850,"Great Sutton",0.15,0,111.0
-E02003851,"Whitby & Stanney Woods",0.204,2,381.0
-E02003852,"Ellesmere Port South",0.245,0,111.0
-E02003874,"Frodsham",0.198,2,173.0
-E02003875,"Comberbach",0.491,0,1215.0
-E02003876,"Barnton",0.255,0,530.0
-E02003877,"Helsby & Kingsley",0.163,2,454.0
-E02003878,"Lostock & Wincham",0.542,1,1173.0
-E02003879,"Northwich Central & Winnington",0.155,5,530.0
-E02003880,"Weaverham",0.317,0,281.0
-E02003881,"Greenbank",0.116,2,530.0
-E02003882,"Rudheath West & Leftwich",0.439,0,249.0
-E02003883,"Hartford & Kingsmead",0.307,0,530.0
-E02003884,"Sandiway",0.421,0,968.0
-E02003885,"Davenham & Moulton",0.24,0,780.0
-E02003886,"Wharton",0.09,0,250.0
-E02003887,"Winsford North",0.241,0,137.0
-E02003888,"Winsford Central",0.26,0,250.0
-E02003889,"Winsford Over",0.193,0,137.0
-E02003890,"Winsford Glebe Green",0.142,0,137.0
-E02003891,"Tarporley & Eddisbury Hill",0.201,2,546.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02003794,"Elton",732,4,994.0,41.221
+E02003795,"Capenhurst",614,4,680.0,13.843
+E02003796,"Upton East",585,0,434.0,22.155
+E02003797,"Upton West & Heath",519,0,434.0,28.797
+E02003798,"Blacon North",407,0,273.0,3.571
+E02003799,"Blacon South",368,0,273.0,5.141
+E02003800,"Kelsall",526,1,404.0,36.905
+E02003801,"Vicars Cross & Hoole East",610,0,710.0,19.211
+E02003802,"Chester Boughton West & Hoole",523,4,917.0,96.777
+E02003803,"Chester City & Garden Quarter",407,5,434.0,26.312
+E02003804,"Chester Boughton East",588,0,710.0,30.104
+E02003805,"Christleton",580,0,549.0,32.471
+E02003806,"Boughton Heath & Huntington",563,0,276.0,29.582
+E02003807,"Chester Handbridge Park",412,0,480.0,33.366
+E02003808,"Lache",437,0,207.0,18.866
+E02003809,"Dodleston",271,6,884.0,82.129
+E02003810,"Churton",127,0,443.0,57.341
+E02003841,"Neston & Parkgate",299,2,234.0,46.412
+E02003842,"Hooton",451,4,449.0,38.813
+E02003843,"Little Sutton North & Overpool",570,0,220.0,17.260
+E02003844,"Little Neston",303,0,135.0,22.246
+E02003845,"Ellesmere Port Town & Rossmore",633,8,220.0,30.439
+E02003846,"Little Sutton East",496,0,220.0,18.468
+E02003847,"Little Sutton West",506,0,384.0,30.904
+E02003848,"Ellesmere Port Pooltown Road",548,1,220.0,6.732
+E02003849,"Wolverham & Stanlow",596,1,270.0,13.930
+E02003850,"Great Sutton",548,0,111.0,13.000
+E02003851,"Whitby & Stanney Woods",606,2,381.0,8.071
+E02003852,"Ellesmere Port South",588,0,111.0,15.534
+E02003874,"Frodsham",706,2,173.0,52.148
+E02003875,"Comberbach",759,0,1215.0,48.071
+E02003876,"Barnton",725,0,530.0,25.778
+E02003877,"Helsby & Kingsley",630,2,454.0,60.771
+E02003878,"Lostock & Wincham",735,1,1173.0,40.304
+E02003879,"Northwich Central & Winnington",652,5,530.0,118.722
+E02003880,"Weaverham",690,0,281.0,29.667
+E02003881,"Greenbank",655,2,530.0,28.111
+E02003882,"Rudheath West & Leftwich",722,0,249.0,23.333
+E02003883,"Hartford & Kingsmead",694,0,530.0,45.333
+E02003884,"Sandiway",672,0,968.0,50.510
+E02003885,"Davenham & Moulton",686,0,780.0,20.270
+E02003886,"Wharton",629,0,250.0,12.268
+E02003887,"Winsford North",552,0,137.0,9.955
+E02003888,"Winsford Central",596,0,250.0,30.032
+E02003889,"Winsford Over",537,0,137.0,10.810
+E02003890,"Winsford Glebe Green",512,0,137.0,12.887
+E02003891,"Tarporley & Eddisbury Hill",494,2,546.0,66.565

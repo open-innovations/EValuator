@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004000,"Parton & Distington",0.202,0,133.0
-E02004001,"Whitehaven Harbour & Corkickle",0.149,4,82.0
-E02004002,"Hensingham",0.158,0,66.0
-E02004003,"Cleator Moor",0.167,2,179.0
-E02004004,"Mirehouse",0.146,0,66.0
-E02004005,"Egremont & Moor Row",0.248,0,96.0
-E02004006,"Thornhill",0.35,0,102.0
-E02004007,"Millom & Duddon Valley",0.167,1,38.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004000,"Parton & Distington",28,0,133.0,4.692
+E02004001,"Whitehaven Harbour & Corkickle",23,4,82.0,11.677
+E02004002,"Hensingham",22,0,66.0,7.545
+E02004003,"Cleator Moor",21,2,179.0,0.799
+E02004004,"Mirehouse",20,0,66.0,7.879
+E02004005,"Egremont & Moor Row",21,0,96.0,0.103
+E02004006,"Thornhill",20,0,102.0,0.205
+E02004007,"Millom & Duddon Valley",23,1,38.0,11.000

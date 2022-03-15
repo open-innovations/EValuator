@@ -1,31 +1,31 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02001229,"Mossley",0.091,0,229.0
-E02001230,"Ashton North",0.088,0,87.0
-E02001231,"Carrbrook & Micklehurst",0.064,0,174.0
-E02001232,"Hurst Cross",0.107,0,55.0
-E02001233,"Ashton Waterloo",0.132,0,32.0
-E02001234,"Smallshaw",0.102,1,87.0
-E02001235,"Ashton East",0.115,0,193.0
-E02001236,"Stalybridge North",0.115,3,138.0
-E02001237,"Stalybridge East & Swineshaw",0.094,0,138.0
-E02001238,"Droylsden East",0.117,0,388.0
-E02001239,"Droylsden Central",0.077,2,86.0
-E02001240,"Droylsden West",0.096,0,154.0
-E02001241,"Ashton Central",0.2,9,395.0
-E02001242,"Audenshaw",0.177,1,220.0
-E02001243,"Stalybridge South",0.103,2,323.0
-E02001244,"Dukinfield East & Hough Hill",0.11,0,187.0
-E02001245,"Dukinfield West",0.105,3,240.0
-E02001246,"Newtonmoor",0.093,0,49.0
-E02001247,"Guide Bridge",0.109,0,270.0
-E02001248,"Hyde North",0.122,0,136.0
-E02001249,"Denton North",0.174,3,134.0
-E02001250,"Godley",0.081,0,136.0
-E02001251,"Mottram",0.164,0,474.0
-E02001252,"Dane Bank",0.199,0,191.0
-E02001253,"Denton West",0.128,0,134.0
-E02001254,"Denton East",0.118,0,280.0
-E02001255,"Hattersley",0.133,0,136.0
-E02001256,"Hyde South",0.182,1,345.0
-E02001257,"Denton South",0.074,0,134.0
-E02001258,"Cheetham Fold & Gee Cross",0.112,0,136.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02001229,"Mossley",491,0,229.0,23.193
+E02001230,"Ashton North",656,0,87.0,3.735
+E02001231,"Carrbrook & Micklehurst",431,0,174.0,13.906
+E02001232,"Hurst Cross",663,0,55.0,5.115
+E02001233,"Ashton Waterloo",747,0,32.0,5.836
+E02001234,"Smallshaw",689,1,87.0,4.863
+E02001235,"Ashton East",741,0,193.0,5.835
+E02001236,"Stalybridge North",648,3,138.0,12.849
+E02001237,"Stalybridge East & Swineshaw",520,0,138.0,13.164
+E02001238,"Droylsden East",769,0,388.0,18.007
+E02001239,"Droylsden Central",733,2,86.0,15.125
+E02001240,"Droylsden West",670,0,154.0,9.660
+E02001241,"Ashton Central",860,9,395.0,31.075
+E02001242,"Audenshaw",845,1,220.0,6.679
+E02001243,"Stalybridge South",586,2,323.0,26.354
+E02001244,"Dukinfield East & Hough Hill",677,0,187.0,7.330
+E02001245,"Dukinfield West",727,3,240.0,14.788
+E02001246,"Newtonmoor",673,0,49.0,7.408
+E02001247,"Guide Bridge",776,0,270.0,9.623
+E02001248,"Hyde North",765,0,136.0,15.516
+E02001249,"Denton North",856,3,134.0,17.582
+E02001250,"Godley",822,0,136.0,8.822
+E02001251,"Mottram",777,0,474.0,10.659
+E02001252,"Dane Bank",848,0,191.0,7.947
+E02001253,"Denton West",800,0,134.0,7.041
+E02001254,"Denton East",793,0,280.0,8.369
+E02001255,"Hattersley",754,0,136.0,12.973
+E02001256,"Hyde South",784,1,345.0,36.000
+E02001257,"Denton South",724,0,134.0,21.334
+E02001258,"Cheetham Fold & Gee Cross",691,0,136.0,9.807

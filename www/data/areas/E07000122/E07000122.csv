@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005240,"Barnoldswick North",0.249,0,140.0
-E02005241,"Barnoldswick South",0.189,2,743.0
-E02005242,"Earby & Salterforth",0.209,2,345.0
-E02005243,"Colne Horsfield",0.209,5,76.0
-E02005244,"Colne Vivary Bridge",0.21,0,76.0
-E02005245,"East Colne",0.141,0,140.0
-E02005246,"Colne Waterside",0.158,0,76.0
-E02005247,"Barrowford",0.141,0,343.0
-E02005248,"Nelson Bradley",0.198,0,209.0
-E02005249,"Nelson East",0.14,2,209.0
-E02005250,"Nelson West",0.157,1,209.0
-E02005251,"Marsden",0.096,0,241.0
-E02005252,"Brierfield & Reedley",0.164,0,453.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005240,"Barnoldswick North",241,0,140.0,12.787
+E02005241,"Barnoldswick South",297,2,743.0,13.437
+E02005242,"Earby & Salterforth",255,2,345.0,16.497
+E02005243,"Colne Horsfield",537,5,76.0,4.038
+E02005244,"Colne Vivary Bridge",597,0,76.0,3.968
+E02005245,"East Colne",438,0,140.0,6.481
+E02005246,"Colne Waterside",562,0,76.0,6.437
+E02005247,"Barrowford",575,0,343.0,21.463
+E02005248,"Nelson Bradley",583,0,209.0,9.885
+E02005249,"Nelson East",533,2,209.0,9.766
+E02005250,"Nelson West",563,1,209.0,21.649
+E02005251,"Marsden",488,0,241.0,6.496
+E02005252,"Brierfield & Reedley",566,0,453.0,12.934

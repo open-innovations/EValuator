@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02004392,"Robertsbridge",0,1,257.0
-E02004393,"Northiam",0,0,256.0
-E02004394,"Burwash",0,0,517.0
-E02004395,"Rye & Winchelsea",0,0,206.0
-E02004396,"Westfield",0,0,517.0
-E02004397,"Battle & Catsfield",0,0,230.0
-E02004398,"Bexhill North & Sidley",0,0,191.0
-E02004399,"Bexhill East & Pebsham",0,0,129.0
-E02004400,"Collington",0,0,203.0
-E02004401,"Kewhurst",0,0,160.0
-E02004402,"Bexhill Central",0,0,191.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02004392,"Robertsbridge",0,1,257.0,49.319
+E02004393,"Northiam",0,0,256.0,26.176
+E02004394,"Burwash",0,0,517.0,34.382
+E02004395,"Rye & Winchelsea",0,0,206.0,31.487
+E02004396,"Westfield",0,0,517.0,21.187
+E02004397,"Battle & Catsfield",0,0,230.0,32.955
+E02004398,"Bexhill North & Sidley",0,0,191.0,13.141
+E02004399,"Bexhill East & Pebsham",0,0,129.0,6.375
+E02004400,"Collington",0,0,203.0,29.521
+E02004401,"Kewhurst",0,0,160.0,21.298
+E02004402,"Bexhill Central",0,0,191.0,29.982

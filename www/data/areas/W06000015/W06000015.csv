@@ -1,49 +1,49 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-W02000367,"Lisvane",0,0,620.0
-W02000368,"Thornhill",0,0,360.0
-W02000369,"Pontprennau",0,2,777.0
-W02000370,"Rhiwbina & Pant-mawr",0,0,532.0
-W02000371,"Llanishen",0,3,360.0
-W02000372,"Radyr",0,0,129.0
-W02000373,"Llanrumney North",0,0,157.0
-W02000374,"Cyncoed North",0,0,620.0
-W02000375,"Pentwyn",0,0,417.0
-W02000376,"Tongwynlais & Coryton",0,2,661.0
-W02000377,"Pwll-mawr & St Mellons East",0,3,417.0
-W02000378,"Rhiwbina Village",0,0,360.0
-W02000379,"St Mellons West",0,0,157.0
-W02000380,"Creigiau",0,1,504.0
-W02000381,"Llanrumney South",0,0,157.0
-W02000382,"Trowbridge",0,0,417.0
-W02000383,"Llanedeyrn",0,0,417.0
-W02000384,"Heath",0,3,620.0
-W02000385,"Cyncoed South & Roath Park",0,0,417.0
-W02000386,"Whitchurch",0,0,384.0
-W02000387,"Birchgrove",0,0,360.0
-W02000388,"Rumney",0,0,157.0
-W02000389,"Llandaf North",0,0,581.0
-W02000390,"Pen-y-lan North",0,0,417.0
-W02000391,"Gabalfa",0,0,360.0
-W02000392,"Llandaf & Danescourt",0,1,255.0
-W02000393,"Fairwater North",0,0,231.0
-W02000394,"Cathays North",0,0,459.0
-W02000395,"Pen-y-lan South",0,2,540.0
-W02000396,"Roath",0,1,359.0
-W02000397,"Fairwater South",0,0,255.0
-W02000398,"Cathays South & Bute Park",0,13,783.0
-W02000399,"Plasnewydd",0,0,326.0
-W02000400,"Pontcanna",0,3,458.0
-W02000401,"Victoria Park",0,2,458.0
-W02000402,"Adamsdown",0,4,451.0
-W02000403,"Tremorfa & Pengam",0,0,123.0
-W02000404,"Splott",0,0,123.0
-W02000405,"Ely East",0,0,231.0
-W02000406,"Canton",0,2,458.0
-W02000407,"Caerau East",0,0,255.0
-W02000408,"South Riverside",0,1,326.0
-W02000409,"Ely West",0,0,231.0
-W02000410,"Grangetown North",0,2,324.0
-W02000411,"Caerau West",0,0,231.0
-W02000412,"Grangetown South",0,1,423.0
-W02000422,"Cardiff Bay",0,6,423.0
-W02000423,"Butetown",0,0,423.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+W02000367,"Lisvane",0,0,620.0,23.145
+W02000368,"Thornhill",0,0,360.0,15.317
+W02000369,"Pontprennau",0,2,777.0,30.808
+W02000370,"Rhiwbina & Pant-mawr",0,0,532.0,20.171
+W02000371,"Llanishen",0,3,360.0,97.431
+W02000372,"Radyr",0,0,129.0,50.638
+W02000373,"Llanrumney North",0,0,157.0,21.786
+W02000374,"Cyncoed North",0,0,620.0,21.057
+W02000375,"Pentwyn",0,0,417.0,17.944
+W02000376,"Tongwynlais & Coryton",0,2,661.0,28.349
+W02000377,"Pwll-mawr & St Mellons East",0,3,417.0,50.058
+W02000378,"Rhiwbina Village",0,0,360.0,23.684
+W02000379,"St Mellons West",0,0,157.0,8.349
+W02000380,"Creigiau",0,1,504.0,29.879
+W02000381,"Llanrumney South",0,0,157.0,20.808
+W02000382,"Trowbridge",0,0,417.0,16.086
+W02000383,"Llanedeyrn",0,0,417.0,22.836
+W02000384,"Heath",0,3,620.0,18.832
+W02000385,"Cyncoed South & Roath Park",0,0,417.0,24.174
+W02000386,"Whitchurch",0,0,384.0,31.484
+W02000387,"Birchgrove",0,0,360.0,17.870
+W02000388,"Rumney",0,0,157.0,17.025
+W02000389,"Llandaf North",0,0,581.0,23.520
+W02000390,"Pen-y-lan North",0,0,417.0,29.211
+W02000391,"Gabalfa",0,0,360.0,19.430
+W02000392,"Llandaf & Danescourt",0,1,255.0,20.805
+W02000393,"Fairwater North",0,0,231.0,12.254
+W02000394,"Cathays North",0,0,459.0,2.599
+W02000395,"Pen-y-lan South",0,2,540.0,32.563
+W02000396,"Roath",0,1,359.0,4.278
+W02000397,"Fairwater South",0,0,255.0,14.105
+W02000398,"Cathays South & Bute Park",0,13,783.0,0.839
+W02000399,"Plasnewydd",0,0,326.0,2.254
+W02000400,"Pontcanna",0,3,458.0,3.153
+W02000401,"Victoria Park",0,2,458.0,11.706
+W02000402,"Adamsdown",0,4,451.0,2.602
+W02000403,"Tremorfa & Pengam",0,0,123.0,1.403
+W02000404,"Splott",0,0,123.0,1.853
+W02000405,"Ely East",0,0,231.0,12.254
+W02000406,"Canton",0,2,458.0,38.534
+W02000407,"Caerau East",0,0,255.0,11.549
+W02000408,"South Riverside",0,1,326.0,2.394
+W02000409,"Ely West",0,0,231.0,9.521
+W02000410,"Grangetown North",0,2,324.0,2.279
+W02000411,"Caerau West",0,0,231.0,11.725
+W02000412,"Grangetown South",0,1,423.0,11.194
+W02000422,"Cardiff Bay",0,6,423.0,1.642
+W02000423,"Butetown",0,0,423.0,0.336

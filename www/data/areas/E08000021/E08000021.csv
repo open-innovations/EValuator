@@ -1,30 +1,30 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02001708,"Kingston Park & Dinnington",0.431,7,444.0
-E02001709,"North Gosforth",0.257,1,604.0
-E02001710,"Fawdon South",0.208,10,295.0
-E02001711,"Woolsington & Airport",0.341,13,698.0
-E02001712,"South Gosforth",0.156,2,383.0
-E02001713,"Coxlodge & West Gosforth",0.115,9,532.0
-E02001714,"High Heaton",0.151,4,512.0
-E02001715,"Kenton",0.221,2,452.0
-E02001718,"Blakelaw",0.374,1,395.0
-E02001719,"North Heaton",0,1,200.0
-E02001720,"North Jesmond",0.139,0,88.0
-E02001721,"Throckley & Newburn",0.232,0,223.0
-E02001722,"Denton",0.309,0,100.0
-E02001723,"Cowgate",0.292,1,202.0
-E02001724,"South Jesmond & Sandyford",0.198,0,160.0
-E02001725,"Heaton South",0.151,2,257.0
-E02001726,"Fenham",0.294,0,325.0
-E02001727,"Walkergate",0.099,2,240.0
-E02001728,"Lemington",0.388,2,123.0
-E02001729,"Nunsmoor",0.124,1,190.0
-E02001730,"Shieldfield & Heaton Park",0.173,31,273.0
-E02001731,"City Centre & Arthur's Hill",0.099,104,542.0
-E02001732,"Scotswood",0.328,0,225.0
-E02001733,"Byker",0.107,10,128.0
-E02001734,"Benwell",0.185,0,225.0
-E02001735,"Walker North",0.07,0,128.0
-E02001736,"Elswick",0.08,3,382.0
-E02001737,"Walker South",0.059,0,128.0
-E02006893,"Westerhope",0.252,2,100.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02001708,"Kingston Park & Dinnington",281,7,444.0,95.954
+E02001709,"North Gosforth",263,1,604.0,41.846
+E02001710,"Fawdon South",269,10,295.0,43.981
+E02001711,"Woolsington & Airport",287,13,698.0,39.037
+E02001712,"South Gosforth",248,2,383.0,44.854
+E02001713,"Coxlodge & West Gosforth",252,9,532.0,121.666
+E02001714,"High Heaton",281,4,512.0,52.239
+E02001715,"Kenton",273,2,452.0,37.609
+E02001718,"Blakelaw",283,1,395.0,13.078
+E02001719,"North Heaton",304,1,200.0,28.534
+E02001720,"North Jesmond",272,0,88.0,15.064
+E02001721,"Throckley & Newburn",267,0,223.0,29.434
+E02001722,"Denton",277,0,100.0,16.821
+E02001723,"Cowgate",275,1,202.0,8.088
+E02001724,"South Jesmond & Sandyford",289,0,160.0,18.506
+E02001725,"Heaton South",296,2,257.0,25.830
+E02001726,"Fenham",268,0,325.0,28.858
+E02001727,"Walkergate",272,2,240.0,6.488
+E02001728,"Lemington",278,2,123.0,23.535
+E02001729,"Nunsmoor",269,1,190.0,9.587
+E02001730,"Shieldfield & Heaton Park",286,31,273.0,15.885
+E02001731,"City Centre & Arthur's Hill",292,104,542.0,16.273
+E02001732,"Scotswood",284,0,225.0,20.157
+E02001733,"Byker",256,10,128.0,15.640
+E02001734,"Benwell",275,0,225.0,15.873
+E02001735,"Walker North",239,0,128.0,3.910
+E02001736,"Elswick",261,3,382.0,15.658
+E02001737,"Walker South",232,0,128.0,6.905
+E02006893,"Westerhope",269,2,100.0,22.505

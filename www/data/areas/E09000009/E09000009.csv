@@ -1,40 +1,40 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02000238,"Whitton Avenue West",0,0,711.0
-E02000239,"Horsenden",0,1,775.0
-E02000240,"Northolt West",0,0,282.0
-E02000241,"Northolt East",0,0,711.0
-E02000242,"Bilton Road",0,0,775.0
-E02000243,"Greenford North",0,10,429.0
-E02000244,"Perivale",0,6,429.0
-E02000245,"Northolt South",0,3,3422.0
-E02000246,"Kingshill Avenue",0,2,282.0
-E02000247,"Greenford West",0,0,905.0
-E02000248,"Hanger Hill East",0,17,3243.0
-E02000249,"Greenford South",0,0,623.0
-E02000250,"Pitshanger",0,3,1503.0
-E02000251,"Greenford Ravenor Park",0,0,623.0
-E02000252,"North Acton",0,9,3580.0
-E02000253,"Cuckoo Park",0,0,431.0
-E02000254,"Southall North",0,3,194.0
-E02000255,"Drayton Green & Cleveland",0,2,2715.0
-E02000256,"Ealing Broadway West",0,4,1503.0
-E02000257,"Ealing Broadway East",0,7,1909.0
-E02000258,"Acton Noel Road & Lynton Road",0,5,683.0
-E02000259,"Brent Valley",0,3,154.0
-E02000260,"Southall Park",0,6,623.0
-E02000261,"East Acton",0,4,1033.0
-E02000262,"Acton Central",0,9,683.0
-E02000263,"Southall West",0,0,389.0
-E02000264,"Ealing Common & Twyford Ave",0,10,2612.0
-E02000265,"West Ealing",0,8,1657.0
-E02000266,"Norwood Green North & Windmill Park",0,20,972.0
-E02000267,"Hanwell",0,1,431.0
-E02000268,"St Mary's",0,7,1503.0
-E02000269,"Northfields",0,10,1503.0
-E02000270,"South Acton",0,4,1276.0
-E02000271,"Bedford Park",0,22,1386.0
-E02000272,"Elthorne Park",0,13,626.0
-E02000274,"Southall Green",0,3,195.0
-E02000275,"Norwood Green South",0,2,195.0
-E02000276,"South Ealing",0,0,1486.0
-E02006791,"Chiswick North West",0,12,1386.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02000238,"Whitton Avenue West",0,0,711.0,10.960
+E02000239,"Horsenden",0,1,775.0,13.753
+E02000240,"Northolt West",0,0,282.0,6.895
+E02000241,"Northolt East",0,0,711.0,34.150
+E02000242,"Bilton Road",0,0,775.0,11.570
+E02000243,"Greenford North",0,10,429.0,17.267
+E02000244,"Perivale",0,6,429.0,14.000
+E02000245,"Northolt South",0,3,3422.0,6.020
+E02000246,"Kingshill Avenue",0,2,282.0,5.879
+E02000247,"Greenford West",0,0,905.0,8.664
+E02000248,"Hanger Hill East",0,17,3243.0,15.367
+E02000249,"Greenford South",0,0,623.0,12.096
+E02000250,"Pitshanger",0,3,1503.0,11.678
+E02000251,"Greenford Ravenor Park",0,0,623.0,7.936
+E02000252,"North Acton",0,9,3580.0,21.008
+E02000253,"Cuckoo Park",0,0,431.0,8.030
+E02000254,"Southall North",0,3,194.0,3.058
+E02000255,"Drayton Green & Cleveland",0,2,2715.0,47.834
+E02000256,"Ealing Broadway West",0,4,1503.0,18.246
+E02000257,"Ealing Broadway East",0,7,1909.0,35.256
+E02000258,"Acton Noel Road & Lynton Road",0,5,683.0,6.465
+E02000259,"Brent Valley",0,3,154.0,5.076
+E02000260,"Southall Park",0,6,623.0,4.279
+E02000261,"East Acton",0,4,1033.0,10.969
+E02000262,"Acton Central",0,9,683.0,10.307
+E02000263,"Southall West",0,0,389.0,16.020
+E02000264,"Ealing Common & Twyford Ave",0,10,2612.0,11.208
+E02000265,"West Ealing",0,8,1657.0,22.241
+E02000266,"Norwood Green North & Windmill Park",0,20,972.0,8.141
+E02000267,"Hanwell",0,1,431.0,18.616
+E02000268,"St Mary's",0,7,1503.0,74.703
+E02000269,"Northfields",0,10,1503.0,14.759
+E02000270,"South Acton",0,4,1276.0,37.917
+E02000271,"Bedford Park",0,22,1386.0,10.151
+E02000272,"Elthorne Park",0,13,626.0,8.498
+E02000274,"Southall Green",0,3,195.0,7.291
+E02000275,"Norwood Green South",0,2,195.0,4.193
+E02000276,"South Ealing",0,0,1486.0,9.636
+E02006791,"Chiswick North West",0,12,1386.0,9.566

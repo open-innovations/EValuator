@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-E02005189,"Clayton Brook",0.269,0,417.0
-E02005190,"Brindle & Withnell",0.206,2,599.0
-E02005191,"Clayton-le-Woods",0.179,0,587.0
-E02005192,"Whittle-le-Woods & Anglezarke",0.16,0,559.0
-E02005193,"Euxton",0.185,0,559.0
-E02005194,"Chorley North",0.102,5,559.0
-E02005195,"Croston & Mawdesley",0.202,0,1171.0
-E02005196,"Chorley West",0.09,2,339.0
-E02005197,"Chorley East",0.096,0,559.0
-E02005198,"Chorley Town & South",0.079,3,559.0
-E02005199,"Eccleston & Charnock Richard",0.191,6,924.0
-E02005200,"Chorley South West",0.1,0,339.0
-E02005201,"Coppull",0.139,0,339.0
-E02005202,"Adlington & Rivington",0.137,2,741.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+E02005189,"Clayton Brook",803,0,417.0,7.934
+E02005190,"Brindle & Withnell",751,2,599.0,29.115
+E02005191,"Clayton-le-Woods",786,0,587.0,28.636
+E02005192,"Whittle-le-Woods & Anglezarke",763,0,559.0,34.218
+E02005193,"Euxton",742,0,559.0,32.552
+E02005194,"Chorley North",756,5,559.0,32.507
+E02005195,"Croston & Mawdesley",501,0,1171.0,34.189
+E02005196,"Chorley West",690,2,339.0,42.175
+E02005197,"Chorley East",678,0,559.0,91.289
+E02005198,"Chorley Town & South",669,3,559.0,55.341
+E02005199,"Eccleston & Charnock Richard",653,6,924.0,39.198
+E02005200,"Chorley South West",682,0,339.0,27.915
+E02005201,"Coppull",649,0,339.0,27.156
+E02005202,"Adlington & Rivington",680,2,741.0,41.269

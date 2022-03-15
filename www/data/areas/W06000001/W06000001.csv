@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
-W02000001,"Amlwch & Llannerch-y-medd",0,0,77.0
-W02000002,"Rhos-y-bol",0,1,77.0
-W02000003,"Holyhead",0,5,52.0
-W02000004,"Llain-goch & Valley",0,0,52.0
-W02000005,"Beaumaris & Benllech",0,1,76.0
-W02000006,"Llangefni",0,9,111.0
-W02000007,"Bodedern & Rhosneigr",0,0,52.0
-W02000008,"Llanfair Pwllgwyngyll & Menai Bridge",0,0,80.0
-W02000009,"Newborough",0,4,123.0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs,EVHS
+W02000001,"Amlwch & Llannerch-y-medd",0,0,77.0,1.588
+W02000002,"Rhos-y-bol",0,1,77.0,0.000
+W02000003,"Holyhead",0,5,52.0,13.738
+W02000004,"Llain-goch & Valley",0,0,52.0,14.218
+W02000005,"Beaumaris & Benllech",0,1,76.0,22.123
+W02000006,"Llangefni",0,9,111.0,0.997
+W02000007,"Bodedern & Rhosneigr",0,0,52.0,7.460
+W02000008,"Llanfair Pwllgwyngyll & Menai Bridge",0,0,80.0,20.978
+W02000009,"Newborough",0,4,123.0,17.868
