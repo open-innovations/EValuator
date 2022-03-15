@@ -463,7 +463,7 @@
 			this.updateValue(v);
 		}
 		this.updateValue = function(txt){
-			val.innerHTML = txt;
+			val.innerHTML = parseFloat(txt).toFixed(1);
 			return this;
 		}
 		this.setValue(opt.value||1);
