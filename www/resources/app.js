@@ -95,7 +95,7 @@
 
 
 		// Get the area lookup
-		fetch('data/Area.tsv').then(response => {
+		fetch('data/areas.tsv').then(response => {
 			if(!response.ok) throw new Error('Network response was not OK');
 			return response.text();
 		}).then(data => {
@@ -168,6 +168,7 @@
 				inp = new Slider({
 					'id':this.categories[c].layers[l].id,
 					'label':this.categories[c].layers[l].title,
+					'desc':this.categories[c].layers[l].desc,
 					'class':'slider',
 					'data': {'layer':l,'category':c},
 					'invert': this.categories[c].layers[l].invert,
@@ -433,6 +434,9 @@
 		invlbl.classList.add('invert');
 		if(opt.id) invlbl.setAttribute('for',opt.id+'-invert');
 
+		desc = document.createElement('div');
+		desc.classList.add('description');
+		desc.innerHTML = opt.desc||"";
 		
 		this.addTo = function(el){
 			el.appendChild(lbl);
@@ -440,6 +444,7 @@
 			el.appendChild(val);
 			el.appendChild(invlbl);
 			el.appendChild(inv);
+			el.appendChild(desc);
 			
 			// Trigger the change event when we first add it
 			var event = document.createEvent('HTMLEvents');
