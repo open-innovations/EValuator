@@ -429,10 +429,16 @@
 		});
 
 		invlbl = document.createElement('label');
-		invlbl.innerHTML = 'Invert?';
+		invlbl.classList.add('checkbox-label');
+		invlbl.innerHTML = '<span>Inverted</span>';
 		if(opt.label) invlbl.setAttribute('title','Invert '+opt.label);
 		invlbl.classList.add('invert');
 		if(opt.id) invlbl.setAttribute('for',opt.id+'-invert');
+		span = document.createElement('span');
+		span.classList.add('checkbox-custom','circular');
+		invlbl.insertBefore(inv, invlbl.firstChild);
+		inv.insertAdjacentElement('afterend', span);
+		
 
 		desc = document.createElement('div');
 		desc.classList.add('description');
@@ -442,8 +448,8 @@
 			el.appendChild(lbl);
 			el.appendChild(inp);
 			el.appendChild(val);
+//			el.appendChild(inv);
 			el.appendChild(invlbl);
-			el.appendChild(inv);
 			el.appendChild(desc);
 			
 			// Trigger the change event when we first add it
