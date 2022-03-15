@@ -13,5 +13,10 @@
 		"src": "layers/chargepoints.csv",
 		"invert": true,
 		"weight": 0.8
+	},{
+		"id": "ULEVs",
+		"title": "Representative ULEVs",
+		"desc": "A representative value for ULEVs registered per MSOA in Q3 2021.",
+		"src": "layers/ULEVs_MSOA.csv"
 	}]
 }]
