@@ -15,8 +15,13 @@
 		"weight": 0.8
 	},{
 		"id": "ULEVs",
-		"title": "Representative ULEVs",
+		"title": "ULEVs",
 		"desc": "A representative value for ULEVs registered per MSOA in Q3 2021.",
 		"src": "layers/ULEVs_MSOA.csv"
+	},{
+		"id": "EVHS",
+		"title": "Home charging devices",
+		"desc": "A value representing charging devices installed as part of the <a href='https://www.gov.uk/government/statistics/electric-vehicle-charging-device-grant-scheme-statistics-october-2021/electric-vehicle-charging-device-grant-scheme-statistics-october-2021'>Electric Vehicle Homecharge Scheme</a> (EVHS) as of 1 October 2021. The data are originally provided by Postcode District and have been apportioned to MSOA by the distribution of postcodes.",
+		"src": "layers/EVHS.csv"
 	}]
 }]
