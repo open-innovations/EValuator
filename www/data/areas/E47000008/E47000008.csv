@@ -1,99 +1,99 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003237,"Glinton",0,0
-E02003238,"Werrington",0,2
-E02003239,"Newborough & Peakirk",0,0
-E02003240,"Barnack",0,1
-E02003241,"Eye & Thorney",0,0
-E02003242,"Walton",0,2
-E02003243,"Paston",0,0
-E02003244,"Dogsthorpe",0,0
-E02003245,"North Bretton & Westwood",0,1
-E02003246,"Millfield & Bourges Boulevard",0,0
-E02003247,"Bretton Park",0,1
-E02003248,"Central Park",0,1
-E02003249,"Fengate & Parnwell",0,5
-E02003250,"Peterborough Central",0,9
-E02003251,"Longthorpe & Netherton",0,1
-E02003252,"West Town & Woodston",0,2
-E02003253,"Fletton",0,6
-E02003254,"Orton West & Castor",0,0
-E02003255,"Stanground",0,0
-E02003257,"Orton Malborne & Goldhay",0,2
-E02003719,"Kings Hedges",0,0
-E02003720,"Arbury",0,0
-E02003721,"East Chesterton",0,0
-E02003722,"West Chesterton",0,0
-E02003723,"Eddington & Castle",0,4
-E02003724,"East Barnwell & Abbey",0,2
-E02003725,"Central & West Cambridge",0,2
-E02003726,"Petersfield",0,1
-E02003727,"Romsey",0,0
-E02003728,"Coleridge",0,0
-E02003729,"Cherry Hinton",0,1
-E02003730,"Trumpington",0,4
-E02003731,"Addenbrooke's & Queen Edith's",0,3
-E02003732,"Littleport",0,0
-E02003733,"Little Downham & Sutton",0,0
-E02003734,"North Ely",0,2
-E02003735,"South Ely",0,7
-E02003736,"Haddenham",0,1
-E02003737,"Soham",0,0
-E02003738,"Isleham",0,0
-E02003739,"Burwell",0,0
-E02003740,"Swaffham & Bottisham",0,1
-E02003742,"Leverington",0,0
-E02003743,"Wisbech North",0,0
-E02003744,"Wisbech South & Peckover",0,3
-E02003745,"Wisbech St Mary",0,2
-E02003746,"March North",0,1
-E02003747,"Whittlesey",0,0
-E02003748,"March East",0,0
-E02003749,"Coates",0,0
-E02003750,"March West",0,0
-E02003751,"Doddington",0,1
-E02003752,"Chatteris",0,0
-E02003753,"Yaxley & Farcet",0,0
-E02003754,"Stilton",0,2
-E02003755,"Ramsey",0,2
-E02003756,"Sawtry & Gidding",0,0
-E02003757,"Warboys & Bury",0,0
-E02003758,"Somersham",0,0
-E02003759,"Bluntisham",0,3
-E02003760,"Huntingdon Sapley & Oxmoor",0,0
-E02003761,"Huntingdon Hartford",0,1
-E02003762,"Brampton",0,3
-E02003763,"St Ives North",0,0
-E02003764,"Huntingdon Central & West",0,3
-E02003765,"St Ives South",0,5
-E02003766,"Godmanchester",0,2
-E02003767,"Kimbolton",0,0
-E02003768,"Houghton",0,0
-E02003769,"Buckden & Perry",0,5
-E02003770,"Little Paxton",0,0
-E02003771,"St Neots Priory Park",0,1
-E02003772,"St Neots Eaton Ford",0,2
-E02003773,"St Neots Eynesbury",0,2
-E02003774,"St Neots Eaton Socon",0,0
-E02003775,"Willingham & Over",0,0
-E02003776,"Cottenham",0,0
-E02003777,"Longstanton",0,8
-E02003778,"Waterbeach and Landbeach",0,0
-E02003779,"Bar Hill & Boxworth",0,2
-E02003780,"HIston",0,2
-E02003781,"Milton",0,13
-E02003783,"Girton & Barton",0,0
-E02003784,"Hardwick & Highfields",0,0
-E02003785,"Fulbourn & Teversham",0,1
-E02003786,"Great Shelford & Stapleford",0,3
-E02003787,"Barrington",0,0
-E02003788,"Little Shelford ",0,0
-E02003789,"Sawston",0,1
-E02003790,"Linton & Balsham",0,0
-E02003791,"Duxford",0,3
-E02003792,"Meldreth",0,0
-E02003793,"Bassingbourn & the Mordens",0,0
-E02006825,"Dullingham & Cheveley",0,0
-E02006873,"Cambourne",0,3
-E02006874,"Papworth",0,0
-E02006877,"Hargate & Orton Longueville",0,0
-E02006878,"Hampton Vale",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003237,"Glinton",0,0,364.0
+E02003238,"Werrington",0,2,94.0
+E02003239,"Newborough & Peakirk",0,0,364.0
+E02003240,"Barnack",0,1,742.0
+E02003241,"Eye & Thorney",0,0,19941.0
+E02003242,"Walton",0,2,22316.0
+E02003243,"Paston",0,0,19765.0
+E02003244,"Dogsthorpe",0,0,19671.0
+E02003245,"North Bretton & Westwood",0,1,301.0
+E02003246,"Millfield & Bourges Boulevard",0,0,20387.0
+E02003247,"Bretton Park",0,1,207.0
+E02003248,"Central Park",0,1,19671.0
+E02003249,"Fengate & Parnwell",0,5,19941.0
+E02003250,"Peterborough Central",0,9,20086.0
+E02003251,"Longthorpe & Netherton",0,1,477.0
+E02003252,"West Town & Woodston",0,2,20293.0
+E02003253,"Fletton",0,6,20086.0
+E02003254,"Orton West & Castor",0,0,1372.0
+E02003255,"Stanground",0,0,20589.0
+E02003257,"Orton Malborne & Goldhay",0,2,415.0
+E02003719,"Kings Hedges",0,0,250.0
+E02003720,"Arbury",0,0,439.0
+E02003721,"East Chesterton",0,0,250.0
+E02003722,"West Chesterton",0,0,250.0
+E02003723,"Eddington & Castle",0,4,1114.0
+E02003724,"East Barnwell & Abbey",0,2,2630.0
+E02003725,"Central & West Cambridge",0,2,1058.0
+E02003726,"Petersfield",0,1,507.0
+E02003727,"Romsey",0,0,266.0
+E02003728,"Coleridge",0,0,2432.0
+E02003729,"Cherry Hinton",0,1,266.0
+E02003730,"Trumpington",0,4,507.0
+E02003731,"Addenbrooke's & Queen Edith's",0,3,894.0
+E02003732,"Littleport",0,0,569.0
+E02003733,"Little Downham & Sutton",0,0,419.0
+E02003734,"North Ely",0,2,413.0
+E02003735,"South Ely",0,7,413.0
+E02003736,"Haddenham",0,1,1150.0
+E02003737,"Soham",0,0,166.0
+E02003738,"Isleham",0,0,608.0
+E02003739,"Burwell",0,0,310.0
+E02003740,"Swaffham & Bottisham",0,1,925.0
+E02003742,"Leverington",0,0,133.0
+E02003743,"Wisbech North",0,0,216.0
+E02003744,"Wisbech South & Peckover",0,3,216.0
+E02003745,"Wisbech St Mary",0,2,769.0
+E02003746,"March North",0,1,464.0
+E02003747,"Whittlesey",0,0,233.0
+E02003748,"March East",0,0,181.0
+E02003749,"Coates",0,0,389.0
+E02003750,"March West",0,0,331.0
+E02003751,"Doddington",0,1,284.0
+E02003752,"Chatteris",0,0,983.0
+E02003753,"Yaxley & Farcet",0,0,233.0
+E02003754,"Stilton",0,2,1147.0
+E02003755,"Ramsey",0,2,982.0
+E02003756,"Sawtry & Gidding",0,0,826.0
+E02003757,"Warboys & Bury",0,0,696.0
+E02003758,"Somersham",0,0,996.0
+E02003759,"Bluntisham",0,3,705.0
+E02003760,"Huntingdon Sapley & Oxmoor",0,0,1227.0
+E02003761,"Huntingdon Hartford",0,1,634.0
+E02003762,"Brampton",0,3,1227.0
+E02003763,"St Ives North",0,0,705.0
+E02003764,"Huntingdon Central & West",0,3,1745.0
+E02003765,"St Ives South",0,5,112.0
+E02003766,"Godmanchester",0,2,982.0
+E02003767,"Kimbolton",0,0,1984.0
+E02003768,"Houghton",0,0,705.0
+E02003769,"Buckden & Perry",0,5,941.0
+E02003770,"Little Paxton",0,0,732.0
+E02003771,"St Neots Priory Park",0,1,348.0
+E02003772,"St Neots Eaton Ford",0,2,348.0
+E02003773,"St Neots Eynesbury",0,2,348.0
+E02003774,"St Neots Eaton Socon",0,0,348.0
+E02003775,"Willingham & Over",0,0,1218.0
+E02003776,"Cottenham",0,0,1182.0
+E02003777,"Longstanton",0,8,1489.0
+E02003778,"Waterbeach and Landbeach",0,0,560.0
+E02003779,"Bar Hill & Boxworth",0,2,623.0
+E02003780,"HIston",0,2,625.0
+E02003781,"Milton",0,13,1201.0
+E02003783,"Girton & Barton",0,0,623.0
+E02003784,"Hardwick & Highfields",0,0,1051.0
+E02003785,"Fulbourn & Teversham",0,1,1220.0
+E02003786,"Great Shelford & Stapleford",0,3,894.0
+E02003787,"Barrington",0,0,1874.0
+E02003788,"Little Shelford ",0,0,1679.0
+E02003789,"Sawston",0,1,628.0
+E02003790,"Linton & Balsham",0,0,1134.0
+E02003791,"Duxford",0,3,1672.0
+E02003792,"Meldreth",0,0,428.0
+E02003793,"Bassingbourn & the Mordens",0,0,526.0
+E02006825,"Dullingham & Cheveley",0,0,277.0
+E02006873,"Cambourne",0,3,889.0
+E02006874,"Papworth",0,0,2189.0
+E02006877,"Hargate & Orton Longueville",0,0,648.0
+E02006878,"Hampton Vale",0,0,855.0

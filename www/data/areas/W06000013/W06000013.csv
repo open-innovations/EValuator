@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-W02000218,"Caerau",0,0
-W02000219,"Maesteg East",0,2
-W02000220,"Nant-y-moel",0,0
-W02000221,"Blaengarw",0,0
-W02000222,"Maesteg West",0,0
-W02000223,"Ynysawdre & Aberkenfig",0,0
-W02000224,"Sarn",0,2
-W02000225,"Pyle",0,0
-W02000226,"Pen-prysg",0,0
-W02000227,"Cornelly",0,0
-W02000228,"Pen-dre",0,0
-W02000229,"Cefn-glas & Bryntirion",0,0
-W02000230,"Pen-y-fai",0,2
-W02000231,"Central Bridgend",0,2
-W02000232,"Brackla East & Coychurch Lower",0,0
-W02000233,"Brackla West",0,0
-W02000234,"Broadlands",0,0
-W02000235,"Porthcawl West",0,0
-W02000236,"Porthcawl East",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+W02000218,"Caerau",0,0,33.0
+W02000219,"Maesteg East",0,2,33.0
+W02000220,"Nant-y-moel",0,0,265.0
+W02000221,"Blaengarw",0,0,215.0
+W02000222,"Maesteg West",0,0,130.0
+W02000223,"Ynysawdre & Aberkenfig",0,0,97.0
+W02000224,"Sarn",0,2,215.0
+W02000225,"Pyle",0,0,126.0
+W02000226,"Pen-prysg",0,0,262.0
+W02000227,"Cornelly",0,0,110.0
+W02000228,"Pen-dre",0,0,905.0
+W02000229,"Cefn-glas & Bryntirion",0,0,690.0
+W02000230,"Pen-y-fai",0,2,934.0
+W02000231,"Central Bridgend",0,2,934.0
+W02000232,"Brackla East & Coychurch Lower",0,0,808.0
+W02000233,"Brackla West",0,0,690.0
+W02000234,"Broadlands",0,0,787.0
+W02000235,"Porthcawl West",0,0,110.0
+W02000236,"Porthcawl East",0,0,178.0

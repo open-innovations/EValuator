@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003732,"Littleport",0,0
-E02003733,"Little Downham & Sutton",0,0
-E02003734,"North Ely",0,2
-E02003735,"South Ely",0,7
-E02003736,"Haddenham",0,1
-E02003737,"Soham",0,0
-E02003738,"Isleham",0,0
-E02003739,"Burwell",0,0
-E02003740,"Swaffham & Bottisham",0,1
-E02006825,"Dullingham & Cheveley",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003732,"Littleport",0,0,569.0
+E02003733,"Little Downham & Sutton",0,0,419.0
+E02003734,"North Ely",0,2,413.0
+E02003735,"South Ely",0,7,413.0
+E02003736,"Haddenham",0,1,1150.0
+E02003737,"Soham",0,0,166.0
+E02003738,"Isleham",0,0,608.0
+E02003739,"Burwell",0,0,310.0
+E02003740,"Swaffham & Bottisham",0,1,925.0
+E02006825,"Dullingham & Cheveley",0,0,277.0

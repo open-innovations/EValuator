@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003237,"Glinton",0,0
-E02003238,"Werrington",0,2
-E02003239,"Newborough & Peakirk",0,0
-E02003240,"Barnack",0,1
-E02003241,"Eye & Thorney",0,0
-E02003242,"Walton",0,2
-E02003243,"Paston",0,0
-E02003244,"Dogsthorpe",0,0
-E02003245,"North Bretton & Westwood",0,1
-E02003246,"Millfield & Bourges Boulevard",0,0
-E02003247,"Bretton Park",0,1
-E02003248,"Central Park",0,1
-E02003249,"Fengate & Parnwell",0,5
-E02003250,"Peterborough Central",0,9
-E02003251,"Longthorpe & Netherton",0,1
-E02003252,"West Town & Woodston",0,2
-E02003253,"Fletton",0,6
-E02003254,"Orton West & Castor",0,0
-E02003255,"Stanground",0,0
-E02003257,"Orton Malborne & Goldhay",0,2
-E02006877,"Hargate & Orton Longueville",0,0
-E02006878,"Hampton Vale",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003237,"Glinton",0,0,364.0
+E02003238,"Werrington",0,2,94.0
+E02003239,"Newborough & Peakirk",0,0,364.0
+E02003240,"Barnack",0,1,742.0
+E02003241,"Eye & Thorney",0,0,19941.0
+E02003242,"Walton",0,2,22316.0
+E02003243,"Paston",0,0,19765.0
+E02003244,"Dogsthorpe",0,0,19671.0
+E02003245,"North Bretton & Westwood",0,1,301.0
+E02003246,"Millfield & Bourges Boulevard",0,0,20387.0
+E02003247,"Bretton Park",0,1,207.0
+E02003248,"Central Park",0,1,19671.0
+E02003249,"Fengate & Parnwell",0,5,19941.0
+E02003250,"Peterborough Central",0,9,20086.0
+E02003251,"Longthorpe & Netherton",0,1,477.0
+E02003252,"West Town & Woodston",0,2,20293.0
+E02003253,"Fletton",0,6,20086.0
+E02003254,"Orton West & Castor",0,0,1372.0
+E02003255,"Stanground",0,0,20589.0
+E02003257,"Orton Malborne & Goldhay",0,2,415.0
+E02006877,"Hargate & Orton Longueville",0,0,648.0
+E02006878,"Hampton Vale",0,0,855.0

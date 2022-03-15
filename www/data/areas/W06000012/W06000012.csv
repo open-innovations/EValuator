@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-W02000200,"Dulais Valley",0,0
-W02000201,"Glynneath",0,0
-W02000202,"Pontardawe",0,0
-W02000203,"Aberdulais & Resolfen",0,0
-W02000204,"Cadoxton & Bryn-coch",0,0
-W02000205,"Neath Abbey",0,2
-W02000206,"Neath Town",0,1
-W02000207,"Cimla",0,0
-W02000208,"Skewen & Jersey Marine",0,1
-W02000209,"Glyncorrwg & Blaengwynfi",0,0
-W02000210,"Neath South",0,0
-W02000211,"Briton Ferry",0,0
-W02000212,"Cwmafan & Bryn",0,0
-W02000213,"Baglan",0,0
-W02000214,"Sandfields",0,1
-W02000215,"Aberafan",0,0
-W02000216,"Port Talbot East",0,2
-W02000217,"Port Talbot South & Margam",0,0
-W02000417,"Ystalyfera & Gwaun-Cae-Gurwen",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+W02000200,"Dulais Valley",0,0,103.0
+W02000201,"Glynneath",0,0,150.0
+W02000202,"Pontardawe",0,0,328.0
+W02000203,"Aberdulais & Resolfen",0,0,153.0
+W02000204,"Cadoxton & Bryn-coch",0,0,153.0
+W02000205,"Neath Abbey",0,2,103.0
+W02000206,"Neath Town",0,1,153.0
+W02000207,"Cimla",0,0,153.0
+W02000208,"Skewen & Jersey Marine",0,1,290.0
+W02000209,"Glyncorrwg & Blaengwynfi",0,0,162.0
+W02000210,"Neath South",0,0,50.0
+W02000211,"Briton Ferry",0,0,50.0
+W02000212,"Cwmafan & Bryn",0,0,162.0
+W02000213,"Baglan",0,0,100.0
+W02000214,"Sandfields",0,1,112.0
+W02000215,"Aberafan",0,0,112.0
+W02000216,"Port Talbot East",0,2,112.0
+W02000217,"Port Talbot South & Margam",0,0,91.0
+W02000417,"Ystalyfera & Gwaun-Cae-Gurwen",0,1,166.0

@@ -1,300 +1,300 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002183,"Addingham & Ilkley Moor",0.207,0
-E02002184,"Ilkley & Ben Rhydding",0.15,4
-E02002185,"Burley-in-Wharfedale",0.121,0
-E02002186,"Steeton & Silsden",0.206,2
-E02002187,"Menston & Burley Moor",0.15,0
-E02002188,"Riddlesden & East Morton",0.086,0
-E02002189,"Keighley Utley",0.153,0
-E02002190,"Keighley Central & East",0.198,3
-E02002191,"Keighley Oakworth Road & West Lane",0.118,0
-E02002192,"Crossflatts & Eldwick",0.122,0
-E02002193,"Keighley South",0.163,0
-E02002194,"Keighley Exley Head",0.105,2
-E02002195,"Baildon North",0.107,1
-E02002196,"Oakworth & Laycock",0.13,1
-E02002197,"Bingley Town",0.157,3
-E02002198,"Baildon South",0.09,0
-E02002199,"Thackley & Esholt",0.075,1
-E02002200,"Saltaire & Baildon West",0.102,0
-E02002201,"Idle",0.084,1
-E02002202,"Shipley Town",0.098,2
-E02002203,"Windhill",0.08,0
-E02002204,"Cottingley",0.106,0
-E02002205,"Haworth & Oxenhope",0.155,1
-E02002206,"Wrose & Bolton Woods",0.086,0
-E02002207,"Frizinghall & Heaton Grove",0.095,0
-E02002208,"Eccleshill",0.095,0
-E02002209,"Ravenscliffe",0.086,0
-E02002210,"Bolton Road & Kings Road",0.088,0
-E02002211,"Heaton Highgate",0.127,0
-E02002212,"Chellow Heights",0.132,0
-E02002213,"Cullingworth & Denholme",0.166,0
-E02002214,"Haigh Fold",0.11,0
-E02002215,"Toller Lane & Infirmary",0.125,1
-E02002216,"Manningham & Lister Park",0.118,2
-E02002217,"Undercliffe",0.083,0
-E02002218,"Allerton",0.162,0
-E02002219,"Girlington",0.119,0
-E02002220,"Thornbury",0.14,3
-E02002221,"Central Bradford & Barkerend West",0.109,8
-E02002222,"Fairweather Green",0.138,0
-E02002223,"Brown Royd",0.116,2
-E02002224,"Barkerend East",0.082,0
-E02002225,"Thornton",0.001,0
-E02002226,"Shearbridge & University",0.102,1
-E02002227,"Broomfields & East Bowling",0.11,0
-E02002228,"Laisterdyke & Bowling",0.088,1
-E02002229,"Clayton",0.107,0
-E02002230,"Holme Top",0.12,0
-E02002231,"Scholemoor",0.096,7
-E02002232,"Great Horton & Brackenhill",0.104,2
-E02002233,"Canterbury",0.116,0
-E02002234,"Holme Wood",0.09,0
-E02002235,"Bowling Park",0.162,1
-E02002236,"Wibsey St Enoch's",0.116,1
-E02002237,"Horton Bank",0.125,0
-E02002238,"Bankfoot",0.114,2
-E02002239,"Bierley & Tong",0.104,2
-E02002240,"Queensbury",0.178,0
-E02002241,"Buttershaw",0.1,2
-E02002242,"Low Moor",0.108,3
-E02002243,"Wyke",0.137,1
-E02002244,"Illingworth & Ogden",0.119,0
-E02002245,"Mixenden",0.136,0
-E02002246,"Northowram & Shelf",0.149,3
-E02002247,"Hebden Bridge",0.086,4
-E02002248,"Wheatley & Ovenden West",0.134,0
-E02002249,"Ovenden East",0.147,0
-E02002250,"Mytholmroyd & Cragg Vale",0.092,0
-E02002251,"Central Halifax & Boothtown",0.169,6
-E02002252,"Norton Tower & Mount Tabor",0.107,0
-E02002253,"Pellon West & Highroad Well",0.116,0
-E02002254,"Hipperholme",0.15,3
-E02002255,"Pellon East",0.109,0
-E02002256,"Todmorden West & Cornholme",0.067,1
-E02002257,"King Cross",0.107,0
-E02002258,"Clifton & Bailiff Bridge",0.128,6
-E02002259,"Savile Park",0.112,3
-E02002260,"Sowerby Bridge",0.115,3
-E02002261,"Southowram & Siddal",0.073,1
-E02002262,"Brighouse",0.138,4
-E02002263,"Sowerby & Luddendenfoot",0.147,0
-E02002264,"Skircoat Green",0.08,0
-E02002265,"Todmorden East & Walsden",0.067,1
-E02002266,"Rastrick East",0.085,0
-E02002267,"Rastrick West",0.097,0
-E02002268,"Elland",0.103,3
-E02002269,"Greetland & Stainland",0.144,0
-E02002270,"Ripponden",0.194,0
-E02002271,"Birkenshaw",0.097,0
-E02002272,"Birstall",0.124,3
-E02002273,"Scholes & Hunsworth",0.199,2
-E02002274,"Gomersal",0.126,0
-E02002275,"Cleckheaton",0.127,2
-E02002276,"Wilton Park",0.125,0
-E02002277,"Upper Batley & Soothill",0.091,0
-E02002278,"Hightown & Hartshead Moor",0.115,0
-E02002279,"Liversedge",0.122,0
-E02002280,"Batley Central",0.108,3
-E02002281,"Heckmondwike North",0.094,1
-E02002282,"Staincliffe & Healey",0.108,0
-E02002283,"Batley Carr & Mount Pleasant",0.093,2
-E02002284,"Shaw Cross & Hanging Heaton",0.12,0
-E02002285,"Heckmondwike Town",0.112,0
-E02002286,"Dewsbury Moor Upper",0.093,1
-E02002287,"Dewsbury Central & Westborough",0.094,2
-E02002288,"Earlsheaton & Chickenley",0.122,0
-E02002289,"Dewsbury Moor Lower & Westtown",0.081,0
-E02002290,"Northorpe & Crossley",0.108,0
-E02002291,"Battyeford",0.113,0
-E02002292,"Bradley & North Fixby",0.095,0
-E02002293,"Ravensthorpe",0.079,2
-E02002294,"Dewsbury Savile Town & Thornhill Lees",0.089,0
-E02002295,"Deighton & Brackenhall",0.072,3
-E02002296,"Mirfield Central & Hopton",0.107,2
-E02002297,"Cowcliffe & South Fixby",0.165,0
-E02002298,"Thornhill",0.094,0
-E02002299,"Huddersfield Leeds Road & Fartown",0.109,4
-E02002300,"North Lindley & Birchencliffe",0.135,1
-E02002301,"Birkby",0.127,0
-E02002302,"Kirkheaton",0.145,0
-E02002303,"Oakes & South Lindley",0.111,2
-E02002304,"Edgerton & Marsh",0.135,1
-E02002305,"Rawthorpe",0.095,0
-E02002306,"Scapegoat Hill",0.113,0
-E02002307,"Dalton Long Lane",0.118,0
-E02002308,"Longwood & Quarmby",0.129,0
-E02002309,"Paddock & Greenhead",0.084,0
-E02002310,"Moldgreen & Ravensknowle Park",0.105,0
-E02002311,"Golcar",0.103,0
-E02002312,"Aspley",0.103,0
-E02002313,"Lockwood",0.132,1
-E02002314,"Almondbury & Waterloo",0.143,0
-E02002315,"Cowlersley & Milnsbridge",0.111,0
-E02002316,"Lepton",0.187,0
-E02002317,"Crosland Moor",0.119,0
-E02002318,"Primrose Hill",0.115,0
-E02002319,"Slaithwaite & Linthwaite",0.149,2
-E02002320,"Netherton & South Crosland",0.157,0
-E02002321,"Kirkburton & Farnley Tyas",0.196,0
-E02002322,"Marsden & Pole Moor",0,0
-E02002323,"Honley & Brockholes",0.163,0
-E02002324,"Emley & Skelmanthorpe",0.131,0
-E02002325,"Meltham",0.17,0
-E02002326,"Shelley & Shepley",0.188,0
-E02002327,"Denby Dale",0.151,0
-E02002328,"Upperthong & Holmbridge",0.161,3
-E02002329,"Holmfirth",0.174,2
-E02002330,"Wetherby West",0.102,0
-E02002331,"Wetherby East & Thorp Arch",0.327,7
-E02002332,"Otley North",0.195,1
-E02002333,"Otley South",0.19,5
-E02002334,"Boston Spa & Bramham",0.184,1
-E02002335,"Collingham",0.179,2
-E02002336,"Bramhope & Pool-in-Wharfedale",0.225,0
-E02002337,"Guiseley North & West",0.112,0
-E02002338,"Guiseley East & South",0.12,1
-E02002339,"Yeadon West",0.113,5
-E02002340,"Yeadon East",0.156,0
-E02002341,"Alwoodley",0.131,1
-E02002342,"Cookridge & Holt Park",0.15,0
-E02002343,"Yeadon South",0.105,0
-E02002344,"Primley Park & Wigton Moor",0.158,0
-E02002345,"Adel",0.209,1
-E02002346,"Tinshill",0.129,0
-E02002347,"Moor Allerton",0.163,0
-E02002348,"Lawnswood & Ireland Wood",0.158,0
-E02002349,"Roundhay Park & Slaid Hill",0.123,0
-E02002350,"Horsforth West",0.152,3
-E02002351,"Scarcroft",0.136,0
-E02002352,"Moortown",0.147,0
-E02002353,"Roundhay West",0.132,0
-E02002354,"Carr Manor",0.133,0
-E02002356,"Horsforth South & Rawdon",0.167,2
-E02002357,"Horsforth East",0.129,0
-E02002358,"Whinmoor",0.111,0
-E02002359,"Aberford",0.151,0
-E02002360,"Meanwood",0.123,0
-E02002361,"Gledhow",0.123,1
-E02002362,"Hawksworth & West Park",0.08,0
-E02002363,"Chapel Allerton North",0.001,3
-E02002364,"Seacroft North & Monkswood",0.117,0
-E02002366,"Lady Wood & Oakwood",0.103,0
-E02002367,"Meanwood South & Sugarwell",0.103,0
-E02002368,"Calverley & Farsley North",0.167,1
-E02002369,"Hollin Park & Fearnville",0.086,0
-E02002370,"Swarcliffe",0.082,0
-E02002371,"Chapel Allerton South & Chapeltown",0.103,0
-E02002373,"Headingley",0.083,1
-E02002374,"Kirkstall",0.085,3
-E02002375,"Bramley Fall",0.073,0
-E02002376,"Gipton North",0.105,1
-E02002377,"Harehills North",0.102,0
-E02002379,"Seacroft South",0.084,0
-E02002380,"Bramley Park North",0.096,0
-E02002381,"Rodley & Stanningley Park",0.113,1
-E02002382,"Harehills South",0.089,1
-E02002383,"Hyde Park",0.062,0
-E02002384,"Woodhouse & Little London",0.079,4
-E02002385,"Burley",0.074,2
-E02002386,"Cross Gates East & Manston",0.08,0
-E02002387,"Bramley Park South",0.14,0
-E02002388,"Bramley East",0.085,0
-E02002389,"Gipton South & Killingbeck Park",0.091,1
-E02002390,"Cross Gates West & Killingbeck",0.082,2
-E02002391,"Farsley South",0.101,2
-E02002392,"University & Little Woodhouse",0.076,8
-E02002393,"Lincoln Green & St James",0.064,1
-E02002394,"Burmantofts",0.079,1
-E02002395,"New Pudsey",0.168,0
-E02002396,"Bramley South & Upper Armley",0.144,0
-E02002397,"Pudsey North East",0.129,0
-E02002398,"Temple Newsam & Graveleythorpe",0.069,0
-E02002399,"Osmondthorpe & Neville Hill",0.083,0
-E02002400,"Armley & New Wortley",0.095,2
-E02002401,"Halton Moor",0.051,7
-E02002402,"Colton",0.12,5
-E02002403,"Garforth West",0.116,7
-E02002404,"East End Park & Richmond Hill",0.11,0
-E02002405,"Pudsey South West",0.097,3
-E02002406,"Garforth East",0.136,0
-E02002407,"Farnley East",0.145,0
-E02002408,"Pudsey South East",0.115,1
-E02002409,"Farnley West & Gamble Hill",0.167,0
-E02002410,"Wortley",0.103,1
-E02002411,"Holbeck",0.18,1
-E02002412,"New Farnley & Lower Wortley",0.139,1
-E02002414,"Beeston Hill & Hunslet Moor",0.074,2
-E02002415,"Cross Flats Park & Garnets",0.109,0
-E02002416,"Garforth South",0.143,1
-E02002417,"Kippax East",0.161,0
-E02002418,"Kippax West",0.109,0
-E02002419,"Beeston West & Cottingley",0.084,10
-E02002420,"Beeston East",0.115,0
-E02002421,"Belle Isle North",0.132,0
-E02002422,"Churwell",0.07,7
-E02002423,"Belle Isle South",0.09,17
-E02002424,"Morley North & Gildersome East",0.117,0
-E02002425,"Drighlington & Gildersome West",0.194,0
-E02002426,"Woodlesford & Oulton",0.115,2
-E02002427,"Rothwell Inner",0.088,6
-E02002428,"Middleton Town Street",0.068,3
-E02002429,"Rothwell Outer",0.055,0
-E02002430,"Middleton Park Avenue",0.074,0
-E02002431,"Morley East",0.079,2
-E02002432,"Methley",0.095,0
-E02002433,"Morley Central",0.096,7
-E02002434,"Robin Hood",0.111,0
-E02002435,"Morley Bruntcliffe & Woodkirk",0.11,3
-E02002436,"Tingley East & East Ardsley",0.151,0
-E02002437,"Tingley West & West Ardsley",0.186,0
-E02002438,"Ferry Fryston",0.088,0
-E02002439,"Castleford Town",0.098,2
-E02002440,"Airedale",0.126,0
-E02002441,"Castleford West",0.12,0
-E02002442,"Glasshoughton",0.196,6
-E02002443,"Outwood East",0.09,1
-E02002444,"Stanley",0.115,0
-E02002445,"Outwood West",0.093,4
-E02002446,"Altofts",0.046,0
-E02002447,"Knottingley",0.192,1
-E02002448,"Ferrybridge & West Knottingley",0.43,4
-E02002449,"Pontefract North East",0.184,0
-E02002450,"Normanton East",0.126,1
-E02002451,"Wrenthorpe & Kirkhamgate",0.094,0
-E02002452,"Pontefract North West",0.109,2
-E02002453,"Normanton West",0.113,2
-E02002454,"Wakefield Central",0.078,4
-E02002455,"Pontefract South East",0.112,1
-E02002456,"Wakefield St John's",0.081,1
-E02002457,"Eastmoor",0.076,0
-E02002458,"Ossett North",0.125,0
-E02002459,"Alverthorpe & Flanshaw",0.08,0
-E02002460,"Pontefract South West",0.116,0
-E02002461,"Streethouse & Sharlston Common",0.132,0
-E02002462,"Ossett West",0.099,1
-E02002463,"Lupset",0.099,0
-E02002464,"Featherstone",0.142,1
-E02002465,"Thornes",0.094,2
-E02002466,"Ossett South East & Horbury Bridge",0.07,0
-E02002467,"Agbrigg & Belle Isle",0.106,2
-E02002468,"Horbury",0.069,2
-E02002469,"Crofton",0.108,0
-E02002470,"Sandal",0.171,2
-E02002471,"Ackworth & Darrington",0.001,2
-E02002472,"Netherton & Middlestown",0.001,0
-E02002473,"Durkar & Crigglestone",0.176,1
-E02002474,"Kettlethorpe & Chapelthorpe",0.166,0
-E02002475,"Walton",0.215,3
-E02002476,"Kinsley & Fitzwilliam",0.087,0
-E02002477,"Ryhill & South Hiendley",0.157,0
-E02002478,"Upton",0.233,0
-E02002479,"Hemsworth Town",0.25,2
-E02002480,"Moorthorpe",0.169,1
-E02002481,"South Elmsall",0.232,1
-E02002482,"South Kirkby",0.134,0
-E02006852,"Far Headingley & Weetwood",0.116,5
-E02006861,"Hyde Park Corner & Woodhouse Cliff",0.066,0
-E02006875,"Leeds City Centre",0.077,43
-E02006876,"Leeds Dock",0.159,4
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002183,"Addingham & Ilkley Moor",0.207,0,509.0
+E02002184,"Ilkley & Ben Rhydding",0.15,4,327.0
+E02002185,"Burley-in-Wharfedale",0.121,0,449.0
+E02002186,"Steeton & Silsden",0.206,2,228.0
+E02002187,"Menston & Burley Moor",0.15,0,327.0
+E02002188,"Riddlesden & East Morton",0.086,0,449.0
+E02002189,"Keighley Utley",0.153,0,313.0
+E02002190,"Keighley Central & East",0.198,3,550.0
+E02002191,"Keighley Oakworth Road & West Lane",0.118,0,414.0
+E02002192,"Crossflatts & Eldwick",0.122,0,257.0
+E02002193,"Keighley South",0.163,0,186.0
+E02002194,"Keighley Exley Head",0.105,2,186.0
+E02002195,"Baildon North",0.107,1,361.0
+E02002196,"Oakworth & Laycock",0.13,1,329.0
+E02002197,"Bingley Town",0.157,3,221.0
+E02002198,"Baildon South",0.09,0,121.0
+E02002199,"Thackley & Esholt",0.075,1,1244.0
+E02002200,"Saltaire & Baildon West",0.102,0,420.0
+E02002201,"Idle",0.084,1,944.0
+E02002202,"Shipley Town",0.098,2,284.0
+E02002203,"Windhill",0.08,0,1075.0
+E02002204,"Cottingley",0.106,0,354.0
+E02002205,"Haworth & Oxenhope",0.155,1,186.0
+E02002206,"Wrose & Bolton Woods",0.086,0,1075.0
+E02002207,"Frizinghall & Heaton Grove",0.095,0,239.0
+E02002208,"Eccleshill",0.095,0,971.0
+E02002209,"Ravenscliffe",0.086,0,971.0
+E02002210,"Bolton Road & Kings Road",0.088,0,174.0
+E02002211,"Heaton Highgate",0.127,0,163.0
+E02002212,"Chellow Heights",0.132,0,163.0
+E02002213,"Cullingworth & Denholme",0.166,0,497.0
+E02002214,"Haigh Fold",0.11,0,76.0
+E02002215,"Toller Lane & Infirmary",0.125,1,108.0
+E02002216,"Manningham & Lister Park",0.118,2,339.0
+E02002217,"Undercliffe",0.083,0,174.0
+E02002218,"Allerton",0.162,0,55.0
+E02002219,"Girlington",0.119,0,244.0
+E02002220,"Thornbury",0.14,3,130.0
+E02002221,"Central Bradford & Barkerend West",0.109,8,1738.0
+E02002222,"Fairweather Green",0.138,0,249.0
+E02002223,"Brown Royd",0.116,2,176.0
+E02002224,"Barkerend East",0.082,0,209.0
+E02002225,"Thornton",0.001,0,249.0
+E02002226,"Shearbridge & University",0.102,1,226.0
+E02002227,"Broomfields & East Bowling",0.11,0,303.0
+E02002228,"Laisterdyke & Bowling",0.088,1,209.0
+E02002229,"Clayton",0.107,0,200.0
+E02002230,"Holme Top",0.12,0,518.0
+E02002231,"Scholemoor",0.096,7,304.0
+E02002232,"Great Horton & Brackenhill",0.104,2,209.0
+E02002233,"Canterbury",0.116,0,133.0
+E02002234,"Holme Wood",0.09,0,155.0
+E02002235,"Bowling Park",0.162,1,205.0
+E02002236,"Wibsey St Enoch's",0.116,1,126.0
+E02002237,"Horton Bank",0.125,0,159.0
+E02002238,"Bankfoot",0.114,2,126.0
+E02002239,"Bierley & Tong",0.104,2,316.0
+E02002240,"Queensbury",0.178,0,434.0
+E02002241,"Buttershaw",0.1,2,132.0
+E02002242,"Low Moor",0.108,3,337.0
+E02002243,"Wyke",0.137,1,132.0
+E02002244,"Illingworth & Ogden",0.119,0,448.0
+E02002245,"Mixenden",0.136,0,115.0
+E02002246,"Northowram & Shelf",0.149,3,503.0
+E02002247,"Hebden Bridge",0.086,4,268.0
+E02002248,"Wheatley & Ovenden West",0.134,0,422.0
+E02002249,"Ovenden East",0.147,0,328.0
+E02002250,"Mytholmroyd & Cragg Vale",0.092,0,199.0
+E02002251,"Central Halifax & Boothtown",0.169,6,653.0
+E02002252,"Norton Tower & Mount Tabor",0.107,0,203.0
+E02002253,"Pellon West & Highroad Well",0.116,0,209.0
+E02002254,"Hipperholme",0.15,3,337.0
+E02002255,"Pellon East",0.109,0,307.0
+E02002256,"Todmorden West & Cornholme",0.067,1,69.0
+E02002257,"King Cross",0.107,0,209.0
+E02002258,"Clifton & Bailiff Bridge",0.128,6,637.0
+E02002259,"Savile Park",0.112,3,510.0
+E02002260,"Sowerby Bridge",0.115,3,297.0
+E02002261,"Southowram & Siddal",0.073,1,366.0
+E02002262,"Brighouse",0.138,4,421.0
+E02002263,"Sowerby & Luddendenfoot",0.147,0,203.0
+E02002264,"Skircoat Green",0.08,0,307.0
+E02002265,"Todmorden East & Walsden",0.067,1,126.0
+E02002266,"Rastrick East",0.085,0,124.0
+E02002267,"Rastrick West",0.097,0,385.0
+E02002268,"Elland",0.103,3,759.0
+E02002269,"Greetland & Stainland",0.144,0,285.0
+E02002270,"Ripponden",0.194,0,373.0
+E02002271,"Birkenshaw",0.097,0,437.0
+E02002272,"Birstall",0.124,3,200.0
+E02002273,"Scholes & Hunsworth",0.199,2,159.0
+E02002274,"Gomersal",0.126,0,227.0
+E02002275,"Cleckheaton",0.127,2,219.0
+E02002276,"Wilton Park",0.125,0,145.0
+E02002277,"Upper Batley & Soothill",0.091,0,445.0
+E02002278,"Hightown & Hartshead Moor",0.115,0,164.0
+E02002279,"Liversedge",0.122,0,185.0
+E02002280,"Batley Central",0.108,3,124.0
+E02002281,"Heckmondwike North",0.094,1,128.0
+E02002282,"Staincliffe & Healey",0.108,0,191.0
+E02002283,"Batley Carr & Mount Pleasant",0.093,2,280.0
+E02002284,"Shaw Cross & Hanging Heaton",0.12,0,362.0
+E02002285,"Heckmondwike Town",0.112,0,188.0
+E02002286,"Dewsbury Moor Upper",0.093,1,170.0
+E02002287,"Dewsbury Central & Westborough",0.094,2,407.0
+E02002288,"Earlsheaton & Chickenley",0.122,0,289.0
+E02002289,"Dewsbury Moor Lower & Westtown",0.081,0,156.0
+E02002290,"Northorpe & Crossley",0.108,0,106.0
+E02002291,"Battyeford",0.113,0,106.0
+E02002292,"Bradley & North Fixby",0.095,0,392.0
+E02002293,"Ravensthorpe",0.079,2,262.0
+E02002294,"Dewsbury Savile Town & Thornhill Lees",0.089,0,262.0
+E02002295,"Deighton & Brackenhall",0.072,3,268.0
+E02002296,"Mirfield Central & Hopton",0.107,2,197.0
+E02002297,"Cowcliffe & South Fixby",0.165,0,538.0
+E02002298,"Thornhill",0.094,0,358.0
+E02002299,"Huddersfield Leeds Road & Fartown",0.109,4,825.0
+E02002300,"North Lindley & Birchencliffe",0.135,1,256.0
+E02002301,"Birkby",0.127,0,282.0
+E02002302,"Kirkheaton",0.145,0,534.0
+E02002303,"Oakes & South Lindley",0.111,2,414.0
+E02002304,"Edgerton & Marsh",0.135,1,414.0
+E02002305,"Rawthorpe",0.095,0,196.0
+E02002306,"Scapegoat Hill",0.113,0,261.0
+E02002307,"Dalton Long Lane",0.118,0,196.0
+E02002308,"Longwood & Quarmby",0.129,0,261.0
+E02002309,"Paddock & Greenhead",0.084,0,325.0
+E02002310,"Moldgreen & Ravensknowle Park",0.105,0,196.0
+E02002311,"Golcar",0.103,0,261.0
+E02002312,"Aspley",0.103,0,390.0
+E02002313,"Lockwood",0.132,1,193.0
+E02002314,"Almondbury & Waterloo",0.143,0,411.0
+E02002315,"Cowlersley & Milnsbridge",0.111,0,454.0
+E02002316,"Lepton",0.187,0,836.0
+E02002317,"Crosland Moor",0.119,0,193.0
+E02002318,"Primrose Hill",0.115,0,193.0
+E02002319,"Slaithwaite & Linthwaite",0.149,2,129.0
+E02002320,"Netherton & South Crosland",0.157,0,580.0
+E02002321,"Kirkburton & Farnley Tyas",0.196,0,568.0
+E02002322,"Marsden & Pole Moor",0,0,320.0
+E02002323,"Honley & Brockholes",0.163,0,475.0
+E02002324,"Emley & Skelmanthorpe",0.131,0,480.0
+E02002325,"Meltham",0.17,0,475.0
+E02002326,"Shelley & Shepley",0.188,0,320.0
+E02002327,"Denby Dale",0.151,0,232.0
+E02002328,"Upperthong & Holmbridge",0.161,3,387.0
+E02002329,"Holmfirth",0.174,2,707.0
+E02002330,"Wetherby West",0.102,0,169.0
+E02002331,"Wetherby East & Thorp Arch",0.327,7,527.0
+E02002332,"Otley North",0.195,1,122.0
+E02002333,"Otley South",0.19,5,449.0
+E02002334,"Boston Spa & Bramham",0.184,1,190.0
+E02002335,"Collingham",0.179,2,734.0
+E02002336,"Bramhope & Pool-in-Wharfedale",0.225,0,752.0
+E02002337,"Guiseley North & West",0.112,0,553.0
+E02002338,"Guiseley East & South",0.12,1,228.0
+E02002339,"Yeadon West",0.113,5,354.0
+E02002340,"Yeadon East",0.156,0,124.0
+E02002341,"Alwoodley",0.131,1,750.0
+E02002342,"Cookridge & Holt Park",0.15,0,276.0
+E02002343,"Yeadon South",0.105,0,124.0
+E02002344,"Primley Park & Wigton Moor",0.158,0,352.0
+E02002345,"Adel",0.209,1,276.0
+E02002346,"Tinshill",0.129,0,402.0
+E02002347,"Moor Allerton",0.163,0,628.0
+E02002348,"Lawnswood & Ireland Wood",0.158,0,402.0
+E02002349,"Roundhay Park & Slaid Hill",0.123,0,585.0
+E02002350,"Horsforth West",0.152,3,402.0
+E02002351,"Scarcroft",0.136,0,623.0
+E02002352,"Moortown",0.147,0,696.0
+E02002353,"Roundhay West",0.132,0,585.0
+E02002354,"Carr Manor",0.133,0,586.0
+E02002356,"Horsforth South & Rawdon",0.167,2,1231.0
+E02002357,"Horsforth East",0.129,0,126.0
+E02002358,"Whinmoor",0.111,0,1043.0
+E02002359,"Aberford",0.151,0,714.0
+E02002360,"Meanwood",0.123,0,510.0
+E02002361,"Gledhow",0.123,1,233.0
+E02002362,"Hawksworth & West Park",0.08,0,17958.0
+E02002363,"Chapel Allerton North",0.001,3,344.0
+E02002364,"Seacroft North & Monkswood",0.117,0,125.0
+E02002366,"Lady Wood & Oakwood",0.103,0,233.0
+E02002367,"Meanwood South & Sugarwell",0.103,0,234.0
+E02002368,"Calverley & Farsley North",0.167,1,1188.0
+E02002369,"Hollin Park & Fearnville",0.086,0,358.0
+E02002370,"Swarcliffe",0.082,0,9174.0
+E02002371,"Chapel Allerton South & Chapeltown",0.103,0,344.0
+E02002373,"Headingley",0.083,1,123.0
+E02002374,"Kirkstall",0.085,3,17579.0
+E02002375,"Bramley Fall",0.073,0,8616.0
+E02002376,"Gipton North",0.105,1,653.0
+E02002377,"Harehills North",0.102,0,344.0
+E02002379,"Seacroft South",0.084,0,271.0
+E02002380,"Bramley Park North",0.096,0,293.0
+E02002381,"Rodley & Stanningley Park",0.113,1,293.0
+E02002382,"Harehills South",0.089,1,653.0
+E02002383,"Hyde Park",0.062,0,123.0
+E02002384,"Woodhouse & Little London",0.079,4,9398.0
+E02002385,"Burley",0.074,2,9064.0
+E02002386,"Cross Gates East & Manston",0.08,0,399.0
+E02002387,"Bramley Park South",0.14,0,109.0
+E02002388,"Bramley East",0.085,0,10535.0
+E02002389,"Gipton South & Killingbeck Park",0.091,1,778.0
+E02002390,"Cross Gates West & Killingbeck",0.082,2,691.0
+E02002391,"Farsley South",0.101,2,293.0
+E02002392,"University & Little Woodhouse",0.076,8,9069.0
+E02002393,"Lincoln Green & St James",0.064,1,792.0
+E02002394,"Burmantofts",0.079,1,9323.0
+E02002395,"New Pudsey",0.168,0,261.0
+E02002396,"Bramley South & Upper Armley",0.144,0,1982.0
+E02002397,"Pudsey North East",0.129,0,293.0
+E02002398,"Temple Newsam & Graveleythorpe",0.069,0,691.0
+E02002399,"Osmondthorpe & Neville Hill",0.083,0,588.0
+E02002400,"Armley & New Wortley",0.095,2,19395.0
+E02002401,"Halton Moor",0.051,7,566.0
+E02002402,"Colton",0.12,5,146.0
+E02002403,"Garforth West",0.116,7,253.0
+E02002404,"East End Park & Richmond Hill",0.11,0,420.0
+E02002405,"Pudsey South West",0.097,3,362.0
+E02002406,"Garforth East",0.136,0,253.0
+E02002407,"Farnley East",0.145,0,1982.0
+E02002408,"Pudsey South East",0.115,1,207.0
+E02002409,"Farnley West & Gamble Hill",0.167,0,2164.0
+E02002410,"Wortley",0.103,1,1896.0
+E02002411,"Holbeck",0.18,1,10916.0
+E02002412,"New Farnley & Lower Wortley",0.139,1,2078.0
+E02002414,"Beeston Hill & Hunslet Moor",0.074,2,285.0
+E02002415,"Cross Flats Park & Garnets",0.109,0,117.0
+E02002416,"Garforth South",0.143,1,569.0
+E02002417,"Kippax East",0.161,0,427.0
+E02002418,"Kippax West",0.109,0,253.0
+E02002419,"Beeston West & Cottingley",0.084,10,11098.0
+E02002420,"Beeston East",0.115,0,117.0
+E02002421,"Belle Isle North",0.132,0,168.0
+E02002422,"Churwell",0.07,7,299.0
+E02002423,"Belle Isle South",0.09,17,168.0
+E02002424,"Morley North & Gildersome East",0.117,0,182.0
+E02002425,"Drighlington & Gildersome West",0.194,0,436.0
+E02002426,"Woodlesford & Oulton",0.115,2,170.0
+E02002427,"Rothwell Inner",0.088,6,170.0
+E02002428,"Middleton Town Street",0.068,3,455.0
+E02002429,"Rothwell Outer",0.055,0,503.0
+E02002430,"Middleton Park Avenue",0.074,0,467.0
+E02002431,"Morley East",0.079,2,347.0
+E02002432,"Methley",0.095,0,597.0
+E02002433,"Morley Central",0.096,7,600.0
+E02002434,"Robin Hood",0.111,0,333.0
+E02002435,"Morley Bruntcliffe & Woodkirk",0.11,3,581.0
+E02002436,"Tingley East & East Ardsley",0.151,0,165.0
+E02002437,"Tingley West & West Ardsley",0.186,0,479.0
+E02002438,"Ferry Fryston",0.088,0,174.0
+E02002439,"Castleford Town",0.098,2,174.0
+E02002440,"Airedale",0.126,0,337.0
+E02002441,"Castleford West",0.12,0,174.0
+E02002442,"Glasshoughton",0.196,6,337.0
+E02002443,"Outwood East",0.09,1,305.0
+E02002444,"Stanley",0.115,0,546.0
+E02002445,"Outwood West",0.093,4,619.0
+E02002446,"Altofts",0.046,0,410.0
+E02002447,"Knottingley",0.192,1,57.0
+E02002448,"Ferrybridge & West Knottingley",0.43,4,57.0
+E02002449,"Pontefract North East",0.184,0,163.0
+E02002450,"Normanton East",0.126,1,245.0
+E02002451,"Wrenthorpe & Kirkhamgate",0.094,0,454.0
+E02002452,"Pontefract North West",0.109,2,300.0
+E02002453,"Normanton West",0.113,2,211.0
+E02002454,"Wakefield Central",0.078,4,867.0
+E02002455,"Pontefract South East",0.112,1,163.0
+E02002456,"Wakefield St John's",0.081,1,454.0
+E02002457,"Eastmoor",0.076,0,140.0
+E02002458,"Ossett North",0.125,0,222.0
+E02002459,"Alverthorpe & Flanshaw",0.08,0,426.0
+E02002460,"Pontefract South West",0.116,0,163.0
+E02002461,"Streethouse & Sharlston Common",0.132,0,573.0
+E02002462,"Ossett West",0.099,1,222.0
+E02002463,"Lupset",0.099,0,426.0
+E02002464,"Featherstone",0.142,1,80.0
+E02002465,"Thornes",0.094,2,454.0
+E02002466,"Ossett South East & Horbury Bridge",0.07,0,360.0
+E02002467,"Agbrigg & Belle Isle",0.106,2,454.0
+E02002468,"Horbury",0.069,2,248.0
+E02002469,"Crofton",0.108,0,468.0
+E02002470,"Sandal",0.171,2,314.0
+E02002471,"Ackworth & Darrington",0.001,2,635.0
+E02002472,"Netherton & Middlestown",0.001,0,498.0
+E02002473,"Durkar & Crigglestone",0.176,1,562.0
+E02002474,"Kettlethorpe & Chapelthorpe",0.166,0,562.0
+E02002475,"Walton",0.215,3,1008.0
+E02002476,"Kinsley & Fitzwilliam",0.087,0,415.0
+E02002477,"Ryhill & South Hiendley",0.157,0,396.0
+E02002478,"Upton",0.233,0,250.0
+E02002479,"Hemsworth Town",0.25,2,228.0
+E02002480,"Moorthorpe",0.169,1,87.0
+E02002481,"South Elmsall",0.232,1,87.0
+E02002482,"South Kirkby",0.134,0,148.0
+E02006852,"Far Headingley & Weetwood",0.116,5,510.0
+E02006861,"Hyde Park Corner & Woodhouse Cliff",0.066,0,234.0
+E02006875,"Leeds City Centre",0.077,43,20211.0
+E02006876,"Leeds Dock",0.159,4,9661.0

@@ -1,39 +1,39 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003314,"Hoo Peninsula",0,0
-E02003315,"Cliffe",0,0
-E02003316,"Hoo St Werburgh & High Halstow",0,0
-E02003317,"Wainscott & City Estate",0,0
-E02003318,"Broomhill",0,0
-E02003319,"Strood North & Frindsbury",0,0
-E02003320,"Chatham Maritime",0,2
-E02003321,"Rede Common",0,0
-E02003322,"Gillingham North",0,0
-E02003323,"Gillingham North East",0,0
-E02003324,"Strood South & Temple Marsh",0,3
-E02003325,"Gillingham Central",0,0
-E02003326,"Gillingham East",0,0
-E02003327,"Rochester West",0,0
-E02003328,"Chatham Central and Rochester Riverside",0,0
-E02003329,"Gillingham South",0,0
-E02003330,"Rochester East",0,0
-E02003331,"Twydall",0,0
-E02003332,"Gillingham South East",0,0
-E02003333,"Luton",0,0
-E02003334,"Chatham South West",0,0
-E02003335,"Chatham South East",0,0
-E02003336,"Rainham North West",0,0
-E02003337,"Rochester South West",0,0
-E02003338,"Rainham North East",0,0
-E02003339,"Rochester South East",0,0
-E02003340,"Wayfield",0,0
-E02003341,"Cuxton & Halling",0,0
-E02003342,"Rainham South East",0,0
-E02003343,"Rainham South West",0,1
-E02003344,"Capstone",0,0
-E02003345,"Parkwood East",0,3
-E02003346,"Horsted",0,1
-E02003347,"Settington",0,1
-E02003348,"Hempstead & Wigmore",0,0
-E02003349,"Parkwood West",0,0
-E02003350,"Walderslade",0,0
-E02003351,"Lordswood",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003314,"Hoo Peninsula",0,0,154.0
+E02003315,"Cliffe",0,0,154.0
+E02003316,"Hoo St Werburgh & High Halstow",0,0,651.0
+E02003317,"Wainscott & City Estate",0,0,651.0
+E02003318,"Broomhill",0,0,613.0
+E02003319,"Strood North & Frindsbury",0,0,497.0
+E02003320,"Chatham Maritime",0,2,296.0
+E02003321,"Rede Common",0,0,497.0
+E02003322,"Gillingham North",0,0,180.0
+E02003323,"Gillingham North East",0,0,180.0
+E02003324,"Strood South & Temple Marsh",0,3,613.0
+E02003325,"Gillingham Central",0,0,180.0
+E02003326,"Gillingham East",0,0,180.0
+E02003327,"Rochester West",0,0,883.0
+E02003328,"Chatham Central and Rochester Riverside",0,0,619.0
+E02003329,"Gillingham South",0,0,387.0
+E02003330,"Rochester East",0,0,116.0
+E02003331,"Twydall",0,0,226.0
+E02003332,"Gillingham South East",0,0,613.0
+E02003333,"Luton",0,0,323.0
+E02003334,"Chatham South West",0,0,232.0
+E02003335,"Chatham South East",0,0,116.0
+E02003336,"Rainham North West",0,0,406.0
+E02003337,"Rochester South West",0,0,116.0
+E02003338,"Rainham North East",0,0,226.0
+E02003339,"Rochester South East",0,0,232.0
+E02003340,"Wayfield",0,0,323.0
+E02003341,"Cuxton & Halling",0,0,497.0
+E02003342,"Rainham South East",0,0,226.0
+E02003343,"Rainham South West",0,1,406.0
+E02003344,"Capstone",0,0,387.0
+E02003345,"Parkwood East",0,3,382.0
+E02003346,"Horsted",0,1,439.0
+E02003347,"Settington",0,1,207.0
+E02003348,"Hempstead & Wigmore",0,0,613.0
+E02003349,"Parkwood West",0,0,226.0
+E02003350,"Walderslade",0,0,207.0
+E02003351,"Lordswood",0,0,207.0

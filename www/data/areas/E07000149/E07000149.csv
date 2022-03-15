@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005597,"Costessey & Queens Hills",0,2
-E02005598,"Cringleford",0,3
-E02005599,"Hethersett",0,0
-E02005600,"Hingham",0,0
-E02005601,"Wymondham West",0,0
-E02005602,"Trowse",0,0
-E02005603,"Wymondham East & Spooner Row",0,1
-E02005604,"Loddon",0,2
-E02005605,"Mulbarton",0,1
-E02005606,"Thurlton",0,0
-E02005607,"Long Stratton",0,0
-E02005608,"Hempnall",0,0
-E02005609,"Harleston & Pulham",0,1
-E02005610,"Scole",0,2
-E02005611,"Diss & Roydon",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005597,"Costessey & Queens Hills",0,2,288.0
+E02005598,"Cringleford",0,3,482.0
+E02005599,"Hethersett",0,0,265.0
+E02005600,"Hingham",0,0,355.0
+E02005601,"Wymondham West",0,0,320.0
+E02005602,"Trowse",0,0,581.0
+E02005603,"Wymondham East & Spooner Row",0,1,139.0
+E02005604,"Loddon",0,2,325.0
+E02005605,"Mulbarton",0,1,645.0
+E02005606,"Thurlton",0,0,724.0
+E02005607,"Long Stratton",0,0,331.0
+E02005608,"Hempnall",0,0,239.0
+E02005609,"Harleston & Pulham",0,1,248.0
+E02005610,"Scole",0,2,391.0
+E02005611,"Diss & Roydon",0,0,271.0

@@ -1,26 +1,26 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002590,"Culcheth West & Croft",0.165,0
-E02002591,"Culcheth East & Hollins Green",0.12,0
-E02002592,"Winwick & Burtonwood",0.179,2
-E02002593,"Locking Stumps",0.213,8
-E02002594,"Oakwood & Gorse Covert",0.137,4
-E02002595,"Hulme",0.113,2
-E02002596,"Houghton Green & Fearnhead",0.15,0
-E02002597,"Blackbrook",0.175,0
-E02002598,"Kingswood & Whittle Hall",0.129,7
-E02002599,"Callands & Old Hall",0.059,9
-E02002600,"Orford",0.131,2
-E02002601,"Padgate & Paddington",0.098,1
-E02002602,"Bewsey & Dallam",0.083,0
-E02002603,"Woolston",0.268,0
-E02002604,"Great Sankey",0.09,0
-E02002605,"Hood Manor & Sankey Bridges",0.052,0
-E02002606,"Fairfield & Howley",0.101,0
-E02002607,"Central Warrington",0.13,31
-E02002608,"Penketh & Cuerdley",0.109,1
-E02002609,"Latchford",0.128,0
-E02002610,"Lymm",0.296,3
-E02002611,"Grappenhall",0.382,0
-E02002612,"Stockton Heath & Hillcliffe",0.194,0
-E02002613,"Appleton Thorn",0.373,0
-E02002614,"Appleton",0.243,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002590,"Culcheth West & Croft",0.165,0,358.0
+E02002591,"Culcheth East & Hollins Green",0.12,0,358.0
+E02002592,"Winwick & Burtonwood",0.179,2,750.0
+E02002593,"Locking Stumps",0.213,8,358.0
+E02002594,"Oakwood & Gorse Covert",0.137,4,358.0
+E02002595,"Hulme",0.113,2,173.0
+E02002596,"Houghton Green & Fearnhead",0.15,0,173.0
+E02002597,"Blackbrook",0.175,0,173.0
+E02002598,"Kingswood & Whittle Hall",0.129,7,360.0
+E02002599,"Callands & Old Hall",0.059,9,360.0
+E02002600,"Orford",0.131,2,289.0
+E02002601,"Padgate & Paddington",0.098,1,289.0
+E02002602,"Bewsey & Dallam",0.083,0,533.0
+E02002603,"Woolston",0.268,0,474.0
+E02002604,"Great Sankey",0.09,0,360.0
+E02002605,"Hood Manor & Sankey Bridges",0.052,0,360.0
+E02002606,"Fairfield & Howley",0.101,0,602.0
+E02002607,"Central Warrington",0.13,31,1320.0
+E02002608,"Penketh & Cuerdley",0.109,1,1124.0
+E02002609,"Latchford",0.128,0,313.0
+E02002610,"Lymm",0.296,3,459.0
+E02002611,"Grappenhall",0.382,0,313.0
+E02002612,"Stockton Heath & Hillcliffe",0.194,0,313.0
+E02002613,"Appleton Thorn",0.373,0,313.0
+E02002614,"Appleton",0.243,0,313.0

@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004764,"Waterlooville North West",0,4
-E02004765,"Waterlooville North East",0,0
-E02004766,"Waterlooville Central",0,1
-E02004767,"Barncroft & Warren Park",0,0
-E02004768,"Waterlooville East",0,0
-E02004769,"Leigh Park",0,3
-E02004770,"West Leigh",0,0
-E02004771,"Stockheath Common",0,1
-E02004772,"Purbrook & Widley",0,0
-E02004774,"Emsworth",0,3
-E02004775,"Central Havant & Langstone",0,2
-E02004776,"Hayling West & North",0,0
-E02004777,"South Hayling",0,0
-E02004778,"Hayling Eastoke",0,0
-E02006822,"Bedhampton",0,0
-E02006830,"Cowplain West",0,0
-E02006831,"Cowplain East",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004764,"Waterlooville North West",0,4,475.0
+E02004765,"Waterlooville North East",0,0,279.0
+E02004766,"Waterlooville Central",0,1,279.0
+E02004767,"Barncroft & Warren Park",0,0,298.0
+E02004768,"Waterlooville East",0,0,279.0
+E02004769,"Leigh Park",0,3,298.0
+E02004770,"West Leigh",0,0,298.0
+E02004771,"Stockheath Common",0,1,298.0
+E02004772,"Purbrook & Widley",0,0,7226.0
+E02004774,"Emsworth",0,3,554.0
+E02004775,"Central Havant & Langstone",0,2,428.0
+E02004776,"Hayling West & North",0,0,126.0
+E02004777,"South Hayling",0,0,126.0
+E02004778,"Hayling Eastoke",0,0,126.0
+E02006822,"Bedhampton",0,0,298.0
+E02006830,"Cowplain West",0,0,196.0
+E02006831,"Cowplain East",0,0,475.0

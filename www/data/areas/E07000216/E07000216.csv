@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006439,"Farnham Weybourne & Badshot Lea",0,0
-E02006440,"Farnham Upper Hale",0,1
-E02006441,"Farnham Town",0,5
-E02006442,"Farnham Moor Park & Bourne",0,0
-E02006443,"Farncombe",0,2
-E02006444,"Farnham Shortheath",0,0
-E02006445,"Godalming North",0,9
-E02006446,"Blackheath",0,0
-E02006447,"Farnham Wrecclesham",0,0
-E02006448,"Godalming South",0,1
-E02006449,"Elstead & Milford",0,0
-E02006450,"Wheelerstreet",0,0
-E02006451,"Cranleigh",0,2
-E02006453,"Ewhurst & Chiddingfold",0,0
-E02006454,"Haslemere East",0,1
-E02006455,"Haslemere West",0,2
-E02006839,"Hindhead",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006439,"Farnham Weybourne & Badshot Lea",0,0,815.0
+E02006440,"Farnham Upper Hale",0,1,815.0
+E02006441,"Farnham Town",0,5,815.0
+E02006442,"Farnham Moor Park & Bourne",0,0,815.0
+E02006443,"Farncombe",0,2,246.0
+E02006444,"Farnham Shortheath",0,0,815.0
+E02006445,"Godalming North",0,9,504.0
+E02006446,"Blackheath",0,0,858.0
+E02006447,"Farnham Wrecclesham",0,0,815.0
+E02006448,"Godalming South",0,1,246.0
+E02006449,"Elstead & Milford",0,0,610.0
+E02006450,"Wheelerstreet",0,0,1118.0
+E02006451,"Cranleigh",0,2,403.0
+E02006453,"Ewhurst & Chiddingfold",0,0,1363.0
+E02006454,"Haslemere East",0,1,293.0
+E02006455,"Haslemere West",0,2,293.0
+E02006839,"Hindhead",0,1,897.0

@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004446,"Steeple Bumpstead & Great Yeldham",0,0
-E02004447,"Bures Hamlet",0,0
-E02004448,"Hedingham",0,0
-E02004449,"Halstead Central & West",0,0
-E02004450,"Panfield",0,0
-E02004451,"Halstead East & Colnes",0,0
-E02004452,"Bocking Churchstreet & Blackwater",0,0
-E02004453,"Bocking",0,3
-E02004454,"Central Braintree",0,11
-E02004455,"Braintree West & Rayne",0,0
-E02004456,"Braintree South",0,0
-E02004457,"Silver End & Stisted",0,0
-E02004458,"Great Notley & Black Notley",0,2
-E02004459,"Coggeshall & Kelvedon",0,0
-E02004460,"North Witham",0,1
-E02004461,"West Witham",0,0
-E02004462,"Witham Town",0,15
-E02004463,"Witham South",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004446,"Steeple Bumpstead & Great Yeldham",0,0,744.0
+E02004447,"Bures Hamlet",0,0,430.0
+E02004448,"Hedingham",0,0,371.0
+E02004449,"Halstead Central & West",0,0,140.0
+E02004450,"Panfield",0,0,871.0
+E02004451,"Halstead East & Colnes",0,0,371.0
+E02004452,"Bocking Churchstreet & Blackwater",0,0,350.0
+E02004453,"Bocking",0,3,210.0
+E02004454,"Central Braintree",0,11,731.0
+E02004455,"Braintree West & Rayne",0,0,322.0
+E02004456,"Braintree South",0,0,322.0
+E02004457,"Silver End & Stisted",0,0,714.0
+E02004458,"Great Notley & Black Notley",0,2,929.0
+E02004459,"Coggeshall & Kelvedon",0,0,880.0
+E02004460,"North Witham",0,1,301.0
+E02004461,"West Witham",0,0,161.0
+E02004462,"Witham Town",0,15,161.0
+E02004463,"Witham South",0,0,830.0

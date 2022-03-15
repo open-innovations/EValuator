@@ -1,24 +1,24 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000554,"Highcroft & Holly Park",0,9
-E02000555,"Archway East",0,6
-E02000556,"Tollington",0,6
-E02000557,"Archway West",0,5
-E02000558,"Finsbury Park West",0,9
-E02000559,"Gillespie Road",0,6
-E02000560,"Holloway Nag's Head",0,1
-E02000561,"Tufnell Park East",0,13
-E02000562,"Highbury",0,6
-E02000563,"Hilldrop",0,2
-E02000564,"Lower Holloway",0,3
-E02000565,"Newington Green",0,7
-E02000566,"Highbury Fields",0,2
-E02000567,"Canonbury East & Mildmay Park",0,11
-E02000568,"Caledonian Road",0,11
-E02000569,"Islington North & Canonbury West",0,13
-E02000570,"Barnsbury East",0,17
-E02000571,"Islington East & Arlington",0,9
-E02000572,"Barnsbury West",0,5
-E02000573,"Angel",0,17
-E02000574,"King's Cross & Pentonville",0,18
-E02000575,"Clerkenwell",0,28
-E02000576,"Old Street & St Luke's",0,18
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000554,"Highcroft & Holly Park",0,9,1904.0
+E02000555,"Archway East",0,6,726.0
+E02000556,"Tollington",0,6,928.0
+E02000557,"Archway West",0,5,1441.0
+E02000558,"Finsbury Park West",0,9,696.0
+E02000559,"Gillespie Road",0,6,466.0
+E02000560,"Holloway Nag's Head",0,1,461.0
+E02000561,"Tufnell Park East",0,13,1106.0
+E02000562,"Highbury",0,6,536.0
+E02000563,"Hilldrop",0,2,693.0
+E02000564,"Lower Holloway",0,3,692.0
+E02000565,"Newington Green",0,7,1667.0
+E02000566,"Highbury Fields",0,2,1430.0
+E02000567,"Canonbury East & Mildmay Park",0,11,969.0
+E02000568,"Caledonian Road",0,11,1199.0
+E02000569,"Islington North & Canonbury West",0,13,738.0
+E02000570,"Barnsbury East",0,17,1199.0
+E02000571,"Islington East & Arlington",0,9,738.0
+E02000572,"Barnsbury West",0,5,738.0
+E02000573,"Angel",0,17,923.0
+E02000574,"King's Cross & Pentonville",0,18,1074.0
+E02000575,"Clerkenwell",0,28,2371.0
+E02000576,"Old Street & St Luke's",0,18,1119.0

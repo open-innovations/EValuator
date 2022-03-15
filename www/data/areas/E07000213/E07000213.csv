@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006403,"Stanwell North & Stanwell Moor",0,1
-E02006404,"Stanwell South",0,2
-E02006405,"Ashford West",0,1
-E02006406,"Staines Town",0,15
-E02006407,"Ashford East",0,2
-E02006408,"Ashford Common",0,18
-E02006409,"Staines South East",0,0
-E02006410,"Sunbury Common",0,9
-E02006411,"Staines South West",0,0
-E02006412,"Sunbury East",0,4
-E02006413,"Halliford & Sunbury West",0,0
-E02006414,"Littleton & Shepperton Green",0,0
-E02006415,"Shepperton Town",0,4
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006403,"Stanwell North & Stanwell Moor",0,1,380.0
+E02006404,"Stanwell South",0,2,467.0
+E02006405,"Ashford West",0,1,296.0
+E02006406,"Staines Town",0,15,306.0
+E02006407,"Ashford East",0,2,174.0
+E02006408,"Ashford Common",0,18,401.0
+E02006409,"Staines South East",0,0,358.0
+E02006410,"Sunbury Common",0,9,227.0
+E02006411,"Staines South West",0,0,184.0
+E02006412,"Sunbury East",0,4,696.0
+E02006413,"Halliford & Sunbury West",0,0,332.0
+E02006414,"Littleton & Shepperton Green",0,0,463.0
+E02006415,"Shepperton Town",0,4,956.0

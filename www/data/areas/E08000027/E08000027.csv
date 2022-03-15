@@ -1,44 +1,44 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002000,"Coseley Wallbrook",0,1
-E02002001,"Sedgley East",0,0
-E02002002,"Sedgley West",0,0
-E02002003,"West Coseley",0,2
-E02002004,"Woodsetton",0,1
-E02002005,"Dudley Priory & Wrens Nest",0,1
-E02002006,"Upper Gornal & Ruiton",0,0
-E02002007,"Lower Gornal & The Straits",0,0
-E02002008,"Dibdale",0,0
-E02002009,"Kates Hill",0,0
-E02002010,"New Dock & Eve Hill",0,1
-E02002011,"Kingswinford North",0,3
-E02002012,"Russell's Hall",0,0
-E02002013,"Wall Heath",0,0
-E02002014,"Dixons Green",0,0
-E02002015,"Pensett & Kingswinford East",0,3
-E02002016,"Brockmoor & Woodside",0,0
-E02002017,"Netherton",0,0
-E02002018,"Kingswinford South",0,0
-E02002019,"Dudley Wood & Saltwells",0,0
-E02002020,"Wordsley & Buckpool",0,0
-E02002021,"Brierley Hill",0,6
-E02002022,"Hawbush",0,0
-E02002023,"Ashwood",0,0
-E02002024,"Quarry Bank",0,1
-E02002025,"Shell Corner & Hurst Green",0,0
-E02002026,"Amblecote East",0,0
-E02002027,"Withymoor Village",0,3
-E02002028,"Wollaston",0,0
-E02002029,"Quinton West",0,1
-E02002030,"Amblecote West & Stambermill",0,1
-E02002031,"Cradley West & Hayes Lane",0,0
-E02002032,"Cradley East",0,0
-E02002033,"Hawne",0,1
-E02002034,"Stourbridge Town & Old Quarter",0,7
-E02002035,"Halesowen East",0,0
-E02002036,"Lye & Wynall",0,0
-E02002037,"Norton North",0,0
-E02002038,"Halesowen Town",0,1
-E02002039,"Oldswinford & Pedmore",0,0
-E02002040,"Norton South",0,0
-E02002041,"Pedmore Fields",0,0
-E02002042,"Hayley Green",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002000,"Coseley Wallbrook",0,1,220.0
+E02002001,"Sedgley East",0,0,311.0
+E02002002,"Sedgley West",0,0,270.0
+E02002003,"West Coseley",0,2,313.0
+E02002004,"Woodsetton",0,1,218.0
+E02002005,"Dudley Priory & Wrens Nest",0,1,236.0
+E02002006,"Upper Gornal & Ruiton",0,0,319.0
+E02002007,"Lower Gornal & The Straits",0,0,225.0
+E02002008,"Dibdale",0,0,336.0
+E02002009,"Kates Hill",0,0,212.0
+E02002010,"New Dock & Eve Hill",0,1,319.0
+E02002011,"Kingswinford North",0,3,139.0
+E02002012,"Russell's Hall",0,0,330.0
+E02002013,"Wall Heath",0,0,139.0
+E02002014,"Dixons Green",0,0,212.0
+E02002015,"Pensett & Kingswinford East",0,3,257.0
+E02002016,"Brockmoor & Woodside",0,0,330.0
+E02002017,"Netherton",0,0,297.0
+E02002018,"Kingswinford South",0,0,372.0
+E02002019,"Dudley Wood & Saltwells",0,0,304.0
+E02002020,"Wordsley & Buckpool",0,0,490.0
+E02002021,"Brierley Hill",0,6,219.0
+E02002022,"Hawbush",0,0,351.0
+E02002023,"Ashwood",0,0,233.0
+E02002024,"Quarry Bank",0,1,415.0
+E02002025,"Shell Corner & Hurst Green",0,0,513.0
+E02002026,"Amblecote East",0,0,118.0
+E02002027,"Withymoor Village",0,3,351.0
+E02002028,"Wollaston",0,0,233.0
+E02002029,"Quinton West",0,1,160.0
+E02002030,"Amblecote West & Stambermill",0,1,547.0
+E02002031,"Cradley West & Hayes Lane",0,0,522.0
+E02002032,"Cradley East",0,0,404.0
+E02002033,"Hawne",0,1,453.0
+E02002034,"Stourbridge Town & Old Quarter",0,7,490.0
+E02002035,"Halesowen East",0,0,368.0
+E02002036,"Lye & Wynall",0,0,367.0
+E02002037,"Norton North",0,0,233.0
+E02002038,"Halesowen Town",0,1,368.0
+E02002039,"Oldswinford & Pedmore",0,0,429.0
+E02002040,"Norton South",0,0,490.0
+E02002041,"Pedmore Fields",0,0,196.0
+E02002042,"Hayley Green",0,0,368.0

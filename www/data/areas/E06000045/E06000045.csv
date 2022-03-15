@@ -1,33 +1,33 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003549,"Bassett Green",0,0
-E02003550,"Aldermoor & Lordswood",0,0
-E02003551,"Stoneham",0,0
-E02003552,"Coxford & Lords Hill",0,0
-E02003553,"Swaythling",0,0
-E02003554,"Hollybrook",0,1
-E02003555,"Maybush",0,1
-E02003556,"Townhill Park",0,0
-E02003557,"Highfield & University",0,2
-E02003558,"Shirley Warren",0,0
-E02003559,"Upper Shirley",0,0
-E02003560,"Redbridge & Millbrook West",0,1
-E02003561,"St Denys",0,0
-E02003562,"Bitterne West",0,0
-E02003563,"Shirley South",0,1
-E02003564,"Bitterne East",0,2
-E02003565,"Bevois Town",0,0
-E02003566,"Harefield",0,0
-E02003567,"Regents Park & Millbrook East",0,1
-E02003568,"Banister Park & Howard Road",0,1
-E02003569,"Freemantle",0,0
-E02003570,"Newtown & Nicholstown",0,7
-E02003571,"Central Southampton West",0,32
-E02003572,"Bitterne South",0,8
-E02003573,"Thornhill",0,0
-E02003574,"Sholing East",0,0
-E02003575,"Hightown",0,0
-E02003576,"Itchen",0,4
-E02003577,"Central Southampton East",0,0
-E02003578,"Sholing West",0,0
-E02003579,"Woolston",0,4
-E02003580,"Weston",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003549,"Bassett Green",0,0,336.0
+E02003550,"Aldermoor & Lordswood",0,0,261.0
+E02003551,"Stoneham",0,0,388.0
+E02003552,"Coxford & Lords Hill",0,0,261.0
+E02003553,"Swaythling",0,0,463.0
+E02003554,"Hollybrook",0,1,487.0
+E02003555,"Maybush",0,1,261.0
+E02003556,"Townhill Park",0,0,127.0
+E02003557,"Highfield & University",0,2,336.0
+E02003558,"Shirley Warren",0,0,487.0
+E02003559,"Upper Shirley",0,0,487.0
+E02003560,"Redbridge & Millbrook West",0,1,487.0
+E02003561,"St Denys",0,0,181.0
+E02003562,"Bitterne West",0,0,662.0
+E02003563,"Shirley South",0,1,562.0
+E02003564,"Bitterne East",0,2,295.0
+E02003565,"Bevois Town",0,0,407.0
+E02003566,"Harefield",0,0,127.0
+E02003567,"Regents Park & Millbrook East",0,1,487.0
+E02003568,"Banister Park & Howard Road",0,1,301.0
+E02003569,"Freemantle",0,0,758.0
+E02003570,"Newtown & Nicholstown",0,7,407.0
+E02003571,"Central Southampton West",0,32,720.0
+E02003572,"Bitterne South",0,8,295.0
+E02003573,"Thornhill",0,0,295.0
+E02003574,"Sholing East",0,0,168.0
+E02003575,"Hightown",0,0,168.0
+E02003576,"Itchen",0,4,168.0
+E02003577,"Central Southampton East",0,0,332.0
+E02003578,"Sholing West",0,0,168.0
+E02003579,"Woolston",0,4,168.0
+E02003580,"Weston",0,0,168.0

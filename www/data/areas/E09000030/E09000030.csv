@@ -1,33 +1,33 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000864,"Bow North & Fish Island",0,3
-E02000865,"Bethnal Green North East",0,3
-E02000866,"Bow West",0,6
-E02000867,"Bow South",0,0
-E02000868,"Bethnal Green North West",0,1
-E02000869,"Columbia Road",0,1
-E02000870,"Bethnal Green East",0,0
-E02000871,"Bromley-by-Bow East",0,2
-E02000872,"Brick Lane North",0,3
-E02000873,"Mile End West",0,0
-E02000874,"Bethnal Green Central",0,0
-E02000875,"Bromley-by-Bow West",0,0
-E02000876,"Bethnal Green South",0,3
-E02000877,"Mile End East & Burdett Estate",0,1
-E02000878,"Spitalfields",0,5
-E02000879,"Stepney Green",0,5
-E02000880,"Whitechapel",0,0
-E02000881,"Poplar Leaside",0,0
-E02000882,"Limehouse North & Stepney East",0,0
-E02000883,"Poplar Central",0,1
-E02000884,"Aldgate",0,2
-E02000885,"Shadwell North",0,3
-E02000886,"Limehouse East",0,0
-E02000887,"Poplar West",0,8
-E02000888,"Shadwell Basin & Ratcliffe",0,1
-E02000889,"St George in the East & Wapping North",0,0
-E02000890,"Tower Hill & Wapping South",0,5
-E02000891,"Blackwall & Leamouth",0,9
-E02000893,"Mudchute",0,0
-E02000894,"Millwall South",0,0
-E02006853,"Millwall North",0,6
-E02006854,"Canary Wharf",0,17
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000864,"Bow North & Fish Island",0,3,785.0
+E02000865,"Bethnal Green North East",0,3,738.0
+E02000866,"Bow West",0,6,940.0
+E02000867,"Bow South",0,0,343.0
+E02000868,"Bethnal Green North West",0,1,1680.0
+E02000869,"Columbia Road",0,1,738.0
+E02000870,"Bethnal Green East",0,0,1178.0
+E02000871,"Bromley-by-Bow East",0,2,301.0
+E02000872,"Brick Lane North",0,3,1178.0
+E02000873,"Mile End West",0,0,1479.0
+E02000874,"Bethnal Green Central",0,0,1178.0
+E02000875,"Bromley-by-Bow West",0,0,301.0
+E02000876,"Bethnal Green South",0,3,1178.0
+E02000877,"Mile End East & Burdett Estate",0,1,944.0
+E02000878,"Spitalfields",0,5,459.0
+E02000879,"Stepney Green",0,5,1064.0
+E02000880,"Whitechapel",0,0,1517.0
+E02000881,"Poplar Leaside",0,0,1682.0
+E02000882,"Limehouse North & Stepney East",0,0,1384.0
+E02000883,"Poplar Central",0,1,944.0
+E02000884,"Aldgate",0,2,440.0
+E02000885,"Shadwell North",0,3,1064.0
+E02000886,"Limehouse East",0,0,643.0
+E02000887,"Poplar West",0,8,1096.0
+E02000888,"Shadwell Basin & Ratcliffe",0,1,1707.0
+E02000889,"St George in the East & Wapping North",0,0,1081.0
+E02000890,"Tower Hill & Wapping South",0,5,1528.0
+E02000891,"Blackwall & Leamouth",0,9,643.0
+E02000893,"Mudchute",0,0,643.0
+E02000894,"Millwall South",0,0,643.0
+E02006853,"Millwall North",0,6,643.0
+E02006854,"Canary Wharf",0,17,643.0

@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004944,"St Nicholas",0,0
-E02004945,"Woodfield & Old Town",0,1
-E02004946,"Martins Wood",0,0
-E02004947,"Chells North",0,0
-E02004948,"Symonds Green",0,0
-E02004949,"Pin Green",0,0
-E02004950,"Chells South",0,0
-E02004951,"Bedwell",0,4
-E02004952,"Poplars",0,0
-E02004953,"Shephall",0,0
-E02004954,"Roebuck",0,1
-E02004955,"Broadwater & Bragbury End",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004944,"St Nicholas",0,0,262.0
+E02004945,"Woodfield & Old Town",0,1,262.0
+E02004946,"Martins Wood",0,0,448.0
+E02004947,"Chells North",0,0,284.0
+E02004948,"Symonds Green",0,0,448.0
+E02004949,"Pin Green",0,0,262.0
+E02004950,"Chells South",0,0,186.0
+E02004951,"Bedwell",0,4,448.0
+E02004952,"Poplars",0,0,186.0
+E02004953,"Shephall",0,0,186.0
+E02004954,"Roebuck",0,1,1066.0
+E02004955,"Broadwater & Bragbury End",0,0,186.0

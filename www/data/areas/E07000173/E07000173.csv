@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005865,"Ravenshead & Newstead",0,0
-E02005866,"Calverton & Woodborough",0,0
-E02005868,"Redhill",0,0
-E02005869,"Arnold Town",0,3
-E02005870,"Daybrook",0,5
-E02005871,"Plains Estate",0,0
-E02005872,"Burton Joyce & Lambley",0,0
-E02005873,"Woodthorpe & Arno Vale",0,1
-E02005874,"Mapperley & Porchester",0,2
-E02005875,"Gedling North",0,4
-E02005876,"Gedling South",0,0
-E02005877,"Carlton Hill",0,4
-E02005878,"Carlton",0,12
-E02005879,"Netherfield & Colwick",0,8
-E02006835,"Bestwood Village",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005865,"Ravenshead & Newstead",0,0,904.0
+E02005866,"Calverton & Woodborough",0,0,757.0
+E02005868,"Redhill",0,0,338.0
+E02005869,"Arnold Town",0,3,555.0
+E02005870,"Daybrook",0,5,338.0
+E02005871,"Plains Estate",0,0,555.0
+E02005872,"Burton Joyce & Lambley",0,0,554.0
+E02005873,"Woodthorpe & Arno Vale",0,1,555.0
+E02005874,"Mapperley & Porchester",0,2,387.0
+E02005875,"Gedling North",0,4,387.0
+E02005876,"Gedling South",0,0,337.0
+E02005877,"Carlton Hill",0,4,387.0
+E02005878,"Carlton",0,12,387.0
+E02005879,"Netherfield & Colwick",0,8,790.0
+E02006835,"Bestwood Village",0,0,678.0

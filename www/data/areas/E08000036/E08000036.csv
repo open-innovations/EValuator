@@ -1,46 +1,46 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002438,"Ferry Fryston",0.088,0
-E02002439,"Castleford Town",0.098,2
-E02002440,"Airedale",0.126,0
-E02002441,"Castleford West",0.12,0
-E02002442,"Glasshoughton",0.196,6
-E02002443,"Outwood East",0.09,1
-E02002444,"Stanley",0.115,0
-E02002445,"Outwood West",0.093,4
-E02002446,"Altofts",0.046,0
-E02002447,"Knottingley",0.192,1
-E02002448,"Ferrybridge & West Knottingley",0.43,4
-E02002449,"Pontefract North East",0.184,0
-E02002450,"Normanton East",0.126,1
-E02002451,"Wrenthorpe & Kirkhamgate",0.094,0
-E02002452,"Pontefract North West",0.109,2
-E02002453,"Normanton West",0.113,2
-E02002454,"Wakefield Central",0.078,4
-E02002455,"Pontefract South East",0.112,1
-E02002456,"Wakefield St John's",0.081,1
-E02002457,"Eastmoor",0.076,0
-E02002458,"Ossett North",0.125,0
-E02002459,"Alverthorpe & Flanshaw",0.08,0
-E02002460,"Pontefract South West",0.116,0
-E02002461,"Streethouse & Sharlston Common",0.132,0
-E02002462,"Ossett West",0.099,1
-E02002463,"Lupset",0.099,0
-E02002464,"Featherstone",0.142,1
-E02002465,"Thornes",0.094,2
-E02002466,"Ossett South East & Horbury Bridge",0.07,0
-E02002467,"Agbrigg & Belle Isle",0.106,2
-E02002468,"Horbury",0.069,2
-E02002469,"Crofton",0.108,0
-E02002470,"Sandal",0.171,2
-E02002471,"Ackworth & Darrington",0.001,2
-E02002472,"Netherton & Middlestown",0.001,0
-E02002473,"Durkar & Crigglestone",0.176,1
-E02002474,"Kettlethorpe & Chapelthorpe",0.166,0
-E02002475,"Walton",0.215,3
-E02002476,"Kinsley & Fitzwilliam",0.087,0
-E02002477,"Ryhill & South Hiendley",0.157,0
-E02002478,"Upton",0.233,0
-E02002479,"Hemsworth Town",0.25,2
-E02002480,"Moorthorpe",0.169,1
-E02002481,"South Elmsall",0.232,1
-E02002482,"South Kirkby",0.134,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002438,"Ferry Fryston",0.088,0,174.0
+E02002439,"Castleford Town",0.098,2,174.0
+E02002440,"Airedale",0.126,0,337.0
+E02002441,"Castleford West",0.12,0,174.0
+E02002442,"Glasshoughton",0.196,6,337.0
+E02002443,"Outwood East",0.09,1,305.0
+E02002444,"Stanley",0.115,0,546.0
+E02002445,"Outwood West",0.093,4,619.0
+E02002446,"Altofts",0.046,0,410.0
+E02002447,"Knottingley",0.192,1,57.0
+E02002448,"Ferrybridge & West Knottingley",0.43,4,57.0
+E02002449,"Pontefract North East",0.184,0,163.0
+E02002450,"Normanton East",0.126,1,245.0
+E02002451,"Wrenthorpe & Kirkhamgate",0.094,0,454.0
+E02002452,"Pontefract North West",0.109,2,300.0
+E02002453,"Normanton West",0.113,2,211.0
+E02002454,"Wakefield Central",0.078,4,867.0
+E02002455,"Pontefract South East",0.112,1,163.0
+E02002456,"Wakefield St John's",0.081,1,454.0
+E02002457,"Eastmoor",0.076,0,140.0
+E02002458,"Ossett North",0.125,0,222.0
+E02002459,"Alverthorpe & Flanshaw",0.08,0,426.0
+E02002460,"Pontefract South West",0.116,0,163.0
+E02002461,"Streethouse & Sharlston Common",0.132,0,573.0
+E02002462,"Ossett West",0.099,1,222.0
+E02002463,"Lupset",0.099,0,426.0
+E02002464,"Featherstone",0.142,1,80.0
+E02002465,"Thornes",0.094,2,454.0
+E02002466,"Ossett South East & Horbury Bridge",0.07,0,360.0
+E02002467,"Agbrigg & Belle Isle",0.106,2,454.0
+E02002468,"Horbury",0.069,2,248.0
+E02002469,"Crofton",0.108,0,468.0
+E02002470,"Sandal",0.171,2,314.0
+E02002471,"Ackworth & Darrington",0.001,2,635.0
+E02002472,"Netherton & Middlestown",0.001,0,498.0
+E02002473,"Durkar & Crigglestone",0.176,1,562.0
+E02002474,"Kettlethorpe & Chapelthorpe",0.166,0,562.0
+E02002475,"Walton",0.215,3,1008.0
+E02002476,"Kinsley & Fitzwilliam",0.087,0,415.0
+E02002477,"Ryhill & South Hiendley",0.157,0,396.0
+E02002478,"Upton",0.233,0,250.0
+E02002479,"Hemsworth Town",0.25,2,228.0
+E02002480,"Moorthorpe",0.169,1,87.0
+E02002481,"South Elmsall",0.232,1,87.0
+E02002482,"South Kirkby",0.134,0,148.0

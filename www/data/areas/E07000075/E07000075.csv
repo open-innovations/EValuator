@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004563,"Hullbridge",0,0
-E02004564,"Ashingdon",0,0
-E02004565,"Hockley & Hawkwell West",0,0
-E02004566,"Rochford Town & Canewdon",0,0
-E02004567,"Rayleigh North East",0,0
-E02004568,"Rayleigh North West",0,0
-E02004569,"Rochford Outer & Hawkwell East",0,0
-E02004570,"Rayleigh South West",0,0
-E02004571,"Rayleigh South East",0,0
-E02004572,"Great Wakering & Foulness",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004563,"Hullbridge",0,0,339.0
+E02004564,"Ashingdon",0,0,293.0
+E02004565,"Hockley & Hawkwell West",0,0,293.0
+E02004566,"Rochford Town & Canewdon",0,0,131.0
+E02004567,"Rayleigh North East",0,0,339.0
+E02004568,"Rayleigh North West",0,0,287.0
+E02004569,"Rochford Outer & Hawkwell East",0,0,657.0
+E02004570,"Rayleigh South West",0,0,177.0
+E02004571,"Rayleigh South East",0,0,446.0
+E02004572,"Great Wakering & Foulness",0,0,547.0

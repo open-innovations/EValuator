@@ -1,44 +1,44 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002684,"Bridlington North & Bempton",0.167,0
-E02002685,"Bridlington East & Flamborough",0.094,0
-E02002686,"Bridlington West",0.181,1
-E02002687,"Bridlington Central",0.125,3
-E02002688,"Bridlington Hilderthorpe",0.138,1
-E02002689,"Burton Agnes",0.238,0
-E02002691,"Driffield West & Huggate",0.229,0
-E02002692,"Stamford Bridge & Sutton Upon Derwent",0.231,0
-E02002693,"Skipsea",0.35,0
-E02002694,"Pocklington",0.239,1
-E02002695,"Hornsea",0.137,2
-E02002696,"Cherry Burton",0.281,0
-E02002697,"Leven & Tickton",0.001,0
-E02002698,"Market Weighton",0.318,2
-E02002699,"Molescroft",0.131,0
-E02002700,"Beverley North",0.134,1
-E02002701,"Holme",0.237,0
-E02002702,"Beverley South",0.141,4
-E02002703,"Walkington",0.12,1
-E02002704,"Aldbrough & Sproatley",0.066,0
-E02002705,"Cottingham West",0.155,0
-E02002706,"Cottingham East",0.132,0
-E02002707,"South Cave",0.302,0
-E02002708,"Cottingham South & North Ella",0.136,1
-E02002709,"Gilberdyke & North Cave",0.153,0
-E02002710,"Willerby",0.114,0
-E02002711,"Kirk Ella",0.152,0
-E02002712,"Hedon & Preston",0.171,1
-E02002714,"Withernsea West & Keyingham",0.204,2
-E02002715,"Brough",0.185,1
-E02002716,"Burstwick & Thorngumbald",0.169,0
-E02002717,"Hessle East & Anlaby South",0.164,0
-E02002718,"North Ferriby & Swanland",0.144,1
-E02002719,"Hessle West",0.185,1
-E02002720,"Howden South & Goole North",0.106,0
-E02002721,"Howden North",0.1,0
-E02002722,"Withernsea East & Patrington",0.096,2
-E02002723,"Goole West",0.11,1
-E02002724,"Goole East",0.064,1
-E02002725,"Snaith",0.187,0
-E02006814,"Anlaby Common",0.108,0
-E02006891,"Driffield East & Nafferton",0.145,0
-E02006892,"Driffield Central",0.235,3
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002684,"Bridlington North & Bempton",0.167,0,266.0
+E02002685,"Bridlington East & Flamborough",0.094,0,101.0
+E02002686,"Bridlington West",0.181,1,101.0
+E02002687,"Bridlington Central",0.125,3,101.0
+E02002688,"Bridlington Hilderthorpe",0.138,1,101.0
+E02002689,"Burton Agnes",0.238,0,336.0
+E02002691,"Driffield West & Huggate",0.229,0,271.0
+E02002692,"Stamford Bridge & Sutton Upon Derwent",0.231,0,192.0
+E02002693,"Skipsea",0.35,0,251.0
+E02002694,"Pocklington",0.239,1,450.0
+E02002695,"Hornsea",0.137,2,86.0
+E02002696,"Cherry Burton",0.281,0,481.0
+E02002697,"Leven & Tickton",0.001,0,470.0
+E02002698,"Market Weighton",0.318,2,93.0
+E02002699,"Molescroft",0.131,0,223.0
+E02002700,"Beverley North",0.134,1,223.0
+E02002701,"Holme",0.237,0,593.0
+E02002702,"Beverley South",0.141,4,309.0
+E02002703,"Walkington",0.12,1,331.0
+E02002704,"Aldbrough & Sproatley",0.066,0,147.0
+E02002705,"Cottingham West",0.155,0,157.0
+E02002706,"Cottingham East",0.132,0,171.0
+E02002707,"South Cave",0.302,0,477.0
+E02002708,"Cottingham South & North Ella",0.136,1,220.0
+E02002709,"Gilberdyke & North Cave",0.153,0,445.0
+E02002710,"Willerby",0.114,0,157.0
+E02002711,"Kirk Ella",0.152,0,171.0
+E02002712,"Hedon & Preston",0.171,1,95.0
+E02002714,"Withernsea West & Keyingham",0.204,2,176.0
+E02002715,"Brough",0.185,1,247.0
+E02002716,"Burstwick & Thorngumbald",0.169,0,95.0
+E02002717,"Hessle East & Anlaby South",0.164,0,358.0
+E02002718,"North Ferriby & Swanland",0.144,1,247.0
+E02002719,"Hessle West",0.185,1,132.0
+E02002720,"Howden South & Goole North",0.106,0,394.0
+E02002721,"Howden North",0.1,0,352.0
+E02002722,"Withernsea East & Patrington",0.096,2,109.0
+E02002723,"Goole West",0.11,1,191.0
+E02002724,"Goole East",0.064,1,191.0
+E02002725,"Snaith",0.187,0,1300.0
+E02006814,"Anlaby Common",0.108,0,335.0
+E02006891,"Driffield East & Nafferton",0.145,0,165.0
+E02006892,"Driffield Central",0.235,3,165.0

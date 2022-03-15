@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-W02000237,"Ogmore-by-Sea & Llandow",0,0
-W02000238,"Cowbridge",0,0
-W02000239,"Peterston-super-Ely & Wenvoe",0,2
-W02000240,"Llandough & Cogan",0,0
-W02000241,"Penarth",0,2
-W02000242,"Dinas Powys",0,0
-W02000243,"Gibbonsdown",0,0
-W02000244,"Lower Penarth & Sully",0,0
-W02000245,"Palmerstown",0,0
-W02000246,"Barry Dyfan & Illtyd",0,3
-W02000247,"Llantwit Major",0,0
-W02000248,"Barry East",0,2
-W02000249,"Barry West",0,0
-W02000250,"Rhoose & Airport",0,2
-W02000251,"Barry Island",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+W02000237,"Ogmore-by-Sea & Llandow",0,0,379.0
+W02000238,"Cowbridge",0,0,252.0
+W02000239,"Peterston-super-Ely & Wenvoe",0,2,656.0
+W02000240,"Llandough & Cogan",0,0,448.0
+W02000241,"Penarth",0,2,221.0
+W02000242,"Dinas Powys",0,0,732.0
+W02000243,"Gibbonsdown",0,0,202.0
+W02000244,"Lower Penarth & Sully",0,0,221.0
+W02000245,"Palmerstown",0,0,202.0
+W02000246,"Barry Dyfan & Illtyd",0,3,149.0
+W02000247,"Llantwit Major",0,0,313.0
+W02000248,"Barry East",0,2,202.0
+W02000249,"Barry West",0,0,202.0
+W02000250,"Rhoose & Airport",0,2,205.0
+W02000251,"Barry Island",0,2,626.0

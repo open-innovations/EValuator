@@ -1,30 +1,30 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001708,"Kingston Park & Dinnington",0.431,7
-E02001709,"North Gosforth",0.257,1
-E02001710,"Fawdon South",0.208,10
-E02001711,"Woolsington & Airport",0.341,13
-E02001712,"South Gosforth",0.156,2
-E02001713,"Coxlodge & West Gosforth",0.115,9
-E02001714,"High Heaton",0.151,4
-E02001715,"Kenton",0.221,2
-E02001718,"Blakelaw",0.374,1
-E02001719,"North Heaton",0,1
-E02001720,"North Jesmond",0.139,0
-E02001721,"Throckley & Newburn",0.232,0
-E02001722,"Denton",0.309,0
-E02001723,"Cowgate",0.292,1
-E02001724,"South Jesmond & Sandyford",0.198,0
-E02001725,"Heaton South",0.151,2
-E02001726,"Fenham",0.294,0
-E02001727,"Walkergate",0.099,2
-E02001728,"Lemington",0.388,2
-E02001729,"Nunsmoor",0.124,1
-E02001730,"Shieldfield & Heaton Park",0.173,31
-E02001731,"City Centre & Arthur's Hill",0.099,104
-E02001732,"Scotswood",0.328,0
-E02001733,"Byker",0.107,10
-E02001734,"Benwell",0.185,0
-E02001735,"Walker North",0.07,0
-E02001736,"Elswick",0.08,3
-E02001737,"Walker South",0.059,0
-E02006893,"Westerhope",0.252,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001708,"Kingston Park & Dinnington",0.431,7,444.0
+E02001709,"North Gosforth",0.257,1,604.0
+E02001710,"Fawdon South",0.208,10,295.0
+E02001711,"Woolsington & Airport",0.341,13,698.0
+E02001712,"South Gosforth",0.156,2,383.0
+E02001713,"Coxlodge & West Gosforth",0.115,9,532.0
+E02001714,"High Heaton",0.151,4,512.0
+E02001715,"Kenton",0.221,2,452.0
+E02001718,"Blakelaw",0.374,1,395.0
+E02001719,"North Heaton",0,1,200.0
+E02001720,"North Jesmond",0.139,0,88.0
+E02001721,"Throckley & Newburn",0.232,0,223.0
+E02001722,"Denton",0.309,0,100.0
+E02001723,"Cowgate",0.292,1,202.0
+E02001724,"South Jesmond & Sandyford",0.198,0,160.0
+E02001725,"Heaton South",0.151,2,257.0
+E02001726,"Fenham",0.294,0,325.0
+E02001727,"Walkergate",0.099,2,240.0
+E02001728,"Lemington",0.388,2,123.0
+E02001729,"Nunsmoor",0.124,1,190.0
+E02001730,"Shieldfield & Heaton Park",0.173,31,273.0
+E02001731,"City Centre & Arthur's Hill",0.099,104,542.0
+E02001732,"Scotswood",0.328,0,225.0
+E02001733,"Byker",0.107,10,128.0
+E02001734,"Benwell",0.185,0,225.0
+E02001735,"Walker North",0.07,0,128.0
+E02001736,"Elswick",0.08,3,382.0
+E02001737,"Walker South",0.059,0,128.0
+E02006893,"Westerhope",0.252,2,100.0

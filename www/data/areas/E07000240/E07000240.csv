@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004924,"Harpenden North",0,0
-E02004925,"Harpenden East",0,0
-E02004926,"Harpenden Town",0,6
-E02004927,"Wheathampstead",0,0
-E02004928,"Harpenden Common",0,0
-E02004929,"Redbourn",0,0
-E02004930,"Jersey Farm & Sandridge",0,0
-E02004931,"Marshalswick",0,0
-E02004932,"Townsend & New Greens",0,0
-E02004933,"Bernards Heath",0,0
-E02004934,"Clarence Park",0,2
-E02004935,"St Albans Central",0,6
-E02004936,"Longacres",0,0
-E02004937,"Verulam Park",0,5
-E02004938,"Colney Heath & Tyttenhanger",0,3
-E02004939,"The Camp & Cunningham",0,0
-E02004940,"Cottonmill & Sopwell",0,0
-E02004941,"London Colney",0,0
-E02004942,"How Wood & Park Street",0,1
-E02004943,"Bricket Wood & Chiswell Green",0,8
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004924,"Harpenden North",0,0,493.0
+E02004925,"Harpenden East",0,0,493.0
+E02004926,"Harpenden Town",0,6,493.0
+E02004927,"Wheathampstead",0,0,1680.0
+E02004928,"Harpenden Common",0,0,855.0
+E02004929,"Redbourn",0,0,1625.0
+E02004930,"Jersey Farm & Sandridge",0,0,682.0
+E02004931,"Marshalswick",0,0,320.0
+E02004932,"Townsend & New Greens",0,0,362.0
+E02004933,"Bernards Heath",0,0,1051.0
+E02004934,"Clarence Park",0,2,369.0
+E02004935,"St Albans Central",0,6,731.0
+E02004936,"Longacres",0,0,1772.0
+E02004937,"Verulam Park",0,5,731.0
+E02004938,"Colney Heath & Tyttenhanger",0,3,689.0
+E02004939,"The Camp & Cunningham",0,0,917.0
+E02004940,"Cottonmill & Sopwell",0,0,597.0
+E02004941,"London Colney",0,0,822.0
+E02004942,"How Wood & Park Street",0,1,502.0
+E02004943,"Bricket Wood & Chiswell Green",0,8,559.0

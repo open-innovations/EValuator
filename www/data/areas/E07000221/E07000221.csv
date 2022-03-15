@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006504,"Earlswood",0,0
-E02006505,"Henley-in-Arden & Claverdon",0,0
-E02006506,"Studley",0,0
-E02006507,"Southam",0,7
-E02006508,"Harbury",0,4
-E02006509,"Alcester",0,5
-E02006510,"Wilmcote & Great Alne",0,6
-E02006511,"Wellesbourne & Snitterfield",0,0
-E02006512,"Stratford North",0,10
-E02006513,"Stratford South East & Tiddington",0,1
-E02006514,"Stratford South West",0,4
-E02006515,"Bidford & Welford",0,3
-E02006516,"Kineton",0,4
-E02006517,"Lower Quinton & Ettington",0,1
-E02006518,"Shipston-on-Stour & Brailes",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006504,"Earlswood",0,0,887.0
+E02006505,"Henley-in-Arden & Claverdon",0,0,971.0
+E02006506,"Studley",0,0,35.0
+E02006507,"Southam",0,7,793.0
+E02006508,"Harbury",0,4,1989.0
+E02006509,"Alcester",0,5,200.0
+E02006510,"Wilmcote & Great Alne",0,6,753.0
+E02006511,"Wellesbourne & Snitterfield",0,0,1190.0
+E02006512,"Stratford North",0,10,579.0
+E02006513,"Stratford South East & Tiddington",0,1,483.0
+E02006514,"Stratford South West",0,4,483.0
+E02006515,"Bidford & Welford",0,3,889.0
+E02006516,"Kineton",0,4,2157.0
+E02006517,"Lower Quinton & Ettington",0,1,1013.0
+E02006518,"Shipston-on-Stour & Brailes",0,0,1080.0

@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000598,"Tudor Drive",0,2
-E02000599,"Kingston Vale & Coombe Hill",0,3
-E02000600,"Kingston Hill",0,3
-E02000601,"Kingston North",0,0
-E02000602,"Kingston East & Norbiton West",0,7
-E02000603,"Norbiton East",0,0
-E02000604,"New Malden East",0,9
-E02000605,"New Malden West",0,3
-E02000606,"Kingston Riverside",0,17
-E02000607,"Berrylands North",0,0
-E02000608,"Surbiton North",0,6
-E02000609,"Malden Manor",0,2
-E02000610,"Surbiton South",0,4
-E02000611,"Berrylands South",0,0
-E02000612,"Motspur Park",0,0
-E02000613,"Southborough",0,0
-E02000614,"Tolworth",0,7
-E02000615,"Hook",0,5
-E02000616,"Chessington North",0,0
-E02000617,"Chessington South & Malden Rushett",0,3
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000598,"Tudor Drive",0,2,700.0
+E02000599,"Kingston Vale & Coombe Hill",0,3,1754.0
+E02000600,"Kingston Hill",0,3,519.0
+E02000601,"Kingston North",0,0,519.0
+E02000602,"Kingston East & Norbiton West",0,7,1254.0
+E02000603,"Norbiton East",0,0,868.0
+E02000604,"New Malden East",0,9,479.0
+E02000605,"New Malden West",0,3,349.0
+E02000606,"Kingston Riverside",0,17,956.0
+E02000607,"Berrylands North",0,0,304.0
+E02000608,"Surbiton North",0,6,437.0
+E02000609,"Malden Manor",0,2,589.0
+E02000610,"Surbiton South",0,4,437.0
+E02000611,"Berrylands South",0,0,437.0
+E02000612,"Motspur Park",0,0,589.0
+E02000613,"Southborough",0,0,437.0
+E02000614,"Tolworth",0,7,847.0
+E02000615,"Hook",0,5,433.0
+E02000616,"Chessington North",0,0,407.0
+E02000617,"Chessington South & Malden Rushett",0,3,1040.0

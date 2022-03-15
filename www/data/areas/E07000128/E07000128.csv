@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005319,"Fleetwood Town",0.05,4
-E02005320,"Fleetwood Warren",0.055,0
-E02005321,"Fleetwood Rossall & Chatsworth",0.066,0
-E02005322,"Preesall",0.163,0
-E02005323,"Fleetwood South East",0.09,0
-E02005324,"Bonds",0.194,4
-E02005325,"Garstang & Catterall",0.213,2
-E02005326,"Cleveleys West",0.118,2
-E02005327,"Pilling",0.201,0
-E02005328,"Cleveleys East",0.15,2
-E02005329,"Thornton West",0.119,0
-E02005330,"Thornton East & Carleton West",0.117,0
-E02005331,"Poulton North & Carleton East",0.164,2
-E02005332,"Poulton South",0.162,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005319,"Fleetwood Town",0.05,4,70.0
+E02005320,"Fleetwood Warren",0.055,0,70.0
+E02005321,"Fleetwood Rossall & Chatsworth",0.066,0,223.0
+E02005322,"Preesall",0.163,0,445.0
+E02005323,"Fleetwood South East",0.09,0,517.0
+E02005324,"Bonds",0.194,4,1045.0
+E02005325,"Garstang & Catterall",0.213,2,294.0
+E02005326,"Cleveleys West",0.118,2,153.0
+E02005327,"Pilling",0.201,0,700.0
+E02005328,"Cleveleys East",0.15,2,153.0
+E02005329,"Thornton West",0.119,0,679.0
+E02005330,"Thornton East & Carleton West",0.117,0,304.0
+E02005331,"Poulton North & Carleton East",0.164,2,151.0
+E02005332,"Poulton South",0.162,0,243.0

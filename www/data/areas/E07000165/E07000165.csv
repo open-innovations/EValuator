@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005761,"Masham",0.312,0
-E02005762,"Ripon North & West",0.312,0
-E02005763,"Dishforth",0.269,0
-E02005764,"Ripon South & East",0.399,3
-E02005765,"Boroughbridge & Marton-cum-Grafton",0.425,0
-E02005766,"Pateley Bridge & Nidd Valley",0.175,0
-E02005767,"Knaresborough North",0.169,0
-E02005768,"Killinghall & Hampsthwaite",0.641,0
-E02005769,"Knaresborough Central",0.227,1
-E02005770,"Bilton",0.141,0
-E02005771,"Saltergate",0.336,0
-E02005772,"Knaresborough South & Follifoot",0.33,1
-E02005773,"Harrogate East",0.097,0
-E02005774,"Starbeck",0.146,0
-E02005775,"Central Harrogate",0.146,6
-E02005776,"Ouseburn",0.338,3
-E02005777,"Hookstone",0.202,0
-E02005778,"Menwith",0.639,0
-E02005779,"Stray",0.147,0
-E02005780,"Harrogate West & Pannal Ash",0.204,0
-E02005781,"Spofforth",0.306,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005761,"Masham",0.312,0,164.0
+E02005762,"Ripon North & West",0.312,0,164.0
+E02005763,"Dishforth",0.269,0,1156.0
+E02005764,"Ripon South & East",0.399,3,164.0
+E02005765,"Boroughbridge & Marton-cum-Grafton",0.425,0,856.0
+E02005766,"Pateley Bridge & Nidd Valley",0.175,0,533.0
+E02005767,"Knaresborough North",0.169,0,880.0
+E02005768,"Killinghall & Hampsthwaite",0.641,0,710.0
+E02005769,"Knaresborough Central",0.227,1,170.0
+E02005770,"Bilton",0.141,0,177.0
+E02005771,"Saltergate",0.336,0,710.0
+E02005772,"Knaresborough South & Follifoot",0.33,1,703.0
+E02005773,"Harrogate East",0.097,0,1043.0
+E02005774,"Starbeck",0.146,0,510.0
+E02005775,"Central Harrogate",0.146,6,510.0
+E02005776,"Ouseburn",0.338,3,908.0
+E02005777,"Hookstone",0.202,0,1213.0
+E02005778,"Menwith",0.639,0,1539.0
+E02005779,"Stray",0.147,0,1043.0
+E02005780,"Harrogate West & Pannal Ash",0.204,0,1043.0
+E02005781,"Spofforth",0.306,1,1557.0

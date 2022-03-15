@@ -1,90 +1,90 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002483,"Clavering",0.144,0
-E02002484,"Headland & West View",0.058,0
-E02002485,"Jesmond",0.134,0
-E02002487,"Harbour & Victoria",0.135,3
-E02002488,"Wooler Road",0.151,0
-E02002489,"Old Town & Grange",0.121,13
-E02002490,"Foggy Furze",0.116,0
-E02002491,"Rift House & Summerhill",0.129,0
-E02002492,"Rossmere & Mill",0.127,0
-E02002493,"Seaton Carew",0.107,1
-E02002494,"Owton Manor",0.102,0
-E02002496,"Middlesbrough Central",0.142,28
-E02002497,"North Ormesby & Brambles",0,1
-E02002498,"Ayresome",0.19,0
-E02002499,"Berwick Hills",0.086,1
-E02002500,"Linthorpe East & Albert Park",0.097,0
-E02002501,"Park Vale",0.131,0
-E02002502,"Thorntree",0.131,0
-E02002503,"Newport & Maze Park",0.17,0
-E02002504,"Linthorpe West",0.123,0
-E02002505,"Park End",0.095,0
-E02002506,"Beechwood & James Cook",0.086,0
-E02002507,"Acklam",0.161,0
-E02002508,"Kader",0.19,0
-E02002509,"Easterside",0.17,2
-E02002510,"Trimdon",0.085,0
-E02002512,"Marton West",0.195,0
-E02002513,"Stainton & Hemlington",0.191,0
-E02002514,"Coulby Newham",0.163,4
-E02002515,"Redcar Town & Coatham",0.123,1
-E02002516,"Redcar Lakes North",0.122,0
-E02002517,"Dormanstown",0.107,4
-E02002518,"Redcar East",0.114,2
-E02002519,"Redcar Lakes South",0.076,0
-E02002520,"Marske",0.202,4
-E02002521,"Saltburn",0.157,0
-E02002523,"Grangetown",0.116,0
-E02002524,"Brotton",0.13,0
-E02002525,"Eston",0.23,0
-E02002526,"Skelton",0.226,1
-E02002527,"Loftus & Skinningrove",0.152,1
-E02002529,"Bankfields",0.149,2
-E02002530,"Boosbeck",0.128,0
-E02002532,"Guisborough North",0.172,5
-E02002533,"Guisborough West",0.115,0
-E02002534,"Guisborough Outer & Upleatham",0.113,2
-E02002535,"Billingham North & Wolviston",0.186,13
-E02002536,"Billingham Central",0.152,7
-E02002537,"Billingham East & Haverton Hill",0.13,6
-E02002538,"Billingham South",0.312,0
-E02002539,"Billingham West",0.159,3
-E02002540,"Norton North",0.243,0
-E02002541,"Norton High Street",0.151,0
-E02002542,"Roseworth",0.15,4
-E02002543,"Hardwick & Salters Lane",0.158,8
-E02002544,"Norton South",0.087,6
-E02002545,"Rimswell & Bishopsgarth",0.3,0
-E02002546,"Eastbourne & Newham Grange",0.119,0
-E02002547,"Elm Tree & Grangefield",0.168,0
-E02002548,"Central Stockton",0.121,40
-E02002549,"Fairfield",0.274,0
-E02002550,"Hartburn",0.162,0
-E02002551,"Thornaby North",0.254,15
-E02002552,"Thornaby Mandale",0.14,14
-E02002553,"Thornaby Village",0.115,0
-E02002554,"Thornaby South",0.163,17
-E02002555,"Eaglescliffe",0.088,0
-E02002556,"Ingleby Barwick East & Hilton",0.123,2
-E02002557,"Ingleby Barwick West",0.094,2
-E02002558,"Yarm",0.287,2
-E02002559,"Faverdale",0.004,6
-E02002560,"Harrowgate Hill",0.197,0
-E02002561,"Whinfield",0.226,0
-E02002562,"Rise Carr",0.111,1
-E02002563,"Haughton Le Skerne",0.264,0
-E02002564,"Cockerton & Hopetown",0.245,0
-E02002565,"Pierremont",0.213,0
-E02002566,"Central Darlington",0.163,19
-E02002567,"Albert Hill & Red Hall",0.195,10
-E02002568,"College & Park West",0.244,0
-E02002569,"Hummersknott",0.17,0
-E02002570,"Bank Top",0.251,0
-E02002571,"Firthmoor",0.249,0
-E02002572,"Park East",0.307,0
-E02002573,"Middleton & Hurworth",0.281,0
-E02006811,"Nunthorpe & Marton East",0.231,0
-E02006812,"Ormesby",0.332,0
-E02006909,"The Fens",0.112,0
-E02006910,"South Bank & Teesville",0.129,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002483,"Clavering",0.144,0,138.0
+E02002484,"Headland & West View",0.058,0,31.0
+E02002485,"Jesmond",0.134,0,105.0
+E02002487,"Harbour & Victoria",0.135,3,105.0
+E02002488,"Wooler Road",0.151,0,138.0
+E02002489,"Old Town & Grange",0.121,13,202.0
+E02002490,"Foggy Furze",0.116,0,95.0
+E02002491,"Rift House & Summerhill",0.129,0,64.0
+E02002492,"Rossmere & Mill",0.127,0,64.0
+E02002493,"Seaton Carew",0.107,1,64.0
+E02002494,"Owton Manor",0.102,0,64.0
+E02002496,"Middlesbrough Central",0.142,28,96.0
+E02002497,"North Ormesby & Brambles",0,1,93.0
+E02002498,"Ayresome",0.19,0,156.0
+E02002499,"Berwick Hills",0.086,1,39.0
+E02002500,"Linthorpe East & Albert Park",0.097,0,103.0
+E02002501,"Park Vale",0.131,0,85.0
+E02002502,"Thorntree",0.131,0,111.0
+E02002503,"Newport & Maze Park",0.17,0,225.0
+E02002504,"Linthorpe West",0.123,0,78.0
+E02002505,"Park End",0.095,0,39.0
+E02002506,"Beechwood & James Cook",0.086,0,25.0
+E02002507,"Acklam",0.161,0,60.0
+E02002508,"Kader",0.19,0,93.0
+E02002509,"Easterside",0.17,2,130.0
+E02002510,"Trimdon",0.085,0,279.0
+E02002512,"Marton West",0.195,0,105.0
+E02002513,"Stainton & Hemlington",0.191,0,180.0
+E02002514,"Coulby Newham",0.163,4,195.0
+E02002515,"Redcar Town & Coatham",0.123,1,110.0
+E02002516,"Redcar Lakes North",0.122,0,110.0
+E02002517,"Dormanstown",0.107,4,196.0
+E02002518,"Redcar East",0.114,2,110.0
+E02002519,"Redcar Lakes South",0.076,0,142.0
+E02002520,"Marske",0.202,4,201.0
+E02002521,"Saltburn",0.157,0,59.0
+E02002523,"Grangetown",0.116,0,68.0
+E02002524,"Brotton",0.13,0,77.0
+E02002525,"Eston",0.23,0,164.0
+E02002526,"Skelton",0.226,1,132.0
+E02002527,"Loftus & Skinningrove",0.152,1,18.0
+E02002529,"Bankfields",0.149,2,126.0
+E02002530,"Boosbeck",0.128,0,132.0
+E02002532,"Guisborough North",0.172,5,127.0
+E02002533,"Guisborough West",0.115,0,55.0
+E02002534,"Guisborough Outer & Upleatham",0.113,2,249.0
+E02002535,"Billingham North & Wolviston",0.186,13,158.0
+E02002536,"Billingham Central",0.152,7,158.0
+E02002537,"Billingham East & Haverton Hill",0.13,6,83.0
+E02002538,"Billingham South",0.312,0,243.0
+E02002539,"Billingham West",0.159,3,565.0
+E02002540,"Norton North",0.243,0,36.0
+E02002541,"Norton High Street",0.151,0,36.0
+E02002542,"Roseworth",0.15,4,167.0
+E02002543,"Hardwick & Salters Lane",0.158,8,131.0
+E02002544,"Norton South",0.087,6,224.0
+E02002545,"Rimswell & Bishopsgarth",0.3,0,131.0
+E02002546,"Eastbourne & Newham Grange",0.119,0,781.0
+E02002547,"Elm Tree & Grangefield",0.168,0,226.0
+E02002548,"Central Stockton",0.121,40,452.0
+E02002549,"Fairfield",0.274,0,348.0
+E02002550,"Hartburn",0.162,0,174.0
+E02002551,"Thornaby North",0.254,15,335.0
+E02002552,"Thornaby Mandale",0.14,14,147.0
+E02002553,"Thornaby Village",0.115,0,147.0
+E02002554,"Thornaby South",0.163,17,147.0
+E02002555,"Eaglescliffe",0.088,0,190.0
+E02002556,"Ingleby Barwick East & Hilton",0.123,2,272.0
+E02002557,"Ingleby Barwick West",0.094,2,239.0
+E02002558,"Yarm",0.287,2,92.0
+E02002559,"Faverdale",0.004,6,859.0
+E02002560,"Harrowgate Hill",0.197,0,449.0
+E02002561,"Whinfield",0.226,0,304.0
+E02002562,"Rise Carr",0.111,1,449.0
+E02002563,"Haughton Le Skerne",0.264,0,304.0
+E02002564,"Cockerton & Hopetown",0.245,0,145.0
+E02002565,"Pierremont",0.213,0,145.0
+E02002566,"Central Darlington",0.163,19,676.0
+E02002567,"Albert Hill & Red Hall",0.195,10,304.0
+E02002568,"College & Park West",0.244,0,593.0
+E02002569,"Hummersknott",0.17,0,593.0
+E02002570,"Bank Top",0.251,0,304.0
+E02002571,"Firthmoor",0.249,0,448.0
+E02002572,"Park East",0.307,0,593.0
+E02002573,"Middleton & Hurworth",0.281,0,289.0
+E02006811,"Nunthorpe & Marton East",0.231,0,130.0
+E02006812,"Ormesby",0.332,0,111.0
+E02006909,"The Fens",0.112,0,329.0
+E02006910,"South Bank & Teesville",0.129,0,72.0

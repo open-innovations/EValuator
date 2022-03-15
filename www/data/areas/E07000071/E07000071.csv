@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004506,"Horkesley Heath",0,1
-E02004507,"Highwoods",0,0
-E02004508,"West Bergholt & Wormingford",0,0
-E02004509,"Mile End & Braiswick",0,8
-E02004512,"Central Colchester",0,0
-E02004513,"Greenstead",0,2
-E02004514,"Lexden",0,0
-E02004515,"Marks Tey & Wakes Colne",0,0
-E02004516,"New Town & Hythe",0,3
-E02004517,"Stanway",0,5
-E02004518,"Abbey Field",0,2
-E02004519,"Prettygate & Westlands",0,0
-E02004520,"Shrub End",0,0
-E02004521,"Old Heath & Rowhedge",0,0
-E02004522,"Wivenhoe & University",0,0
-E02004523,"Monkwick",0,0
-E02004524,"Layer-de-la-Haye",0,0
-E02004525,"Tiptree",0,0
-E02004526,"West Mersea",0,0
-E02006922,"Parson's Heath",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004506,"Horkesley Heath",0,1,760.0
+E02004507,"Highwoods",0,0,289.0
+E02004508,"West Bergholt & Wormingford",0,0,409.0
+E02004509,"Mile End & Braiswick",0,8,355.0
+E02004512,"Central Colchester",0,0,1585.0
+E02004513,"Greenstead",0,2,483.0
+E02004514,"Lexden",0,0,178.0
+E02004515,"Marks Tey & Wakes Colne",0,0,620.0
+E02004516,"New Town & Hythe",0,3,372.0
+E02004517,"Stanway",0,5,306.0
+E02004518,"Abbey Field",0,2,306.0
+E02004519,"Prettygate & Westlands",0,0,178.0
+E02004520,"Shrub End",0,0,372.0
+E02004521,"Old Heath & Rowhedge",0,0,381.0
+E02004522,"Wivenhoe & University",0,0,529.0
+E02004523,"Monkwick",0,0,128.0
+E02004524,"Layer-de-la-Haye",0,0,947.0
+E02004525,"Tiptree",0,0,253.0
+E02004526,"West Mersea",0,0,187.0
+E02006922,"Parson's Heath",0,2,483.0

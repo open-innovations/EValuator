@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003616,"Riseley & Sharnbrook",0,0
-E02003617,"Harrold",0,0
-E02003618,"Clapham",0,0
-E02003619,"Wyboston",0,1
-E02003620,"Brickhill",0,0
-E02003621,"Putnoe",0,0
-E02003622,"Goldington",0,1
-E02003623,"Bromham & Biddenham",0,0
-E02003624,"De Parys",0,12
-E02003625,"Harpur",0,14
-E02003626,"Newnham",0,2
-E02003627,"Castle & Kingsway",0,20
-E02003628,"Queens Park",0,5
-E02003629,"Kingsbrook",0,1
-E02003630,"Cauldwell",0,9
-E02003631,"Kempston North",0,1
-E02003632,"Kempston Central & East",0,1
-E02003633,"Kempston West & South",0,0
-E02003634,"Elstow",0,2
-E02003635,"Wootton & Stewartby",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003616,"Riseley & Sharnbrook",0,0,1636.0
+E02003617,"Harrold",0,0,2446.0
+E02003618,"Clapham",0,0,2059.0
+E02003619,"Wyboston",0,1,1837.0
+E02003620,"Brickhill",0,0,446.0
+E02003621,"Putnoe",0,0,446.0
+E02003622,"Goldington",0,1,255.0
+E02003623,"Bromham & Biddenham",0,0,1207.0
+E02003624,"De Parys",0,12,446.0
+E02003625,"Harpur",0,14,446.0
+E02003626,"Newnham",0,2,446.0
+E02003627,"Castle & Kingsway",0,20,3000.0
+E02003628,"Queens Park",0,5,191.0
+E02003629,"Kingsbrook",0,1,1469.0
+E02003630,"Cauldwell",0,9,681.0
+E02003631,"Kempston North",0,1,996.0
+E02003632,"Kempston Central & East",0,1,235.0
+E02003633,"Kempston West & South",0,0,1602.0
+E02003634,"Elstow",0,2,1693.0
+E02003635,"Wootton & Stewartby",0,0,1176.0

@@ -1,29 +1,29 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000345,"Stamford Hill North",0,5
-E02000346,"Woodberry Down & Manor House",0,0
-E02000347,"Stamford Hill West",0,4
-E02000348,"Stamford Hill South",0,3
-E02000350,"Stoke Newington East & Cazenove",0,1
-E02000351,"Brownswood",0,4
-E02000352,"Clissold North",0,6
-E02000353,"Stoke Newington North",0,8
-E02000354,"Hackney Downs",0,1
-E02000355,"Lower Clapton",0,13
-E02000356,"Clissold South",0,4
-E02000357,"Hackney Marshes",0,2
-E02000358,"Stoke Newington South",0,4
-E02000359,"Homerton North",0,6
-E02000360,"Amhurst Road & Pembury Estate",0,2
-E02000361,"Hackney Central",0,2
-E02000362,"Hackney Wick",0,10
-E02000363,"Homerton South",0,3
-E02000364,"Dalston East",0,9
-E02000365,"Dalston Kingsland & De Beauvoir",0,10
-E02000366,"South Hackney",0,11
-E02000367,"London Fields & Mare Street",0,12
-E02000368,"Haggerston East",0,3
-E02000369,"Haggerston West & Kingsland Basin",0,2
-E02000370,"Hoxton & Wenlock",0,1
-E02000371,"Shoreditch",0,14
-E02006918,"Clapton Leaside",0,2
-E02006921,"Upper Clapton",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000345,"Stamford Hill North",0,5,685.0
+E02000346,"Woodberry Down & Manor House",0,0,718.0
+E02000347,"Stamford Hill West",0,4,636.0
+E02000348,"Stamford Hill South",0,3,507.0
+E02000350,"Stoke Newington East & Cazenove",0,1,507.0
+E02000351,"Brownswood",0,4,466.0
+E02000352,"Clissold North",0,6,540.0
+E02000353,"Stoke Newington North",0,8,305.0
+E02000354,"Hackney Downs",0,1,507.0
+E02000355,"Lower Clapton",0,13,202.0
+E02000356,"Clissold South",0,4,536.0
+E02000357,"Hackney Marshes",0,2,644.0
+E02000358,"Stoke Newington South",0,4,698.0
+E02000359,"Homerton North",0,6,401.0
+E02000360,"Amhurst Road & Pembury Estate",0,2,900.0
+E02000361,"Hackney Central",0,2,794.0
+E02000362,"Hackney Wick",0,10,484.0
+E02000363,"Homerton South",0,3,401.0
+E02000364,"Dalston East",0,9,393.0
+E02000365,"Dalston Kingsland & De Beauvoir",0,10,1436.0
+E02000366,"South Hackney",0,11,199.0
+E02000367,"London Fields & Mare Street",0,12,592.0
+E02000368,"Haggerston East",0,3,1131.0
+E02000369,"Haggerston West & Kingsland Basin",0,2,1869.0
+E02000370,"Hoxton & Wenlock",0,1,923.0
+E02000371,"Shoreditch",0,14,2185.0
+E02006918,"Clapton Leaside",0,2,202.0
+E02006921,"Upper Clapton",0,1,507.0

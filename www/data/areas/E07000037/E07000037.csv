@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004093,"Hadfield East & Tintwistle",0,0
-E02004094,"Hadfield West & Gamesley",0,0
-E02004095,"Glossop",0,5
-E02004096,"Dinting",0,0
-E02004097,"New Mills West & Furness Vale",0,0
-E02004098,"New Mills East & Hayfield",0,0
-E02004100,"Whaley Bridge & Chinley",0,0
-E02004102,"Buxton North",0,1
-E02004103,"Buxton South & East",0,5
-E02004104,"Buxton Burbage & Harpur Hill",0,0
-E02006872,"Chapel-en-le-Frith & Hope Valley",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004093,"Hadfield East & Tintwistle",0,0,296.0
+E02004094,"Hadfield West & Gamesley",0,0,296.0
+E02004095,"Glossop",0,5,160.0
+E02004096,"Dinting",0,0,296.0
+E02004097,"New Mills West & Furness Vale",0,0,509.0
+E02004098,"New Mills East & Hayfield",0,0,349.0
+E02004100,"Whaley Bridge & Chinley",0,0,417.0
+E02004102,"Buxton North",0,1,273.0
+E02004103,"Buxton South & East",0,5,139.0
+E02004104,"Buxton Burbage & Harpur Hill",0,0,139.0
+E02006872,"Chapel-en-le-Frith & Hope Valley",0,1,541.0

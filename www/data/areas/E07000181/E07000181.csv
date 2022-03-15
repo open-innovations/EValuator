@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005993,"Chipping Norton",0,3
-E02005994,"Kingham",0,3
-E02005995,"Chadlington & Wychwoods",0,0
-E02005996,"Woodstock",0,2
-E02005997,"Charlbury & North Leigh",0,0
-E02005998,"Hanborough & Cassington",0,3
-E02005999,"Leafield",0,1
-E02006000,"Witney East",0,0
-E02006001,"Witney West",0,0
-E02006002,"Witney Central",0,0
-E02006003,"Eynsham & Stanton Harcourt",0,0
-E02006004,"Burford & Brize Norton",0,0
-E02006005,"Carterton North",0,0
-E02006006,"Carterton South",0,0
-E02006007,"Bampton",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005993,"Chipping Norton",0,3,260.0
+E02005994,"Kingham",0,3,1561.0
+E02005995,"Chadlington & Wychwoods",0,0,439.0
+E02005996,"Woodstock",0,2,1587.0
+E02005997,"Charlbury & North Leigh",0,0,575.0
+E02005998,"Hanborough & Cassington",0,3,575.0
+E02005999,"Leafield",0,1,901.0
+E02006000,"Witney East",0,0,462.0
+E02006001,"Witney West",0,0,462.0
+E02006002,"Witney Central",0,0,462.0
+E02006003,"Eynsham & Stanton Harcourt",0,0,462.0
+E02006004,"Burford & Brize Norton",0,0,1222.0
+E02006005,"Carterton North",0,0,179.0
+E02006006,"Carterton South",0,0,179.0
+E02006007,"Bampton",0,0,699.0

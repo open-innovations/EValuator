@@ -1,31 +1,31 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006287,"Yoxford",0,12
-E02006288,"Framlingham & Hacheston",0,0
-E02006289,"Saxmundham & Coldfair Green",0,0
-E02006290,"Leiston & Aldeburgh",0,1
-E02006291,"Wickham Market & Melton",0,3
-E02006292,"Westerfield",0,0
-E02006293,"Rendlesham",0,0
-E02006294,"Woodbridge",0,2
-E02006295,"Kesgrave West & Rushmere",0,2
-E02006296,"Kesgrave East & Martlesham",0,6
-E02006297,"Bixley",0,1
-E02006298,"Trimley & Kirton",0,0
-E02006299,"Felixstowe East",0,0
-E02006300,"Felixstowe West",0,2
-E02006301,"Felixstowe Seafront",0,1
-E02006302,"Gunton East",0,0
-E02006303,"Gunton West",0,1
-E02006304,"Oulton",0,0
-E02006305,"Lowestoft Central",0,4
-E02006306,"Normanston & Oulton Broad East",0,1
-E02006307,"Oulton Broad West",0,0
-E02006308,"Lowestoft Harbour & Kirkley",0,2
-E02006309,"Pakefield North",0,0
-E02006310,"Carlton Colville",0,0
-E02006311,"Beccles",0,3
-E02006312,"Worlingham & Barnby",0,3
-E02006313,"Pakefield South & Kessingland",0,0
-E02006314,"Bungay & the Saints",0,3
-E02006315,"Southwold",0,0
-E02006316,"Halesworth & Wangford",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006287,"Yoxford",0,12,499.0
+E02006288,"Framlingham & Hacheston",0,0,253.0
+E02006289,"Saxmundham & Coldfair Green",0,0,115.0
+E02006290,"Leiston & Aldeburgh",0,1,150.0
+E02006291,"Wickham Market & Melton",0,3,363.0
+E02006292,"Westerfield",0,0,605.0
+E02006293,"Rendlesham",0,0,450.0
+E02006294,"Woodbridge",0,2,363.0
+E02006295,"Kesgrave West & Rushmere",0,2,308.0
+E02006296,"Kesgrave East & Martlesham",0,6,495.0
+E02006297,"Bixley",0,1,705.0
+E02006298,"Trimley & Kirton",0,0,231.0
+E02006299,"Felixstowe East",0,0,204.0
+E02006300,"Felixstowe West",0,2,204.0
+E02006301,"Felixstowe Seafront",0,1,204.0
+E02006302,"Gunton East",0,0,227.0
+E02006303,"Gunton West",0,1,114.0
+E02006304,"Oulton",0,0,114.0
+E02006305,"Lowestoft Central",0,4,114.0
+E02006306,"Normanston & Oulton Broad East",0,1,239.0
+E02006307,"Oulton Broad West",0,0,239.0
+E02006308,"Lowestoft Harbour & Kirkley",0,2,239.0
+E02006309,"Pakefield North",0,0,125.0
+E02006310,"Carlton Colville",0,0,125.0
+E02006311,"Beccles",0,3,207.0
+E02006312,"Worlingham & Barnby",0,3,332.0
+E02006313,"Pakefield South & Kessingland",0,0,125.0
+E02006314,"Bungay & the Saints",0,3,328.0
+E02006315,"Southwold",0,0,301.0
+E02006316,"Halesworth & Wangford",0,0,246.0

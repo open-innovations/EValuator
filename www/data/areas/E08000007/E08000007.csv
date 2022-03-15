@@ -1,43 +1,43 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001187,"Reddish Vale View",0.1,0
-E02001188,"North Reddish",0.06,0
-E02001189,"Central Reddish",0.074,0
-E02001190,"Brinnington",0.073,0
-E02001191,"Woodley",0.08,0
-E02001192,"Heaton Chapel & Shaw Road",0.087,0
-E02001193,"South Reddish & Heaton Norris",0.134,12
-E02001194,"Heaton Moor",0.079,0
-E02001195,"Bredbury",0.109,1
-E02001196,"Romiley & Compstall",0.085,0
-E02001197,"Norris Bank",0.06,0
-E02001198,"Bredbury Green",0.096,0
-E02001199,"Heaton Mersey",0.092,0
-E02001200,"Central Stockport",0.092,12
-E02001201,"Woodbank Park",0.077,0
-E02001202,"Edgeley",0.057,0
-E02001203,"Marple Bridge & Mellor",0.138,0
-E02001204,"Cheadle Heath",0.095,1
-E02001205,"Heaviley",0.082,1
-E02001206,"Marple & Rose Hill",0.086,0
-E02001207,"Offerton East & Bosden Farm",0.074,0
-E02001208,"Cheadle East",0.172,0
-E02001209,"Davenport",0.08,0
-E02001210,"Offerton West",0.065,0
-E02001211,"Gatley North",0.183,0
-E02001212,"Adswood",0.078,0
-E02001213,"Woodsmoor & Mile End",0.072,0
-E02001214,"Gatley South & Cheadle West",0.205,0
-E02001215,"Marple & Hawk Green",0.092,0
-E02001216,"Cheadle Hulme Orrishmere",0.088,0
-E02001217,"Hazel Grove North",0.092,0
-E02001218,"Bramhall North West",0.108,0
-E02001219,"Hazel Grove West",0.093,0
-E02001220,"Cheadle Hulme West",0.111,0
-E02001221,"Hazel Grove East & South",0.138,0
-E02001222,"Heald Green West",0.116,1
-E02001223,"Bramhall North East",0.097,0
-E02001224,"High Lane",0.097,0
-E02001225,"Cheadle Hulme South East",0.197,0
-E02001226,"Heald Green East",0.152,0
-E02001227,"Bramhall West",0.154,0
-E02001228,"Bramhall South & Woodford",0.246,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001187,"Reddish Vale View",0.1,0,57.0
+E02001188,"North Reddish",0.06,0,372.0
+E02001189,"Central Reddish",0.074,0,305.0
+E02001190,"Brinnington",0.073,0,57.0
+E02001191,"Woodley",0.08,0,416.0
+E02001192,"Heaton Chapel & Shaw Road",0.087,0,315.0
+E02001193,"South Reddish & Heaton Norris",0.134,12,414.0
+E02001194,"Heaton Moor",0.079,0,248.0
+E02001195,"Bredbury",0.109,1,280.0
+E02001196,"Romiley & Compstall",0.085,0,416.0
+E02001197,"Norris Bank",0.06,0,555.0
+E02001198,"Bredbury Green",0.096,0,280.0
+E02001199,"Heaton Mersey",0.092,0,315.0
+E02001200,"Central Stockport",0.092,12,43382.0
+E02001201,"Woodbank Park",0.077,0,214.0
+E02001202,"Edgeley",0.057,0,43760.0
+E02001203,"Marple Bridge & Mellor",0.138,0,631.0
+E02001204,"Cheadle Heath",0.095,1,43235.0
+E02001205,"Heaviley",0.082,1,214.0
+E02001206,"Marple & Rose Hill",0.086,0,280.0
+E02001207,"Offerton East & Bosden Farm",0.074,0,412.0
+E02001208,"Cheadle East",0.172,0,43235.0
+E02001209,"Davenport",0.08,0,43384.0
+E02001210,"Offerton West",0.065,0,105.0
+E02001211,"Gatley North",0.183,0,539.0
+E02001212,"Adswood",0.078,0,43292.0
+E02001213,"Woodsmoor & Mile End",0.072,0,43275.0
+E02001214,"Gatley South & Cheadle West",0.205,0,372.0
+E02001215,"Marple & Hawk Green",0.092,0,600.0
+E02001216,"Cheadle Hulme Orrishmere",0.088,0,372.0
+E02001217,"Hazel Grove North",0.092,0,940.0
+E02001218,"Bramhall North West",0.108,0,679.0
+E02001219,"Hazel Grove West",0.093,0,307.0
+E02001220,"Cheadle Hulme West",0.111,0,372.0
+E02001221,"Hazel Grove East & South",0.138,0,307.0
+E02001222,"Heald Green West",0.116,1,372.0
+E02001223,"Bramhall North East",0.097,0,307.0
+E02001224,"High Lane",0.097,0,731.0
+E02001225,"Cheadle Hulme South East",0.197,0,372.0
+E02001226,"Heald Green East",0.152,0,372.0
+E02001227,"Bramhall West",0.154,0,679.0
+E02001228,"Bramhall South & Woodford",0.246,2,451.0

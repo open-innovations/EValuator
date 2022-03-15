@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005958,"Thame North",0,0
-E02005959,"Beckley & Horspath",0,0
-E02005960,"Thame South",0,0
-E02005961,"Wheatley & Great Haseley",0,10
-E02005962,"Chinnor & Tetsworth",0,0
-E02005963,"Berinsfield & Wittenham",0,0
-E02005964,"Chalgrove",0,0
-E02005965,"Watlington & Nettlebed",0,2
-E02005966,"Didcot Ladygrove",0,2
-E02005967,"Didcot West",0,2
-E02005968,"Benson & Crowmarsh Gifford",0,1
-E02005969,"Wallingford & Brightwell",0,2
-E02005970,"Didcot South East",0,0
-E02005971,"Didcot South West",0,0
-E02005972,"Hagbourne",0,0
-E02005973,"Henley North",0,3
-E02005974,"Henley South",0,2
-E02005975,"Goring",0,0
-E02005976,"Shiplake & Binfield Heath",0,3
-E02005977,"Sonning Common & Kidmore End",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005958,"Thame North",0,0,232.0
+E02005959,"Beckley & Horspath",0,0,1553.0
+E02005960,"Thame South",0,0,151.0
+E02005961,"Wheatley & Great Haseley",0,10,607.0
+E02005962,"Chinnor & Tetsworth",0,0,534.0
+E02005963,"Berinsfield & Wittenham",0,0,1807.0
+E02005964,"Chalgrove",0,0,579.0
+E02005965,"Watlington & Nettlebed",0,2,985.0
+E02005966,"Didcot Ladygrove",0,2,374.0
+E02005967,"Didcot West",0,2,374.0
+E02005968,"Benson & Crowmarsh Gifford",0,1,1260.0
+E02005969,"Wallingford & Brightwell",0,2,315.0
+E02005970,"Didcot South East",0,0,374.0
+E02005971,"Didcot South West",0,0,374.0
+E02005972,"Hagbourne",0,0,1152.0
+E02005973,"Henley North",0,3,419.0
+E02005974,"Henley South",0,2,419.0
+E02005975,"Goring",0,0,1545.0
+E02005976,"Shiplake & Binfield Heath",0,3,767.0
+E02005977,"Sonning Common & Kidmore End",0,0,767.0

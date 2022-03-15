@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005010,"Herne Bay Parade",0,0
-E02005011,"Beltinge & Bishopstone",0,0
-E02005012,"Herne Bay South & Greenhill",0,0
-E02005013,"Hampton",0,1
-E02005014,"Chestfield & South Tankerton",0,1
-E02005015,"Herne & Broomfield",0,0
-E02005016,"Whitstable Central & Tankerton",0,0
-E02005017,"Whitstable West",0,0
-E02005018,"Seasalter",0,0
-E02005019,"Hoath",0,0
-E02005020,"Sturry and Fordwich",0,0
-E02005021,"Blean Forest",0,1
-E02005022,"Canterbury St Stephen's",0,0
-E02005023,"Canterbury Barracks",0,2
-E02005025,"South Canterbury",0,0
-E02005026,"Thanington & Chartham",0,1
-E02005027,"Bridge",0,2
-E02006855,"Canterbury Wincheap",0,2
-E02006856,"Canterbury Central & Westgate",0,10
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005010,"Herne Bay Parade",0,0,151.0
+E02005011,"Beltinge & Bishopstone",0,0,374.0
+E02005012,"Herne Bay South & Greenhill",0,0,151.0
+E02005013,"Hampton",0,1,329.0
+E02005014,"Chestfield & South Tankerton",0,1,329.0
+E02005015,"Herne & Broomfield",0,0,151.0
+E02005016,"Whitstable Central & Tankerton",0,0,178.0
+E02005017,"Whitstable West",0,0,178.0
+E02005018,"Seasalter",0,0,178.0
+E02005019,"Hoath",0,0,808.0
+E02005020,"Sturry and Fordwich",0,0,693.0
+E02005021,"Blean Forest",0,1,757.0
+E02005022,"Canterbury St Stephen's",0,0,223.0
+E02005023,"Canterbury Barracks",0,2,747.0
+E02005025,"South Canterbury",0,0,747.0
+E02005026,"Thanington & Chartham",0,1,589.0
+E02005027,"Bridge",0,2,586.0
+E02006855,"Canterbury Wincheap",0,2,589.0
+E02006856,"Canterbury Central & Westgate",0,10,562.0

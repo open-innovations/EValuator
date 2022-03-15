@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004697,"Bentley & Holybourne",0,0
-E02004698,"Alton Westbrooke & Eastbrooke",0,1
-E02004699,"Alton Ashdell",0,2
-E02004700,"Bordon Camp",0,1
-E02004702,"Bordon & Lindford",0,0
-E02004703,"Four Marks & Tisted",0,0
-E02004704,"Whitehill & Selborne",0,1
-E02004705,"Liphook",0,2
-E02004706,"Liss & Hawkley",0,0
-E02004707,"Petersfield North & East Meon",0,9
-E02004708,"Petersfield South",0,4
-E02004709,"Clanfield & Finchdean",0,0
-E02004710,"Horndean North",0,0
-E02006829,"Horndean South & Rowlands Castle",0,1
-E02006838,"Headley Down & Grayshott",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004697,"Bentley & Holybourne",0,0,1088.0
+E02004698,"Alton Westbrooke & Eastbrooke",0,1,378.0
+E02004699,"Alton Ashdell",0,2,378.0
+E02004700,"Bordon Camp",0,1,825.0
+E02004702,"Bordon & Lindford",0,0,180.0
+E02004703,"Four Marks & Tisted",0,0,530.0
+E02004704,"Whitehill & Selborne",0,1,658.0
+E02004705,"Liphook",0,2,394.0
+E02004706,"Liss & Hawkley",0,0,715.0
+E02004707,"Petersfield North & East Meon",0,9,968.0
+E02004708,"Petersfield South",0,4,394.0
+E02004709,"Clanfield & Finchdean",0,0,196.0
+E02004710,"Horndean North",0,0,475.0
+E02006829,"Horndean South & Rowlands Castle",0,1,494.0
+E02006838,"Headley Down & Grayshott",0,0,363.0

@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-W02000097,"Llanfyllin & Llanwyddyn",0,0
-W02000098,"Four Crosses & Guilsfield",0,0
-W02000099,"Welshpool",0,2
-W02000100,"Machynlleth & Banwy",0,2
-W02000101,"Montgomery",0,0
-W02000102,"Llanfair Caereinion & Caersws",0,1
-W02000103,"Abermule",0,1
-W02000104,"Newtown North",0,5
-W02000105,"Newtown South",0,0
-W02000106,"Llanidloes",0,2
-W02000107,"Knighton & Presteigne",0,3
-W02000108,"Rhayader",0,0
-W02000109,"Llandrindod Wells",0,3
-W02000110,"Builth Wells & Llanwrtyd Wells",0,2
-W02000111,"Hay-on-Wye & Talgarth",0,0
-W02000113,"Brecon",0,5
-W02000114,"Crickhowell",0,0
-W02000414,"Sennybridge & Talybont-on-Usk",0,2
-W02000416,"Ystradgynlais & Tawe Uchaf",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+W02000097,"Llanfyllin & Llanwyddyn",0,0,251.0
+W02000098,"Four Crosses & Guilsfield",0,0,276.0
+W02000099,"Welshpool",0,2,101.0
+W02000100,"Machynlleth & Banwy",0,2,108.0
+W02000101,"Montgomery",0,0,256.0
+W02000102,"Llanfair Caereinion & Caersws",0,1,150.0
+W02000103,"Abermule",0,1,409.0
+W02000104,"Newtown North",0,5,80.0
+W02000105,"Newtown South",0,0,59.0
+W02000106,"Llanidloes",0,2,99.0
+W02000107,"Knighton & Presteigne",0,3,192.0
+W02000108,"Rhayader",0,0,171.0
+W02000109,"Llandrindod Wells",0,3,91.0
+W02000110,"Builth Wells & Llanwrtyd Wells",0,2,100.0
+W02000111,"Hay-on-Wye & Talgarth",0,0,392.0
+W02000113,"Brecon",0,5,123.0
+W02000114,"Crickhowell",0,0,306.0
+W02000414,"Sennybridge & Talybont-on-Usk",0,2,231.0
+W02000416,"Ystradgynlais & Tawe Uchaf",0,2,292.0

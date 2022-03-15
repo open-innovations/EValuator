@@ -1,7 +1,7 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005788,"Kirkbymoorside & Moors",0.399,6
-E02005789,"Pickering & Thornton Dale",0.249,9
-E02005790,"Helmsley & Ampleforth",0,4
-E02005791,"Rillington & Sherburn",0.059,0
-E02005794,"Sheriff Hutton",0.271,2
-E02006870,"Malton & Norton",0.253,15
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005788,"Kirkbymoorside & Moors",0.399,6,282.0
+E02005789,"Pickering & Thornton Dale",0.249,9,269.0
+E02005790,"Helmsley & Ampleforth",0,4,744.0
+E02005791,"Rillington & Sherburn",0.059,0,451.0
+E02005794,"Sheriff Hutton",0.271,2,597.0
+E02006870,"Malton & Norton",0.253,15,130.0

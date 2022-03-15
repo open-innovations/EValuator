@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005304,"Hesketh Bank & Tarleton",0.109,0
-E02005305,"Rufford & Banks",0.146,2
-E02005306,"Scarisbrick",0.261,0
-E02005307,"Burscough",0.177,2
-E02005308,"Parbold",0.211,1
-E02005309,"Ormskirk North & West",0.249,1
-E02005310,"Ormskirk Town & East",0.249,19
-E02005311,"Bickerstaffe & Newburgh",0.296,0
-E02005312,"Skelmersdale Ashurst",0.258,0
-E02005313,"Skelmersdale Central",0.257,2
-E02005314,"Skelmersdale West",0.161,7
-E02005315,"Aughton",0.273,0
-E02005316,"Skelmersdale East",0.179,0
-E02005317,"Skelmersdale South East",0.168,0
-E02005318,"Upholland",0.226,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005304,"Hesketh Bank & Tarleton",0.109,0,406.0
+E02005305,"Rufford & Banks",0.146,2,711.0
+E02005306,"Scarisbrick",0.261,0,1039.0
+E02005307,"Burscough",0.177,2,142.0
+E02005308,"Parbold",0.211,1,896.0
+E02005309,"Ormskirk North & West",0.249,1,291.0
+E02005310,"Ormskirk Town & East",0.249,19,291.0
+E02005311,"Bickerstaffe & Newburgh",0.296,0,940.0
+E02005312,"Skelmersdale Ashurst",0.258,0,398.0
+E02005313,"Skelmersdale Central",0.257,2,256.0
+E02005314,"Skelmersdale West",0.161,7,256.0
+E02005315,"Aughton",0.273,0,149.0
+E02005316,"Skelmersdale East",0.179,0,256.0
+E02005317,"Skelmersdale South East",0.168,0,256.0
+E02005318,"Upholland",0.226,2,543.0

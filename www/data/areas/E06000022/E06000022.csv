@@ -1,28 +1,28 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002985,"Keynsham North",0,3
-E02002986,"Keynsham South",0,0
-E02002987,"Keynsham East",0,1
-E02002988,"Lambridge & Fairfield Park",0,1
-E02002989,"Weston",0,0
-E02002990,"Walcot",0,1
-E02002991,"Central Bath & Lansdown",0,7
-E02002992,"Newbridge",0,2
-E02002993,"Kingsmead",0,6
-E02002994,"Bathavon North & South",0,5
-E02002995,"Twerton",0,0
-E02002996,"Widcombe",0,7
-E02002997,"Oldfield Park West",0,0
-E02002998,"Oldfield Park East",0,0
-E02002999,"Southdown",0,0
-E02003000,"Saltford",0,0
-E02003001,"Bloomfield",0,1
-E02003002,"Combe Down",0,0
-E02003003,"Odd Down",0,0
-E02003004,"Pensford",0,0
-E02003005,"Chew",0,1
-E02003006,"Peasedown & Bathavon West",0,16
-E02003007,"High Littleton & Paulton",0,2
-E02003008,"Radstock",0,0
-E02003009,"Midsomer Norton North",0,2
-E02003010,"Westfield",0,0
-E02003011,"Midsomer Norton Redfield",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002985,"Keynsham North",0,3,282.0
+E02002986,"Keynsham South",0,0,171.0
+E02002987,"Keynsham East",0,1,171.0
+E02002988,"Lambridge & Fairfield Park",0,1,453.0
+E02002989,"Weston",0,0,453.0
+E02002990,"Walcot",0,1,1169.0
+E02002991,"Central Bath & Lansdown",0,7,1819.0
+E02002992,"Newbridge",0,2,1169.0
+E02002993,"Kingsmead",0,6,453.0
+E02002994,"Bathavon North & South",0,5,1580.0
+E02002995,"Twerton",0,0,1169.0
+E02002996,"Widcombe",0,7,1169.0
+E02002997,"Oldfield Park West",0,0,1169.0
+E02002998,"Oldfield Park East",0,0,716.0
+E02002999,"Southdown",0,0,716.0
+E02003000,"Saltford",0,0,1424.0
+E02003001,"Bloomfield",0,1,1169.0
+E02003002,"Combe Down",0,0,1169.0
+E02003003,"Odd Down",0,0,716.0
+E02003004,"Pensford",0,0,271.0
+E02003005,"Chew",0,1,884.0
+E02003006,"Peasedown & Bathavon West",0,16,982.0
+E02003007,"High Littleton & Paulton",0,2,426.0
+E02003008,"Radstock",0,0,266.0
+E02003009,"Midsomer Norton North",0,2,426.0
+E02003010,"Westfield",0,0,266.0
+E02003011,"Midsomer Norton Redfield",0,0,266.0

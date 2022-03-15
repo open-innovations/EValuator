@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-W02000027,"Llandudno Town & Gogarth",0,0
-W02000028,"Llandudno South",0,0
-W02000029,"Penrhyn Bay",0,0
-W02000030,"Rhos-on-Sea",0,0
-W02000031,"Kinmel Bay & Towyn",0,0
-W02000032,"Llandudno Junction North & Deganwy",0,3
-W02000033,"Colwyn Bay North",0,3
-W02000034,"Upper Colwyn Bay",0,0
-W02000035,"Old Colwyn & Llanddulas",0,0
-W02000036,"Abergele",0,3
-W02000037,"Llandudno Junction South & Llasanffraid Glan Conwy",0,0
-W02000038,"Conwy & Afon Roe",0,0
-W02000039,"Llanfairfechan & Penmaenmawr",0,0
-W02000040,"Betws-yn-Rhos",0,0
-W02000041,"Llanrwst & Betws-y-coed",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+W02000027,"Llandudno Town & Gogarth",0,0,62.0
+W02000028,"Llandudno South",0,0,194.0
+W02000029,"Penrhyn Bay",0,0,228.0
+W02000030,"Rhos-on-Sea",0,0,74.0
+W02000031,"Kinmel Bay & Towyn",0,0,216.0
+W02000032,"Llandudno Junction North & Deganwy",0,3,179.0
+W02000033,"Colwyn Bay North",0,3,139.0
+W02000034,"Upper Colwyn Bay",0,0,139.0
+W02000035,"Old Colwyn & Llanddulas",0,0,150.0
+W02000036,"Abergele",0,3,85.0
+W02000037,"Llandudno Junction South & Llasanffraid Glan Conwy",0,0,231.0
+W02000038,"Conwy & Afon Roe",0,0,161.0
+W02000039,"Llanfairfechan & Penmaenmawr",0,0,56.0
+W02000040,"Betws-yn-Rhos",0,0,375.0
+W02000041,"Llanrwst & Betws-y-coed",0,2,208.0

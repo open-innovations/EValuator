@@ -1,153 +1,153 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001682,"Ryton",0.167,0
-E02001683,"Crawcrook & Greenside",0.099,0
-E02001684,"Pelaw",0.268,8
-E02001685,"Blaydon South",0.17,0
-E02001686,"Blaydon North & Winlaton Mill",0.158,3
-E02001688,"Dunston & Teams",0.151,13
-E02001689,"Bensham North",0.175,0
-E02001690,"Swalwell",0.159,12
-E02001691,"Bensham South & Saltwell",0.117,11
-E02001692,"Mount Pleasant & Deckham East",0.109,0
-E02001693,"Felling South",0.122,0
-E02001694,"Dunston Hill",0.21,2
-E02001695,"Wardley",0.338,0
-E02001696,"Heworth",0.184,3
-E02001697,"Low Fell East",0.111,0
-E02001698,"Whickham",0.129,0
-E02001699,"Windy Nook & Whitehills",0.144,0
-E02001700,"Sunniside & Lobley Hill",0.001,0
-E02001701,"Low Fell West",0.143,4
-E02001702,"Beacon Lough & Wrekenton",0.176,0
-E02001703,"Rowlands Gill & Lockhaugh",0.12,0
-E02001704,"Easedale Gardens",0.351,0
-E02001705,"Chopwell & High Spen",0.079,1
-E02001706,"Birtley North & Kibblesworth",0.361,4
-E02001707,"Birtley South",0.208,8
-E02001768,"South Shields East",0.057,17
-E02001769,"South Shields West",0.103,20
-E02001770,"Westoe",0.079,0
-E02001771,"Horsley Hill",0.066,2
-E02001772,"West Park",0.102,0
-E02001773,"Harton West",0.102,0
-E02001774,"Jarrow Town",0.205,13
-E02001775,"Harton East",0.078,2
-E02001776,"Hebburn North",0.074,2
-E02001777,"Hebburn West",0.069,2
-E02001778,"West Harton",0.084,1
-E02001779,"Simonside",0.216,13
-E02001780,"Cleadon Park",0.132,1
-E02001781,"Brockley Whins",0.31,1
-E02001782,"Hebburn South",0.178,2
-E02001783,"Biddick Hill",0.202,1
-E02001784,"Primrose",0.326,1
-E02001785,"Whitburn & Marsden",0.088,4
-E02001786,"Whiteleas",0.099,0
-E02001787,"Fellgate & Hedworth",0.289,1
-E02001788,"Boldon Colliery",0.175,1
-E02001789,"Cleadon & East Boldon",0.128,0
-E02001790,"West Boldon",0.194,5
-E02001791,"Fulwell",0.107,1
-E02001792,"Seaburn",0.077,5
-E02001793,"Town End Farm",0.175,2
-E02001794,"Hylton Red House & Marley Pots",0.146,0
-E02001795,"Southwick",0.101,13
-E02001796,"Monkwearmouth",0.066,6
-E02001797,"Springwell & Usworth",0.242,59
-E02001798,"North Hylton",0.294,5
-E02001799,"Concord and Sulgrave",0.337,6
-E02001800,"Albany and Blackfell",0.47,3
-E02001801,"Millfield",0.125,23
-E02001802,"Pallion North",0.147,0
-E02001803,"Sunderland Central & Deptford",0.122,35
-E02001804,"South Hylton",0.277,0
-E02001805,"Pallion South & High Barnes",0.207,0
-E02001806,"Hendon & Docks",0.078,10
-E02001807,"Columbia",0.52,2
-E02001808,"Barnes Park",0.126,4
-E02001809,"Washington Town Centre & Biddick",0.283,4
-E02001810,"Oxclose and Lambton",0.365,1
-E02001811,"Pennywell and Grindon",0.582,0
-E02001812,"Hill View & Tunstall",0.143,4
-E02001813,"Thorney Close & Plains Farm",0.195,0
-E02001814,"Grangetown",0.127,7
-E02001815,"Harraton",0.448,1
-E02001816,"Lakeside & Farrington",0.13,1
-E02001817,"Silksworth",0.175,0
-E02001818,"Ryhope",0.211,2
-E02001819,"Herrington & Doxford",0.212,1
-E02001820,"Shiney Row",0.357,0
-E02001821,"Hall Farm",0.133,0
-E02001822,"Newbottle & Penshaw",0.334,4
-E02001823,"Houghton West",0.189,1
-E02001824,"Houghton Town",0.22,2
-E02001825,"Hetton-le-Hole North",0.116,7
-E02001826,"Hetton-le-Hole South",0.19,2
-E02004290,"Ouston & Beamish",0.166,0
-E02004291,"Pelton & Perkinsville",0.257,1
-E02004292,"Chester-le-Street North",0.259,6
-E02004293,"Chester-le-Street Town & Pelton Fell",0.096,2
-E02004294,"Chester-le-Street South & East",0.072,5
-E02004295,"Great Lumley & Bournmoor",0.201,0
-E02004296,"Sacriston",0.156,1
-E02004297,"Burnopfield",0.17,4
-E02004298,"Benfieldside",0.198,0
-E02004299,"Stanley North & East",0.287,8
-E02004300,"Catchgate & Dipton",0.17,0
-E02004301,"Stanley South",0.222,4
-E02004302,"Stanley West & Annfield Plain",0.244,7
-E02004303,"Consett",0.202,6
-E02004304,"Delves Lane & Leadgate",0.25,1
-E02004305,"Bridgehill",0.303,0
-E02004306,"Lanchester",0.494,1
-E02004307,"Langley Park & Satley",0.13,0
-E02004308,"Newton Hall & Brasside",0.133,2
-E02004309,"Pity Me & Framwellgate Moor",0.137,12
-E02004310,"Bearpark & Witton Gilbert",0.105,3
-E02004311,"Sherburn & West Rainton",0.196,0
-E02004312,"Belmont & Carrville",0.203,9
-E02004313,"Gilesgate & Old Durham",0.125,8
-E02004314,"Durham City",0.046,29
-E02004315,"Aykley Heads",0.116,19
-E02004316,"Esh Winning & Ushaw Moor",0.183,0
-E02004317,"Brandon & Brancepeth",0.149,0
-E02004318,"High Shincliffe & Bowburn",0.159,3
-E02004319,"Coxhoe & Quarrington Hill",0.17,0
-E02004320,"Seaham Northlea & Westlea",0.194,0
-E02004321,"Seaham Central & South",0.102,9
-E02004322,"Murton North & Parkside",0.207,0
-E02004323,"South Murton & South Hetton",0.221,4
-E02004324,"Easington & Hawthorn",0.203,0
-E02004325,"Peterlee East",0.185,1
-E02004326,"Shotton & Haswell",0.201,0
-E02004327,"Horden",0.126,0
-E02004328,"Peterlee West",0.394,0
-E02004329,"Peterlee South",0.011,0
-E02004330,"Blackhall",0.134,0
-E02004331,"Thornley & Wheatley Hill",0.33,0
-E02004332,"Wingate & Castle Eden",0.297,0
-E02004333,"Tudhoe Grange",0.158,0
-E02004334,"Trimdon & Fishburn",0.269,0
-E02004335,"Spennymoor East & Ferryhill West",0.16,7
-E02004336,"Ferryhill East & Cornforth",0.215,0
-E02004337,"Spennymoor West",0.242,0
-E02004338,"Chilton",0.307,0
-E02004339,"Sedgefield & Bishop Middleham",0.353,2
-E02004340,"Shildon",0.35,2
-E02004341,"Newton Aycliffe North",0.279,0
-E02004342,"Newton Aycliffe West",0.221,0
-E02004343,"Newton Aycliffe East",0.239,3
-E02004344,"Newton Aycliffe South",0.201,7
-E02004345,"Evenwood",0.395,0
-E02004346,"Upper Teesdale",0.168,11
-E02004347,"Barnard Castle",0.348,1
-E02004348,"Stanhope & Weardale",0.094,0
-E02004349,"Crook North & Tow Law",0.199,0
-E02004350,"Crook South",0.233,1
-E02004351,"Coundon North",0.186,0
-E02004352,"Bishop Auckland North & Coundon Grange",0.346,5
-E02004353,"Bishop Auckland Central & West",0.309,0
-E02004354,"Saint Helen Auckland & West Auckland",0.259,4
-E02004355,"Bishop Auckland South",0.419,3
-E02006841,"Gateshead Town",0.096,24
-E02006842,"Gateshead South",0.117,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001682,"Ryton",0.167,0,268.0
+E02001683,"Crawcrook & Greenside",0.099,0,164.0
+E02001684,"Pelaw",0.268,8,257.0
+E02001685,"Blaydon South",0.17,0,78.0
+E02001686,"Blaydon North & Winlaton Mill",0.158,3,280.0
+E02001688,"Dunston & Teams",0.151,13,296.0
+E02001689,"Bensham North",0.175,0,102.0
+E02001690,"Swalwell",0.159,12,258.0
+E02001691,"Bensham South & Saltwell",0.117,11,296.0
+E02001692,"Mount Pleasant & Deckham East",0.109,0,288.0
+E02001693,"Felling South",0.122,0,186.0
+E02001694,"Dunston Hill",0.21,2,188.0
+E02001695,"Wardley",0.338,0,78.0
+E02001696,"Heworth",0.184,3,78.0
+E02001697,"Low Fell East",0.111,0,108.0
+E02001698,"Whickham",0.129,0,94.0
+E02001699,"Windy Nook & Whitehills",0.144,0,186.0
+E02001700,"Sunniside & Lobley Hill",0.001,0,360.0
+E02001701,"Low Fell West",0.143,4,108.0
+E02001702,"Beacon Lough & Wrekenton",0.176,0,186.0
+E02001703,"Rowlands Gill & Lockhaugh",0.12,0,119.0
+E02001704,"Easedale Gardens",0.351,0,108.0
+E02001705,"Chopwell & High Spen",0.079,1,276.0
+E02001706,"Birtley North & Kibblesworth",0.361,4,736.0
+E02001707,"Birtley South",0.208,8,380.0
+E02001768,"South Shields East",0.057,17,57.0
+E02001769,"South Shields West",0.103,20,242.0
+E02001770,"Westoe",0.079,0,242.0
+E02001771,"Horsley Hill",0.066,2,242.0
+E02001772,"West Park",0.102,0,242.0
+E02001773,"Harton West",0.102,0,242.0
+E02001774,"Jarrow Town",0.205,13,380.0
+E02001775,"Harton East",0.078,2,185.0
+E02001776,"Hebburn North",0.074,2,121.0
+E02001777,"Hebburn West",0.069,2,61.0
+E02001778,"West Harton",0.084,1,242.0
+E02001779,"Simonside",0.216,13,302.0
+E02001780,"Cleadon Park",0.132,1,242.0
+E02001781,"Brockley Whins",0.31,1,245.0
+E02001782,"Hebburn South",0.178,2,121.0
+E02001783,"Biddick Hill",0.202,1,185.0
+E02001784,"Primrose",0.326,1,178.0
+E02001785,"Whitburn & Marsden",0.088,4,303.0
+E02001786,"Whiteleas",0.099,0,185.0
+E02001787,"Fellgate & Hedworth",0.289,1,385.0
+E02001788,"Boldon Colliery",0.175,1,134.0
+E02001789,"Cleadon & East Boldon",0.128,0,346.0
+E02001790,"West Boldon",0.194,5,311.0
+E02001791,"Fulwell",0.107,1,237.0
+E02001792,"Seaburn",0.077,5,118.0
+E02001793,"Town End Farm",0.175,2,119.0
+E02001794,"Hylton Red House & Marley Pots",0.146,0,119.0
+E02001795,"Southwick",0.101,13,495.0
+E02001796,"Monkwearmouth",0.066,6,246.0
+E02001797,"Springwell & Usworth",0.242,59,466.0
+E02001798,"North Hylton",0.294,5,119.0
+E02001799,"Concord and Sulgrave",0.337,6,41.0
+E02001800,"Albany and Blackfell",0.47,3,417.0
+E02001801,"Millfield",0.125,23,258.0
+E02001802,"Pallion North",0.147,0,86.0
+E02001803,"Sunderland Central & Deptford",0.122,35,293.0
+E02001804,"South Hylton",0.277,0,77.0
+E02001805,"Pallion South & High Barnes",0.207,0,77.0
+E02001806,"Hendon & Docks",0.078,10,97.0
+E02001807,"Columbia",0.52,2,274.0
+E02001808,"Barnes Park",0.126,4,249.0
+E02001809,"Washington Town Centre & Biddick",0.283,4,196.0
+E02001810,"Oxclose and Lambton",0.365,1,196.0
+E02001811,"Pennywell and Grindon",0.582,0,77.0
+E02001812,"Hill View & Tunstall",0.143,4,258.0
+E02001813,"Thorney Close & Plains Farm",0.195,0,84.0
+E02001814,"Grangetown",0.127,7,97.0
+E02001815,"Harraton",0.448,1,297.0
+E02001816,"Lakeside & Farrington",0.13,1,84.0
+E02001817,"Silksworth",0.175,0,172.0
+E02001818,"Ryhope",0.211,2,88.0
+E02001819,"Herrington & Doxford",0.212,1,203.0
+E02001820,"Shiney Row",0.357,0,101.0
+E02001821,"Hall Farm",0.133,0,294.0
+E02001822,"Newbottle & Penshaw",0.334,4,224.0
+E02001823,"Houghton West",0.189,1,101.0
+E02001824,"Houghton Town",0.22,2,147.0
+E02001825,"Hetton-le-Hole North",0.116,7,231.0
+E02001826,"Hetton-le-Hole South",0.19,2,269.0
+E02004290,"Ouston & Beamish",0.166,0,346.0
+E02004291,"Pelton & Perkinsville",0.257,1,233.0
+E02004292,"Chester-le-Street North",0.259,6,380.0
+E02004293,"Chester-le-Street Town & Pelton Fell",0.096,2,225.0
+E02004294,"Chester-le-Street South & East",0.072,5,225.0
+E02004295,"Great Lumley & Bournmoor",0.201,0,529.0
+E02004296,"Sacriston",0.156,1,702.0
+E02004297,"Burnopfield",0.17,4,256.0
+E02004298,"Benfieldside",0.198,0,215.0
+E02004299,"Stanley North & East",0.287,8,294.0
+E02004300,"Catchgate & Dipton",0.17,0,215.0
+E02004301,"Stanley South",0.222,4,121.0
+E02004302,"Stanley West & Annfield Plain",0.244,7,121.0
+E02004303,"Consett",0.202,6,145.0
+E02004304,"Delves Lane & Leadgate",0.25,1,266.0
+E02004305,"Bridgehill",0.303,0,206.0
+E02004306,"Lanchester",0.494,1,489.0
+E02004307,"Langley Park & Satley",0.13,0,223.0
+E02004308,"Newton Hall & Brasside",0.133,2,529.0
+E02004309,"Pity Me & Framwellgate Moor",0.137,12,315.0
+E02004310,"Bearpark & Witton Gilbert",0.105,3,589.0
+E02004311,"Sherburn & West Rainton",0.196,0,571.0
+E02004312,"Belmont & Carrville",0.203,9,852.0
+E02004313,"Gilesgate & Old Durham",0.125,8,315.0
+E02004314,"Durham City",0.046,29,852.0
+E02004315,"Aykley Heads",0.116,19,586.0
+E02004316,"Esh Winning & Ushaw Moor",0.183,0,223.0
+E02004317,"Brandon & Brancepeth",0.149,0,302.0
+E02004318,"High Shincliffe & Bowburn",0.159,3,424.0
+E02004319,"Coxhoe & Quarrington Hill",0.17,0,491.0
+E02004320,"Seaham Northlea & Westlea",0.194,0,122.0
+E02004321,"Seaham Central & South",0.102,9,122.0
+E02004322,"Murton North & Parkside",0.207,0,122.0
+E02004323,"South Murton & South Hetton",0.221,4,231.0
+E02004324,"Easington & Hawthorn",0.203,0,300.0
+E02004325,"Peterlee East",0.185,1,69.0
+E02004326,"Shotton & Haswell",0.201,0,178.0
+E02004327,"Horden",0.126,0,69.0
+E02004328,"Peterlee West",0.394,0,69.0
+E02004329,"Peterlee South",0.011,0,69.0
+E02004330,"Blackhall",0.134,0,102.0
+E02004331,"Thornley & Wheatley Hill",0.33,0,140.0
+E02004332,"Wingate & Castle Eden",0.297,0,64.0
+E02004333,"Tudhoe Grange",0.158,0,188.0
+E02004334,"Trimdon & Fishburn",0.269,0,146.0
+E02004335,"Spennymoor East & Ferryhill West",0.16,7,235.0
+E02004336,"Ferryhill East & Cornforth",0.215,0,156.0
+E02004337,"Spennymoor West",0.242,0,241.0
+E02004338,"Chilton",0.307,0,182.0
+E02004339,"Sedgefield & Bishop Middleham",0.353,2,698.0
+E02004340,"Shildon",0.35,2,214.0
+E02004341,"Newton Aycliffe North",0.279,0,182.0
+E02004342,"Newton Aycliffe West",0.221,0,135.0
+E02004343,"Newton Aycliffe East",0.239,3,182.0
+E02004344,"Newton Aycliffe South",0.201,7,439.0
+E02004345,"Evenwood",0.395,0,789.0
+E02004346,"Upper Teesdale",0.168,11,234.0
+E02004347,"Barnard Castle",0.348,1,50.0
+E02004348,"Stanhope & Weardale",0.094,0,382.0
+E02004349,"Crook North & Tow Law",0.199,0,122.0
+E02004350,"Crook South",0.233,1,478.0
+E02004351,"Coundon North",0.186,0,176.0
+E02004352,"Bishop Auckland North & Coundon Grange",0.346,5,196.0
+E02004353,"Bishop Auckland Central & West",0.309,0,257.0
+E02004354,"Saint Helen Auckland & West Auckland",0.259,4,176.0
+E02004355,"Bishop Auckland South",0.419,3,115.0
+E02006841,"Gateshead Town",0.096,24,266.0
+E02006842,"Gateshead South",0.117,0,210.0

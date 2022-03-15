@@ -1,25 +1,25 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002772,"Strensall",0.307,0
-E02002773,"Haxby",0.234,0
-E02002774,"Wigginton",0.226,0
-E02002775,"New Earswick",0.28,0
-E02002776,"Huntington",0.102,6
-E02002777,"Clifton Without & Skelton",0.263,5
-E02002778,"Rawcliffe & Clifton South",0.241,1
-E02002779,"Heworth North & Stockton",0.127,0
-E02002780,"Clifton North",0.126,0
-E02002781,"Heworth South & The Groves",0.074,2
-E02002782,"Poppleton",0.387,9
-E02002783,"Acomb",0.184,0
-E02002784,"York City Centre",0.045,17
-E02002785,"Osbaldwick",0.184,0
-E02002786,"Tang Hall",0.095,0
-E02002787,"Holgate West",0.142,0
-E02002788,"Holgate East",0.069,1
-E02002789,"Westfield",0.215,0
-E02002790,"Fulford Road & Clementhorpe",0.067,0
-E02002791,"Dunnington",0.31,2
-E02002792,"South Bank & Dringhouses",0.064,0
-E02002793,"Woodthorpe & Acomb Park",0.127,4
-E02002794,"Fulford",0.079,7
-E02002795,"Bishopthorpe & Copmanthorpe",0.204,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002772,"Strensall",0.307,0,199.0
+E02002773,"Haxby",0.234,0,154.0
+E02002774,"Wigginton",0.226,0,288.0
+E02002775,"New Earswick",0.28,0,258.0
+E02002776,"Huntington",0.102,6,672.0
+E02002777,"Clifton Without & Skelton",0.263,5,348.0
+E02002778,"Rawcliffe & Clifton South",0.241,1,328.0
+E02002779,"Heworth North & Stockton",0.127,0,258.0
+E02002780,"Clifton North",0.126,0,432.0
+E02002781,"Heworth South & The Groves",0.074,2,238.0
+E02002782,"Poppleton",0.387,9,718.0
+E02002783,"Acomb",0.184,0,584.0
+E02002784,"York City Centre",0.045,17,1846.0
+E02002785,"Osbaldwick",0.184,0,417.0
+E02002786,"Tang Hall",0.095,0,319.0
+E02002787,"Holgate West",0.142,0,584.0
+E02002788,"Holgate East",0.069,1,718.0
+E02002789,"Westfield",0.215,0,450.0
+E02002790,"Fulford Road & Clementhorpe",0.067,0,349.0
+E02002791,"Dunnington",0.31,2,399.0
+E02002792,"South Bank & Dringhouses",0.064,0,385.0
+E02002793,"Woodthorpe & Acomb Park",0.127,4,385.0
+E02002794,"Fulford",0.079,7,313.0
+E02002795,"Bishopthorpe & Copmanthorpe",0.204,0,268.0

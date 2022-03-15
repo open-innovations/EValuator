@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006767,"Wolverley",0,0
-E02006768,"Franche",0,0
-E02006769,"Greenhill",0,0
-E02006770,"Kidderminster Town",0,2
-E02006771,"Bewdley East & Upper Arley",0,0
-E02006772,"Habberley",0,1
-E02006773,"Comberton",0,0
-E02006774,"Foley Park",0,0
-E02006775,"Birchen Coppice",0,2
-E02006776,"Spennells & Hoobrook",0,2
-E02006777,"Bewdley West",0,0
-E02006778,"Stourport Lickhill & Burlish",0,0
-E02006779,"Stourport Mitton & Wilden",0,2
-E02006780,"Stourport Areley Kings",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006767,"Wolverley",0,0,1129.0
+E02006768,"Franche",0,0,428.0
+E02006769,"Greenhill",0,0,171.0
+E02006770,"Kidderminster Town",0,2,428.0
+E02006771,"Bewdley East & Upper Arley",0,0,295.0
+E02006772,"Habberley",0,1,307.0
+E02006773,"Comberton",0,0,171.0
+E02006774,"Foley Park",0,0,136.0
+E02006775,"Birchen Coppice",0,2,136.0
+E02006776,"Spennells & Hoobrook",0,2,307.0
+E02006777,"Bewdley West",0,0,385.0
+E02006778,"Stourport Lickhill & Burlish",0,0,295.0
+E02006779,"Stourport Mitton & Wilden",0,2,90.0
+E02006780,"Stourport Areley Kings",0,0,90.0

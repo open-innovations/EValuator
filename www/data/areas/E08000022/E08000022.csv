@@ -1,31 +1,31 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001738,"Whitley Bay North",0.083,0
-E02001739,"Fordley",0.266,0
-E02001740,"Whitley Sands",0.089,6
-E02001741,"Wideopen & Seaton Burn",0.163,0
-E02001742,"West Monkseaton",0.085,0
-E02001743,"Whitley Bay Promenade",0.054,1
-E02001744,"Shiremoor North & South Wellfield",0.116,0
-E02001745,"Killingworth West & Camperdown",0.001,2
-E02001746,"Monkseaton",0.104,0
-E02001747,"Cullercoats",0.096,0
-E02001748,"Shiremoor South & West Allotment",0.259,10
-E02001749,"Killingworth East",0.148,0
-E02001750,"Preston Grange",0,6
-E02001751,"Forest Hall & West Moor",0.106,0
-E02001752,"New York",0.145,7
-E02001753,"Tynemouth Priory",0,4
-E02001754,"Tynemouth West",0.124,0
-E02001755,"Holystone & Benton",0.077,10
-E02001756,"Longbenton",0.09,1
-E02001757,"Preston Billy Mill",0.227,0
-E02001758,"Battle Hill East",0.155,1
-E02001759,"North Shields",0.102,3
-E02001760,"Chirton",0.169,1
-E02001761,"Battle Hill West",0.206,0
-E02001762,"East Benton",0.121,0
-E02001763,"Howdon",0.147,0
-E02001764,"Percy Main",0.106,0
-E02001765,"Willington Quay",0.184,0
-E02001766,"Wallsend East",0.125,3
-E02001767,"Wallsend West",0.159,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001738,"Whitley Bay North",0.083,0,224.0
+E02001739,"Fordley",0.266,0,393.0
+E02001740,"Whitley Sands",0.089,6,224.0
+E02001741,"Wideopen & Seaton Burn",0.163,0,766.0
+E02001742,"West Monkseaton",0.085,0,224.0
+E02001743,"Whitley Bay Promenade",0.054,1,224.0
+E02001744,"Shiremoor North & South Wellfield",0.116,0,358.0
+E02001745,"Killingworth West & Camperdown",0.001,2,322.0
+E02001746,"Monkseaton",0.104,0,617.0
+E02001747,"Cullercoats",0.096,0,336.0
+E02001748,"Shiremoor South & West Allotment",0.259,10,71.0
+E02001749,"Killingworth East",0.148,0,160.0
+E02001750,"Preston Grange",0,6,463.0
+E02001751,"Forest Hall & West Moor",0.106,0,160.0
+E02001752,"New York",0.145,7,646.0
+E02001753,"Tynemouth Priory",0,4,134.0
+E02001754,"Tynemouth West",0.124,0,239.0
+E02001755,"Holystone & Benton",0.077,10,381.0
+E02001756,"Longbenton",0.09,1,360.0
+E02001757,"Preston Billy Mill",0.227,0,239.0
+E02001758,"Battle Hill East",0.155,1,112.0
+E02001759,"North Shields",0.102,3,239.0
+E02001760,"Chirton",0.169,1,239.0
+E02001761,"Battle Hill West",0.206,0,112.0
+E02001762,"East Benton",0.121,0,272.0
+E02001763,"Howdon",0.147,0,351.0
+E02001764,"Percy Main",0.106,0,274.0
+E02001765,"Willington Quay",0.184,0,169.0
+E02001766,"Wallsend East",0.125,3,274.0
+E02001767,"Wallsend West",0.159,2,240.0

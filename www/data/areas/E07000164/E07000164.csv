@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005750,"Great Ayton & Stokesley",0.203,0
-E02005751,"Rudby & Ingleby",0.309,1
-E02005752,"Brompton",0.186,1
-E02005753,"Northallerton",0.214,4
-E02005754,"Northallerton South & Leeming Bar",0.3,0
-E02005755,"Bedale & Snape",0.597,1
-E02005756,"Leeming",0.512,0
-E02005757,"Thirsk North",0.497,0
-E02005758,"Thirsk South & Coxwold",0.299,1
-E02005759,"Easingwold & Stillington",0.307,2
-E02005760,"Linton",0.303,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005750,"Great Ayton & Stokesley",0.203,0,142.0
+E02005751,"Rudby & Ingleby",0.309,1,374.0
+E02005752,"Brompton",0.186,1,493.0
+E02005753,"Northallerton",0.214,4,240.0
+E02005754,"Northallerton South & Leeming Bar",0.3,0,252.0
+E02005755,"Bedale & Snape",0.597,1,317.0
+E02005756,"Leeming",0.512,0,504.0
+E02005757,"Thirsk North",0.497,0,100.0
+E02005758,"Thirsk South & Coxwold",0.299,1,240.0
+E02005759,"Easingwold & Stillington",0.307,2,667.0
+E02005760,"Linton",0.303,0,767.0

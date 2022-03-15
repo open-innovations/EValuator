@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005176,"Harle Syke & Lanehead",0.095,0
-E02005177,"Queensgate",0.113,1
-E02005178,"Central Burnley & Daneshouse",0.12,5
-E02005179,"Padiham",0.156,2
-E02005180,"Habergham & Ightenhill",0.079,0
-E02005181,"Whittlefield & Rose Grove",0.212,3
-E02005182,"Bank Hall & Fulledge",0.123,2
-E02005183,"Brunshaw & Brownside",0.116,0
-E02005184,"Cliviger",0.109,0
-E02005185,"Barclay Hills & Trinity",0.229,2
-E02005186,"Hapton & Lowerhouse",0.198,0
-E02006881,"Rose Hill & Burnley Wood",0.158,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005176,"Harle Syke & Lanehead",0.095,0,108.0
+E02005177,"Queensgate",0.113,1,242.0
+E02005178,"Central Burnley & Daneshouse",0.12,5,320.0
+E02005179,"Padiham",0.156,2,134.0
+E02005180,"Habergham & Ightenhill",0.079,0,134.0
+E02005181,"Whittlefield & Rose Grove",0.212,3,212.0
+E02005182,"Bank Hall & Fulledge",0.123,2,186.0
+E02005183,"Brunshaw & Brownside",0.116,0,186.0
+E02005184,"Cliviger",0.109,0,255.0
+E02005185,"Barclay Hills & Trinity",0.229,2,212.0
+E02005186,"Hapton & Lowerhouse",0.198,0,212.0
+E02006881,"Rose Hill & Burnley Wood",0.158,2,78.0

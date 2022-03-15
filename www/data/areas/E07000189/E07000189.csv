@@ -1,25 +1,25 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006075,"Bruton",0,0
-E02006076,"Castle Cary & Kenton Mandeville",0,0
-E02006077,"Somerton",0,0
-E02006078,"Langport & Long Sutton",0,1
-E02006079,"Wincanton",0,5
-E02006080,"Ilchester",0,0
-E02006081,"Curry Rivel & Fivehead",0,0
-E02006082,"Templecombe",0,2
-E02006083,"Martock",0,0
-E02006084,"South Petherton",0,0
-E02006085,"Yeovil North East",0,0
-E02006086,"Yeovil Lufton & Hollands",0,0
-E02006087,"Yeovil Larkhill",0,0
-E02006088,"Yeovil Milford Park",0,0
-E02006089,"Yeovil Town",0,2
-E02006090,"Yeovil Preston Plucknett",0,0
-E02006091,"Ham Hill & Merriott",0,0
-E02006092,"Yeovil South",0,1
-E02006093,"Ilminster & Horton",0,1
-E02006094,"Stoford & the Cokers",0,0
-E02006095,"Crewkerne",0,0
-E02006096,"Chard North & East",0,2
-E02006097,"Chard West",0,0
-E02006098,"Tatworth & Combe St Nicholas",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006075,"Bruton",0,0,424.0
+E02006076,"Castle Cary & Kenton Mandeville",0,0,336.0
+E02006077,"Somerton",0,0,171.0
+E02006078,"Langport & Long Sutton",0,1,175.0
+E02006079,"Wincanton",0,5,468.0
+E02006080,"Ilchester",0,0,457.0
+E02006081,"Curry Rivel & Fivehead",0,0,369.0
+E02006082,"Templecombe",0,2,291.0
+E02006083,"Martock",0,0,259.0
+E02006084,"South Petherton",0,0,201.0
+E02006085,"Yeovil North East",0,0,137.0
+E02006086,"Yeovil Lufton & Hollands",0,0,367.0
+E02006087,"Yeovil Larkhill",0,0,286.0
+E02006088,"Yeovil Milford Park",0,0,218.0
+E02006089,"Yeovil Town",0,2,218.0
+E02006090,"Yeovil Preston Plucknett",0,0,367.0
+E02006091,"Ham Hill & Merriott",0,0,387.0
+E02006092,"Yeovil South",0,1,230.0
+E02006093,"Ilminster & Horton",0,1,296.0
+E02006094,"Stoford & the Cokers",0,0,268.0
+E02006095,"Crewkerne",0,0,46.0
+E02006096,"Chard North & East",0,2,102.0
+E02006097,"Chard West",0,0,102.0
+E02006098,"Tatworth & Combe St Nicholas",0,1,328.0

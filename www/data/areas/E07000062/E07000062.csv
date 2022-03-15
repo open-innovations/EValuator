@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004368,"Ashdown",0,2
-E02004369,"Conquest & St Helens",0,0
-E02004370,"Hollington",0,2
-E02004371,"Ore",0,0
-E02004372,"Broomgrove",0,0
-E02004373,"Silverhill",0,0
-E02004374,"Old Hastings",0,1
-E02004375,"Braybrooke & Bohemia",0,1
-E02004376,"Central Hastings",0,4
-E02004377,"West St Leonards",0,0
-E02004378,"Central St Leonards",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004368,"Ashdown",0,2,253.0
+E02004369,"Conquest & St Helens",0,0,215.0
+E02004370,"Hollington",0,2,253.0
+E02004371,"Ore",0,0,155.0
+E02004372,"Broomgrove",0,0,155.0
+E02004373,"Silverhill",0,0,253.0
+E02004374,"Old Hastings",0,1,155.0
+E02004375,"Braybrooke & Bohemia",0,1,253.0
+E02004376,"Central Hastings",0,4,155.0
+E02004377,"West St Leonards",0,0,129.0
+E02004378,"Central St Leonards",0,0,253.0

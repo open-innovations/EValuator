@@ -1,30 +1,30 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002081,"Castle Bromwich West",0,0
-E02002082,"Smith's Wood North",0,0
-E02002083,"Castle Bromwich East",0,3
-E02002084,"Smith's Wood South",0,0
-E02002085,"Kingshurst",0,0
-E02002086,"Chelmsley Wood West",0,1
-E02002087,"Fordbridge",0,0
-E02002088,"Chelmsley Wood East",0,0
-E02002089,"Marston Green & Airport",0,10
-E02002090,"Lyndon North",0,0
-E02002091,"Elmdon Park",0,5
-E02002092,"Lyndon South",0,1
-E02002093,"Olton & Kineton Green",0,2
-E02002094,"Ulverley Green & Langley",0,0
-E02002095,"Elmdon Heath & Catherine-de-Barnes",0,2
-E02002096,"Lode Heath",0,1
-E02002097,"Meriden",0,0
-E02002098,"Shirley East",0,4
-E02002099,"Central Solihull & Sharmans Cross",0,9
-E02002101,"Solihull Lodge",0,0
-E02002102,"Blossomfield",0,4
-E02002103,"Shirley Heath",0,2
-E02002104,"Monkspath North",0,0
-E02002105,"Balsall Common",0,0
-E02002106,"Knowle",0,2
-E02002107,"Monkspath South",0,6
-E02002108,"Dorridge",0,2
-E02002109,"Dickens Heath",0,8
-E02006808,"Shirley West",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002081,"Castle Bromwich West",0,0,68.0
+E02002082,"Smith's Wood North",0,0,68.0
+E02002083,"Castle Bromwich East",0,3,68.0
+E02002084,"Smith's Wood South",0,0,1939.0
+E02002085,"Kingshurst",0,0,1939.0
+E02002086,"Chelmsley Wood West",0,1,1871.0
+E02002087,"Fordbridge",0,0,1871.0
+E02002088,"Chelmsley Wood East",0,0,1871.0
+E02002089,"Marston Green & Airport",0,10,4881.0
+E02002090,"Lyndon North",0,0,2641.0
+E02002091,"Elmdon Park",0,5,2890.0
+E02002092,"Lyndon South",0,1,2435.0
+E02002093,"Olton & Kineton Green",0,2,2910.0
+E02002094,"Ulverley Green & Langley",0,0,8164.0
+E02002095,"Elmdon Heath & Catherine-de-Barnes",0,2,7738.0
+E02002096,"Lode Heath",0,1,2733.0
+E02002097,"Meriden",0,0,8268.0
+E02002098,"Shirley East",0,4,624.0
+E02002099,"Central Solihull & Sharmans Cross",0,9,2733.0
+E02002101,"Solihull Lodge",0,0,434.0
+E02002102,"Blossomfield",0,4,624.0
+E02002103,"Shirley Heath",0,2,326.0
+E02002104,"Monkspath North",0,0,624.0
+E02002105,"Balsall Common",0,0,3275.0
+E02002106,"Knowle",0,2,5411.0
+E02002107,"Monkspath South",0,6,624.0
+E02002108,"Dorridge",0,2,5113.0
+E02002109,"Dickens Heath",0,8,5439.0
+E02006808,"Shirley West",0,2,326.0

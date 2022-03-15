@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005795,"Whitby West",0.172,0
-E02005796,"Esk Valley & Runswick Coast",0.501,0
-E02005797,"Whitby South & East",0.199,0
-E02005798,"Burniston",0.049,2
-E02005799,"Newby & Scalby",0.133,1
-E02005800,"Scarborough Town & North Bay",0.067,0
-E02005801,"Barrowcliff & Northstead",0.09,0
-E02005802,"Scarborough Central",0.092,0
-E02005803,"Falsgrave",0.139,1
-E02005804,"Ramshill & South Cliff",0.122,2
-E02005805,"Wheatcroft & Cayton",0.113,0
-E02005806,"Eastfield",0.139,0
-E02005807,"Ayton & Snainton",0.199,0
-E02005808,"Filey & Hummanby",0.079,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005795,"Whitby West",0.172,0,91.0
+E02005796,"Esk Valley & Runswick Coast",0.501,0,109.0
+E02005797,"Whitby South & East",0.199,0,91.0
+E02005798,"Burniston",0.049,2,302.0
+E02005799,"Newby & Scalby",0.133,1,211.0
+E02005800,"Scarborough Town & North Bay",0.067,0,250.0
+E02005801,"Barrowcliff & Northstead",0.09,0,70.0
+E02005802,"Scarborough Central",0.092,0,140.0
+E02005803,"Falsgrave",0.139,1,70.0
+E02005804,"Ramshill & South Cliff",0.122,2,140.0
+E02005805,"Wheatcroft & Cayton",0.113,0,109.0
+E02005806,"Eastfield",0.139,0,140.0
+E02005807,"Ayton & Snainton",0.199,0,211.0
+E02005808,"Filey & Hummanby",0.079,0,344.0

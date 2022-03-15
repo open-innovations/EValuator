@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006710,"Tenbury Wells",0,0
-E02006711,"Abberley",0,0
-E02006712,"Broadheath",0,0
-E02006713,"Malvern Link",0,2
-E02006714,"Colletts Green",0,1
-E02006715,"North Malvern",0,0
-E02006716,"Malvern Pickersleigh",0,0
-E02006717,"Kempsey & Ryall",0,2
-E02006718,"Barnard's Green",0,0
-E02006719,"Malvern Wells & Priory",0,3
-E02006720,"Upton-upon-Severn",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006710,"Tenbury Wells",0,0,420.0
+E02006711,"Abberley",0,0,435.0
+E02006712,"Broadheath",0,0,446.0
+E02006713,"Malvern Link",0,2,330.0
+E02006714,"Colletts Green",0,1,749.0
+E02006715,"North Malvern",0,0,330.0
+E02006716,"Malvern Pickersleigh",0,0,330.0
+E02006717,"Kempsey & Ryall",0,2,1526.0
+E02006718,"Barnard's Green",0,0,330.0
+E02006719,"Malvern Wells & Priory",0,3,330.0
+E02006720,"Upton-upon-Severn",0,0,1387.0

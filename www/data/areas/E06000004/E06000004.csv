@@ -1,25 +1,25 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002535,"Billingham North & Wolviston",0.186,13
-E02002536,"Billingham Central",0.152,7
-E02002537,"Billingham East & Haverton Hill",0.13,6
-E02002538,"Billingham South",0.312,0
-E02002539,"Billingham West",0.159,3
-E02002540,"Norton North",0.243,0
-E02002541,"Norton High Street",0.151,0
-E02002542,"Roseworth",0.15,4
-E02002543,"Hardwick & Salters Lane",0.158,8
-E02002544,"Norton South",0.087,6
-E02002545,"Rimswell & Bishopsgarth",0.3,0
-E02002546,"Eastbourne & Newham Grange",0.119,0
-E02002547,"Elm Tree & Grangefield",0.168,0
-E02002548,"Central Stockton",0.121,40
-E02002549,"Fairfield",0.274,0
-E02002550,"Hartburn",0.162,0
-E02002551,"Thornaby North",0.254,15
-E02002552,"Thornaby Mandale",0.14,14
-E02002553,"Thornaby Village",0.115,0
-E02002554,"Thornaby South",0.163,17
-E02002555,"Eaglescliffe",0.088,0
-E02002556,"Ingleby Barwick East & Hilton",0.123,2
-E02002557,"Ingleby Barwick West",0.094,2
-E02002558,"Yarm",0.287,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002535,"Billingham North & Wolviston",0.186,13,158.0
+E02002536,"Billingham Central",0.152,7,158.0
+E02002537,"Billingham East & Haverton Hill",0.13,6,83.0
+E02002538,"Billingham South",0.312,0,243.0
+E02002539,"Billingham West",0.159,3,565.0
+E02002540,"Norton North",0.243,0,36.0
+E02002541,"Norton High Street",0.151,0,36.0
+E02002542,"Roseworth",0.15,4,167.0
+E02002543,"Hardwick & Salters Lane",0.158,8,131.0
+E02002544,"Norton South",0.087,6,224.0
+E02002545,"Rimswell & Bishopsgarth",0.3,0,131.0
+E02002546,"Eastbourne & Newham Grange",0.119,0,781.0
+E02002547,"Elm Tree & Grangefield",0.168,0,226.0
+E02002548,"Central Stockton",0.121,40,452.0
+E02002549,"Fairfield",0.274,0,348.0
+E02002550,"Hartburn",0.162,0,174.0
+E02002551,"Thornaby North",0.254,15,335.0
+E02002552,"Thornaby Mandale",0.14,14,147.0
+E02002553,"Thornaby Village",0.115,0,147.0
+E02002554,"Thornaby South",0.163,17,147.0
+E02002555,"Eaglescliffe",0.088,0,190.0
+E02002556,"Ingleby Barwick East & Hilton",0.123,2,272.0
+E02002557,"Ingleby Barwick West",0.094,2,239.0
+E02002558,"Yarm",0.287,2,92.0

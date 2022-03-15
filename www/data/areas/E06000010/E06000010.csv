@@ -1,33 +1,33 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002652,"Kingswood",0.08,0
-E02002653,"Bransholme Central",0.111,0
-E02002654,"Orchard Park",0.099,0
-E02002655,"Bransholme East",0.08,0
-E02002656,"Haworth Park",0.163,0
-E02002657,"Bransholme West",0.108,0
-E02002658,"Sutton North",0.099,0
-E02002659,"Greenwood",0.112,0
-E02002660,"Bilton Grange",0.001,0
-E02002661,"Longhill",0.128,0
-E02002662,"Ings",0.103,0
-E02002663,"University & Newland North",0.119,0
-E02002664,"Sutton South",0.113,0
-E02002665,"Bricknell East",0.114,0
-E02002666,"Newland South",0.098,0
-E02002667,"Stoneferry & Sutton Fields",0.106,1
-E02002668,"Southcoates East",0.12,0
-E02002669,"Newland Avenues",0.077,0
-E02002670,"Bricknell West",0.1,0
-E02002671,"Southcoates Central & Docks",0.1,0
-E02002672,"Greatfield",0.065,0
-E02002673,"Southcoates West",0.095,0
-E02002674,"Derringham",0.096,0
-E02002675,"Sculcoates",0.092,0
-E02002676,"Chanterlands Avenue",0.103,0
-E02002677,"Drypool & Victoria Dock",0.098,2
-E02002678,"Newington",0.105,0
-E02002679,"East Ella",0.112,1
-E02002680,"Hull City Centre",0.107,3
-E02002681,"Boulevard & St Andrew's Quay",0.088,2
-E02002682,"Gipsyville",0.116,0
-E02006813,"Anlaby Park & Pickering",0.132,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002652,"Kingswood",0.08,0,133.0
+E02002653,"Bransholme Central",0.111,0,195.0
+E02002654,"Orchard Park",0.099,0,36.0
+E02002655,"Bransholme East",0.08,0,195.0
+E02002656,"Haworth Park",0.163,0,36.0
+E02002657,"Bransholme West",0.108,0,195.0
+E02002658,"Sutton North",0.099,0,195.0
+E02002659,"Greenwood",0.112,0,36.0
+E02002660,"Bilton Grange",0.001,0,204.0
+E02002661,"Longhill",0.128,0,152.0
+E02002662,"Ings",0.103,0,152.0
+E02002663,"University & Newland North",0.119,0,161.0
+E02002664,"Sutton South",0.113,0,195.0
+E02002665,"Bricknell East",0.114,0,99.0
+E02002666,"Newland South",0.098,0,305.0
+E02002667,"Stoneferry & Sutton Fields",0.106,1,436.0
+E02002668,"Southcoates East",0.12,0,90.0
+E02002669,"Newland Avenues",0.077,0,136.0
+E02002670,"Bricknell West",0.1,0,63.0
+E02002671,"Southcoates Central & Docks",0.1,0,152.0
+E02002672,"Greatfield",0.065,0,90.0
+E02002673,"Southcoates West",0.095,0,152.0
+E02002674,"Derringham",0.096,0,63.0
+E02002675,"Sculcoates",0.092,0,151.0
+E02002676,"Chanterlands Avenue",0.103,0,136.0
+E02002677,"Drypool & Victoria Dock",0.098,2,488.0
+E02002678,"Newington",0.105,0,191.0
+E02002679,"East Ella",0.112,1,191.0
+E02002680,"Hull City Centre",0.107,3,275.0
+E02002681,"Boulevard & St Andrew's Quay",0.088,2,108.0
+E02002682,"Gipsyville",0.116,0,128.0
+E02006813,"Anlaby Park & Pickering",0.132,2,187.0

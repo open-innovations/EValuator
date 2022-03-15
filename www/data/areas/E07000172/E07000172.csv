@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005850,"Eastwood Hall & Brinsley",0,0
-E02005851,"Eastwood Town",0,8
-E02005852,"Eastwood East",0,1
-E02005853,"Kimberley North & Watnall",0,0
-E02005856,"Bramcote",0,0
-E02005857,"Stapleford North",0,0
-E02005858,"Beeston North",0,0
-E02005859,"Stapleford South",0,8
-E02005860,"Beeston Town",0,8
-E02005861,"Beeston Rylands",0,0
-E02005862,"Chilwell West",0,0
-E02005863,"Attenborough & Chilwell East",0,0
-E02005864,"Toton",0,16
-E02006906,"Kimberley South",0,9
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005850,"Eastwood Hall & Brinsley",0,0,321.0
+E02005851,"Eastwood Town",0,8,321.0
+E02005852,"Eastwood East",0,1,321.0
+E02005853,"Kimberley North & Watnall",0,0,573.0
+E02005856,"Bramcote",0,0,612.0
+E02005857,"Stapleford North",0,0,342.0
+E02005858,"Beeston North",0,0,612.0
+E02005859,"Stapleford South",0,8,342.0
+E02005860,"Beeston Town",0,8,962.0
+E02005861,"Beeston Rylands",0,0,342.0
+E02005862,"Chilwell West",0,0,342.0
+E02005863,"Attenborough & Chilwell East",0,0,342.0
+E02005864,"Toton",0,16,574.0
+E02006906,"Kimberley South",0,9,1286.0

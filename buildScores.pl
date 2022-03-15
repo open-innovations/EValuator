@@ -81,6 +81,7 @@ if(!-e $layerfile){
 
 
 foreach $a (sort(keys(%areas))){
+	
 	$adir = $dir.$a."/";
 
 	if(!-d $adir){
@@ -95,43 +96,13 @@ foreach $a (sort(keys(%areas))){
 	}
 	
 	$ofile = $adir.$a.".csv";
-	if(!-e $ofile){
 
-		open(FILE,$ifile);
-		@lines = <FILE>;
-		close(FILE);
-
-		print "Saving to $ofile\n";
-		open(OUT,">",$ofile);
-		print OUT "MSOA,Name";
-		for($h = 0; $h < @headers; $h++){
-			print OUT ",$headers[$h]";
-		}
-		print OUT "\n";
-		foreach $line (@lines){
-			$line =~ s/[\n\r]//g;
-			($m,$name) = split(/\t/,$line);
-			print OUT "$m,\"$name\"";
-			for($h = 0; $h < @headers; $h++){
-				print OUT",".($msoa{$m}{$headers[$h]}||0);
-			}
-			print OUT "\n";
-		}
-		close(OUT);
-	}
-}
-exit;
-opendir my $dh, $dir || die "$0: opendir: $!";
-while (defined(my $name = readdir $dh)) {
-	next unless -d "$dir$name";
-	next if $name eq ".";
-	next if $name eq "..";
-
-	open(FILE,"$dir$name/$name-msoas.tsv");
+	open(FILE,$ifile);
 	@lines = <FILE>;
 	close(FILE);
-	print "Saving to file $dir$name/$name.csv\n";
-	open(OUT,">","$dir$name/$name.csv");
+
+	print "Saving to $ofile\n";
+	open(OUT,">",$ofile);
 	print OUT "MSOA,Name";
 	for($h = 0; $h < @headers; $h++){
 		print OUT ",$headers[$h]";
@@ -147,5 +118,5 @@ while (defined(my $name = readdir $dh)) {
 		print OUT "\n";
 	}
 	close(OUT);
+
 }
-closedir($dh);

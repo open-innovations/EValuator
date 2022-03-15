@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005102,"Lyminge",0,0
-E02005103,"Hawkinge",0,0
-E02005104,"Folkestone North East",0,0
-E02005105,"Folkestone Foord",0,0
-E02005106,"Cheriton & Horn Street",0,0
-E02005107,"Folkestone Morehall & Sandgate",0,3
-E02005109,"Saltwood",0,2
-E02005110,"Lympne & Palmarsh",0,0
-E02005111,"Hythe",0,7
-E02005112,"Dymchurch",0,2
-E02005113,"New Romney",0,3
-E02005114,"Lydd & Dungeness",0,0
-E02006879,"Folkestone Harbour",0,3
-E02006880,"Folkestone Central",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005102,"Lyminge",0,0,742.0
+E02005103,"Hawkinge",0,0,169.0
+E02005104,"Folkestone North East",0,0,361.0
+E02005105,"Folkestone Foord",0,0,151.0
+E02005106,"Cheriton & Horn Street",0,0,361.0
+E02005107,"Folkestone Morehall & Sandgate",0,3,271.0
+E02005109,"Saltwood",0,2,336.0
+E02005110,"Lympne & Palmarsh",0,0,424.0
+E02005111,"Hythe",0,7,192.0
+E02005112,"Dymchurch",0,2,687.0
+E02005113,"New Romney",0,3,115.0
+E02005114,"Lydd & Dungeness",0,0,115.0
+E02006879,"Folkestone Harbour",0,3,361.0
+E02006880,"Folkestone Central",0,0,151.0

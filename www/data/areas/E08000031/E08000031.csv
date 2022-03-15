@@ -1,34 +1,34 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002149,"Bushbury",0,1
-E02002150,"Fordhouses",0,0
-E02002151,"Pendeford",0,0
-E02002152,"Bushbury Hill",0,0
-E02002153,"Ashmore Park",0,0
-E02002154,"Oxley Park",0,0
-E02002155,"Low Hill",0,0
-E02002156,"Wood End",0,1
-E02002157,"Tettenhall North",0,1
-E02002158,"Wednesfield North East",0,0
-E02002159,"Park Lane",0,0
-E02002160,"Wednesfield Town",0,0
-E02002161,"Whitmore Reans & Dunstall Hill",0,1
-E02002162,"Tettenhall South",0,0
-E02002163,"Heath Town",0,0
-E02002164,"Waterloo Road",0,3
-E02002165,"West Park",0,1
-E02002166,"East Park",0,1
-E02002167,"Castlecroft",0,1
-E02002168,"Wolverhampton Central",0,7
-E02002169,"Compton & Merryhill North",0,0
-E02002170,"Bilston North West",0,0
-E02002171,"Bilston North East",0,0
-E02002174,"Bradmore",0,0
-E02002175,"Bilston Lunt & Loxdale",0,0
-E02002176,"Merryhill South",0,0
-E02002177,"Ettingshall",0,0
-E02002178,"Goldthorn Park",0,0
-E02002179,"Upper Penn",0,0
-E02002180,"Ettingshall Park",0,0
-E02002181,"Bradley",0,1
-E02002182,"Woodcross",0,0
-E02006894,"Blakenhall",0,7
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002149,"Bushbury",0,1,285.0
+E02002150,"Fordhouses",0,0,218.0
+E02002151,"Pendeford",0,0,99.0
+E02002152,"Bushbury Hill",0,0,286.0
+E02002153,"Ashmore Park",0,0,136.0
+E02002154,"Oxley Park",0,0,218.0
+E02002155,"Low Hill",0,0,198.0
+E02002156,"Wood End",0,1,286.0
+E02002157,"Tettenhall North",0,1,304.0
+E02002158,"Wednesfield North East",0,0,245.0
+E02002159,"Park Lane",0,0,198.0
+E02002160,"Wednesfield Town",0,0,395.0
+E02002161,"Whitmore Reans & Dunstall Hill",0,1,536.0
+E02002162,"Tettenhall South",0,0,354.0
+E02002163,"Heath Town",0,0,754.0
+E02002164,"Waterloo Road",0,3,259.0
+E02002165,"West Park",0,1,346.0
+E02002166,"East Park",0,1,159.0
+E02002167,"Castlecroft",0,1,292.0
+E02002168,"Wolverhampton Central",0,7,444.0
+E02002169,"Compton & Merryhill North",0,0,401.0
+E02002170,"Bilston North West",0,0,156.0
+E02002171,"Bilston North East",0,0,210.0
+E02002174,"Bradmore",0,0,196.0
+E02002175,"Bilston Lunt & Loxdale",0,0,200.0
+E02002176,"Merryhill South",0,0,196.0
+E02002177,"Ettingshall",0,0,309.0
+E02002178,"Goldthorn Park",0,0,301.0
+E02002179,"Upper Penn",0,0,109.0
+E02002180,"Ettingshall Park",0,0,109.0
+E02002181,"Bradley",0,1,95.0
+E02002182,"Woodcross",0,0,311.0
+E02006894,"Blakenhall",0,7,355.0

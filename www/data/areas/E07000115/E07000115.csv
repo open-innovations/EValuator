@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005149,"Aylesford",0,2
-E02005150,"Snodland",0,0
-E02005151,"Larkfield & New Hythe",0,1
-E02005153,"Ditton",0,5
-E02005154,"Borough Green",0,1
-E02005155,"Kings Hill & Wateringbury",0,6
-E02005156,"Hadlow & East Peckham",0,0
-E02005157,"Tonbridge Trench Wood",0,0
-E02005158,"Hildenborough",0,0
-E02005159,"Tonbridge Higham Wood",0,0
-E02005160,"Tonbridge Town",0,4
-E02005161,"Tonbridge South & Haysden",0,0
-E02006833,"East Malling",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005149,"Aylesford",0,2,545.0
+E02005150,"Snodland",0,0,1154.0
+E02005151,"Larkfield & New Hythe",0,1,469.0
+E02005153,"Ditton",0,5,636.0
+E02005154,"Borough Green",0,1,574.0
+E02005155,"Kings Hill & Wateringbury",0,6,587.0
+E02005156,"Hadlow & East Peckham",0,0,565.0
+E02005157,"Tonbridge Trench Wood",0,0,295.0
+E02005158,"Hildenborough",0,0,666.0
+E02005159,"Tonbridge Higham Wood",0,0,416.0
+E02005160,"Tonbridge Town",0,4,1545.0
+E02005161,"Tonbridge South & Haysden",0,0,532.0
+E02006833,"East Malling",0,0,890.0

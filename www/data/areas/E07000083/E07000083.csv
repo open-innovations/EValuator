@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004666,"Tewkesbury East & Ashchurch",0,0
-E02004667,"Tewkesbury West & Twyning",0,2
-E02004668,"Winchcombe & Washbourne",0,0
-E02004669,"Cleeve Hill",0,0
-E02004670,"Bishop's Cleeve",0,0
-E02004671,"Highnam",0,2
-E02004672,"Churchdown & Innsworth",0,5
-E02004673,"Shurdington",0,0
-E02004674,"Brockworth & Coopers Edge",0,6
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004666,"Tewkesbury East & Ashchurch",0,0,246.0
+E02004667,"Tewkesbury West & Twyning",0,2,429.0
+E02004668,"Winchcombe & Washbourne",0,0,1303.0
+E02004669,"Cleeve Hill",0,0,1302.0
+E02004670,"Bishop's Cleeve",0,0,643.0
+E02004671,"Highnam",0,2,918.0
+E02004672,"Churchdown & Innsworth",0,5,980.0
+E02004673,"Shurdington",0,0,1426.0
+E02004674,"Brockworth & Coopers Edge",0,6,998.0

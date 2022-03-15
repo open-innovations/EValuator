@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004015,"Windermere North",0.188,5
-E02004016,"Windermere South & Staveley",0.334,2
-E02004017,"Kendal North & Burneside",0.417,5
-E02004018,"Kendal Town & Greenside",0.364,0
-E02004019,"Kendal East & Whinfell",0.573,2
-E02004020,"Kendal South",0.383,1
-E02004021,"Hawkshead & Cartmel Fell",0.382,2
-E02004022,"Coniston",0.351,3
-E02004023,"Sedbergh & Kirkby Lonsdale",0.491,6
-E02004024,"Burton-in-Kendal",0.982,5
-E02004025,"Arnside",0.526,0
-E02004026,"Ulverston",0.284,1
-E02004027,"Grange-over-Sands & Cartmel Peninsula",0.13,0
-E02004028,"Swarthmoor & Low Furness",0.204,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004015,"Windermere North",0.188,5,118.0
+E02004016,"Windermere South & Staveley",0.334,2,160.0
+E02004017,"Kendal North & Burneside",0.417,5,240.0
+E02004018,"Kendal Town & Greenside",0.364,0,240.0
+E02004019,"Kendal East & Whinfell",0.573,2,345.0
+E02004020,"Kendal South",0.383,1,141.0
+E02004021,"Hawkshead & Cartmel Fell",0.382,2,430.0
+E02004022,"Coniston",0.351,3,177.0
+E02004023,"Sedbergh & Kirkby Lonsdale",0.491,6,204.0
+E02004024,"Burton-in-Kendal",0.982,5,354.0
+E02004025,"Arnside",0.526,0,238.0
+E02004026,"Ulverston",0.284,1,111.0
+E02004027,"Grange-over-Sands & Cartmel Peninsula",0.13,0,185.0
+E02004028,"Swarthmoor & Low Furness",0.204,0,162.0

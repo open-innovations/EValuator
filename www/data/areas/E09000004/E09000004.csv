@@ -1,29 +1,29 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000065,"Crossway Park",0,1
-E02000066,"South Thamesmead",0,1
-E02000067,"Belvedere & Lessness Heath",0,5
-E02000068,"Erith East",0,1
-E02000069,"Erith West",0,0
-E02000070,"Lesnes Abbey",0,0
-E02000071,"Northumberland Heath",0,0
-E02000072,"Slade Green & Crayford Marshes",0,0
-E02000073,"Bostall",0,0
-E02000074,"Lesney Farm & Colyers East",0,1
-E02000075,"Bursted Wood",0,1
-E02000077,"St Michael's",0,0
-E02000078,"Barnehurst North",0,1
-E02000079,"Bexleyheath Broadway",0,8
-E02000080,"Welling",0,7
-E02000081,"Barnehurst South",0,0
-E02000082,"Falconwood",0,0
-E02000083,"Crayford",0,4
-E02000084,"Danson Park",0,0
-E02000085,"Blackfen",0,4
-E02000086,"Lamorbey",0,1
-E02000087,"Bexley Village",0,1
-E02000088,"Albany Park",0,0
-E02000089,"Longlands & Halfway",0,0
-E02000090,"Sidcup West",0,0
-E02000091,"Sidcup East",0,1
-E02000092,"Foots Cray Meadows",0,2
-E02006785,"Wickham Street & East Wickham",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000065,"Crossway Park",0,1,301.0
+E02000066,"South Thamesmead",0,1,210.0
+E02000067,"Belvedere & Lessness Heath",0,5,82.0
+E02000068,"Erith East",0,1,318.0
+E02000069,"Erith West",0,0,318.0
+E02000070,"Lesnes Abbey",0,0,628.0
+E02000071,"Northumberland Heath",0,0,516.0
+E02000072,"Slade Green & Crayford Marshes",0,0,689.0
+E02000073,"Bostall",0,0,428.0
+E02000074,"Lesney Farm & Colyers East",0,1,871.0
+E02000075,"Bursted Wood",0,1,434.0
+E02000077,"St Michael's",0,0,428.0
+E02000078,"Barnehurst North",0,1,871.0
+E02000079,"Bexleyheath Broadway",0,8,495.0
+E02000080,"Welling",0,7,538.0
+E02000081,"Barnehurst South",0,0,882.0
+E02000082,"Falconwood",0,0,954.0
+E02000083,"Crayford",0,4,617.0
+E02000084,"Danson Park",0,0,675.0
+E02000085,"Blackfen",0,4,718.0
+E02000086,"Lamorbey",0,1,308.0
+E02000087,"Bexley Village",0,1,247.0
+E02000088,"Albany Park",0,0,685.0
+E02000089,"Longlands & Halfway",0,0,921.0
+E02000090,"Sidcup West",0,0,505.0
+E02000091,"Sidcup East",0,1,505.0
+E02000092,"Foots Cray Meadows",0,2,377.0
+E02006785,"Wickham Street & East Wickham",0,0,230.0

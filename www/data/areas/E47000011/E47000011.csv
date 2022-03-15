@@ -1,100 +1,100 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001708,"Kingston Park & Dinnington",0.431,7
-E02001709,"North Gosforth",0.257,1
-E02001710,"Fawdon South",0.208,10
-E02001711,"Woolsington & Airport",0.341,13
-E02001712,"South Gosforth",0.156,2
-E02001713,"Coxlodge & West Gosforth",0.115,9
-E02001714,"High Heaton",0.151,4
-E02001715,"Kenton",0.221,2
-E02001718,"Blakelaw",0.374,1
-E02001719,"North Heaton",0,1
-E02001720,"North Jesmond",0.139,0
-E02001721,"Throckley & Newburn",0.232,0
-E02001722,"Denton",0.309,0
-E02001723,"Cowgate",0.292,1
-E02001724,"South Jesmond & Sandyford",0.198,0
-E02001725,"Heaton South",0.151,2
-E02001726,"Fenham",0.294,0
-E02001727,"Walkergate",0.099,2
-E02001728,"Lemington",0.388,2
-E02001729,"Nunsmoor",0.124,1
-E02001730,"Shieldfield & Heaton Park",0.173,31
-E02001731,"City Centre & Arthur's Hill",0.099,104
-E02001732,"Scotswood",0.328,0
-E02001733,"Byker",0.107,10
-E02001734,"Benwell",0.185,0
-E02001735,"Walker North",0.07,0
-E02001736,"Elswick",0.08,3
-E02001737,"Walker South",0.059,0
-E02001738,"Whitley Bay North",0.083,0
-E02001739,"Fordley",0.266,0
-E02001740,"Whitley Sands",0.089,6
-E02001741,"Wideopen & Seaton Burn",0.163,0
-E02001742,"West Monkseaton",0.085,0
-E02001743,"Whitley Bay Promenade",0.054,1
-E02001744,"Shiremoor North & South Wellfield",0.116,0
-E02001745,"Killingworth West & Camperdown",0.001,2
-E02001746,"Monkseaton",0.104,0
-E02001747,"Cullercoats",0.096,0
-E02001748,"Shiremoor South & West Allotment",0.259,10
-E02001749,"Killingworth East",0.148,0
-E02001750,"Preston Grange",0,6
-E02001751,"Forest Hall & West Moor",0.106,0
-E02001752,"New York",0.145,7
-E02001753,"Tynemouth Priory",0,4
-E02001754,"Tynemouth West",0.124,0
-E02001755,"Holystone & Benton",0.077,10
-E02001756,"Longbenton",0.09,1
-E02001757,"Preston Billy Mill",0.227,0
-E02001758,"Battle Hill East",0.155,1
-E02001759,"North Shields",0.102,3
-E02001760,"Chirton",0.169,1
-E02001761,"Battle Hill West",0.206,0
-E02001762,"East Benton",0.121,0
-E02001763,"Howdon",0.147,0
-E02001764,"Percy Main",0.106,0
-E02001765,"Willington Quay",0.184,0
-E02001766,"Wallsend East",0.125,3
-E02001767,"Wallsend West",0.159,2
-E02005702,"Longhoughton & Alnmouth",0.238,8
-E02005703,"Alnwick",0.391,9
-E02005704,"Amble",0.187,1
-E02005705,"Rothbury & Longframlington",0.337,4
-E02005706,"Berwick-upon-Tweed Town",0.29,7
-E02005707,"Berwick-upon-Tweed West & Holy Island",0.432,2
-E02005708,"Seahouses",0.243,9
-E02005709,"Blyth Cowpen",0.125,4
-E02005710,"Blyth Town",0.065,7
-E02005711,"Blyth Isabella",0.072,6
-E02005712,"Blyth Newsham",0.065,0
-E02005713,"Blyth South",0.062,12
-E02005714,"North Cramlington",0.138,0
-E02005715,"Cramlington Town & Beaconhill",0.172,6
-E02005716,"East Cramlington & Parkside",0.147,4
-E02005717,"Holywell & Hartley",0.098,0
-E02005718,"Cramlington South",0.174,3
-E02005719,"Seaton Delaval & Seghill",0.131,1
-E02005720,"Widdrington",0.236,0
-E02005721,"Morpeth North & Pegswood",0.337,0
-E02005722,"Longhorsley",0.675,8
-E02005723,"Morpeth Central & East",0.435,9
-E02005724,"Morpeth South & West",0.519,6
-E02005725,"Ponteland",0.362,9
-E02005726,"Darras Hall",0.333,0
-E02005727,"Bellingham",0.201,17
-E02005728,"Haltwhistle & Bardon Mill",0.244,9
-E02005729,"Wylam & Ovingham",0.233,5
-E02005730,"Hexham & Acomb",0.232,25
-E02005731,"Prudhoe",0.147,3
-E02005732,"Stocksfield",0.47,3
-E02005733,"Haydon Bridge & Allendale",0.157,6
-E02005734,"Newbiggin",0.144,1
-E02005735,"Ashington Hirst",0.181,1
-E02005736,"Ashington East",0.221,13
-E02005737,"Ashington West",0.152,6
-E02005738,"Ashington South",0.143,0
-E02005739,"Guide Post & Stakeford",0.139,1
-E02005740,"Bedlington Station & Sleekburn",0.204,0
-E02005741,"Bedlington Town",0.113,4
-E02006893,"Westerhope",0.252,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001708,"Kingston Park & Dinnington",0.431,7,444.0
+E02001709,"North Gosforth",0.257,1,604.0
+E02001710,"Fawdon South",0.208,10,295.0
+E02001711,"Woolsington & Airport",0.341,13,698.0
+E02001712,"South Gosforth",0.156,2,383.0
+E02001713,"Coxlodge & West Gosforth",0.115,9,532.0
+E02001714,"High Heaton",0.151,4,512.0
+E02001715,"Kenton",0.221,2,452.0
+E02001718,"Blakelaw",0.374,1,395.0
+E02001719,"North Heaton",0,1,200.0
+E02001720,"North Jesmond",0.139,0,88.0
+E02001721,"Throckley & Newburn",0.232,0,223.0
+E02001722,"Denton",0.309,0,100.0
+E02001723,"Cowgate",0.292,1,202.0
+E02001724,"South Jesmond & Sandyford",0.198,0,160.0
+E02001725,"Heaton South",0.151,2,257.0
+E02001726,"Fenham",0.294,0,325.0
+E02001727,"Walkergate",0.099,2,240.0
+E02001728,"Lemington",0.388,2,123.0
+E02001729,"Nunsmoor",0.124,1,190.0
+E02001730,"Shieldfield & Heaton Park",0.173,31,273.0
+E02001731,"City Centre & Arthur's Hill",0.099,104,542.0
+E02001732,"Scotswood",0.328,0,225.0
+E02001733,"Byker",0.107,10,128.0
+E02001734,"Benwell",0.185,0,225.0
+E02001735,"Walker North",0.07,0,128.0
+E02001736,"Elswick",0.08,3,382.0
+E02001737,"Walker South",0.059,0,128.0
+E02001738,"Whitley Bay North",0.083,0,224.0
+E02001739,"Fordley",0.266,0,393.0
+E02001740,"Whitley Sands",0.089,6,224.0
+E02001741,"Wideopen & Seaton Burn",0.163,0,766.0
+E02001742,"West Monkseaton",0.085,0,224.0
+E02001743,"Whitley Bay Promenade",0.054,1,224.0
+E02001744,"Shiremoor North & South Wellfield",0.116,0,358.0
+E02001745,"Killingworth West & Camperdown",0.001,2,322.0
+E02001746,"Monkseaton",0.104,0,617.0
+E02001747,"Cullercoats",0.096,0,336.0
+E02001748,"Shiremoor South & West Allotment",0.259,10,71.0
+E02001749,"Killingworth East",0.148,0,160.0
+E02001750,"Preston Grange",0,6,463.0
+E02001751,"Forest Hall & West Moor",0.106,0,160.0
+E02001752,"New York",0.145,7,646.0
+E02001753,"Tynemouth Priory",0,4,134.0
+E02001754,"Tynemouth West",0.124,0,239.0
+E02001755,"Holystone & Benton",0.077,10,381.0
+E02001756,"Longbenton",0.09,1,360.0
+E02001757,"Preston Billy Mill",0.227,0,239.0
+E02001758,"Battle Hill East",0.155,1,112.0
+E02001759,"North Shields",0.102,3,239.0
+E02001760,"Chirton",0.169,1,239.0
+E02001761,"Battle Hill West",0.206,0,112.0
+E02001762,"East Benton",0.121,0,272.0
+E02001763,"Howdon",0.147,0,351.0
+E02001764,"Percy Main",0.106,0,274.0
+E02001765,"Willington Quay",0.184,0,169.0
+E02001766,"Wallsend East",0.125,3,274.0
+E02001767,"Wallsend West",0.159,2,240.0
+E02005702,"Longhoughton & Alnmouth",0.238,8,309.0
+E02005703,"Alnwick",0.391,9,159.0
+E02005704,"Amble",0.187,1,309.0
+E02005705,"Rothbury & Longframlington",0.337,4,587.0
+E02005706,"Berwick-upon-Tweed Town",0.29,7,68.0
+E02005707,"Berwick-upon-Tweed West & Holy Island",0.432,2,94.0
+E02005708,"Seahouses",0.243,9,335.0
+E02005709,"Blyth Cowpen",0.125,4,132.0
+E02005710,"Blyth Town",0.065,7,132.0
+E02005711,"Blyth Isabella",0.072,6,132.0
+E02005712,"Blyth Newsham",0.065,0,182.0
+E02005713,"Blyth South",0.062,12,132.0
+E02005714,"North Cramlington",0.138,0,162.0
+E02005715,"Cramlington Town & Beaconhill",0.172,6,162.0
+E02005716,"East Cramlington & Parkside",0.147,4,162.0
+E02005717,"Holywell & Hartley",0.098,0,589.0
+E02005718,"Cramlington South",0.174,3,162.0
+E02005719,"Seaton Delaval & Seghill",0.131,1,518.0
+E02005720,"Widdrington",0.236,0,396.0
+E02005721,"Morpeth North & Pegswood",0.337,0,230.0
+E02005722,"Longhorsley",0.675,8,882.0
+E02005723,"Morpeth Central & East",0.435,9,396.0
+E02005724,"Morpeth South & West",0.519,6,230.0
+E02005725,"Ponteland",0.362,9,336.0
+E02005726,"Darras Hall",0.333,0,345.0
+E02005727,"Bellingham",0.201,17,767.0
+E02005728,"Haltwhistle & Bardon Mill",0.244,9,196.0
+E02005729,"Wylam & Ovingham",0.233,5,300.0
+E02005730,"Hexham & Acomb",0.232,25,128.0
+E02005731,"Prudhoe",0.147,3,194.0
+E02005732,"Stocksfield",0.47,3,618.0
+E02005733,"Haydon Bridge & Allendale",0.157,6,243.0
+E02005734,"Newbiggin",0.144,1,86.0
+E02005735,"Ashington Hirst",0.181,1,76.0
+E02005736,"Ashington East",0.221,13,76.0
+E02005737,"Ashington West",0.152,6,328.0
+E02005738,"Ashington South",0.143,0,290.0
+E02005739,"Guide Post & Stakeford",0.139,1,302.0
+E02005740,"Bedlington Station & Sleekburn",0.204,0,204.0
+E02005741,"Bedlington Town",0.113,4,302.0
+E02006893,"Westerhope",0.252,2,100.0

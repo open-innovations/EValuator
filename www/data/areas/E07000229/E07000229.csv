@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006621,"High Salvington & Findon Valley",0,0
-E02006622,"Salvington",0,0
-E02006623,"Durrington North",0,2
-E02006624,"Broadwater West",0,1
-E02006625,"Broadwater East",0,0
-E02006626,"Northbrook",0,0
-E02006627,"Durrington South",0,0
-E02006628,"Broadwater South",0,0
-E02006629,"East Worthing",0,5
-E02006630,"Heene",0,0
-E02006631,"Worthing Central",0,6
-E02006632,"West Worthing",0,0
-E02006633,"Goring-by-Sea",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006621,"High Salvington & Findon Valley",0,0,272.0
+E02006622,"Salvington",0,0,272.0
+E02006623,"Durrington North",0,2,258.0
+E02006624,"Broadwater West",0,1,272.0
+E02006625,"Broadwater East",0,0,158.0
+E02006626,"Northbrook",0,0,258.0
+E02006627,"Durrington South",0,0,554.0
+E02006628,"Broadwater South",0,0,410.0
+E02006629,"East Worthing",0,5,397.0
+E02006630,"Heene",0,0,252.0
+E02006631,"Worthing Central",0,6,682.0
+E02006632,"West Worthing",0,0,282.0
+E02006633,"Goring-by-Sea",0,0,144.0

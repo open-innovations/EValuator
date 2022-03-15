@@ -1,28 +1,28 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002244,"Illingworth & Ogden",0.119,0
-E02002245,"Mixenden",0.136,0
-E02002246,"Northowram & Shelf",0.149,3
-E02002247,"Hebden Bridge",0.086,4
-E02002248,"Wheatley & Ovenden West",0.134,0
-E02002249,"Ovenden East",0.147,0
-E02002250,"Mytholmroyd & Cragg Vale",0.092,0
-E02002251,"Central Halifax & Boothtown",0.169,6
-E02002252,"Norton Tower & Mount Tabor",0.107,0
-E02002253,"Pellon West & Highroad Well",0.116,0
-E02002254,"Hipperholme",0.15,3
-E02002255,"Pellon East",0.109,0
-E02002256,"Todmorden West & Cornholme",0.067,1
-E02002257,"King Cross",0.107,0
-E02002258,"Clifton & Bailiff Bridge",0.128,6
-E02002259,"Savile Park",0.112,3
-E02002260,"Sowerby Bridge",0.115,3
-E02002261,"Southowram & Siddal",0.073,1
-E02002262,"Brighouse",0.138,4
-E02002263,"Sowerby & Luddendenfoot",0.147,0
-E02002264,"Skircoat Green",0.08,0
-E02002265,"Todmorden East & Walsden",0.067,1
-E02002266,"Rastrick East",0.085,0
-E02002267,"Rastrick West",0.097,0
-E02002268,"Elland",0.103,3
-E02002269,"Greetland & Stainland",0.144,0
-E02002270,"Ripponden",0.194,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002244,"Illingworth & Ogden",0.119,0,448.0
+E02002245,"Mixenden",0.136,0,115.0
+E02002246,"Northowram & Shelf",0.149,3,503.0
+E02002247,"Hebden Bridge",0.086,4,268.0
+E02002248,"Wheatley & Ovenden West",0.134,0,422.0
+E02002249,"Ovenden East",0.147,0,328.0
+E02002250,"Mytholmroyd & Cragg Vale",0.092,0,199.0
+E02002251,"Central Halifax & Boothtown",0.169,6,653.0
+E02002252,"Norton Tower & Mount Tabor",0.107,0,203.0
+E02002253,"Pellon West & Highroad Well",0.116,0,209.0
+E02002254,"Hipperholme",0.15,3,337.0
+E02002255,"Pellon East",0.109,0,307.0
+E02002256,"Todmorden West & Cornholme",0.067,1,69.0
+E02002257,"King Cross",0.107,0,209.0
+E02002258,"Clifton & Bailiff Bridge",0.128,6,637.0
+E02002259,"Savile Park",0.112,3,510.0
+E02002260,"Sowerby Bridge",0.115,3,297.0
+E02002261,"Southowram & Siddal",0.073,1,366.0
+E02002262,"Brighouse",0.138,4,421.0
+E02002263,"Sowerby & Luddendenfoot",0.147,0,203.0
+E02002264,"Skircoat Green",0.08,0,307.0
+E02002265,"Todmorden East & Walsden",0.067,1,126.0
+E02002266,"Rastrick East",0.085,0,124.0
+E02002267,"Rastrick West",0.097,0,385.0
+E02002268,"Elland",0.103,3,759.0
+E02002269,"Greetland & Stainland",0.144,0,285.0
+E02002270,"Ripponden",0.194,0,373.0

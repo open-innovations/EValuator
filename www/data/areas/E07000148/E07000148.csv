@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005584,"Catton Grove & Airport",0,11
-E02005585,"Mile Cross",0,1
-E02005586,"New Catton & Mousehold North",0,0
-E02005587,"Heartsease & Pilling Park",0,1
-E02005588,"Bowthorpe & West Earlham",0,0
-E02005589,"Earlham",0,0
-E02005590,"City Centre West",0,7
-E02005592,"Earlham Road & College Road",0,0
-E02005593,"University & Avenues",0,4
-E02005594,"Town Close",0,1
-E02005595,"Eaton",0,0
-E02005596,"Lakenham & Tuckswood",0,3
-E02006907,"City Centre East",0,2
-E02006908,"Thorpe Hamlet & Mousehold South",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005584,"Catton Grove & Airport",0,11,506.0
+E02005585,"Mile Cross",0,1,391.0
+E02005586,"New Catton & Mousehold North",0,0,209.0
+E02005587,"Heartsease & Pilling Park",0,1,353.0
+E02005588,"Bowthorpe & West Earlham",0,0,78.0
+E02005589,"Earlham",0,0,516.0
+E02005590,"City Centre West",0,7,487.0
+E02005592,"Earlham Road & College Road",0,0,285.0
+E02005593,"University & Avenues",0,4,363.0
+E02005594,"Town Close",0,1,494.0
+E02005595,"Eaton",0,0,285.0
+E02005596,"Lakenham & Tuckswood",0,3,256.0
+E02006907,"City Centre East",0,2,343.0
+E02006908,"Thorpe Hamlet & Mousehold South",0,0,353.0

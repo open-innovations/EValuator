@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003421,"Pinkney's Green & Furze Platt Road",0,0
-E02003422,"Cookham & Waltham",0,0
-E02003423,"Furze Platt",0,0
-E02003424,"Maidenhead East",0,3
-E02003425,"Maidenhead Central",0,2
-E02003426,"Maidenhead Highway",0,0
-E02003427,"Boyn Hill & Norreys Drive",0,0
-E02003428,"Cox Green",0,0
-E02003429,"Bray Wick & Holyport",0,0
-E02003430,"Windsor Town & Eton",0,9
-E02003431,"Datchet",0,0
-E02003432,"Clewer Village",0,7
-E02003433,"Dedworth",0,2
-E02003434,"Clewer New Town",0,0
-E02003435,"Spital & Cranbourne Park",0,0
-E02003436,"Old Windsor & Wraysbury",0,0
-E02003437,"Ascot & North Ascot East",0,1
-E02003438,"South Ascot & Sunningdale",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003421,"Pinkney's Green & Furze Platt Road",0,0,1603.0
+E02003422,"Cookham & Waltham",0,0,4185.0
+E02003423,"Furze Platt",0,0,1603.0
+E02003424,"Maidenhead East",0,3,1603.0
+E02003425,"Maidenhead Central",0,2,27138.0
+E02003426,"Maidenhead Highway",0,0,1603.0
+E02003427,"Boyn Hill & Norreys Drive",0,0,1603.0
+E02003428,"Cox Green",0,0,1603.0
+E02003429,"Bray Wick & Holyport",0,0,6261.0
+E02003430,"Windsor Town & Eton",0,9,4061.0
+E02003431,"Datchet",0,0,963.0
+E02003432,"Clewer Village",0,7,4061.0
+E02003433,"Dedworth",0,2,4061.0
+E02003434,"Clewer New Town",0,0,5664.0
+E02003435,"Spital & Cranbourne Park",0,0,4061.0
+E02003436,"Old Windsor & Wraysbury",0,0,4766.0
+E02003437,"Ascot & North Ascot East",0,1,4460.0
+E02003438,"South Ascot & Sunningdale",0,0,399.0

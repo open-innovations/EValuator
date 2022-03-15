@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003296,"Corringham North & London Gateway",0,0
-E02003297,"Corringham South",0,0
-E02003298,"Stanford East",0,0
-E02003299,"Orsett",0,0
-E02003300,"Stanford West",0,1
-E02003301,"North Ockendon",0,1
-E02003302,"South Ockendon",0,0
-E02003303,"Aveley",0,0
-E02003304,"Stifford Clays",0,0
-E02003305,"Little Thurrock North",0,0
-E02003307,"Chadwell St Mary",0,0
-E02003308,"East Tilbury",0,0
-E02003309,"Little Thurrock South",0,0
-E02003310,"Purfleet",0,13
-E02003311,"Grays Chafford Gorges & Orsett Road",0,3
-E02003312,"Grays Town",0,1
-E02003313,"Tilbury",0,0
-E02006859,"South Chafford",0,2
-E02006926,"Chafford & North Stifford",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003296,"Corringham North & London Gateway",0,0,375.0
+E02003297,"Corringham South",0,0,171.0
+E02003298,"Stanford East",0,0,171.0
+E02003299,"Orsett",0,0,999.0
+E02003300,"Stanford West",0,1,171.0
+E02003301,"North Ockendon",0,1,597.0
+E02003302,"South Ockendon",0,0,138.0
+E02003303,"Aveley",0,0,437.0
+E02003304,"Stifford Clays",0,0,394.0
+E02003305,"Little Thurrock North",0,0,394.0
+E02003307,"Chadwell St Mary",0,0,394.0
+E02003308,"East Tilbury",0,0,486.0
+E02003309,"Little Thurrock South",0,0,394.0
+E02003310,"Purfleet",0,13,647.0
+E02003311,"Grays Chafford Gorges & Orsett Road",0,3,573.0
+E02003312,"Grays Town",0,1,461.0
+E02003313,"Tilbury",0,0,207.0
+E02006859,"South Chafford",0,2,299.0
+E02006926,"Chafford & North Stifford",0,1,394.0

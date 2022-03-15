@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005809,"Tadcaster",0.165,0
-E02005810,"Church Fenton",0.001,0
-E02005811,"Barlby & Riccall",0.222,0
-E02005812,"Sherburn in Elmet & South Milford",0.178,0
-E02005813,"Selby Town",0.219,3
-E02005814,"Selby West",0.124,0
-E02005815,"Selby South",0.183,0
-E02005816,"Carlton",0.086,0
-E02005817,"Hambleton",0.159,0
-E02005818,"Eggborough",0.226,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005809,"Tadcaster",0.165,0,102.0
+E02005810,"Church Fenton",0.001,0,826.0
+E02005811,"Barlby & Riccall",0.222,0,301.0
+E02005812,"Sherburn in Elmet & South Milford",0.178,0,253.0
+E02005813,"Selby Town",0.219,3,203.0
+E02005814,"Selby West",0.124,0,594.0
+E02005815,"Selby South",0.183,0,203.0
+E02005816,"Carlton",0.086,0,498.0
+E02005817,"Hambleton",0.159,0,513.0
+E02005818,"Eggborough",0.226,0,686.0

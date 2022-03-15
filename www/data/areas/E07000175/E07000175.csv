@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005893,"Ollerton & Boughton",0,2
-E02005894,"Edwinstowe & Clipstone",0,0
-E02005895,"Muskham",0,2
-E02005896,"Winthorpe",0,2
-E02005897,"Bilsthorpe & Farnsfield",0,3
-E02005898,"Rainworth & Blidworth",0,0
-E02005899,"Newark North",0,10
-E02005900,"Southwell",0,1
-E02005901,"Newark South East",0,0
-E02005902,"Newark South West",0,0
-E02005903,"Balderton",0,0
-E02005904,"Fernwood",0,1
-E02005905,"Lowdham",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005893,"Ollerton & Boughton",0,2,186.0
+E02005894,"Edwinstowe & Clipstone",0,0,283.0
+E02005895,"Muskham",0,2,446.0
+E02005896,"Winthorpe",0,2,887.0
+E02005897,"Bilsthorpe & Farnsfield",0,3,532.0
+E02005898,"Rainworth & Blidworth",0,0,319.0
+E02005899,"Newark North",0,10,649.0
+E02005900,"Southwell",0,1,268.0
+E02005901,"Newark South East",0,0,389.0
+E02005902,"Newark South West",0,0,203.0
+E02005903,"Balderton",0,0,203.0
+E02005904,"Fernwood",0,1,667.0
+E02005905,"Lowdham",0,1,249.0

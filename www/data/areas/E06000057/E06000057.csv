@@ -1,41 +1,41 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005702,"Longhoughton & Alnmouth",0.238,8
-E02005703,"Alnwick",0.391,9
-E02005704,"Amble",0.187,1
-E02005705,"Rothbury & Longframlington",0.337,4
-E02005706,"Berwick-upon-Tweed Town",0.29,7
-E02005707,"Berwick-upon-Tweed West & Holy Island",0.432,2
-E02005708,"Seahouses",0.243,9
-E02005709,"Blyth Cowpen",0.125,4
-E02005710,"Blyth Town",0.065,7
-E02005711,"Blyth Isabella",0.072,6
-E02005712,"Blyth Newsham",0.065,0
-E02005713,"Blyth South",0.062,12
-E02005714,"North Cramlington",0.138,0
-E02005715,"Cramlington Town & Beaconhill",0.172,6
-E02005716,"East Cramlington & Parkside",0.147,4
-E02005717,"Holywell & Hartley",0.098,0
-E02005718,"Cramlington South",0.174,3
-E02005719,"Seaton Delaval & Seghill",0.131,1
-E02005720,"Widdrington",0.236,0
-E02005721,"Morpeth North & Pegswood",0.337,0
-E02005722,"Longhorsley",0.675,8
-E02005723,"Morpeth Central & East",0.435,9
-E02005724,"Morpeth South & West",0.519,6
-E02005725,"Ponteland",0.362,9
-E02005726,"Darras Hall",0.333,0
-E02005727,"Bellingham",0.201,17
-E02005728,"Haltwhistle & Bardon Mill",0.244,9
-E02005729,"Wylam & Ovingham",0.233,5
-E02005730,"Hexham & Acomb",0.232,25
-E02005731,"Prudhoe",0.147,3
-E02005732,"Stocksfield",0.47,3
-E02005733,"Haydon Bridge & Allendale",0.157,6
-E02005734,"Newbiggin",0.144,1
-E02005735,"Ashington Hirst",0.181,1
-E02005736,"Ashington East",0.221,13
-E02005737,"Ashington West",0.152,6
-E02005738,"Ashington South",0.143,0
-E02005739,"Guide Post & Stakeford",0.139,1
-E02005740,"Bedlington Station & Sleekburn",0.204,0
-E02005741,"Bedlington Town",0.113,4
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005702,"Longhoughton & Alnmouth",0.238,8,309.0
+E02005703,"Alnwick",0.391,9,159.0
+E02005704,"Amble",0.187,1,309.0
+E02005705,"Rothbury & Longframlington",0.337,4,587.0
+E02005706,"Berwick-upon-Tweed Town",0.29,7,68.0
+E02005707,"Berwick-upon-Tweed West & Holy Island",0.432,2,94.0
+E02005708,"Seahouses",0.243,9,335.0
+E02005709,"Blyth Cowpen",0.125,4,132.0
+E02005710,"Blyth Town",0.065,7,132.0
+E02005711,"Blyth Isabella",0.072,6,132.0
+E02005712,"Blyth Newsham",0.065,0,182.0
+E02005713,"Blyth South",0.062,12,132.0
+E02005714,"North Cramlington",0.138,0,162.0
+E02005715,"Cramlington Town & Beaconhill",0.172,6,162.0
+E02005716,"East Cramlington & Parkside",0.147,4,162.0
+E02005717,"Holywell & Hartley",0.098,0,589.0
+E02005718,"Cramlington South",0.174,3,162.0
+E02005719,"Seaton Delaval & Seghill",0.131,1,518.0
+E02005720,"Widdrington",0.236,0,396.0
+E02005721,"Morpeth North & Pegswood",0.337,0,230.0
+E02005722,"Longhorsley",0.675,8,882.0
+E02005723,"Morpeth Central & East",0.435,9,396.0
+E02005724,"Morpeth South & West",0.519,6,230.0
+E02005725,"Ponteland",0.362,9,336.0
+E02005726,"Darras Hall",0.333,0,345.0
+E02005727,"Bellingham",0.201,17,767.0
+E02005728,"Haltwhistle & Bardon Mill",0.244,9,196.0
+E02005729,"Wylam & Ovingham",0.233,5,300.0
+E02005730,"Hexham & Acomb",0.232,25,128.0
+E02005731,"Prudhoe",0.147,3,194.0
+E02005732,"Stocksfield",0.47,3,618.0
+E02005733,"Haydon Bridge & Allendale",0.157,6,243.0
+E02005734,"Newbiggin",0.144,1,86.0
+E02005735,"Ashington Hirst",0.181,1,76.0
+E02005736,"Ashington East",0.221,13,76.0
+E02005737,"Ashington West",0.152,6,328.0
+E02005738,"Ashington South",0.143,0,290.0
+E02005739,"Guide Post & Stakeford",0.139,1,302.0
+E02005740,"Bedlington Station & Sleekburn",0.204,0,204.0
+E02005741,"Bedlington Town",0.113,4,302.0

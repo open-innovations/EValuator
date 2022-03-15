@@ -1,32 +1,32 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-W02000252,"Hirwaun & Rhigos",0,0
-W02000253,"Aberdare North & Llwydcoed",0,2
-W02000254,"Aberdare West",0,0
-W02000255,"Aberdare East & Cwm-bach",0,0
-W02000256,"Aberaman",0,0
-W02000257,"Mountain Ash",0,0
-W02000258,"Treherbert",0,0
-W02000259,"Penrhiw-ceibr",0,0
-W02000260,"Ferndale & Maerdy",0,0
-W02000261,"Treorchy",0,0
-W02000262,"Pentre",0,0
-W02000263,"Abercynon",0,0
-W02000264,"Tylorstown",0,0
-W02000265,"Ystrad & Llwynypia",0,0
-W02000266,"Glyn-coch & Ynys-y-bwl",0,0
-W02000267,"Tonypandy West & Clydach Vale",0,0
-W02000268,"Porth East & Ynys-hir",0,0
-W02000269,"Tonypandy East",0,0
-W02000270,"Pontypridd East & Cilfynydd",0,0
-W02000271,"Porth West",0,0
-W02000272,"Pontypridd West",0,0
-W02000273,"Trefforest",0,0
-W02000274,"Tonyrefail West",0,0
-W02000275,"Tonyrefail East",0,0
-W02000276,"Church Village East & Ton-teg",0,1
-W02000277,"Taff's Well & Nantgarw",0,3
-W02000278,"Church Village West",0,0
-W02000279,"Beddau & Tyn-y-nant",0,0
-W02000280,"Bryn-cae & Llanharan",0,0
-W02000281,"Llantrisant & Talbot Green",0,0
-W02000282,"Pont-y-clun & Llanharry",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+W02000252,"Hirwaun & Rhigos",0,0,207.0
+W02000253,"Aberdare North & Llwydcoed",0,2,100.0
+W02000254,"Aberdare West",0,0,100.0
+W02000255,"Aberdare East & Cwm-bach",0,0,131.0
+W02000256,"Aberaman",0,0,100.0
+W02000257,"Mountain Ash",0,0,31.0
+W02000258,"Treherbert",0,0,16.0
+W02000259,"Penrhiw-ceibr",0,0,31.0
+W02000260,"Ferndale & Maerdy",0,0,8.0
+W02000261,"Treorchy",0,0,35.0
+W02000262,"Pentre",0,0,11.0
+W02000263,"Abercynon",0,0,108.0
+W02000264,"Tylorstown",0,0,8.0
+W02000265,"Ystrad & Llwynypia",0,0,33.0
+W02000266,"Glyn-coch & Ynys-y-bwl",0,0,77.0
+W02000267,"Tonypandy West & Clydach Vale",0,0,72.0
+W02000268,"Porth East & Ynys-hir",0,0,143.0
+W02000269,"Tonypandy East",0,0,72.0
+W02000270,"Pontypridd East & Cilfynydd",0,0,77.0
+W02000271,"Porth West",0,0,72.0
+W02000272,"Pontypridd West",0,0,199.0
+W02000273,"Trefforest",0,0,77.0
+W02000274,"Tonyrefail West",0,0,190.0
+W02000275,"Tonyrefail East",0,0,194.0
+W02000276,"Church Village East & Ton-teg",0,1,298.0
+W02000277,"Taff's Well & Nantgarw",0,3,378.0
+W02000278,"Church Village West",0,0,169.0
+W02000279,"Beddau & Tyn-y-nant",0,0,313.0
+W02000280,"Bryn-cae & Llanharan",0,0,262.0
+W02000281,"Llantrisant & Talbot Green",0,0,260.0
+W02000282,"Pont-y-clun & Llanharry",0,0,144.0

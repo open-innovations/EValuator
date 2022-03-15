@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006456,"Byfleet",0,1
-E02006457,"West Byfleet & Pyrford North",0,0
-E02006458,"Horsell",0,0
-E02006459,"Sheerwater",0,4
-E02006460,"Goldsworth Park",0,0
-E02006461,"Maybury Hill & Pyrford South",0,0
-E02006462,"Knaphill",0,0
-E02006463,"Woking Central",0,14
-E02006464,"St John's",0,0
-E02006465,"Hook Heath",0,0
-E02006466,"Old Woking & Westfield",0,1
-E02006467,"Mayford & Brookwood",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006456,"Byfleet",0,1,124.0
+E02006457,"West Byfleet & Pyrford North",0,0,459.0
+E02006458,"Horsell",0,0,754.0
+E02006459,"Sheerwater",0,4,707.0
+E02006460,"Goldsworth Park",0,0,372.0
+E02006461,"Maybury Hill & Pyrford South",0,0,1063.0
+E02006462,"Knaphill",0,0,563.0
+E02006463,"Woking Central",0,14,707.0
+E02006464,"St John's",0,0,707.0
+E02006465,"Hook Heath",0,0,707.0
+E02006466,"Old Woking & Westfield",0,1,335.0
+E02006467,"Mayford & Brookwood",0,0,1254.0

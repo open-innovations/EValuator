@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006542,"Arundel",0,5
-E02006543,"Angmering North",0,0
-E02006544,"Westergate",0,4
-E02006545,"Wick & Toddington",0,3
-E02006546,"Angmering South",0,1
-E02006547,"Yapton & Climping",0,0
-E02006548,"Rustington North",0,0
-E02006549,"Ferring & Kingston Gorse",0,2
-E02006550,"Littlehampton East",0,1
-E02006551,"East Preston & Rustington East",0,0
-E02006552,"Littlehampton West and River",0,3
-E02006553,"North Bersted",0,1
-E02006554,"Middleton-on-Sea",0,0
-E02006555,"South Bersted",0,2
-E02006556,"Felpham",0,0
-E02006557,"Hawthorn Road",0,0
-E02006558,"Bognor Regis Central",0,4
-E02006559,"Aldwick",0,0
-E02006560,"Nyetimber & Pagham",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006542,"Arundel",0,5,204.0
+E02006543,"Angmering North",0,0,572.0
+E02006544,"Westergate",0,4,633.0
+E02006545,"Wick & Toddington",0,3,112.0
+E02006546,"Angmering South",0,1,352.0
+E02006547,"Yapton & Climping",0,0,332.0
+E02006548,"Rustington North",0,0,320.0
+E02006549,"Ferring & Kingston Gorse",0,2,466.0
+E02006550,"Littlehampton East",0,1,320.0
+E02006551,"East Preston & Rustington East",0,0,458.0
+E02006552,"Littlehampton West and River",0,3,270.0
+E02006553,"North Bersted",0,1,270.0
+E02006554,"Middleton-on-Sea",0,0,220.0
+E02006555,"South Bersted",0,2,270.0
+E02006556,"Felpham",0,0,270.0
+E02006557,"Hawthorn Road",0,0,270.0
+E02006558,"Bognor Regis Central",0,4,270.0
+E02006559,"Aldwick",0,0,142.0
+E02006560,"Nyetimber & Pagham",0,0,404.0

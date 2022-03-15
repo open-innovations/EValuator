@@ -1,43 +1,43 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001467,"New Brighton",0.041,8
-E02001468,"Wallasey East",0.059,4
-E02001469,"Wallasey Village",0.15,0
-E02001470,"Wallasey Central",0.102,1
-E02001471,"Egremont",0.07,3
-E02001472,"Leasowe",0.094,0
-E02001473,"Liscard",0.161,4
-E02001474,"Seacombe",0.067,4
-E02001475,"Leasowe South & Moreton East",0.121,0
-E02001476,"Poulton",0.085,1
-E02001477,"Bidston Hill",0.166,5
-E02001478,"Moreton West",0.187,1
-E02001479,"Great Meols",0.059,0
-E02001480,"Hoylake",0.046,13
-E02001481,"Claughton North",0.12,2
-E02001482,"Birkenhead Central",0.089,4
-E02001483,"Saughall Massie",0.212,0
-E02001484,"Upton West",0.199,0
-E02001485,"Noctorum North & Upton East",0.097,0
-E02001486,"Claughton South & Oxton North",0.134,0
-E02001487,"Birkenhead South",0.1,0
-E02001488,"Oxton South",0.115,0
-E02001489,"Greasby",0.159,0
-E02001490,"Noctorum South",0.199,0
-E02001491,"Woodchurch",0.181,9
-E02001492,"West Kirby",0.075,1
-E02001493,"Tranmere",0.106,0
-E02001494,"Caldy & Newton",0.087,0
-E02001495,"Egerton Park",0.125,0
-E02001496,"Prenton",0.118,2
-E02001497,"Bebington New Ferry",0.083,0
-E02001498,"Woodhey",0.11,0
-E02001499,"Thursaston & Irby",0.122,0
-E02001500,"Pensby & Thingwall",0.116,0
-E02001501,"Higher Bebington",0.242,0
-E02001502,"Lower Bebington & Bromborough Pool",0.118,0
-E02001503,"Heswall",0.121,2
-E02001504,"Poulton",0.23,0
-E02001505,"Bromborough North",0.127,8
-E02001506,"Gayton & Lower Heswall",0.128,0
-E02001507,"Bromborough South",0.158,0
-E02001508,"Eastham",0.179,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001467,"New Brighton",0.041,8,87.0
+E02001468,"Wallasey East",0.059,4,122.0
+E02001469,"Wallasey Village",0.15,0,122.0
+E02001470,"Wallasey Central",0.102,1,122.0
+E02001471,"Egremont",0.07,3,122.0
+E02001472,"Leasowe",0.094,0,218.0
+E02001473,"Liscard",0.161,4,122.0
+E02001474,"Seacombe",0.067,4,103.0
+E02001475,"Leasowe South & Moreton East",0.121,0,96.0
+E02001476,"Poulton",0.085,1,103.0
+E02001477,"Bidston Hill",0.166,5,325.0
+E02001478,"Moreton West",0.187,1,188.0
+E02001479,"Great Meols",0.059,0,305.0
+E02001480,"Hoylake",0.046,13,209.0
+E02001481,"Claughton North",0.12,2,290.0
+E02001482,"Birkenhead Central",0.089,4,345.0
+E02001483,"Saughall Massie",0.212,0,188.0
+E02001484,"Upton West",0.199,0,92.0
+E02001485,"Noctorum North & Upton East",0.097,0,314.0
+E02001486,"Claughton South & Oxton North",0.134,0,290.0
+E02001487,"Birkenhead South",0.1,0,123.0
+E02001488,"Oxton South",0.115,0,345.0
+E02001489,"Greasby",0.159,0,233.0
+E02001490,"Noctorum South",0.199,0,277.0
+E02001491,"Woodchurch",0.181,9,92.0
+E02001492,"West Kirby",0.075,1,209.0
+E02001493,"Tranmere",0.106,0,123.0
+E02001494,"Caldy & Newton",0.087,0,141.0
+E02001495,"Egerton Park",0.125,0,154.0
+E02001496,"Prenton",0.118,2,277.0
+E02001497,"Bebington New Ferry",0.083,0,248.0
+E02001498,"Woodhey",0.11,0,154.0
+E02001499,"Thursaston & Irby",0.122,0,323.0
+E02001500,"Pensby & Thingwall",0.116,0,311.0
+E02001501,"Higher Bebington",0.242,0,189.0
+E02001502,"Lower Bebington & Bromborough Pool",0.118,0,272.0
+E02001503,"Heswall",0.121,2,219.0
+E02001504,"Poulton",0.23,0,363.0
+E02001505,"Bromborough North",0.127,8,162.0
+E02001506,"Gayton & Lower Heswall",0.128,0,354.0
+E02001507,"Bromborough South",0.158,0,193.0
+E02001508,"Eastham",0.179,0,203.0

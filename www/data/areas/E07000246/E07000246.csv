@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006099,"Bishops Lydeard & Cotford St Luke",0,0
-E02006100,"Taunton Rowbarton & Kingston",0,0
-E02006101,"Wiveliscombe & Milverton",0,1
-E02006102,"Taunton Pyrland & Priorswood",0,2
-E02006103,"Ruishton & North Curry",0,2
-E02006104,"Taunton Halcon & Monkton Heathfield",0,1
-E02006105,"Taunton North Town",0,1
-E02006106,"Bishop's Hull & Norton Fitzwarren",0,0
-E02006107,"Taunton Holway & Lambrook",0,0
-E02006108,"Taunton Wilton",0,2
-E02006109,"Taunton Galmington & Trull",0,2
-E02006110,"Wellington North",0,0
-E02006111,"Wellington South",0,1
-E02006112,"Dowslands & Blackdown",0,3
-E02006113,"Minehead Town",0,1
-E02006114,"Minehead Outer & Porlock",0,2
-E02006115,"Watchet",0,0
-E02006116,"Williton",0,0
-E02006117,"Dunster",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006099,"Bishops Lydeard & Cotford St Luke",0,0,362.0
+E02006100,"Taunton Rowbarton & Kingston",0,0,217.0
+E02006101,"Wiveliscombe & Milverton",0,1,250.0
+E02006102,"Taunton Pyrland & Priorswood",0,2,146.0
+E02006103,"Ruishton & North Curry",0,2,537.0
+E02006104,"Taunton Halcon & Monkton Heathfield",0,1,309.0
+E02006105,"Taunton North Town",0,1,590.0
+E02006106,"Bishop's Hull & Norton Fitzwarren",0,0,454.0
+E02006107,"Taunton Holway & Lambrook",0,0,309.0
+E02006108,"Taunton Wilton",0,2,163.0
+E02006109,"Taunton Galmington & Trull",0,2,549.0
+E02006110,"Wellington North",0,0,105.0
+E02006111,"Wellington South",0,1,250.0
+E02006112,"Dowslands & Blackdown",0,3,626.0
+E02006113,"Minehead Town",0,1,85.0
+E02006114,"Minehead Outer & Porlock",0,2,95.0
+E02006115,"Watchet",0,0,255.0
+E02006116,"Williton",0,0,489.0
+E02006117,"Dunster",0,0,465.0

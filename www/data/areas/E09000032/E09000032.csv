@@ -1,38 +1,38 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000923,"Battersea Park",0,9
-E02000924,"Nine Elms & Patmore",0,9
-E02000925,"Battersea Latchmere",0,6
-E02000926,"St Mary's & Cotton Row",0,24
-E02000927,"Lavender Hill East",0,29
-E02000928,"Putney Embankment & Lower Common",0,23
-E02000929,"York Gardens",0,3
-E02000930,"Lavender Hill West & Little India",0,21
-E02000931,"Clapham Common West",0,121
-E02000932,"Putney Town & Wandsworth Park",0,63
-E02000933,"Putney West",0,12
-E02000934,"Clapham Junction & East Hill",0,9
-E02000935,"Roehampton North West",0,6
-E02000936,"East Putney",0,13
-E02000937,"Wandsworth Common",0,30
-E02000938,"Roehampton North East",0,5
-E02000939,"Nightingale Lane",0,51
-E02000940,"Wandsworth South",0,20
-E02000941,"Earlsfield North",0,18
-E02000942,"Southfields North",0,15
-E02000943,"Balham",0,22
-E02000944,"West Hill North",0,3
-E02000945,"Roehampton South & Putney Vale",0,10
-E02000946,"Earlsfield South",0,18
-E02000947,"Merton Road",0,14
-E02000948,"Tooting Bec Common",0,7
-E02000949,"Springfield",0,14
-E02000950,"West Hill South",0,2
-E02000951,"Tooting Bec West",0,12
-E02000952,"Tooting Bec East",0,8
-E02000953,"Summerstown",0,9
-E02000954,"Upper Tooting",0,8
-E02000955,"Tooting North",0,4
-E02000956,"Tooting West",0,7
-E02000957,"Tooting East",0,3
-E02000958,"Furzedown West",0,3
-E02000959,"Furzedown East",0,9
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000923,"Battersea Park",0,9,1694.0
+E02000924,"Nine Elms & Patmore",0,9,2994.0
+E02000925,"Battersea Latchmere",0,6,738.0
+E02000926,"St Mary's & Cotton Row",0,24,1413.0
+E02000927,"Lavender Hill East",0,29,2007.0
+E02000928,"Putney Embankment & Lower Common",0,23,708.0
+E02000929,"York Gardens",0,3,1413.0
+E02000930,"Lavender Hill West & Little India",0,21,1559.0
+E02000931,"Clapham Common West",0,121,1051.0
+E02000932,"Putney Town & Wandsworth Park",0,63,1383.0
+E02000933,"Putney West",0,12,708.0
+E02000934,"Clapham Junction & East Hill",0,9,1413.0
+E02000935,"Roehampton North West",0,6,708.0
+E02000936,"East Putney",0,13,1383.0
+E02000937,"Wandsworth Common",0,30,1666.0
+E02000938,"Roehampton North East",0,5,708.0
+E02000939,"Nightingale Lane",0,51,1304.0
+E02000940,"Wandsworth South",0,20,675.0
+E02000941,"Earlsfield North",0,18,2654.0
+E02000942,"Southfields North",0,15,2528.0
+E02000943,"Balham",0,22,566.0
+E02000944,"West Hill North",0,3,2528.0
+E02000945,"Roehampton South & Putney Vale",0,10,708.0
+E02000946,"Earlsfield South",0,18,1039.0
+E02000947,"Merton Road",0,14,675.0
+E02000948,"Tooting Bec Common",0,7,1125.0
+E02000949,"Springfield",0,14,1292.0
+E02000950,"West Hill South",0,2,1145.0
+E02000951,"Tooting Bec West",0,12,617.0
+E02000952,"Tooting Bec East",0,8,617.0
+E02000953,"Summerstown",0,9,1039.0
+E02000954,"Upper Tooting",0,8,364.0
+E02000955,"Tooting North",0,4,364.0
+E02000956,"Tooting West",0,7,364.0
+E02000957,"Tooting East",0,3,394.0
+E02000958,"Furzedown West",0,3,872.0
+E02000959,"Furzedown East",0,9,508.0

@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004201,"Tedburn",0,0
-E02004202,"Starcross & Exminster",0,1
-E02004203,"Moretonhampstead",0,0
-E02004204,"Chudleigh & Bovey Tracey",0,0
-E02004205,"Dawlish North",0,9
-E02004206,"Dawlish South",0,0
-E02004207,"Heathfield & Liverton",0,1
-E02004208,"Teignmouth North",0,0
-E02004209,"Kingsteignton",0,0
-E02004210,"Teignmouth South",0,1
-E02004211,"Bishopsteignton & Shaldon",0,0
-E02004212,"Newton Abbot",0,0
-E02004213,"Ogwell",0,0
-E02004214,"Newton Abbot",0,0
-E02004215,"Newton Abbot",0,0
-E02004216,"Newton Abbot",0,0
-E02004217,"Ashburton & Buckfastleigh",0,0
-E02004218,"Kingskerswell",0,0
-E02004219,"Ipplepen & Broadhempston",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004201,"Tedburn",0,0,1976.0
+E02004202,"Starcross & Exminster",0,1,1622.0
+E02004203,"Moretonhampstead",0,0,397.0
+E02004204,"Chudleigh & Bovey Tracey",0,0,641.0
+E02004205,"Dawlish North",0,9,205.0
+E02004206,"Dawlish South",0,0,342.0
+E02004207,"Heathfield & Liverton",0,1,502.0
+E02004208,"Teignmouth North",0,0,203.0
+E02004209,"Kingsteignton",0,0,303.0
+E02004210,"Teignmouth South",0,1,137.0
+E02004211,"Bishopsteignton & Shaldon",0,0,784.0
+E02004212,"Newton Abbot",0,0,303.0
+E02004213,"Ogwell",0,0,705.0
+E02004214,"Newton Abbot",0,0,639.0
+E02004215,"Newton Abbot",0,0,303.0
+E02004216,"Newton Abbot",0,0,303.0
+E02004217,"Ashburton & Buckfastleigh",0,0,551.0
+E02004218,"Kingskerswell",0,0,557.0
+E02004219,"Ipplepen & Broadhempston",0,1,850.0

@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005819,"Stanton Hill & Skegby",0,0
-E02005820,"The Dales & South Skegby",0,0
-E02005821,"Huthwaite",0,0
-E02005822,"Sutton Forest Side & New Cross",0,1
-E02005823,"Sutton Central & Leamington",0,4
-E02005824,"Sutton St Mary's & Ashfields",0,0
-E02005825,"East Kirkby",0,1
-E02005826,"Kirkby Central",0,4
-E02005827,"Kirkby Larwood & Kingsway",0,0
-E02005828,"Annesley & Kirkby Woodhouse",0,1
-E02005829,"Selston",0,0
-E02005830,"Jacksdale & Underwoood",0,0
-E02005831,"Hucknall North & East",0,0
-E02005832,"Hucknall Town",0,12
-E02005833,"West Hucknall",0,0
-E02005834,"Hucknall Westville",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005819,"Stanton Hill & Skegby",0,0,374.0
+E02005820,"The Dales & South Skegby",0,0,230.0
+E02005821,"Huthwaite",0,0,230.0
+E02005822,"Sutton Forest Side & New Cross",0,1,230.0
+E02005823,"Sutton Central & Leamington",0,4,230.0
+E02005824,"Sutton St Mary's & Ashfields",0,0,230.0
+E02005825,"East Kirkby",0,1,452.0
+E02005826,"Kirkby Central",0,4,230.0
+E02005827,"Kirkby Larwood & Kingsway",0,0,803.0
+E02005828,"Annesley & Kirkby Woodhouse",0,1,803.0
+E02005829,"Selston",0,0,570.0
+E02005830,"Jacksdale & Underwoood",0,0,321.0
+E02005831,"Hucknall North & East",0,0,362.0
+E02005832,"Hucknall Town",0,12,252.0
+E02005833,"West Hucknall",0,0,252.0
+E02005834,"Hucknall Westville",0,0,362.0

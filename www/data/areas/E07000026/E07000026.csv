@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003965,"Wigton & Silloth",0.488,0
-E02003966,"Boltons",0.839,2
-E02003967,"Aspatria & Abbeytown",0.554,1
-E02003968,"Maryport",0.121,0
-E02003969,"Flimby",0.132,0
-E02003970,"West Cockermouth & Great Broughton",0.393,0
-E02003971,"East Cockermouth & Buttermere",0.298,0
-E02003972,"Workington North & Seaton",0.157,2
-E02003973,"Workington West",0.108,0
-E02003974,"Workington East",0.152,0
-E02003975,"Harrington",0.247,0
-E02003976,"Keswick & Derwent Valley",0.204,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003965,"Wigton & Silloth",0.488,0,118.0
+E02003966,"Boltons",0.839,2,241.0
+E02003967,"Aspatria & Abbeytown",0.554,1,141.0
+E02003968,"Maryport",0.121,0,23.0
+E02003969,"Flimby",0.132,0,98.0
+E02003970,"West Cockermouth & Great Broughton",0.393,0,165.0
+E02003971,"East Cockermouth & Buttermere",0.298,0,75.0
+E02003972,"Workington North & Seaton",0.157,2,90.0
+E02003973,"Workington West",0.108,0,67.0
+E02003974,"Workington East",0.152,0,67.0
+E02003975,"Harrington",0.247,0,67.0
+E02003976,"Keswick & Derwent Valley",0.204,2,48.0

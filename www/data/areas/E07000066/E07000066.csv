@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004424,"Billericay North East",0,0
-E02004425,"Billericay Queen's Park",0,0
-E02004426,"Billericay Central & Sunnymede",0,0
-E02004427,"Billericay Tye Common",0,0
-E02004428,"Wickford North East",0,1
-E02004429,"Wickford West",0,0
-E02004430,"Wickford Shotgate",0,0
-E02004431,"Wickford South",0,1
-E02004432,"Bursteads",0,0
-E02004433,"Steeple View & Noak Bridge",0,0
-E02004434,"Felmore & Bowers Gifford",0,0
-E02004435,"Whitmore Way & Fremnells",0,2
-E02004436,"Chalvedon",0,0
-E02004437,"Laindon West & Southfields",0,13
-E02004438,"Basildon Central & Pipps Hill",0,0
-E02004439,"Laindon Central",0,0
-E02004440,"Laindon East & Lee Chapel North",0,0
-E02004441,"Eversley",0,0
-E02004442,"Barstable",0,0
-E02004443,"Lee Chapel South & Kingswood",0,0
-E02004444,"Langdon Hills",0,0
-E02004445,"Vange & Pitsea",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004424,"Billericay North East",0,0,561.0
+E02004425,"Billericay Queen's Park",0,0,416.0
+E02004426,"Billericay Central & Sunnymede",0,0,435.0
+E02004427,"Billericay Tye Common",0,0,676.0
+E02004428,"Wickford North East",0,1,186.0
+E02004429,"Wickford West",0,0,422.0
+E02004430,"Wickford Shotgate",0,0,186.0
+E02004431,"Wickford South",0,1,253.0
+E02004432,"Bursteads",0,0,1284.0
+E02004433,"Steeple View & Noak Bridge",0,0,1289.0
+E02004434,"Felmore & Bowers Gifford",0,0,391.0
+E02004435,"Whitmore Way & Fremnells",0,2,180.0
+E02004436,"Chalvedon",0,0,180.0
+E02004437,"Laindon West & Southfields",0,13,1127.0
+E02004438,"Basildon Central & Pipps Hill",0,0,1066.0
+E02004439,"Laindon Central",0,0,758.0
+E02004440,"Laindon East & Lee Chapel North",0,0,977.0
+E02004441,"Eversley",0,0,89.0
+E02004442,"Barstable",0,0,219.0
+E02004443,"Lee Chapel South & Kingswood",0,0,299.0
+E02004444,"Langdon Hills",0,0,886.0
+E02004445,"Vange & Pitsea",0,2,308.0

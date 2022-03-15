@@ -1,27 +1,27 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001019,"Ramsbottom",0.118,3
-E02001020,"Summerseat",0.133,0
-E02001021,"Nuttall & Tottington",0.144,0
-E02001022,"Walmersley & Limefield",0.083,0
-E02001023,"Higher Woodhill",0.093,0
-E02001024,"Walshaw & Woolfold",0.139,0
-E02001025,"Fairfield & Jericho",0.145,3
-E02001026,"Fernhill & Pimhole",0.218,8
-E02001027,"Whitehead Park",0.104,0
-E02001028,"Elton Vale",0.089,0
-E02001029,"Buckley Wells & Fishpool",0.106,8
-E02001030,"Ainsworth & Bradley Fold",0.115,0
-E02001031,"Redvales & Hollins",0.086,1
-E02001032,"Black Lane",0.089,0
-E02001033,"Bank Top & Radcliffe Ees",0.076,2
-E02001034,"Radcliffe",0.08,0
-E02001035,"Unsworth",0.089,0
-E02001036,"Outwood Gate",0.071,0
-E02001037,"Whitefield West & Park Lane",0.128,0
-E02001038,"Whitefield East",0.242,1
-E02001039,"Besses",0.145,0
-E02001040,"Kirkhams & Holyrood",0.167,5
-E02001041,"Prestwich East",0.13,0
-E02001042,"Prestwich Central",0.116,0
-E02001043,"Prestwich Clough & Rainsough",0.086,0
-E02001044,"Sedgley Park",0.131,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001019,"Ramsbottom",0.118,3,1124.0
+E02001020,"Summerseat",0.133,0,1124.0
+E02001021,"Nuttall & Tottington",0.144,0,1124.0
+E02001022,"Walmersley & Limefield",0.083,0,270.0
+E02001023,"Higher Woodhill",0.093,0,748.0
+E02001024,"Walshaw & Woolfold",0.139,0,748.0
+E02001025,"Fairfield & Jericho",0.145,3,270.0
+E02001026,"Fernhill & Pimhole",0.218,8,270.0
+E02001027,"Whitehead Park",0.104,0,1225.0
+E02001028,"Elton Vale",0.089,0,748.0
+E02001029,"Buckley Wells & Fishpool",0.106,8,1018.0
+E02001030,"Ainsworth & Bradley Fold",0.115,0,993.0
+E02001031,"Redvales & Hollins",0.086,1,371.0
+E02001032,"Black Lane",0.089,0,371.0
+E02001033,"Bank Top & Radcliffe Ees",0.076,2,371.0
+E02001034,"Radcliffe",0.08,0,281.0
+E02001035,"Unsworth",0.089,0,632.0
+E02001036,"Outwood Gate",0.071,0,519.0
+E02001037,"Whitefield West & Park Lane",0.128,0,560.0
+E02001038,"Whitefield East",0.242,1,560.0
+E02001039,"Besses",0.145,0,189.0
+E02001040,"Kirkhams & Holyrood",0.167,5,362.0
+E02001041,"Prestwich East",0.13,0,263.0
+E02001042,"Prestwich Central",0.116,0,189.0
+E02001043,"Prestwich Clough & Rainsough",0.086,0,255.0
+E02001044,"Sedgley Park",0.131,0,186.0

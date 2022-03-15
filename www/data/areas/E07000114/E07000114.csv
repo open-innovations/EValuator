@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005132,"Cliftonville West",0,0
-E02005133,"Cliftonville East & Kingsgate",0,0
-E02005134,"Margate Town",0,2
-E02005135,"Salmestone",0,0
-E02005136,"Westbrook & Garlinge",0,0
-E02005137,"Dane Valley & Northdown Hill",0,0
-E02005138,"Westgate",0,0
-E02005139,"Birchington",0,1
-E02005140,"Broadstairs North",0,0
-E02005141,"Broadstairs South",0,0
-E02005142,"Westwood",0,8
-E02005143,"Dumpton",0,0
-E02005144,"Newington",0,0
-E02005145,"Minster & St-Nicholas-at-Wade",0,1
-E02005146,"Ramsgate Ellington",0,0
-E02005147,"Ramsgate Harbour",0,5
-E02005148,"Nethercourt",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005132,"Cliftonville West",0,0,128.0
+E02005133,"Cliftonville East & Kingsgate",0,0,353.0
+E02005134,"Margate Town",0,2,376.0
+E02005135,"Salmestone",0,0,222.0
+E02005136,"Westbrook & Garlinge",0,0,151.0
+E02005137,"Dane Valley & Northdown Hill",0,0,282.0
+E02005138,"Westgate",0,0,222.0
+E02005139,"Birchington",0,1,353.0
+E02005140,"Broadstairs North",0,0,154.0
+E02005141,"Broadstairs South",0,0,237.0
+E02005142,"Westwood",0,8,366.0
+E02005143,"Dumpton",0,0,237.0
+E02005144,"Newington",0,0,167.0
+E02005145,"Minster & St-Nicholas-at-Wade",0,1,485.0
+E02005146,"Ramsgate Ellington",0,0,167.0
+E02005147,"Ramsgate Harbour",0,5,83.0
+E02005148,"Nethercourt",0,0,167.0

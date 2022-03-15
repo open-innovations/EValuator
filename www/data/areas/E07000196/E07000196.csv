@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006174,"Penkridge & Acton Trussell",0,3
-E02006175,"Huntington",0,0
-E02006176,"Brewood & Wheaton Aston",0,0
-E02006177,"Cheslyn Hay",0,0
-E02006178,"Great Wyrley",0,0
-E02006179,"Featherstone West",0,0
-E02006180,"Featherstone East & Essington",0,4
-E02006181,"Bilbrook",0,9
-E02006182,"Codsall",0,5
-E02006183,"Perton West & Pattingham",0,1
-E02006184,"Perton East",0,0
-E02006185,"Wombourne Inner",0,0
-E02006186,"Wombourne Outer",0,0
-E02006187,"Kinver",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006174,"Penkridge & Acton Trussell",0,3,811.0
+E02006175,"Huntington",0,0,946.0
+E02006176,"Brewood & Wheaton Aston",0,0,410.0
+E02006177,"Cheslyn Hay",0,0,399.0
+E02006178,"Great Wyrley",0,0,52.0
+E02006179,"Featherstone West",0,0,306.0
+E02006180,"Featherstone East & Essington",0,4,433.0
+E02006181,"Bilbrook",0,9,304.0
+E02006182,"Codsall",0,5,316.0
+E02006183,"Perton West & Pattingham",0,1,316.0
+E02006184,"Perton East",0,0,205.0
+E02006185,"Wombourne Inner",0,0,301.0
+E02006186,"Wombourne Outer",0,0,845.0
+E02006187,"Kinver",0,2,740.0

@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004078,"Cotmanhay",0,0
-E02004080,"Ilkeston Town",0,3
-E02004081,"Breadsall",0,1
-E02004082,"West Hallam",0,1
-E02004083,"Hallam Fields & Greenwood Ave",0,1
-E02004084,"Kirk Hallam",0,0
-E02004085,"Sandiacre & Stanton",0,1
-E02004086,"Borrowash & Ockbrook",0,0
-E02004087,"Long Eaton North",0,1
-E02004088,"Long Eaton West",0,0
-E02004089,"Long Eaton Town",0,3
-E02004090,"Breaston & Draycott",0,0
-E02004091,"Long Eaton South",0,1
-E02004092,"Sawley",0,1
-E02006828,"Shipley",0,3
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004078,"Cotmanhay",0,0,243.0
+E02004080,"Ilkeston Town",0,3,305.0
+E02004081,"Breadsall",0,1,2467.0
+E02004082,"West Hallam",0,1,1975.0
+E02004083,"Hallam Fields & Greenwood Ave",0,1,817.0
+E02004084,"Kirk Hallam",0,0,243.0
+E02004085,"Sandiacre & Stanton",0,1,606.0
+E02004086,"Borrowash & Ockbrook",0,0,374.0
+E02004087,"Long Eaton North",0,1,475.0
+E02004088,"Long Eaton West",0,0,606.0
+E02004089,"Long Eaton Town",0,3,232.0
+E02004090,"Breaston & Draycott",0,0,606.0
+E02004091,"Long Eaton South",0,1,232.0
+E02004092,"Sawley",0,1,232.0
+E02006828,"Shipley",0,3,243.0

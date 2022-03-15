@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004856,"Markyate",0,1
-E02004857,"Tring West & Long Marston",0,2
-E02004858,"Tring North",0,1
-E02004859,"Tring East",0,0
-E02004860,"Woodhall Farm",0,0
-E02004861,"Northchurch & Potten End",0,0
-E02004862,"Grovehill",0,0
-E02004863,"Highfield",0,0
-E02004864,"Berkhamsted Town",0,1
-E02004865,"Gadebridge & Old Town",0,0
-E02004866,"Warners End",0,0
-E02004867,"Berkhamsted West",0,0
-E02004868,"Maylands & Adeyfield",0,0
-E02004869,"Berkhamsted South",0,0
-E02004870,"Hemel Hempstead Town",0,2
-E02004871,"Chaulden",0,0
-E02004872,"Leverstock Green",0,2
-E02004873,"Boxmoor & Apsley",0,1
-E02004874,"Corner Hall",0,0
-E02004875,"Nash Mills & Bennetts End",0,0
-E02004876,"Bovingdon & Chipperfield",0,0
-E02004877,"Kings Langley",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004856,"Markyate",0,1,1228.0
+E02004857,"Tring West & Long Marston",0,2,237.0
+E02004858,"Tring North",0,1,237.0
+E02004859,"Tring East",0,0,599.0
+E02004860,"Woodhall Farm",0,0,288.0
+E02004861,"Northchurch & Potten End",0,0,1054.0
+E02004862,"Grovehill",0,0,288.0
+E02004863,"Highfield",0,0,288.0
+E02004864,"Berkhamsted Town",0,1,529.0
+E02004865,"Gadebridge & Old Town",0,0,455.0
+E02004866,"Warners End",0,0,529.0
+E02004867,"Berkhamsted West",0,0,362.0
+E02004868,"Maylands & Adeyfield",0,0,1071.0
+E02004869,"Berkhamsted South",0,0,529.0
+E02004870,"Hemel Hempstead Town",0,2,709.0
+E02004871,"Chaulden",0,0,167.0
+E02004872,"Leverstock Green",0,2,542.0
+E02004873,"Boxmoor & Apsley",0,1,709.0
+E02004874,"Corner Hall",0,0,542.0
+E02004875,"Nash Mills & Bennetts End",0,0,254.0
+E02004876,"Bovingdon & Chipperfield",0,0,860.0
+E02004877,"Kings Langley",0,1,504.0

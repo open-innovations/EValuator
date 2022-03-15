@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004055,"Old Whittington",0,1
-E02004056,"Staveley & Norbriggs",0,1
-E02004057,"New Whittington",0,3
-E02004058,"Dunston",0,0
-E02004059,"Brimington South & Tapton",0,0
-E02004060,"Inkersall Green & Duckmanton",0,3
-E02004061,"Newbold",0,4
-E02004062,"Loundsley Green & Holme Hall",0,0
-E02004063,"Ashgate & Brockwell",0,0
-E02004064,"Central Chesterfield & Stonegravels",0,20
-E02004065,"Brookside & Walton",0,4
-E02004066,"Spital & Hasland",0,0
-E02004067,"Boythorpe & Birdholme",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004055,"Old Whittington",0,1,1431.0
+E02004056,"Staveley & Norbriggs",0,1,140.0
+E02004057,"New Whittington",0,3,427.0
+E02004058,"Dunston",0,0,1482.0
+E02004059,"Brimington South & Tapton",0,0,1622.0
+E02004060,"Inkersall Green & Duckmanton",0,3,220.0
+E02004061,"Newbold",0,4,1482.0
+E02004062,"Loundsley Green & Holme Hall",0,0,1661.0
+E02004063,"Ashgate & Brockwell",0,0,1482.0
+E02004064,"Central Chesterfield & Stonegravels",0,20,2160.0
+E02004065,"Brookside & Walton",0,4,370.0
+E02004066,"Spital & Hasland",0,0,1702.0
+E02004067,"Boythorpe & Birdholme",0,0,191.0

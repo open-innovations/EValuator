@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006317,"West Molesey North",0,2
-E02006318,"East Molesey",0,0
-E02006319,"West Molesey South",0,0
-E02006320,"Walton North & Molesey Heath",0,0
-E02006321,"Thames Ditton",0,0
-E02006322,"Long Ditton",0,2
-E02006323,"Walton Central",0,1
-E02006324,"Walton East",0,0
-E02006325,"Hinchley Wood & Weston Green",0,1
-E02006326,"Walton Hersham Road",0,0
-E02006327,"Oatlands",0,0
-E02006328,"Weybridge Riverside",0,3
-E02006329,"Esher",0,5
-E02006330,"Hersham",0,4
-E02006331,"Claygate",0,0
-E02006332,"Weybridge St George's Hill",0,6
-E02006333,"Cobham",0,6
-E02006334,"Oxshott & Stoke D'Abernon",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006317,"West Molesey North",0,2,209.0
+E02006318,"East Molesey",0,0,209.0
+E02006319,"West Molesey South",0,0,574.0
+E02006320,"Walton North & Molesey Heath",0,0,671.0
+E02006321,"Thames Ditton",0,0,507.0
+E02006322,"Long Ditton",0,2,561.0
+E02006323,"Walton Central",0,1,1161.0
+E02006324,"Walton East",0,0,462.0
+E02006325,"Hinchley Wood & Weston Green",0,1,1305.0
+E02006326,"Walton Hersham Road",0,0,462.0
+E02006327,"Oatlands",0,0,829.0
+E02006328,"Weybridge Riverside",0,3,934.0
+E02006329,"Esher",0,5,365.0
+E02006330,"Hersham",0,4,778.0
+E02006331,"Claygate",0,0,365.0
+E02006332,"Weybridge St George's Hill",0,6,1460.0
+E02006333,"Cobham",0,6,681.0
+E02006334,"Oxshott & Stoke D'Abernon",0,1,1265.0

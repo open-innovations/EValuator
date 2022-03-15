@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005835,"Harworth",0,2
-E02005836,"Clarborough",0,0
-E02005837,"Ranskill",0,0
-E02005838,"Carlton & Langold",0,0
-E02005839,"Retford North",0,2
-E02005840,"Worksop North",0,0
-E02005842,"Retford East",0,0
-E02005843,"Worksop West",0,5
-E02005844,"Retford South",0,2
-E02005846,"Worksop Cheapside",0,2
-E02005847,"Worksop Town & South",0,8
-E02005848,"Manton",0,6
-E02005849,"Tuxford",0,7
-E02006903,"Worksop Kilton",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005835,"Harworth",0,2,466.0
+E02005836,"Clarborough",0,0,537.0
+E02005837,"Ranskill",0,0,521.0
+E02005838,"Carlton & Langold",0,0,382.0
+E02005839,"Retford North",0,2,174.0
+E02005840,"Worksop North",0,0,156.0
+E02005842,"Retford East",0,0,174.0
+E02005843,"Worksop West",0,5,255.0
+E02005844,"Retford South",0,2,174.0
+E02005846,"Worksop Cheapside",0,2,255.0
+E02005847,"Worksop Town & South",0,8,255.0
+E02005848,"Manton",0,6,496.0
+E02005849,"Tuxford",0,7,538.0
+E02006903,"Worksop Kilton",0,0,255.0

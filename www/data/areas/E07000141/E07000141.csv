@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005476,"Ancaster",0,0
-E02005477,"Long Bennington",0,3
-E02005478,"Grantham North East",0,0
-E02005479,"Grantham North West",0,1
-E02005480,"Grantham South West",0,2
-E02005481,"Grantham South East",0,0
-E02005482,"Corby Glen",0,0
-E02005483,"Morton & Billingborough",0,0
-E02005484,"Harlaxton",0,2
-E02005485,"Bourne West",0,1
-E02005486,"Bourne East",0,3
-E02005487,"Langtoft",0,2
-E02005488,"Market Deeping",0,7
-E02005489,"Deeping St James & Frognall",0,0
-E02005490,"Stamford North",0,0
-E02005491,"Stamford Central",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005476,"Ancaster",0,0,481.0
+E02005477,"Long Bennington",0,3,685.0
+E02005478,"Grantham North East",0,0,171.0
+E02005479,"Grantham North West",0,1,572.0
+E02005480,"Grantham South West",0,2,171.0
+E02005481,"Grantham South East",0,0,171.0
+E02005482,"Corby Glen",0,0,670.0
+E02005483,"Morton & Billingborough",0,0,302.0
+E02005484,"Harlaxton",0,2,368.0
+E02005485,"Bourne West",0,1,114.0
+E02005486,"Bourne East",0,3,114.0
+E02005487,"Langtoft",0,2,687.0
+E02005488,"Market Deeping",0,7,470.0
+E02005489,"Deeping St James & Frognall",0,0,470.0
+E02005490,"Stamford North",0,0,238.0
+E02005491,"Stamford Central",0,1,238.0

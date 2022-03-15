@@ -1,31 +1,31 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001157,"Little Hulton North",0.068,0
-E02001158,"Walkden North West",0.066,3
-E02001159,"Walkden North East",0.058,0
-E02001160,"Little Hulton South",0.084,0
-E02001161,"Clifton",0.179,2
-E02001162,"Swinton Newtown",0.078,0
-E02001163,"Walkden South",0.144,4
-E02001164,"Clifton Green & Pendlebury East",0.118,0
-E02001165,"Swinton West",0.103,0
-E02001166,"Broughton Park",0.107,0
-E02001167,"Kersal Dale",0.083,0
-E02001168,"Swinton Worsley Road",0.182,7
-E02001169,"Ellenbrook & Boothstown",0.132,0
-E02001170,"Worsley",0.169,1
-E02001171,"Swinton South East & Pendlebury West",0.203,0
-E02001172,"Higher Broughton",0.11,5
-E02001173,"Cromwell Road & Broad Street",0.116,2
-E02001174,"Lightoaks",0.106,0
-E02001175,"Winton & Westwood",0.09,1
-E02001176,"Eccles",0.14,3
-E02001177,"Weaste & Seedley",0.152,9
-E02001178,"Salford Central & University",0.075,22
-E02001179,"Langworthy Buile Hill",0.08,0
-E02001180,"Pendleton",0.108,3
-E02001181,"Peel Green",0.282,0
-E02001182,"Barton upon Irwell",0.111,4
-E02001183,"Patricroft",0.172,0
-E02001184,"Ordsall & Salford Quays",0,23
-E02001185,"Higher Irlam",0.067,0
-E02001186,"Lower Irlam & Cadishead",0.065,5
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001157,"Little Hulton North",0.068,0,206.0
+E02001158,"Walkden North West",0.066,3,206.0
+E02001159,"Walkden North East",0.058,0,312.0
+E02001160,"Little Hulton South",0.084,0,287.0
+E02001161,"Clifton",0.179,2,97.0
+E02001162,"Swinton Newtown",0.078,0,97.0
+E02001163,"Walkden South",0.144,4,303.0
+E02001164,"Clifton Green & Pendlebury East",0.118,0,164.0
+E02001165,"Swinton West",0.103,0,303.0
+E02001166,"Broughton Park",0.107,0,137.0
+E02001167,"Kersal Dale",0.083,0,181.0
+E02001168,"Swinton Worsley Road",0.182,7,478.0
+E02001169,"Ellenbrook & Boothstown",0.132,0,462.0
+E02001170,"Worsley",0.169,1,478.0
+E02001171,"Swinton South East & Pendlebury West",0.203,0,164.0
+E02001172,"Higher Broughton",0.11,5,137.0
+E02001173,"Cromwell Road & Broad Street",0.116,2,164.0
+E02001174,"Lightoaks",0.106,0,355.0
+E02001175,"Winton & Westwood",0.09,1,190.0
+E02001176,"Eccles",0.14,3,257.0
+E02001177,"Weaste & Seedley",0.152,9,466.0
+E02001178,"Salford Central & University",0.075,22,503.0
+E02001179,"Langworthy Buile Hill",0.08,0,115.0
+E02001180,"Pendleton",0.108,3,115.0
+E02001181,"Peel Green",0.282,0,190.0
+E02001182,"Barton upon Irwell",0.111,4,190.0
+E02001183,"Patricroft",0.172,0,190.0
+E02001184,"Ordsall & Salford Quays",0,23,366.0
+E02001185,"Higher Irlam",0.067,0,247.0
+E02001186,"Lower Irlam & Cadishead",0.065,5,605.0

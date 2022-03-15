@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004712,"Hiltingbury",0,1
-E02004713,"Chandler's Ford East",0,0
-E02004714,"Chandler's Ford West",0,0
-E02004715,"Boyatt Wood",0,3
-E02004716,"Bishopstoke",0,0
-E02004717,"Eastleigh West",0,14
-E02004718,"Central Eastleigh",0,27
-E02004719,"Fair Oak",0,0
-E02004720,"West End & Chartwell Green",0,0
-E02004721,"Hedge End North & Botley North",0,0
-E02004722,"Hedge End Wildern & Botley South",0,1
-E02004723,"Hedge End South",0,2
-E02004724,"Lowford",0,3
-E02004725,"Netley",0,0
-E02004726,"Hamble-le-Rice",0,3
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004712,"Hiltingbury",0,1,295.0
+E02004713,"Chandler's Ford East",0,0,961.0
+E02004714,"Chandler's Ford West",0,0,628.0
+E02004715,"Boyatt Wood",0,3,333.0
+E02004716,"Bishopstoke",0,0,333.0
+E02004717,"Eastleigh West",0,14,1016.0
+E02004718,"Central Eastleigh",0,27,628.0
+E02004719,"Fair Oak",0,0,816.0
+E02004720,"West End & Chartwell Green",0,0,954.0
+E02004721,"Hedge End North & Botley North",0,0,483.0
+E02004722,"Hedge End Wildern & Botley South",0,1,610.0
+E02004723,"Hedge End South",0,2,762.0
+E02004724,"Lowford",0,3,889.0
+E02004725,"Netley",0,0,394.0
+E02004726,"Hamble-le-Rice",0,3,394.0

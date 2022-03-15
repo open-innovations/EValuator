@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005189,"Clayton Brook",0.269,0
-E02005190,"Brindle & Withnell",0.206,2
-E02005191,"Clayton-le-Woods",0.179,0
-E02005192,"Whittle-le-Woods & Anglezarke",0.16,0
-E02005193,"Euxton",0.185,0
-E02005194,"Chorley North",0.102,5
-E02005195,"Croston & Mawdesley",0.202,0
-E02005196,"Chorley West",0.09,2
-E02005197,"Chorley East",0.096,0
-E02005198,"Chorley Town & South",0.079,3
-E02005199,"Eccleston & Charnock Richard",0.191,6
-E02005200,"Chorley South West",0.1,0
-E02005201,"Coppull",0.139,0
-E02005202,"Adlington & Rivington",0.137,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005189,"Clayton Brook",0.269,0,417.0
+E02005190,"Brindle & Withnell",0.206,2,599.0
+E02005191,"Clayton-le-Woods",0.179,0,587.0
+E02005192,"Whittle-le-Woods & Anglezarke",0.16,0,559.0
+E02005193,"Euxton",0.185,0,559.0
+E02005194,"Chorley North",0.102,5,559.0
+E02005195,"Croston & Mawdesley",0.202,0,1171.0
+E02005196,"Chorley West",0.09,2,339.0
+E02005197,"Chorley East",0.096,0,559.0
+E02005198,"Chorley Town & South",0.079,3,559.0
+E02005199,"Eccleston & Charnock Richard",0.191,6,924.0
+E02005200,"Chorley South West",0.1,0,339.0
+E02005201,"Coppull",0.139,0,339.0
+E02005202,"Adlington & Rivington",0.137,2,741.0

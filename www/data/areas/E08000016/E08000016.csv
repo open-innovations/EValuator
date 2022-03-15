@@ -1,31 +1,31 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001509,"Royston West",0.193,1
-E02001510,"Royston East & Carlton",0.175,0
-E02001511,"Shafton & Upper Cudworth",0.172,0
-E02001512,"Mapplewell & Staincross",0.159,1
-E02001513,"Darton & Kexborough",0.191,0
-E02001514,"Grimethorpe & Brierley",0.122,0
-E02001515,"Athersley",0.14,0
-E02001516,"Cudworth Village",0.109,2
-E02001517,"Monk Bretton",0.101,1
-E02001518,"Honeywell",0.077,0
-E02001519,"Lundwood",0.143,0
-E02001520,"Wilthorpe & Barugh Green",0.184,2
-E02001521,"Barnsley Town & Park Road",0.11,7
-E02001522,"Thurnscoe",0.193,0
-E02001523,"Ardsley & Stairfoot",0.142,2
-E02001524,"Silkstone",0.179,0
-E02001525,"Worsbrough Common",0.141,0
-E02001526,"Kendray",0.117,0
-E02001527,"Dodworth",0.132,1
-E02001528,"Darfield & Great Houghton",0.157,0
-E02001529,"Worsbrough",0.13,0
-E02001530,"Goldthorpe",0.18,2
-E02001531,"Wombwell North",0.139,1
-E02001532,"Penistone",0.211,5
-E02001533,"Bolton-upon-Dearne",0.149,0
-E02001534,"Wombwell South",0.145,0
-E02001535,"Ingbirchworth",0.177,0
-E02001536,"Birdwell",0.188,0
-E02001537,"Elsecar",0.172,0
-E02001538,"Hoyland",0.177,4
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001509,"Royston West",0.193,1,196.0
+E02001510,"Royston East & Carlton",0.175,0,196.0
+E02001511,"Shafton & Upper Cudworth",0.172,0,257.0
+E02001512,"Mapplewell & Staincross",0.159,1,250.0
+E02001513,"Darton & Kexborough",0.191,0,250.0
+E02001514,"Grimethorpe & Brierley",0.122,0,61.0
+E02001515,"Athersley",0.14,0,196.0
+E02001516,"Cudworth Village",0.109,2,61.0
+E02001517,"Monk Bretton",0.101,1,196.0
+E02001518,"Honeywell",0.077,0,547.0
+E02001519,"Lundwood",0.143,0,257.0
+E02001520,"Wilthorpe & Barugh Green",0.184,2,351.0
+E02001521,"Barnsley Town & Park Road",0.11,7,608.0
+E02001522,"Thurnscoe",0.193,0,152.0
+E02001523,"Ardsley & Stairfoot",0.142,2,374.0
+E02001524,"Silkstone",0.179,0,424.0
+E02001525,"Worsbrough Common",0.141,0,297.0
+E02001526,"Kendray",0.117,0,297.0
+E02001527,"Dodworth",0.132,1,351.0
+E02001528,"Darfield & Great Houghton",0.157,0,486.0
+E02001529,"Worsbrough",0.13,0,351.0
+E02001530,"Goldthorpe",0.18,2,302.0
+E02001531,"Wombwell North",0.139,1,388.0
+E02001532,"Penistone",0.211,5,174.0
+E02001533,"Bolton-upon-Dearne",0.149,0,152.0
+E02001534,"Wombwell South",0.145,0,77.0
+E02001535,"Ingbirchworth",0.177,0,2266.0
+E02001536,"Birdwell",0.188,0,601.0
+E02001537,"Elsecar",0.172,0,131.0
+E02001538,"Hoyland",0.177,4,304.0

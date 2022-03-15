@@ -1,32 +1,32 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-W02000168,"Pontarddulais",0,1
-W02000169,"Clydach & Mawr",0,1
-W02000170,"Morriston North",0,0
-W02000171,"Llangyfelach & Tircoed",0,3
-W02000172,"Gorseinon",0,1
-W02000173,"Birchgrove",0,0
-W02000174,"Loughor",0,0
-W02000175,"Morriston South",0,3
-W02000176,"Mynydd-bach",0,0
-W02000177,"Llansamlet",0,4
-W02000178,"Penderry",0,0
-W02000179,"Gowerton",0,1
-W02000180,"Ravenhill",0,0
-W02000181,"Bon-y-maen",0,4
-W02000182,"Cwmbwrla",0,0
-W02000183,"Landore",0,3
-W02000184,"Cockett",0,1
-W02000185,"Llanmorlais & Three Crosses",0,0
-W02000186,"Townhill",0,0
-W02000187,"Dunvant & Upper Killay",0,2
-W02000188,"St Thomas",0,4
-W02000189,"Ty-coch",0,0
-W02000190,"Killay",0,0
-W02000191,"Uplands",0,0
-W02000192,"Central Swansea",0,4
-W02000193,"Brynmill",0,1
-W02000194,"Sketty",0,2
-W02000195,"Mayals & Bishopston",0,0
-W02000196,"West Cross",0,0
-W02000197,"West Gower",0,0
-W02000198,"Mumbles & Newton",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+W02000168,"Pontarddulais",0,1,1261.0
+W02000169,"Clydach & Mawr",0,1,1632.0
+W02000170,"Morriston North",0,0,105.0
+W02000171,"Llangyfelach & Tircoed",0,3,1610.0
+W02000172,"Gorseinon",0,1,1261.0
+W02000173,"Birchgrove",0,0,183.0
+W02000174,"Loughor",0,0,1322.0
+W02000175,"Morriston South",0,3,303.0
+W02000176,"Mynydd-bach",0,0,395.0
+W02000177,"Llansamlet",0,4,320.0
+W02000178,"Penderry",0,0,61.0
+W02000179,"Gowerton",0,1,1451.0
+W02000180,"Ravenhill",0,0,61.0
+W02000181,"Bon-y-maen",0,4,693.0
+W02000182,"Cwmbwrla",0,0,61.0
+W02000183,"Landore",0,3,303.0
+W02000184,"Cockett",0,1,327.0
+W02000185,"Llanmorlais & Three Crosses",0,0,1390.0
+W02000186,"Townhill",0,0,327.0
+W02000187,"Dunvant & Upper Killay",0,2,1390.0
+W02000188,"St Thomas",0,4,137.0
+W02000189,"Ty-coch",0,0,1390.0
+W02000190,"Killay",0,0,190.0
+W02000191,"Uplands",0,0,266.0
+W02000192,"Central Swansea",0,4,266.0
+W02000193,"Brynmill",0,1,511.0
+W02000194,"Sketty",0,2,312.0
+W02000195,"Mayals & Bishopston",0,0,183.0
+W02000196,"West Cross",0,0,320.0
+W02000197,"West Gower",0,0,1573.0
+W02000198,"Mumbles & Newton",0,0,1444.0

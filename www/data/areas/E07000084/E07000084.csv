@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004675,"Tadley West",0,2
-E02004676,"Tadley East",0,0
-E02004677,"Woolton Hill",0,1
-E02004678,"Kingsclere & Heath End",0,1
-E02004679,"Bramley",0,0
-E02004680,"Chineham",0,0
-E02004681,"Popley",0,3
-E02004682,"Daneshill & Little Basing",0,2
-E02004683,"Houndmills & Oakridge",0,2
-E02004684,"Winklebury & Rooksdown",0,4
-E02004685,"Basingstoke Central",0,19
-E02004686,"Kings Furlong",0,2
-E02004687,"Buckskin & Worting",0,0
-E02004688,"South Ham & West Ham",0,2
-E02004689,"East Oakley",0,0
-E02004690,"Viables",0,0
-E02004691,"Old Basing & the Candovers",0,0
-E02004692,"Kempshott",0,0
-E02004693,"Brighton Hill",0,0
-E02004694,"Whitchurch & Ashmansworth",0,2
-E02004695,"Hatch Warren",0,0
-E02004696,"Overton & North Waltham",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004675,"Tadley West",0,2,608.0
+E02004676,"Tadley East",0,0,608.0
+E02004677,"Woolton Hill",0,1,698.0
+E02004678,"Kingsclere & Heath End",0,1,1529.0
+E02004679,"Bramley",0,0,1309.0
+E02004680,"Chineham",0,0,623.0
+E02004681,"Popley",0,3,1041.0
+E02004682,"Daneshill & Little Basing",0,2,610.0
+E02004683,"Houndmills & Oakridge",0,2,708.0
+E02004684,"Winklebury & Rooksdown",0,4,360.0
+E02004685,"Basingstoke Central",0,19,412.0
+E02004686,"Kings Furlong",0,2,130.0
+E02004687,"Buckskin & Worting",0,0,276.0
+E02004688,"South Ham & West Ham",0,2,328.0
+E02004689,"East Oakley",0,0,682.0
+E02004690,"Viables",0,0,328.0
+E02004691,"Old Basing & the Candovers",0,0,1461.0
+E02004692,"Kempshott",0,0,198.0
+E02004693,"Brighton Hill",0,0,198.0
+E02004694,"Whitchurch & Ashmansworth",0,2,716.0
+E02004695,"Hatch Warren",0,0,276.0
+E02004696,"Overton & North Waltham",0,2,556.0

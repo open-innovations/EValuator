@@ -1,33 +1,33 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003090,"Thornbury North",0,0
-E02003091,"Thornbury South",0,2
-E02003092,"Charfield",0,0
-E02003093,"Alveston",0,1
-E02003094,"Almondsbury",0,12
-E02003095,"Yate North",0,2
-E02003096,"Yate West",0,1
-E02003097,"Chipping Sodbury",0,0
-E02003098,"Bradley Stoke North East",0,3
-E02003099,"Yate Kingsgate",0,0
-E02003100,"Patchway",0,9
-E02003101,"Bradley Stoke Central",0,1
-E02003102,"Frampton Cotterell",0,0
-E02003103,"Yate South",0,0
-E02003104,"Stoke Gifford",0,0
-E02003105,"Winterbourne",0,0
-E02003106,"Frenchay & Great Stoke",0,8
-E02003107,"Filton",0,1
-E02003108,"Pucklechurch & Westerleigh",0,0
-E02003109,"Downend North",0,1
-E02003110,"Emersons Green",0,11
-E02003111,"Downend South",0,0
-E02003112,"Mangotsfield",0,1
-E02003113,"Marshfield",0,0
-E02003114,"Staple Hill North",0,1
-E02003115,"Staple Hill South & Kingswood North West",0,0
-E02003116,"Kingswood North East",0,0
-E02003117,"Kingswood South",0,3
-E02003118,"Cadbury Heath North & Bridgeyate",0,0
-E02003119,"Cadbury Heath South & North Common",0,0
-E02003120,"Hanham",0,3
-E02003121,"Longwell Green & Oldland Common",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003090,"Thornbury North",0,0,384.0
+E02003091,"Thornbury South",0,2,384.0
+E02003092,"Charfield",0,0,685.0
+E02003093,"Alveston",0,1,411.0
+E02003094,"Almondsbury",0,12,783.0
+E02003095,"Yate North",0,2,301.0
+E02003096,"Yate West",0,1,301.0
+E02003097,"Chipping Sodbury",0,0,301.0
+E02003098,"Bradley Stoke North East",0,3,16244.0
+E02003099,"Yate Kingsgate",0,0,301.0
+E02003100,"Patchway",0,9,355.0
+E02003101,"Bradley Stoke Central",0,1,355.0
+E02003102,"Frampton Cotterell",0,0,140.0
+E02003103,"Yate South",0,0,301.0
+E02003104,"Stoke Gifford",0,0,355.0
+E02003105,"Winterbourne",0,0,16330.0
+E02003106,"Frenchay & Great Stoke",0,8,16398.0
+E02003107,"Filton",0,1,369.0
+E02003108,"Pucklechurch & Westerleigh",0,0,16693.0
+E02003109,"Downend North",0,1,15889.0
+E02003110,"Emersons Green",0,11,16029.0
+E02003111,"Downend South",0,0,15889.0
+E02003112,"Mangotsfield",0,1,15889.0
+E02003113,"Marshfield",0,0,17753.0
+E02003114,"Staple Hill North",0,1,16057.0
+E02003115,"Staple Hill South & Kingswood North West",0,0,16057.0
+E02003116,"Kingswood North East",0,0,168.0
+E02003117,"Kingswood South",0,3,363.0
+E02003118,"Cadbury Heath North & Bridgeyate",0,0,363.0
+E02003119,"Cadbury Heath South & North Common",0,0,363.0
+E02003120,"Hanham",0,3,363.0
+E02003121,"Longwell Green & Oldland Common",0,0,363.0

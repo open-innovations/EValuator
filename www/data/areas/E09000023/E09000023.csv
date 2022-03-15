@@ -1,37 +1,37 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000653,"Silwood & Pepys",0,2
-E02000654,"Deptford North",0,0
-E02000655,"New Cross Gate",0,3
-E02000657,"New Cross South",0,2
-E02000658,"Telegraph Hill",0,0
-E02000659,"Blackheath West",0,0
-E02000660,"Brockley East & St Johns",0,0
-E02000661,"Blackheath Village",0,1
-E02000662,"Brockley West",0,3
-E02000663,"Loampit & Hilly Fields",0,0
-E02000664,"Lewisham Central & Park",0,21
-E02000665,"Manor House",0,3
-E02000666,"Ladywell",0,0
-E02000667,"Crofton Park",0,0
-E02000668,"Lee",0,0
-E02000669,"Hither Green",0,2
-E02000670,"Catford East & Mountsfield Park",0,0
-E02000671,"Honor Oak",0,0
-E02000672,"Catford Bridge",0,10
-E02000673,"Forest Hill West",0,9
-E02000674,"Corbett Estate",0,2
-E02000675,"Grove Park & Lee South",0,0
-E02000676,"Forest Hill East",0,0
-E02000677,"Culverley Green",0,4
-E02000678,"Further Green",0,0
-E02000679,"Perry Vale",0,4
-E02000680,"Upper Sydenham",0,0
-E02000681,"Bellingham & Perry Hill",0,0
-E02000682,"Forster Park & Southend",0,1
-E02000683,"Chinbrook",0,3
-E02000685,"Sydenham Wells",0,2
-E02000686,"Beckenham Hill",0,5
-E02000687,"Lower Sydenham",0,0
-E02006783,"Downham East",0,0
-E02006784,"Downham West",0,3
-E02006798,"New Cross & Deptford South",0,6
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000653,"Silwood & Pepys",0,2,478.0
+E02000654,"Deptford North",0,0,223.0
+E02000655,"New Cross Gate",0,3,653.0
+E02000657,"New Cross South",0,2,346.0
+E02000658,"Telegraph Hill",0,0,521.0
+E02000659,"Blackheath West",0,0,819.0
+E02000660,"Brockley East & St Johns",0,0,477.0
+E02000661,"Blackheath Village",0,1,725.0
+E02000662,"Brockley West",0,3,217.0
+E02000663,"Loampit & Hilly Fields",0,0,348.0
+E02000664,"Lewisham Central & Park",0,21,354.0
+E02000665,"Manor House",0,3,383.0
+E02000666,"Ladywell",0,0,603.0
+E02000667,"Crofton Park",0,0,633.0
+E02000668,"Lee",0,0,383.0
+E02000669,"Hither Green",0,2,658.0
+E02000670,"Catford East & Mountsfield Park",0,0,500.0
+E02000671,"Honor Oak",0,0,633.0
+E02000672,"Catford Bridge",0,10,500.0
+E02000673,"Forest Hill West",0,9,235.0
+E02000674,"Corbett Estate",0,2,275.0
+E02000675,"Grove Park & Lee South",0,0,158.0
+E02000676,"Forest Hill East",0,0,510.0
+E02000677,"Culverley Green",0,4,275.0
+E02000678,"Further Green",0,0,901.0
+E02000679,"Perry Vale",0,4,705.0
+E02000680,"Upper Sydenham",0,0,430.0
+E02000681,"Bellingham & Perry Hill",0,0,705.0
+E02000682,"Forster Park & Southend",0,1,743.0
+E02000683,"Chinbrook",0,3,574.0
+E02000685,"Sydenham Wells",0,2,195.0
+E02000686,"Beckenham Hill",0,5,926.0
+E02000687,"Lower Sydenham",0,0,195.0
+E02006783,"Downham East",0,0,968.0
+E02006784,"Downham West",0,3,1199.0
+E02006798,"New Cross & Deptford South",0,6,478.0

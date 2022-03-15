@@ -1,24 +1,24 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002928,"Newport North",0,0
-E02002929,"Edgmond & Church Aston",0,0
-E02002930,"Newport South",0,0
-E02002931,"Muxton & Lilleshall",0,1
-E02002932,"Donnington",0,0
-E02002933,"Dothill & Shawbirch",0,0
-E02002934,"Apley & Leegomery",0,0
-E02002935,"Wrockwardine Wood & Trench",0,0
-E02002936,"Hadley & Horton",0,1
-E02002937,"Ironbridge",0,0
-E02002938,"Wellington East",0,1
-E02002939,"Wellington West",0,1
-E02002940,"St George's",0,0
-E02002941,"Oakengates & Ketley",0,0
-E02002942,"Priorslee",0,1
-E02002943,"Horsehay & The Rock",0,1
-E02002944,"Malinslee",0,2
-E02002945,"Hollinswood & Randlay",0,3
-E02002946,"Dawley & Aqueduct",0,0
-E02002947,"Brookside",0,0
-E02002948,"Woodside",0,0
-E02002949,"Madeley",0,2
-E02002950,"Sutton Hill",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002928,"Newport North",0,0,148.0
+E02002929,"Edgmond & Church Aston",0,0,385.0
+E02002930,"Newport South",0,0,148.0
+E02002931,"Muxton & Lilleshall",0,1,895.0
+E02002932,"Donnington",0,0,644.0
+E02002933,"Dothill & Shawbirch",0,0,269.0
+E02002934,"Apley & Leegomery",0,0,250.0
+E02002935,"Wrockwardine Wood & Trench",0,0,791.0
+E02002936,"Hadley & Horton",0,1,894.0
+E02002937,"Ironbridge",0,0,616.0
+E02002938,"Wellington East",0,1,147.0
+E02002939,"Wellington West",0,1,447.0
+E02002940,"St George's",0,0,644.0
+E02002941,"Oakengates & Ketley",0,0,1130.0
+E02002942,"Priorslee",0,1,644.0
+E02002943,"Horsehay & The Rock",0,1,260.0
+E02002944,"Malinslee",0,2,992.0
+E02002945,"Hollinswood & Randlay",0,3,1041.0
+E02002946,"Dawley & Aqueduct",0,0,201.0
+E02002947,"Brookside",0,0,115.0
+E02002948,"Woodside",0,0,59.0
+E02002949,"Madeley",0,2,1069.0
+E02002950,"Sutton Hill",0,1,59.0

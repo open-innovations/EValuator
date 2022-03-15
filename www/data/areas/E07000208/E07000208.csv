@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006335,"Worcester Park West",0,0
-E02006336,"Ruxley Lane",0,0
-E02006337,"Stoneleigh & Auriol",0,0
-E02006338,"West Ewell",0,0
-E02006339,"Horton & Manor Park",0,1
-E02006341,"Epsom North",0,7
-E02006342,"Epsom Town",0,5
-E02006343,"Epsom Downs & Common",0,3
-E02006837,"Ewell East",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006335,"Worcester Park West",0,0,477.0
+E02006336,"Ruxley Lane",0,0,237.0
+E02006337,"Stoneleigh & Auriol",0,0,916.0
+E02006338,"West Ewell",0,0,676.0
+E02006339,"Horton & Manor Park",0,1,237.0
+E02006341,"Epsom North",0,7,962.0
+E02006342,"Epsom Town",0,5,962.0
+E02006343,"Epsom Downs & Common",0,3,1142.0
+E02006837,"Ewell East",0,1,856.0

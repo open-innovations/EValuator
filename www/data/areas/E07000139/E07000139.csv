@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005453,"Washingborough & Branston",0,0
-E02005455,"Skellingthorpe",0,0
-E02005456,"Bracebridge Heath & Waddington",0,0
-E02005457,"Metheringham",0,0
-E02005458,"Navenby",0,0
-E02005459,"Ruskington North & Billinghay",0,0
-E02005460,"Ruskington West & Cranwell",0,0
-E02005461,"Ruskington South",0,0
-E02005462,"Sleaford East",0,2
-E02005463,"Sleaford West",0,0
-E02005464,"Heckington",0,0
-E02006866,"North Hykeham South",0,0
-E02006867,"North Hykeham North",0,5
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005453,"Washingborough & Branston",0,0,379.0
+E02005455,"Skellingthorpe",0,0,668.0
+E02005456,"Bracebridge Heath & Waddington",0,0,709.0
+E02005457,"Metheringham",0,0,440.0
+E02005458,"Navenby",0,0,841.0
+E02005459,"Ruskington North & Billinghay",0,0,614.0
+E02005460,"Ruskington West & Cranwell",0,0,567.0
+E02005461,"Ruskington South",0,0,320.0
+E02005462,"Sleaford East",0,2,188.0
+E02005463,"Sleaford West",0,0,188.0
+E02005464,"Heckington",0,0,472.0
+E02006866,"North Hykeham South",0,0,330.0
+E02006867,"North Hykeham North",0,5,330.0

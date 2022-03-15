@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004485,"Great Leighs & the Walthams",0,3
-E02004486,"South Broomfield",0,0
-E02004487,"Melbourne Park",0,1
-E02004488,"Springfield North",0,0
-E02004489,"Boreham & Little Baddow",0,1
-E02004490,"Melbourne",0,0
-E02004491,"Springfield South & Coronation Park",0,0
-E02004492,"Chelmer Village",0,2
-E02004493,"Waterhouse Lane & Admirals Park",0,1
-E02004494,"Central Chelmsford",0,10
-E02004495,"Writtle & Highwood",0,0
-E02004496,"Moulsham West",0,0
-E02004497,"Great Baddow North & East",0,3
-E02004498,"Great Baddow South & West",0,0
-E02004499,"Moulsham East",0,0
-E02004500,"Danbury & Bicknacre",0,0
-E02004501,"Galleywood",0,0
-E02004502,"Margaretting",0,0
-E02004503,"South Woodham Ferrers North",0,5
-E02004504,"South Woodham Ferrers South",0,0
-E02004505,"Rettendon & Runwell",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004485,"Great Leighs & the Walthams",0,3,1612.0
+E02004486,"South Broomfield",0,0,435.0
+E02004487,"Melbourne Park",0,1,987.0
+E02004488,"Springfield North",0,0,881.0
+E02004489,"Boreham & Little Baddow",0,1,1458.0
+E02004490,"Melbourne",0,0,435.0
+E02004491,"Springfield South & Coronation Park",0,0,789.0
+E02004492,"Chelmer Village",0,2,1235.0
+E02004493,"Waterhouse Lane & Admirals Park",0,1,789.0
+E02004494,"Central Chelmsford",0,10,1235.0
+E02004495,"Writtle & Highwood",0,0,915.0
+E02004496,"Moulsham West",0,0,354.0
+E02004497,"Great Baddow North & East",0,3,926.0
+E02004498,"Great Baddow South & West",0,0,354.0
+E02004499,"Moulsham East",0,0,354.0
+E02004500,"Danbury & Bicknacre",0,0,800.0
+E02004501,"Galleywood",0,0,354.0
+E02004502,"Margaretting",0,0,1616.0
+E02004503,"South Woodham Ferrers North",0,5,446.0
+E02004504,"South Woodham Ferrers South",0,0,446.0
+E02004505,"Rettendon & Runwell",0,0,556.0

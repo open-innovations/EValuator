@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000577,"Golborne & Swinbrook",0,15
-E02000578,"Ladbroke Grove",0,18
-E02000579,"North Kensington",0,39
-E02000580,"Portobello",0,28
-E02000581,"Notting Dale",0,19
-E02000582,"Notting Hill Gate",0,32
-E02000583,"Notting Hill West",0,54
-E02000584,"Notting Hill South",0,29
-E02000585,"Holland Park",0,39
-E02000586,"Queen's Gate",0,36
-E02000587,"Kensington Abingdon",0,33
-E02000588,"Hans Town",0,53
-E02000589,"Kensington Gardens",0,17
-E02000590,"Brompton",0,22
-E02000591,"Earl's Court",0,20
-E02000592,"South Kensington",0,39
-E02000593,"West Brompton",0,33
-E02000594,"Chelsea Manor & Royal Hospital",0,36
-E02000595,"Chelsea Riverside East",0,35
-E02000596,"Fulham Road",0,27
-E02000597,"Chelsea Riverside West",0,16
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000577,"Golborne & Swinbrook",0,15,2810.0
+E02000578,"Ladbroke Grove",0,18,255.0
+E02000579,"North Kensington",0,39,708.0
+E02000580,"Portobello",0,28,708.0
+E02000581,"Notting Dale",0,19,708.0
+E02000582,"Notting Hill Gate",0,32,1046.0
+E02000583,"Notting Hill West",0,54,803.0
+E02000584,"Notting Hill South",0,29,1489.0
+E02000585,"Holland Park",0,39,1279.0
+E02000586,"Queen's Gate",0,36,828.0
+E02000587,"Kensington Abingdon",0,33,1403.0
+E02000588,"Hans Town",0,53,1599.0
+E02000589,"Kensington Gardens",0,17,1649.0
+E02000590,"Brompton",0,22,1008.0
+E02000591,"Earl's Court",0,20,972.0
+E02000592,"South Kensington",0,39,1218.0
+E02000593,"West Brompton",0,33,1294.0
+E02000594,"Chelsea Manor & Royal Hospital",0,36,1050.0
+E02000595,"Chelsea Riverside East",0,35,1072.0
+E02000596,"Fulham Road",0,27,2095.0
+E02000597,"Chelsea Riverside West",0,16,687.0

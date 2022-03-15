@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006146,"Armitage & Colton",0,0
-E02006147,"Alrewas",0,2
-E02006148,"Burntwood North East & Longdon",0,0
-E02006149,"Lichfield Central",0,2
-E02006150,"Lichfield East",0,2
-E02006151,"Burntwood West",0,1
-E02006152,"Lichfield West & South",0,0
-E02006153,"Whittington",0,0
-E02006154,"Burntwood Chase Terrace & Hammerwich",0,0
-E02006155,"Burntwood Chasetown",0,0
-E02006156,"Shenstone",0,0
-E02006157,"Fazeley",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006146,"Armitage & Colton",0,0,186.0
+E02006147,"Alrewas",0,2,640.0
+E02006148,"Burntwood North East & Longdon",0,0,537.0
+E02006149,"Lichfield Central",0,2,385.0
+E02006150,"Lichfield East",0,2,540.0
+E02006151,"Burntwood West",0,1,203.0
+E02006152,"Lichfield West & South",0,0,385.0
+E02006153,"Whittington",0,0,687.0
+E02006154,"Burntwood Chase Terrace & Hammerwich",0,0,763.0
+E02006155,"Burntwood Chasetown",0,0,155.0
+E02006156,"Shenstone",0,0,889.0
+E02006157,"Fazeley",0,1,542.0

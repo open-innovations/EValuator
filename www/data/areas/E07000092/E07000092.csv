@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004802,"Hawley Lane & Fox Lane",0,1
-E02004803,"Mayfield",0,1
-E02004804,"Pinewood",0,0
-E02004805,"Farnborough Hill",0,1
-E02004806,"Cove & Southwood",0,2
-E02004807,"Farnborough Town",0,2
-E02004808,"South Farnborough & North Camp",0,2
-E02004809,"Aldershot Town",0,1
-E02004810,"Aldershot North Town",0,0
-E02004811,"Aldershot Rowhill",0,0
-E02004812,"Aldershot Manor Park",0,0
-E02004813,"Aldershot Park",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004802,"Hawley Lane & Fox Lane",0,1,648.0
+E02004803,"Mayfield",0,1,424.0
+E02004804,"Pinewood",0,0,424.0
+E02004805,"Farnborough Hill",0,1,424.0
+E02004806,"Cove & Southwood",0,2,424.0
+E02004807,"Farnborough Town",0,2,424.0
+E02004808,"South Farnborough & North Camp",0,2,3611.0
+E02004809,"Aldershot Town",0,1,3822.0
+E02004810,"Aldershot North Town",0,0,3398.0
+E02004811,"Aldershot Rowhill",0,0,3187.0
+E02004812,"Aldershot Manor Park",0,0,3398.0
+E02004813,"Aldershot Park",0,0,3398.0

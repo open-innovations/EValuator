@@ -1,25 +1,25 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000960,"St John's Wood North",0,52
-E02000961,"Abbey Road",0,82
-E02000962,"St John's Wood South",0,32
-E02000963,"Queen's Park Gardens",0,76
-E02000964,"Maida Hill",0,92
-E02000965,"Maida Vale",0,72
-E02000966,"Little Venice",0,99
-E02000967,"Regent's Park",0,24
-E02000968,"Church Street",0,27
-E02000969,"Westbourne",0,23
-E02000970,"Marylebone & Park Lane",0,87
-E02000971,"Bryanston & Dorset Square",0,43
-E02000972,"Fitzrovia West & Soho",0,58
-E02000973,"Westbourne Grove",0,76
-E02000974,"Paddington & St George's Fields",0,29
-E02000975,"Bayswater East",0,25
-E02000976,"Queensway",0,44
-E02000977,"Strand",0,55
-E02000978,"Knightsbridge",0,90
-E02000979,"Central Westminster",0,31
-E02000980,"Millbank",0,17
-E02000981,"Pimlico North",0,32
-E02000982,"Victoria",0,16
-E02000983,"Pimlico South",0,23
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000960,"St John's Wood North",0,52,1253.0
+E02000961,"Abbey Road",0,82,1671.0
+E02000962,"St John's Wood South",0,32,1021.0
+E02000963,"Queen's Park Gardens",0,76,686.0
+E02000964,"Maida Hill",0,92,1336.0
+E02000965,"Maida Vale",0,72,1081.0
+E02000966,"Little Venice",0,99,1024.0
+E02000967,"Regent's Park",0,24,1706.0
+E02000968,"Church Street",0,27,1846.0
+E02000969,"Westbourne",0,23,1489.0
+E02000970,"Marylebone & Park Lane",0,87,2450.0
+E02000971,"Bryanston & Dorset Square",0,43,2299.0
+E02000972,"Fitzrovia West & Soho",0,58,2554.0
+E02000973,"Westbourne Grove",0,76,1046.0
+E02000974,"Paddington & St George's Fields",0,29,1439.0
+E02000975,"Bayswater East",0,25,593.0
+E02000976,"Queensway",0,44,593.0
+E02000977,"Strand",0,55,1120.0
+E02000978,"Knightsbridge",0,90,2524.0
+E02000979,"Central Westminster",0,31,2978.0
+E02000980,"Millbank",0,17,402.0
+E02000981,"Pimlico North",0,32,257.0
+E02000982,"Victoria",0,16,874.0
+E02000983,"Pimlico South",0,23,402.0

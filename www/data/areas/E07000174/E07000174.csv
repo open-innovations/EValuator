@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005880,"Church Warsop & Meden Vale",0,0
-E02005881,"Market Warsop",0,0
-E02005882,"Manor",0,0
-E02005883,"Woodhouse",0,0
-E02005884,"Yeoman Hill & Maun Valley",0,0
-E02005885,"Abbott Road & Pleasley Hill",0,0
-E02005886,"Forest Town & Newlands",0,2
-E02005887,"Mansfield Town Centre & Broomhill",0,3
-E02005888,"Newgate & Carr Bank",0,1
-E02005889,"Grange Farm & Ladybrook",0,1
-E02005890,"Eakring & Ling Forest",0,2
-E02005891,"Oak Tree & Ransom Wood",0,8
-E02005892,"King's Walk",0,4
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005880,"Church Warsop & Meden Vale",0,0,253.0
+E02005881,"Market Warsop",0,0,211.0
+E02005882,"Manor",0,0,144.0
+E02005883,"Woodhouse",0,0,530.0
+E02005884,"Yeoman Hill & Maun Valley",0,0,366.0
+E02005885,"Abbott Road & Pleasley Hill",0,0,144.0
+E02005886,"Forest Town & Newlands",0,2,463.0
+E02005887,"Mansfield Town Centre & Broomhill",0,3,530.0
+E02005888,"Newgate & Carr Bank",0,1,222.0
+E02005889,"Grange Farm & Ladybrook",0,1,596.0
+E02005890,"Eakring & Ling Forest",0,2,366.0
+E02005891,"Oak Tree & Ransom Wood",0,8,463.0
+E02005892,"King's Walk",0,4,222.0

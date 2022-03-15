@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002559,"Faverdale",0.004,6
-E02002560,"Harrowgate Hill",0.197,0
-E02002561,"Whinfield",0.226,0
-E02002562,"Rise Carr",0.111,1
-E02002563,"Haughton Le Skerne",0.264,0
-E02002564,"Cockerton & Hopetown",0.245,0
-E02002565,"Pierremont",0.213,0
-E02002566,"Central Darlington",0.163,19
-E02002567,"Albert Hill & Red Hall",0.195,10
-E02002568,"College & Park West",0.244,0
-E02002569,"Hummersknott",0.17,0
-E02002570,"Bank Top",0.251,0
-E02002571,"Firthmoor",0.249,0
-E02002572,"Park East",0.307,0
-E02002573,"Middleton & Hurworth",0.281,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002559,"Faverdale",0.004,6,859.0
+E02002560,"Harrowgate Hill",0.197,0,449.0
+E02002561,"Whinfield",0.226,0,304.0
+E02002562,"Rise Carr",0.111,1,449.0
+E02002563,"Haughton Le Skerne",0.264,0,304.0
+E02002564,"Cockerton & Hopetown",0.245,0,145.0
+E02002565,"Pierremont",0.213,0,145.0
+E02002566,"Central Darlington",0.163,19,676.0
+E02002567,"Albert Hill & Red Hall",0.195,10,304.0
+E02002568,"College & Park West",0.244,0,593.0
+E02002569,"Hummersknott",0.17,0,593.0
+E02002570,"Bank Top",0.251,0,304.0
+E02002571,"Firthmoor",0.249,0,448.0
+E02002572,"Park East",0.307,0,593.0
+E02002573,"Middleton & Hurworth",0.281,0,289.0

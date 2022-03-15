@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005978,"Dean Court",0,0
-E02005979,"Botley & Kennington",0,0
-E02005980,"Radley",0,0
-E02005981,"Abingdon Northcourt & Peachcroft",0,0
-E02005982,"Abingdon Audlett Drive & Farm Road",0,0
-E02005983,"Abingdon Town & West",0,2
-E02005984,"Kingston Bagpuize & East Hanney",0,0
-E02005985,"Abingdon South",0,2
-E02005986,"Faringdon & Stanford",0,4
-E02005987,"Sutton Courtenay",0,6
-E02005988,"Grove",0,0
-E02005991,"Wantage Town",0,0
-E02005992,"South Wantage",0,12
-E02006886,"Shrivenham",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005978,"Dean Court",0,0,1195.0
+E02005979,"Botley & Kennington",0,0,675.0
+E02005980,"Radley",0,0,780.0
+E02005981,"Abingdon Northcourt & Peachcroft",0,0,389.0
+E02005982,"Abingdon Audlett Drive & Farm Road",0,0,389.0
+E02005983,"Abingdon Town & West",0,2,594.0
+E02005984,"Kingston Bagpuize & East Hanney",0,0,563.0
+E02005985,"Abingdon South",0,2,389.0
+E02005986,"Faringdon & Stanford",0,4,133.0
+E02005987,"Sutton Courtenay",0,6,1193.0
+E02005988,"Grove",0,0,225.0
+E02005991,"Wantage Town",0,0,225.0
+E02005992,"South Wantage",0,12,988.0
+E02006886,"Shrivenham",0,2,1181.0

@@ -1,39 +1,39 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001429,"Crossens",0.091,0
-E02001430,"Marshside",0.112,0
-E02001431,"Hesketh Park",0.096,0
-E02001432,"Southport Waterfront",0.099,1
-E02001433,"Southport High Park",0.12,0
-E02001434,"Meols Cop",0.117,0
-E02001435,"Southport South",0.126,0
-E02001436,"Southport Kew",0.158,6
-E02001437,"Birkdale",0.115,0
-E02001438,"Hillside",0.169,0
-E02001439,"Ainsdale East",0.165,0
-E02001440,"Ainsdale West",0.162,0
-E02001441,"Formby West & Freshfield North",0.07,1
-E02001442,"Formby Central & Freshfield South",0.178,0
-E02001443,"Formby South West",0.135,0
-E02001444,"Formby South East & Ince Blundell",0.2,2
-E02001445,"Maghull North West & Lydiate",0.239,0
-E02001446,"Maghull North East",0.349,0
-E02001447,"Maghull South East",0.242,0
-E02001448,"Maghull South West",0.331,2
-E02001449,"Hightown & Thornton",0.192,0
-E02001450,"Blundellsands",0.077,0
-E02001451,"Netherton North",0.133,0
-E02001452,"Ford",0.127,0
-E02001453,"Crosby East",0.107,0
-E02001454,"Aintree East & Waddicar",0.162,0
-E02001455,"Aintree West & Old Roan",0.278,5
-E02001456,"Brighton le Sands & Crosby West",0.061,1
-E02001457,"Netherton South",0.242,0
-E02001458,"Waterloo",0.071,0
-E02001459,"Litherland North",0.108,0
-E02001460,"Seaforth North",0.099,2
-E02001461,"Litherland South",0.101,0
-E02001462,"Seaforth South",0.075,0
-E02001463,"Orrell",0.107,1
-E02001464,"Bootle North",0.087,0
-E02001465,"Bootle South",0.108,0
-E02001466,"Bootle East",0.131,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001429,"Crossens",0.091,0,163.0
+E02001430,"Marshside",0.112,0,163.0
+E02001431,"Hesketh Park",0.096,0,163.0
+E02001432,"Southport Waterfront",0.099,1,427.0
+E02001433,"Southport High Park",0.12,0,427.0
+E02001434,"Meols Cop",0.117,0,427.0
+E02001435,"Southport South",0.126,0,264.0
+E02001436,"Southport Kew",0.158,6,427.0
+E02001437,"Birkdale",0.115,0,264.0
+E02001438,"Hillside",0.169,0,264.0
+E02001439,"Ainsdale East",0.165,0,264.0
+E02001440,"Ainsdale West",0.162,0,264.0
+E02001441,"Formby West & Freshfield North",0.07,1,132.0
+E02001442,"Formby Central & Freshfield South",0.178,0,155.0
+E02001443,"Formby South West",0.135,0,132.0
+E02001444,"Formby South East & Ince Blundell",0.2,2,294.0
+E02001445,"Maghull North West & Lydiate",0.239,0,189.0
+E02001446,"Maghull North East",0.349,0,189.0
+E02001447,"Maghull South East",0.242,0,189.0
+E02001448,"Maghull South West",0.331,2,328.0
+E02001449,"Hightown & Thornton",0.192,0,266.0
+E02001450,"Blundellsands",0.077,0,139.0
+E02001451,"Netherton North",0.133,0,28.0
+E02001452,"Ford",0.127,0,190.0
+E02001453,"Crosby East",0.107,0,164.0
+E02001454,"Aintree East & Waddicar",0.162,0,282.0
+E02001455,"Aintree West & Old Roan",0.278,5,152.0
+E02001456,"Brighton le Sands & Crosby West",0.061,1,164.0
+E02001457,"Netherton South",0.242,0,28.0
+E02001458,"Waterloo",0.071,0,164.0
+E02001459,"Litherland North",0.108,0,23.0
+E02001460,"Seaforth North",0.099,2,48.0
+E02001461,"Litherland South",0.101,0,130.0
+E02001462,"Seaforth South",0.075,0,102.0
+E02001463,"Orrell",0.107,1,226.0
+E02001464,"Bootle North",0.087,0,102.0
+E02001465,"Bootle South",0.108,0,130.0
+E02001466,"Bootle East",0.131,0,79.0

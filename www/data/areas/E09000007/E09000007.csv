@@ -1,29 +1,29 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02000166,"Highgate West",0,12
-E02000167,"Hampstead Town",0,18
-E02000168,"Tufnell Park West",0,22
-E02000169,"Frognal",0,29
-E02000170,"Fortune Green",0,15
-E02000171,"Mansfield Road & Park Hill Road",0,10
-E02000172,"Kentish Town West",0,11
-E02000173,"Fitzjohns & Royal Free",0,15
-E02000174,"Kentish Town East",0,18
-E02000175,"West Hampstead",0,14
-E02000176,"Belsize Park",0,15
-E02000177,"Chalk Farm",0,9
-E02000178,"Kilburn Grange",0,18
-E02000179,"Adelaide Road",0,8
-E02000180,"Camden Road South",0,19
-E02000181,"South Hampstead",0,14
-E02000182,"Swiss Cottage",0,10
-E02000183,"Primrose Hill",0,20
-E02000184,"Camden Street & Elm Village",0,10
-E02000185,"Kilburn East",0,7
-E02000186,"Camden Town & Mornington Crescent",0,12
-E02000187,"Somers Town",0,16
-E02000188,"Euston",0,8
-E02000189,"Gray's Inn Road",0,5
-E02000190,"Bloomsbury East",0,0
-E02000191,"Fitzrovia East & Bloomsbury West",0,25
-E02000192,"Hatton Garden & Theobalds Road",0,10
-E02000193,"Holborn",0,33
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02000166,"Highgate West",0,12,2108.0
+E02000167,"Hampstead Town",0,18,1778.0
+E02000168,"Tufnell Park West",0,22,486.0
+E02000169,"Frognal",0,29,1778.0
+E02000170,"Fortune Green",0,15,2787.0
+E02000171,"Mansfield Road & Park Hill Road",0,10,1382.0
+E02000172,"Kentish Town West",0,11,2045.0
+E02000173,"Fitzjohns & Royal Free",0,15,1128.0
+E02000174,"Kentish Town East",0,18,1610.0
+E02000175,"West Hampstead",0,14,1778.0
+E02000176,"Belsize Park",0,15,1128.0
+E02000177,"Chalk Farm",0,9,2045.0
+E02000178,"Kilburn Grange",0,18,2787.0
+E02000179,"Adelaide Road",0,8,1128.0
+E02000180,"Camden Road South",0,19,1378.0
+E02000181,"South Hampstead",0,14,650.0
+E02000182,"Swiss Cottage",0,10,2368.0
+E02000183,"Primrose Hill",0,20,2381.0
+E02000184,"Camden Street & Elm Village",0,10,1417.0
+E02000185,"Kilburn East",0,7,1671.0
+E02000186,"Camden Town & Mornington Crescent",0,12,663.0
+E02000187,"Somers Town",0,16,1878.0
+E02000188,"Euston",0,8,663.0
+E02000189,"Gray's Inn Road",0,5,1970.0
+E02000190,"Bloomsbury East",0,0,814.0
+E02000191,"Fitzrovia East & Bloomsbury West",0,25,898.0
+E02000192,"Hatton Garden & Theobalds Road",0,10,314.0
+E02000193,"Holborn",0,33,517.0

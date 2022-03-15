@@ -1,39 +1,39 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02002043,"Wood Green & Old Park",0,5
-E02002044,"Yew Tree & Tamebridge",0,0
-E02002045,"Woods & Mesty Croft",0,0
-E02002046,"Friar Park",0,0
-E02002047,"Wednesbury",0,1
-E02002048,"Great Barr",0,1
-E02002049,"Princes End & Willingsworth",0,0
-E02002051,"Ocker Hill",0,1
-E02002052,"Stone Cross & Hateley Heath",0,0
-E02002053,"Hamstead East",0,0
-E02002054,"Hamstead West",0,0
-E02002055,"Wednesbury South",0,0
-E02002056,"Tibbington",0,0
-E02002057,"Tipton",0,0
-E02002058,"Great Bridge & Dudley Port",0,0
-E02002059,"West Bromwich North",0,3
-E02002060,"Greets Green West",0,2
-E02002061,"Greets Green East",0,4
-E02002062,"West Bromwich East & Kenrick Park",0,0
-E02002063,"North Tividale",0,0
-E02002064,"Tividale",0,0
-E02002065,"Smethwick North & West",0,0
-E02002066,"Oldbury & Rood End",0,0
-E02002067,"Rowley West",0,0
-E02002068,"Smethwick East",0,0
-E02002069,"Whiteheath",0,0
-E02002070,"Smethwick South",0,0
-E02002071,"Rowley East",0,0
-E02002072,"Langley Green",0,2
-E02002073,"Warley East",0,0
-E02002074,"Warley West",0,0
-E02002075,"Blackheath",0,2
-E02002076,"Bearwood & Warley Woods",0,0
-E02002077,"Old Hill",0,2
-E02002078,"Warley South",0,0
-E02002079,"Brandhall",0,0
-E02002080,"Cradley Heath",0,0
-E02006810,"Charlemont",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02002043,"Wood Green & Old Park",0,5,89.0
+E02002044,"Yew Tree & Tamebridge",0,0,232.0
+E02002045,"Woods & Mesty Croft",0,0,151.0
+E02002046,"Friar Park",0,0,89.0
+E02002047,"Wednesbury",0,1,214.0
+E02002048,"Great Barr",0,1,73.0
+E02002049,"Princes End & Willingsworth",0,0,309.0
+E02002051,"Ocker Hill",0,1,125.0
+E02002052,"Stone Cross & Hateley Heath",0,0,216.0
+E02002053,"Hamstead East",0,0,147.0
+E02002054,"Hamstead West",0,0,73.0
+E02002055,"Wednesbury South",0,0,430.0
+E02002056,"Tibbington",0,0,125.0
+E02002057,"Tipton",0,0,125.0
+E02002058,"Great Bridge & Dudley Port",0,0,768.0
+E02002059,"West Bromwich North",0,3,216.0
+E02002060,"Greets Green West",0,2,768.0
+E02002061,"Greets Green East",0,4,216.0
+E02002062,"West Bromwich East & Kenrick Park",0,0,250.0
+E02002063,"North Tividale",0,0,600.0
+E02002064,"Tividale",0,0,535.0
+E02002065,"Smethwick North & West",0,0,924.0
+E02002066,"Oldbury & Rood End",0,0,601.0
+E02002067,"Rowley West",0,0,620.0
+E02002068,"Smethwick East",0,0,249.0
+E02002069,"Whiteheath",0,0,606.0
+E02002070,"Smethwick South",0,0,128.0
+E02002071,"Rowley East",0,0,60.0
+E02002072,"Langley Green",0,2,606.0
+E02002073,"Warley East",0,0,199.0
+E02002074,"Warley West",0,0,126.0
+E02002075,"Blackheath",0,2,145.0
+E02002076,"Bearwood & Warley Woods",0,0,387.0
+E02002077,"Old Hill",0,2,305.0
+E02002078,"Warley South",0,0,126.0
+E02002079,"Brandhall",0,0,131.0
+E02002080,"Cradley Heath",0,0,293.0
+E02006810,"Charlemont",0,0,121.0

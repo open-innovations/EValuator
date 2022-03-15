@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005087,"Swanley East & Hextable",0,0
-E02005088,"Swanley West",0,3
-E02005089,"Swanley South & Crockenhill",0,0
-E02005090,"Hartley & Hodsoll Street",0,0
-E02005091,"Darenth Valley",0,0
-E02005093,"West Kingsdown",0,1
-E02005094,"Knockholt",0,4
-E02005095,"Kemsing & Otford",0,0
-E02005096,"Sevenoaks North",0,1
-E02005097,"Sevenoaks West & Chevening",0,0
-E02005098,"Sevenoaks Town & Weald",0,4
-E02005099,"Westerham & Brasted",0,0
-E02005100,"Edenbridge",0,0
-E02005101,"Hever",0,0
-E02006832,"New Ash Green",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005087,"Swanley East & Hextable",0,0,326.0
+E02005088,"Swanley West",0,3,123.0
+E02005089,"Swanley South & Crockenhill",0,0,808.0
+E02005090,"Hartley & Hodsoll Street",0,0,632.0
+E02005091,"Darenth Valley",0,0,702.0
+E02005093,"West Kingsdown",0,1,841.0
+E02005094,"Knockholt",0,4,1403.0
+E02005095,"Kemsing & Otford",0,0,626.0
+E02005096,"Sevenoaks North",0,1,973.0
+E02005097,"Sevenoaks West & Chevening",0,0,602.0
+E02005098,"Sevenoaks Town & Weald",0,4,1176.0
+E02005099,"Westerham & Brasted",0,0,966.0
+E02005100,"Edenbridge",0,0,146.0
+E02005101,"Hever",0,0,809.0
+E02006832,"New Ash Green",0,0,494.0

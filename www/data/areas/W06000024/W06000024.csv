@@ -1,8 +1,8 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-W02000284,"Dowlais",0,2
-W02000285,"Cefncoedycymer",0,0
-W02000286,"Gelli-deg & Town",0,4
-W02000287,"Pentre-bach & Mountain Hare",0,0
-W02000288,"Merthyr Vale",0,0
-W02000289,"Treharris & Trelewis",0,0
-W02000415,"Gurnos",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+W02000284,"Dowlais",0,2,91.0
+W02000285,"Cefncoedycymer",0,0,191.0
+W02000286,"Gelli-deg & Town",0,4,91.0
+W02000287,"Pentre-bach & Mountain Hare",0,0,91.0
+W02000288,"Merthyr Vale",0,0,87.0
+W02000289,"Treharris & Trelewis",0,0,30.0
+W02000415,"Gurnos",0,0,91.0

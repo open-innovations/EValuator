@@ -1,26 +1,26 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-W02000142,"Llanfihangel-ar-arth & Llanybydder",0,1
-W02000143,"Llandovery",0,0
-W02000144,"Tre-lech",0,1
-W02000145,"Llandeilo",0,1
-W02000146,"Abergwili",0,0
-W02000147,"Carmarthen West & Cynwyl Elfed",0,0
-W02000148,"Carmarthen North",0,0
-W02000149,"Carmarthen South & Llangynnwr",0,9
-W02000151,"Brynaman",0,3
-W02000152,"Llandybie & Saron",0,1
-W02000153,"Llanddarog",0,1
-W02000154,"Ammanford & Betws",0,2
-W02000156,"Llan-non",0,2
-W02000157,"Glyn & Pontyberem",0,1
-W02000158,"Yr Hendy & Tŷ-croes",0,0
-W02000159,"Cydweli & Trimsaran",0,1
-W02000160,"Swiss Valley & Llangennech",0,0
-W02000161,"Dafen & Felin-foel",0,0
-W02000162,"Pembrey & Burry Port",0,1
-W02000163,"Llanelli North",0,1
-W02000164,"Llanelli West",0,3
-W02000165,"Llanelli Bigyn",0,2
-W02000166,"Bynea & Llwynhendy",0,1
-W02000167,"Llanelli South",0,0
-W02000418,"Whitland",0,5
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+W02000142,"Llanfihangel-ar-arth & Llanybydder",0,1,207.0
+W02000143,"Llandovery",0,0,147.0
+W02000144,"Tre-lech",0,1,151.0
+W02000145,"Llandeilo",0,1,189.0
+W02000146,"Abergwili",0,0,435.0
+W02000147,"Carmarthen West & Cynwyl Elfed",0,0,155.0
+W02000148,"Carmarthen North",0,0,54.0
+W02000149,"Carmarthen South & Llangynnwr",0,9,155.0
+W02000151,"Brynaman",0,3,122.0
+W02000152,"Llandybie & Saron",0,1,223.0
+W02000153,"Llanddarog",0,1,389.0
+W02000154,"Ammanford & Betws",0,2,83.0
+W02000156,"Llan-non",0,2,1563.0
+W02000157,"Glyn & Pontyberem",0,1,335.0
+W02000158,"Yr Hendy & Tŷ-croes",0,0,1484.0
+W02000159,"Cydweli & Trimsaran",0,1,176.0
+W02000160,"Swiss Valley & Llangennech",0,0,1401.0
+W02000161,"Dafen & Felin-foel",0,0,219.0
+W02000162,"Pembrey & Burry Port",0,1,97.0
+W02000163,"Llanelli North",0,1,219.0
+W02000164,"Llanelli West",0,3,249.0
+W02000165,"Llanelli Bigyn",0,2,219.0
+W02000166,"Bynea & Llwynhendy",0,1,140.0
+W02000167,"Llanelli South",0,0,79.0
+W02000418,"Whitland",0,5,192.0

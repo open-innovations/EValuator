@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005203,"Elswick",0.211,0
-E02005204,"Kirkham & Wesham",0.259,0
-E02005205,"Clifton & Newton-with-Scales",0.201,0
-E02005206,"St Annes North & Airport",0.083,0
-E02005207,"Heyhouses & Park",0.1,0
-E02005208,"St Annes Town",0.078,0
-E02005209,"Warton & Freckleton",0.143,0
-E02005210,"Ansdell & Fairhaven",0.085,3
-E02005211,"Lytham",0.153,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005203,"Elswick",0.211,0,1326.0
+E02005204,"Kirkham & Wesham",0.259,0,406.0
+E02005205,"Clifton & Newton-with-Scales",0.201,0,406.0
+E02005206,"St Annes North & Airport",0.083,0,383.0
+E02005207,"Heyhouses & Park",0.1,0,383.0
+E02005208,"St Annes Town",0.078,0,221.0
+E02005209,"Warton & Freckleton",0.143,0,627.0
+E02005210,"Ansdell & Fairhaven",0.085,3,221.0
+E02005211,"Lytham",0.153,0,221.0

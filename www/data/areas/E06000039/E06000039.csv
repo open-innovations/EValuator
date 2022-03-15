@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003407,"Britwell",0,2
-E02003408,"Manor Park",0,3
-E02003409,"Haymill & Lynch Hill",0,0
-E02003410,"Baylis & Stoke",0,7
-E02003411,"Wexham Lea",0,0
-E02003412,"Cippenham Green",0,2
-E02003413,"Stoke Road & Wexham Road",0,4
-E02003414,"Cippenham Meadows",0,0
-E02003415,"Chalvey",0,10
-E02003416,"Langley St Mary's",0,0
-E02003417,"Central Slough & Upton Court",0,4
-E02003418,"Langley Kederminster",0,1
-E02003419,"Langley Foxborough",0,4
-E02003420,"Colnbrook & Poyle",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003407,"Britwell",0,2,25843.0
+E02003408,"Manor Park",0,3,25843.0
+E02003409,"Haymill & Lynch Hill",0,0,27446.0
+E02003410,"Baylis & Stoke",0,7,25843.0
+E02003411,"Wexham Lea",0,0,1149.0
+E02003412,"Cippenham Green",0,2,27138.0
+E02003413,"Stoke Road & Wexham Road",0,4,26684.0
+E02003414,"Cippenham Meadows",0,0,29596.0
+E02003415,"Chalvey",0,10,29596.0
+E02003416,"Langley St Mary's",0,0,985.0
+E02003417,"Central Slough & Upton Court",0,4,26828.0
+E02003418,"Langley Kederminster",0,1,841.0
+E02003419,"Langley Foxborough",0,4,841.0
+E02003420,"Colnbrook & Poyle",0,1,841.0

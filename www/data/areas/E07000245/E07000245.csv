@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006238,"Brandon",0,9
-E02006239,"Lakenheath",0,0
-E02006240,"Beck Row",0,0
-E02006241,"Mildenhall",0,0
-E02006242,"Red Lodge",0,0
-E02006243,"North Newmarket",0,4
-E02006273,"Stanton & Barningham",0,0
-E02006274,"Ixworth",0,0
-E02006275,"Howard Estate & Northgate",0,0
-E02006276,"Fornham",0,8
-E02006277,"Moreton Hall",0,0
-E02006278,"Bury St Edmunds Central",0,14
-E02006279,"Bury St Edmunds West",0,8
-E02006280,"Barrow",0,0
-E02006281,"Eastgate & Southgate",0,10
-E02006282,"Clare",0,0
-E02006283,"Kedington",0,0
-E02006284,"Haverhill North",0,4
-E02006285,"Haverhill West",0,0
-E02006286,"Haverhill East & South",0,1
-E02006826,"South Newmarket & Racecourse",0,7
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006238,"Brandon",0,9,246.0
+E02006239,"Lakenheath",0,0,277.0
+E02006240,"Beck Row",0,0,822.0
+E02006241,"Mildenhall",0,0,165.0
+E02006242,"Red Lodge",0,0,442.0
+E02006243,"North Newmarket",0,4,277.0
+E02006273,"Stanton & Barningham",0,0,280.0
+E02006274,"Ixworth",0,0,239.0
+E02006275,"Howard Estate & Northgate",0,0,143.0
+E02006276,"Fornham",0,8,787.0
+E02006277,"Moreton Hall",0,0,918.0
+E02006278,"Bury St Edmunds Central",0,14,918.0
+E02006279,"Bury St Edmunds West",0,8,215.0
+E02006280,"Barrow",0,0,775.0
+E02006281,"Eastgate & Southgate",0,10,358.0
+E02006282,"Clare",0,0,627.0
+E02006283,"Kedington",0,0,811.0
+E02006284,"Haverhill North",0,4,128.0
+E02006285,"Haverhill West",0,0,128.0
+E02006286,"Haverhill East & South",0,1,128.0
+E02006826,"South Newmarket & Racecourse",0,7,277.0

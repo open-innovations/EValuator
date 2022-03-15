@@ -1,74 +1,74 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003892,"Gunnislake & Calstock",0,0
-E02003893,"St Neot & St Cleer",0,0
-E02003894,"Callington & Pensilva",0,4
-E02003895,"Dobwalls",0,0
-E02003896,"Liskeard",0,1
-E02003897,"Saltash Latchbrook & St Stephens",0,2
-E02003898,"St Germans & St Mellion",0,0
-E02003899,"Mid Saltash",0,2
-E02003900,"Saltash Town & Pillmere",0,2
-E02003901,"Lanreath",0,2
-E02003902,"Torpoint",0,0
-E02003903,"Kingsand",0,0
-E02003904,"Looe & Polperro",0,3
-E02003905,"Grampound Road",0,1
-E02003906,"Perranporth & Goonhavern",0,2
-E02003907,"St Agnes & Mount Hawke",0,2
-E02003908,"Truro East",0,6
-E02003909,"Truro West",0,8
-E02003910,"Truro South & Central",0,12
-E02003911,"Shortlanesend",0,1
-E02003912,"Probus & Roseland",0,0
-E02003913,"Mylor Bridge & Frogpool",0,0
-E02003914,"Penryn",0,0
-E02003915,"Falmouth North",0,2
-E02003916,"Falmouth East",0,1
-E02003917,"Falmouth West & South",0,0
-E02003918,"Illogan & Portreath",0,3
-E02003919,"Redruth North",0,5
-E02003920,"Redruth South",0,0
-E02003921,"St Day & Lanner",0,0
-E02003922,"Pool & Illogan Highway",0,7
-E02003923,"Camborne East",0,6
-E02003924,"Camborne West",0,0
-E02003925,"Camborne South",0,0
-E02003926,"Crowan",0,0
-E02003927,"Ponsanooth",0,0
-E02003928,"Helston",0,2
-E02003929,"Porthleven",0,5
-E02003930,"The Lizard",0,1
-E02003931,"Bude & Stratton",0,2
-E02003932,"Poundstock & Kilkhampton",0,0
-E02003933,"Crackington & Tintagel",0,0
-E02003934,"Camelford & Tresmeer",0,2
-E02003935,"Launceston",0,0
-E02003936,"Altarnun & Stoke Climsland",0,0
-E02003937,"Trebetherick & Whitecross",0,10
-E02003938,"Padstow & St Issey",0,4
-E02003939,"Wadebridge",0,0
-E02003940,"St Breward",0,3
-E02003941,"Bodmin East",0,4
-E02003942,"Bodmin West",0,1
-E02003943,"St Ives & Halsetown",0,2
-E02003944,"Hayle",0,0
-E02003945,"Towednack",0,0
-E02003946,"Marazion",0,4
-E02003947,"West Penwith & St Buryan",0,0
-E02003948,"Penzance North",0,4
-E02003949,"Penzance Quay",0,0
-E02003950,"St Just & Land's End",0,1
-E02003951,"Penzance South & Newlyn",0,0
-E02003952,"St Columb Minor & Porth",0,0
-E02003953,"St Columb Major & St Mawgan",0,12
-E02003954,"Newquay West",0,3
-E02003955,"Newquay East",0,4
-E02003956,"Roche & Goss Moor",0,2
-E02003957,"Lostwithiel & Penwithick",0,6
-E02003958,"Trewoon",0,0
-E02003959,"Par",0,0
-E02003960,"Tywardreath & Fowey",0,1
-E02003961,"St Austell East & Carlyon Bay",0,0
-E02003962,"St Austell North & Carclaze",0,2
-E02003963,"St Austell Central",0,4
-E02003964,"Mevagissey & Polgooth",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003892,"Gunnislake & Calstock",0,0,192.0
+E02003893,"St Neot & St Cleer",0,0,334.0
+E02003894,"Callington & Pensilva",0,4,179.0
+E02003895,"Dobwalls",0,0,103.0
+E02003896,"Liskeard",0,1,103.0
+E02003897,"Saltash Latchbrook & St Stephens",0,2,116.0
+E02003898,"St Germans & St Mellion",0,0,346.0
+E02003899,"Mid Saltash",0,2,116.0
+E02003900,"Saltash Town & Pillmere",0,2,116.0
+E02003901,"Lanreath",0,2,274.0
+E02003902,"Torpoint",0,0,29.0
+E02003903,"Kingsand",0,0,49.0
+E02003904,"Looe & Polperro",0,3,44.0
+E02003905,"Grampound Road",0,1,422.0
+E02003906,"Perranporth & Goonhavern",0,2,249.0
+E02003907,"St Agnes & Mount Hawke",0,2,257.0
+E02003908,"Truro East",0,6,144.0
+E02003909,"Truro West",0,8,370.0
+E02003910,"Truro South & Central",0,12,621.0
+E02003911,"Shortlanesend",0,1,515.0
+E02003912,"Probus & Roseland",0,0,352.0
+E02003913,"Mylor Bridge & Frogpool",0,0,569.0
+E02003914,"Penryn",0,0,250.0
+E02003915,"Falmouth North",0,2,250.0
+E02003916,"Falmouth East",0,1,196.0
+E02003917,"Falmouth West & South",0,0,196.0
+E02003918,"Illogan & Portreath",0,3,360.0
+E02003919,"Redruth North",0,5,167.0
+E02003920,"Redruth South",0,0,167.0
+E02003921,"St Day & Lanner",0,0,167.0
+E02003922,"Pool & Illogan Highway",0,7,254.0
+E02003923,"Camborne East",0,6,161.0
+E02003924,"Camborne West",0,0,151.0
+E02003925,"Camborne South",0,0,87.0
+E02003926,"Crowan",0,0,741.0
+E02003927,"Ponsanooth",0,0,502.0
+E02003928,"Helston",0,2,132.0
+E02003929,"Porthleven",0,5,165.0
+E02003930,"The Lizard",0,1,132.0
+E02003931,"Bude & Stratton",0,2,93.0
+E02003932,"Poundstock & Kilkhampton",0,0,254.0
+E02003933,"Crackington & Tintagel",0,0,207.0
+E02003934,"Camelford & Tresmeer",0,2,300.0
+E02003935,"Launceston",0,0,102.0
+E02003936,"Altarnun & Stoke Climsland",0,0,169.0
+E02003937,"Trebetherick & Whitecross",0,10,268.0
+E02003938,"Padstow & St Issey",0,4,189.0
+E02003939,"Wadebridge",0,0,104.0
+E02003940,"St Breward",0,3,279.0
+E02003941,"Bodmin East",0,4,125.0
+E02003942,"Bodmin West",0,1,125.0
+E02003943,"St Ives & Halsetown",0,2,50.0
+E02003944,"Hayle",0,0,64.0
+E02003945,"Towednack",0,0,171.0
+E02003946,"Marazion",0,4,253.0
+E02003947,"West Penwith & St Buryan",0,0,194.0
+E02003948,"Penzance North",0,4,95.0
+E02003949,"Penzance Quay",0,0,216.0
+E02003950,"St Just & Land's End",0,1,99.0
+E02003951,"Penzance South & Newlyn",0,0,137.0
+E02003952,"St Columb Minor & Porth",0,0,167.0
+E02003953,"St Columb Major & St Mawgan",0,12,352.0
+E02003954,"Newquay West",0,3,203.0
+E02003955,"Newquay East",0,4,167.0
+E02003956,"Roche & Goss Moor",0,2,240.0
+E02003957,"Lostwithiel & Penwithick",0,6,389.0
+E02003958,"Trewoon",0,0,343.0
+E02003959,"Par",0,0,159.0
+E02003960,"Tywardreath & Fowey",0,1,73.0
+E02003961,"St Austell East & Carlyon Bay",0,0,288.0
+E02003962,"St Austell North & Carclaze",0,2,241.0
+E02003963,"St Austell Central",0,4,112.0
+E02003964,"Mevagissey & Polgooth",0,2,343.0

@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006188,"Fulford & Meir Heath",0,0
-E02006189,"Barlaston",0,0
-E02006190,"Stone Town",0,1
-E02006191,"Little Stoke & Milwich",0,2
-E02006192,"Eccleshall & Yarnfield",0,2
-E02006193,"Stafford Common & Great Bridgeford",0,1
-E02006194,"Doxey & Holmcroft",0,1
-E02006195,"Weston & Haywood",0,2
-E02006196,"Stafford North East",0,2
-E02006197,"Central Stafford",0,10
-E02006198,"Littleworth & Hopton",0,13
-E02006199,"Rowley & Derrington",0,0
-E02006200,"Highfields & Burton Manor",0,0
-E02006201,"Weeping Cross & Brocton",0,0
-E02006202,"Gnosall & Haughton",0,0
-E02006203,"Mosspit & Silkmore Lane",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006188,"Fulford & Meir Heath",0,0,410.0
+E02006189,"Barlaston",0,0,1027.0
+E02006190,"Stone Town",0,1,157.0
+E02006191,"Little Stoke & Milwich",0,2,444.0
+E02006192,"Eccleshall & Yarnfield",0,2,504.0
+E02006193,"Stafford Common & Great Bridgeford",0,1,314.0
+E02006194,"Doxey & Holmcroft",0,1,153.0
+E02006195,"Weston & Haywood",0,2,647.0
+E02006196,"Stafford North East",0,2,153.0
+E02006197,"Central Stafford",0,10,344.0
+E02006198,"Littleworth & Hopton",0,13,505.0
+E02006199,"Rowley & Derrington",0,0,657.0
+E02006200,"Highfields & Burton Manor",0,0,191.0
+E02006201,"Weeping Cross & Brocton",0,0,526.0
+E02006202,"Gnosall & Haughton",0,0,374.0
+E02006203,"Mosspit & Silkmore Lane",0,2,191.0

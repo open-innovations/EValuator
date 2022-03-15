@@ -1,33 +1,33 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003122,"Glenholt & Widewell",0,2
-E02003123,"Southway",0,0
-E02003124,"Tamerton Foliot",0,0
-E02003125,"Ernesettle",0,0
-E02003126,"Derriford & Estover",0,10
-E02003127,"King's Tamerton & West Park",0,0
-E02003128,"Honicknowle & Manadon",0,0
-E02003129,"Crownhill",0,1
-E02003130,"St Budeaux",0,0
-E02003131,"Deer Park & Leigham",0,4
-E02003132,"Ham",0,0
-E02003133,"Higher Compton & Eggbuckland",0,0
-E02003134,"North Prospect",0,2
-E02003135,"Keyham",0,0
-E02003136,"Plympton St Mary",0,1
-E02003137,"Mannamead & Hartley",0,1
-E02003138,"Peverell",0,1
-E02003139,"Plympton Chaddlewood",0,1
-E02003140,"Plympton Underwood",0,3
-E02003141,"Ford & Blockhouse Park",0,0
-E02003142,"Efford",0,2
-E02003143,"Plympton St Maurice",0,0
-E02003144,"Mutley",0,2
-E02003145,"Stoke & Pennycomequick",0,0
-E02003146,"Lipson",0,0
-E02003147,"Devonport",0,3
-E02003148,"City Centre",0,20
-E02003149,"Cattedown & Prince Rock",0,0
-E02003150,"Millbay & Stonehouse",0,1
-E02003151,"Plymstock Elburton",0,0
-E02003152,"Plymstock Hooe & Oreston",0,1
-E02003153,"Plymstock Goosewell & Staddiscombe",0,2
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003122,"Glenholt & Widewell",0,2,169.0
+E02003123,"Southway",0,0,224.0
+E02003124,"Tamerton Foliot",0,0,224.0
+E02003125,"Ernesettle",0,0,55.0
+E02003126,"Derriford & Estover",0,10,169.0
+E02003127,"King's Tamerton & West Park",0,0,224.0
+E02003128,"Honicknowle & Manadon",0,0,55.0
+E02003129,"Crownhill",0,1,224.0
+E02003130,"St Budeaux",0,0,55.0
+E02003131,"Deer Park & Leigham",0,4,399.0
+E02003132,"Ham",0,0,100.0
+E02003133,"Higher Compton & Eggbuckland",0,0,265.0
+E02003134,"North Prospect",0,2,100.0
+E02003135,"Keyham",0,0,100.0
+E02003136,"Plympton St Mary",0,1,134.0
+E02003137,"Mannamead & Hartley",0,1,96.0
+E02003138,"Peverell",0,1,232.0
+E02003139,"Plympton Chaddlewood",0,1,134.0
+E02003140,"Plympton Underwood",0,3,134.0
+E02003141,"Ford & Blockhouse Park",0,0,187.0
+E02003142,"Efford",0,2,187.0
+E02003143,"Plympton St Maurice",0,0,134.0
+E02003144,"Mutley",0,2,233.0
+E02003145,"Stoke & Pennycomequick",0,0,278.0
+E02003146,"Lipson",0,0,187.0
+E02003147,"Devonport",0,3,91.0
+E02003148,"City Centre",0,20,137.0
+E02003149,"Cattedown & Prince Rock",0,0,137.0
+E02003150,"Millbay & Stonehouse",0,1,142.0
+E02003151,"Plymstock Elburton",0,0,285.0
+E02003152,"Plymstock Hooe & Oreston",0,1,624.0
+E02003153,"Plymstock Goosewell & Staddiscombe",0,2,151.0

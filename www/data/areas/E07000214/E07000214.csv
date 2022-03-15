@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006416,"Chobham & Windlesham",0,0
-E02006417,"Bagshot",0,3
-E02006418,"Lightwater",0,0
-E02006419,"Camberley North",0,0
-E02006420,"Camberley Town",0,2
-E02006421,"West End & Bisley",0,0
-E02006422,"Camberley Heatherside",0,0
-E02006423,"Camberley West",0,6
-E02006424,"Camberley Parkside",0,0
-E02006425,"Frimley",0,3
-E02006426,"Frimley Green",0,0
-E02006427,"Mytchett & Frith Hill",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006416,"Chobham & Windlesham",0,0,735.0
+E02006417,"Bagshot",0,3,485.0
+E02006418,"Lightwater",0,0,176.0
+E02006419,"Camberley North",0,0,304.0
+E02006420,"Camberley Town",0,2,304.0
+E02006421,"West End & Bisley",0,0,1103.0
+E02006422,"Camberley Heatherside",0,0,470.0
+E02006423,"Camberley West",0,6,736.0
+E02006424,"Camberley Parkside",0,0,470.0
+E02006425,"Frimley",0,3,470.0
+E02006426,"Frimley Green",0,0,166.0
+E02006427,"Mytchett & Frith Hill",0,0,377.0

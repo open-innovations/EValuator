@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02005287,"Penwortham North",0.146,0
-E02005288,"Gregson Lane & Coupe Green",0.132,0
-E02005289,"Penwortham South",0.177,7
-E02005290,"Walton-le-Dale",0.16,6
-E02005291,"Lower Penwortham North",0.148,0
-E02005292,"Lower Penwortham South",0.199,0
-E02005293,"Bamber Bridge West",0.277,8
-E02005294,"Bamber Bridge East",0.136,10
-E02005295,"Lostock Hall",0.221,0
-E02005296,"New Longton & Hutton",0.261,0
-E02005297,"Longton & Walmer Bridge",0.26,4
-E02005298,"Farington",0.114,0
-E02005299,"Leyland North",0.125,1
-E02005300,"Moss Side",0.277,0
-E02005301,"Leyland South West",0.153,4
-E02005302,"Leyland South East & Buckshaw Village",0.212,0
-E02005303,"Seven Stars",0.196,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02005287,"Penwortham North",0.146,0,200.0
+E02005288,"Gregson Lane & Coupe Green",0.132,0,579.0
+E02005289,"Penwortham South",0.177,7,200.0
+E02005290,"Walton-le-Dale",0.16,6,397.0
+E02005291,"Lower Penwortham North",0.148,0,397.0
+E02005292,"Lower Penwortham South",0.199,0,397.0
+E02005293,"Bamber Bridge West",0.277,8,197.0
+E02005294,"Bamber Bridge East",0.136,10,197.0
+E02005295,"Lostock Hall",0.221,0,397.0
+E02005296,"New Longton & Hutton",0.261,0,406.0
+E02005297,"Longton & Walmer Bridge",0.26,4,690.0
+E02005298,"Farington",0.114,0,860.0
+E02005299,"Leyland North",0.125,1,454.0
+E02005300,"Moss Side",0.277,0,454.0
+E02005301,"Leyland South West",0.153,4,454.0
+E02005302,"Leyland South East & Buckshaw Village",0.212,0,706.0
+E02005303,"Seven Stars",0.196,0,454.0

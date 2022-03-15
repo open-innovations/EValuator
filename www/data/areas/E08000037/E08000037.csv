@@ -1,28 +1,28 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02001682,"Ryton",0.167,0
-E02001683,"Crawcrook & Greenside",0.099,0
-E02001684,"Pelaw",0.268,8
-E02001685,"Blaydon South",0.17,0
-E02001686,"Blaydon North & Winlaton Mill",0.158,3
-E02001688,"Dunston & Teams",0.151,13
-E02001689,"Bensham North",0.175,0
-E02001690,"Swalwell",0.159,12
-E02001691,"Bensham South & Saltwell",0.117,11
-E02001692,"Mount Pleasant & Deckham East",0.109,0
-E02001693,"Felling South",0.122,0
-E02001694,"Dunston Hill",0.21,2
-E02001695,"Wardley",0.338,0
-E02001696,"Heworth",0.184,3
-E02001697,"Low Fell East",0.111,0
-E02001698,"Whickham",0.129,0
-E02001699,"Windy Nook & Whitehills",0.144,0
-E02001700,"Sunniside & Lobley Hill",0.001,0
-E02001701,"Low Fell West",0.143,4
-E02001702,"Beacon Lough & Wrekenton",0.176,0
-E02001703,"Rowlands Gill & Lockhaugh",0.12,0
-E02001704,"Easedale Gardens",0.351,0
-E02001705,"Chopwell & High Spen",0.079,1
-E02001706,"Birtley North & Kibblesworth",0.361,4
-E02001707,"Birtley South",0.208,8
-E02006841,"Gateshead Town",0.096,24
-E02006842,"Gateshead South",0.117,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02001682,"Ryton",0.167,0,268.0
+E02001683,"Crawcrook & Greenside",0.099,0,164.0
+E02001684,"Pelaw",0.268,8,257.0
+E02001685,"Blaydon South",0.17,0,78.0
+E02001686,"Blaydon North & Winlaton Mill",0.158,3,280.0
+E02001688,"Dunston & Teams",0.151,13,296.0
+E02001689,"Bensham North",0.175,0,102.0
+E02001690,"Swalwell",0.159,12,258.0
+E02001691,"Bensham South & Saltwell",0.117,11,296.0
+E02001692,"Mount Pleasant & Deckham East",0.109,0,288.0
+E02001693,"Felling South",0.122,0,186.0
+E02001694,"Dunston Hill",0.21,2,188.0
+E02001695,"Wardley",0.338,0,78.0
+E02001696,"Heworth",0.184,3,78.0
+E02001697,"Low Fell East",0.111,0,108.0
+E02001698,"Whickham",0.129,0,94.0
+E02001699,"Windy Nook & Whitehills",0.144,0,186.0
+E02001700,"Sunniside & Lobley Hill",0.001,0,360.0
+E02001701,"Low Fell West",0.143,4,108.0
+E02001702,"Beacon Lough & Wrekenton",0.176,0,186.0
+E02001703,"Rowlands Gill & Lockhaugh",0.12,0,119.0
+E02001704,"Easedale Gardens",0.351,0,108.0
+E02001705,"Chopwell & High Spen",0.079,1,276.0
+E02001706,"Birtley North & Kibblesworth",0.361,4,736.0
+E02001707,"Birtley South",0.208,8,380.0
+E02006841,"Gateshead Town",0.096,24,266.0
+E02006842,"Gateshead South",0.117,0,210.0

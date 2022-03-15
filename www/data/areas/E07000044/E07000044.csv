@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004189,"Woolwell & Lee Mill",0,0
-E02004190,"South Brent & Cornwood",0,0
-E02004191,"Totnes Town",0,1
-E02004192,"Marldon",0,0
-E02004193,"Ivybridge",0,0
-E02004194,"Loddiswell & Dartington",0,0
-E02004195,"Dartmouth",0,0
-E02004196,"Yealmpton",0,3
-E02004197,"Wembury",0,0
-E02004198,"Kingsbridge",0,0
-E02004199,"Chillington",0,0
-E02004200,"Salcombe",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004189,"Woolwell & Lee Mill",0,0,465.0
+E02004190,"South Brent & Cornwood",0,0,648.0
+E02004191,"Totnes Town",0,1,283.0
+E02004192,"Marldon",0,0,765.0
+E02004193,"Ivybridge",0,0,107.0
+E02004194,"Loddiswell & Dartington",0,0,463.0
+E02004195,"Dartmouth",0,0,61.0
+E02004196,"Yealmpton",0,3,485.0
+E02004197,"Wembury",0,0,346.0
+E02004198,"Kingsbridge",0,0,141.0
+E02004199,"Chillington",0,0,604.0
+E02004200,"Salcombe",0,0,344.0

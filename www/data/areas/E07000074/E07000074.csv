@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02004555,"Tollesbury",0,0
-E02004556,"Great Totham",0,0
-E02004557,"Heybridge",0,0
-E02004558,"Maldon North",0,2
-E02004559,"Maldon South",0,0
-E02004560,"Southminster",0,0
-E02004561,"Mayland",0,0
-E02004562,"Burnham-on-Crouch",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02004555,"Tollesbury",0,0,410.0
+E02004556,"Great Totham",0,0,1017.0
+E02004557,"Heybridge",0,0,223.0
+E02004558,"Maldon North",0,2,223.0
+E02004559,"Maldon South",0,0,223.0
+E02004560,"Southminster",0,0,112.0
+E02004561,"Mayland",0,0,830.0
+E02004562,"Burnham-on-Crouch",0,0,112.0

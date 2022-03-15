@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003775,"Willingham & Over",0,0
-E02003776,"Cottenham",0,0
-E02003777,"Longstanton",0,8
-E02003778,"Waterbeach and Landbeach",0,0
-E02003779,"Bar Hill & Boxworth",0,2
-E02003780,"HIston",0,2
-E02003781,"Milton",0,13
-E02003783,"Girton & Barton",0,0
-E02003784,"Hardwick & Highfields",0,0
-E02003785,"Fulbourn & Teversham",0,1
-E02003786,"Great Shelford & Stapleford",0,3
-E02003787,"Barrington",0,0
-E02003788,"Little Shelford ",0,0
-E02003789,"Sawston",0,1
-E02003790,"Linton & Balsham",0,0
-E02003791,"Duxford",0,3
-E02003792,"Meldreth",0,0
-E02003793,"Bassingbourn & the Mordens",0,0
-E02006873,"Cambourne",0,3
-E02006874,"Papworth",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003775,"Willingham & Over",0,0,1218.0
+E02003776,"Cottenham",0,0,1182.0
+E02003777,"Longstanton",0,8,1489.0
+E02003778,"Waterbeach and Landbeach",0,0,560.0
+E02003779,"Bar Hill & Boxworth",0,2,623.0
+E02003780,"HIston",0,2,625.0
+E02003781,"Milton",0,13,1201.0
+E02003783,"Girton & Barton",0,0,623.0
+E02003784,"Hardwick & Highfields",0,0,1051.0
+E02003785,"Fulbourn & Teversham",0,1,1220.0
+E02003786,"Great Shelford & Stapleford",0,3,894.0
+E02003787,"Barrington",0,0,1874.0
+E02003788,"Little Shelford ",0,0,1679.0
+E02003789,"Sawston",0,1,628.0
+E02003790,"Linton & Balsham",0,0,1134.0
+E02003791,"Duxford",0,3,1672.0
+E02003792,"Meldreth",0,0,428.0
+E02003793,"Bassingbourn & the Mordens",0,0,526.0
+E02006873,"Cambourne",0,3,889.0
+E02006874,"Papworth",0,0,2189.0

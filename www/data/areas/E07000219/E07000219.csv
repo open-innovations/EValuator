@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006475,"Weddington & St Nicholas Park",0,0
-E02006476,"Camp Hill",0,0
-E02006477,"Horeston Grange",0,1
-E02006478,"Galley Common & Whittleford",0,0
-E02006479,"Nuneaton Town Centre",0,4
-E02006480,"Tomkinson Road",0,2
-E02006481,"Stockingford",0,0
-E02006482,"Bermuda & Heath End",0,7
-E02006483,"Caldwell & Chilvers Coton",0,0
-E02006484,"Attleborough",0,0
-E02006485,"Whitestone",0,0
-E02006486,"Bedworth Woodlands",0,1
-E02006487,"Bedworth Town",0,2
-E02006488,"Bulkington",0,0
-E02006489,"Bedworth Coalpit Field & Exhall",0,4
-E02006490,"Bedworth Heath",0,1
-E02006806,"Ash Green & Keresley End",0,1
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006475,"Weddington & St Nicholas Park",0,0,467.0
+E02006476,"Camp Hill",0,0,312.0
+E02006477,"Horeston Grange",0,1,467.0
+E02006478,"Galley Common & Whittleford",0,0,312.0
+E02006479,"Nuneaton Town Centre",0,4,576.0
+E02006480,"Tomkinson Road",0,2,467.0
+E02006481,"Stockingford",0,0,312.0
+E02006482,"Bermuda & Heath End",0,7,312.0
+E02006483,"Caldwell & Chilvers Coton",0,0,467.0
+E02006484,"Attleborough",0,0,155.0
+E02006485,"Whitestone",0,0,155.0
+E02006486,"Bedworth Woodlands",0,1,551.0
+E02006487,"Bedworth Town",0,2,84.0
+E02006488,"Bulkington",0,0,376.0
+E02006489,"Bedworth Coalpit Field & Exhall",0,4,623.0
+E02006490,"Bedworth Heath",0,1,400.0
+E02006806,"Ash Green & Keresley End",0,1,623.0

@@ -1,56 +1,56 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003012,"Henbury & Brentry",0,0
-E02003013,"Southmead",0,0
-E02003014,"Lawrence Weston",0,0
-E02003015,"Monks Park",0,9
-E02003016,"Upper Horfield",0,0
-E02003017,"Westbury Village",0,0
-E02003018,"Sea Mills",0,0
-E02003019,"Shirehampton & Avonmouth",0,8
-E02003020,"Westbury on Trym",0,0
-E02003021,"Horfield",0,2
-E02003022,"Henleaze",0,0
-E02003023,"Stapleton",0,0
-E02003024,"Fishponds North",0,2
-E02003025,"Lockleaze",0,2
-E02003026,"Stoke Bishop",0,0
-E02003027,"Bishopston",0,0
-E02003028,"Westbury Park",0,0
-E02003029,"Fishponds South",0,0
-E02003030,"Eastville",0,2
-E02003031,"Redland & St Andrew's",0,0
-E02003032,"Speedwell",0,0
-E02003033,"Cotham",0,1
-E02003034,"St Paul's",0,4
-E02003036,"Kingsdown & Stokes Croft",0,5
-E02003037,"Clifton East",0,0
-E02003038,"Two Mile Hill",0,0
-E02003039,"St George",0,0
-E02003040,"Redfield",0,3
-E02003041,"Clifton Village",0,5
-E02003043,"Bristol City Centre",0,52
-E02003044,"Crews Hole",0,0
-E02003045,"Hotwells",0,6
-E02003046,"St Annes",0,1
-E02003047,"Southville",0,3
-E02003048,"Totterdown",0,0
-E02003049,"Broom Hill",0,0
-E02003050,"Bedminster",0,0
-E02003051,"Windmill Hill",0,0
-E02003052,"Ashton",0,0
-E02003053,"Knowle Park",0,0
-E02003054,"Brislington",0,7
-E02003055,"Knowle",0,0
-E02003056,"Knowle West",0,1
-E02003057,"Bishopsworth",0,0
-E02003058,"Hengrove",0,0
-E02003059,"Headley Park",0,1
-E02003060,"Stockwood",0,0
-E02003061,"Highridge",0,0
-E02003062,"Withywood",0,0
-E02003063,"Whitchurch Park",0,2
-E02003064,"Hartcliffe",0,1
-E02006887,"Temple Meads",0,18
-E02006888,"Upper Easton",0,0
-E02006889,"Barton Hill",0,4
-E02006890,"Lower Easton",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003012,"Henbury & Brentry",0,0,229.0
+E02003013,"Southmead",0,0,796.0
+E02003014,"Lawrence Weston",0,0,320.0
+E02003015,"Monks Park",0,9,779.0
+E02003016,"Upper Horfield",0,0,176.0
+E02003017,"Westbury Village",0,0,16492.0
+E02003018,"Sea Mills",0,0,465.0
+E02003019,"Shirehampton & Avonmouth",0,8,91.0
+E02003020,"Westbury on Trym",0,0,603.0
+E02003021,"Horfield",0,2,405.0
+E02003022,"Henleaze",0,0,605.0
+E02003023,"Stapleton",0,0,15889.0
+E02003024,"Fishponds North",0,2,15889.0
+E02003025,"Lockleaze",0,2,16610.0
+E02003026,"Stoke Bishop",0,0,374.0
+E02003027,"Bishopston",0,0,407.0
+E02003028,"Westbury Park",0,0,781.0
+E02003029,"Fishponds South",0,0,16057.0
+E02003030,"Eastville",0,2,16103.0
+E02003031,"Redland & St Andrew's",0,0,738.0
+E02003032,"Speedwell",0,0,16271.0
+E02003033,"Cotham",0,1,458.0
+E02003034,"St Paul's",0,4,842.0
+E02003036,"Kingsdown & Stokes Croft",0,5,666.0
+E02003037,"Clifton East",0,0,227.0
+E02003038,"Two Mile Hill",0,0,382.0
+E02003039,"St George",0,0,382.0
+E02003040,"Redfield",0,3,214.0
+E02003041,"Clifton Village",0,5,395.0
+E02003043,"Bristol City Centre",0,52,893.0
+E02003044,"Crews Hole",0,0,382.0
+E02003045,"Hotwells",0,6,227.0
+E02003046,"St Annes",0,1,278.0
+E02003047,"Southville",0,3,257.0
+E02003048,"Totterdown",0,0,431.0
+E02003049,"Broom Hill",0,0,449.0
+E02003050,"Bedminster",0,0,1059.0
+E02003051,"Windmill Hill",0,0,153.0
+E02003052,"Ashton",0,0,153.0
+E02003053,"Knowle Park",0,0,542.0
+E02003054,"Brislington",0,7,449.0
+E02003055,"Knowle",0,0,431.0
+E02003056,"Knowle West",0,1,431.0
+E02003057,"Bishopsworth",0,0,219.0
+E02003058,"Hengrove",0,0,111.0
+E02003059,"Headley Park",0,1,219.0
+E02003060,"Stockwood",0,0,389.0
+E02003061,"Highridge",0,0,66.0
+E02003062,"Withywood",0,0,66.0
+E02003063,"Whitchurch Park",0,2,177.0
+E02003064,"Hartcliffe",0,1,177.0
+E02006887,"Temple Meads",0,18,1538.0
+E02006888,"Upper Easton",0,0,214.0
+E02006889,"Barton Hill",0,4,649.0
+E02006890,"Lower Easton",0,0,214.0

@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02003753,"Yaxley & Farcet",0,0
-E02003754,"Stilton",0,2
-E02003755,"Ramsey",0,2
-E02003756,"Sawtry & Gidding",0,0
-E02003757,"Warboys & Bury",0,0
-E02003758,"Somersham",0,0
-E02003759,"Bluntisham",0,3
-E02003760,"Huntingdon Sapley & Oxmoor",0,0
-E02003761,"Huntingdon Hartford",0,1
-E02003762,"Brampton",0,3
-E02003763,"St Ives North",0,0
-E02003764,"Huntingdon Central & West",0,3
-E02003765,"St Ives South",0,5
-E02003766,"Godmanchester",0,2
-E02003767,"Kimbolton",0,0
-E02003768,"Houghton",0,0
-E02003769,"Buckden & Perry",0,5
-E02003770,"Little Paxton",0,0
-E02003771,"St Neots Priory Park",0,1
-E02003772,"St Neots Eaton Ford",0,2
-E02003773,"St Neots Eynesbury",0,2
-E02003774,"St Neots Eaton Socon",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02003753,"Yaxley & Farcet",0,0,233.0
+E02003754,"Stilton",0,2,1147.0
+E02003755,"Ramsey",0,2,982.0
+E02003756,"Sawtry & Gidding",0,0,826.0
+E02003757,"Warboys & Bury",0,0,696.0
+E02003758,"Somersham",0,0,996.0
+E02003759,"Bluntisham",0,3,705.0
+E02003760,"Huntingdon Sapley & Oxmoor",0,0,1227.0
+E02003761,"Huntingdon Hartford",0,1,634.0
+E02003762,"Brampton",0,3,1227.0
+E02003763,"St Ives North",0,0,705.0
+E02003764,"Huntingdon Central & West",0,3,1745.0
+E02003765,"St Ives South",0,5,112.0
+E02003766,"Godmanchester",0,2,982.0
+E02003767,"Kimbolton",0,0,1984.0
+E02003768,"Houghton",0,0,705.0
+E02003769,"Buckden & Perry",0,5,941.0
+E02003770,"Little Paxton",0,0,732.0
+E02003771,"St Neots Priory Park",0,1,348.0
+E02003772,"St Neots Eaton Ford",0,2,348.0
+E02003773,"St Neots Eynesbury",0,2,348.0
+E02003774,"St Neots Eaton Socon",0,0,348.0

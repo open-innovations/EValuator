@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints
-E02006227,"Lavenham",0,1
-E02006228,"Glemsford & Lawshall",0,0
-E02006229,"North Sudbury & Long Melford",0,0
-E02006230,"Hadleigh",0,2
-E02006231,"Sproughton",0,3
-E02006232,"Acton",0,0
-E02006233,"Sudbury",0,2
-E02006234,"Great Cornard",0,0
-E02006235,"Leavenheath",0,1
-E02006236,"East Bergholt",0,2
-E02006237,"Shotley Peninsula",0,0
+MSOA,Name,index-of-transport-accessibility,chargepoints,ULEVs
+E02006227,"Lavenham",0,1,869.0
+E02006228,"Glemsford & Lawshall",0,0,608.0
+E02006229,"North Sudbury & Long Melford",0,0,266.0
+E02006230,"Hadleigh",0,2,112.0
+E02006231,"Sproughton",0,3,462.0
+E02006232,"Acton",0,0,521.0
+E02006233,"Sudbury",0,2,266.0
+E02006234,"Great Cornard",0,0,266.0
+E02006235,"Leavenheath",0,1,1051.0
+E02006236,"East Bergholt",0,2,419.0
+E02006237,"Shotley Peninsula",0,0,94.0
