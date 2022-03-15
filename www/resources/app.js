@@ -209,7 +209,7 @@
 				}).then(data => {
 					lines = data.split(/\n/);
 					this.arealookup[id].MSOA = {};
-					header = lines[0].split(/,/);
+					header = lines[0].replace(/\r/g,'').split(/,/);
 					for(var i = 1; i < lines.length; i++){
 						if(lines[i][1]){
 							lines[i] = lines[i].split(/\,/);
