@@ -1,27 +1,24 @@
 #!/usr/bin/perl
 use Data::Dumper;
-
-$rootdir = "../";
-$areafile = $rootdir."www/data/areas.tsv";
-$lookupfile = $rootdir."www/data/OA11-LAD21-CAUTH21.tsv";
-$dir = $rootdir."www/data/areas/";
-$msoageojson = "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/MSOA11CD/%CODE%.geojsonl";
+# Get the real base directory for this script
+my $basedir = "./";
+if((readlink $ENV{'SCRIPT_FILENAME'} || $0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+require "./".$basedir."lib.pl";
 
 
-# Use local copy if we have it
-if(-d $rootdir."../geography-bits/"){
-	$msoageojson = $rootdir."../geography-bits/data/MSOA11CD/%CODE%.geojsonl";
-}
+# Read in the configuration JSON file
+$conf = loadConf($basedir."conf.json");
 
-if(!-e $areafile){
-	print "WARNING: The area file doesn't exist at $areafile. It should be a TSV file with the ONS code in the first column and the name in the second column.\n";
-	exit;
-}
+
 
 
 %areas;
 
-open(FILE,$areafile);
+if(!-e $conf->{'basedir'}.$conf->{'areas'}{'file'}){
+	print "WARNING: The area file doesn't exist ($conf->{'basedir'}$conf->{'areas'}{'file'}). It should be a TSV file with the ONS code in the first column and the name in the second column.\n";
+	exit;
+}
+open(FILE,$conf->{'basedir'}.$conf->{'areas'}{'file'});
 @lines = <FILE>;
 for($i = 1; $i < @lines; $i++){
 	$lines[$i] =~ s/[\n\r]+//g;
@@ -34,7 +31,7 @@ close(FILE);
 
 %msoas;
 %lookup;
-open(FILE,$lookupfile);
+open(FILE,$conf->{'basedir'}.$conf->{'lookup'}{'file'});
 @lines = <FILE>;
 for($i = 0; $i < @lines; $i++){
 	$lines[$i] =~ s/[\n\r]+//g;
@@ -60,14 +57,14 @@ close(FILE);
 
 foreach $a (sort(keys(%areas))){
 	if(!$lookup{$a}){
-		print "WARNING: The area $a doesn't appear in the lookup file ($lookupfile).\n";
+		print "WARNING: The area $a doesn't appear in the lookup file ($conf->{'basedir'}.$conf->{'lookup'}{'file'}).\n";
 	}else{
 
 		$cd = $lookup{$a};
 			
 
 		# Step 1: Make the directory if it doesn't already exist
-		$adir = $dir.$a."/";
+		$adir = $conf->{'basedir'}.$conf->{'areas'}{'dir'}.$a."/";
 		if(!-d $adir){
 			print "Making directory $adir\n";
 			`mkdir $adir`;
@@ -96,7 +93,12 @@ foreach $a (sort(keys(%areas))){
 			foreach $m (sort(keys(%msoas))){
 				#if($msoas{$m}
 				if($msoas{$m}{$cd} eq $a){
-					$src = $msoageojson;
+
+					$src = $conf->{'geojson'}{'MSOA'}{'url'};
+					# Use local copy if we have it
+					if(-d $conf->{'basedir'}.$conf->{'geojson'}{'MSOA'}{'dir'}){
+						$src = $conf->{'basedir'}.$conf->{'geojson'}{'MSOA'}{'dir'}.$conf->{'geojson'}{'MSOA'}{'file'};
+					}
 					$src =~ s/\%CODE\%/$m/g;
 					if($src =~ /^http/){
 						@lines = `wget -q --no-check-certificate -O- "$url"`;

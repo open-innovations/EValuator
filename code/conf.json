@@ -1,0 +1,20 @@
+{
+	"areas":{
+		"file": "www/data/areas.tsv",
+		"dir": "www/data/areas/",
+		"msoageojson": "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/MSOA11CD/%CODE%.geojsonl"
+	},
+	"geojson": {
+		"MSOA": {
+			"url": "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/MSOA11CD/%CODE%.geojsonl",
+			"dir": "../geography-bits/data/MSOA11CD/",
+			"file": "%CODE%.geojsonl"
+		}
+	},
+	"layers": {
+		"file": "www/data/domains.json"
+	},
+	"lookup":{
+		"file": "www/data/lookup/OA11-LAD21-CAUTH21.tsv"
+	}
+}

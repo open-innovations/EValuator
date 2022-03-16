@@ -2,14 +2,19 @@
 use JSON::XS;
 use Data::Dumper;
 
-$layerfile = "../www/data/domains.json";
-$areafile = "../www/data/areas.tsv";
-$dir = "../www/data/areas/";
+# Get the real base directory for this script
+my $basedir = "./";
+if((readlink $ENV{'SCRIPT_FILENAME'} || $0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+require "./".$basedir."lib.pl";
+
+
+# Read in the configuration JSON file
+$conf = loadConf($basedir."conf.json");
 
 
 # Load file with areas we need to create scores for
 %areas;
-open(FILE,$areafile);
+open(FILE,$conf->{'basedir'}.$conf->{'areas'}{'file'});
 @lines = <FILE>;
 for($i = 1; $i < @lines; $i++){
 	$lines[$i] =~ s/[\n\r]+//g;
@@ -23,11 +28,11 @@ close(FILE);
 $coder = JSON::XS->new->utf8->canonical(1);
 
 %msoa;
-if(!-e $layerfile){
-	print "WARNING: No domains file at $layerfile.\n";
+if(!-e $conf->{'basedir'}.$conf->{'layers'}{'file'}){
+	print "WARNING: No domains file at $conf->{'basedir'}$conf->{'layers'}{'file'}\n";
 	exit;
 }else{
-	open(FILE,$layerfile);
+	open(FILE,$conf->{'basedir'}.$conf->{'layers'}{'file'});
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
@@ -56,7 +61,7 @@ if(!-e $layerfile){
 					print "Downloading file from: $src\n";
 					@lines = `wget -q --no-check-certificate -O- "$src"`;
 				}else{
-					$tdir = $layerfile;
+					$tdir = $conf->{'basedir'}.$conf->{'layers'}{'file'};
 					$tdir =~ s/[^\/]*$//;
 					if(-e $tdir.$src){
 						print "Using file: $tdir$src\n";
@@ -82,7 +87,7 @@ if(!-e $layerfile){
 
 foreach $a (sort(keys(%areas))){
 	
-	$adir = $dir.$a."/";
+	$adir = $conf->{'basedir'}.$conf->{'areas'}{'dir'}.$a."/";
 
 	if(!-d $adir){
 		print "WARNING: There is no directory for $a. You should probably add it first with \"perl updateAreas.pl\".\n";

@@ -6,6 +6,37 @@ use JSON::XS;
 use Data::Dumper;
 
 
+sub loadConf {
+	# Version 1.1
+	my ($dir,$file,$conf,$str,$coder,@lines);
+	$file = $_[0];
+	$str = "{}";
+	if(-e $file){
+		open(FILE,$file);
+		@lines = <FILE>;
+		close(FILE);
+		$str = join("",@lines);
+	}else{
+		error("No config file $file = $ENV{'SERVER_NAME'}.");
+	}
+	$coder = JSON::XS->new->utf8->allow_nonref;
+	eval {
+		$conf = $coder->decode($str);
+	};
+	my $basedir = "./";
+	if($0 =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+	$conf->{'basedir'} = $basedir."../";
+	if($@){ error("Failed to load JSON from $file: <br /><textarea style=\"width: 100%;height:calc(100vh - 4em);\">\n$str\n</textarea>");	}
+	return $conf;
+}
+
+sub error {
+	my $str = $_[0];
+	print "Content-type: text/html\n\n";
+	print "Error: $str\n";
+	exit;
+}
+
 sub trimGeoJSONFile {
 	my $file = $_[0];
 	my $out = "";
