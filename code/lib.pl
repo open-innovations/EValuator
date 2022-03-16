@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use JSON::XS;
 use Data::Dumper;
+use Math::Trig;
 
 
 sub loadConf {
@@ -237,6 +238,105 @@ sub polyify {
 	}
 	$poly .= "END\n";
 	return $poly;
+}
+
+
+#my @poly = ( [3,4], [5,11], [12,8], [9,5], [5,6] );
+#say area_by_shoelace(   [3,4], [5,11], [12,8], [9,5], [5,6]   );
+#say area_by_shoelace( [ [3,4], [5,11], [12,8], [9,5], [5,6] ] );
+#say area_by_shoelace(  @poly );
+#say area_by_shoelace( \@poly );
+# Source: https://rosettacode.org/wiki/Shoelace_formula_for_polygonal_area#Perl
+sub area_by_shoelace {
+	my $area;
+	our @p;
+	$#_ > 0 ? @p = @_ : (local *p = shift);
+	$area += $p[$_][0] * $p[($_+1)%@p][1] for 0 .. @p-1;
+	$area -= $p[$_][1] * $p[($_+1)%@p][0] for 0 .. @p-1;
+	return abs $area/2;
+}
+
+# Source: https://github.com/mapbox/geojson-area/blob/master/index.js
+sub geometry {
+	my $in = $_[0];
+	my $area = 0;
+	my $i;
+	if($in->{'type'} eq 'Polygon'){
+		return polygonArea(@{$in->{'coordinates'}});
+	}elsif($in->{'type'} eq 'MultiPolygon'){
+		for($i = 0; $i < @{$in->{'coordinates'}}; $i++){
+			$area += polygonArea(@{$in->{'coordinates'}[$i]});
+		}
+		return $area;
+	}elsif($in->{'type'} eq "Point" || $in->{'type'} eq "MultiPoint" || $in->{'type'} eq 'LineString' || $in->{'type'} eq 'MultiLineString'){
+		return $area;
+	}else{
+		return $area;
+	}
+}
+
+sub polygonArea{
+	my @coords = @_;
+	my $area = 0;
+	my $len = scalar @coords;
+	my $i;
+	if($len > 0){
+		$area += abs(ringArea(@{$coords[0]}));
+		for($i = 1; $i < $len; $i++) {
+			$area -= abs(ringArea(@{$coords[$i]}));
+		}
+	}
+	return $area;
+}
+
+
+# Calculate the approximate area of the polygon were it projected onto
+#	 the earth.  Note that this area will be positive if ring is oriented
+#	 clockwise, otherwise it will be negative.
+#
+# Reference:
+# Robert. G. Chamberlain and William H. Duquette, "Some Algorithms for
+#	 Polygons on a Sphere", JPL Publication 07-03, Jet Propulsion
+#	 Laboratory, Pasadena, CA, June 2007 http://trs-new.jpl.nasa.gov/dspace/handle/2014/40409
+#
+# Returns:
+# {float} The approximate signed geodesic area of the polygon in square meters.
+sub ringArea {
+	my @coords = @_;
+	my (@p1, @p2, @p3, $lowerIndex, $middleIndex, $upperIndex, $i, $area, $coordsLength,$wgs84radius);
+	$wgs84radius = 6378137.0;
+	$area = 0;
+	$coordsLength = @coords;
+
+	if($coordsLength > 2){
+		for($i = 0; $i < $coordsLength; $i++) {
+			if ($i == $coordsLength - 2) {	# i = N-2
+				$lowerIndex = $coordsLength - 2;
+				$middleIndex = $coordsLength -1;
+				$upperIndex = 0;
+			} elsif ($i == $coordsLength - 1) {	# i = N-1
+				$lowerIndex = $coordsLength - 1;
+				$middleIndex = 0;
+				$upperIndex = 1;
+			} else { # i = 0 to N-3
+				$lowerIndex = $i;
+				$middleIndex = $i+1;
+				$upperIndex = $i+2;
+			}
+			@p1 = @{$coords[$lowerIndex]};
+			@p2 = @{$coords[$middleIndex]};
+			@p3 = @{$coords[$upperIndex]};
+			$area += ( rad($p3[0]) - rad($p1[0]) ) * sin( rad($p2[1]) );
+		}
+
+		$area = $area * $wgs84radius * $wgs84radius / 2;
+	}
+
+	return $area;
+}
+
+sub rad {
+	return $_[0] * pi() / 180;
 }
 
 1;

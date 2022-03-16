@@ -1,8 +1,7 @@
 {
 	"areas":{
 		"file": "www/data/areas.tsv",
-		"dir": "www/data/areas/",
-		"msoageojson": "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/MSOA11CD/%CODE%.geojsonl"
+		"dir": "www/data/areas/"
 	},
 	"geojson": {
 		"MSOA": {
@@ -12,7 +11,8 @@
 		}
 	},
 	"layers": {
-		"file": "www/data/domains.json"
+		"file": "www/data/domains.json",
+		"dir": "www/data/layers/"
 	},
 	"lookup":{
 		"file": "www/data/lookup/OA11-LAD21-CAUTH21.tsv"
