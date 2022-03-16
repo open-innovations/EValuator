@@ -34,6 +34,7 @@ jobs:
 
       # Runs script
       - name: Update scores
+        working-directory: code/
         run: |
           perl buildScores.pl
 

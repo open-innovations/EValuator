@@ -1,12 +1,12 @@
 #!/usr/bin/perl
-
+# Once you have chargepoints by MSOA we can build the chargepoints layer
 use strict;
 use warnings;
 use JSON::XS;
 use Data::Dumper;
 
-
-my $dir = "raw/MSOA/chargepoints/";
+my $rootdir = "../";
+my $dir = $rootdir."raw/MSOA/chargepoints/";
 
 if(!-d $dir){
 	print "WARNING: The MSOA chargepoints directory $dir doesn't exist.\n";
@@ -52,7 +52,7 @@ for($i = 0; $i < @files ; $i++){
 	}
 }
 
-open(FILE,">","www/data/layers/chargepoints.csv");
+open(FILE,">",$rootdir."www/data/layers/chargepoints.csv");
 for($i = 0; $i < @files ; $i++){
 	#$files[$i]{'n'} /= $max;
 #	print FILE "$files[$i]{'code'},".sprintf("%0.2f",$files[$i]{'n'})."\n";

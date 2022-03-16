@@ -8,16 +8,18 @@ $osmfilter = "osmfilter";
 $mode = "info";
 $ogr = "ogr2ogr";
 $ogrinfo = "ogrinfo";
-$lookup = "www/data/lookupArea.tsv";
 
-$msoadir = "../geography-bits/data/MSOA11CD/";
-$laddir = "www/data/areas/";
+$rootdir = "../";
+$lookup = $rootdir."www/data/lookupArea.tsv";
+
+$msoadir = $rootdir."../geography-bits/data/MSOA11CD/";
+$laddir = $rootdir."www/data/areas/";
 
 %data = (
-	'chargepoints' => { 'odir'=>'raw/MSOA/chargepoints/' },
-	'supermarkets' => { 'odir'=>'raw/MSOA/supermarkets/' },
-	'distribution' => { 'odir'=>'raw/MSOA/distribution/' },
-	'parking' => { 'odir'=>'raw/MSOA/parking/' }
+	'chargepoints' => { 'odir'=>$rootdir.'raw/MSOA/chargepoints/' },
+	'supermarkets' => { 'odir'=>$rootdir.'raw/MSOA/supermarkets/' },
+	'distribution' => { 'odir'=>$rootdir.'raw/MSOA/distribution/' },
+	'parking' => { 'odir'=>$rootdir.'raw/MSOA/parking/' }
 );
 
 

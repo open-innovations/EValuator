@@ -1,12 +1,21 @@
 #!/usr/bin/perl
+# Code to create lookup files
+
+print "Deprecated.\n";
+exit;
+
+
+
+
 use Data::Dumper;
 
 #https://www.arcgis.com/sharing/rest/content/items/7db6988a695f4c75989f0dc6701d4167/data <- zip file
 
-$namefile = "raw/MSOA-Names-Latest.csv";
-$lookupfile = "raw/PCD_OA_LSOA_MSOA_LAD_NOV21_UK_LU.csv";
-$lookupdir = "www/data/";
-$boundarydir = "../geography-bits/data/MSOA11CD/";
+$rootdir = "../";
+$namefile = $rootdir."raw/MSOA-Names-Latest.csv";
+$lookupfile = $rootdir."raw/PCD_OA_LSOA_MSOA_LAD_NOV21_UK_LU.csv";
+$lookupdir = $rootdir."www/data/";
+$boundarydir = $rootdir."../geography-bits/data/MSOA11CD/";
 
 if(!-e $lookupfile){
 	print "WARNING: No lookup file exists at $lookupfile\n";

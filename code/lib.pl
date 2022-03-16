@@ -101,7 +101,7 @@ sub makeDir {
 }
 
 sub getLookup {
-	my $file = "www/data/lookupArea.tsv";
+	my $file = "../www/data/lookupArea.tsv";
 	my (%lookup,$i,$line,$lad,$ms,$n,$m);
 
 	%lookup = ('LAD'=>{},'MSOA'=>{});

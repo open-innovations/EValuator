@@ -1,16 +1,16 @@
 #!/usr/bin/perl
 use Data::Dumper;
 
-
-$areafile = "www/data/areas.tsv";
-$lookupfile = "www/data/OA11-LAD21-CAUTH21.tsv";
-$dir = "www/data/areas/";
+$rootdir = "../";
+$areafile = $rootdir."www/data/areas.tsv";
+$lookupfile = $rootdir."www/data/OA11-LAD21-CAUTH21.tsv";
+$dir = $rootdir."www/data/areas/";
 $msoageojson = "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/MSOA11CD/%CODE%.geojsonl";
 
 
 # Use local copy if we have it
-if(-d "../geography-bits/"){
-	$msoageojson = "../geography-bits/data/MSOA11CD/%CODE%.geojsonl";
+if(-d $rootdir."../geography-bits/"){
+	$msoageojson = $rootdir."../geography-bits/data/MSOA11CD/%CODE%.geojsonl";
 }
 
 if(!-e $areafile){

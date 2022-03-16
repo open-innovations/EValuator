@@ -3,12 +3,14 @@ use Text::CSV;
 use Data::Dumper;
 binmode(STDOUT, "encoding(UTF-8)");
 
+$rootdir = "../";
 %data = (
 	'chargepoint'=>{
 		'url'=>'https://chargepoints.dft.gov.uk/api/retrieve/registry/format/csv',
-		'raw'=>'raw/chargepoints.csv',
-		'processed'=>'www/data/chargepoints.csv',
-		'dir'=>'www/data/chargepoints/'
+		'raw'=>$rootdir.'raw/chargepoints.csv',
+		'processed'=>$rootdir.'www/data/chargepoints.csv',
+		'dir'=>$rootdir.'www/data/chargepoints/'
+		'dir'=>$rootdir.'www/data/chargepoints/'
 	}
 );
 

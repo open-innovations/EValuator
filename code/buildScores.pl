@@ -2,9 +2,9 @@
 use JSON::XS;
 use Data::Dumper;
 
-$layerfile = "www/data/domains.json";
-$areafile = "www/data/areas.tsv";
-$dir = "www/data/areas/";
+$layerfile = "../www/data/domains.json";
+$areafile = "../www/data/areas.tsv";
+$dir = "../www/data/areas/";
 
 
 # Load file with areas we need to create scores for

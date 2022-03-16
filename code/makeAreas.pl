@@ -9,12 +9,12 @@ $osmfilter = "osmfilter";
 $ogr = "ogr2ogr";
 $ogrinfo = "ogrinfo";
 
-
-$adir = "www/data/areas/";
-$osmpbf = "raw/great-britain-latest.pbf";
-$osmfile = "raw/great-britain-latest.o5m";
+$rootdir = "../";
+$adir = $rootdir."www/data/areas/";
+$osmpbf = $rootdir."raw/great-britain-latest.pbf";
+$osmfile = $rootdir."raw/great-britain-latest.o5m";
 # Directories to look for boundaries
-@boundarydirs = ("../geography-bits/data/LAD21CD/");
+@boundarydirs = ($rootdir."../geography-bits/data/LAD21CD/");
 
 
 # Download the GB extract
@@ -33,16 +33,16 @@ if(!-d $adir){
 }
 
 @extracts = (
-	{ 'key'=>'supermarket', 'args'=>['--keep="shop=supermarket" --drop="entrance= amenity=atm barrier="'], 'file'=>'raw/GB-supermarket.o5m', 'layers'=>['points','multipolygons','polygons'] },
-	{ 'key'=>'parking', 'args'=>['--keep= --keep-ways="amenity=parking" --drop="barrier= or entrance="'], 'file'=>'raw/GB-parking.o5m', 'layers'=>['points','multipolygons','polygons'] },
-	{ 'key'=>'distribution', 'args'=>['--keep="name=*Distribution*" --drop="amenity=loading_dock"'], 'file'=>'raw/GB-distribution.o5m' }
+	{ 'key'=>'supermarket', 'args'=>['--keep="shop=supermarket" --drop="entrance= amenity=atm barrier="'], 'file'=>$rootdir.'raw/GB-supermarket.o5m', 'layers'=>['points','multipolygons','polygons'] },
+	{ 'key'=>'parking', 'args'=>['--keep= --keep-ways="amenity=parking" --drop="barrier= or entrance="'], 'file'=>$rootdir.'raw/GB-parking.o5m', 'layers'=>['points','multipolygons','polygons'] },
+	{ 'key'=>'distribution', 'args'=>['--keep="name=*Distribution*" --drop="amenity=loading_dock"'], 'file'=>$rootdir.'raw/GB-distribution.o5m' }
 );
 
 %chargepoints = (
 	'url'=>'https://chargepoints.dft.gov.uk/api/retrieve/registry/format/csv',
-	'raw'=>'raw/chargepoints.csv',
-	'processed'=>'www/data/chargepoints.csv',
-	'dir'=>'www/data/chargepoints/'
+	'raw'=>$rootdir.'raw/chargepoints.csv',
+	'processed'=>$rootdir.'www/data/chargepoints.csv',
+	'dir'=>$rootdir.'www/data/chargepoints/'
 );
 
 
@@ -97,7 +97,7 @@ for($e = 0; $e < @extracts; $e++){
 		print "\tConverting $extracts[$e]->{'file'} to SQLite file $filesql\n";
 		`$ogr $filesql $extracts[$e]->{'file'}`;
 	}else{
-		print "\tAlready have SQLite file\n";
+		print "\tAlready have SQLite file ($filesql)\n";
 	}
 
 	
