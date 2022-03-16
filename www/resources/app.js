@@ -268,7 +268,23 @@
 				if(typeof this.categories[c].layers[l].weight!=="number") this.categories[c].layers[l].weight = 1;
 			}
 		}
-		
+
+		this.attribution = "";
+		var credits = {};
+		for(var c = 0; c < this.categories.length; c++){
+			for(var l = 0; l < this.categories[c].layers.length; l++){
+				if(this.categories[c].layers[l].weight > 0){
+					if(this.categories[c].layers[l].attrib){
+						for(var a = 0; a < this.categories[c].layers[l].attrib.length; a++){
+							credits[this.categories[c].layers[l].attrib[a]] = 1;
+						}
+					}
+				}
+			}
+		}
+		for(var c in credits) this.attribution += (this.attribution ? ', ':'')+c;
+
+
 		var weight = 0;
 		for(var c = 0; c < this.categories.length; c++){
 			for(var l = 0; l < this.categories[c].layers.length; l++){
@@ -329,7 +345,6 @@
 		}
 		this.el.ranking.innerHTML = '<div class="table-wrapper"><table>'+list+'</table></div>';
 
-
 		if(!this.arealookup[id].geoJSON){
 			fetch('data/areas/'+id+'/'+id+'.geojson').then(response => {
 				if(!response.ok) throw new Error('Network response was not OK');
@@ -373,7 +388,7 @@
 				}
 			}).addTo(this.map);
 			
-			this.map.attributionControl.setPrefix('<span class="AttributionClass"><a href=\"https://geoportal.statistics.gov.uk/datasets/middle-layer-super-output-areas-december-2011-boundaries-ew-bgc\">Boundaries</a>: ONS (Contains OS data © Crown copyright and database right 2021).</span>');
+			this.map.attributionControl.setPrefix('<span class="AttributionClass">Data: '+this.attribution+' | <a href=\"https://geoportal.statistics.gov.uk/datasets/middle-layer-super-output-areas-december-2011-boundaries-ew-bgc\">Boundaries</a>: ONS (Contains OS data © Crown copyright and database right 2021).</span>');
 			
 			this.map.fitBounds(this.arealayer.getBounds());
 		}else{
