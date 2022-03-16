@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005397,"Castle Donington",0,2,879.0,57.817
-E02005398,"Kegworth & Belton",0,2,1232.0,37.108
-E02005399,"Ashby de la Zouch North",0,2,214.0,77.412
-E02005400,"Thringstone & Swannington",0,0,388.0,18.713
-E02005401,"Packington",0,0,1418.0,33.843
-E02005402,"Ashby de la Zouch South",0,0,214.0,28.703
-E02005403,"Whitwick",0,0,388.0,18.160
-E02005404,"Donisthope & Blackfordby",0,0,520.0,33.124
-E02005405,"Agar Nook",0,0,869.0,21.886
-E02005406,"Coalville",0,2,388.0,62.850
-E02005407,"Hugglescote & Bardon Hill",0,0,388.0,34.061
-E02005408,"Measham & Appleby Magna",0,0,666.0,34.461
-E02005409,"Ibstock & Ellistown",0,0,388.0,41.220
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005397,"Castle Donington",0,2,879.0,57.817,23497.43
+E02005398,"Kegworth & Belton",0,2,1232.0,37.108,6920.84
+E02005399,"Ashby de la Zouch North",0,2,214.0,77.412,5248.04
+E02005400,"Thringstone & Swannington",0,0,388.0,18.713,595.87
+E02005401,"Packington",0,0,1418.0,33.843,1761.11
+E02005402,"Ashby de la Zouch South",0,0,214.0,28.703,669.00
+E02005403,"Whitwick",0,0,388.0,18.160,81.23
+E02005404,"Donisthope & Blackfordby",0,0,520.0,33.124,1278.91
+E02005405,"Agar Nook",0,0,869.0,21.886,643.02
+E02005406,"Coalville",0,2,388.0,62.850,3468.46
+E02005407,"Hugglescote & Bardon Hill",0,0,388.0,34.061,975.01
+E02005408,"Measham & Appleby Magna",0,0,666.0,34.461,655.55
+E02005409,"Ibstock & Ellistown",0,0,388.0,41.220,1374.01

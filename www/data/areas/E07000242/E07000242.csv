@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004878,"Buntingford & Great Hormead",0,0,118.0,43.013
-E02004879,"Datchworth",0,0,1138.0,44.984
-E02004880,"Bishop's Stortford West & Braughing",0,0,660.0,46.416
-E02004881,"Bishop's Stortford North",0,1,418.0,39.496
-E02004882,"Bishop's Stortford East",0,0,418.0,26.454
-E02004883,"Puckeridge & Thundridge",0,0,417.0,30.159
-E02004884,"Bishop's Stortford Central",0,1,628.0,95.018
-E02004885,"Bishop's Stortford South",0,0,628.0,18.200
-E02004886,"Much Hadham & Hunsdon",0,0,883.0,42.340
-E02004887,"Watton-at-Stone",0,0,1096.0,44.528
-E02004888,"Sawbridgeworth",0,0,850.0,37.784
-E02004889,"Ware East",0,0,209.0,31.163
-E02004890,"Ware West",0,1,451.0,65.662
-E02004891,"Hertford Bengeo",0,0,589.0,35.980
-E02004892,"Hertford West",0,0,231.0,20.874
-E02004893,"Hertford Foxholes",0,0,149.0,14.145
-E02004894,"Hertford South",0,3,380.0,94.597
-E02004895,"Hertford Heath & Stanstead St Margarets",0,0,685.0,30.310
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004878,"Buntingford & Great Hormead",0,0,118.0,43.013,1141.07
+E02004879,"Datchworth",0,0,1138.0,44.984,998.66
+E02004880,"Bishop's Stortford West & Braughing",0,0,660.0,46.416,1817.02
+E02004881,"Bishop's Stortford North",0,1,418.0,39.496,1955.70
+E02004882,"Bishop's Stortford East",0,0,418.0,26.454,1462.99
+E02004883,"Puckeridge & Thundridge",0,0,417.0,30.159,747.95
+E02004884,"Bishop's Stortford Central",0,1,628.0,95.018,1540.76
+E02004885,"Bishop's Stortford South",0,0,628.0,18.200,182.06
+E02004886,"Much Hadham & Hunsdon",0,0,883.0,42.340,1537.46
+E02004887,"Watton-at-Stone",0,0,1096.0,44.528,1147.47
+E02004888,"Sawbridgeworth",0,0,850.0,37.784,1326.11
+E02004889,"Ware East",0,0,209.0,31.163,864.74
+E02004890,"Ware West",0,1,451.0,65.662,2203.06
+E02004891,"Hertford Bengeo",0,0,589.0,35.980,1363.50
+E02004892,"Hertford West",0,0,231.0,20.874,532.16
+E02004893,"Hertford Foxholes",0,0,149.0,14.145,284.36
+E02004894,"Hertford South",0,3,380.0,94.597,2425.72
+E02004895,"Hertford Heath & Stanstead St Margarets",0,0,685.0,30.310,3319.30

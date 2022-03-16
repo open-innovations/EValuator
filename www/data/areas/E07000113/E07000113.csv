@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005115,"Sheerness East",0,2,117.0,14.916
-E02005116,"Sheerness West",0,2,117.0,14.200
-E02005117,"Minster North",0,0,109.0,9.308
-E02005118,"Minster South",0,0,109.0,13.186
-E02005119,"Queenborough",0,0,117.0,4.594
-E02005120,"Sheppey East",0,0,109.0,14.797
-E02005121,"Iwade & Kemsley",0,0,332.0,19.406
-E02005122,"Newington",0,1,382.0,26.056
-E02005123,"Borden & The Meads",0,0,332.0,24.681
-E02005124,"Sittingbourne Central & Milton Regis",0,7,332.0,45.011
-E02005125,"Sittingbourne East",0,0,332.0,9.770
-E02005126,"Sittingbourne West",0,0,332.0,9.982
-E02005127,"Sittingbourne South",0,1,332.0,22.451
-E02005128,"Faversham West",0,0,173.0,21.611
-E02005129,"Faversham East",0,3,165.0,41.132
-E02005130,"Teynham & Badlesmere",0,0,828.0,43.826
-E02005131,"Boughton & Selling",0,0,388.0,25.886
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005115,"Sheerness East",0,2,117.0,14.916,1056.83
+E02005116,"Sheerness West",0,2,117.0,14.200,7459.77
+E02005117,"Minster North",0,0,109.0,9.308,386.95
+E02005118,"Minster South",0,0,109.0,13.186,213.99
+E02005119,"Queenborough",0,0,117.0,4.594,2407.61
+E02005120,"Sheppey East",0,0,109.0,14.797,1930.80
+E02005121,"Iwade & Kemsley",0,0,332.0,19.406,1446.17
+E02005122,"Newington",0,1,382.0,26.056,814.59
+E02005123,"Borden & The Meads",0,0,332.0,24.681,1731.73
+E02005124,"Sittingbourne Central & Milton Regis",0,7,332.0,45.011,2972.89
+E02005125,"Sittingbourne East",0,0,332.0,9.770,0.00
+E02005126,"Sittingbourne West",0,0,332.0,9.982,583.80
+E02005127,"Sittingbourne South",0,1,332.0,22.451,983.04
+E02005128,"Faversham West",0,0,173.0,21.611,395.39
+E02005129,"Faversham East",0,3,165.0,41.132,1526.54
+E02005130,"Teynham & Badlesmere",0,0,828.0,43.826,435.17
+E02005131,"Boughton & Selling",0,0,388.0,25.886,1068.40

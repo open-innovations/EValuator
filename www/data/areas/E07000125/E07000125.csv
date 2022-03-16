@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005278,"Crawshawbooth",579,0,288.0,25.966
-E02005279,"Haslingden",778,3,376.0,30.652
-E02005280,"Bacup",314,3,78.0,34.551
-E02005281,"Rawtenstall",776,6,210.0,48.369
-E02005284,"Helmshore",787,0,1233.0,14.780
-E02005285,"Townsend Fold & Edenfield",897,2,586.0,30.544
-E02005286,"Whitworth",490,0,207.0,17.843
-E02006884,"Waterfoot & Stacksteads",570,0,288.0,43.315
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005278,"Crawshawbooth",579,0,288.0,25.966,247.78
+E02005279,"Haslingden",778,3,376.0,30.652,1814.13
+E02005280,"Bacup",314,3,78.0,34.551,118.76
+E02005281,"Rawtenstall",776,6,210.0,48.369,3134.75
+E02005284,"Helmshore",787,0,1233.0,14.780,590.28
+E02005285,"Townsend Fold & Edenfield",897,2,586.0,30.544,1088.24
+E02005286,"Whitworth",490,0,207.0,17.843,683.25
+E02006884,"Waterfoot & Stacksteads",570,0,288.0,43.315,771.96

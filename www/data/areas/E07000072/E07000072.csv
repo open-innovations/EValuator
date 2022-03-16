@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004527,"North Weald",0,2,786.0,47.210
-E02004528,"Roydon",0,0,844.0,27.688
-E02004529,"Fyfield",0,0,1336.0,47.196
-E02004530,"Chipping Ongar",0,0,106.0,30.942
-E02004531,"Epping North",0,0,228.0,30.010
-E02004532,"Epping South",0,0,228.0,54.378
-E02004533,"Waltham Abbey North",0,0,219.0,12.242
-E02004534,"Waltham Abbey South",0,4,219.0,18.681
-E02004535,"Waltham Abbey West & Outer",0,2,1626.0,24.991
-E02004536,"Theydon Bois & Abridge",0,1,572.0,23.901
-E02004537,"Loughton East",0,0,1218.0,68.010
-E02004538,"Loughton North",0,1,422.0,67.509
-E02004539,"Loughton South",0,0,422.0,25.527
-E02004540,"Loughton West",0,4,422.0,32.909
-E02004541,"Buckhurst Hill",0,0,547.0,49.811
-E02004542,"Chigwell",0,1,765.0,44.586
-E02004543,"Grange Hill",0,1,295.0,37.014
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004527,"North Weald",0,2,786.0,47.210,4042.87
+E02004528,"Roydon",0,0,844.0,27.688,791.18
+E02004529,"Fyfield",0,0,1336.0,47.196,1169.42
+E02004530,"Chipping Ongar",0,0,106.0,30.942,608.52
+E02004531,"Epping North",0,0,228.0,30.010,2516.58
+E02004532,"Epping South",0,0,228.0,54.378,957.32
+E02004533,"Waltham Abbey North",0,0,219.0,12.242,244.87
+E02004534,"Waltham Abbey South",0,4,219.0,18.681,1297.69
+E02004535,"Waltham Abbey West & Outer",0,2,1626.0,24.991,3712.43
+E02004536,"Theydon Bois & Abridge",0,1,572.0,23.901,1261.88
+E02004537,"Loughton East",0,0,1218.0,68.010,3370.68
+E02004538,"Loughton North",0,1,422.0,67.509,1318.80
+E02004539,"Loughton South",0,0,422.0,25.527,344.43
+E02004540,"Loughton West",0,4,422.0,32.909,5929.79
+E02004541,"Buckhurst Hill",0,0,547.0,49.811,4957.62
+E02004542,"Chigwell",0,1,765.0,44.586,3768.80
+E02004543,"Grange Hill",0,1,295.0,37.014,445.68

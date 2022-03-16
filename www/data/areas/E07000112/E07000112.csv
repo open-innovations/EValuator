@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005102,"Lyminge",0,0,742.0,36.573
-E02005103,"Hawkinge",0,0,169.0,21.889
-E02005104,"Folkestone North East",0,0,361.0,9.026
-E02005105,"Folkestone Foord",0,0,151.0,7.840
-E02005106,"Cheriton & Horn Street",0,0,361.0,9.340
-E02005107,"Folkestone Morehall & Sandgate",0,3,271.0,17.186
-E02005109,"Saltwood",0,2,336.0,27.296
-E02005110,"Lympne & Palmarsh",0,0,424.0,27.276
-E02005111,"Hythe",0,7,192.0,34.204
-E02005112,"Dymchurch",0,2,687.0,18.831
-E02005113,"New Romney",0,3,115.0,16.697
-E02005114,"Lydd & Dungeness",0,0,115.0,11.241
-E02006879,"Folkestone Harbour",0,3,361.0,22.571
-E02006880,"Folkestone Central",0,0,151.0,7.752
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005102,"Lyminge",0,0,742.0,36.573,395.58
+E02005103,"Hawkinge",0,0,169.0,21.889,1199.97
+E02005104,"Folkestone North East",0,0,361.0,9.026,593.36
+E02005105,"Folkestone Foord",0,0,151.0,7.840,0.00
+E02005106,"Cheriton & Horn Street",0,0,361.0,9.340,1651.75
+E02005107,"Folkestone Morehall & Sandgate",0,3,271.0,17.186,2514.96
+E02005109,"Saltwood",0,2,336.0,27.296,2745.49
+E02005110,"Lympne & Palmarsh",0,0,424.0,27.276,660.20
+E02005111,"Hythe",0,7,192.0,34.204,1083.08
+E02005112,"Dymchurch",0,2,687.0,18.831,808.44
+E02005113,"New Romney",0,3,115.0,16.697,1234.73
+E02005114,"Lydd & Dungeness",0,0,115.0,11.241,2427.55
+E02006879,"Folkestone Harbour",0,3,361.0,22.571,2448.36
+E02006880,"Folkestone Central",0,0,151.0,7.752,1216.55

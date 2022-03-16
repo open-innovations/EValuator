@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003977,"Askam & Dalton North",24,0,188.0,5.220
-E02003978,"Dalton South",23,0,59.0,9.361
-E02003979,"Hawcoat & Furness Abbey",21,0,108.0,8.386
-E02003980,"Orsmgill & Hindpool",21,3,71.0,4.847
-E02003981,"Parkside",19,0,108.0,5.271
-E02003982,"Roose",18,0,45.0,16.400
-E02003983,"Abbotsmead & Salthouse",18,0,108.0,12.609
-E02003984,"Barrow Central",16,1,130.0,10.002
-E02003985,"Walney Island North",14,1,63.0,3.221
-E02003986,"Walney Island South & Barrow Island",15,4,108.0,3.099
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003977,"Askam & Dalton North",24,0,188.0,5.220,1531.75
+E02003978,"Dalton South",23,0,59.0,9.361,307.74
+E02003979,"Hawcoat & Furness Abbey",21,0,108.0,8.386,1458.68
+E02003980,"Orsmgill & Hindpool",21,3,71.0,4.847,6248.87
+E02003981,"Parkside",19,0,108.0,5.271,187.94
+E02003982,"Roose",18,0,45.0,16.400,581.38
+E02003983,"Abbotsmead & Salthouse",18,0,108.0,12.609,219.79
+E02003984,"Barrow Central",16,1,130.0,10.002,2040.28
+E02003985,"Walney Island North",14,1,63.0,3.221,600.69
+E02003986,"Walney Island South & Barrow Island",15,4,108.0,3.099,2904.14

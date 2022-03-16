@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003965,"Wigton & Silloth",37,0,118.0,24.317
-E02003966,"Boltons",42,2,241.0,18.709
-E02003967,"Aspatria & Abbeytown",38,1,141.0,30.468
-E02003968,"Maryport",32,0,23.0,7.141
-E02003969,"Flimby",28,0,98.0,5.052
-E02003970,"West Cockermouth & Great Broughton",37,0,165.0,20.915
-E02003971,"East Cockermouth & Buttermere",38,0,75.0,16.512
-E02003972,"Workington North & Seaton",28,2,90.0,12.126
-E02003973,"Workington West",28,0,67.0,11.472
-E02003974,"Workington East",29,0,67.0,4.931
-E02003975,"Harrington",33,0,67.0,6.963
-E02003976,"Keswick & Derwent Valley",47,2,48.0,23.472
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003965,"Wigton & Silloth",37,0,118.0,24.317,2009.29
+E02003966,"Boltons",42,2,241.0,18.709,2518.18
+E02003967,"Aspatria & Abbeytown",38,1,141.0,30.468,1553.69
+E02003968,"Maryport",32,0,23.0,7.141,1250.79
+E02003969,"Flimby",28,0,98.0,5.052,134.06
+E02003970,"West Cockermouth & Great Broughton",37,0,165.0,20.915,2323.30
+E02003971,"East Cockermouth & Buttermere",38,0,75.0,16.512,2882.69
+E02003972,"Workington North & Seaton",28,2,90.0,12.126,4474.95
+E02003973,"Workington West",28,0,67.0,11.472,2562.18
+E02003974,"Workington East",29,0,67.0,4.931,395.67
+E02003975,"Harrington",33,0,67.0,6.963,1664.74
+E02003976,"Keswick & Derwent Valley",47,2,48.0,23.472,5948.76

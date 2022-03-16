@@ -1,29 +1,29 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02000526,"Chiswick North East",0,34,3222.0,11.805
-E02000528,"Brentford East",0,36,2872.0,7.255
-E02000529,"Heston North",0,5,407.0,8.069
-E02000530,"North Hyde & North Cranford",0,9,407.0,7.009
-E02000531,"Brentford Central",0,11,1890.0,27.208
-E02000532,"Chiswick South East",0,38,703.0,14.254
-E02000533,"Chiswick South West",0,17,963.0,12.528
-E02000534,"Brentford West & Osterley Park",0,2,664.0,14.740
-E02000535,"Heston West",0,5,399.0,8.730
-E02000536,"Heston Central & Lampton West",0,6,975.0,12.025
-E02000537,"Osterley & Lampton East",0,7,826.0,7.483
-E02000538,"Cranford",0,6,828.0,11.662
-E02000539,"Syon Green",0,10,664.0,14.607
-E02000540,"Spring Grove",0,0,614.0,13.621
-E02000541,"Hounslow Meadows",0,7,609.0,8.819
-E02000542,"Hounslow West",0,7,655.0,9.531
-E02000543,"Hounslow High Street",0,12,867.0,43.248
-E02000544,"Hounslow East",0,3,614.0,7.374
-E02000545,"Isleworth & Ivybridge",0,6,1101.0,27.286
-E02000546,"Hounslow Heath",0,0,568.0,5.761
-E02000547,"North Feltham & Hatton",0,4,171.0,13.639
-E02000548,"Bedfont",0,4,293.0,10.256
-E02000549,"Feltham East",0,3,411.0,9.652
-E02000550,"Feltham Central",0,8,411.0,7.402
-E02000551,"Hanworth North",0,5,411.0,25.413
-E02000552,"Lower Feltham",0,0,585.0,9.115
-E02000553,"Hanworth South",0,5,240.0,6.677
-E02006792,"Chiswick Park",0,19,1386.0,62.575
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02000526,"Chiswick North East",0,34,3222.0,11.805,65.90
+E02000528,"Brentford East",0,36,2872.0,7.255,1911.44
+E02000529,"Heston North",0,5,407.0,8.069,38.22
+E02000530,"North Hyde & North Cranford",0,9,407.0,7.009,3138.93
+E02000531,"Brentford Central",0,11,1890.0,27.208,1895.92
+E02000532,"Chiswick South East",0,38,703.0,14.254,528.37
+E02000533,"Chiswick South West",0,17,963.0,12.528,13.76
+E02000534,"Brentford West & Osterley Park",0,2,664.0,14.740,4662.12
+E02000535,"Heston West",0,5,399.0,8.730,447.13
+E02000536,"Heston Central & Lampton West",0,6,975.0,12.025,18.07
+E02000537,"Osterley & Lampton East",0,7,826.0,7.483,343.79
+E02000538,"Cranford",0,6,828.0,11.662,1458.27
+E02000539,"Syon Green",0,10,664.0,14.607,213.46
+E02000540,"Spring Grove",0,0,614.0,13.621,158.77
+E02000541,"Hounslow Meadows",0,7,609.0,8.819,638.39
+E02000542,"Hounslow West",0,7,655.0,9.531,610.37
+E02000543,"Hounslow High Street",0,12,867.0,43.248,937.36
+E02000544,"Hounslow East",0,3,614.0,7.374,253.90
+E02000545,"Isleworth & Ivybridge",0,6,1101.0,27.286,1367.77
+E02000546,"Hounslow Heath",0,0,568.0,5.761,1798.21
+E02000547,"North Feltham & Hatton",0,4,171.0,13.639,1248.18
+E02000548,"Bedfont",0,4,293.0,10.256,2937.52
+E02000549,"Feltham East",0,3,411.0,9.652,2224.49
+E02000550,"Feltham Central",0,8,411.0,7.402,1185.41
+E02000551,"Hanworth North",0,5,411.0,25.413,1598.99
+E02000552,"Lower Feltham",0,0,585.0,9.115,1278.21
+E02000553,"Hanworth South",0,5,240.0,6.677,590.55
+E02006792,"Chiswick Park",0,19,1386.0,62.575,1575.13

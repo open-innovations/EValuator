@@ -1,44 +1,44 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002000,"Coseley Wallbrook",0,1,220.0,6.344
-E02002001,"Sedgley East",0,0,311.0,14.502
-E02002002,"Sedgley West",0,0,270.0,15.389
-E02002003,"West Coseley",0,2,313.0,9.075
-E02002004,"Woodsetton",0,1,218.0,11.144
-E02002005,"Dudley Priory & Wrens Nest",0,1,236.0,11.162
-E02002006,"Upper Gornal & Ruiton",0,0,319.0,12.763
-E02002007,"Lower Gornal & The Straits",0,0,225.0,19.173
-E02002008,"Dibdale",0,0,336.0,7.577
-E02002009,"Kates Hill",0,0,212.0,6.367
-E02002010,"New Dock & Eve Hill",0,1,319.0,34.223
-E02002011,"Kingswinford North",0,3,139.0,34.569
-E02002012,"Russell's Hall",0,0,330.0,6.209
-E02002013,"Wall Heath",0,0,139.0,34.137
-E02002014,"Dixons Green",0,0,212.0,8.066
-E02002015,"Pensett & Kingswinford East",0,3,257.0,11.882
-E02002016,"Brockmoor & Woodside",0,0,330.0,7.313
-E02002017,"Netherton",0,0,297.0,7.405
-E02002018,"Kingswinford South",0,0,372.0,22.708
-E02002019,"Dudley Wood & Saltwells",0,0,304.0,5.964
-E02002020,"Wordsley & Buckpool",0,0,490.0,25.327
-E02002021,"Brierley Hill",0,6,219.0,18.726
-E02002022,"Hawbush",0,0,351.0,17.446
-E02002023,"Ashwood",0,0,233.0,11.100
-E02002024,"Quarry Bank",0,1,415.0,7.838
-E02002025,"Shell Corner & Hurst Green",0,0,513.0,67.955
-E02002026,"Amblecote East",0,0,118.0,6.188
-E02002027,"Withymoor Village",0,3,351.0,4.992
-E02002028,"Wollaston",0,0,233.0,11.862
-E02002029,"Quinton West",0,1,160.0,16.429
-E02002030,"Amblecote West & Stambermill",0,1,547.0,20.578
-E02002031,"Cradley West & Hayes Lane",0,0,522.0,26.086
-E02002032,"Cradley East",0,0,404.0,19.668
-E02002033,"Hawne",0,1,453.0,23.718
-E02002034,"Stourbridge Town & Old Quarter",0,7,490.0,97.392
-E02002035,"Halesowen East",0,0,368.0,17.556
-E02002036,"Lye & Wynall",0,0,367.0,30.823
-E02002037,"Norton North",0,0,233.0,13.712
-E02002038,"Halesowen Town",0,1,368.0,24.646
-E02002039,"Oldswinford & Pedmore",0,0,429.0,20.803
-E02002040,"Norton South",0,0,490.0,19.229
-E02002041,"Pedmore Fields",0,0,196.0,22.115
-E02002042,"Hayley Green",0,0,368.0,16.539
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002000,"Coseley Wallbrook",0,1,220.0,6.344,708.66
+E02002001,"Sedgley East",0,0,311.0,14.502,385.73
+E02002002,"Sedgley West",0,0,270.0,15.389,391.32
+E02002003,"West Coseley",0,2,313.0,9.075,157.33
+E02002004,"Woodsetton",0,1,218.0,11.144,0.00
+E02002005,"Dudley Priory & Wrens Nest",0,1,236.0,11.162,6921.39
+E02002006,"Upper Gornal & Ruiton",0,0,319.0,12.763,65.57
+E02002007,"Lower Gornal & The Straits",0,0,225.0,19.173,111.11
+E02002008,"Dibdale",0,0,336.0,7.577,326.30
+E02002009,"Kates Hill",0,0,212.0,6.367,1357.62
+E02002010,"New Dock & Eve Hill",0,1,319.0,34.223,1145.89
+E02002011,"Kingswinford North",0,3,139.0,34.569,450.61
+E02002012,"Russell's Hall",0,0,330.0,6.209,1250.64
+E02002013,"Wall Heath",0,0,139.0,34.137,315.07
+E02002014,"Dixons Green",0,0,212.0,8.066,1397.29
+E02002015,"Pensett & Kingswinford East",0,3,257.0,11.882,301.39
+E02002016,"Brockmoor & Woodside",0,0,330.0,7.313,313.27
+E02002017,"Netherton",0,0,297.0,7.405,279.34
+E02002018,"Kingswinford South",0,0,372.0,22.708,47.54
+E02002019,"Dudley Wood & Saltwells",0,0,304.0,5.964,37.28
+E02002020,"Wordsley & Buckpool",0,0,490.0,25.327,245.06
+E02002021,"Brierley Hill",0,6,219.0,18.726,10033.19
+E02002022,"Hawbush",0,0,351.0,17.446,140.52
+E02002023,"Ashwood",0,0,233.0,11.100,0.00
+E02002024,"Quarry Bank",0,1,415.0,7.838,1204.90
+E02002025,"Shell Corner & Hurst Green",0,0,513.0,67.955,1055.62
+E02002026,"Amblecote East",0,0,118.0,6.188,103.27
+E02002027,"Withymoor Village",0,3,351.0,4.992,0.00
+E02002028,"Wollaston",0,0,233.0,11.862,21.72
+E02002029,"Quinton West",0,1,160.0,16.429,682.87
+E02002030,"Amblecote West & Stambermill",0,1,547.0,20.578,756.69
+E02002031,"Cradley West & Hayes Lane",0,0,522.0,26.086,85.56
+E02002032,"Cradley East",0,0,404.0,19.668,233.31
+E02002033,"Hawne",0,1,453.0,23.718,700.30
+E02002034,"Stourbridge Town & Old Quarter",0,7,490.0,97.392,866.04
+E02002035,"Halesowen East",0,0,368.0,17.556,362.66
+E02002036,"Lye & Wynall",0,0,367.0,30.823,291.72
+E02002037,"Norton North",0,0,233.0,13.712,76.47
+E02002038,"Halesowen Town",0,1,368.0,24.646,914.10
+E02002039,"Oldswinford & Pedmore",0,0,429.0,20.803,1376.70
+E02002040,"Norton South",0,0,490.0,19.229,443.79
+E02002041,"Pedmore Fields",0,0,196.0,22.115,49.48
+E02002042,"Hayley Green",0,0,368.0,16.539,21.31

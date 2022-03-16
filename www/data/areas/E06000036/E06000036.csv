@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003352,"Winkfield & Cranbourne",0,1,5057.0,34.238
-E02003353,"Binfield & Popeswood",0,0,1297.0,63.124
-E02003354,"Wick Hill",0,2,597.0,29.174
-E02003355,"Priestwood",0,0,784.0,85.918
-E02003356,"Chavey Down & North Ascot West",0,0,1177.0,34.211
-E02003357,"Bullbrook",0,2,343.0,19.722
-E02003358,"Central Bracknell & Wildridings",0,13,597.0,27.858
-E02003359,"Crown Wood",0,0,343.0,7.984
-E02003360,"Great Hollands",0,1,780.0,16.868
-E02003361,"Birch Hill & Hanworth East",0,0,343.0,11.436
-E02003362,"Hanworth West",0,0,343.0,5.653
-E02003363,"Crowthorne South",0,1,364.0,52.468
-E02003364,"Owlsmoor & Broadmoor",0,5,1390.0,45.010
-E02003365,"Sandhurst",0,0,757.0,60.922
-E02003366,"College Town",0,2,481.0,32.665
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003352,"Winkfield & Cranbourne",0,1,5057.0,34.238,586.48
+E02003353,"Binfield & Popeswood",0,0,1297.0,63.124,4449.25
+E02003354,"Wick Hill",0,2,597.0,29.174,1154.67
+E02003355,"Priestwood",0,0,784.0,85.918,3068.61
+E02003356,"Chavey Down & North Ascot West",0,0,1177.0,34.211,427.34
+E02003357,"Bullbrook",0,2,343.0,19.722,1393.29
+E02003358,"Central Bracknell & Wildridings",0,13,597.0,27.858,6048.81
+E02003359,"Crown Wood",0,0,343.0,7.984,175.71
+E02003360,"Great Hollands",0,1,780.0,16.868,3908.33
+E02003361,"Birch Hill & Hanworth East",0,0,343.0,11.436,2790.52
+E02003362,"Hanworth West",0,0,343.0,5.653,64.00
+E02003363,"Crowthorne South",0,1,364.0,52.468,900.81
+E02003364,"Owlsmoor & Broadmoor",0,5,1390.0,45.010,2048.95
+E02003365,"Sandhurst",0,0,757.0,60.922,466.60
+E02003366,"College Town",0,2,481.0,32.665,3218.55

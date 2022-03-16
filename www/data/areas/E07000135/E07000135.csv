@@ -1,7 +1,7 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005412,"Oadby South & West",0,9,1437.0,22.466
-E02005414,"Wigston Town",0,18,437.0,38.344
-E02005415,"South Wigston",0,3,437.0,24.030
-E02005416,"Wigston Harcourt & Little Hill",0,0,437.0,26.730
-E02006818,"Wigston North",0,0,1874.0,20.844
-E02006911,"Oadby North & East",0,1,1437.0,26.689
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005412,"Oadby South & West",0,9,1437.0,22.466,2731.60
+E02005414,"Wigston Town",0,18,437.0,38.344,2199.39
+E02005415,"South Wigston",0,3,437.0,24.030,1457.39
+E02005416,"Wigston Harcourt & Little Hill",0,0,437.0,26.730,550.12
+E02006818,"Wigston North",0,0,1874.0,20.844,846.38
+E02006911,"Oadby North & East",0,1,1437.0,26.689,1567.50

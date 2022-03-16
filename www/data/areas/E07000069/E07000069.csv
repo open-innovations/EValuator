@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004473,"Benfleet North",0,0,226.0,15.051
-E02004474,"New Thundersley",0,0,403.0,29.222
-E02004475,"Benfleet Appleton",0,0,226.0,14.453
-E02004476,"Thundersley Glen",0,0,226.0,47.646
-E02004477,"Hadleigh North",0,0,672.0,13.787
-E02004478,"Hadleigh South",0,2,495.0,17.630
-E02004479,"South Benfleet",0,0,226.0,19.836
-E02004480,"Canvey Island Winter Gardens",0,0,103.0,6.711
-E02004481,"Canvey Island Newlands",0,0,103.0,7.775
-E02004482,"Canvey Island North West",0,1,103.0,7.980
-E02004483,"Canvey Island South West",0,0,103.0,15.345
-E02004484,"Canvey Island Leigh Beck",0,0,103.0,10.189
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004473,"Benfleet North",0,0,226.0,15.051,152.67
+E02004474,"New Thundersley",0,0,403.0,29.222,2366.69
+E02004475,"Benfleet Appleton",0,0,226.0,14.453,42.41
+E02004476,"Thundersley Glen",0,0,226.0,47.646,48.68
+E02004477,"Hadleigh North",0,0,672.0,13.787,23.17
+E02004478,"Hadleigh South",0,2,495.0,17.630,2339.61
+E02004479,"South Benfleet",0,0,226.0,19.836,817.08
+E02004480,"Canvey Island Winter Gardens",0,0,103.0,6.711,163.77
+E02004481,"Canvey Island Newlands",0,0,103.0,7.775,80.40
+E02004482,"Canvey Island North West",0,1,103.0,7.980,940.16
+E02004483,"Canvey Island South West",0,0,103.0,15.345,691.90
+E02004484,"Canvey Island Leigh Beck",0,0,103.0,10.189,455.63

@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004600,"Swindon Village & Wyman's Brook",0,1,422.0,14.135
-E02004601,"Prestbury & Racecourse",0,2,485.0,17.829
-E02004602,"Springbank",0,0,290.0,13.593
-E02004603,"St Paul's",0,1,1326.0,92.666
-E02004604,"Arle & Hesters Way",0,0,290.0,19.571
-E02004605,"Oakley",0,0,353.0,16.581
-E02004606,"Alstone & St Mark's",0,4,422.0,21.278
-E02004607,"Pittville & Fairview",0,1,775.0,39.126
-E02004608,"Lansdown & Montpellier",0,2,973.0,37.714
-E02004609,"Benhall & The Reddings",0,1,290.0,14.803
-E02004610,"The Park & Warden Hill",0,0,669.0,21.459
-E02004611,"Battledown & Charlton Kings",0,1,904.0,56.149
-E02004612,"Hatherley",0,0,537.0,34.309
-E02004613,"Charlton Park",0,1,600.0,42.826
-E02004614,"Leckhampton",0,0,537.0,36.694
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004600,"Swindon Village & Wyman's Brook",0,1,422.0,14.135,2933.90
+E02004601,"Prestbury & Racecourse",0,2,485.0,17.829,4865.68
+E02004602,"Springbank",0,0,290.0,13.593,442.96
+E02004603,"St Paul's",0,1,1326.0,92.666,2420.64
+E02004604,"Arle & Hesters Way",0,0,290.0,19.571,459.76
+E02004605,"Oakley",0,0,353.0,16.581,779.92
+E02004606,"Alstone & St Mark's",0,4,422.0,21.278,1556.54
+E02004607,"Pittville & Fairview",0,1,775.0,39.126,1704.89
+E02004608,"Lansdown & Montpellier",0,2,973.0,37.714,3722.30
+E02004609,"Benhall & The Reddings",0,1,290.0,14.803,6594.71
+E02004610,"The Park & Warden Hill",0,0,669.0,21.459,1212.47
+E02004611,"Battledown & Charlton Kings",0,1,904.0,56.149,1057.29
+E02004612,"Hatherley",0,0,537.0,34.309,1035.52
+E02004613,"Charlton Park",0,1,600.0,42.826,888.13
+E02004614,"Leckhampton",0,0,537.0,36.694,236.09

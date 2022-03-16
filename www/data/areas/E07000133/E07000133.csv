@@ -1,7 +1,7 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005391,"Bottesford",0,0,655.0,58.078
-E02005392,"Melton Mowbray North",0,0,254.0,39.490
-E02005393,"Asfordby",0,0,510.0,40.084
-E02005394,"Melton Mowbray West",0,1,254.0,18.556
-E02005395,"Melton Mowbray South",0,3,114.0,18.057
-E02005396,"Waltham",0,0,988.0,51.263
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005391,"Bottesford",0,0,655.0,58.078,1784.53
+E02005392,"Melton Mowbray North",0,0,254.0,39.490,1289.25
+E02005393,"Asfordby",0,0,510.0,40.084,1719.99
+E02005394,"Melton Mowbray West",0,1,254.0,18.556,3333.53
+E02005395,"Melton Mowbray South",0,3,114.0,18.057,1753.47
+E02005396,"Waltham",0,0,988.0,51.263,2402.00

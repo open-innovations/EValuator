@@ -1,25 +1,25 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002535,"Billingham North & Wolviston",322,13,158.0,18.523
-E02002536,"Billingham Central",318,7,158.0,27.613
-E02002537,"Billingham East & Haverton Hill",298,6,83.0,11.391
-E02002538,"Billingham South",325,0,243.0,8.758
-E02002539,"Billingham West",307,3,565.0,67.934
-E02002540,"Norton North",324,0,36.0,8.000
-E02002541,"Norton High Street",323,0,36.0,9.385
-E02002542,"Roseworth",300,4,167.0,7.742
-E02002543,"Hardwick & Salters Lane",287,8,131.0,10.106
-E02002544,"Norton South",298,6,224.0,15.203
-E02002545,"Rimswell & Bishopsgarth",267,0,131.0,3.804
-E02002546,"Eastbourne & Newham Grange",281,0,781.0,65.255
-E02002547,"Elm Tree & Grangefield",259,0,226.0,5.894
-E02002548,"Central Stockton",265,40,452.0,45.292
-E02002549,"Fairfield",261,0,348.0,9.817
-E02002550,"Hartburn",245,0,174.0,9.567
-E02002551,"Thornaby North",302,15,335.0,34.077
-E02002552,"Thornaby Mandale",291,14,147.0,21.929
-E02002553,"Thornaby Village",270,0,147.0,19.216
-E02002554,"Thornaby South",282,17,147.0,16.729
-E02002555,"Eaglescliffe",238,0,190.0,54.923
-E02002556,"Ingleby Barwick East & Hilton",260,2,272.0,24.286
-E02002557,"Ingleby Barwick West",237,2,239.0,28.342
-E02002558,"Yarm",274,2,92.0,62.818
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002535,"Billingham North & Wolviston",322,13,158.0,18.523,897.52
+E02002536,"Billingham Central",318,7,158.0,27.613,1123.56
+E02002537,"Billingham East & Haverton Hill",298,6,83.0,11.391,1249.92
+E02002538,"Billingham South",325,0,243.0,8.758,443.94
+E02002539,"Billingham West",307,3,565.0,67.934,3634.56
+E02002540,"Norton North",324,0,36.0,8.000,286.92
+E02002541,"Norton High Street",323,0,36.0,9.385,220.36
+E02002542,"Roseworth",300,4,167.0,7.742,1572.92
+E02002543,"Hardwick & Salters Lane",287,8,131.0,10.106,710.70
+E02002544,"Norton South",298,6,224.0,15.203,1205.72
+E02002545,"Rimswell & Bishopsgarth",267,0,131.0,3.804,337.16
+E02002546,"Eastbourne & Newham Grange",281,0,781.0,65.255,52.91
+E02002547,"Elm Tree & Grangefield",259,0,226.0,5.894,970.42
+E02002548,"Central Stockton",265,40,452.0,45.292,8490.37
+E02002549,"Fairfield",261,0,348.0,9.817,467.11
+E02002550,"Hartburn",245,0,174.0,9.567,38.81
+E02002551,"Thornaby North",302,15,335.0,34.077,7513.98
+E02002552,"Thornaby Mandale",291,14,147.0,21.929,198.00
+E02002553,"Thornaby Village",270,0,147.0,19.216,78.30
+E02002554,"Thornaby South",282,17,147.0,16.729,1746.64
+E02002555,"Eaglescliffe",238,0,190.0,54.923,1162.83
+E02002556,"Ingleby Barwick East & Hilton",260,2,272.0,24.286,891.37
+E02002557,"Ingleby Barwick West",237,2,239.0,28.342,408.30
+E02002558,"Yarm",274,2,92.0,62.818,959.94

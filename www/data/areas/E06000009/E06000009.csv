@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002633,"Little Bispham & Anchorsholme",136,0,206.0,11.867
-E02002634,"Churchtown",131,0,357.0,11.544
-E02002635,"Norbreck & Bispham",94,0,206.0,11.741
-E02002636,"Warbreck & Bispham Road",123,0,449.0,12.467
-E02002637,"Hoohill",154,0,429.0,6.533
-E02002638,"North Shore",141,1,276.0,5.188
-E02002639,"Little Layton & Little Carleton",200,0,92.0,7.572
-E02002640,"North East Centre",178,0,276.0,3.728
-E02002641,"Queenstown & Layton",223,0,92.0,10.796
-E02002642,"Central Blackpool",225,2,591.0,15.769
-E02002643,"Park Road",261,0,223.0,3.200
-E02002644,"Stanley Park & Great Marton",355,0,385.0,8.398
-E02002645,"South Promenade & Seasiders Way",337,0,293.0,11.264
-E02002646,"Little Marton & Marton Moss Side",456,6,606.0,12.692
-E02002647,"Victoria",322,0,293.0,6.020
-E02002648,"Hawes Side",346,0,162.0,7.458
-E02002649,"South Shore",283,2,162.0,10.451
-E02002650,"Common Edge",401,0,383.0,13.974
-E02002651,"Squires Gate",354,0,254.0,8.879
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002633,"Little Bispham & Anchorsholme",136,0,206.0,11.867,424.54
+E02002634,"Churchtown",131,0,357.0,11.544,1275.68
+E02002635,"Norbreck & Bispham",94,0,206.0,11.741,440.55
+E02002636,"Warbreck & Bispham Road",123,0,449.0,12.467,1644.31
+E02002637,"Hoohill",154,0,429.0,6.533,8.98
+E02002638,"North Shore",141,1,276.0,5.188,1782.64
+E02002639,"Little Layton & Little Carleton",200,0,92.0,7.572,135.05
+E02002640,"North East Centre",178,0,276.0,3.728,820.88
+E02002641,"Queenstown & Layton",223,0,92.0,10.796,947.29
+E02002642,"Central Blackpool",225,2,591.0,15.769,2208.93
+E02002643,"Park Road",261,0,223.0,3.200,149.55
+E02002644,"Stanley Park & Great Marton",355,0,385.0,8.398,1453.47
+E02002645,"South Promenade & Seasiders Way",337,0,293.0,11.264,4207.08
+E02002646,"Little Marton & Marton Moss Side",456,6,606.0,12.692,1434.83
+E02002647,"Victoria",322,0,293.0,6.020,367.71
+E02002648,"Hawes Side",346,0,162.0,7.458,69.55
+E02002649,"South Shore",283,2,162.0,10.451,1744.00
+E02002650,"Common Edge",401,0,383.0,13.974,315.23
+E02002651,"Squires Gate",354,0,254.0,8.879,308.06

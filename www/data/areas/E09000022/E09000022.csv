@@ -1,36 +1,36 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02000619,"Lambeth Walk & North Kennington",0,7,924.0,0.119
-E02000620,"Kennington West & Vauxhall North",0,20,924.0,0.283
-E02000621,"Vauxhall South",0,8,1090.0,0.000
-E02000622,"Oval",0,9,1612.0,1.025
-E02000623,"Stockwell North",0,2,1476.0,0.384
-E02000624,"Stockwell East",0,7,522.0,1.821
-E02000625,"Stockwell West",0,14,1476.0,2.731
-E02000626,"Loughborough Road",0,4,522.0,1.857
-E02000627,"Stockwell South",0,8,520.0,1.288
-E02000628,"Brixton North",0,7,454.0,4.901
-E02000629,"Clapham North",0,9,1476.0,6.508
-E02000630,"Clapham Old Town",0,9,1685.0,21.103
-E02000631,"Herne Hill East",0,20,706.0,4.088
-E02000632,"Acre Lane",0,11,767.0,5.551
-E02000633,"Brixton Central",0,4,951.0,3.946
-E02000634,"Clapham Common North",0,0,560.0,6.643
-E02000635,"Poets' Corner & Brockwell Park",0,10,638.0,11.073
-E02000636,"Clapham South",0,21,566.0,6.909
-E02000637,"Brixton Hill East",0,14,247.0,13.386
-E02000638,"Brixton Hill West",0,8,560.0,3.589
-E02000639,"Clapham Park East & Streatham Hill North",0,4,813.0,4.955
-E02000640,"Clapham Park West",0,16,813.0,8.832
-E02000641,"Tulse Hill",0,5,247.0,3.614
-E02000642,"West Dulwich",0,8,806.0,23.143
-E02000643,"Streatham Hill",0,13,1008.0,4.615
-E02000644,"Leigham Vale & Royal Circus",0,9,855.0,5.372
-E02000645,"West Norwood East",0,12,375.0,18.496
-E02000646,"Streatham Central",0,6,755.0,52.121
-E02000647,"West Norwood West & Streatham East",0,8,608.0,7.092
-E02000648,"West Norwood South",0,5,1063.0,5.540
-E02000649,"Streatham Green",0,15,508.0,12.416
-E02000650,"Gipsy Hill",0,10,555.0,10.968
-E02000651,"Streatham Common",0,6,976.0,9.669
-E02000652,"Streatham Vale",0,2,888.0,7.108
-E02006801,"Lambeth North",0,14,924.0,2.381
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02000619,"Lambeth Walk & North Kennington",0,7,924.0,0.119,376.59
+E02000620,"Kennington West & Vauxhall North",0,20,924.0,0.283,351.23
+E02000621,"Vauxhall South",0,8,1090.0,0.000,0.00
+E02000622,"Oval",0,9,1612.0,1.025,51.59
+E02000623,"Stockwell North",0,2,1476.0,0.384,0.00
+E02000624,"Stockwell East",0,7,522.0,1.821,6.27
+E02000625,"Stockwell West",0,14,1476.0,2.731,42.20
+E02000626,"Loughborough Road",0,4,522.0,1.857,206.24
+E02000627,"Stockwell South",0,8,520.0,1.288,66.45
+E02000628,"Brixton North",0,7,454.0,4.901,172.21
+E02000629,"Clapham North",0,9,1476.0,6.508,45.33
+E02000630,"Clapham Old Town",0,9,1685.0,21.103,51.10
+E02000631,"Herne Hill East",0,20,706.0,4.088,204.07
+E02000632,"Acre Lane",0,11,767.0,5.551,0.00
+E02000633,"Brixton Central",0,4,951.0,3.946,327.53
+E02000634,"Clapham Common North",0,0,560.0,6.643,103.14
+E02000635,"Poets' Corner & Brockwell Park",0,10,638.0,11.073,42.71
+E02000636,"Clapham South",0,21,566.0,6.909,148.95
+E02000637,"Brixton Hill East",0,14,247.0,13.386,0.99
+E02000638,"Brixton Hill West",0,8,560.0,3.589,300.89
+E02000639,"Clapham Park East & Streatham Hill North",0,4,813.0,4.955,14.28
+E02000640,"Clapham Park West",0,16,813.0,8.832,2.80
+E02000641,"Tulse Hill",0,5,247.0,3.614,27.52
+E02000642,"West Dulwich",0,8,806.0,23.143,71.51
+E02000643,"Streatham Hill",0,13,1008.0,4.615,64.26
+E02000644,"Leigham Vale & Royal Circus",0,9,855.0,5.372,83.66
+E02000645,"West Norwood East",0,12,375.0,18.496,31.10
+E02000646,"Streatham Central",0,6,755.0,52.121,98.33
+E02000647,"West Norwood West & Streatham East",0,8,608.0,7.092,116.49
+E02000648,"West Norwood South",0,5,1063.0,5.540,20.17
+E02000649,"Streatham Green",0,15,508.0,12.416,71.00
+E02000650,"Gipsy Hill",0,10,555.0,10.968,41.30
+E02000651,"Streatham Common",0,6,976.0,9.669,410.27
+E02000652,"Streatham Vale",0,2,888.0,7.108,87.85
+E02006801,"Lambeth North",0,14,924.0,2.381,1013.27

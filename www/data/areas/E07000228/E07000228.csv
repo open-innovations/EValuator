@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006604,"East Grinstead Central & North",0,5,327.0,100.198
-E02006605,"Copthorne & Turners Hill",0,0,865.0,12.569
-E02006606,"East Grinstead East",0,0,257.0,17.460
-E02006607,"East Grinstead West & South",0,7,257.0,27.491
-E02006608,"Crawley Down",0,0,792.0,14.225
-E02006609,"Horsted Keynes",0,0,1652.0,40.626
-E02006610,"Balcombe & Handcross",0,5,1741.0,58.053
-E02006611,"Haywards Heath North East",0,0,645.0,35.401
-E02006612,"Haywards Heath West",0,10,645.0,128.498
-E02006613,"Haywards Heath East",0,0,315.0,19.586
-E02006614,"Haywards Heath South & Cuckfield",0,0,861.0,53.894
-E02006615,"Burgess Hill West",0,0,216.0,41.992
-E02006616,"Burgess Hill East",0,0,216.0,24.946
-E02006617,"Burgess Hill Central",0,3,216.0,33.365
-E02006618,"Burgess Hill South",0,5,216.0,18.189
-E02006619,"Hurstpierpoint & Bolney",0,0,1361.0,63.851
-E02006620,"Hassocks",0,3,467.0,78.836
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006604,"East Grinstead Central & North",0,5,327.0,100.198,2860.29
+E02006605,"Copthorne & Turners Hill",0,0,865.0,12.569,3617.27
+E02006606,"East Grinstead East",0,0,257.0,17.460,690.12
+E02006607,"East Grinstead West & South",0,7,257.0,27.491,1492.75
+E02006608,"Crawley Down",0,0,792.0,14.225,723.20
+E02006609,"Horsted Keynes",0,0,1652.0,40.626,3521.30
+E02006610,"Balcombe & Handcross",0,5,1741.0,58.053,2858.45
+E02006611,"Haywards Heath North East",0,0,645.0,35.401,181.08
+E02006612,"Haywards Heath West",0,10,645.0,128.498,3864.88
+E02006613,"Haywards Heath East",0,0,315.0,19.586,162.01
+E02006614,"Haywards Heath South & Cuckfield",0,0,861.0,53.894,3077.76
+E02006615,"Burgess Hill West",0,0,216.0,41.992,2094.40
+E02006616,"Burgess Hill East",0,0,216.0,24.946,994.75
+E02006617,"Burgess Hill Central",0,3,216.0,33.365,3774.66
+E02006618,"Burgess Hill South",0,5,216.0,18.189,2181.53
+E02006619,"Hurstpierpoint & Bolney",0,0,1361.0,63.851,3104.23
+E02006620,"Hassocks",0,3,467.0,78.836,1210.24

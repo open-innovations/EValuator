@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004118,"Hatton & Burnaston",0,2,1052.0,61.652
-E02004119,"Hilton & Etwall",0,0,504.0,61.166
-E02004120,"Willington North",0,2,1192.0,34.233
-E02004121,"Aston-on-Trent & Barrow-upon-Trent",0,2,734.0,54.581
-E02004122,"Willington South & Repton",0,0,1058.0,41.018
-E02004123,"Melbourne",0,0,778.0,57.077
-E02004124,"Swadlincote North",0,0,258.0,17.398
-E02004125,"Swadlincote West",0,0,411.0,22.525
-E02004126,"Swadlincote Central",0,5,306.0,53.602
-E02004128,"Castle Gresley",0,4,396.0,41.527
-E02006919,"Swadlincote South",0,0,306.0,23.195
-E02006920,"Swadlincote East",0,0,168.0,19.236
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004118,"Hatton & Burnaston",0,2,1052.0,61.652,10418.02
+E02004119,"Hilton & Etwall",0,0,504.0,61.166,8009.77
+E02004120,"Willington North",0,2,1192.0,34.233,1349.70
+E02004121,"Aston-on-Trent & Barrow-upon-Trent",0,2,734.0,54.581,3245.39
+E02004122,"Willington South & Repton",0,0,1058.0,41.018,1580.74
+E02004123,"Melbourne",0,0,778.0,57.077,1875.10
+E02004124,"Swadlincote North",0,0,258.0,17.398,94.55
+E02004125,"Swadlincote West",0,0,411.0,22.525,703.94
+E02004126,"Swadlincote Central",0,5,306.0,53.602,3100.28
+E02004128,"Castle Gresley",0,4,396.0,41.527,1532.77
+E02006919,"Swadlincote South",0,0,306.0,23.195,617.43
+E02006920,"Swadlincote East",0,0,168.0,19.236,90.86

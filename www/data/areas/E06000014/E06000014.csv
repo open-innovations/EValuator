@@ -1,25 +1,25 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002772,"Strensall",138,0,199.0,23.896
-E02002773,"Haxby",199,0,154.0,20.165
-E02002774,"Wigginton",199,0,288.0,18.595
-E02002775,"New Earswick",231,0,258.0,18.440
-E02002776,"Huntington",168,6,672.0,39.677
-E02002777,"Clifton Without & Skelton",246,5,348.0,24.425
-E02002778,"Rawcliffe & Clifton South",249,1,328.0,24.564
-E02002779,"Heworth North & Stockton",156,0,258.0,18.673
-E02002780,"Clifton North",196,0,432.0,12.474
-E02002781,"Heworth South & The Groves",161,2,238.0,14.793
-E02002782,"Poppleton",323,9,718.0,35.341
-E02002783,"Acomb",286,0,584.0,27.497
-E02002784,"York City Centre",139,17,1846.0,96.967
-E02002785,"Osbaldwick",237,0,417.0,14.351
-E02002786,"Tang Hall",186,0,319.0,11.927
-E02002787,"Holgate West",261,0,584.0,27.171
-E02002788,"Holgate East",196,1,718.0,26.233
-E02002789,"Westfield",320,0,450.0,20.339
-E02002790,"Fulford Road & Clementhorpe",214,0,349.0,21.259
-E02002791,"Dunnington",242,2,399.0,35.915
-E02002792,"South Bank & Dringhouses",218,0,385.0,25.716
-E02002793,"Woodthorpe & Acomb Park",285,4,385.0,22.048
-E02002794,"Fulford",201,7,313.0,23.679
-E02002795,"Bishopthorpe & Copmanthorpe",341,0,268.0,37.928
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002772,"Strensall",138,0,199.0,23.896,977.03
+E02002773,"Haxby",199,0,154.0,20.165,460.14
+E02002774,"Wigginton",199,0,288.0,18.595,281.86
+E02002775,"New Earswick",231,0,258.0,18.440,1389.46
+E02002776,"Huntington",168,6,672.0,39.677,7061.89
+E02002777,"Clifton Without & Skelton",246,5,348.0,24.425,6268.82
+E02002778,"Rawcliffe & Clifton South",249,1,328.0,24.564,1212.27
+E02002779,"Heworth North & Stockton",156,0,258.0,18.673,1391.87
+E02002780,"Clifton North",196,0,432.0,12.474,873.75
+E02002781,"Heworth South & The Groves",161,2,238.0,14.793,2021.31
+E02002782,"Poppleton",323,9,718.0,35.341,4489.61
+E02002783,"Acomb",286,0,584.0,27.497,163.98
+E02002784,"York City Centre",139,17,1846.0,96.967,7485.48
+E02002785,"Osbaldwick",237,0,417.0,14.351,1733.81
+E02002786,"Tang Hall",186,0,319.0,11.927,817.41
+E02002787,"Holgate West",261,0,584.0,27.171,814.48
+E02002788,"Holgate East",196,1,718.0,26.233,3159.64
+E02002789,"Westfield",320,0,450.0,20.339,792.18
+E02002790,"Fulford Road & Clementhorpe",214,0,349.0,21.259,2371.25
+E02002791,"Dunnington",242,2,399.0,35.915,2083.21
+E02002792,"South Bank & Dringhouses",218,0,385.0,25.716,1324.33
+E02002793,"Woodthorpe & Acomb Park",285,4,385.0,22.048,3546.09
+E02002794,"Fulford",201,7,313.0,23.679,7247.70
+E02002795,"Bishopthorpe & Copmanthorpe",341,0,268.0,37.928,770.19

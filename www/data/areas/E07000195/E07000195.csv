@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006158,"Kidsgrove East",0,0,410.0,17.384
-E02006159,"Kidsgrove Central",0,2,254.0,14.702
-E02006160,"Kidsgrove West",0,0,254.0,38.460
-E02006161,"Talke & Crackley",0,0,749.0,13.226
-E02006162,"Audley & Bignall End",0,0,670.0,19.588
-E02006163,"Bradwell",0,0,495.0,11.995
-E02006164,"Chesterton & Knutton",0,0,339.0,18.263
-E02006165,"Porthill",0,0,339.0,15.950
-E02006166,"May Bank",0,0,611.0,14.157
-E02006167,"Newcastle West & Cross Heath",0,3,339.0,28.311
-E02006168,"Newcastle Town",0,1,865.0,44.084
-E02006169,"Silverdale & Keele",0,9,416.0,15.527
-E02006170,"Madeley & Betley",0,0,635.0,26.407
-E02006171,"Clayton & Langdale",0,0,339.0,17.784
-E02006172,"Westlands & Seabridge",0,1,611.0,20.098
-E02006173,"Loggerheads & Baldwins Gate",0,0,550.0,28.568
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006158,"Kidsgrove East",0,0,410.0,17.384,227.67
+E02006159,"Kidsgrove Central",0,2,254.0,14.702,604.63
+E02006160,"Kidsgrove West",0,0,254.0,38.460,156.75
+E02006161,"Talke & Crackley",0,0,749.0,13.226,1511.33
+E02006162,"Audley & Bignall End",0,0,670.0,19.588,396.29
+E02006163,"Bradwell",0,0,495.0,11.995,157.68
+E02006164,"Chesterton & Knutton",0,0,339.0,18.263,1042.60
+E02006165,"Porthill",0,0,339.0,15.950,1567.90
+E02006166,"May Bank",0,0,611.0,14.157,261.98
+E02006167,"Newcastle West & Cross Heath",0,3,339.0,28.311,977.50
+E02006168,"Newcastle Town",0,1,865.0,44.084,4397.49
+E02006169,"Silverdale & Keele",0,9,416.0,15.527,3971.28
+E02006170,"Madeley & Betley",0,0,635.0,26.407,682.27
+E02006171,"Clayton & Langdale",0,0,339.0,17.784,222.10
+E02006172,"Westlands & Seabridge",0,1,611.0,20.098,771.07
+E02006173,"Loggerheads & Baldwins Gate",0,0,550.0,28.568,709.97

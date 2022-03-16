@@ -1,35 +1,35 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002951,"Great Chell & Packmoor",0,0,488.0,9.605
-E02002952,"Goldenhill & Sandyford",0,0,156.0,6.299
-E02002953,"Bradeley & Chell Heath",0,0,156.0,5.099
-E02002954,"Norton",0,0,216.0,6.448
-E02002955,"Tunstall",0,0,156.0,15.897
-E02002956,"Little Chell & Stanfield",0,0,156.0,7.874
-E02002957,"Baddley & Milton",0,0,277.0,13.481
-E02002958,"Smallthorne & Sneyd Green",0,0,394.0,6.318
-E02002959,"Longport & Burslem Park",0,3,334.0,16.740
-E02002960,"Birches Head",0,0,178.0,1.971
-E02002961,"Cobridge & Central Forest",0,0,334.0,8.965
-E02002962,"Abbey Hulton",0,4,238.0,8.627
-E02002963,"Northwood",0,0,178.0,4.069
-E02002964,"Townsend & Eaton Park",0,0,238.0,11.997
-E02002965,"Hanley & Etruria",0,18,945.0,12.878
-E02002966,"Shelton & Joiner's Square",0,0,604.0,38.961
-E02002967,"Bentilee & Ubberley",0,0,252.0,13.901
-E02002968,"Basford & Hartshill",0,2,611.0,13.153
-E02002969,"Boothen & Penkhull",0,0,272.0,17.596
-E02002970,"Fenton",0,0,272.0,12.673
-E02002971,"Fen Park",0,0,464.0,4.935
-E02002972,"Longton West & Sandford Hill",0,2,464.0,20.465
-E02002973,"Oakhill & Trent Vale",0,3,272.0,10.332
-E02002974,"Weston Coyney",0,0,192.0,7.644
-E02002975,"Longton East",0,0,192.0,7.644
-E02002976,"Hollybush & Blurton North",0,3,464.0,6.689
-E02002977,"Dresden",0,0,192.0,10.475
-E02002978,"Meir North",0,0,192.0,7.984
-E02002979,"Florence",0,0,253.0,21.939
-E02002980,"Hanford & Trentham West",0,0,272.0,7.265
-E02002981,"Meir South & Lightwood",0,0,192.0,10.305
-E02002982,"Newstead & Blurton South",0,0,497.0,13.264
-E02002983,"Meir Park",0,3,192.0,8.946
-E02002984,"Trentham East",0,0,305.0,6.162
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002951,"Great Chell & Packmoor",0,0,488.0,9.605,134.98
+E02002952,"Goldenhill & Sandyford",0,0,156.0,6.299,1278.07
+E02002953,"Bradeley & Chell Heath",0,0,156.0,5.099,58.36
+E02002954,"Norton",0,0,216.0,6.448,138.64
+E02002955,"Tunstall",0,0,156.0,15.897,1181.79
+E02002956,"Little Chell & Stanfield",0,0,156.0,7.874,559.19
+E02002957,"Baddley & Milton",0,0,277.0,13.481,358.11
+E02002958,"Smallthorne & Sneyd Green",0,0,394.0,6.318,498.92
+E02002959,"Longport & Burslem Park",0,3,334.0,16.740,917.39
+E02002960,"Birches Head",0,0,178.0,1.971,234.42
+E02002961,"Cobridge & Central Forest",0,0,334.0,8.965,986.49
+E02002962,"Abbey Hulton",0,4,238.0,8.627,112.33
+E02002963,"Northwood",0,0,178.0,4.069,809.37
+E02002964,"Townsend & Eaton Park",0,0,238.0,11.997,484.79
+E02002965,"Hanley & Etruria",0,18,945.0,12.878,10793.22
+E02002966,"Shelton & Joiner's Square",0,0,604.0,38.961,2222.79
+E02002967,"Bentilee & Ubberley",0,0,252.0,13.901,277.48
+E02002968,"Basford & Hartshill",0,2,611.0,13.153,3184.08
+E02002969,"Boothen & Penkhull",0,0,272.0,17.596,2776.19
+E02002970,"Fenton",0,0,272.0,12.673,1399.72
+E02002971,"Fen Park",0,0,464.0,4.935,472.22
+E02002972,"Longton West & Sandford Hill",0,2,464.0,20.465,1695.51
+E02002973,"Oakhill & Trent Vale",0,3,272.0,10.332,2059.94
+E02002974,"Weston Coyney",0,0,192.0,7.644,116.58
+E02002975,"Longton East",0,0,192.0,7.644,189.41
+E02002976,"Hollybush & Blurton North",0,3,464.0,6.689,3660.48
+E02002977,"Dresden",0,0,192.0,10.475,51.50
+E02002978,"Meir North",0,0,192.0,7.984,112.71
+E02002979,"Florence",0,0,253.0,21.939,256.40
+E02002980,"Hanford & Trentham West",0,0,272.0,7.265,1103.37
+E02002981,"Meir South & Lightwood",0,0,192.0,10.305,129.48
+E02002982,"Newstead & Blurton South",0,0,497.0,13.264,1883.32
+E02002983,"Meir Park",0,3,192.0,8.946,2114.18
+E02002984,"Trentham East",0,0,305.0,6.162,546.53

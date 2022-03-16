@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005417,"Leake & Butterwick",0,1,218.0,16.468
-E02005418,"Fenside & Lister Way",0,0,133.0,7.301
-E02005419,"Boston Central & North",0,6,283.0,25.040
-E02005420,"Skirbeck",0,0,133.0,5.709
-E02005422,"Swineshead",0,0,617.0,17.834
-E02005423,"Kirton",0,0,420.0,19.483
-E02006864,"Fishtoft & Wyberton East",0,2,283.0,7.786
-E02006865,"Wyberton West & Fen",0,4,133.0,7.335
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005417,"Leake & Butterwick",0,1,218.0,16.468,507.66
+E02005418,"Fenside & Lister Way",0,0,133.0,7.301,1755.68
+E02005419,"Boston Central & North",0,6,283.0,25.040,4967.35
+E02005420,"Skirbeck",0,0,133.0,5.709,0.00
+E02005422,"Swineshead",0,0,617.0,17.834,320.04
+E02005423,"Kirton",0,0,420.0,19.483,351.00
+E02006864,"Fishtoft & Wyberton East",0,2,283.0,7.786,1577.62
+E02006865,"Wyberton West & Fen",0,4,133.0,7.335,3013.87

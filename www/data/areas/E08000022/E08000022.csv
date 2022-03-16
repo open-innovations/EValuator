@@ -1,31 +1,31 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02001738,"Whitley Bay North",223,0,224.0,24.948
-E02001739,"Fordley",280,0,393.0,17.058
-E02001740,"Whitley Sands",221,6,224.0,19.708
-E02001741,"Wideopen & Seaton Burn",256,0,766.0,57.806
-E02001742,"West Monkseaton",234,0,224.0,26.614
-E02001743,"Whitley Bay Promenade",226,1,224.0,32.990
-E02001744,"Shiremoor North & South Wellfield",272,0,358.0,38.708
-E02001745,"Killingworth West & Camperdown",285,2,322.0,29.853
-E02001746,"Monkseaton",238,0,617.0,39.129
-E02001747,"Cullercoats",257,0,336.0,18.346
-E02001748,"Shiremoor South & West Allotment",302,10,71.0,40.758
-E02001749,"Killingworth East",274,0,160.0,24.333
-E02001750,"Preston Grange",279,6,463.0,18.573
-E02001751,"Forest Hall & West Moor",250,0,160.0,32.777
-E02001752,"New York",295,7,646.0,75.419
-E02001753,"Tynemouth Priory",244,4,134.0,35.193
-E02001754,"Tynemouth West",272,0,239.0,19.415
-E02001755,"Holystone & Benton",270,10,381.0,38.977
-E02001756,"Longbenton",237,1,360.0,27.137
-E02001757,"Preston Billy Mill",302,0,239.0,9.456
-E02001758,"Battle Hill East",304,1,112.0,6.770
-E02001759,"North Shields",286,3,239.0,26.378
-E02001760,"Chirton",304,1,239.0,13.874
-E02001761,"Battle Hill West",305,0,112.0,10.977
-E02001762,"East Benton",297,0,272.0,7.255
-E02001763,"Howdon",308,0,351.0,9.246
-E02001764,"Percy Main",306,0,274.0,13.066
-E02001765,"Willington Quay",309,0,169.0,13.782
-E02001766,"Wallsend East",297,3,274.0,15.627
-E02001767,"Wallsend West",299,2,240.0,16.496
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02001738,"Whitley Bay North",223,0,224.0,24.948,1181.98
+E02001739,"Fordley",280,0,393.0,17.058,1062.92
+E02001740,"Whitley Sands",221,6,224.0,19.708,629.30
+E02001741,"Wideopen & Seaton Burn",256,0,766.0,57.806,246.74
+E02001742,"West Monkseaton",234,0,224.0,26.614,245.37
+E02001743,"Whitley Bay Promenade",226,1,224.0,32.990,905.83
+E02001744,"Shiremoor North & South Wellfield",272,0,358.0,38.708,841.41
+E02001745,"Killingworth West & Camperdown",285,2,322.0,29.853,1314.60
+E02001746,"Monkseaton",238,0,617.0,39.129,744.77
+E02001747,"Cullercoats",257,0,336.0,18.346,508.17
+E02001748,"Shiremoor South & West Allotment",302,10,71.0,40.758,5792.37
+E02001749,"Killingworth East",274,0,160.0,24.333,378.04
+E02001750,"Preston Grange",279,6,463.0,18.573,2102.99
+E02001751,"Forest Hall & West Moor",250,0,160.0,32.777,101.36
+E02001752,"New York",295,7,646.0,75.419,6305.55
+E02001753,"Tynemouth Priory",244,4,134.0,35.193,1230.61
+E02001754,"Tynemouth West",272,0,239.0,19.415,641.48
+E02001755,"Holystone & Benton",270,10,381.0,38.977,2627.94
+E02001756,"Longbenton",237,1,360.0,27.137,4703.12
+E02001757,"Preston Billy Mill",302,0,239.0,9.456,124.25
+E02001758,"Battle Hill East",304,1,112.0,6.770,2066.25
+E02001759,"North Shields",286,3,239.0,26.378,548.05
+E02001760,"Chirton",304,1,239.0,13.874,1139.17
+E02001761,"Battle Hill West",305,0,112.0,10.977,401.55
+E02001762,"East Benton",297,0,272.0,7.255,234.60
+E02001763,"Howdon",308,0,351.0,9.246,280.19
+E02001764,"Percy Main",306,0,274.0,13.066,12006.49
+E02001765,"Willington Quay",309,0,169.0,13.782,124.36
+E02001766,"Wallsend East",297,3,274.0,15.627,399.31
+E02001767,"Wallsend West",299,2,240.0,16.496,1022.03

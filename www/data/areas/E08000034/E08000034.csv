@@ -1,60 +1,60 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002271,"Birkenshaw",759,0,437.0,28.552
-E02002272,"Birstall",779,3,200.0,15.083
-E02002273,"Scholes & Hunsworth",939,2,159.0,15.654
-E02002274,"Gomersal",693,0,227.0,14.398
-E02002275,"Cleckheaton",781,2,219.0,47.990
-E02002276,"Wilton Park",643,0,145.0,9.916
-E02002277,"Upper Batley & Soothill",616,0,445.0,8.384
-E02002278,"Hightown & Hartshead Moor",739,0,164.0,17.369
-E02002279,"Liversedge",602,0,185.0,21.749
-E02002280,"Batley Central",557,3,124.0,12.359
-E02002281,"Heckmondwike North",547,1,128.0,15.401
-E02002282,"Staincliffe & Healey",511,0,191.0,6.556
-E02002283,"Batley Carr & Mount Pleasant",535,2,280.0,9.527
-E02002284,"Shaw Cross & Hanging Heaton",623,0,362.0,15.967
-E02002285,"Heckmondwike Town",623,0,188.0,20.776
-E02002286,"Dewsbury Moor Upper",502,1,170.0,4.126
-E02002287,"Dewsbury Central & Westborough",493,2,407.0,17.567
-E02002288,"Earlsheaton & Chickenley",583,0,289.0,13.736
-E02002289,"Dewsbury Moor Lower & Westtown",491,0,156.0,4.966
-E02002290,"Northorpe & Crossley",617,0,106.0,21.015
-E02002291,"Battyeford",709,0,106.0,21.493
-E02002292,"Bradley & North Fixby",705,0,392.0,14.654
-E02002293,"Ravensthorpe",521,2,262.0,5.858
-E02002294,"Dewsbury Savile Town & Thornhill Lees",451,0,262.0,24.395
-E02002295,"Deighton & Brackenhall",635,3,268.0,17.080
-E02002296,"Mirfield Central & Hopton",669,2,197.0,34.329
-E02002297,"Cowcliffe & South Fixby",863,0,538.0,19.975
-E02002298,"Thornhill",504,0,358.0,9.270
-E02002299,"Huddersfield Leeds Road & Fartown",685,4,825.0,45.770
-E02002300,"North Lindley & Birchencliffe",905,1,256.0,20.684
-E02002301,"Birkby",794,0,282.0,12.531
-E02002302,"Kirkheaton",662,0,534.0,15.253
-E02002303,"Oakes & South Lindley",816,2,414.0,19.173
-E02002304,"Edgerton & Marsh",749,1,414.0,5.667
-E02002305,"Rawthorpe",486,0,196.0,8.563
-E02002306,"Scapegoat Hill",735,0,261.0,12.423
-E02002307,"Dalton Long Lane",552,0,196.0,9.036
-E02002308,"Longwood & Quarmby",838,0,261.0,20.601
-E02002309,"Paddock & Greenhead",652,0,325.0,3.451
-E02002310,"Moldgreen & Ravensknowle Park",500,0,196.0,7.480
-E02002311,"Golcar",713,0,261.0,9.972
-E02002312,"Aspley",485,0,390.0,9.603
-E02002313,"Lockwood",563,1,193.0,4.090
-E02002314,"Almondbury & Waterloo",449,0,411.0,9.381
-E02002315,"Cowlersley & Milnsbridge",594,0,454.0,16.492
-E02002316,"Lepton",496,0,836.0,29.132
-E02002317,"Crosland Moor",525,0,193.0,9.218
-E02002318,"Primrose Hill",429,0,193.0,9.510
-E02002319,"Slaithwaite & Linthwaite",471,2,129.0,13.081
-E02002320,"Netherton & South Crosland",426,0,580.0,11.355
-E02002321,"Kirkburton & Farnley Tyas",421,0,568.0,33.150
-E02002322,"Marsden & Pole Moor",357,0,320.0,8.814
-E02002323,"Honley & Brockholes",328,0,475.0,52.678
-E02002324,"Emley & Skelmanthorpe",369,0,480.0,30.368
-E02002325,"Meltham",339,0,475.0,50.746
-E02002326,"Shelley & Shepley",346,0,320.0,25.623
-E02002327,"Denby Dale",363,0,232.0,69.019
-E02002328,"Upperthong & Holmbridge",355,3,387.0,46.492
-E02002329,"Holmfirth",337,2,707.0,119.548
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002271,"Birkenshaw",759,0,437.0,28.552,474.68
+E02002272,"Birstall",779,3,200.0,15.083,2608.56
+E02002273,"Scholes & Hunsworth",939,2,159.0,15.654,129.38
+E02002274,"Gomersal",693,0,227.0,14.398,80.58
+E02002275,"Cleckheaton",781,2,219.0,47.990,1120.57
+E02002276,"Wilton Park",643,0,145.0,9.916,198.08
+E02002277,"Upper Batley & Soothill",616,0,445.0,8.384,542.71
+E02002278,"Hightown & Hartshead Moor",739,0,164.0,17.369,163.51
+E02002279,"Liversedge",602,0,185.0,21.749,364.07
+E02002280,"Batley Central",557,3,124.0,12.359,1254.87
+E02002281,"Heckmondwike North",547,1,128.0,15.401,377.28
+E02002282,"Staincliffe & Healey",511,0,191.0,6.556,32.89
+E02002283,"Batley Carr & Mount Pleasant",535,2,280.0,9.527,902.29
+E02002284,"Shaw Cross & Hanging Heaton",623,0,362.0,15.967,1174.82
+E02002285,"Heckmondwike Town",623,0,188.0,20.776,1373.17
+E02002286,"Dewsbury Moor Upper",502,1,170.0,4.126,1402.78
+E02002287,"Dewsbury Central & Westborough",493,2,407.0,17.567,3430.16
+E02002288,"Earlsheaton & Chickenley",583,0,289.0,13.736,107.97
+E02002289,"Dewsbury Moor Lower & Westtown",491,0,156.0,4.966,183.34
+E02002290,"Northorpe & Crossley",617,0,106.0,21.015,210.30
+E02002291,"Battyeford",709,0,106.0,21.493,252.68
+E02002292,"Bradley & North Fixby",705,0,392.0,14.654,764.89
+E02002293,"Ravensthorpe",521,2,262.0,5.858,362.66
+E02002294,"Dewsbury Savile Town & Thornhill Lees",451,0,262.0,24.395,1710.20
+E02002295,"Deighton & Brackenhall",635,3,268.0,17.080,666.53
+E02002296,"Mirfield Central & Hopton",669,2,197.0,34.329,1158.92
+E02002297,"Cowcliffe & South Fixby",863,0,538.0,19.975,130.42
+E02002298,"Thornhill",504,0,358.0,9.270,275.09
+E02002299,"Huddersfield Leeds Road & Fartown",685,4,825.0,45.770,4269.17
+E02002300,"North Lindley & Birchencliffe",905,1,256.0,20.684,279.61
+E02002301,"Birkby",794,0,282.0,12.531,17.32
+E02002302,"Kirkheaton",662,0,534.0,15.253,840.70
+E02002303,"Oakes & South Lindley",816,2,414.0,19.173,686.42
+E02002304,"Edgerton & Marsh",749,1,414.0,5.667,811.67
+E02002305,"Rawthorpe",486,0,196.0,8.563,199.48
+E02002306,"Scapegoat Hill",735,0,261.0,12.423,506.18
+E02002307,"Dalton Long Lane",552,0,196.0,9.036,32.77
+E02002308,"Longwood & Quarmby",838,0,261.0,20.601,50.26
+E02002309,"Paddock & Greenhead",652,0,325.0,3.451,657.63
+E02002310,"Moldgreen & Ravensknowle Park",500,0,196.0,7.480,100.83
+E02002311,"Golcar",713,0,261.0,9.972,597.73
+E02002312,"Aspley",485,0,390.0,9.603,1258.22
+E02002313,"Lockwood",563,1,193.0,4.090,326.32
+E02002314,"Almondbury & Waterloo",449,0,411.0,9.381,233.22
+E02002315,"Cowlersley & Milnsbridge",594,0,454.0,16.492,159.95
+E02002316,"Lepton",496,0,836.0,29.132,423.03
+E02002317,"Crosland Moor",525,0,193.0,9.218,250.34
+E02002318,"Primrose Hill",429,0,193.0,9.510,142.68
+E02002319,"Slaithwaite & Linthwaite",471,2,129.0,13.081,472.38
+E02002320,"Netherton & South Crosland",426,0,580.0,11.355,155.70
+E02002321,"Kirkburton & Farnley Tyas",421,0,568.0,33.150,552.78
+E02002322,"Marsden & Pole Moor",357,0,320.0,8.814,1041.77
+E02002323,"Honley & Brockholes",328,0,475.0,52.678,231.08
+E02002324,"Emley & Skelmanthorpe",369,0,480.0,30.368,499.27
+E02002325,"Meltham",339,0,475.0,50.746,705.51
+E02002326,"Shelley & Shepley",346,0,320.0,25.623,758.46
+E02002327,"Denby Dale",363,0,232.0,69.019,752.28
+E02002328,"Upperthong & Holmbridge",355,3,387.0,46.492,957.37
+E02002329,"Holmfirth",337,2,707.0,119.548,1075.51

@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005087,"Swanley East & Hextable",0,0,326.0,11.708
-E02005088,"Swanley West",0,3,123.0,28.182
-E02005089,"Swanley South & Crockenhill",0,0,808.0,16.884
-E02005090,"Hartley & Hodsoll Street",0,0,632.0,31.331
-E02005091,"Darenth Valley",0,0,702.0,48.390
-E02005093,"West Kingsdown",0,1,841.0,30.020
-E02005094,"Knockholt",0,4,1403.0,54.409
-E02005095,"Kemsing & Otford",0,0,626.0,33.983
-E02005096,"Sevenoaks North",0,1,973.0,34.545
-E02005097,"Sevenoaks West & Chevening",0,0,602.0,36.347
-E02005098,"Sevenoaks Town & Weald",0,4,1176.0,156.980
-E02005099,"Westerham & Brasted",0,0,966.0,47.286
-E02005100,"Edenbridge",0,0,146.0,48.317
-E02005101,"Hever",0,0,809.0,46.830
-E02006832,"New Ash Green",0,0,494.0,18.007
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005087,"Swanley East & Hextable",0,0,326.0,11.708,612.21
+E02005088,"Swanley West",0,3,123.0,28.182,2525.04
+E02005089,"Swanley South & Crockenhill",0,0,808.0,16.884,1103.36
+E02005090,"Hartley & Hodsoll Street",0,0,632.0,31.331,168.40
+E02005091,"Darenth Valley",0,0,702.0,48.390,948.40
+E02005093,"West Kingsdown",0,1,841.0,30.020,2886.18
+E02005094,"Knockholt",0,4,1403.0,54.409,3913.20
+E02005095,"Kemsing & Otford",0,0,626.0,33.983,1265.01
+E02005096,"Sevenoaks North",0,1,973.0,34.545,1456.42
+E02005097,"Sevenoaks West & Chevening",0,0,602.0,36.347,1450.16
+E02005098,"Sevenoaks Town & Weald",0,4,1176.0,156.980,3577.83
+E02005099,"Westerham & Brasted",0,0,966.0,47.286,2489.07
+E02005100,"Edenbridge",0,0,146.0,48.317,514.72
+E02005101,"Hever",0,0,809.0,46.830,1503.03
+E02006832,"New Ash Green",0,0,494.0,18.007,610.54

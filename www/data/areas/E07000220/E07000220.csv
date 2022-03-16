@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006492,"Brinklow",0,3,3141.0,91.254
-E02006493,"Brownsover",0,2,710.0,58.689
-E02006494,"Town North & Newbold on Avon",0,3,204.0,17.817
-E02006495,"Wolston",0,0,1321.0,41.282
-E02006496,"Town East",0,0,204.0,9.450
-E02006497,"New Bilton",0,0,434.0,24.784
-E02006498,"Cawston & Long Lawford",0,0,710.0,66.626
-E02006499,"Eastlands",0,0,434.0,18.300
-E02006500,"Town South & School",0,2,434.0,42.530
-E02006501,"Hillmorton",0,0,710.0,24.191
-E02006502,"Overslade & Bilton",0,0,230.0,59.016
-E02006503,"Dunchurch",0,0,1150.0,84.695
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006492,"Brinklow",0,3,3141.0,91.254,5915.49
+E02006493,"Brownsover",0,2,710.0,58.689,5378.22
+E02006494,"Town North & Newbold on Avon",0,3,204.0,17.817,2757.93
+E02006495,"Wolston",0,0,1321.0,41.282,3728.66
+E02006496,"Town East",0,0,204.0,9.450,1408.58
+E02006497,"New Bilton",0,0,434.0,24.784,426.17
+E02006498,"Cawston & Long Lawford",0,0,710.0,66.626,776.75
+E02006499,"Eastlands",0,0,434.0,18.300,266.50
+E02006500,"Town South & School",0,2,434.0,42.530,2403.45
+E02006501,"Hillmorton",0,0,710.0,24.191,1107.84
+E02006502,"Overslade & Bilton",0,0,230.0,59.016,429.96
+E02006503,"Dunchurch",0,0,1150.0,84.695,1727.38

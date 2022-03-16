@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02001327,"Kirkby North East",683,0,104.0,10.670
-E02001328,"Kirkby North West",720,0,293.0,9.367
-E02001329,"Kirkby South East",718,0,104.0,14.394
-E02001330,"Kirkby South West & Field Lane",764,1,67.0,12.109
-E02001331,"Knowsley Village & Southdene",757,2,296.0,24.547
-E02001332,"Stockbridge Village",536,0,165.0,3.901
-E02001333,"Prescot",743,3,273.0,40.036
-E02001334,"Page Moss & Fincham",738,0,145.0,10.571
-E02001335,"Whiston North",735,3,161.0,18.332
-E02001336,"Longview & Knowsley Park",760,0,165.0,11.931
-E02001337,"Mosscroft & Bakers Green",746,0,165.0,11.359
-E02001338,"Huyton Farm",752,0,145.0,8.693
-E02001339,"Whiston South",746,0,220.0,14.259
-E02001340,"Court Hey & Swanside",744,0,195.0,14.569
-E02001341,"Huyton East",752,0,220.0,19.180
-E02001342,"Huyton West & Roby",731,0,181.0,24.797
-E02001343,"Halsnead",804,0,711.0,22.945
-E02001344,"Halewood North",683,0,182.0,13.577
-E02001345,"Halewood Central",698,1,40.0,10.286
-E02001346,"Halewood South",720,0,249.0,18.266
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02001327,"Kirkby North East",683,0,104.0,10.670,511.03
+E02001328,"Kirkby North West",720,0,293.0,9.367,155.76
+E02001329,"Kirkby South East",718,0,104.0,14.394,1660.08
+E02001330,"Kirkby South West & Field Lane",764,1,67.0,12.109,524.83
+E02001331,"Knowsley Village & Southdene",757,2,296.0,24.547,1850.68
+E02001332,"Stockbridge Village",536,0,165.0,3.901,239.76
+E02001333,"Prescot",743,3,273.0,40.036,3200.13
+E02001334,"Page Moss & Fincham",738,0,145.0,10.571,302.58
+E02001335,"Whiston North",735,3,161.0,18.332,2521.43
+E02001336,"Longview & Knowsley Park",760,0,165.0,11.931,1309.04
+E02001337,"Mosscroft & Bakers Green",746,0,165.0,11.359,966.89
+E02001338,"Huyton Farm",752,0,145.0,8.693,125.34
+E02001339,"Whiston South",746,0,220.0,14.259,683.80
+E02001340,"Court Hey & Swanside",744,0,195.0,14.569,98.50
+E02001341,"Huyton East",752,0,220.0,19.180,1756.36
+E02001342,"Huyton West & Roby",731,0,181.0,24.797,1361.99
+E02001343,"Halsnead",804,0,711.0,22.945,687.49
+E02001344,"Halewood North",683,0,182.0,13.577,164.53
+E02001345,"Halewood Central",698,1,40.0,10.286,29.06
+E02001346,"Halewood South",720,0,249.0,18.266,2702.27

@@ -1,32 +1,32 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02000751,"Woodford Wells",0,1,796.0,101.333
-E02000752,"Hainault East",0,0,617.0,36.081
-E02000753,"Hainault West",0,0,516.0,24.231
-E02000754,"Woodford Green",0,0,501.0,20.112
-E02000755,"Woodford Bridge",0,0,376.0,14.566
-E02000756,"Fairlop",0,4,892.0,37.916
-E02000757,"South Woodford High Road",0,9,538.0,49.876
-E02000758,"Clayhall North",0,0,520.0,20.723
-E02000759,"Roding",0,11,538.0,28.128
-E02000760,"Barkingside North",0,0,365.0,22.759
-E02000762,"Barkingside West",0,2,649.0,15.490
-E02000763,"Aldborough Hatch",0,6,594.0,16.477
-E02000764,"Snaresbrook",0,16,541.0,21.652
-E02000765,"Barkingside East",0,2,1014.0,14.722
-E02000767,"Newbury Park",0,1,411.0,18.522
-E02000768,"Wanstead",0,6,379.0,6.288
-E02000769,"Chadwell Heath West",0,0,183.0,14.957
-E02000770,"Seven Kings Park",0,0,932.0,10.858
-E02000772,"Goodmayes North",0,8,842.0,10.392
-E02000773,"Ley Street",0,1,870.0,12.287
-E02000774,"Seven Kings Meads Lane",0,0,283.0,10.035
-E02000776,"Ilford North East",0,0,649.0,6.172
-E02000777,"Wanstead Flats",0,10,916.0,4.689
-E02000779,"Ilford North West",0,0,459.0,7.313
-E02000780,"Ilford South East",0,8,1391.0,113.674
-E02000781,"South Park",0,0,1157.0,16.159
-E02000782,"Ilford South West",0,0,459.0,7.412
-E02000783,"Loxford Park",0,1,874.0,5.548
-E02006800,"Goodmayes South",0,2,1190.0,15.558
-E02006924,"Valentines Park & Cranbrook",0,0,887.0,17.545
-E02006925,"Clayhall South",0,8,614.0,41.459
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02000751,"Woodford Wells",0,1,796.0,101.333,865.89
+E02000752,"Hainault East",0,0,617.0,36.081,1009.08
+E02000753,"Hainault West",0,0,516.0,24.231,62.60
+E02000754,"Woodford Green",0,0,501.0,20.112,107.47
+E02000755,"Woodford Bridge",0,0,376.0,14.566,111.70
+E02000756,"Fairlop",0,4,892.0,37.916,1407.32
+E02000757,"South Woodford High Road",0,9,538.0,49.876,698.16
+E02000758,"Clayhall North",0,0,520.0,20.723,74.67
+E02000759,"Roding",0,11,538.0,28.128,398.30
+E02000760,"Barkingside North",0,0,365.0,22.759,186.78
+E02000762,"Barkingside West",0,2,649.0,15.490,90.20
+E02000763,"Aldborough Hatch",0,6,594.0,16.477,1925.05
+E02000764,"Snaresbrook",0,16,541.0,21.652,653.18
+E02000765,"Barkingside East",0,2,1014.0,14.722,339.84
+E02000767,"Newbury Park",0,1,411.0,18.522,829.96
+E02000768,"Wanstead",0,6,379.0,6.288,232.88
+E02000769,"Chadwell Heath West",0,0,183.0,14.957,535.95
+E02000770,"Seven Kings Park",0,0,932.0,10.858,0.00
+E02000772,"Goodmayes North",0,8,842.0,10.392,1295.07
+E02000773,"Ley Street",0,1,870.0,12.287,0.00
+E02000774,"Seven Kings Meads Lane",0,0,283.0,10.035,0.00
+E02000776,"Ilford North East",0,0,649.0,6.172,158.63
+E02000777,"Wanstead Flats",0,10,916.0,4.689,703.11
+E02000779,"Ilford North West",0,0,459.0,7.313,8.00
+E02000780,"Ilford South East",0,8,1391.0,113.674,120.75
+E02000781,"South Park",0,0,1157.0,16.159,101.61
+E02000782,"Ilford South West",0,0,459.0,7.412,825.75
+E02000783,"Loxford Park",0,1,874.0,5.548,0.00
+E02006800,"Goodmayes South",0,2,1190.0,15.558,24.02
+E02006924,"Valentines Park & Cranbrook",0,0,887.0,17.545,311.85
+E02006925,"Clayhall South",0,8,614.0,41.459,983.61

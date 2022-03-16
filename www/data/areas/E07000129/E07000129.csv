@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005334,"Leicester Forest East",0,6,337.0,6.524
-E02005335,"Kirby Muxloe & Thurlaston",0,0,629.0,32.256
-E02005336,"Thorpe Astley",0,0,3428.0,44.436
-E02005337,"Braunstone Town",0,0,543.0,10.921
-E02005338,"Enderby & Glen Parva",0,10,2272.0,42.703
-E02005339,"Narborough",0,4,498.0,45.765
-E02005340,"Blaby Village",0,8,1874.0,27.676
-E02005341,"Whetstone",0,4,832.0,27.007
-E02005342,"Cosby",0,2,798.0,29.505
-E02005343,"Countesthorpe & Kilby",0,0,437.0,25.252
-E02005344,"Stoney Stanton",0,0,2052.0,42.963
-E02006820,"Glenfield",0,0,707.0,15.419
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005334,"Leicester Forest East",0,6,337.0,6.524,1326.19
+E02005335,"Kirby Muxloe & Thurlaston",0,0,629.0,32.256,828.08
+E02005336,"Thorpe Astley",0,0,3428.0,44.436,917.26
+E02005337,"Braunstone Town",0,0,543.0,10.921,1608.30
+E02005338,"Enderby & Glen Parva",0,10,2272.0,42.703,12722.14
+E02005339,"Narborough",0,4,498.0,45.765,3238.69
+E02005340,"Blaby Village",0,8,1874.0,27.676,965.27
+E02005341,"Whetstone",0,4,832.0,27.007,1057.96
+E02005342,"Cosby",0,2,798.0,29.505,255.80
+E02005343,"Countesthorpe & Kilby",0,0,437.0,25.252,482.90
+E02005344,"Stoney Stanton",0,0,2052.0,42.963,982.10
+E02006820,"Glenfield",0,0,707.0,15.419,3692.65

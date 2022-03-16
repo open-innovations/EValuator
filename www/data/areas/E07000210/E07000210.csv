@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006362,"Ashtead East",0,1,466.0,66.913
-E02006363,"Ashtead West",0,5,764.0,34.728
-E02006364,"Leatherhead North",0,5,909.0,89.658
-E02006365,"Leatherhead South & Ashtead South",0,0,764.0,42.372
-E02006366,"Fetcham",0,0,900.0,29.450
-E02006367,"Bookham North",0,0,1045.0,35.391
-E02006368,"Bookham South",0,0,966.0,33.437
-E02006369,"Box Hill & Brockham",0,1,1923.0,44.402
-E02006370,"Dorking North & Westhumble",0,10,1049.0,69.986
-E02006371,"Dorking South",0,0,403.0,25.204
-E02006372,"Holmwoods",0,0,403.0,25.340
-E02006373,"Westcott",0,0,403.0,48.986
-E02006374,"Charlwood",0,3,1313.0,32.685
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006362,"Ashtead East",0,1,466.0,66.913,411.62
+E02006363,"Ashtead West",0,5,764.0,34.728,407.62
+E02006364,"Leatherhead North",0,5,909.0,89.658,6866.12
+E02006365,"Leatherhead South & Ashtead South",0,0,764.0,42.372,2023.34
+E02006366,"Fetcham",0,0,900.0,29.450,372.71
+E02006367,"Bookham North",0,0,1045.0,35.391,193.85
+E02006368,"Bookham South",0,0,966.0,33.437,946.52
+E02006369,"Box Hill & Brockham",0,1,1923.0,44.402,3075.00
+E02006370,"Dorking North & Westhumble",0,10,1049.0,69.986,4001.22
+E02006371,"Dorking South",0,0,403.0,25.204,2331.76
+E02006372,"Holmwoods",0,0,403.0,25.340,553.15
+E02006373,"Westcott",0,0,403.0,48.986,2136.04
+E02006374,"Charlwood",0,3,1313.0,32.685,4575.79

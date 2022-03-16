@@ -1,68 +1,68 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003652,"Buckingham South",0,7,1110.0,54.512
-E02003653,"Buckingham North",0,9,1065.0,67.763
-E02003654,"Newton Longville & Great Horwood",0,0,839.0,43.917
-E02003655,"Marsh Gibbon",0,0,615.0,74.120
-E02003656,"Winslow & Padbury",0,1,685.0,38.225
-E02003657,"Granborough",0,1,2482.0,40.723
-E02003658,"Wing",0,0,934.0,49.920
-E02003659,"Waddesdon & Whitchurch",0,1,1145.0,51.768
-E02003660,"Cheddington",0,1,1303.0,38.879
-E02003661,"Oakley",0,6,747.0,59.391
-E02003662,"Watermead & Elmhurst",0,1,228.0,12.283
-E02003663,"Berryfields & Haydon Hill",0,4,805.0,51.679
-E02003664,"Gatehouse",0,7,228.0,26.959
-E02003665,"Victoria Park",0,2,63.0,5.411
-E02003666,"Aylesbury Central",0,10,499.0,43.381
-E02003667,"Fairford Leys",0,0,436.0,18.625
-E02003668,"Bedgrove & Walton",0,0,175.0,17.023
-E02003669,"California & Southcourt",0,1,112.0,10.186
-E02003670,"Mandeville & Elm Farm",0,1,497.0,17.506
-E02003671,"Walton Court & Hawkslade",0,2,112.0,8.769
-E02003672,"Stoke Mandeville & Aston Clinton",0,2,1176.0,81.131
-E02003673,"Haddenham",0,1,1029.0,28.650
-E02003674,"Worminghall",0,0,406.0,45.838
-E02003675,"Wendover",0,0,1406.0,95.046
-E02003676,"Hyde Heath",0,0,2463.0,49.205
-E02003677,"Chesham West",0,4,283.0,58.031
-E02003678,"Chesham East",0,0,283.0,20.534
-E02003679,"Chesham South",0,2,283.0,37.115
-E02003680,"Great Missenden & Prestwood",0,2,318.0,76.250
-E02003681,"Amersham-on-the-Hill & Chesham Bois",0,4,479.0,133.958
-E02003682,"Old Amersham",0,5,762.0,51.969
-E02003683,"Little Chalfont",0,7,479.0,46.057
-E02003685,"Chalfont St Giles",0,0,909.0,67.298
-E02003686,"Chalfont Common & St Peter East",0,1,1064.0,74.006
-E02003687,"Chalfont St Peter West",0,0,788.0,40.338
-E02003688,"Beaconsfield Town",0,1,778.0,160.818
-E02003689,"Gerrards Cross",0,2,1218.0,137.411
-E02003690,"Denham",0,9,1444.0,28.136
-E02003691,"Farnham & Hedgerley",0,3,2081.0,33.183
-E02003692,"Stoke Poges & George Green",0,0,5354.0,37.203
-E02003693,"Burham North",0,6,31743.0,33.520
-E02003694,"Burnham South",0,0,27446.0,13.636
-E02003695,"Iver & Richings Park",0,0,985.0,50.153
-E02003696,"Princes Risborough",0,4,346.0,87.692
-E02003697,"Longwick",0,0,1642.0,56.046
-E02003698,"Walter's Ash & Hughenden Valley",0,0,903.0,43.682
-E02003699,"Stokenchurch",0,0,534.0,33.952
-E02003701,"Downley",0,2,695.0,28.329
-E02003702,"Bledlow",0,0,2585.0,69.888
-E02003703,"Terriers & Amersham Hill",0,3,258.0,26.392
-E02003704,"Tylers Green",0,0,652.0,23.866
-E02003705,"Bowerdean",0,0,258.0,14.582
-E02003706,"Totteridge",0,0,258.0,15.546
-E02003707,"Sands",0,0,198.0,12.774
-E02003708,"Oakridge & Castlefield",0,1,356.0,14.692
-E02003709,"Micklefield",0,2,258.0,13.859
-E02003710,"Town Centre & Marlow Hill",0,5,1224.0,158.795
-E02003711,"Ryemead & Wycombe Marsh",0,6,652.0,27.892
-E02003712,"Lane End & Booker",0,1,1014.0,27.162
-E02003713,"Flackwell Heath",0,0,236.0,24.142
-E02003714,"Loudwater & Wooburn Green",0,2,862.0,38.375
-E02003715,"Marlow Bottom",0,1,2347.0,39.652
-E02003716,"Bourne End",0,1,27463.0,55.731
-E02003717,"Marlow West & North",0,4,777.0,56.876
-E02003718,"Marlow East",0,9,777.0,84.748
-E02006823,"Knotty Green & Holmer Green",0,0,913.0,51.699
-E02006824,"Hazlemere",0,0,629.0,41.985
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003652,"Buckingham South",0,7,1110.0,54.512,13654.59
+E02003653,"Buckingham North",0,9,1065.0,67.763,469.63
+E02003654,"Newton Longville & Great Horwood",0,0,839.0,43.917,346.41
+E02003655,"Marsh Gibbon",0,0,615.0,74.120,10637.01
+E02003656,"Winslow & Padbury",0,1,685.0,38.225,357.40
+E02003657,"Granborough",0,1,2482.0,40.723,1060.71
+E02003658,"Wing",0,0,934.0,49.920,646.19
+E02003659,"Waddesdon & Whitchurch",0,1,1145.0,51.768,4160.08
+E02003660,"Cheddington",0,1,1303.0,38.879,1269.95
+E02003661,"Oakley",0,6,747.0,59.391,478.41
+E02003662,"Watermead & Elmhurst",0,1,228.0,12.283,576.38
+E02003663,"Berryfields & Haydon Hill",0,4,805.0,51.679,3584.85
+E02003664,"Gatehouse",0,7,228.0,26.959,970.75
+E02003665,"Victoria Park",0,2,63.0,5.411,1299.26
+E02003666,"Aylesbury Central",0,10,499.0,43.381,5353.75
+E02003667,"Fairford Leys",0,0,436.0,18.625,3697.31
+E02003668,"Bedgrove & Walton",0,0,175.0,17.023,741.22
+E02003669,"California & Southcourt",0,1,112.0,10.186,99.51
+E02003670,"Mandeville & Elm Farm",0,1,497.0,17.506,1546.37
+E02003671,"Walton Court & Hawkslade",0,2,112.0,8.769,172.46
+E02003672,"Stoke Mandeville & Aston Clinton",0,2,1176.0,81.131,2614.33
+E02003673,"Haddenham",0,1,1029.0,28.650,1329.48
+E02003674,"Worminghall",0,0,406.0,45.838,258.13
+E02003675,"Wendover",0,0,1406.0,95.046,3908.05
+E02003676,"Hyde Heath",0,0,2463.0,49.205,861.34
+E02003677,"Chesham West",0,4,283.0,58.031,7.38
+E02003678,"Chesham East",0,0,283.0,20.534,66.47
+E02003679,"Chesham South",0,2,283.0,37.115,1562.18
+E02003680,"Great Missenden & Prestwood",0,2,318.0,76.250,1385.73
+E02003681,"Amersham-on-the-Hill & Chesham Bois",0,4,479.0,133.958,2254.96
+E02003682,"Old Amersham",0,5,762.0,51.969,1079.68
+E02003683,"Little Chalfont",0,7,479.0,46.057,1918.81
+E02003685,"Chalfont St Giles",0,0,909.0,67.298,1015.74
+E02003686,"Chalfont Common & St Peter East",0,1,1064.0,74.006,1583.73
+E02003687,"Chalfont St Peter West",0,0,788.0,40.338,559.68
+E02003688,"Beaconsfield Town",0,1,778.0,160.818,1940.97
+E02003689,"Gerrards Cross",0,2,1218.0,137.411,1429.07
+E02003690,"Denham",0,9,1444.0,28.136,3006.39
+E02003691,"Farnham & Hedgerley",0,3,2081.0,33.183,1376.42
+E02003692,"Stoke Poges & George Green",0,0,5354.0,37.203,3130.67
+E02003693,"Burham North",0,6,31743.0,33.520,3205.54
+E02003694,"Burnham South",0,0,27446.0,13.636,397.87
+E02003695,"Iver & Richings Park",0,0,985.0,50.153,3638.74
+E02003696,"Princes Risborough",0,4,346.0,87.692,2034.91
+E02003697,"Longwick",0,0,1642.0,56.046,875.76
+E02003698,"Walter's Ash & Hughenden Valley",0,0,903.0,43.682,804.54
+E02003699,"Stokenchurch",0,0,534.0,33.952,864.10
+E02003701,"Downley",0,2,695.0,28.329,1184.07
+E02003702,"Bledlow",0,0,2585.0,69.888,1752.44
+E02003703,"Terriers & Amersham Hill",0,3,258.0,26.392,205.40
+E02003704,"Tylers Green",0,0,652.0,23.866,330.59
+E02003705,"Bowerdean",0,0,258.0,14.582,415.23
+E02003706,"Totteridge",0,0,258.0,15.546,163.18
+E02003707,"Sands",0,0,198.0,12.774,928.66
+E02003708,"Oakridge & Castlefield",0,1,356.0,14.692,191.35
+E02003709,"Micklefield",0,2,258.0,13.859,108.57
+E02003710,"Town Centre & Marlow Hill",0,5,1224.0,158.795,4178.86
+E02003711,"Ryemead & Wycombe Marsh",0,6,652.0,27.892,1695.33
+E02003712,"Lane End & Booker",0,1,1014.0,27.162,3744.55
+E02003713,"Flackwell Heath",0,0,236.0,24.142,150.24
+E02003714,"Loudwater & Wooburn Green",0,2,862.0,38.375,1035.52
+E02003715,"Marlow Bottom",0,1,2347.0,39.652,1211.84
+E02003716,"Bourne End",0,1,27463.0,55.731,287.67
+E02003717,"Marlow West & North",0,4,777.0,56.876,1628.55
+E02003718,"Marlow East",0,9,777.0,84.748,2028.34
+E02006823,"Knotty Green & Holmer Green",0,0,913.0,51.699,448.71
+E02006824,"Hazlemere",0,0,629.0,41.985,546.23

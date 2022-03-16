@@ -1,43 +1,43 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02001958,"Longford",0,30,760.0,8.822
-E02001959,"Keresley",0,18,539.0,9.483
-E02001961,"Bell Green",0,2,360.0,7.386
-E02001962,"Little Heath",0,4,223.0,5.653
-E02001963,"Whitmore Park",0,22,223.0,4.475
-E02001964,"Henley Green & Wood End",0,3,137.0,11.835
-E02001965,"Walsgrave & Woodway Park",0,3,353.0,9.858
-E02001966,"Foleshill West",0,7,1967.0,24.029
-E02001967,"Brownshill Green",0,0,755.0,21.856
-E02001968,"Radford East",0,20,223.0,5.700
-E02001969,"Radford West",0,28,223.0,5.229
-E02001970,"Wyken Croft",0,0,360.0,5.871
-E02001971,"Coundon",0,6,223.0,5.041
-E02001972,"Foleshill East",0,3,321.0,7.208
-E02001973,"Stoke Heath",0,14,360.0,8.827
-E02001974,"Sherbourne",0,19,537.0,12.176
-E02001975,"Ravensdale",0,13,137.0,6.148
-E02001976,"Clifford Park",0,11,886.0,10.397
-E02001977,"Naul's Mill & Bishopsgate Green",0,31,321.0,2.968
-E02001978,"Barras Heath",0,18,137.0,5.584
-E02001979,"Allesley Park",0,8,216.0,12.362
-E02001980,"Allesley Green & Lower Eastern Green",0,0,216.0,16.936
-E02001981,"Hillfields",0,5,235.0,2.510
-E02001982,"Eastern Green & Tanyard Farm",0,0,444.0,17.401
-E02001983,"Whoberley",0,55,444.0,17.878
-E02001984,"Copsewood",0,27,886.0,13.458
-E02001985,"Lower Stoke & Gosford Park",0,19,984.0,2.817
-E02001986,"Tile Hill",0,0,444.0,22.002
-E02001987,"Chapelfields",0,18,314.0,13.970
-E02001988,"Central Coventry",0,36,2347.0,119.029
-E02001989,"Earl Place & Lime Tree Park",0,0,444.0,12.853
-E02001990,"Binley",0,4,886.0,18.973
-E02001991,"Earlsdon & Canley Gardens",0,17,1193.0,26.008
-E02001992,"Ernesford Grange & Stoke Aldermoor",0,13,749.0,19.328
-E02001993,"Canley & Westwood Heath",0,3,228.0,24.235
-E02001994,"Cheylesmore Daventry Road",0,15,847.0,16.976
-E02001995,"Whitley & Tollbar End",0,4,847.0,21.681
-E02001996,"Willenhall",0,1,1587.0,44.363
-E02001997,"Stivichall & Finham",0,0,1045.0,17.023
-E02001998,"Finham Park",0,0,749.0,9.715
-E02001999,"Cannon Park & University",0,2,1193.0,17.565
-E02006805,"Holbrooks",0,0,223.0,6.171
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02001958,"Longford",0,30,760.0,8.822,1380.74
+E02001959,"Keresley",0,18,539.0,9.483,1733.50
+E02001961,"Bell Green",0,2,360.0,7.386,378.89
+E02001962,"Little Heath",0,4,223.0,5.653,1865.84
+E02001963,"Whitmore Park",0,22,223.0,4.475,70.24
+E02001964,"Henley Green & Wood End",0,3,137.0,11.835,342.29
+E02001965,"Walsgrave & Woodway Park",0,3,353.0,9.858,3295.77
+E02001966,"Foleshill West",0,7,1967.0,24.029,157.49
+E02001967,"Brownshill Green",0,0,755.0,21.856,1664.10
+E02001968,"Radford East",0,20,223.0,5.700,226.04
+E02001969,"Radford West",0,28,223.0,5.229,251.32
+E02001970,"Wyken Croft",0,0,360.0,5.871,40.75
+E02001971,"Coundon",0,6,223.0,5.041,80.86
+E02001972,"Foleshill East",0,3,321.0,7.208,1276.69
+E02001973,"Stoke Heath",0,14,360.0,8.827,1258.44
+E02001974,"Sherbourne",0,19,537.0,12.176,1434.87
+E02001975,"Ravensdale",0,13,137.0,6.148,243.04
+E02001976,"Clifford Park",0,11,886.0,10.397,3870.87
+E02001977,"Naul's Mill & Bishopsgate Green",0,31,321.0,2.968,1084.50
+E02001978,"Barras Heath",0,18,137.0,5.584,142.30
+E02001979,"Allesley Park",0,8,216.0,12.362,167.36
+E02001980,"Allesley Green & Lower Eastern Green",0,0,216.0,16.936,34.05
+E02001981,"Hillfields",0,5,235.0,2.510,1472.68
+E02001982,"Eastern Green & Tanyard Farm",0,0,444.0,17.401,355.72
+E02001983,"Whoberley",0,55,444.0,17.878,827.33
+E02001984,"Copsewood",0,27,886.0,13.458,190.77
+E02001985,"Lower Stoke & Gosford Park",0,19,984.0,2.817,1166.54
+E02001986,"Tile Hill",0,0,444.0,22.002,2.32
+E02001987,"Chapelfields",0,18,314.0,13.970,256.89
+E02001988,"Central Coventry",0,36,2347.0,119.029,5779.74
+E02001989,"Earl Place & Lime Tree Park",0,0,444.0,12.853,1192.00
+E02001990,"Binley",0,4,886.0,18.973,1969.95
+E02001991,"Earlsdon & Canley Gardens",0,17,1193.0,26.008,638.31
+E02001992,"Ernesford Grange & Stoke Aldermoor",0,13,749.0,19.328,169.76
+E02001993,"Canley & Westwood Heath",0,3,228.0,24.235,3898.31
+E02001994,"Cheylesmore Daventry Road",0,15,847.0,16.976,221.45
+E02001995,"Whitley & Tollbar End",0,4,847.0,21.681,6357.02
+E02001996,"Willenhall",0,1,1587.0,44.363,824.56
+E02001997,"Stivichall & Finham",0,0,1045.0,17.023,120.02
+E02001998,"Finham Park",0,0,749.0,9.715,120.02
+E02001999,"Cannon Park & University",0,2,1193.0,17.565,5927.36
+E02006805,"Holbrooks",0,0,223.0,6.171,755.72

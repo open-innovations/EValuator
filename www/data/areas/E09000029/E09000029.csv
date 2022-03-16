@@ -1,25 +1,25 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02000840,"Middleton Circle",0,0,877.0,11.739
-E02000841,"St Helier South",0,5,718.0,12.540
-E02000842,"Stonecot",0,6,386.0,22.700
-E02000843,"Hackbridge",0,0,845.0,14.463
-E02000844,"The Wrythe",0,1,468.0,14.113
-E02000845,"Worcester Park East",0,0,679.0,55.896
-E02000846,"Sutton North",0,0,221.0,7.664
-E02000847,"North Cheam West",0,0,1094.0,27.785
-E02000848,"North Cheam East",0,4,626.0,17.232
-E02000849,"Wallington North",0,2,630.0,11.953
-E02000850,"Beddington",0,1,1156.0,15.984
-E02000851,"Sutton Central",0,21,638.0,74.661
-E02000852,"Sutton East",0,0,468.0,9.068
-E02000853,"Sutton West",0,2,221.0,8.661
-E02000854,"Carshalton Village",0,3,686.0,18.608
-E02000855,"Cheam High Street",0,1,638.0,27.481
-E02000856,"Wallington South",0,2,465.0,55.078
-E02000857,"Sutton South West",0,7,473.0,30.052
-E02000858,"Roundshaw",0,0,1538.0,12.279
-E02000859,"Carshalton on the Hill",0,4,465.0,16.006
-E02000860,"Sutton South & Shanklin",0,3,252.0,26.484
-E02000861,"Carshalton Beeches & Banstead Road",0,1,720.0,18.323
-E02000863,"Orchard Hill",0,0,1933.0,21.302
-E02006836,"Belmont & South Cheam",0,0,1128.0,30.861
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02000840,"Middleton Circle",0,0,877.0,11.739,258.82
+E02000841,"St Helier South",0,5,718.0,12.540,1112.54
+E02000842,"Stonecot",0,6,386.0,22.700,1036.59
+E02000843,"Hackbridge",0,0,845.0,14.463,1990.08
+E02000844,"The Wrythe",0,1,468.0,14.113,325.62
+E02000845,"Worcester Park East",0,0,679.0,55.896,462.75
+E02000846,"Sutton North",0,0,221.0,7.664,316.42
+E02000847,"North Cheam West",0,0,1094.0,27.785,54.51
+E02000848,"North Cheam East",0,4,626.0,17.232,578.77
+E02000849,"Wallington North",0,2,630.0,11.953,727.93
+E02000850,"Beddington",0,1,1156.0,15.984,4151.76
+E02000851,"Sutton Central",0,21,638.0,74.661,1430.66
+E02000852,"Sutton East",0,0,468.0,9.068,251.59
+E02000853,"Sutton West",0,2,221.0,8.661,236.34
+E02000854,"Carshalton Village",0,3,686.0,18.608,478.72
+E02000855,"Cheam High Street",0,1,638.0,27.481,512.57
+E02000856,"Wallington South",0,2,465.0,55.078,634.20
+E02000857,"Sutton South West",0,7,473.0,30.052,269.76
+E02000858,"Roundshaw",0,0,1538.0,12.279,299.68
+E02000859,"Carshalton on the Hill",0,4,465.0,16.006,659.25
+E02000860,"Sutton South & Shanklin",0,3,252.0,26.484,1021.91
+E02000861,"Carshalton Beeches & Banstead Road",0,1,720.0,18.323,1027.14
+E02000863,"Orchard Hill",0,0,1933.0,21.302,973.43
+E02006836,"Belmont & South Cheam",0,0,1128.0,30.861,240.24

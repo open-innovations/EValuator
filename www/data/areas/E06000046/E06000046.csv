@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003581,"Cowes Central",0,2,110.0,17.681
-E02003582,"Cowes West",0,0,249.0,13.908
-E02003583,"East Cowes & Osborne",0,0,189.0,10.697
-E02003584,"Ryde Central",0,0,154.0,11.876
-E02003585,"Binstead & Wootton",0,1,154.0,10.445
-E02003586,"Ryde West & Havenstreet",0,0,154.0,12.544
-E02003587,"Ryde South",0,0,207.0,19.609
-E02003588,"Newport East & Parkhurst East",0,2,446.0,20.067
-E02003589,"Newport Central & Parkhurst West",0,1,164.0,13.144
-E02003590,"Bembridge & Nettlestone",0,3,281.0,37.126
-E02003591,"Newport South & West",0,0,330.0,11.225
-E02003592,"Yarmouth & Freshwater",0,2,240.0,12.105
-E02003593,"Brighstone & Shalfleet",0,0,359.0,8.596
-E02003594,"Sandown & Brading",0,4,271.0,16.880
-E02003595,"Shanklin West & Newchurch",0,1,209.0,11.503
-E02003596,"Shanklin Central & Lake",0,0,117.0,19.248
-E02003597,"Niton",0,0,330.0,19.363
-E02003598,"Ventnor & Wroxall",0,1,92.0,28.983
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003581,"Cowes Central",0,2,110.0,17.681,1494.32
+E02003582,"Cowes West",0,0,249.0,13.908,2700.24
+E02003583,"East Cowes & Osborne",0,0,189.0,10.697,3038.26
+E02003584,"Ryde Central",0,0,154.0,11.876,1551.97
+E02003585,"Binstead & Wootton",0,1,154.0,10.445,1786.28
+E02003586,"Ryde West & Havenstreet",0,0,154.0,12.544,1268.35
+E02003587,"Ryde South",0,0,207.0,19.609,1834.20
+E02003588,"Newport East & Parkhurst East",0,2,446.0,20.067,9564.25
+E02003589,"Newport Central & Parkhurst West",0,1,164.0,13.144,4548.71
+E02003590,"Bembridge & Nettlestone",0,3,281.0,37.126,3592.20
+E02003591,"Newport South & West",0,0,330.0,11.225,4227.35
+E02003592,"Yarmouth & Freshwater",0,2,240.0,12.105,4780.24
+E02003593,"Brighstone & Shalfleet",0,0,359.0,8.596,2025.27
+E02003594,"Sandown & Brading",0,4,271.0,16.880,3238.69
+E02003595,"Shanklin West & Newchurch",0,1,209.0,11.503,3164.07
+E02003596,"Shanklin Central & Lake",0,0,117.0,19.248,2308.16
+E02003597,"Niton",0,0,330.0,19.363,1884.66
+E02003598,"Ventnor & Wroxall",0,1,92.0,28.983,2325.80

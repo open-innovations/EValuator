@@ -1,67 +1,67 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004290,"Ouston & Beamish",314,0,346.0,17.057
-E02004291,"Pelton & Perkinsville",315,1,233.0,21.464
-E02004292,"Chester-le-Street North",321,6,380.0,25.966
-E02004293,"Chester-le-Street Town & Pelton Fell",309,2,225.0,53.980
-E02004294,"Chester-le-Street South & East",309,5,225.0,25.410
-E02004295,"Great Lumley & Bournmoor",339,0,529.0,26.321
-E02004296,"Sacriston",289,1,702.0,32.570
-E02004297,"Burnopfield",259,4,256.0,26.476
-E02004298,"Benfieldside",220,0,215.0,30.314
-E02004299,"Stanley North & East",305,8,294.0,16.809
-E02004300,"Catchgate & Dipton",245,0,215.0,16.587
-E02004301,"Stanley South",302,4,121.0,13.578
-E02004302,"Stanley West & Annfield Plain",274,7,121.0,15.230
-E02004303,"Consett",220,6,145.0,38.447
-E02004304,"Delves Lane & Leadgate",216,1,266.0,29.518
-E02004305,"Bridgehill",218,0,206.0,27.119
-E02004306,"Lanchester",246,1,489.0,25.685
-E02004307,"Langley Park & Satley",245,0,223.0,22.674
-E02004308,"Newton Hall & Brasside",309,2,529.0,16.019
-E02004309,"Pity Me & Framwellgate Moor",306,12,315.0,14.689
-E02004310,"Bearpark & Witton Gilbert",271,3,589.0,23.562
-E02004311,"Sherburn & West Rainton",332,0,571.0,29.352
-E02004312,"Belmont & Carrville",332,9,852.0,62.177
-E02004313,"Gilesgate & Old Durham",330,8,315.0,23.215
-E02004314,"Durham City",326,29,852.0,58.657
-E02004315,"Aykley Heads",311,19,586.0,44.090
-E02004316,"Esh Winning & Ushaw Moor",219,0,223.0,17.861
-E02004317,"Brandon & Brancepeth",272,0,302.0,18.091
-E02004318,"High Shincliffe & Bowburn",336,3,424.0,23.228
-E02004319,"Coxhoe & Quarrington Hill",337,0,491.0,22.739
-E02004320,"Seaham Northlea & Westlea",327,0,122.0,14.356
-E02004321,"Seaham Central & South",318,9,122.0,21.186
-E02004322,"Murton North & Parkside",327,0,122.0,15.684
-E02004323,"South Murton & South Hetton",329,4,231.0,17.545
-E02004324,"Easington & Hawthorn",328,0,300.0,10.901
-E02004325,"Peterlee East",327,1,69.0,8.814
-E02004326,"Shotton & Haswell",331,0,178.0,22.250
-E02004327,"Horden",322,0,69.0,6.769
-E02004328,"Peterlee West",335,0,69.0,5.429
-E02004329,"Peterlee South",61,0,69.0,12.199
-E02004330,"Blackhall",324,0,102.0,10.808
-E02004331,"Thornley & Wheatley Hill",334,0,140.0,22.800
-E02004332,"Wingate & Castle Eden",333,0,64.0,20.606
-E02004333,"Tudhoe Grange",304,0,188.0,17.347
-E02004334,"Trimdon & Fishburn",326,0,146.0,17.152
-E02004335,"Spennymoor East & Ferryhill West",321,7,235.0,20.799
-E02004336,"Ferryhill East & Cornforth",333,0,156.0,10.224
-E02004337,"Spennymoor West",314,0,241.0,44.725
-E02004338,"Chilton",327,0,182.0,11.173
-E02004339,"Sedgefield & Bishop Middleham",325,2,698.0,29.829
-E02004340,"Shildon",304,2,214.0,0.962
-E02004341,"Newton Aycliffe North",321,0,182.0,18.889
-E02004342,"Newton Aycliffe West",309,0,135.0,8.786
-E02004343,"Newton Aycliffe East",311,3,182.0,16.166
-E02004344,"Newton Aycliffe South",310,7,439.0,45.559
-E02004345,"Evenwood",232,0,789.0,41.024
-E02004346,"Upper Teesdale",62,11,234.0,21.032
-E02004347,"Barnard Castle",117,1,50.0,13.537
-E02004348,"Stanhope & Weardale",69,0,382.0,23.396
-E02004349,"Crook North & Tow Law",122,0,122.0,17.697
-E02004350,"Crook South",161,1,478.0,24.626
-E02004351,"Coundon North",252,0,176.0,13.800
-E02004352,"Bishop Auckland North & Coundon Grange",309,5,196.0,16.766
-E02004353,"Bishop Auckland Central & West",280,0,257.0,18.156
-E02004354,"Saint Helen Auckland & West Auckland",262,4,176.0,14.830
-E02004355,"Bishop Auckland South",291,3,115.0,7.039
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004290,"Ouston & Beamish",314,0,346.0,17.057,3096.79
+E02004291,"Pelton & Perkinsville",315,1,233.0,21.464,256.14
+E02004292,"Chester-le-Street North",321,6,380.0,25.966,2683.50
+E02004293,"Chester-le-Street Town & Pelton Fell",309,2,225.0,53.980,2259.43
+E02004294,"Chester-le-Street South & East",309,5,225.0,25.410,2272.82
+E02004295,"Great Lumley & Bournmoor",339,0,529.0,26.321,894.35
+E02004296,"Sacriston",289,1,702.0,32.570,845.80
+E02004297,"Burnopfield",259,4,256.0,26.476,918.43
+E02004298,"Benfieldside",220,0,215.0,30.314,691.97
+E02004299,"Stanley North & East",305,8,294.0,16.809,2974.56
+E02004300,"Catchgate & Dipton",245,0,215.0,16.587,645.39
+E02004301,"Stanley South",302,4,121.0,13.578,605.56
+E02004302,"Stanley West & Annfield Plain",274,7,121.0,15.230,884.34
+E02004303,"Consett",220,6,145.0,38.447,2301.27
+E02004304,"Delves Lane & Leadgate",216,1,266.0,29.518,791.85
+E02004305,"Bridgehill",218,0,206.0,27.119,1436.75
+E02004306,"Lanchester",246,1,489.0,25.685,601.44
+E02004307,"Langley Park & Satley",245,0,223.0,22.674,829.42
+E02004308,"Newton Hall & Brasside",309,2,529.0,16.019,3740.47
+E02004309,"Pity Me & Framwellgate Moor",306,12,315.0,14.689,1896.34
+E02004310,"Bearpark & Witton Gilbert",271,3,589.0,23.562,1471.35
+E02004311,"Sherburn & West Rainton",332,0,571.0,29.352,490.62
+E02004312,"Belmont & Carrville",332,9,852.0,62.177,3441.86
+E02004313,"Gilesgate & Old Durham",330,8,315.0,23.215,3652.26
+E02004314,"Durham City",326,29,852.0,58.657,5429.80
+E02004315,"Aykley Heads",311,19,586.0,44.090,6972.40
+E02004316,"Esh Winning & Ushaw Moor",219,0,223.0,17.861,243.86
+E02004317,"Brandon & Brancepeth",272,0,302.0,18.091,535.09
+E02004318,"High Shincliffe & Bowburn",336,3,424.0,23.228,1147.17
+E02004319,"Coxhoe & Quarrington Hill",337,0,491.0,22.739,284.61
+E02004320,"Seaham Northlea & Westlea",327,0,122.0,14.356,1066.33
+E02004321,"Seaham Central & South",318,9,122.0,21.186,2202.77
+E02004322,"Murton North & Parkside",327,0,122.0,15.684,199.18
+E02004323,"South Murton & South Hetton",329,4,231.0,17.545,1749.94
+E02004324,"Easington & Hawthorn",328,0,300.0,10.901,644.99
+E02004325,"Peterlee East",327,1,69.0,8.814,398.15
+E02004326,"Shotton & Haswell",331,0,178.0,22.250,3714.12
+E02004327,"Horden",322,0,69.0,6.769,284.22
+E02004328,"Peterlee West",335,0,69.0,5.429,888.26
+E02004329,"Peterlee South",61,0,69.0,12.199,1942.14
+E02004330,"Blackhall",324,0,102.0,10.808,525.58
+E02004331,"Thornley & Wheatley Hill",334,0,140.0,22.800,197.07
+E02004332,"Wingate & Castle Eden",333,0,64.0,20.606,63.80
+E02004333,"Tudhoe Grange",304,0,188.0,17.347,694.88
+E02004334,"Trimdon & Fishburn",326,0,146.0,17.152,605.09
+E02004335,"Spennymoor East & Ferryhill West",321,7,235.0,20.799,2020.45
+E02004336,"Ferryhill East & Cornforth",333,0,156.0,10.224,165.96
+E02004337,"Spennymoor West",314,0,241.0,44.725,839.41
+E02004338,"Chilton",327,0,182.0,11.173,307.15
+E02004339,"Sedgefield & Bishop Middleham",325,2,698.0,29.829,3472.01
+E02004340,"Shildon",304,2,214.0,0.962,1020.65
+E02004341,"Newton Aycliffe North",321,0,182.0,18.889,235.56
+E02004342,"Newton Aycliffe West",309,0,135.0,8.786,507.41
+E02004343,"Newton Aycliffe East",311,3,182.0,16.166,654.82
+E02004344,"Newton Aycliffe South",310,7,439.0,45.559,1895.92
+E02004345,"Evenwood",232,0,789.0,41.024,1743.88
+E02004346,"Upper Teesdale",62,11,234.0,21.032,1227.77
+E02004347,"Barnard Castle",117,1,50.0,13.537,2607.09
+E02004348,"Stanhope & Weardale",69,0,382.0,23.396,1691.06
+E02004349,"Crook North & Tow Law",122,0,122.0,17.697,245.32
+E02004350,"Crook South",161,1,478.0,24.626,1168.52
+E02004351,"Coundon North",252,0,176.0,13.800,449.00
+E02004352,"Bishop Auckland North & Coundon Grange",309,5,196.0,16.766,1954.59
+E02004353,"Bishop Auckland Central & West",280,0,257.0,18.156,1024.01
+E02004354,"Saint Helen Auckland & West Auckland",262,4,176.0,14.830,2148.06
+E02004355,"Bishop Auckland South",291,3,115.0,7.039,1383.24

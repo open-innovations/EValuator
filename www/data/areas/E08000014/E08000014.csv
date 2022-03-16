@@ -1,39 +1,39 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02001429,"Crossens",247,0,163.0,14.226
-E02001430,"Marshside",229,0,163.0,13.549
-E02001431,"Hesketh Park",222,0,163.0,15.327
-E02001432,"Southport Waterfront",224,1,427.0,46.966
-E02001433,"Southport High Park",215,0,427.0,12.707
-E02001434,"Meols Cop",230,0,427.0,14.903
-E02001435,"Southport South",227,0,264.0,18.578
-E02001436,"Southport Kew",241,6,427.0,68.631
-E02001437,"Birkdale",237,0,264.0,28.002
-E02001438,"Hillside",242,0,264.0,13.462
-E02001439,"Ainsdale East",324,0,264.0,13.103
-E02001440,"Ainsdale West",340,0,264.0,15.616
-E02001441,"Formby West & Freshfield North",364,1,132.0,27.471
-E02001442,"Formby Central & Freshfield South",440,0,155.0,48.027
-E02001443,"Formby South West",409,0,132.0,21.435
-E02001444,"Formby South East & Ince Blundell",515,2,294.0,27.728
-E02001445,"Maghull North West & Lydiate",665,0,189.0,24.600
-E02001446,"Maghull North East",736,0,189.0,19.159
-E02001447,"Maghull South East",717,0,189.0,20.342
-E02001448,"Maghull South West",741,2,328.0,32.650
-E02001449,"Hightown & Thornton",685,0,266.0,31.363
-E02001450,"Blundellsands",484,0,139.0,31.953
-E02001451,"Netherton North",687,0,28.0,5.868
-E02001452,"Ford",669,0,190.0,11.148
-E02001453,"Crosby East",549,0,164.0,25.323
-E02001454,"Aintree East & Waddicar",773,0,282.0,17.873
-E02001455,"Aintree West & Old Roan",760,5,152.0,11.027
-E02001456,"Brighton le Sands & Crosby West",450,1,164.0,18.376
-E02001457,"Netherton South",705,0,28.0,9.426
-E02001458,"Waterloo",444,0,164.0,28.561
-E02001459,"Litherland North",597,0,23.0,5.139
-E02001460,"Seaforth North",470,2,48.0,8.967
-E02001461,"Litherland South",641,0,130.0,6.635
-E02001462,"Seaforth South",500,0,102.0,9.498
-E02001463,"Orrell",600,1,226.0,7.901
-E02001464,"Bootle North",485,0,102.0,4.320
-E02001465,"Bootle South",472,0,130.0,12.216
-E02001466,"Bootle East",563,0,79.0,4.502
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02001429,"Crossens",247,0,163.0,14.226,187.25
+E02001430,"Marshside",229,0,163.0,13.549,527.33
+E02001431,"Hesketh Park",222,0,163.0,15.327,222.15
+E02001432,"Southport Waterfront",224,1,427.0,46.966,6276.74
+E02001433,"Southport High Park",215,0,427.0,12.707,154.16
+E02001434,"Meols Cop",230,0,427.0,14.903,1376.21
+E02001435,"Southport South",227,0,264.0,18.578,701.63
+E02001436,"Southport Kew",241,6,427.0,68.631,3235.23
+E02001437,"Birkdale",237,0,264.0,28.002,3117.68
+E02001438,"Hillside",242,0,264.0,13.462,287.34
+E02001439,"Ainsdale East",324,0,264.0,13.103,511.74
+E02001440,"Ainsdale West",340,0,264.0,15.616,916.35
+E02001441,"Formby West & Freshfield North",364,1,132.0,27.471,1028.62
+E02001442,"Formby Central & Freshfield South",440,0,155.0,48.027,1297.39
+E02001443,"Formby South West",409,0,132.0,21.435,954.57
+E02001444,"Formby South East & Ince Blundell",515,2,294.0,27.728,897.82
+E02001445,"Maghull North West & Lydiate",665,0,189.0,24.600,0.00
+E02001446,"Maghull North East",736,0,189.0,19.159,287.03
+E02001447,"Maghull South East",717,0,189.0,20.342,385.84
+E02001448,"Maghull South West",741,2,328.0,32.650,298.73
+E02001449,"Hightown & Thornton",685,0,266.0,31.363,444.37
+E02001450,"Blundellsands",484,0,139.0,31.953,773.50
+E02001451,"Netherton North",687,0,28.0,5.868,100.00
+E02001452,"Ford",669,0,190.0,11.148,196.09
+E02001453,"Crosby East",549,0,164.0,25.323,221.53
+E02001454,"Aintree East & Waddicar",773,0,282.0,17.873,408.03
+E02001455,"Aintree West & Old Roan",760,5,152.0,11.027,1529.00
+E02001456,"Brighton le Sands & Crosby West",450,1,164.0,18.376,339.05
+E02001457,"Netherton South",705,0,28.0,9.426,2207.55
+E02001458,"Waterloo",444,0,164.0,28.561,279.93
+E02001459,"Litherland North",597,0,23.0,5.139,36.08
+E02001460,"Seaforth North",470,2,48.0,8.967,251.34
+E02001461,"Litherland South",641,0,130.0,6.635,93.76
+E02001462,"Seaforth South",500,0,102.0,9.498,685.79
+E02001463,"Orrell",600,1,226.0,7.901,468.87
+E02001464,"Bootle North",485,0,102.0,4.320,212.17
+E02001465,"Bootle South",472,0,130.0,12.216,2096.83
+E02001466,"Bootle East",563,0,79.0,4.502,469.99

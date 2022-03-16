@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-W02000097,"Llanfyllin & Llanwyddyn",0,0,251.0,28.506
-W02000098,"Four Crosses & Guilsfield",0,0,276.0,12.420
-W02000099,"Welshpool",0,2,101.0,15.831
-W02000100,"Machynlleth & Banwy",0,2,108.0,2.073
-W02000101,"Montgomery",0,0,256.0,12.983
-W02000102,"Llanfair Caereinion & Caersws",0,1,150.0,13.755
-W02000103,"Abermule",0,1,409.0,13.511
-W02000104,"Newtown North",0,5,80.0,14.851
-W02000105,"Newtown South",0,0,59.0,4.139
-W02000106,"Llanidloes",0,2,99.0,16.519
-W02000107,"Knighton & Presteigne",0,3,192.0,15.958
-W02000108,"Rhayader",0,0,171.0,4.193
-W02000109,"Llandrindod Wells",0,3,91.0,7.796
-W02000110,"Builth Wells & Llanwrtyd Wells",0,2,100.0,0.660
-W02000111,"Hay-on-Wye & Talgarth",0,0,392.0,23.618
-W02000113,"Brecon",0,5,123.0,21.704
-W02000114,"Crickhowell",0,0,306.0,20.349
-W02000414,"Sennybridge & Talybont-on-Usk",0,2,231.0,17.688
-W02000416,"Ystradgynlais & Tawe Uchaf",0,2,292.0,20.012
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+W02000097,"Llanfyllin & Llanwyddyn",0,0,251.0,28.506,1265.78
+W02000098,"Four Crosses & Guilsfield",0,0,276.0,12.420,487.07
+W02000099,"Welshpool",0,2,101.0,15.831,5772.20
+W02000100,"Machynlleth & Banwy",0,2,108.0,2.073,1302.36
+W02000101,"Montgomery",0,0,256.0,12.983,828.52
+W02000102,"Llanfair Caereinion & Caersws",0,1,150.0,13.755,260.37
+W02000103,"Abermule",0,1,409.0,13.511,674.96
+W02000104,"Newtown North",0,5,80.0,14.851,3368.01
+W02000105,"Newtown South",0,0,59.0,4.139,609.33
+W02000106,"Llanidloes",0,2,99.0,16.519,2093.76
+W02000107,"Knighton & Presteigne",0,3,192.0,15.958,1131.24
+W02000108,"Rhayader",0,0,171.0,4.193,1000.20
+W02000109,"Llandrindod Wells",0,3,91.0,7.796,2368.78
+W02000110,"Builth Wells & Llanwrtyd Wells",0,2,100.0,0.660,1385.38
+W02000111,"Hay-on-Wye & Talgarth",0,0,392.0,23.618,1542.37
+W02000113,"Brecon",0,5,123.0,21.704,2495.00
+W02000114,"Crickhowell",0,0,306.0,20.349,1031.59
+W02000414,"Sennybridge & Talybont-on-Usk",0,2,231.0,17.688,0.00
+W02000416,"Ystradgynlais & Tawe Uchaf",0,2,292.0,20.012,0.00

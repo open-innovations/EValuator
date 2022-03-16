@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005465,"Donington",0,0,265.0,23.821
-E02005466,"Long Sutton West",0,1,222.0,19.193
-E02005467,"Holbeach",0,2,222.0,17.698
-E02005468,"Moulton",0,0,222.0,21.474
-E02005469,"Pinchbeck & Deeping St Nicholas",0,0,806.0,39.536
-E02005470,"Spalding North",0,3,200.0,34.986
-E02005471,"Spalding East",0,1,422.0,21.585
-E02005472,"Long Sutton East & Sutton Bridge",0,0,511.0,23.360
-E02005473,"Spalding South West",0,0,200.0,17.414
-E02005474,"Fleet Hargate & Holbeach St Johns",0,0,625.0,21.597
-E02005475,"Crowland & Cowbit",0,0,492.0,28.173
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005465,"Donington",0,0,265.0,23.821,481.45
+E02005466,"Long Sutton West",0,1,222.0,19.193,575.52
+E02005467,"Holbeach",0,2,222.0,17.698,485.60
+E02005468,"Moulton",0,0,222.0,21.474,1369.03
+E02005469,"Pinchbeck & Deeping St Nicholas",0,0,806.0,39.536,1047.94
+E02005470,"Spalding North",0,3,200.0,34.986,2433.52
+E02005471,"Spalding East",0,1,422.0,21.585,1922.75
+E02005472,"Long Sutton East & Sutton Bridge",0,0,511.0,23.360,1713.94
+E02005473,"Spalding South West",0,0,200.0,17.414,37.59
+E02005474,"Fleet Hargate & Holbeach St Johns",0,0,625.0,21.597,46.83
+E02005475,"Crowland & Cowbit",0,0,492.0,28.173,202.10

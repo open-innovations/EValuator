@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005028,"Temple Hill & Marshes",0,3,437.0,15.649
-E02005029,"Ebbsfleet & Greenhithe",0,4,294.0,37.494
-E02005030,"Central Dartford & West Hill",0,4,1110.0,68.456
-E02005031,"Swanscombe",0,1,123.0,16.668
-E02005032,"Newtown",0,0,640.0,16.638
-E02005033,"Stone & Crossways",0,9,271.0,20.842
-E02005034,"Heath",0,0,640.0,8.045
-E02005035,"Brent & Fleet Estate",0,1,640.0,18.747
-E02005036,"Tree Estate",0,0,640.0,9.446
-E02005037,"Joydens Wood",0,2,1017.0,21.420
-E02005038,"Wilmington & Hawley",0,4,848.0,22.360
-E02005039,"Bean",0,0,725.0,22.172
-E02005040,"Longfield",0,0,464.0,47.042
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005028,"Temple Hill & Marshes",0,3,437.0,15.649,2286.83
+E02005029,"Ebbsfleet & Greenhithe",0,4,294.0,37.494,4099.34
+E02005030,"Central Dartford & West Hill",0,4,1110.0,68.456,3560.15
+E02005031,"Swanscombe",0,1,123.0,16.668,314.69
+E02005032,"Newtown",0,0,640.0,16.638,329.74
+E02005033,"Stone & Crossways",0,9,271.0,20.842,14120.46
+E02005034,"Heath",0,0,640.0,8.045,108.92
+E02005035,"Brent & Fleet Estate",0,1,640.0,18.747,1987.88
+E02005036,"Tree Estate",0,0,640.0,9.446,463.03
+E02005037,"Joydens Wood",0,2,1017.0,21.420,651.84
+E02005038,"Wilmington & Hawley",0,4,848.0,22.360,898.85
+E02005039,"Bean",0,0,725.0,22.172,560.57
+E02005040,"Longfield",0,0,464.0,47.042,620.25

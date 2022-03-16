@@ -1,31 +1,31 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02001509,"Royston West",404,1,196.0,9.141
-E02001510,"Royston East & Carlton",372,0,196.0,8.231
-E02001511,"Shafton & Upper Cudworth",358,0,257.0,9.545
-E02001512,"Mapplewell & Staincross",467,1,250.0,30.222
-E02001513,"Darton & Kexborough",598,0,250.0,27.213
-E02001514,"Grimethorpe & Brierley",329,0,61.0,16.096
-E02001515,"Athersley",405,0,196.0,11.677
-E02001516,"Cudworth Village",308,2,61.0,11.594
-E02001517,"Monk Bretton",365,1,196.0,10.672
-E02001518,"Honeywell",438,0,547.0,26.881
-E02001519,"Lundwood",338,0,257.0,9.334
-E02001520,"Wilthorpe & Barugh Green",515,2,351.0,37.844
-E02001521,"Barnsley Town & Park Road",483,7,608.0,53.391
-E02001522,"Thurnscoe",412,0,152.0,18.811
-E02001523,"Ardsley & Stairfoot",381,2,374.0,9.823
-E02001524,"Silkstone",451,0,424.0,37.468
-E02001525,"Worsbrough Common",441,0,297.0,8.311
-E02001526,"Kendray",381,0,297.0,5.859
-E02001527,"Dodworth",493,1,351.0,24.514
-E02001528,"Darfield & Great Houghton",360,0,486.0,20.720
-E02001529,"Worsbrough",397,0,351.0,11.752
-E02001530,"Goldthorpe",418,2,302.0,14.466
-E02001531,"Wombwell North",398,1,388.0,21.884
-E02001532,"Penistone",441,5,174.0,56.248
-E02001533,"Bolton-upon-Dearne",354,0,152.0,13.706
-E02001534,"Wombwell South",405,0,77.0,17.628
-E02001535,"Ingbirchworth",408,0,2266.0,37.339
-E02001536,"Birdwell",511,0,601.0,21.535
-E02001537,"Elsecar",422,0,131.0,16.975
-E02001538,"Hoyland",454,4,304.0,18.374
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02001509,"Royston West",404,1,196.0,9.141,358.03
+E02001510,"Royston East & Carlton",372,0,196.0,8.231,369.89
+E02001511,"Shafton & Upper Cudworth",358,0,257.0,9.545,511.50
+E02001512,"Mapplewell & Staincross",467,1,250.0,30.222,820.32
+E02001513,"Darton & Kexborough",598,0,250.0,27.213,1214.63
+E02001514,"Grimethorpe & Brierley",329,0,61.0,16.096,382.51
+E02001515,"Athersley",405,0,196.0,11.677,443.63
+E02001516,"Cudworth Village",308,2,61.0,11.594,760.41
+E02001517,"Monk Bretton",365,1,196.0,10.672,1357.15
+E02001518,"Honeywell",438,0,547.0,26.881,889.85
+E02001519,"Lundwood",338,0,257.0,9.334,575.33
+E02001520,"Wilthorpe & Barugh Green",515,2,351.0,37.844,4260.18
+E02001521,"Barnsley Town & Park Road",483,7,608.0,53.391,5049.67
+E02001522,"Thurnscoe",412,0,152.0,18.811,103.17
+E02001523,"Ardsley & Stairfoot",381,2,374.0,9.823,3708.99
+E02001524,"Silkstone",451,0,424.0,37.468,1807.81
+E02001525,"Worsbrough Common",441,0,297.0,8.311,325.15
+E02001526,"Kendray",381,0,297.0,5.859,653.57
+E02001527,"Dodworth",493,1,351.0,24.514,2113.77
+E02001528,"Darfield & Great Houghton",360,0,486.0,20.720,707.79
+E02001529,"Worsbrough",397,0,351.0,11.752,621.94
+E02001530,"Goldthorpe",418,2,302.0,14.466,189.29
+E02001531,"Wombwell North",398,1,388.0,21.884,727.08
+E02001532,"Penistone",441,5,174.0,56.248,1210.45
+E02001533,"Bolton-upon-Dearne",354,0,152.0,13.706,43.85
+E02001534,"Wombwell South",405,0,77.0,17.628,688.01
+E02001535,"Ingbirchworth",408,0,2266.0,37.339,2493.63
+E02001536,"Birdwell",511,0,601.0,21.535,6637.77
+E02001537,"Elsecar",422,0,131.0,16.975,524.26
+E02001538,"Hoyland",454,4,304.0,18.374,23.11

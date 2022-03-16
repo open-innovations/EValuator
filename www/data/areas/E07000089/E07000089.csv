@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004751,"Yateley East",0,0,147.0,43.162
-E02004752,"Yateley West & Eversley",0,0,488.0,38.585
-E02004753,"Blackwater",0,0,708.0,14.353
-E02004754,"Hartley Wintney & Heckfield",0,2,1055.0,51.639
-E02004755,"Fleet North",0,6,1201.0,67.036
-E02004756,"Hook & Rotherwick",0,3,928.0,93.009
-E02004757,"Fleet South & Pondtail",0,0,378.0,88.141
-E02004758,"Fleet West & Winchfield",0,0,1249.0,46.441
-E02004759,"Crookham East",0,0,378.0,50.778
-E02004760,"Crookham West",0,0,730.0,69.230
-E02004761,"Odiham & Warnborough",0,0,556.0,53.114
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004751,"Yateley East",0,0,147.0,43.162,355.47
+E02004752,"Yateley West & Eversley",0,0,488.0,38.585,961.42
+E02004753,"Blackwater",0,0,708.0,14.353,1956.56
+E02004754,"Hartley Wintney & Heckfield",0,2,1055.0,51.639,3707.71
+E02004755,"Fleet North",0,6,1201.0,67.036,3357.70
+E02004756,"Hook & Rotherwick",0,3,928.0,93.009,1317.83
+E02004757,"Fleet South & Pondtail",0,0,378.0,88.141,770.16
+E02004758,"Fleet West & Winchfield",0,0,1249.0,46.441,1185.35
+E02004759,"Crookham East",0,0,378.0,50.778,261.36
+E02004760,"Crookham West",0,0,730.0,69.230,864.10
+E02004761,"Odiham & Warnborough",0,0,556.0,53.114,1650.71

@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005921,"Cropredy",0,0,1227.0,53.393
-E02005922,"Banbury Hardwick",0,0,971.0,17.211
-E02005923,"Banbury Neithrop",0,3,282.0,16.047
-E02005924,"Banbury Grimsbury",0,5,1227.0,97.349
-E02005925,"Banbury Ruscote",0,0,282.0,11.720
-E02005926,"Banbury Easington",0,0,282.0,17.526
-E02005927,"Banbury Calthorpe",0,2,282.0,8.106
-E02005928,"Bodicote",0,2,1227.0,55.373
-E02005929,"Sibford",0,1,516.0,58.274
-E02005930,"Deddington",0,2,1999.0,90.308
-E02005931,"Caversfield",0,11,2910.0,84.998
-E02005932,"Bicester North",0,0,1342.0,19.313
-E02005933,"Bicester East",0,8,2143.0,81.255
-E02005934,"Bicester West",0,0,1342.0,30.329
-E02005935,"Bicester South",0,5,1342.0,35.226
-E02005936,"Islip",0,6,3355.0,64.114
-E02005937,"Kidlington North",0,2,312.0,31.982
-E02005938,"Kidlington South",0,0,253.0,9.583
-E02005939,"Begbroke",0,2,1376.0,18.680
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005921,"Cropredy",0,0,1227.0,53.393,526.50
+E02005922,"Banbury Hardwick",0,0,971.0,17.211,253.26
+E02005923,"Banbury Neithrop",0,3,282.0,16.047,2595.37
+E02005924,"Banbury Grimsbury",0,5,1227.0,97.349,7953.46
+E02005925,"Banbury Ruscote",0,0,282.0,11.720,286.24
+E02005926,"Banbury Easington",0,0,282.0,17.526,966.95
+E02005927,"Banbury Calthorpe",0,2,282.0,8.106,1374.25
+E02005928,"Bodicote",0,2,1227.0,55.373,1313.40
+E02005929,"Sibford",0,1,516.0,58.274,1021.27
+E02005930,"Deddington",0,2,1999.0,90.308,1789.83
+E02005931,"Caversfield",0,11,2910.0,84.998,1876.08
+E02005932,"Bicester North",0,0,1342.0,19.313,396.28
+E02005933,"Bicester East",0,8,2143.0,81.255,1913.97
+E02005934,"Bicester West",0,0,1342.0,30.329,732.46
+E02005935,"Bicester South",0,5,1342.0,35.226,4017.18
+E02005936,"Islip",0,6,3355.0,64.114,3568.77
+E02005937,"Kidlington North",0,2,312.0,31.982,736.69
+E02005938,"Kidlington South",0,0,253.0,9.583,277.57
+E02005939,"Begbroke",0,2,1376.0,18.680,3849.01

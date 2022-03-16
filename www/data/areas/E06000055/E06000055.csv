@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003616,"Riseley & Sharnbrook",0,0,1636.0,34.873
-E02003617,"Harrold",0,0,2446.0,72.597
-E02003618,"Clapham",0,0,2059.0,34.244
-E02003619,"Wyboston",0,1,1837.0,52.560
-E02003620,"Brickhill",0,0,446.0,22.198
-E02003621,"Putnoe",0,0,446.0,19.799
-E02003622,"Goldington",0,1,255.0,27.786
-E02003623,"Bromham & Biddenham",0,0,1207.0,40.979
-E02003624,"De Parys",0,12,446.0,9.705
-E02003625,"Harpur",0,14,446.0,21.664
-E02003626,"Newnham",0,2,446.0,15.092
-E02003627,"Castle & Kingsway",0,20,3000.0,155.083
-E02003628,"Queens Park",0,5,191.0,10.613
-E02003629,"Kingsbrook",0,1,1469.0,20.088
-E02003630,"Cauldwell",0,9,681.0,24.020
-E02003631,"Kempston North",0,1,996.0,13.296
-E02003632,"Kempston Central & East",0,1,235.0,11.176
-E02003633,"Kempston West & South",0,0,1602.0,27.246
-E02003634,"Elstow",0,2,1693.0,50.020
-E02003635,"Wootton & Stewartby",0,0,1176.0,52.244
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003616,"Riseley & Sharnbrook",0,0,1636.0,34.873,2049.55
+E02003617,"Harrold",0,0,2446.0,72.597,1109.78
+E02003618,"Clapham",0,0,2059.0,34.244,686.82
+E02003619,"Wyboston",0,1,1837.0,52.560,2683.16
+E02003620,"Brickhill",0,0,446.0,22.198,413.57
+E02003621,"Putnoe",0,0,446.0,19.799,590.52
+E02003622,"Goldington",0,1,255.0,27.786,314.09
+E02003623,"Bromham & Biddenham",0,0,1207.0,40.979,634.53
+E02003624,"De Parys",0,12,446.0,9.705,513.36
+E02003625,"Harpur",0,14,446.0,21.664,1423.32
+E02003626,"Newnham",0,2,446.0,15.092,3075.86
+E02003627,"Castle & Kingsway",0,20,3000.0,155.083,1960.00
+E02003628,"Queens Park",0,5,191.0,10.613,889.28
+E02003629,"Kingsbrook",0,1,1469.0,20.088,1806.62
+E02003630,"Cauldwell",0,9,681.0,24.020,2737.85
+E02003631,"Kempston North",0,1,996.0,13.296,298.65
+E02003632,"Kempston Central & East",0,1,235.0,11.176,65.86
+E02003633,"Kempston West & South",0,0,1602.0,27.246,3549.35
+E02003634,"Elstow",0,2,1693.0,50.020,1878.23
+E02003635,"Wootton & Stewartby",0,0,1176.0,52.244,1008.60

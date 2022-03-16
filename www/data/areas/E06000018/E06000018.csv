@@ -1,39 +1,39 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002868,"Rise Park & Top Valley West",0,10,338.0,8.884
-E02002869,"Bulwell North",0,6,110.0,8.234
-E02002871,"Highbury Vale",0,1,448.0,14.009
-E02002872,"Bulwell West",0,10,380.0,7.862
-E02002873,"Bestwood",0,0,338.0,10.512
-E02002874,"North Sherwood",0,0,338.0,18.311
-E02002875,"Basford Park Lane",0,0,448.0,8.265
-E02002876,"Old Basford",0,10,898.0,10.672
-E02002877,"Sherwood Vale",0,17,555.0,15.377
-E02002878,"Broxtowe & Cinderhill",0,0,270.0,12.584
-E02002879,"New Basford",0,0,518.0,10.168
-E02002880,"Aspley",0,0,270.0,12.115
-E02002881,"Bilborough North",0,10,270.0,12.772
-E02002882,"Mapperley Park",0,1,612.0,19.316
-E02002883,"Thorneywood",0,0,217.0,15.149
-E02002884,"Forest Fields",0,4,1138.0,4.563
-E02002885,"Hyson Green",0,8,180.0,3.458
-E02002886,"Bobbers Mill",0,2,450.0,19.356
-E02002887,"Beechdale",0,6,270.0,16.717
-E02002888,"St Ann's East",0,0,217.0,16.015
-E02002889,"Arboretum",0,7,237.0,2.203
-E02002890,"St Ann's West",0,31,894.0,32.812
-E02002891,"Bakersfield",0,0,1007.0,12.922
-E02002892,"Bilborough South",0,2,667.0,51.396
-E02002893,"Radford",0,11,180.0,5.211
-E02002894,"Wollaton Park",0,0,450.0,13.274
-E02002895,"The Park & Castle",0,0,857.0,3.674
-E02002896,"Sneinton",0,20,1064.0,30.190
-E02002897,"Wollaton Vale",0,1,270.0,16.059
-E02002898,"Lenton & Dunkirk",0,27,180.0,4.471
-E02002899,"University Park",0,5,792.0,10.873
-E02002901,"Wilford & Silverdale",0,0,186.0,16.369
-E02002902,"Clifton North",0,9,186.0,36.689
-E02002903,"Clifton West",0,0,186.0,15.917
-E02002904,"Clifton South",0,0,186.0,13.321
-E02006834,"Top Valley East",0,0,338.0,12.614
-E02006904,"City Centre & Trent Bridge",0,8,1234.0,115.026
-E02006905,"Meadows",0,7,857.0,28.773
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002868,"Rise Park & Top Valley West",0,10,338.0,8.884,974.91
+E02002869,"Bulwell North",0,6,110.0,8.234,4923.24
+E02002871,"Highbury Vale",0,1,448.0,14.009,515.06
+E02002872,"Bulwell West",0,10,380.0,7.862,2661.33
+E02002873,"Bestwood",0,0,338.0,10.512,107.86
+E02002874,"North Sherwood",0,0,338.0,18.311,2194.14
+E02002875,"Basford Park Lane",0,0,448.0,8.265,216.98
+E02002876,"Old Basford",0,10,898.0,10.672,1783.24
+E02002877,"Sherwood Vale",0,17,555.0,15.377,834.13
+E02002878,"Broxtowe & Cinderhill",0,0,270.0,12.584,301.96
+E02002879,"New Basford",0,0,518.0,10.168,1274.92
+E02002880,"Aspley",0,0,270.0,12.115,87.11
+E02002881,"Bilborough North",0,10,270.0,12.772,2112.80
+E02002882,"Mapperley Park",0,1,612.0,19.316,704.30
+E02002883,"Thorneywood",0,0,217.0,15.149,795.32
+E02002884,"Forest Fields",0,4,1138.0,4.563,1093.42
+E02002885,"Hyson Green",0,8,180.0,3.458,1165.72
+E02002886,"Bobbers Mill",0,2,450.0,19.356,1008.63
+E02002887,"Beechdale",0,6,270.0,16.717,650.65
+E02002888,"St Ann's East",0,0,217.0,16.015,591.77
+E02002889,"Arboretum",0,7,237.0,2.203,2218.04
+E02002890,"St Ann's West",0,31,894.0,32.812,3340.62
+E02002891,"Bakersfield",0,0,1007.0,12.922,745.41
+E02002892,"Bilborough South",0,2,667.0,51.396,521.00
+E02002893,"Radford",0,11,180.0,5.211,1163.44
+E02002894,"Wollaton Park",0,0,450.0,13.274,951.69
+E02002895,"The Park & Castle",0,0,857.0,3.674,2001.92
+E02002896,"Sneinton",0,20,1064.0,30.190,2870.43
+E02002897,"Wollaton Vale",0,1,270.0,16.059,1178.95
+E02002898,"Lenton & Dunkirk",0,27,180.0,4.471,13681.69
+E02002899,"University Park",0,5,792.0,10.873,2645.01
+E02002901,"Wilford & Silverdale",0,0,186.0,16.369,538.78
+E02002902,"Clifton North",0,9,186.0,36.689,2125.54
+E02002903,"Clifton West",0,0,186.0,15.917,92.04
+E02002904,"Clifton South",0,0,186.0,13.321,163.64
+E02006834,"Top Valley East",0,0,338.0,12.614,143.37
+E02006904,"City Centre & Trent Bridge",0,8,1234.0,115.026,5988.51
+E02006905,"Meadows",0,7,857.0,28.773,7363.73

@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004666,"Tewkesbury East & Ashchurch",0,0,246.0,56.777
-E02004667,"Tewkesbury West & Twyning",0,2,429.0,55.245
-E02004668,"Winchcombe & Washbourne",0,0,1303.0,44.136
-E02004669,"Cleeve Hill",0,0,1302.0,35.476
-E02004670,"Bishop's Cleeve",0,0,643.0,75.324
-E02004671,"Highnam",0,2,918.0,30.820
-E02004672,"Churchdown & Innsworth",0,5,980.0,38.478
-E02004673,"Shurdington",0,0,1426.0,28.438
-E02004674,"Brockworth & Coopers Edge",0,6,998.0,46.952
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004666,"Tewkesbury East & Ashchurch",0,0,246.0,56.777,1989.51
+E02004667,"Tewkesbury West & Twyning",0,2,429.0,55.245,272758.66
+E02004668,"Winchcombe & Washbourne",0,0,1303.0,44.136,1832.87
+E02004669,"Cleeve Hill",0,0,1302.0,35.476,3291.90
+E02004670,"Bishop's Cleeve",0,0,643.0,75.324,2219.14
+E02004671,"Highnam",0,2,918.0,30.820,863.07
+E02004672,"Churchdown & Innsworth",0,5,980.0,38.478,5196.33
+E02004673,"Shurdington",0,0,1426.0,28.438,2239.91
+E02004674,"Brockworth & Coopers Edge",0,6,998.0,46.952,1738.69

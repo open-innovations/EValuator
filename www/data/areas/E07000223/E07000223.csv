@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006534,"Hillside",0,0,191.0,13.255
-E02006535,"Buckingham",0,0,150.0,17.125
-E02006536,"North Lancing",0,0,302.0,11.322
-E02006537,"Kingston & Southwick",0,5,422.0,24.745
-E02006538,"Shoreham Central & Beach",0,3,251.0,57.387
-E02006539,"Cokeham & Sompting",0,0,259.0,12.897
-E02006540,"Marsh Barn & Widewater",0,0,251.0,17.540
-E02006541,"South Lancing",0,0,101.0,16.341
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006534,"Hillside",0,0,191.0,13.255,2073.24
+E02006535,"Buckingham",0,0,150.0,17.125,264.92
+E02006536,"North Lancing",0,0,302.0,11.322,1015.95
+E02006537,"Kingston & Southwick",0,5,422.0,24.745,1707.61
+E02006538,"Shoreham Central & Beach",0,3,251.0,57.387,1047.70
+E02006539,"Cokeham & Sompting",0,0,259.0,12.897,14.81
+E02006540,"Marsh Barn & Widewater",0,0,251.0,17.540,1915.16
+E02006541,"South Lancing",0,0,101.0,16.341,659.94

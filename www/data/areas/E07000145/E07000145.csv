@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005538,"Hemsby & Ormesby",0,0,98.0,19.237
-E02005539,"Fleggburgh",0,0,358.0,18.912
-E02005540,"Caister on Sea",0,2,56.0,4.002
-E02005541,"Yarmouth North",0,0,56.0,1.919
-E02005542,"Yarmouth Central & Northgate",0,7,267.0,13.921
-E02005543,"Yarmouth Parade",0,2,169.0,6.204
-E02005544,"Southtown & Cobholm",0,2,267.0,8.374
-E02005545,"Bradwell North",0,1,113.0,6.496
-E02005546,"Gorleston North",0,1,113.0,8.208
-E02005547,"Gorleston South & Beach",0,2,113.0,10.315
-E02005548,"Gorleston West",0,0,113.0,6.364
-E02005549,"Belton",0,0,113.0,6.803
-E02005550,"Bradwell South & Hopton",0,1,113.0,9.305
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005538,"Hemsby & Ormesby",0,0,98.0,19.237,1139.93
+E02005539,"Fleggburgh",0,0,358.0,18.912,1400.60
+E02005540,"Caister on Sea",0,2,56.0,4.002,1116.67
+E02005541,"Yarmouth North",0,0,56.0,1.919,664.76
+E02005542,"Yarmouth Central & Northgate",0,7,267.0,13.921,4275.40
+E02005543,"Yarmouth Parade",0,2,169.0,6.204,2317.63
+E02005544,"Southtown & Cobholm",0,2,267.0,8.374,3870.77
+E02005545,"Bradwell North",0,1,113.0,6.496,607.84
+E02005546,"Gorleston North",0,1,113.0,8.208,372.79
+E02005547,"Gorleston South & Beach",0,2,113.0,10.315,1917.16
+E02005548,"Gorleston West",0,0,113.0,6.364,1174.77
+E02005549,"Belton",0,0,113.0,6.803,556.20
+E02005550,"Bradwell South & Hopton",0,1,113.0,9.305,1233.02

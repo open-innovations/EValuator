@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004149,"Pennsylvania & University",0,0,221.0,11.560
-E02004150,"Mincinglake & Beacon Heath",0,0,221.0,7.173
-E02004151,"Pinhoe & Whipton North",0,5,335.0,12.454
-E02004152,"St James's Park & Hoopern",0,2,335.0,9.707
-E02004153,"Exwick & Foxhayes",0,0,221.0,6.723
-E02004154,"Heavitree West & Polsloe",0,1,1752.0,6.956
-E02004155,"Heavitree East & Whipton South",0,0,335.0,5.762
-E02004156,"Central Exeter",0,12,2280.0,74.799
-E02004157,"St Leonard's",0,0,1531.0,13.201
-E02004158,"St Thomas East",0,0,1638.0,11.227
-E02004159,"Middlemoor & Sowton",0,7,1945.0,29.284
-E02004160,"St Thomas West",0,0,1638.0,10.566
-E02004161,"Wonford & St Loye's",0,0,1531.0,14.140
-E02004162,"Alphington & Marsh Barton",0,6,1417.0,20.012
-E02004163,"Countess Wear & Topsham",0,0,1479.0,15.949
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004149,"Pennsylvania & University",0,0,221.0,11.560,1216.16
+E02004150,"Mincinglake & Beacon Heath",0,0,221.0,7.173,81.15
+E02004151,"Pinhoe & Whipton North",0,5,335.0,12.454,1534.96
+E02004152,"St James's Park & Hoopern",0,2,335.0,9.707,781.77
+E02004153,"Exwick & Foxhayes",0,0,221.0,6.723,130.43
+E02004154,"Heavitree West & Polsloe",0,1,1752.0,6.956,773.93
+E02004155,"Heavitree East & Whipton South",0,0,335.0,5.762,207.35
+E02004156,"Central Exeter",0,12,2280.0,74.799,4381.43
+E02004157,"St Leonard's",0,0,1531.0,13.201,1539.91
+E02004158,"St Thomas East",0,0,1638.0,11.227,891.76
+E02004159,"Middlemoor & Sowton",0,7,1945.0,29.284,14150.79
+E02004160,"St Thomas West",0,0,1638.0,10.566,192.15
+E02004161,"Wonford & St Loye's",0,0,1531.0,14.140,2551.40
+E02004162,"Alphington & Marsh Barton",0,6,1417.0,20.012,5308.26
+E02004163,"Countess Wear & Topsham",0,0,1479.0,15.949,975.85

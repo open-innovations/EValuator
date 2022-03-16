@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006099,"Bishops Lydeard & Cotford St Luke",0,0,362.0,16.105
-E02006100,"Taunton Rowbarton & Kingston",0,0,217.0,20.813
-E02006101,"Wiveliscombe & Milverton",0,1,250.0,23.552
-E02006102,"Taunton Pyrland & Priorswood",0,2,146.0,14.714
-E02006103,"Ruishton & North Curry",0,2,537.0,32.869
-E02006104,"Taunton Halcon & Monkton Heathfield",0,1,309.0,14.595
-E02006105,"Taunton North Town",0,1,590.0,45.904
-E02006106,"Bishop's Hull & Norton Fitzwarren",0,0,454.0,16.641
-E02006107,"Taunton Holway & Lambrook",0,0,309.0,6.667
-E02006108,"Taunton Wilton",0,2,163.0,18.510
-E02006109,"Taunton Galmington & Trull",0,2,549.0,16.380
-E02006110,"Wellington North",0,0,105.0,27.876
-E02006111,"Wellington South",0,1,250.0,30.585
-E02006112,"Dowslands & Blackdown",0,3,626.0,29.105
-E02006113,"Minehead Town",0,1,85.0,14.019
-E02006114,"Minehead Outer & Porlock",0,2,95.0,9.324
-E02006115,"Watchet",0,0,255.0,6.070
-E02006116,"Williton",0,0,489.0,27.792
-E02006117,"Dunster",0,0,465.0,10.833
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006099,"Bishops Lydeard & Cotford St Luke",0,0,362.0,16.105,1674.81
+E02006100,"Taunton Rowbarton & Kingston",0,0,217.0,20.813,1368.25
+E02006101,"Wiveliscombe & Milverton",0,1,250.0,23.552,568.02
+E02006102,"Taunton Pyrland & Priorswood",0,2,146.0,14.714,296.87
+E02006103,"Ruishton & North Curry",0,2,537.0,32.869,1593.33
+E02006104,"Taunton Halcon & Monkton Heathfield",0,1,309.0,14.595,6549.93
+E02006105,"Taunton North Town",0,1,590.0,45.904,3806.38
+E02006106,"Bishop's Hull & Norton Fitzwarren",0,0,454.0,16.641,3677.83
+E02006107,"Taunton Holway & Lambrook",0,0,309.0,6.667,2086.36
+E02006108,"Taunton Wilton",0,2,163.0,18.510,2790.83
+E02006109,"Taunton Galmington & Trull",0,2,549.0,16.380,2424.68
+E02006110,"Wellington North",0,0,105.0,27.876,2282.32
+E02006111,"Wellington South",0,1,250.0,30.585,1696.80
+E02006112,"Dowslands & Blackdown",0,3,626.0,29.105,4585.84
+E02006113,"Minehead Town",0,1,85.0,14.019,1621.56
+E02006114,"Minehead Outer & Porlock",0,2,95.0,9.324,3837.55
+E02006115,"Watchet",0,0,255.0,6.070,1328.23
+E02006116,"Williton",0,0,489.0,27.792,3657.85
+E02006117,"Dunster",0,0,465.0,10.833,2135.73

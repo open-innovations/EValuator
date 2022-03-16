@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006204,"Leek East & Upper Hulme",0,0,520.0,18.292
-E02006205,"Biddulph Moor & Rudyard",0,0,766.0,24.358
-E02006206,"Biddulph Central",0,0,78.0,21.449
-E02006207,"Biddulph North & Brownlees",0,0,861.0,14.311
-E02006208,"Leek Town",0,1,160.0,32.792
-E02006209,"Leek South & Cheddleton",0,0,314.0,19.626
-E02006210,"Ipstones",0,0,693.0,23.849
-E02006211,"Endon & Brown Edge",0,0,355.0,20.528
-E02006212,"Werrington & Wetley Rocks",0,0,374.0,20.565
-E02006213,"Cheadle North",0,0,253.0,20.370
-E02006214,"Cheadle Town",0,1,126.0,21.989
-E02006215,"Blythe Bridge",0,0,657.0,22.512
-E02006216,"Cheadle South & Upper Tean",0,0,235.0,19.388
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006204,"Leek East & Upper Hulme",0,0,520.0,18.292,1576.56
+E02006205,"Biddulph Moor & Rudyard",0,0,766.0,24.358,1231.75
+E02006206,"Biddulph Central",0,0,78.0,21.449,608.07
+E02006207,"Biddulph North & Brownlees",0,0,861.0,14.311,110.75
+E02006208,"Leek Town",0,1,160.0,32.792,2398.85
+E02006209,"Leek South & Cheddleton",0,0,314.0,19.626,3062.09
+E02006210,"Ipstones",0,0,693.0,23.849,2089.07
+E02006211,"Endon & Brown Edge",0,0,355.0,20.528,639.33
+E02006212,"Werrington & Wetley Rocks",0,0,374.0,20.565,602.02
+E02006213,"Cheadle North",0,0,253.0,20.370,6735.16
+E02006214,"Cheadle Town",0,1,126.0,21.989,4138.06
+E02006215,"Blythe Bridge",0,0,657.0,22.512,494.38
+E02006216,"Cheadle South & Upper Tean",0,0,235.0,19.388,509.27

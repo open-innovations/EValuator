@@ -1,31 +1,31 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006287,"Yoxford",0,12,499.0,30.159
-E02006288,"Framlingham & Hacheston",0,0,253.0,47.048
-E02006289,"Saxmundham & Coldfair Green",0,0,115.0,29.592
-E02006290,"Leiston & Aldeburgh",0,1,150.0,31.178
-E02006291,"Wickham Market & Melton",0,3,363.0,29.325
-E02006292,"Westerfield",0,0,605.0,32.868
-E02006293,"Rendlesham",0,0,450.0,53.042
-E02006294,"Woodbridge",0,2,363.0,51.766
-E02006295,"Kesgrave West & Rushmere",0,2,308.0,37.262
-E02006296,"Kesgrave East & Martlesham",0,6,495.0,41.729
-E02006297,"Bixley",0,1,705.0,16.349
-E02006298,"Trimley & Kirton",0,0,231.0,23.495
-E02006299,"Felixstowe East",0,0,204.0,13.145
-E02006300,"Felixstowe West",0,2,204.0,15.586
-E02006301,"Felixstowe Seafront",0,1,204.0,24.318
-E02006302,"Gunton East",0,0,227.0,8.021
-E02006303,"Gunton West",0,1,114.0,5.625
-E02006304,"Oulton",0,0,114.0,6.896
-E02006305,"Lowestoft Central",0,4,114.0,9.439
-E02006306,"Normanston & Oulton Broad East",0,1,239.0,17.003
-E02006307,"Oulton Broad West",0,0,239.0,8.500
-E02006308,"Lowestoft Harbour & Kirkley",0,2,239.0,13.485
-E02006309,"Pakefield North",0,0,125.0,6.941
-E02006310,"Carlton Colville",0,0,125.0,10.043
-E02006311,"Beccles",0,3,207.0,27.719
-E02006312,"Worlingham & Barnby",0,3,332.0,23.131
-E02006313,"Pakefield South & Kessingland",0,0,125.0,14.460
-E02006314,"Bungay & the Saints",0,3,328.0,24.088
-E02006315,"Southwold",0,0,301.0,31.922
-E02006316,"Halesworth & Wangford",0,0,246.0,16.596
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006287,"Yoxford",0,12,499.0,30.159,3117.27
+E02006288,"Framlingham & Hacheston",0,0,253.0,47.048,1513.38
+E02006289,"Saxmundham & Coldfair Green",0,0,115.0,29.592,1675.34
+E02006290,"Leiston & Aldeburgh",0,1,150.0,31.178,6431.02
+E02006291,"Wickham Market & Melton",0,3,363.0,29.325,2128.22
+E02006292,"Westerfield",0,0,605.0,32.868,804.15
+E02006293,"Rendlesham",0,0,450.0,53.042,5993.87
+E02006294,"Woodbridge",0,2,363.0,51.766,2863.31
+E02006295,"Kesgrave West & Rushmere",0,2,308.0,37.262,1471.53
+E02006296,"Kesgrave East & Martlesham",0,6,495.0,41.729,6971.63
+E02006297,"Bixley",0,1,705.0,16.349,1848.10
+E02006298,"Trimley & Kirton",0,0,231.0,23.495,1769.72
+E02006299,"Felixstowe East",0,0,204.0,13.145,1060.26
+E02006300,"Felixstowe West",0,2,204.0,15.586,518.28
+E02006301,"Felixstowe Seafront",0,1,204.0,24.318,1686.31
+E02006302,"Gunton East",0,0,227.0,8.021,1812.90
+E02006303,"Gunton West",0,1,114.0,5.625,256.56
+E02006304,"Oulton",0,0,114.0,6.896,196.87
+E02006305,"Lowestoft Central",0,4,114.0,9.439,1026.26
+E02006306,"Normanston & Oulton Broad East",0,1,239.0,17.003,889.76
+E02006307,"Oulton Broad West",0,0,239.0,8.500,103.38
+E02006308,"Lowestoft Harbour & Kirkley",0,2,239.0,13.485,2540.28
+E02006309,"Pakefield North",0,0,125.0,6.941,125.56
+E02006310,"Carlton Colville",0,0,125.0,10.043,849.94
+E02006311,"Beccles",0,3,207.0,27.719,2812.94
+E02006312,"Worlingham & Barnby",0,3,332.0,23.131,639.50
+E02006313,"Pakefield South & Kessingland",0,0,125.0,14.460,4343.33
+E02006314,"Bungay & the Saints",0,3,328.0,24.088,1723.51
+E02006315,"Southwold",0,0,301.0,31.922,2262.24
+E02006316,"Halesworth & Wangford",0,0,246.0,16.596,3986.21

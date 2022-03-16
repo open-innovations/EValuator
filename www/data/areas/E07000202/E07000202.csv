@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006245,"Whitton",0,1,209.0,5.634
-E02006246,"Castle Hill",0,0,209.0,4.343
-E02006247,"Whitehouse",0,2,290.0,5.778
-E02006248,"Rushmere",0,0,176.0,18.044
-E02006249,"Christchurch Park",0,0,385.0,18.173
-E02006250,"Westgate",0,1,209.0,8.089
-E02006251,"Ipswich Central",0,2,1416.0,94.270
-E02006252,"California",0,0,474.0,16.561
-E02006253,"Broke Hall",0,2,369.0,15.418
-E02006254,"Gipping & Chantry Park",0,2,287.0,11.881
-E02006255,"Holywells",0,0,193.0,13.825
-E02006256,"Maidenhall",0,0,287.0,10.981
-E02006257,"Belstead Hills",0,0,78.0,6.312
-E02006258,"Priory Heath",0,5,325.0,18.625
-E02006259,"Stoke Park",0,0,78.0,6.097
-E02006260,"Gainsborough",0,0,193.0,12.561
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006245,"Whitton",0,1,209.0,5.634,1301.34
+E02006246,"Castle Hill",0,0,209.0,4.343,253.57
+E02006247,"Whitehouse",0,2,290.0,5.778,2810.49
+E02006248,"Rushmere",0,0,176.0,18.044,1145.79
+E02006249,"Christchurch Park",0,0,385.0,18.173,266.46
+E02006250,"Westgate",0,1,209.0,8.089,1705.42
+E02006251,"Ipswich Central",0,2,1416.0,94.270,4655.43
+E02006252,"California",0,0,474.0,16.561,611.97
+E02006253,"Broke Hall",0,2,369.0,15.418,2801.41
+E02006254,"Gipping & Chantry Park",0,2,287.0,11.881,4806.41
+E02006255,"Holywells",0,0,193.0,13.825,1646.35
+E02006256,"Maidenhall",0,0,287.0,10.981,1856.61
+E02006257,"Belstead Hills",0,0,78.0,6.312,125.75
+E02006258,"Priory Heath",0,5,325.0,18.625,4554.18
+E02006259,"Stoke Park",0,0,78.0,6.097,569.21
+E02006260,"Gainsborough",0,0,193.0,12.561,266.18

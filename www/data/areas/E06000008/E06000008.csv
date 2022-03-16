@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002615,"Roe Lee",645,0,275.0,14.207
-E02002616,"Lammack & Revidge",524,0,457.0,11.024
-E02002617,"Little Harwood",665,0,275.0,11.710
-E02002618,"Bastwell",570,0,275.0,6.937
-E02002619,"Wensley Fold",559,0,382.0,13.692
-E02002620,"Central Blackburn",570,0,507.0,76.551
-E02002621,"Audley",646,2,275.0,10.822
-E02002622,"Shadsworth & Intack",689,3,275.0,12.542
-E02002623,"Witton",612,0,182.0,21.368
-E02002624,"Beardwood",729,0,293.0,16.881
-E02002625,"Queen's Park & Higher Croft",688,0,568.0,15.924
-E02002626,"Meadowhead",656,0,293.0,8.966
-E02002627,"Ewood & Fernhurst",717,1,293.0,11.663
-E02002628,"North Darwen",728,1,111.0,12.359
-E02002629,"East Darwen",662,0,111.0,8.749
-E02002630,"Darwen Town",657,0,111.0,28.953
-E02002631,"South Darwen & Whitehall",591,0,111.0,18.400
-E02002632,"Tockholes",459,0,1467.0,47.193
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002615,"Roe Lee",645,0,275.0,14.207,660.85
+E02002616,"Lammack & Revidge",524,0,457.0,11.024,162.34
+E02002617,"Little Harwood",665,0,275.0,11.710,407.04
+E02002618,"Bastwell",570,0,275.0,6.937,35.82
+E02002619,"Wensley Fold",559,0,382.0,13.692,403.47
+E02002620,"Central Blackburn",570,0,507.0,76.551,6099.23
+E02002621,"Audley",646,2,275.0,10.822,1011.54
+E02002622,"Shadsworth & Intack",689,3,275.0,12.542,1502.74
+E02002623,"Witton",612,0,182.0,21.368,1049.60
+E02002624,"Beardwood",729,0,293.0,16.881,1025.65
+E02002625,"Queen's Park & Higher Croft",688,0,568.0,15.924,3098.14
+E02002626,"Meadowhead",656,0,293.0,8.966,135.12
+E02002627,"Ewood & Fernhurst",717,1,293.0,11.663,337.42
+E02002628,"North Darwen",728,1,111.0,12.359,414.16
+E02002629,"East Darwen",662,0,111.0,8.749,44.89
+E02002630,"Darwen Town",657,0,111.0,28.953,1505.26
+E02002631,"South Darwen & Whitehall",591,0,111.0,18.400,194.39
+E02002632,"Tockholes",459,0,1467.0,47.193,2285.69

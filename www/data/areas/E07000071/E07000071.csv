@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004506,"Horkesley Heath",0,1,760.0,29.482
-E02004507,"Highwoods",0,0,289.0,28.087
-E02004508,"West Bergholt & Wormingford",0,0,409.0,25.528
-E02004509,"Mile End & Braiswick",0,8,355.0,22.629
-E02004512,"Central Colchester",0,0,1585.0,48.530
-E02004513,"Greenstead",0,2,483.0,17.702
-E02004514,"Lexden",0,0,178.0,20.013
-E02004515,"Marks Tey & Wakes Colne",0,0,620.0,35.071
-E02004516,"New Town & Hythe",0,3,372.0,9.996
-E02004517,"Stanway",0,5,306.0,37.766
-E02004518,"Abbey Field",0,2,306.0,15.865
-E02004519,"Prettygate & Westlands",0,0,178.0,20.499
-E02004520,"Shrub End",0,0,372.0,14.325
-E02004521,"Old Heath & Rowhedge",0,0,381.0,17.036
-E02004522,"Wivenhoe & University",0,0,529.0,26.721
-E02004523,"Monkwick",0,0,128.0,13.669
-E02004524,"Layer-de-la-Haye",0,0,947.0,29.232
-E02004525,"Tiptree",0,0,253.0,32.606
-E02004526,"West Mersea",0,0,187.0,30.393
-E02006922,"Parson's Heath",0,2,483.0,33.982
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004506,"Horkesley Heath",0,1,760.0,29.482,1292.44
+E02004507,"Highwoods",0,0,289.0,28.087,2273.95
+E02004508,"West Bergholt & Wormingford",0,0,409.0,25.528,226.27
+E02004509,"Mile End & Braiswick",0,8,355.0,22.629,7190.08
+E02004512,"Central Colchester",0,0,1585.0,48.530,7490.05
+E02004513,"Greenstead",0,2,483.0,17.702,1461.53
+E02004514,"Lexden",0,0,178.0,20.013,541.15
+E02004515,"Marks Tey & Wakes Colne",0,0,620.0,35.071,1935.02
+E02004516,"New Town & Hythe",0,3,372.0,9.996,1172.20
+E02004517,"Stanway",0,5,306.0,37.766,5907.58
+E02004518,"Abbey Field",0,2,306.0,15.865,415.70
+E02004519,"Prettygate & Westlands",0,0,178.0,20.499,78.17
+E02004520,"Shrub End",0,0,372.0,14.325,341.02
+E02004521,"Old Heath & Rowhedge",0,0,381.0,17.036,341.08
+E02004522,"Wivenhoe & University",0,0,529.0,26.721,2409.95
+E02004523,"Monkwick",0,0,128.0,13.669,348.23
+E02004524,"Layer-de-la-Haye",0,0,947.0,29.232,1452.94
+E02004525,"Tiptree",0,0,253.0,32.606,923.88
+E02004526,"West Mersea",0,0,187.0,30.393,1228.88
+E02006922,"Parson's Heath",0,2,483.0,33.982,706.80

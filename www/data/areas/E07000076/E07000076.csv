@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004573,"Harwich Town & Dovercourt",0,1,68.0,15.314
-E02004574,"Harwich Parkeston",0,1,68.0,10.292
-E02004575,"Manningtree & Mistley",0,0,560.0,41.089
-E02004576,"Harwich West & South",0,0,68.0,13.049
-E02004577,"Elmstead Market & Ardleigh",0,0,680.0,28.194
-E02004578,"Walton & Frinton Coastal",0,0,64.0,11.654
-E02004579,"Weeley & Thorpe-le-Soken",0,2,223.0,22.256
-E02004580,"Frinton West & Kirby",0,0,64.0,17.955
-E02004581,"Alresford",0,0,240.0,30.373
-E02004582,"Clacton North",0,0,208.0,5.888
-E02004583,"Brightlingsea & Point Clear",0,1,341.0,27.148
-E02004584,"Holland-on-Sea",0,0,107.0,4.664
-E02004585,"Clacton Bocking's Elm",0,1,208.0,12.422
-E02004586,"Clacton East",0,2,208.0,15.279
-E02004587,"Clacton Rush Green",0,0,208.0,10.957
-E02004588,"Clacton Central",0,0,107.0,6.856
-E02004589,"Clacton West",0,0,107.0,4.046
-E02004590,"Jaywick & St Osyth",0,0,448.0,12.899
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004573,"Harwich Town & Dovercourt",0,1,68.0,15.314,544.02
+E02004574,"Harwich Parkeston",0,1,68.0,10.292,2311.58
+E02004575,"Manningtree & Mistley",0,0,560.0,41.089,2319.68
+E02004576,"Harwich West & South",0,0,68.0,13.049,752.18
+E02004577,"Elmstead Market & Ardleigh",0,0,680.0,28.194,2646.63
+E02004578,"Walton & Frinton Coastal",0,0,64.0,11.654,2488.77
+E02004579,"Weeley & Thorpe-le-Soken",0,2,223.0,22.256,1395.37
+E02004580,"Frinton West & Kirby",0,0,64.0,17.955,902.38
+E02004581,"Alresford",0,0,240.0,30.373,1421.96
+E02004582,"Clacton North",0,0,208.0,5.888,3903.24
+E02004583,"Brightlingsea & Point Clear",0,1,341.0,27.148,2168.76
+E02004584,"Holland-on-Sea",0,0,107.0,4.664,903.30
+E02004585,"Clacton Bocking's Elm",0,1,208.0,12.422,546.21
+E02004586,"Clacton East",0,2,208.0,15.279,1297.19
+E02004587,"Clacton Rush Green",0,0,208.0,10.957,315.43
+E02004588,"Clacton Central",0,0,107.0,6.856,1239.34
+E02004589,"Clacton West",0,0,107.0,4.046,1751.41
+E02004590,"Jaywick & St Osyth",0,0,448.0,12.899,962.71

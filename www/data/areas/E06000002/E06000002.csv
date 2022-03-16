@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002496,"Middlesbrough Central",279,28,96.0,3.696
-E02002497,"North Ormesby & Brambles",277,1,93.0,0.024
-E02002498,"Ayresome",300,0,156.0,2.694
-E02002499,"Berwick Hills",260,1,39.0,0.000
-E02002500,"Linthorpe East & Albert Park",267,0,103.0,7.495
-E02002501,"Park Vale",266,0,85.0,6.466
-E02002502,"Thorntree",227,0,111.0,1.484
-E02002503,"Newport & Maze Park",301,0,225.0,9.496
-E02002504,"Linthorpe West",295,0,78.0,11.217
-E02002505,"Park End",235,0,39.0,0.000
-E02002506,"Beechwood & James Cook",252,0,25.0,6.201
-E02002507,"Acklam",296,0,60.0,8.257
-E02002508,"Kader",299,0,93.0,6.430
-E02002509,"Easterside",272,2,130.0,7.623
-E02002510,"Trimdon",280,0,279.0,7.101
-E02002512,"Marton West",273,0,105.0,12.257
-E02002513,"Stainton & Hemlington",279,0,180.0,22.029
-E02002514,"Coulby Newham",261,4,195.0,32.318
-E02006811,"Nunthorpe & Marton East",266,0,130.0,32.969
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002496,"Middlesbrough Central",279,28,96.0,3.696,10133.33
+E02002497,"North Ormesby & Brambles",277,1,93.0,0.024,740.53
+E02002498,"Ayresome",300,0,156.0,2.694,597.42
+E02002499,"Berwick Hills",260,1,39.0,0.000,670.86
+E02002500,"Linthorpe East & Albert Park",267,0,103.0,7.495,65.62
+E02002501,"Park Vale",266,0,85.0,6.466,25.20
+E02002502,"Thorntree",227,0,111.0,1.484,188.59
+E02002503,"Newport & Maze Park",301,0,225.0,9.496,1994.11
+E02002504,"Linthorpe West",295,0,78.0,11.217,24.15
+E02002505,"Park End",235,0,39.0,0.000,0.00
+E02002506,"Beechwood & James Cook",252,0,25.0,6.201,1790.66
+E02002507,"Acklam",296,0,60.0,8.257,298.48
+E02002508,"Kader",299,0,93.0,6.430,268.50
+E02002509,"Easterside",272,2,130.0,7.623,0.00
+E02002510,"Trimdon",280,0,279.0,7.101,31.05
+E02002512,"Marton West",273,0,105.0,12.257,0.00
+E02002513,"Stainton & Hemlington",279,0,180.0,22.029,323.77
+E02002514,"Coulby Newham",261,4,195.0,32.318,1620.43
+E02006811,"Nunthorpe & Marton East",266,0,130.0,32.969,2187.00

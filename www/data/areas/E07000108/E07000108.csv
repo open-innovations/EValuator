@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005041,"Ash & Wingham",0,0,296.0,35.895
-E02005042,"Sandwich & Eastry",0,10,339.0,26.280
-E02005043,"Deal North & West",0,0,133.0,13.125
-E02005044,"Deal East",0,9,181.0,27.848
-E02005045,"Mill Hill",0,0,181.0,14.424
-E02005046,"Aylesham & Elvington",0,0,525.0,28.676
-E02005047,"Walmer",0,0,133.0,12.588
-E02005048,"Eythorne & Shepherdswell",0,0,530.0,21.974
-E02005049,"Kingsdown & St Margaret's-at-Cliffe",0,0,223.0,24.861
-E02005050,"Kearsney",0,3,180.0,12.305
-E02005051,"Buckland & St Radigunds",0,0,180.0,9.390
-E02005052,"Dover East",0,7,180.0,23.712
-E02005053,"Dover West",0,3,90.0,9.885
-E02005054,"Elms Vale & Capel-le-Ferne",0,0,270.0,16.249
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005041,"Ash & Wingham",0,0,296.0,35.895,1030.46
+E02005042,"Sandwich & Eastry",0,10,339.0,26.280,7127.70
+E02005043,"Deal North & West",0,0,133.0,13.125,144.98
+E02005044,"Deal East",0,9,181.0,27.848,1268.91
+E02005045,"Mill Hill",0,0,181.0,14.424,722.83
+E02005046,"Aylesham & Elvington",0,0,525.0,28.676,276.21
+E02005047,"Walmer",0,0,133.0,12.588,0.00
+E02005048,"Eythorne & Shepherdswell",0,0,530.0,21.974,140.55
+E02005049,"Kingsdown & St Margaret's-at-Cliffe",0,0,223.0,24.861,964.89
+E02005050,"Kearsney",0,3,180.0,12.305,2325.39
+E02005051,"Buckland & St Radigunds",0,0,180.0,9.390,173.98
+E02005052,"Dover East",0,7,180.0,23.712,3790.23
+E02005053,"Dover West",0,3,90.0,9.885,2226.63
+E02005054,"Elms Vale & Capel-le-Ferne",0,0,270.0,16.249,197.94

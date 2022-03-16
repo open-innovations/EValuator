@@ -1,42 +1,42 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02000024,"High Barnet & Hadley",0,3,997.0,42.435
-E02000025,"Hadley Wood",0,10,688.0,29.027
-E02000026,"Oak Hill",0,0,1283.0,32.376
-E02000027,"Ducks Island & Underhill",0,0,685.0,21.783
-E02000028,"New Barnet West",0,0,1032.0,109.648
-E02000029,"New Barnet Town & East Barnet",0,0,656.0,43.924
-E02000030,"Totteridge & Barnet Gate",0,1,1743.0,54.084
-E02000031,"Oakleigh Park",0,1,720.0,104.977
-E02000032,"Osidge",0,0,948.0,25.981
-E02000033,"Brunswick Park Road",0,0,1292.0,19.932
-E02000034,"Whetstone East",0,1,665.0,37.540
-E02000035,"Woodside Park",0,1,665.0,66.777
-E02000036,"Edgware East",0,2,1121.0,33.562
-E02000037,"Edgware Park",0,0,1023.0,27.597
-E02000038,"Friern Barnet",0,0,1015.0,18.782
-E02000039,"Mill Hill Park",0,0,536.0,136.299
-E02000040,"Mill Hill East",0,3,1283.0,70.157
-E02000041,"Edgware Central",0,0,585.0,110.388
-E02000042,"North Finchley",0,2,747.0,35.282
-E02000043,"West Finchley",0,0,1091.0,23.869
-E02000044,"Mill Hill Broadway",0,0,1879.0,33.443
-E02000045,"Colney Hatch",0,0,1028.0,20.938
-E02000046,"Church End",0,0,426.0,42.830
-E02000047,"Burnt Oak & Watling Park",0,0,1343.0,28.823
-E02000048,"Copthall & Downage",0,19,1283.0,117.100
-E02000049,"Grahame Park",0,0,1294.0,11.622
-E02000050,"Fallow Corner",0,2,1560.0,39.951
-E02000051,"Finchley Central",0,0,426.0,62.264
-E02000052,"East Finchley",0,1,950.0,128.665
-E02000053,"Colindale",0,9,1079.0,16.304
-E02000054,"North Hendon & Sunny Hill",0,1,321.0,23.353
-E02000055,"Hendon Central",0,1,321.0,93.622
-E02000056,"Hampstead Garden Suburb",0,2,2656.0,74.247
-E02000057,"Hendon Park",0,4,967.0,23.521
-E02000058,"Temple Fortune",0,0,1722.0,184.341
-E02000059,"West Hendon",0,1,2088.0,42.688
-E02000060,"Golders Green North",0,1,1655.0,57.393
-E02000061,"Golders Green South",0,0,3104.0,60.550
-E02000062,"Brent Cross & Staples Corner",0,6,1976.0,16.274
-E02000063,"North Cricklewood",0,0,1655.0,62.852
-E02000064,"Childs Hill",0,5,2783.0,13.203
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02000024,"High Barnet & Hadley",0,3,997.0,42.435,827.81
+E02000025,"Hadley Wood",0,10,688.0,29.027,558.82
+E02000026,"Oak Hill",0,0,1283.0,32.376,389.98
+E02000027,"Ducks Island & Underhill",0,0,685.0,21.783,68.69
+E02000028,"New Barnet West",0,0,1032.0,109.648,295.18
+E02000029,"New Barnet Town & East Barnet",0,0,656.0,43.924,1113.75
+E02000030,"Totteridge & Barnet Gate",0,1,1743.0,54.084,2607.69
+E02000031,"Oakleigh Park",0,1,720.0,104.977,872.03
+E02000032,"Osidge",0,0,948.0,25.981,260.50
+E02000033,"Brunswick Park Road",0,0,1292.0,19.932,1442.51
+E02000034,"Whetstone East",0,1,665.0,37.540,187.52
+E02000035,"Woodside Park",0,1,665.0,66.777,283.52
+E02000036,"Edgware East",0,2,1121.0,33.562,1357.86
+E02000037,"Edgware Park",0,0,1023.0,27.597,307.72
+E02000038,"Friern Barnet",0,0,1015.0,18.782,1442.83
+E02000039,"Mill Hill Park",0,0,536.0,136.299,351.30
+E02000040,"Mill Hill East",0,3,1283.0,70.157,779.92
+E02000041,"Edgware Central",0,0,585.0,110.388,1546.22
+E02000042,"North Finchley",0,2,747.0,35.282,1122.18
+E02000043,"West Finchley",0,0,1091.0,23.869,0.00
+E02000044,"Mill Hill Broadway",0,0,1879.0,33.443,430.74
+E02000045,"Colney Hatch",0,0,1028.0,20.938,1779.82
+E02000046,"Church End",0,0,426.0,42.830,730.27
+E02000047,"Burnt Oak & Watling Park",0,0,1343.0,28.823,1966.31
+E02000048,"Copthall & Downage",0,19,1283.0,117.100,1186.41
+E02000049,"Grahame Park",0,0,1294.0,11.622,973.41
+E02000050,"Fallow Corner",0,2,1560.0,39.951,2124.28
+E02000051,"Finchley Central",0,0,426.0,62.264,566.30
+E02000052,"East Finchley",0,1,950.0,128.665,488.38
+E02000053,"Colindale",0,9,1079.0,16.304,3312.53
+E02000054,"North Hendon & Sunny Hill",0,1,321.0,23.353,826.98
+E02000055,"Hendon Central",0,1,321.0,93.622,1176.05
+E02000056,"Hampstead Garden Suburb",0,2,2656.0,74.247,210.37
+E02000057,"Hendon Park",0,4,967.0,23.521,460.97
+E02000058,"Temple Fortune",0,0,1722.0,184.341,95.13
+E02000059,"West Hendon",0,1,2088.0,42.688,3694.81
+E02000060,"Golders Green North",0,1,1655.0,57.393,78.46
+E02000061,"Golders Green South",0,0,3104.0,60.550,91.35
+E02000062,"Brent Cross & Staples Corner",0,6,1976.0,16.274,6763.90
+E02000063,"North Cricklewood",0,0,1655.0,62.852,836.22
+E02000064,"Childs Hill",0,5,2783.0,13.203,533.01

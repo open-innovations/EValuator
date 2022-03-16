@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004924,"Harpenden North",0,0,493.0,49.000
-E02004925,"Harpenden East",0,0,493.0,56.600
-E02004926,"Harpenden Town",0,6,493.0,132.000
-E02004927,"Wheathampstead",0,0,1680.0,53.232
-E02004928,"Harpenden Common",0,0,855.0,48.754
-E02004929,"Redbourn",0,0,1625.0,47.879
-E02004930,"Jersey Farm & Sandridge",0,0,682.0,42.861
-E02004931,"Marshalswick",0,0,320.0,38.221
-E02004932,"Townsend & New Greens",0,0,362.0,30.567
-E02004933,"Bernards Heath",0,0,1051.0,16.427
-E02004934,"Clarence Park",0,2,369.0,25.976
-E02004935,"St Albans Central",0,6,731.0,54.647
-E02004936,"Longacres",0,0,1772.0,145.415
-E02004937,"Verulam Park",0,5,731.0,41.851
-E02004938,"Colney Heath & Tyttenhanger",0,3,689.0,43.292
-E02004939,"The Camp & Cunningham",0,0,917.0,18.960
-E02004940,"Cottonmill & Sopwell",0,0,597.0,22.324
-E02004941,"London Colney",0,0,822.0,46.145
-E02004942,"How Wood & Park Street",0,1,502.0,44.143
-E02004943,"Bricket Wood & Chiswell Green",0,8,559.0,50.977
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004924,"Harpenden North",0,0,493.0,49.000,548.48
+E02004925,"Harpenden East",0,0,493.0,56.600,200.11
+E02004926,"Harpenden Town",0,6,493.0,132.000,2255.97
+E02004927,"Wheathampstead",0,0,1680.0,53.232,905.88
+E02004928,"Harpenden Common",0,0,855.0,48.754,181.34
+E02004929,"Redbourn",0,0,1625.0,47.879,1259.05
+E02004930,"Jersey Farm & Sandridge",0,0,682.0,42.861,1981.56
+E02004931,"Marshalswick",0,0,320.0,38.221,263.55
+E02004932,"Townsend & New Greens",0,0,362.0,30.567,577.88
+E02004933,"Bernards Heath",0,0,1051.0,16.427,231.92
+E02004934,"Clarence Park",0,2,369.0,25.976,1190.51
+E02004935,"St Albans Central",0,6,731.0,54.647,4955.15
+E02004936,"Longacres",0,0,1772.0,145.415,333.24
+E02004937,"Verulam Park",0,5,731.0,41.851,1602.02
+E02004938,"Colney Heath & Tyttenhanger",0,3,689.0,43.292,1945.72
+E02004939,"The Camp & Cunningham",0,0,917.0,18.960,683.37
+E02004940,"Cottonmill & Sopwell",0,0,597.0,22.324,1862.72
+E02004941,"London Colney",0,0,822.0,46.145,1759.85
+E02004942,"How Wood & Park Street",0,1,502.0,44.143,497.83
+E02004943,"Bricket Wood & Chiswell Green",0,8,559.0,50.977,1498.95

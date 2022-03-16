@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004712,"Hiltingbury",0,1,295.0,46.435
-E02004713,"Chandler's Ford East",0,0,961.0,89.267
-E02004714,"Chandler's Ford West",0,0,628.0,41.392
-E02004715,"Boyatt Wood",0,3,333.0,24.347
-E02004716,"Bishopstoke",0,0,333.0,21.564
-E02004717,"Eastleigh West",0,14,1016.0,43.171
-E02004718,"Central Eastleigh",0,27,628.0,30.815
-E02004719,"Fair Oak",0,0,816.0,29.678
-E02004720,"West End & Chartwell Green",0,0,954.0,25.695
-E02004721,"Hedge End North & Botley North",0,0,483.0,25.228
-E02004722,"Hedge End Wildern & Botley South",0,1,610.0,62.975
-E02004723,"Hedge End South",0,2,762.0,22.634
-E02004724,"Lowford",0,3,889.0,30.534
-E02004725,"Netley",0,0,394.0,20.457
-E02004726,"Hamble-le-Rice",0,3,394.0,25.049
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004712,"Hiltingbury",0,1,295.0,46.435,989.79
+E02004713,"Chandler's Ford East",0,0,961.0,89.267,811.83
+E02004714,"Chandler's Ford West",0,0,628.0,41.392,1257.70
+E02004715,"Boyatt Wood",0,3,333.0,24.347,675.91
+E02004716,"Bishopstoke",0,0,333.0,21.564,119.43
+E02004717,"Eastleigh West",0,14,1016.0,43.171,9100.09
+E02004718,"Central Eastleigh",0,27,628.0,30.815,1141.72
+E02004719,"Fair Oak",0,0,816.0,29.678,744.15
+E02004720,"West End & Chartwell Green",0,0,954.0,25.695,3795.79
+E02004721,"Hedge End North & Botley North",0,0,483.0,25.228,2386.34
+E02004722,"Hedge End Wildern & Botley South",0,1,610.0,62.975,2403.53
+E02004723,"Hedge End South",0,2,762.0,22.634,4321.22
+E02004724,"Lowford",0,3,889.0,30.534,2621.90
+E02004725,"Netley",0,0,394.0,20.457,518.45
+E02004726,"Hamble-le-Rice",0,3,394.0,25.049,2738.30

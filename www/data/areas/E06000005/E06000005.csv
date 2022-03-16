@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002559,"Faverdale",342,6,859.0,41.475
-E02002560,"Harrowgate Hill",318,0,449.0,7.782
-E02002561,"Whinfield",287,0,304.0,3.133
-E02002562,"Rise Carr",303,1,449.0,8.024
-E02002563,"Haughton Le Skerne",285,0,304.0,3.157
-E02002564,"Cockerton & Hopetown",317,0,145.0,15.592
-E02002565,"Pierremont",308,0,145.0,10.319
-E02002566,"Central Darlington",286,19,676.0,57.506
-E02002567,"Albert Hill & Red Hall",228,10,304.0,6.524
-E02002568,"College & Park West",299,0,593.0,13.740
-E02002569,"Hummersknott",294,0,593.0,21.753
-E02002570,"Bank Top",235,0,304.0,5.004
-E02002571,"Firthmoor",226,0,448.0,2.906
-E02002572,"Park East",255,0,593.0,5.063
-E02002573,"Middleton & Hurworth",237,0,289.0,40.570
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002559,"Faverdale",342,6,859.0,41.475,5470.27
+E02002560,"Harrowgate Hill",318,0,449.0,7.782,172.26
+E02002561,"Whinfield",287,0,304.0,3.133,555.57
+E02002562,"Rise Carr",303,1,449.0,8.024,1267.39
+E02002563,"Haughton Le Skerne",285,0,304.0,3.157,134.82
+E02002564,"Cockerton & Hopetown",317,0,145.0,15.592,393.71
+E02002565,"Pierremont",308,0,145.0,10.319,126.20
+E02002566,"Central Darlington",286,19,676.0,57.506,4331.93
+E02002567,"Albert Hill & Red Hall",228,10,304.0,6.524,2017.89
+E02002568,"College & Park West",299,0,593.0,13.740,104.96
+E02002569,"Hummersknott",294,0,593.0,21.753,1077.50
+E02002570,"Bank Top",235,0,304.0,5.004,1076.93
+E02002571,"Firthmoor",226,0,448.0,2.906,1932.35
+E02002572,"Park East",255,0,593.0,5.063,700.74
+E02002573,"Middleton & Hurworth",237,0,289.0,40.570,1822.56

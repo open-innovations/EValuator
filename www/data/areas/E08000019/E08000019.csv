@@ -1,71 +1,71 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02001611,"Stocksbridge",434,0,174.0,40.177
-E02001612,"Deepcar & Bolsterstone",460,0,1397.0,23.409
-E02001613,"High Green & Burncross",413,0,1223.0,27.546
-E02001614,"Chapeltown",435,0,1223.0,46.842
-E02001615,"Grenoside & Ecclesfield North",406,1,1598.0,23.906
-E02001616,"Ecclesfield South",386,0,1304.0,10.558
-E02001617,"Shiregreen North",423,0,321.0,3.761
-E02001618,"Oughtibridge & Bradfield",301,0,1617.0,28.224
-E02001619,"Parson Cross",350,4,1524.0,9.221
-E02001620,"Shiregreen South",404,0,1524.0,8.092
-E02001621,"Sheffield Lane Top & Longley Park",360,0,81.0,4.252
-E02001622,"Southey Green West",320,0,301.0,7.759
-E02001623,"Firth Park",360,0,248.0,5.012
-E02001624,"Brightside & Wincobank",408,0,562.0,3.526
-E02001625,"Southey Green East",325,0,301.0,5.356
-E02001626,"Wadsley & Marlcliffe",250,0,220.0,6.586
-E02001627,"Hillsborough",269,3,301.0,14.788
-E02001628,"Tinsley & Carbrook",458,2,427.0,3.595
-E02001629,"Shirecliffe & Parkwood Springs",285,0,302.0,3.007
-E02001630,"Crabtree & Fir Vale",319,0,328.0,1.901
-E02001631,"Malin Bridge & Wisewood",233,0,220.0,10.954
-E02001632,"Burngreave & Grimesthorpe",326,3,788.0,4.569
-E02001633,"Upper Stannington & Loxley",152,0,246.0,13.373
-E02001634,"Walkley",211,0,602.0,13.738
-E02001635,"Lower Stannington",186,0,576.0,9.637
-E02001636,"Upperthorpe",229,1,1879.0,34.511
-E02001637,"Darnall",353,1,323.0,4.426
-E02001638,"Springvale & Steel Bank",199,0,356.0,18.402
-E02001639,"Crookes",193,0,576.0,17.729
-E02001640,"Broomhill & Lower Crookesmoor",224,0,804.0,34.872
-E02001642,"Littledale & Handsworth North",416,0,296.0,5.565
-E02001643,"Sandygate & Crosspool",168,0,644.0,74.915
-E02001646,"Broomhall",245,2,644.0,31.232
-E02001647,"Handsworth South",393,0,296.0,5.906
-E02001648,"Endcliffe & Ranmoor",185,0,644.0,34.920
-E02001649,"Woodthorpe",366,0,437.0,3.955
-E02001650,"Sharrow",269,0,929.0,25.349
-E02001651,"Fulwood & Lodge Moor",142,0,890.0,31.878
-E02001652,"Highfield & Lowfield",289,0,1111.0,21.577
-E02001653,"Norfolk Park",272,0,109.0,3.002
-E02001654,"Woodhouse Mill",316,0,56.0,5.465
-E02001655,"Richmond & Stradbroke",354,0,144.0,6.927
-E02001656,"Brincliffe & Sharrow Vale",202,0,766.0,28.497
-E02001657,"Ecclesall & Greystones",191,0,410.0,75.778
-E02001658,"Arbourthorne",315,0,171.0,2.082
-E02001659,"Woodhouse West",360,0,56.0,6.092
-E02001660,"Nether Edge",224,0,618.0,44.940
-E02001661,"Heeley & Newfield Green",250,2,265.0,4.334
-E02001662,"Intake",324,0,227.0,20.637
-E02001663,"Meersbrook",211,1,413.0,47.271
-E02001664,"Gleadless",307,0,88.0,9.938
-E02001665,"Bents Green & Millhouses",164,0,766.0,47.727
-E02001666,"Beighton",326,2,217.0,12.584
-E02001669,"Woodseats",188,0,304.0,13.941
-E02001670,"Herdings & Gleadless Valley",226,0,270.0,0.553
-E02001671,"Hackenthorpe",320,3,217.0,13.465
-E02001672,"Charnock & Basegreen",289,0,270.0,8.167
-E02001673,"Sothall",306,0,225.0,36.686
-E02001674,"Norton & Norton Lees",191,1,182.0,12.355
-E02001675,"Westfield & Waterthorpe",289,0,129.0,19.754
-E02001676,"Beauchief",172,0,478.0,8.777
-E02001678,"Dore & Whirlow",110,0,462.0,66.953
-E02001679,"Greenhill & Lowedges",182,0,182.0,10.549
-E02001680,"Batemoor & Jordanthorpe",190,0,182.0,7.008
-E02001681,"Totley & Bradway",139,0,443.0,77.750
-E02006803,"Mosborough & Halfway",278,0,217.0,22.486
-E02006843,"Cathedral & Kelham",286,0,475.0,2.262
-E02006844,"Devonshire Quarter",250,0,436.0,6.941
-E02006868,"Park Hill & Wybourn",351,0,570.0,8.276
-E02006869,"Birley",317,0,88.0,19.234
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02001611,"Stocksbridge",434,0,174.0,40.177,2174.83
+E02001612,"Deepcar & Bolsterstone",460,0,1397.0,23.409,360.55
+E02001613,"High Green & Burncross",413,0,1223.0,27.546,463.30
+E02001614,"Chapeltown",435,0,1223.0,46.842,1214.69
+E02001615,"Grenoside & Ecclesfield North",406,1,1598.0,23.906,1593.98
+E02001616,"Ecclesfield South",386,0,1304.0,10.558,67.30
+E02001617,"Shiregreen North",423,0,321.0,3.761,227.45
+E02001618,"Oughtibridge & Bradfield",301,0,1617.0,28.224,1146.90
+E02001619,"Parson Cross",350,4,1524.0,9.221,501.15
+E02001620,"Shiregreen South",404,0,1524.0,8.092,437.46
+E02001621,"Sheffield Lane Top & Longley Park",360,0,81.0,4.252,332.49
+E02001622,"Southey Green West",320,0,301.0,7.759,447.26
+E02001623,"Firth Park",360,0,248.0,5.012,820.73
+E02001624,"Brightside & Wincobank",408,0,562.0,3.526,996.94
+E02001625,"Southey Green East",325,0,301.0,5.356,761.55
+E02001626,"Wadsley & Marlcliffe",250,0,220.0,6.586,193.74
+E02001627,"Hillsborough",269,3,301.0,14.788,4778.91
+E02001628,"Tinsley & Carbrook",458,2,427.0,3.595,15171.48
+E02001629,"Shirecliffe & Parkwood Springs",285,0,302.0,3.007,641.73
+E02001630,"Crabtree & Fir Vale",319,0,328.0,1.901,1840.23
+E02001631,"Malin Bridge & Wisewood",233,0,220.0,10.954,452.42
+E02001632,"Burngreave & Grimesthorpe",326,3,788.0,4.569,2695.11
+E02001633,"Upper Stannington & Loxley",152,0,246.0,13.373,646.73
+E02001634,"Walkley",211,0,602.0,13.738,449.06
+E02001635,"Lower Stannington",186,0,576.0,9.637,184.38
+E02001636,"Upperthorpe",229,1,1879.0,34.511,1650.33
+E02001637,"Darnall",353,1,323.0,4.426,2109.73
+E02001638,"Springvale & Steel Bank",199,0,356.0,18.402,57.05
+E02001639,"Crookes",193,0,576.0,17.729,68.34
+E02001640,"Broomhill & Lower Crookesmoor",224,0,804.0,34.872,1470.50
+E02001642,"Littledale & Handsworth North",416,0,296.0,5.565,2149.12
+E02001643,"Sandygate & Crosspool",168,0,644.0,74.915,317.07
+E02001646,"Broomhall",245,2,644.0,31.232,848.99
+E02001647,"Handsworth South",393,0,296.0,5.906,513.40
+E02001648,"Endcliffe & Ranmoor",185,0,644.0,34.920,736.05
+E02001649,"Woodthorpe",366,0,437.0,3.955,1060.79
+E02001650,"Sharrow",269,0,929.0,25.349,1004.46
+E02001651,"Fulwood & Lodge Moor",142,0,890.0,31.878,867.73
+E02001652,"Highfield & Lowfield",289,0,1111.0,21.577,4168.73
+E02001653,"Norfolk Park",272,0,109.0,3.002,615.47
+E02001654,"Woodhouse Mill",316,0,56.0,5.465,122.78
+E02001655,"Richmond & Stradbroke",354,0,144.0,6.927,153.05
+E02001656,"Brincliffe & Sharrow Vale",202,0,766.0,28.497,448.80
+E02001657,"Ecclesall & Greystones",191,0,410.0,75.778,417.10
+E02001658,"Arbourthorne",315,0,171.0,2.082,563.98
+E02001659,"Woodhouse West",360,0,56.0,6.092,367.37
+E02001660,"Nether Edge",224,0,618.0,44.940,234.41
+E02001661,"Heeley & Newfield Green",250,2,265.0,4.334,753.93
+E02001662,"Intake",324,0,227.0,20.637,163.97
+E02001663,"Meersbrook",211,1,413.0,47.271,1874.33
+E02001664,"Gleadless",307,0,88.0,9.938,109.70
+E02001665,"Bents Green & Millhouses",164,0,766.0,47.727,1315.78
+E02001666,"Beighton",326,2,217.0,12.584,2134.02
+E02001669,"Woodseats",188,0,304.0,13.941,2201.33
+E02001670,"Herdings & Gleadless Valley",226,0,270.0,0.553,0.00
+E02001671,"Hackenthorpe",320,3,217.0,13.465,1376.95
+E02001672,"Charnock & Basegreen",289,0,270.0,8.167,150.36
+E02001673,"Sothall",306,0,225.0,36.686,532.82
+E02001674,"Norton & Norton Lees",191,1,182.0,12.355,1521.66
+E02001675,"Westfield & Waterthorpe",289,0,129.0,19.754,1992.71
+E02001676,"Beauchief",172,0,478.0,8.777,434.00
+E02001678,"Dore & Whirlow",110,0,462.0,66.953,1003.84
+E02001679,"Greenhill & Lowedges",182,0,182.0,10.549,46.46
+E02001680,"Batemoor & Jordanthorpe",190,0,182.0,7.008,496.04
+E02001681,"Totley & Bradway",139,0,443.0,77.750,237.08
+E02006803,"Mosborough & Halfway",278,0,217.0,22.486,1547.86
+E02006843,"Cathedral & Kelham",286,0,475.0,2.262,3355.73
+E02006844,"Devonshire Quarter",250,0,436.0,6.941,2344.11
+E02006868,"Park Hill & Wybourn",351,0,570.0,8.276,4357.93
+E02006869,"Birley",317,0,88.0,19.234,445.50

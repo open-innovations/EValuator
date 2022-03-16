@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-W02000126,"Cilgerran & Crymych",0,4,133.0,4.647
-W02000127,"Fishguard",0,6,189.0,2.573
-W02000128,"St Davids & Letterston",0,5,127.0,18.262
-W02000129,"Crundale",0,0,246.0,14.916
-W02000130,"Haverfordwest North",0,4,49.0,0.000
-W02000131,"Haverfordwest South",0,4,249.0,2.142
-W02000132,"Narberth",0,2,234.0,18.895
-W02000133,"Johnston",0,1,293.0,16.961
-W02000134,"Neyland",0,2,243.0,8.062
-W02000135,"Milford Haven East",0,0,67.0,6.267
-W02000136,"Saundersfoot",0,2,220.0,4.096
-W02000137,"Milford Haven West",0,5,67.0,5.200
-W02000138,"Pembroke Dock",0,7,49.0,0.440
-W02000139,"Pembroke East & Manorbier",0,0,101.0,6.053
-W02000140,"Pembroke West & Castlemartin",0,2,33.0,6.945
-W02000141,"Tenby & Caldey",0,9,49.0,9.369
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+W02000126,"Cilgerran & Crymych",0,4,133.0,4.647,2313.22
+W02000127,"Fishguard",0,6,189.0,2.573,2631.67
+W02000128,"St Davids & Letterston",0,5,127.0,18.262,2989.46
+W02000129,"Crundale",0,0,246.0,14.916,1463.66
+W02000130,"Haverfordwest North",0,4,49.0,0.000,4329.44
+W02000131,"Haverfordwest South",0,4,249.0,2.142,1700.96
+W02000132,"Narberth",0,2,234.0,18.895,3697.90
+W02000133,"Johnston",0,1,293.0,16.961,1852.32
+W02000134,"Neyland",0,2,243.0,8.062,517.60
+W02000135,"Milford Haven East",0,0,67.0,6.267,155.34
+W02000136,"Saundersfoot",0,2,220.0,4.096,4304.61
+W02000137,"Milford Haven West",0,5,67.0,5.200,71.50
+W02000138,"Pembroke Dock",0,7,49.0,0.440,3045.52
+W02000139,"Pembroke East & Manorbier",0,0,101.0,6.053,1984.58
+W02000140,"Pembroke West & Castlemartin",0,2,33.0,6.945,4385.08
+W02000141,"Tenby & Caldey",0,9,49.0,9.369,3623.23

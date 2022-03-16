@@ -1,33 +1,33 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003459,"Olney & Lavendon",0,5,1262.0,60.654
-E02003460,"Hanslope",0,7,16559.0,75.166
-E02003461,"Newport Pagnell North",0,3,597.0,24.870
-E02003462,"Newport Pagnell South",0,0,697.0,58.226
-E02003463,"Great Linford & Giffard Park",0,4,16342.0,23.493
-E02003464,"Stantonbury & Bradville",0,2,15490.0,12.406
-E02003465,"Willen & Downhead Park",0,1,17665.0,35.560
-E02003466,"Wolverton & New Bradwell",0,4,182.0,15.111
-E02003467,"Linford Wood",0,2,17086.0,28.567
-E02003468,"Stony Stratford & Old Wolverton",0,14,163.0,26.546
-E02003469,"Bradwell Village",0,0,907.0,15.936
-E02003470,"Stacey Bushes & Fullers Slade",0,1,163.0,11.189
-E02003471,"Bradwell Common",0,4,998.0,16.684
-E02003472,"Central Milton Keynes & Newlands",0,172,23036.0,20.684
-E02003473,"Two Mile Ash",0,4,16838.0,108.676
-E02003474,"Woughton & Woolstone",0,2,6847.0,29.848
-E02003475,"Broughton",0,24,8001.0,219.821
-E02003476,"Eaglestone & Fishermead",0,4,831.0,10.820
-E02003477,"Shenley Wood & Grange Farm",0,2,1914.0,77.325
-E02003478,"Loughton",0,3,304.0,52.180
-E02003479,"Oldbrook & Coffee Hall",0,2,911.0,14.294
-E02003480,"Walnut Tree & Tilbrook",0,3,524.0,49.925
-E02003481,"Denbigh",0,12,1984.0,53.235
-E02003482,"Bow Brickhill & Woburn Sands",0,4,7148.0,76.624
-E02003483,"Westcroft & Shenley Brook End",0,7,1072.0,67.811
-E02003484,"Furzton",0,2,631.0,47.451
-E02003485,"Bletchley North West",0,0,1282.0,30.545
-E02003486,"Tattenhoe & Emerson Valley",0,4,475.0,74.855
-E02003487,"Far Bletchley",0,1,451.0,22.312
-E02003488,"Bletchley East",0,5,1401.0,19.662
-E02003489,"Bletchley West",0,1,1687.0,26.493
-E02003490,"Bletchley South",0,1,926.0,17.862
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003459,"Olney & Lavendon",0,5,1262.0,60.654,1193.69
+E02003460,"Hanslope",0,7,16559.0,75.166,3539.17
+E02003461,"Newport Pagnell North",0,3,597.0,24.870,396.98
+E02003462,"Newport Pagnell South",0,0,697.0,58.226,1098.18
+E02003463,"Great Linford & Giffard Park",0,4,16342.0,23.493,455.71
+E02003464,"Stantonbury & Bradville",0,2,15490.0,12.406,86.81
+E02003465,"Willen & Downhead Park",0,1,17665.0,35.560,1268.97
+E02003466,"Wolverton & New Bradwell",0,4,182.0,15.111,951.20
+E02003467,"Linford Wood",0,2,17086.0,28.567,2440.09
+E02003468,"Stony Stratford & Old Wolverton",0,14,163.0,26.546,2130.79
+E02003469,"Bradwell Village",0,0,907.0,15.936,46.36
+E02003470,"Stacey Bushes & Fullers Slade",0,1,163.0,11.189,340.33
+E02003471,"Bradwell Common",0,4,998.0,16.684,1814.34
+E02003472,"Central Milton Keynes & Newlands",0,172,23036.0,20.684,26305.29
+E02003473,"Two Mile Ash",0,4,16838.0,108.676,313.34
+E02003474,"Woughton & Woolstone",0,2,6847.0,29.848,825.52
+E02003475,"Broughton",0,24,8001.0,219.821,8942.01
+E02003476,"Eaglestone & Fishermead",0,4,831.0,10.820,2523.12
+E02003477,"Shenley Wood & Grange Farm",0,2,1914.0,77.325,2098.65
+E02003478,"Loughton",0,3,304.0,52.180,3541.74
+E02003479,"Oldbrook & Coffee Hall",0,2,911.0,14.294,2640.40
+E02003480,"Walnut Tree & Tilbrook",0,3,524.0,49.925,3768.90
+E02003481,"Denbigh",0,12,1984.0,53.235,5735.17
+E02003482,"Bow Brickhill & Woburn Sands",0,4,7148.0,76.624,4756.23
+E02003483,"Westcroft & Shenley Brook End",0,7,1072.0,67.811,2052.06
+E02003484,"Furzton",0,2,631.0,47.451,668.47
+E02003485,"Bletchley North West",0,0,1282.0,30.545,285.17
+E02003486,"Tattenhoe & Emerson Valley",0,4,475.0,74.855,683.75
+E02003487,"Far Bletchley",0,1,451.0,22.312,248.04
+E02003488,"Bletchley East",0,5,1401.0,19.662,2026.01
+E02003489,"Bletchley West",0,1,1687.0,26.493,1516.99
+E02003490,"Bletchley South",0,1,926.0,17.862,475.12

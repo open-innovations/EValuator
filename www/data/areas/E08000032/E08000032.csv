@@ -1,62 +1,62 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002183,"Addingham & Ilkley Moor",149,0,509.0,89.716
-E02002184,"Ilkley & Ben Rhydding",169,4,327.0,76.757
-E02002185,"Burley-in-Wharfedale",187,0,449.0,30.157
-E02002186,"Steeton & Silsden",166,2,228.0,53.028
-E02002187,"Menston & Burley Moor",188,0,327.0,38.754
-E02002188,"Riddlesden & East Morton",183,0,449.0,27.810
-E02002189,"Keighley Utley",172,0,313.0,16.893
-E02002190,"Keighley Central & East",219,3,550.0,31.551
-E02002191,"Keighley Oakworth Road & West Lane",165,0,414.0,12.150
-E02002192,"Crossflatts & Eldwick",199,0,257.0,28.895
-E02002193,"Keighley South",164,0,186.0,4.688
-E02002194,"Keighley Exley Head",159,2,186.0,10.324
-E02002195,"Baildon North",205,1,361.0,23.214
-E02002196,"Oakworth & Laycock",170,1,329.0,17.119
-E02002197,"Bingley Town",237,3,221.0,41.913
-E02002198,"Baildon South",224,0,121.0,27.388
-E02002199,"Thackley & Esholt",274,1,1244.0,19.499
-E02002200,"Saltaire & Baildon West",246,0,420.0,19.628
-E02002201,"Idle",294,1,944.0,32.175
-E02002202,"Shipley Town",269,2,284.0,36.460
-E02002203,"Windhill",293,0,1075.0,10.932
-E02002204,"Cottingley",222,0,354.0,28.751
-E02002205,"Haworth & Oxenhope",190,1,186.0,37.022
-E02002206,"Wrose & Bolton Woods",323,0,1075.0,7.690
-E02002207,"Frizinghall & Heaton Grove",326,0,239.0,8.863
-E02002208,"Eccleshill",332,0,971.0,14.125
-E02002209,"Ravenscliffe",304,0,971.0,8.714
-E02002210,"Bolton Road & Kings Road",388,0,174.0,4.569
-E02002211,"Heaton Highgate",332,0,163.0,10.601
-E02002212,"Chellow Heights",297,0,163.0,9.216
-E02002213,"Cullingworth & Denholme",206,0,497.0,28.809
-E02002214,"Haigh Fold",358,0,76.0,4.686
-E02002215,"Toller Lane & Infirmary",378,1,108.0,10.317
-E02002216,"Manningham & Lister Park",373,2,339.0,6.325
-E02002217,"Undercliffe",400,0,174.0,3.085
-E02002218,"Allerton",302,0,55.0,21.766
-E02002219,"Girlington",407,0,244.0,2.525
-E02002220,"Thornbury",437,3,130.0,0.233
-E02002221,"Central Bradford & Barkerend West",502,8,1738.0,23.575
-E02002222,"Fairweather Green",350,0,249.0,13.830
-E02002223,"Brown Royd",430,2,176.0,4.234
-E02002224,"Barkerend East",467,0,209.0,0.220
-E02002225,"Thornton",272,0,249.0,29.622
-E02002226,"Shearbridge & University",552,1,226.0,5.323
-E02002227,"Broomfields & East Bowling",691,0,303.0,7.509
-E02002228,"Laisterdyke & Bowling",569,1,209.0,10.640
-E02002229,"Clayton",401,0,200.0,9.713
-E02002230,"Holme Top",675,0,518.0,17.055
-E02002231,"Scholemoor",492,7,304.0,9.772
-E02002232,"Great Horton & Brackenhill",608,2,209.0,3.161
-E02002233,"Canterbury",717,0,133.0,2.519
-E02002234,"Holme Wood",605,0,155.0,9.906
-E02002235,"Bowling Park",801,1,205.0,3.963
-E02002236,"Wibsey St Enoch's",654,1,126.0,7.771
-E02002237,"Horton Bank",532,0,159.0,6.909
-E02002238,"Bankfoot",769,2,126.0,8.313
-E02002239,"Bierley & Tong",733,2,316.0,13.870
-E02002240,"Queensbury",357,0,434.0,39.608
-E02002241,"Buttershaw",631,2,132.0,22.130
-E02002242,"Low Moor",768,3,337.0,14.193
-E02002243,"Wyke",808,1,132.0,15.368
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002183,"Addingham & Ilkley Moor",149,0,509.0,89.716,1239.51
+E02002184,"Ilkley & Ben Rhydding",169,4,327.0,76.757,2081.50
+E02002185,"Burley-in-Wharfedale",187,0,449.0,30.157,531.43
+E02002186,"Steeton & Silsden",166,2,228.0,53.028,3276.17
+E02002187,"Menston & Burley Moor",188,0,327.0,38.754,722.58
+E02002188,"Riddlesden & East Morton",183,0,449.0,27.810,910.80
+E02002189,"Keighley Utley",172,0,313.0,16.893,43.04
+E02002190,"Keighley Central & East",219,3,550.0,31.551,3895.50
+E02002191,"Keighley Oakworth Road & West Lane",165,0,414.0,12.150,289.89
+E02002192,"Crossflatts & Eldwick",199,0,257.0,28.895,1438.81
+E02002193,"Keighley South",164,0,186.0,4.688,245.04
+E02002194,"Keighley Exley Head",159,2,186.0,10.324,246.86
+E02002195,"Baildon North",205,1,361.0,23.214,584.20
+E02002196,"Oakworth & Laycock",170,1,329.0,17.119,102.06
+E02002197,"Bingley Town",237,3,221.0,41.913,2150.54
+E02002198,"Baildon South",224,0,121.0,27.388,1004.67
+E02002199,"Thackley & Esholt",274,1,1244.0,19.499,1269.36
+E02002200,"Saltaire & Baildon West",246,0,420.0,19.628,455.06
+E02002201,"Idle",294,1,944.0,32.175,579.19
+E02002202,"Shipley Town",269,2,284.0,36.460,3050.44
+E02002203,"Windhill",293,0,1075.0,10.932,167.59
+E02002204,"Cottingley",222,0,354.0,28.751,1846.45
+E02002205,"Haworth & Oxenhope",190,1,186.0,37.022,1319.44
+E02002206,"Wrose & Bolton Woods",323,0,1075.0,7.690,482.27
+E02002207,"Frizinghall & Heaton Grove",326,0,239.0,8.863,392.63
+E02002208,"Eccleshill",332,0,971.0,14.125,1017.06
+E02002209,"Ravenscliffe",304,0,971.0,8.714,1003.21
+E02002210,"Bolton Road & Kings Road",388,0,174.0,4.569,312.16
+E02002211,"Heaton Highgate",332,0,163.0,10.601,210.99
+E02002212,"Chellow Heights",297,0,163.0,9.216,808.81
+E02002213,"Cullingworth & Denholme",206,0,497.0,28.809,850.91
+E02002214,"Haigh Fold",358,0,76.0,4.686,273.10
+E02002215,"Toller Lane & Infirmary",378,1,108.0,10.317,913.55
+E02002216,"Manningham & Lister Park",373,2,339.0,6.325,238.94
+E02002217,"Undercliffe",400,0,174.0,3.085,442.12
+E02002218,"Allerton",302,0,55.0,21.766,315.06
+E02002219,"Girlington",407,0,244.0,2.525,275.10
+E02002220,"Thornbury",437,3,130.0,0.233,1480.97
+E02002221,"Central Bradford & Barkerend West",502,8,1738.0,23.575,5151.66
+E02002222,"Fairweather Green",350,0,249.0,13.830,306.77
+E02002223,"Brown Royd",430,2,176.0,4.234,1761.98
+E02002224,"Barkerend East",467,0,209.0,0.220,438.85
+E02002225,"Thornton",272,0,249.0,29.622,715.59
+E02002226,"Shearbridge & University",552,1,226.0,5.323,2234.48
+E02002227,"Broomfields & East Bowling",691,0,303.0,7.509,746.58
+E02002228,"Laisterdyke & Bowling",569,1,209.0,10.640,938.32
+E02002229,"Clayton",401,0,200.0,9.713,633.55
+E02002230,"Holme Top",675,0,518.0,17.055,1704.27
+E02002231,"Scholemoor",492,7,304.0,9.772,580.00
+E02002232,"Great Horton & Brackenhill",608,2,209.0,3.161,72.22
+E02002233,"Canterbury",717,0,133.0,2.519,237.81
+E02002234,"Holme Wood",605,0,155.0,9.906,227.91
+E02002235,"Bowling Park",801,1,205.0,3.963,315.21
+E02002236,"Wibsey St Enoch's",654,1,126.0,7.771,240.05
+E02002237,"Horton Bank",532,0,159.0,6.909,168.65
+E02002238,"Bankfoot",769,2,126.0,8.313,422.83
+E02002239,"Bierley & Tong",733,2,316.0,13.870,2088.10
+E02002240,"Queensbury",357,0,434.0,39.608,553.28
+E02002241,"Buttershaw",631,2,132.0,22.130,408.36
+E02002242,"Low Moor",768,3,337.0,14.193,1044.20
+E02002243,"Wyke",808,1,132.0,15.368,535.83

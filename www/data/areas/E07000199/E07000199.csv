@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006217,"Coton Farm & Perry Crofts",0,2,140.0,22.566
-E02006218,"Central Tamworth",0,1,537.0,32.566
-E02006219,"Amington",0,0,375.0,20.721
-E02006220,"Bolehall",0,0,537.0,24.892
-E02006221,"Kettlebrook",0,1,537.0,57.030
-E02006222,"Belgrave",0,0,397.0,13.084
-E02006223,"Glascote Heath",0,0,375.0,11.743
-E02006224,"Wilnecote East",0,1,235.0,14.496
-E02006225,"Dosthill & Two Gates",0,0,235.0,16.971
-E02006226,"Wilnecote West & Hockley",0,1,235.0,28.049
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006217,"Coton Farm & Perry Crofts",0,2,140.0,22.566,587.81
+E02006218,"Central Tamworth",0,1,537.0,32.566,5274.08
+E02006219,"Amington",0,0,375.0,20.721,758.63
+E02006220,"Bolehall",0,0,537.0,24.892,627.17
+E02006221,"Kettlebrook",0,1,537.0,57.030,6148.95
+E02006222,"Belgrave",0,0,397.0,13.084,156.83
+E02006223,"Glascote Heath",0,0,375.0,11.743,316.82
+E02006224,"Wilnecote East",0,1,235.0,14.496,1463.35
+E02006225,"Dosthill & Two Gates",0,0,235.0,16.971,274.69
+E02006226,"Wilnecote West & Hockley",0,1,235.0,28.049,2444.08

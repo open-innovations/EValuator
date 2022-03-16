@@ -1,40 +1,40 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02000127,"Mottingham",0,2,812.0,20.708
-E02000128,"Chislehurst North",0,0,654.0,29.880
-E02000130,"Penge East",0,7,753.0,13.943
-E02000131,"Crystal Palace Park",0,0,477.0,8.965
-E02000132,"New Beckenham",0,9,651.0,36.779
-E02000133,"Chislehurst West & Elmstead",0,0,706.0,58.802
-E02000134,"Bromley North & Sundridge",0,4,1114.0,161.167
-E02000135,"Anerley North & Penge West",0,2,102.0,6.786
-E02000136,"Chislehurst East & Hoblingwell Wood",0,0,719.0,23.176
-E02000137,"Shortlands Bromley Road",0,5,1332.0,28.698
-E02000138,"Beckenham East & Kelsey Park",0,0,864.0,54.972
-E02000139,"Clock House & Cator Park",0,3,558.0,29.149
-E02000140,"St Mary Cray North",0,3,481.0,16.296
-E02000141,"Anerley South",0,0,558.0,5.628
-E02000142,"Widmore",0,0,876.0,19.807
-E02000144,"Bromley South",0,7,876.0,43.783
-E02000145,"St Mary Cray East",0,3,604.0,22.927
-E02000146,"Bickley West",0,3,876.0,29.249
-E02000147,"Langley Park",0,2,1039.0,28.304
-E02000148,"Bickley East",0,0,1160.0,18.294
-E02000149,"St Mary Cray South",0,0,714.0,19.362
-E02000150,"Eden Park & Bethlem",0,0,631.0,22.028
-E02000151,"Petts Wood",0,0,714.0,15.065
-E02000152,"Bromley Common",0,0,408.0,19.045
-E02000153,"Hayes North",0,0,583.0,23.153
-E02000154,"Orpington West",0,2,952.0,122.497
-E02000155,"Orpington East",0,0,714.0,16.789
-E02000156,"West Wickham",0,10,1546.0,78.421
-E02000157,"Crofton",0,0,714.0,30.251
-E02000158,"Goddington",0,0,714.0,20.569
-E02000159,"Keston",0,0,961.0,33.894
-E02000160,"Hayes South & Coney Hall",0,3,583.0,31.502
-E02000161,"Orpington South",0,0,430.0,27.483
-E02000162,"Farnborough",0,0,685.0,30.969
-E02000163,"Chelsfield & Green Street Green",0,2,969.0,40.360
-E02000165,"Biggin Hill West",0,0,538.0,41.449
-E02006782,"Plaistow (Bromley)",0,7,468.0,16.400
-E02006787,"Elmers End",0,2,456.0,61.265
-E02006789,"Biggin Hill East & Cudham",0,0,1631.0,26.088
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02000127,"Mottingham",0,2,812.0,20.708,583.02
+E02000128,"Chislehurst North",0,0,654.0,29.880,254.10
+E02000130,"Penge East",0,7,753.0,13.943,271.71
+E02000131,"Crystal Palace Park",0,0,477.0,8.965,654.32
+E02000132,"New Beckenham",0,9,651.0,36.779,971.31
+E02000133,"Chislehurst West & Elmstead",0,0,706.0,58.802,288.11
+E02000134,"Bromley North & Sundridge",0,4,1114.0,161.167,960.50
+E02000135,"Anerley North & Penge West",0,2,102.0,6.786,381.87
+E02000136,"Chislehurst East & Hoblingwell Wood",0,0,719.0,23.176,253.64
+E02000137,"Shortlands Bromley Road",0,5,1332.0,28.698,83.92
+E02000138,"Beckenham East & Kelsey Park",0,0,864.0,54.972,22.34
+E02000139,"Clock House & Cator Park",0,3,558.0,29.149,266.70
+E02000140,"St Mary Cray North",0,3,481.0,16.296,515.84
+E02000141,"Anerley South",0,0,558.0,5.628,191.70
+E02000142,"Widmore",0,0,876.0,19.807,566.71
+E02000144,"Bromley South",0,7,876.0,43.783,860.20
+E02000145,"St Mary Cray East",0,3,604.0,22.927,3079.82
+E02000146,"Bickley West",0,3,876.0,29.249,336.02
+E02000147,"Langley Park",0,2,1039.0,28.304,165.43
+E02000148,"Bickley East",0,0,1160.0,18.294,345.48
+E02000149,"St Mary Cray South",0,0,714.0,19.362,417.86
+E02000150,"Eden Park & Bethlem",0,0,631.0,22.028,398.66
+E02000151,"Petts Wood",0,0,714.0,15.065,18.30
+E02000152,"Bromley Common",0,0,408.0,19.045,352.31
+E02000153,"Hayes North",0,0,583.0,23.153,1077.48
+E02000154,"Orpington West",0,2,952.0,122.497,81.93
+E02000155,"Orpington East",0,0,714.0,16.789,194.40
+E02000156,"West Wickham",0,10,1546.0,78.421,802.08
+E02000157,"Crofton",0,0,714.0,30.251,322.59
+E02000158,"Goddington",0,0,714.0,20.569,68.90
+E02000159,"Keston",0,0,961.0,33.894,1032.82
+E02000160,"Hayes South & Coney Hall",0,3,583.0,31.502,647.81
+E02000161,"Orpington South",0,0,430.0,27.483,118.74
+E02000162,"Farnborough",0,0,685.0,30.969,762.88
+E02000163,"Chelsfield & Green Street Green",0,2,969.0,40.360,1386.33
+E02000165,"Biggin Hill West",0,0,538.0,41.449,282.40
+E02006782,"Plaistow (Bromley)",0,7,468.0,16.400,255.52
+E02006787,"Elmers End",0,2,456.0,61.265,1038.07
+E02006789,"Biggin Hill East & Cudham",0,0,1631.0,26.088,1130.83

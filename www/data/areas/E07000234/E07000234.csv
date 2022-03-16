@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006696,"Hagley",0,0,600.0,31.308
-E02006697,"Dodford",0,2,1003.0,50.887
-E02006698,"Rubery West",0,0,738.0,24.894
-E02006699,"Hollywood & Drakes Cross",0,0,162.0,23.402
-E02006700,"Wythall & Gay Hill",0,1,608.0,32.532
-E02006701,"Barnt Green & Lickey Hills",0,0,813.0,32.088
-E02006702,"Catshill",0,1,163.0,15.375
-E02006703,"Marlbrook & Lickey End",0,2,738.0,32.019
-E02006704,"Alvechurch",0,3,942.0,39.423
-E02006705,"Bromsgrove Sidemoor",0,0,163.0,21.375
-E02006706,"Bromsgrove Central & Sanders Park",0,4,539.0,46.701
-E02006707,"Bromsgrove Stoney Hill",0,0,376.0,28.828
-E02006708,"Bromsgrove Charford",0,3,539.0,68.583
-E02006709,"Stoke Heath",0,3,762.0,63.847
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006696,"Hagley",0,0,600.0,31.308,972.35
+E02006697,"Dodford",0,2,1003.0,50.887,2681.64
+E02006698,"Rubery West",0,0,738.0,24.894,261.84
+E02006699,"Hollywood & Drakes Cross",0,0,162.0,23.402,153.87
+E02006700,"Wythall & Gay Hill",0,1,608.0,32.532,1280.09
+E02006701,"Barnt Green & Lickey Hills",0,0,813.0,32.088,1369.23
+E02006702,"Catshill",0,1,163.0,15.375,464.31
+E02006703,"Marlbrook & Lickey End",0,2,738.0,32.019,413.76
+E02006704,"Alvechurch",0,3,942.0,39.423,2604.83
+E02006705,"Bromsgrove Sidemoor",0,0,163.0,21.375,255.07
+E02006706,"Bromsgrove Central & Sanders Park",0,4,539.0,46.701,2213.61
+E02006707,"Bromsgrove Stoney Hill",0,0,376.0,28.828,541.77
+E02006708,"Bromsgrove Charford",0,3,539.0,68.583,937.87
+E02006709,"Stoke Heath",0,3,762.0,63.847,2548.56

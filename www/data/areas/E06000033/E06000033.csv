@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003279,"Eastwood Park",0,0,269.0,22.066
-E02003280,"Eastwood",0,0,510.0,10.001
-E02003281,"Belfairs",0,0,269.0,37.237
-E02003282,"Prittlewell",0,2,241.0,13.152
-E02003283,"Blenheim Park",0,0,415.0,16.507
-E02003284,"St Lukes",0,0,95.0,8.366
-E02003285,"Westborough",0,0,146.0,14.560
-E02003286,"West Leigh",0,0,269.0,22.842
-E02003287,"Southchurch",0,0,314.0,8.692
-E02003288,"Victoria",0,2,860.0,55.486
-E02003289,"Leigh",0,0,269.0,24.393
-E02003290,"Chalkwell",0,0,415.0,18.267
-E02003291,"Shoeburyness",0,1,95.0,29.776
-E02003292,"Kursaal",0,0,219.0,8.839
-E02003293,"Southend Central",0,11,365.0,24.178
-E02003294,"Thorpe Bay",0,0,393.0,10.194
-E02003295,"West Shoebury",0,0,219.0,16.334
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003279,"Eastwood Park",0,0,269.0,22.066,530.10
+E02003280,"Eastwood",0,0,510.0,10.001,3244.89
+E02003281,"Belfairs",0,0,269.0,37.237,305.16
+E02003282,"Prittlewell",0,2,241.0,13.152,2205.32
+E02003283,"Blenheim Park",0,0,415.0,16.507,219.99
+E02003284,"St Lukes",0,0,95.0,8.366,1618.59
+E02003285,"Westborough",0,0,146.0,14.560,0.00
+E02003286,"West Leigh",0,0,269.0,22.842,870.21
+E02003287,"Southchurch",0,0,314.0,8.692,269.59
+E02003288,"Victoria",0,2,860.0,55.486,3465.63
+E02003289,"Leigh",0,0,269.0,24.393,438.44
+E02003290,"Chalkwell",0,0,415.0,18.267,272.70
+E02003291,"Shoeburyness",0,1,95.0,29.776,1149.52
+E02003292,"Kursaal",0,0,219.0,8.839,2197.68
+E02003293,"Southend Central",0,11,365.0,24.178,3726.47
+E02003294,"Thorpe Bay",0,0,393.0,10.194,1529.01
+E02003295,"West Shoebury",0,0,219.0,16.334,832.52

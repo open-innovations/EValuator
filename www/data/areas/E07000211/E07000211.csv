@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006375,"Nork",0,0,1149.0,23.523
-E02006376,"Banstead",0,0,686.0,60.087
-E02006377,"Tattenham North",0,8,1176.0,22.730
-E02006378,"Chipstead & Netherne",0,0,1439.0,44.589
-E02006379,"Tattenham South",0,0,550.0,18.995
-E02006380,"Tadworth & Walton",0,0,550.0,72.651
-E02006381,"Kingswood",0,1,1355.0,44.163
-E02006382,"Merstham",0,0,348.0,11.306
-E02006383,"Reigate Hill & Gatton",0,1,672.0,40.822
-E02006384,"Redhill West",0,2,672.0,33.629
-E02006385,"Redhill East",0,6,396.0,76.983
-E02006386,"Reigate Central & Redhill Common",0,5,672.0,73.039
-E02006387,"Reigate South Park",0,0,672.0,16.725
-E02006388,"Earlswood & Whitebushes",0,1,348.0,20.119
-E02006389,"Salfords & Woodhatch",0,0,936.0,20.600
-E02006390,"Horley West",0,0,264.0,25.790
-E02006391,"Horley East",0,0,264.0,16.132
-E02006392,"Horley Central",0,2,264.0,63.705
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006375,"Nork",0,0,1149.0,23.523,521.13
+E02006376,"Banstead",0,0,686.0,60.087,1122.39
+E02006377,"Tattenham North",0,8,1176.0,22.730,1525.05
+E02006378,"Chipstead & Netherne",0,0,1439.0,44.589,858.03
+E02006379,"Tattenham South",0,0,550.0,18.995,995.30
+E02006380,"Tadworth & Walton",0,0,550.0,72.651,1564.62
+E02006381,"Kingswood",0,1,1355.0,44.163,2715.24
+E02006382,"Merstham",0,0,348.0,11.306,104.89
+E02006383,"Reigate Hill & Gatton",0,1,672.0,40.822,1581.61
+E02006384,"Redhill West",0,2,672.0,33.629,502.43
+E02006385,"Redhill East",0,6,396.0,76.983,1147.99
+E02006386,"Reigate Central & Redhill Common",0,5,672.0,73.039,3227.97
+E02006387,"Reigate South Park",0,0,672.0,16.725,902.96
+E02006388,"Earlswood & Whitebushes",0,1,348.0,20.119,3580.81
+E02006389,"Salfords & Woodhatch",0,0,936.0,20.600,725.25
+E02006390,"Horley West",0,0,264.0,25.790,1198.05
+E02006391,"Horley East",0,0,264.0,16.132,43.05
+E02006392,"Horley Central",0,2,264.0,63.705,1750.63

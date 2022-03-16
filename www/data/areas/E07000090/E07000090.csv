@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004764,"Waterlooville North West",0,4,475.0,60.879
-E02004765,"Waterlooville North East",0,0,279.0,15.109
-E02004766,"Waterlooville Central",0,1,279.0,18.724
-E02004767,"Barncroft & Warren Park",0,0,298.0,9.164
-E02004768,"Waterlooville East",0,0,279.0,16.222
-E02004769,"Leigh Park",0,3,298.0,9.091
-E02004770,"West Leigh",0,0,298.0,12.727
-E02004771,"Stockheath Common",0,1,298.0,13.382
-E02004772,"Purbrook & Widley",0,0,7226.0,21.072
-E02004774,"Emsworth",0,3,554.0,42.494
-E02004775,"Central Havant & Langstone",0,2,428.0,48.117
-E02004776,"Hayling West & North",0,0,126.0,22.026
-E02004777,"South Hayling",0,0,126.0,32.304
-E02004778,"Hayling Eastoke",0,0,126.0,20.557
-E02006822,"Bedhampton",0,0,298.0,15.055
-E02006830,"Cowplain West",0,0,196.0,19.450
-E02006831,"Cowplain East",0,0,475.0,18.793
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004764,"Waterlooville North West",0,4,475.0,60.879,408.25
+E02004765,"Waterlooville North East",0,0,279.0,15.109,145.72
+E02004766,"Waterlooville Central",0,1,279.0,18.724,1929.24
+E02004767,"Barncroft & Warren Park",0,0,298.0,9.164,128.76
+E02004768,"Waterlooville East",0,0,279.0,16.222,84.44
+E02004769,"Leigh Park",0,3,298.0,9.091,1067.71
+E02004770,"West Leigh",0,0,298.0,12.727,651.92
+E02004771,"Stockheath Common",0,1,298.0,13.382,599.94
+E02004772,"Purbrook & Widley",0,0,7226.0,21.072,1150.38
+E02004774,"Emsworth",0,3,554.0,42.494,830.18
+E02004775,"Central Havant & Langstone",0,2,428.0,48.117,7115.87
+E02004776,"Hayling West & North",0,0,126.0,22.026,1940.21
+E02004777,"South Hayling",0,0,126.0,32.304,2475.35
+E02004778,"Hayling Eastoke",0,0,126.0,20.557,774.47
+E02006822,"Bedhampton",0,0,298.0,15.055,2752.79
+E02006830,"Cowplain West",0,0,196.0,19.450,149.86
+E02006831,"Cowplain East",0,0,475.0,18.793,175.50

@@ -141,7 +141,7 @@ table td.num { text-align: center; }
 
 section { padding: 1em 0; }
 
-#weights .category { display: grid; grid-template-columns: minmax(auto, 180px) 1fr auto auto auto; vertical-align: middle; grid-gap: 0; }
+#weights .category { display: grid; grid-template-columns: minmax(auto, 220px) 1fr auto auto auto; vertical-align: middle; grid-gap: 0; }
 #weights input { margin: auto; padding: 0; width: 100%; }
 #weights label { text-align: left; padding-right: 0.5em; }
 #weights label.invert { padding-right: 0.25em; }

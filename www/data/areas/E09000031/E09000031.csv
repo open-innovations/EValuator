@@ -1,29 +1,29 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02000895,"Chingford Green West",0,1,447.0,17.538
-E02000896,"Chingford Green East",0,1,447.0,73.562
-E02000897,"Friday Hill",0,6,823.0,19.646
-E02000898,"Larkswood",0,0,447.0,18.025
-E02000899,"Chingford Mount",0,0,447.0,17.294
-E02000900,"South Chingford",0,1,447.0,17.051
-E02000901,"Highams Park East",0,4,1300.0,23.381
-E02000902,"Highams Park West",0,6,924.0,10.588
-E02000903,"Higham Hill",0,3,924.0,2.268
-E02000904,"Fulbourne Road & Walthamstow Forest",0,10,853.0,2.370
-E02000905,"Lloyd Park",0,12,477.0,2.022
-E02000906,"William Morris",0,7,477.0,1.610
-E02000907,"Wood Street",0,3,477.0,3.140
-E02000908,"Blackhorse Road",0,14,739.0,3.153
-E02000909,"Upper Walthamstow",0,13,856.0,2.473
-E02000910,"Walthamstow Central",0,14,1099.0,13.831
-E02000911,"Walthamstow Market & South Grove",0,8,477.0,3.353
-E02000912,"Markhouse & St James Park",0,2,709.0,2.155
-E02000913,"Whipps Cross",0,37,1088.0,2.848
-E02000914,"Baker's Arms",0,10,952.0,0.492
-E02000915,"Leytonstone North",0,5,379.0,14.672
-E02000916,"Lea Bridge",0,15,911.0,0.373
-E02000917,"Leyton North",0,6,611.0,0.762
-E02000918,"Leytonstone East",0,13,379.0,33.218
-E02000919,"Leyton East",0,11,611.0,2.858
-E02000920,"Leyton South",0,10,896.0,0.699
-E02000921,"Leytonstone South West",0,6,622.0,10.988
-E02000922,"Leytonstone South East",0,13,932.0,6.336
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02000895,"Chingford Green West",0,1,447.0,17.538,498.22
+E02000896,"Chingford Green East",0,1,447.0,73.562,1049.03
+E02000897,"Friday Hill",0,6,823.0,19.646,173.41
+E02000898,"Larkswood",0,0,447.0,18.025,563.45
+E02000899,"Chingford Mount",0,0,447.0,17.294,350.07
+E02000900,"South Chingford",0,1,447.0,17.051,2387.98
+E02000901,"Highams Park East",0,4,1300.0,23.381,857.50
+E02000902,"Highams Park West",0,6,924.0,10.588,417.75
+E02000903,"Higham Hill",0,3,924.0,2.268,280.12
+E02000904,"Fulbourne Road & Walthamstow Forest",0,10,853.0,2.370,796.47
+E02000905,"Lloyd Park",0,12,477.0,2.022,570.44
+E02000906,"William Morris",0,7,477.0,1.610,41.24
+E02000907,"Wood Street",0,3,477.0,3.140,318.48
+E02000908,"Blackhorse Road",0,14,739.0,3.153,801.92
+E02000909,"Upper Walthamstow",0,13,856.0,2.473,287.33
+E02000910,"Walthamstow Central",0,14,1099.0,13.831,288.26
+E02000911,"Walthamstow Market & South Grove",0,8,477.0,3.353,409.35
+E02000912,"Markhouse & St James Park",0,2,709.0,2.155,351.88
+E02000913,"Whipps Cross",0,37,1088.0,2.848,906.08
+E02000914,"Baker's Arms",0,10,952.0,0.492,686.11
+E02000915,"Leytonstone North",0,5,379.0,14.672,638.58
+E02000916,"Lea Bridge",0,15,911.0,0.373,503.18
+E02000917,"Leyton North",0,6,611.0,0.762,89.85
+E02000918,"Leytonstone East",0,13,379.0,33.218,505.38
+E02000919,"Leyton East",0,11,611.0,2.858,8.96
+E02000920,"Leyton South",0,10,896.0,0.699,1681.64
+E02000921,"Leytonstone South West",0,6,622.0,10.988,762.11
+E02000922,"Leytonstone South East",0,13,932.0,6.336,237.32

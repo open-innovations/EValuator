@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002574,"Farnworth",769,0,559.0,22.362
-E02002575,"Upton Rocks",725,0,451.0,18.322
-E02002576,"Halton View",757,0,451.0,22.422
-E02002577,"Hough Green",712,0,451.0,15.478
-E02002578,"Victoria Park",725,0,451.0,16.314
-E02002579,"Ditton",726,0,451.0,15.143
-E02002580,"Widnes Riverside",755,20,451.0,50.867
-E02002581,"Hale Bank",741,0,518.0,19.017
-E02002582,"Sandymoor",711,2,512.0,35.177
-E02002583,"Halton Castlefield",725,0,199.0,14.086
-E02002584,"Runcorn Halton Road",718,2,199.0,12.587
-E02002585,"Runcorn Town & Westfield",702,11,199.0,35.215
-E02002586,"Grange",733,1,199.0,15.884
-E02002587,"Norton",679,0,199.0,8.467
-E02002588,"Halton Lea & Brookvale",709,0,199.0,25.999
-E02002589,"Beechwood & Heath",744,0,199.0,13.112
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002574,"Farnworth",769,0,559.0,22.362,754.26
+E02002575,"Upton Rocks",725,0,451.0,18.322,465.58
+E02002576,"Halton View",757,0,451.0,22.422,336.94
+E02002577,"Hough Green",712,0,451.0,15.478,971.54
+E02002578,"Victoria Park",725,0,451.0,16.314,1128.42
+E02002579,"Ditton",726,0,451.0,15.143,826.01
+E02002580,"Widnes Riverside",755,20,451.0,50.867,6235.19
+E02002581,"Hale Bank",741,0,518.0,19.017,1276.15
+E02002582,"Sandymoor",711,2,512.0,35.177,4559.60
+E02002583,"Halton Castlefield",725,0,199.0,14.086,3136.91
+E02002584,"Runcorn Halton Road",718,2,199.0,12.587,443.65
+E02002585,"Runcorn Town & Westfield",702,11,199.0,35.215,5338.39
+E02002586,"Grange",733,1,199.0,15.884,4302.54
+E02002587,"Norton",679,0,199.0,8.467,1246.31
+E02002588,"Halton Lea & Brookvale",709,0,199.0,25.999,1808.43
+E02002589,"Beechwood & Heath",744,0,199.0,13.112,842.83

@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004563,"Hullbridge",0,0,339.0,20.311
-E02004564,"Ashingdon",0,0,293.0,13.934
-E02004565,"Hockley & Hawkwell West",0,0,293.0,67.898
-E02004566,"Rochford Town & Canewdon",0,0,131.0,24.558
-E02004567,"Rayleigh North East",0,0,339.0,19.736
-E02004568,"Rayleigh North West",0,0,287.0,22.847
-E02004569,"Rochford Outer & Hawkwell East",0,0,657.0,16.379
-E02004570,"Rayleigh South West",0,0,177.0,47.891
-E02004571,"Rayleigh South East",0,0,446.0,21.756
-E02004572,"Great Wakering & Foulness",0,0,547.0,23.878
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004563,"Hullbridge",0,0,339.0,20.311,695.48
+E02004564,"Ashingdon",0,0,293.0,13.934,362.13
+E02004565,"Hockley & Hawkwell West",0,0,293.0,67.898,1919.43
+E02004566,"Rochford Town & Canewdon",0,0,131.0,24.558,1443.91
+E02004567,"Rayleigh North East",0,0,339.0,19.736,487.39
+E02004568,"Rayleigh North West",0,0,287.0,22.847,1262.87
+E02004569,"Rochford Outer & Hawkwell East",0,0,657.0,16.379,4462.24
+E02004570,"Rayleigh South West",0,0,177.0,47.891,1761.15
+E02004571,"Rayleigh South East",0,0,446.0,21.756,508.46
+E02004572,"Great Wakering & Foulness",0,0,547.0,23.878,153.12

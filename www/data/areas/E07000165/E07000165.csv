@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005761,"Masham",115,0,164.0,26.284
-E02005762,"Ripon North & West",256,0,164.0,18.407
-E02005763,"Dishforth",436,0,1156.0,29.456
-E02005764,"Ripon South & East",324,3,164.0,37.376
-E02005765,"Boroughbridge & Marton-cum-Grafton",455,0,856.0,29.381
-E02005766,"Pateley Bridge & Nidd Valley",78,0,533.0,60.262
-E02005767,"Knaresborough North",300,0,880.0,35.984
-E02005768,"Killinghall & Hampsthwaite",247,0,710.0,25.769
-E02005769,"Knaresborough Central",391,1,170.0,49.357
-E02005770,"Bilton",213,0,177.0,11.630
-E02005771,"Saltergate",191,0,710.0,15.942
-E02005772,"Knaresborough South & Follifoot",429,1,703.0,23.758
-E02005773,"Harrogate East",239,0,1043.0,94.537
-E02005774,"Starbeck",316,0,510.0,30.733
-E02005775,"Central Harrogate",219,6,510.0,45.391
-E02005776,"Ouseburn",466,3,908.0,52.938
-E02005777,"Hookstone",363,0,1213.0,40.331
-E02005778,"Menwith",230,0,1539.0,59.865
-E02005779,"Stray",260,0,1043.0,34.598
-E02005780,"Harrogate West & Pannal Ash",249,0,1043.0,67.604
-E02005781,"Spofforth",376,1,1557.0,42.967
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005761,"Masham",115,0,164.0,26.284,3874.37
+E02005762,"Ripon North & West",256,0,164.0,18.407,793.76
+E02005763,"Dishforth",436,0,1156.0,29.456,1861.47
+E02005764,"Ripon South & East",324,3,164.0,37.376,2321.94
+E02005765,"Boroughbridge & Marton-cum-Grafton",455,0,856.0,29.381,1128.63
+E02005766,"Pateley Bridge & Nidd Valley",78,0,533.0,60.262,1517.54
+E02005767,"Knaresborough North",300,0,880.0,35.984,1288.04
+E02005768,"Killinghall & Hampsthwaite",247,0,710.0,25.769,2152.45
+E02005769,"Knaresborough Central",391,1,170.0,49.357,950.93
+E02005770,"Bilton",213,0,177.0,11.630,158.13
+E02005771,"Saltergate",191,0,710.0,15.942,966.79
+E02005772,"Knaresborough South & Follifoot",429,1,703.0,23.758,2068.63
+E02005773,"Harrogate East",239,0,1043.0,94.537,850.09
+E02005774,"Starbeck",316,0,510.0,30.733,276.27
+E02005775,"Central Harrogate",219,6,510.0,45.391,2794.36
+E02005776,"Ouseburn",466,3,908.0,52.938,2812.79
+E02005777,"Hookstone",363,0,1213.0,40.331,4329.14
+E02005778,"Menwith",230,0,1539.0,59.865,4180.35
+E02005779,"Stray",260,0,1043.0,34.598,2044.26
+E02005780,"Harrogate West & Pannal Ash",249,0,1043.0,67.604,2876.73
+E02005781,"Spofforth",376,1,1557.0,42.967,1560.96

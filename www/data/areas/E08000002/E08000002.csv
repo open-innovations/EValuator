@@ -1,27 +1,27 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02001019,"Ramsbottom",745,3,1124.0,40.718
-E02001020,"Summerseat",750,0,1124.0,19.738
-E02001021,"Nuttall & Tottington",694,0,1124.0,23.591
-E02001022,"Walmersley & Limefield",835,0,270.0,11.053
-E02001023,"Higher Woodhill",711,0,748.0,12.268
-E02001024,"Walshaw & Woolfold",647,0,748.0,21.820
-E02001025,"Fairfield & Jericho",946,3,270.0,11.796
-E02001026,"Fernhill & Pimhole",958,8,270.0,20.086
-E02001027,"Whitehead Park",744,0,1225.0,73.922
-E02001028,"Elton Vale",658,0,748.0,19.479
-E02001029,"Buckley Wells & Fishpool",851,8,1018.0,17.298
-E02001030,"Ainsworth & Bradley Fold",631,0,993.0,12.480
-E02001031,"Redvales & Hollins",851,1,371.0,11.574
-E02001032,"Black Lane",648,0,371.0,12.447
-E02001033,"Bank Top & Radcliffe Ees",714,2,371.0,11.622
-E02001034,"Radcliffe",696,0,281.0,25.523
-E02001035,"Unsworth",875,0,632.0,10.249
-E02001036,"Outwood Gate",820,0,519.0,13.661
-E02001037,"Whitefield West & Park Lane",953,0,560.0,23.845
-E02001038,"Whitefield East",984,1,560.0,19.743
-E02001039,"Besses",955,0,189.0,21.466
-E02001040,"Kirkhams & Holyrood",964,5,362.0,38.147
-E02001041,"Prestwich East",939,0,263.0,13.278
-E02001042,"Prestwich Central",930,0,189.0,13.107
-E02001043,"Prestwich Clough & Rainsough",865,0,255.0,9.414
-E02001044,"Sedgley Park",864,0,186.0,12.775
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02001019,"Ramsbottom",745,3,1124.0,40.718,1296.43
+E02001020,"Summerseat",750,0,1124.0,19.738,172.35
+E02001021,"Nuttall & Tottington",694,0,1124.0,23.591,416.14
+E02001022,"Walmersley & Limefield",835,0,270.0,11.053,325.73
+E02001023,"Higher Woodhill",711,0,748.0,12.268,194.46
+E02001024,"Walshaw & Woolfold",647,0,748.0,21.820,26.91
+E02001025,"Fairfield & Jericho",946,3,270.0,11.796,1425.55
+E02001026,"Fernhill & Pimhole",958,8,270.0,20.086,4250.10
+E02001027,"Whitehead Park",744,0,1225.0,73.922,664.24
+E02001028,"Elton Vale",658,0,748.0,19.479,228.33
+E02001029,"Buckley Wells & Fishpool",851,8,1018.0,17.298,1486.54
+E02001030,"Ainsworth & Bradley Fold",631,0,993.0,12.480,381.41
+E02001031,"Redvales & Hollins",851,1,371.0,11.574,2512.08
+E02001032,"Black Lane",648,0,371.0,12.447,37.82
+E02001033,"Bank Top & Radcliffe Ees",714,2,371.0,11.622,446.76
+E02001034,"Radcliffe",696,0,281.0,25.523,1698.88
+E02001035,"Unsworth",875,0,632.0,10.249,392.78
+E02001036,"Outwood Gate",820,0,519.0,13.661,834.54
+E02001037,"Whitefield West & Park Lane",953,0,560.0,23.845,311.42
+E02001038,"Whitefield East",984,1,560.0,19.743,1226.54
+E02001039,"Besses",955,0,189.0,21.466,454.59
+E02001040,"Kirkhams & Holyrood",964,5,362.0,38.147,1788.37
+E02001041,"Prestwich East",939,0,263.0,13.278,173.08
+E02001042,"Prestwich Central",930,0,189.0,13.107,686.65
+E02001043,"Prestwich Clough & Rainsough",865,0,255.0,9.414,368.94
+E02001044,"Sedgley Park",864,0,186.0,12.775,578.40

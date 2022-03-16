@@ -1,33 +1,33 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003549,"Bassett Green",0,0,336.0,16.285
-E02003550,"Aldermoor & Lordswood",0,0,261.0,10.067
-E02003551,"Stoneham",0,0,388.0,8.319
-E02003552,"Coxford & Lords Hill",0,0,261.0,8.153
-E02003553,"Swaythling",0,0,463.0,7.471
-E02003554,"Hollybrook",0,1,487.0,13.321
-E02003555,"Maybush",0,1,261.0,11.840
-E02003556,"Townhill Park",0,0,127.0,8.807
-E02003557,"Highfield & University",0,2,336.0,11.417
-E02003558,"Shirley Warren",0,0,487.0,9.949
-E02003559,"Upper Shirley",0,0,487.0,7.779
-E02003560,"Redbridge & Millbrook West",0,1,487.0,12.488
-E02003561,"St Denys",0,0,181.0,9.884
-E02003562,"Bitterne West",0,0,662.0,36.024
-E02003563,"Shirley South",0,1,562.0,34.859
-E02003564,"Bitterne East",0,2,295.0,11.872
-E02003565,"Bevois Town",0,0,407.0,1.840
-E02003566,"Harefield",0,0,127.0,9.361
-E02003567,"Regents Park & Millbrook East",0,1,487.0,10.572
-E02003568,"Banister Park & Howard Road",0,1,301.0,7.480
-E02003569,"Freemantle",0,0,758.0,19.826
-E02003570,"Newtown & Nicholstown",0,7,407.0,3.582
-E02003571,"Central Southampton West",0,32,720.0,8.445
-E02003572,"Bitterne South",0,8,295.0,7.881
-E02003573,"Thornhill",0,0,295.0,14.724
-E02003574,"Sholing East",0,0,168.0,9.351
-E02003575,"Hightown",0,0,168.0,9.411
-E02003576,"Itchen",0,4,168.0,11.629
-E02003577,"Central Southampton East",0,0,332.0,0.067
-E02003578,"Sholing West",0,0,168.0,8.632
-E02003579,"Woolston",0,4,168.0,13.547
-E02003580,"Weston",0,0,168.0,5.335
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003549,"Bassett Green",0,0,336.0,16.285,531.11
+E02003550,"Aldermoor & Lordswood",0,0,261.0,10.067,1223.72
+E02003551,"Stoneham",0,0,388.0,8.319,1643.02
+E02003552,"Coxford & Lords Hill",0,0,261.0,8.153,1791.37
+E02003553,"Swaythling",0,0,463.0,7.471,1380.28
+E02003554,"Hollybrook",0,1,487.0,13.321,952.45
+E02003555,"Maybush",0,1,261.0,11.840,2536.17
+E02003556,"Townhill Park",0,0,127.0,8.807,1163.91
+E02003557,"Highfield & University",0,2,336.0,11.417,1005.55
+E02003558,"Shirley Warren",0,0,487.0,9.949,3040.05
+E02003559,"Upper Shirley",0,0,487.0,7.779,1336.92
+E02003560,"Redbridge & Millbrook West",0,1,487.0,12.488,12743.60
+E02003561,"St Denys",0,0,181.0,9.884,624.77
+E02003562,"Bitterne West",0,0,662.0,36.024,1028.28
+E02003563,"Shirley South",0,1,562.0,34.859,1912.73
+E02003564,"Bitterne East",0,2,295.0,11.872,1280.00
+E02003565,"Bevois Town",0,0,407.0,1.840,833.73
+E02003566,"Harefield",0,0,127.0,9.361,768.10
+E02003567,"Regents Park & Millbrook East",0,1,487.0,10.572,3020.26
+E02003568,"Banister Park & Howard Road",0,1,301.0,7.480,467.24
+E02003569,"Freemantle",0,0,758.0,19.826,13201.23
+E02003570,"Newtown & Nicholstown",0,7,407.0,3.582,2215.64
+E02003571,"Central Southampton West",0,32,720.0,8.445,11926.34
+E02003572,"Bitterne South",0,8,295.0,7.881,846.79
+E02003573,"Thornhill",0,0,295.0,14.724,1356.17
+E02003574,"Sholing East",0,0,168.0,9.351,417.06
+E02003575,"Hightown",0,0,168.0,9.411,1091.64
+E02003576,"Itchen",0,4,168.0,11.629,944.95
+E02003577,"Central Southampton East",0,0,332.0,0.067,5644.34
+E02003578,"Sholing West",0,0,168.0,8.632,309.38
+E02003579,"Woolston",0,4,168.0,13.547,1029.59
+E02003580,"Weston",0,0,168.0,5.335,1282.84

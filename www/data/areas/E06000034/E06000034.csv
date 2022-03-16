@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003296,"Corringham North & London Gateway",0,0,375.0,15.916
-E02003297,"Corringham South",0,0,171.0,19.642
-E02003298,"Stanford East",0,0,171.0,10.912
-E02003299,"Orsett",0,0,999.0,24.626
-E02003300,"Stanford West",0,1,171.0,18.965
-E02003301,"North Ockendon",0,1,597.0,25.983
-E02003302,"South Ockendon",0,0,138.0,13.933
-E02003303,"Aveley",0,0,437.0,13.474
-E02003304,"Stifford Clays",0,0,394.0,13.677
-E02003305,"Little Thurrock North",0,0,394.0,14.490
-E02003307,"Chadwell St Mary",0,0,394.0,19.058
-E02003308,"East Tilbury",0,0,486.0,10.690
-E02003309,"Little Thurrock South",0,0,394.0,3.630
-E02003310,"Purfleet",0,13,647.0,42.537
-E02003311,"Grays Chafford Gorges & Orsett Road",0,3,573.0,24.154
-E02003312,"Grays Town",0,1,461.0,4.998
-E02003313,"Tilbury",0,0,207.0,21.431
-E02006859,"South Chafford",0,2,299.0,8.184
-E02006926,"Chafford & North Stifford",0,1,394.0,13.088
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003296,"Corringham North & London Gateway",0,0,375.0,15.916,1646.36
+E02003297,"Corringham South",0,0,171.0,19.642,766.24
+E02003298,"Stanford East",0,0,171.0,10.912,92.22
+E02003299,"Orsett",0,0,999.0,24.626,607.56
+E02003300,"Stanford West",0,1,171.0,18.965,478.48
+E02003301,"North Ockendon",0,1,597.0,25.983,1419.81
+E02003302,"South Ockendon",0,0,138.0,13.933,513.16
+E02003303,"Aveley",0,0,437.0,13.474,946.69
+E02003304,"Stifford Clays",0,0,394.0,13.677,262.63
+E02003305,"Little Thurrock North",0,0,394.0,14.490,564.81
+E02003307,"Chadwell St Mary",0,0,394.0,19.058,804.66
+E02003308,"East Tilbury",0,0,486.0,10.690,425.93
+E02003309,"Little Thurrock South",0,0,394.0,3.630,515.17
+E02003310,"Purfleet",0,13,647.0,42.537,16418.19
+E02003311,"Grays Chafford Gorges & Orsett Road",0,3,573.0,24.154,708.38
+E02003312,"Grays Town",0,1,461.0,4.998,1454.10
+E02003313,"Tilbury",0,0,207.0,21.431,3173.15
+E02006859,"South Chafford",0,2,299.0,8.184,1449.68
+E02006926,"Chafford & North Stifford",0,1,394.0,13.088,1126.91

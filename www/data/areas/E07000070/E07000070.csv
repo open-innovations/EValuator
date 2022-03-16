@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004485,"Great Leighs & the Walthams",0,3,1612.0,40.041
-E02004486,"South Broomfield",0,0,435.0,21.461
-E02004487,"Melbourne Park",0,1,987.0,17.159
-E02004488,"Springfield North",0,0,881.0,24.698
-E02004489,"Boreham & Little Baddow",0,1,1458.0,35.591
-E02004490,"Melbourne",0,0,435.0,10.844
-E02004491,"Springfield South & Coronation Park",0,0,789.0,20.569
-E02004492,"Chelmer Village",0,2,1235.0,46.849
-E02004493,"Waterhouse Lane & Admirals Park",0,1,789.0,19.728
-E02004494,"Central Chelmsford",0,10,1235.0,126.023
-E02004495,"Writtle & Highwood",0,0,915.0,21.430
-E02004496,"Moulsham West",0,0,354.0,19.643
-E02004497,"Great Baddow North & East",0,3,926.0,27.263
-E02004498,"Great Baddow South & West",0,0,354.0,27.857
-E02004499,"Moulsham East",0,0,354.0,15.119
-E02004500,"Danbury & Bicknacre",0,0,800.0,47.200
-E02004501,"Galleywood",0,0,354.0,18.810
-E02004502,"Margaretting",0,0,1616.0,44.465
-E02004503,"South Woodham Ferrers North",0,5,446.0,39.170
-E02004504,"South Woodham Ferrers South",0,0,446.0,15.311
-E02004505,"Rettendon & Runwell",0,0,556.0,16.744
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004485,"Great Leighs & the Walthams",0,3,1612.0,40.041,2536.75
+E02004486,"South Broomfield",0,0,435.0,21.461,2473.12
+E02004487,"Melbourne Park",0,1,987.0,17.159,833.31
+E02004488,"Springfield North",0,0,881.0,24.698,1073.84
+E02004489,"Boreham & Little Baddow",0,1,1458.0,35.591,5165.67
+E02004490,"Melbourne",0,0,435.0,10.844,410.72
+E02004491,"Springfield South & Coronation Park",0,0,789.0,20.569,1021.57
+E02004492,"Chelmer Village",0,2,1235.0,46.849,2980.30
+E02004493,"Waterhouse Lane & Admirals Park",0,1,789.0,19.728,2691.05
+E02004494,"Central Chelmsford",0,10,1235.0,126.023,9717.14
+E02004495,"Writtle & Highwood",0,0,915.0,21.430,2629.00
+E02004496,"Moulsham West",0,0,354.0,19.643,1270.65
+E02004497,"Great Baddow North & East",0,3,926.0,27.263,2711.98
+E02004498,"Great Baddow South & West",0,0,354.0,27.857,731.20
+E02004499,"Moulsham East",0,0,354.0,15.119,415.60
+E02004500,"Danbury & Bicknacre",0,0,800.0,47.200,1065.20
+E02004501,"Galleywood",0,0,354.0,18.810,1324.91
+E02004502,"Margaretting",0,0,1616.0,44.465,2284.30
+E02004503,"South Woodham Ferrers North",0,5,446.0,39.170,2298.79
+E02004504,"South Woodham Ferrers South",0,0,446.0,15.311,829.41
+E02004505,"Rettendon & Runwell",0,0,556.0,16.744,1359.31

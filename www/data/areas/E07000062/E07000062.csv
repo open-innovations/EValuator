@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004368,"Ashdown",0,2,253.0,10.562
-E02004369,"Conquest & St Helens",0,0,215.0,9.081
-E02004370,"Hollington",0,2,253.0,8.680
-E02004371,"Ore",0,0,155.0,9.198
-E02004372,"Broomgrove",0,0,155.0,4.872
-E02004373,"Silverhill",0,0,253.0,24.851
-E02004374,"Old Hastings",0,1,155.0,9.951
-E02004375,"Braybrooke & Bohemia",0,1,253.0,8.209
-E02004376,"Central Hastings",0,4,155.0,25.468
-E02004377,"West St Leonards",0,0,129.0,10.180
-E02004378,"Central St Leonards",0,0,253.0,10.841
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004368,"Ashdown",0,2,253.0,10.562,1066.23
+E02004369,"Conquest & St Helens",0,0,215.0,9.081,382.05
+E02004370,"Hollington",0,2,253.0,8.680,572.11
+E02004371,"Ore",0,0,155.0,9.198,31.32
+E02004372,"Broomgrove",0,0,155.0,4.872,0.00
+E02004373,"Silverhill",0,0,253.0,24.851,532.22
+E02004374,"Old Hastings",0,1,155.0,9.951,658.29
+E02004375,"Braybrooke & Bohemia",0,1,253.0,8.209,358.54
+E02004376,"Central Hastings",0,4,155.0,25.468,1316.68
+E02004377,"West St Leonards",0,0,129.0,10.180,1359.94
+E02004378,"Central St Leonards",0,0,253.0,10.841,240.43

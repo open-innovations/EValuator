@@ -1,28 +1,28 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002985,"Keynsham North",0,3,282.0,44.554
-E02002986,"Keynsham South",0,0,171.0,23.881
-E02002987,"Keynsham East",0,1,171.0,28.657
-E02002988,"Lambridge & Fairfield Park",0,1,453.0,12.048
-E02002989,"Weston",0,0,453.0,10.506
-E02002990,"Walcot",0,1,1169.0,15.612
-E02002991,"Central Bath & Lansdown",0,7,1819.0,150.019
-E02002992,"Newbridge",0,2,1169.0,12.450
-E02002993,"Kingsmead",0,6,453.0,19.836
-E02002994,"Bathavon North & South",0,5,1580.0,51.745
-E02002995,"Twerton",0,0,1169.0,14.596
-E02002996,"Widcombe",0,7,1169.0,42.278
-E02002997,"Oldfield Park West",0,0,1169.0,17.650
-E02002998,"Oldfield Park East",0,0,716.0,14.341
-E02002999,"Southdown",0,0,716.0,10.459
-E02003000,"Saltford",0,0,1424.0,52.519
-E02003001,"Bloomfield",0,1,1169.0,15.924
-E02003002,"Combe Down",0,0,1169.0,21.208
-E02003003,"Odd Down",0,0,716.0,15.743
-E02003004,"Pensford",0,0,271.0,37.078
-E02003005,"Chew",0,1,884.0,58.792
-E02003006,"Peasedown & Bathavon West",0,16,982.0,35.988
-E02003007,"High Littleton & Paulton",0,2,426.0,37.763
-E02003008,"Radstock",0,0,266.0,21.259
-E02003009,"Midsomer Norton North",0,2,426.0,11.503
-E02003010,"Westfield",0,0,266.0,11.326
-E02003011,"Midsomer Norton Redfield",0,0,266.0,8.542
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002985,"Keynsham North",0,3,282.0,44.554,2250.41
+E02002986,"Keynsham South",0,0,171.0,23.881,328.77
+E02002987,"Keynsham East",0,1,171.0,28.657,1652.21
+E02002988,"Lambridge & Fairfield Park",0,1,453.0,12.048,406.98
+E02002989,"Weston",0,0,453.0,10.506,87.46
+E02002990,"Walcot",0,1,1169.0,15.612,524.98
+E02002991,"Central Bath & Lansdown",0,7,1819.0,150.019,3198.67
+E02002992,"Newbridge",0,2,1169.0,12.450,3230.05
+E02002993,"Kingsmead",0,6,453.0,19.836,2052.35
+E02002994,"Bathavon North & South",0,5,1580.0,51.745,3345.55
+E02002995,"Twerton",0,0,1169.0,14.596,391.74
+E02002996,"Widcombe",0,7,1169.0,42.278,3525.09
+E02002997,"Oldfield Park West",0,0,1169.0,17.650,1018.99
+E02002998,"Oldfield Park East",0,0,716.0,14.341,149.51
+E02002999,"Southdown",0,0,716.0,10.459,83.62
+E02003000,"Saltford",0,0,1424.0,52.519,1275.50
+E02003001,"Bloomfield",0,1,1169.0,15.924,1144.71
+E02003002,"Combe Down",0,0,1169.0,21.208,344.75
+E02003003,"Odd Down",0,0,716.0,15.743,472.81
+E02003004,"Pensford",0,0,271.0,37.078,1061.09
+E02003005,"Chew",0,1,884.0,58.792,1536.51
+E02003006,"Peasedown & Bathavon West",0,16,982.0,35.988,2975.60
+E02003007,"High Littleton & Paulton",0,2,426.0,37.763,1603.49
+E02003008,"Radstock",0,0,266.0,21.259,874.51
+E02003009,"Midsomer Norton North",0,2,426.0,11.503,1149.71
+E02003010,"Westfield",0,0,266.0,11.326,772.98
+E02003011,"Midsomer Norton Redfield",0,0,266.0,8.542,226.48

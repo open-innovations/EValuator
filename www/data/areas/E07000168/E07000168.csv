@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005795,"Whitby West",41,0,91.0,13.836
-E02005796,"Esk Valley & Runswick Coast",73,0,109.0,14.112
-E02005797,"Whitby South & East",41,0,91.0,7.379
-E02005798,"Burniston",20,2,302.0,23.738
-E02005799,"Newby & Scalby",26,1,211.0,14.037
-E02005800,"Scarborough Town & North Bay",26,0,250.0,22.216
-E02005801,"Barrowcliff & Northstead",25,0,70.0,4.968
-E02005802,"Scarborough Central",26,0,140.0,8.121
-E02005803,"Falsgrave",26,1,70.0,10.758
-E02005804,"Ramshill & South Cliff",26,2,140.0,7.453
-E02005805,"Wheatcroft & Cayton",25,0,109.0,4.996
-E02005806,"Eastfield",26,0,140.0,5.476
-E02005807,"Ayton & Snainton",28,0,211.0,18.230
-E02005808,"Filey & Hummanby",23,0,344.0,18.527
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005795,"Whitby West",41,0,91.0,13.836,1327.50
+E02005796,"Esk Valley & Runswick Coast",73,0,109.0,14.112,2774.21
+E02005797,"Whitby South & East",41,0,91.0,7.379,2420.45
+E02005798,"Burniston",20,2,302.0,23.738,1800.30
+E02005799,"Newby & Scalby",26,1,211.0,14.037,505.89
+E02005800,"Scarborough Town & North Bay",26,0,250.0,22.216,2289.79
+E02005801,"Barrowcliff & Northstead",25,0,70.0,4.968,295.00
+E02005802,"Scarborough Central",26,0,140.0,8.121,657.04
+E02005803,"Falsgrave",26,1,70.0,10.758,2144.72
+E02005804,"Ramshill & South Cliff",26,2,140.0,7.453,1522.03
+E02005805,"Wheatcroft & Cayton",25,0,109.0,4.996,2765.32
+E02005806,"Eastfield",26,0,140.0,5.476,454.28
+E02005807,"Ayton & Snainton",28,0,211.0,18.230,1919.51
+E02005808,"Filey & Hummanby",23,0,344.0,18.527,4842.21

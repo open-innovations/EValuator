@@ -1,28 +1,28 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02001682,"Ryton",267,0,268.0,24.035
-E02001683,"Crawcrook & Greenside",258,0,164.0,32.701
-E02001684,"Pelaw",323,8,257.0,18.192
-E02001685,"Blaydon South",275,0,78.0,17.100
-E02001686,"Blaydon North & Winlaton Mill",275,3,280.0,37.388
-E02001688,"Dunston & Teams",319,13,296.0,32.589
-E02001689,"Bensham North",307,0,102.0,4.025
-E02001690,"Swalwell",303,12,258.0,29.716
-E02001691,"Bensham South & Saltwell",306,11,296.0,4.909
-E02001692,"Mount Pleasant & Deckham East",310,0,288.0,10.417
-E02001693,"Felling South",319,0,186.0,10.579
-E02001694,"Dunston Hill",319,2,188.0,7.967
-E02001695,"Wardley",332,0,78.0,7.918
-E02001696,"Heworth",328,3,78.0,11.498
-E02001697,"Low Fell East",315,0,108.0,19.976
-E02001698,"Whickham",288,0,94.0,28.123
-E02001699,"Windy Nook & Whitehills",318,0,186.0,8.958
-E02001700,"Sunniside & Lobley Hill",319,0,360.0,27.714
-E02001701,"Low Fell West",318,4,108.0,22.220
-E02001702,"Beacon Lough & Wrekenton",316,0,186.0,17.481
-E02001703,"Rowlands Gill & Lockhaugh",251,0,119.0,17.224
-E02001704,"Easedale Gardens",320,0,108.0,13.567
-E02001705,"Chopwell & High Spen",215,1,276.0,20.822
-E02001706,"Birtley North & Kibblesworth",330,4,736.0,23.196
-E02001707,"Birtley South",328,8,380.0,28.671
-E02006841,"Gateshead Town",312,24,266.0,15.577
-E02006842,"Gateshead South",309,0,210.0,5.820
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02001682,"Ryton",267,0,268.0,24.035,503.61
+E02001683,"Crawcrook & Greenside",258,0,164.0,32.701,713.18
+E02001684,"Pelaw",323,8,257.0,18.192,1636.83
+E02001685,"Blaydon South",275,0,78.0,17.100,447.85
+E02001686,"Blaydon North & Winlaton Mill",275,3,280.0,37.388,2045.15
+E02001688,"Dunston & Teams",319,13,296.0,32.589,4150.32
+E02001689,"Bensham North",307,0,102.0,4.025,365.55
+E02001690,"Swalwell",303,12,258.0,29.716,9459.32
+E02001691,"Bensham South & Saltwell",306,11,296.0,4.909,550.33
+E02001692,"Mount Pleasant & Deckham East",310,0,288.0,10.417,107.13
+E02001693,"Felling South",319,0,186.0,10.579,269.88
+E02001694,"Dunston Hill",319,2,188.0,7.967,688.12
+E02001695,"Wardley",332,0,78.0,7.918,1748.58
+E02001696,"Heworth",328,3,78.0,11.498,1077.87
+E02001697,"Low Fell East",315,0,108.0,19.976,977.78
+E02001698,"Whickham",288,0,94.0,28.123,640.18
+E02001699,"Windy Nook & Whitehills",318,0,186.0,8.958,417.32
+E02001700,"Sunniside & Lobley Hill",319,0,360.0,27.714,1418.82
+E02001701,"Low Fell West",318,4,108.0,22.220,672.70
+E02001702,"Beacon Lough & Wrekenton",316,0,186.0,17.481,824.70
+E02001703,"Rowlands Gill & Lockhaugh",251,0,119.0,17.224,222.12
+E02001704,"Easedale Gardens",320,0,108.0,13.567,303.22
+E02001705,"Chopwell & High Spen",215,1,276.0,20.822,493.04
+E02001706,"Birtley North & Kibblesworth",330,4,736.0,23.196,2641.22
+E02001707,"Birtley South",328,8,380.0,28.671,3292.39
+E02006841,"Gateshead Town",312,24,266.0,15.577,3692.57
+E02006842,"Gateshead South",309,0,210.0,5.820,372.30

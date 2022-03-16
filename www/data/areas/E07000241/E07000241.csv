@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004980,"Woolmer Green",0,0,656.0,57.924
-E02004981,"Welwyn & Hatfield Garden Village",0,1,1217.0,57.076
-E02004982,"Knightsfield",0,2,386.0,25.649
-E02004983,"Haldens",0,5,210.0,16.067
-E02004984,"Panshanger",0,2,454.0,11.819
-E02004985,"Welwyn Garden City Central & Handside",0,4,596.0,46.304
-E02004986,"Peartree",0,4,596.0,65.744
-E02004987,"Hall Grove",0,1,210.0,13.519
-E02004988,"Hollybush",0,2,210.0,13.660
-E02004989,"Hatfield North & West",0,8,523.0,14.278
-E02004990,"Hatfield East",0,27,740.0,35.290
-E02004991,"Hatfield Town",0,5,381.0,30.547
-E02004992,"Hatfield South",0,1,498.0,9.870
-E02004993,"Welham Green",0,6,701.0,27.758
-E02004994,"Brookmans Park",0,0,661.0,30.466
-E02004995,"Cuffley & Northaw",0,0,530.0,24.226
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004980,"Woolmer Green",0,0,656.0,57.924,604.12
+E02004981,"Welwyn & Hatfield Garden Village",0,1,1217.0,57.076,2151.92
+E02004982,"Knightsfield",0,2,386.0,25.649,729.00
+E02004983,"Haldens",0,5,210.0,16.067,3559.75
+E02004984,"Panshanger",0,2,454.0,11.819,426.85
+E02004985,"Welwyn Garden City Central & Handside",0,4,596.0,46.304,3647.20
+E02004986,"Peartree",0,4,596.0,65.744,1383.68
+E02004987,"Hall Grove",0,1,210.0,13.519,1077.62
+E02004988,"Hollybush",0,2,210.0,13.660,381.16
+E02004989,"Hatfield North & West",0,8,523.0,14.278,10869.91
+E02004990,"Hatfield East",0,27,740.0,35.290,2991.16
+E02004991,"Hatfield Town",0,5,381.0,30.547,3634.68
+E02004992,"Hatfield South",0,1,498.0,9.870,1736.87
+E02004993,"Welham Green",0,6,701.0,27.758,2938.18
+E02004994,"Brookmans Park",0,0,661.0,30.466,1040.45
+E02004995,"Cuffley & Northaw",0,0,530.0,24.226,1398.55

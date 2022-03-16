@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02005010,"Herne Bay Parade",0,0,151.0,21.821
-E02005011,"Beltinge & Bishopstone",0,0,374.0,16.260
-E02005012,"Herne Bay South & Greenhill",0,0,151.0,27.690
-E02005013,"Hampton",0,1,329.0,19.212
-E02005014,"Chestfield & South Tankerton",0,1,329.0,25.855
-E02005015,"Herne & Broomfield",0,0,151.0,19.639
-E02005016,"Whitstable Central & Tankerton",0,0,178.0,21.533
-E02005017,"Whitstable West",0,0,178.0,48.014
-E02005018,"Seasalter",0,0,178.0,25.025
-E02005019,"Hoath",0,0,808.0,28.828
-E02005020,"Sturry and Fordwich",0,0,693.0,18.748
-E02005021,"Blean Forest",0,1,757.0,24.375
-E02005022,"Canterbury St Stephen's",0,0,223.0,16.516
-E02005023,"Canterbury Barracks",0,2,747.0,42.427
-E02005025,"South Canterbury",0,0,747.0,12.303
-E02005026,"Thanington & Chartham",0,1,589.0,31.960
-E02005027,"Bridge",0,2,586.0,30.710
-E02006855,"Canterbury Wincheap",0,2,589.0,7.186
-E02006856,"Canterbury Central & Westgate",0,10,562.0,28.996
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02005010,"Herne Bay Parade",0,0,151.0,21.821,825.87
+E02005011,"Beltinge & Bishopstone",0,0,374.0,16.260,349.77
+E02005012,"Herne Bay South & Greenhill",0,0,151.0,27.690,200.72
+E02005013,"Hampton",0,1,329.0,19.212,489.40
+E02005014,"Chestfield & South Tankerton",0,1,329.0,25.855,1173.94
+E02005015,"Herne & Broomfield",0,0,151.0,19.639,1372.16
+E02005016,"Whitstable Central & Tankerton",0,0,178.0,21.533,171.67
+E02005017,"Whitstable West",0,0,178.0,48.014,957.39
+E02005018,"Seasalter",0,0,178.0,25.025,2107.37
+E02005019,"Hoath",0,0,808.0,28.828,1188.57
+E02005020,"Sturry and Fordwich",0,0,693.0,18.748,1889.58
+E02005021,"Blean Forest",0,1,757.0,24.375,8540.41
+E02005022,"Canterbury St Stephen's",0,0,223.0,16.516,512.84
+E02005023,"Canterbury Barracks",0,2,747.0,42.427,3881.67
+E02005025,"South Canterbury",0,0,747.0,12.303,2713.22
+E02005026,"Thanington & Chartham",0,1,589.0,31.960,776.83
+E02005027,"Bridge",0,2,586.0,30.710,146.69
+E02006855,"Canterbury Wincheap",0,2,589.0,7.186,2190.18
+E02006856,"Canterbury Central & Westgate",0,10,562.0,28.996,3580.57

@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004220,"Appledore & Northam North",0,1,200.0,13.588
-E02004221,"Westward Ho! & Northam South",0,2,200.0,11.580
-E02004222,"Bideford North",0,1,200.0,24.518
-E02004223,"Bideford South & East",0,3,419.0,18.654
-E02004224,"Hartland Coast",0,0,248.0,19.760
-E02004225,"Great Torrington",0,0,48.0,10.654
-E02004226,"Winkleigh & High Bickington",0,0,446.0,20.457
-E02004227,"Holsworthy",0,3,400.0,25.748
-E02004228,"Shebbear",0,0,364.0,21.126
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004220,"Appledore & Northam North",0,1,200.0,13.588,1003.99
+E02004221,"Westward Ho! & Northam South",0,2,200.0,11.580,637.25
+E02004222,"Bideford North",0,1,200.0,24.518,1590.65
+E02004223,"Bideford South & East",0,3,419.0,18.654,1131.12
+E02004224,"Hartland Coast",0,0,248.0,19.760,2408.09
+E02004225,"Great Torrington",0,0,48.0,10.654,718.90
+E02004226,"Winkleigh & High Bickington",0,0,446.0,20.457,482.56
+E02004227,"Holsworthy",0,3,400.0,25.748,1034.65
+E02004228,"Shebbear",0,0,364.0,21.126,349.69

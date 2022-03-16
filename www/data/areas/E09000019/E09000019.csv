@@ -1,24 +1,24 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02000554,"Highcroft & Holly Park",0,9,1904.0,39.614
-E02000555,"Archway East",0,6,726.0,3.309
-E02000556,"Tollington",0,6,928.0,2.343
-E02000557,"Archway West",0,5,1441.0,3.554
-E02000558,"Finsbury Park West",0,9,696.0,1.572
-E02000559,"Gillespie Road",0,6,466.0,2.861
-E02000560,"Holloway Nag's Head",0,1,461.0,1.800
-E02000561,"Tufnell Park East",0,13,1106.0,2.577
-E02000562,"Highbury",0,6,536.0,4.755
-E02000563,"Hilldrop",0,2,693.0,1.434
-E02000564,"Lower Holloway",0,3,692.0,4.297
-E02000565,"Newington Green",0,7,1667.0,2.205
-E02000566,"Highbury Fields",0,2,1430.0,10.004
-E02000567,"Canonbury East & Mildmay Park",0,11,969.0,3.452
-E02000568,"Caledonian Road",0,11,1199.0,2.340
-E02000569,"Islington North & Canonbury West",0,13,738.0,3.508
-E02000570,"Barnsbury East",0,17,1199.0,4.714
-E02000571,"Islington East & Arlington",0,9,738.0,3.104
-E02000572,"Barnsbury West",0,5,738.0,2.751
-E02000573,"Angel",0,17,923.0,11.861
-E02000574,"King's Cross & Pentonville",0,18,1074.0,2.410
-E02000575,"Clerkenwell",0,28,2371.0,0.000
-E02000576,"Old Street & St Luke's",0,18,1119.0,0.025
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02000554,"Highcroft & Holly Park",0,9,1904.0,39.614,1.56
+E02000555,"Archway East",0,6,726.0,3.309,67.95
+E02000556,"Tollington",0,6,928.0,2.343,45.60
+E02000557,"Archway West",0,5,1441.0,3.554,324.17
+E02000558,"Finsbury Park West",0,9,696.0,1.572,90.28
+E02000559,"Gillespie Road",0,6,466.0,2.861,5.67
+E02000560,"Holloway Nag's Head",0,1,461.0,1.800,326.85
+E02000561,"Tufnell Park East",0,13,1106.0,2.577,81.60
+E02000562,"Highbury",0,6,536.0,4.755,136.86
+E02000563,"Hilldrop",0,2,693.0,1.434,136.64
+E02000564,"Lower Holloway",0,3,692.0,4.297,313.67
+E02000565,"Newington Green",0,7,1667.0,2.205,262.44
+E02000566,"Highbury Fields",0,2,1430.0,10.004,217.15
+E02000567,"Canonbury East & Mildmay Park",0,11,969.0,3.452,197.46
+E02000568,"Caledonian Road",0,11,1199.0,2.340,403.95
+E02000569,"Islington North & Canonbury West",0,13,738.0,3.508,272.07
+E02000570,"Barnsbury East",0,17,1199.0,4.714,78.55
+E02000571,"Islington East & Arlington",0,9,738.0,3.104,83.59
+E02000572,"Barnsbury West",0,5,738.0,2.751,153.74
+E02000573,"Angel",0,17,923.0,11.861,96.90
+E02000574,"King's Cross & Pentonville",0,18,1074.0,2.410,422.91
+E02000575,"Clerkenwell",0,28,2371.0,0.000,234.51
+E02000576,"Old Street & St Luke's",0,18,1119.0,0.025,320.14

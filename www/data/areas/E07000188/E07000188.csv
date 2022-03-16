@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006061,"Cheddar & Axbridge",0,0,683.0,56.469
-E02006062,"Berrow & Brent Knoll",0,5,377.0,34.314
-E02006063,"Wedmore & Mark",0,0,514.0,42.263
-E02006064,"Burnham-on-Sea",0,2,163.0,33.725
-E02006065,"Highbridge",0,0,163.0,19.308
-E02006066,"Pawlett",0,0,336.0,21.473
-E02006067,"Cannington",0,0,71.0,15.110
-E02006068,"Bridgwater North",0,1,152.0,7.436
-E02006069,"Bridgwater Town",0,1,315.0,26.324
-E02006070,"Bridgwater East",0,0,244.0,9.120
-E02006071,"Wembdon & Chilton Trinity",0,0,223.0,9.065
-E02006072,"Westonzoyland",0,0,325.0,39.997
-E02006073,"Bridgwater South",0,0,152.0,6.244
-E02006074,"Stockmoor & North Petherton",0,1,597.0,19.236
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006061,"Cheddar & Axbridge",0,0,683.0,56.469,4191.07
+E02006062,"Berrow & Brent Knoll",0,5,377.0,34.314,4408.53
+E02006063,"Wedmore & Mark",0,0,514.0,42.263,455.78
+E02006064,"Burnham-on-Sea",0,2,163.0,33.725,678.03
+E02006065,"Highbridge",0,0,163.0,19.308,809.42
+E02006066,"Pawlett",0,0,336.0,21.473,3704.74
+E02006067,"Cannington",0,0,71.0,15.110,2834.02
+E02006068,"Bridgwater North",0,1,152.0,7.436,4613.53
+E02006069,"Bridgwater Town",0,1,315.0,26.324,3722.16
+E02006070,"Bridgwater East",0,0,244.0,9.120,2929.52
+E02006071,"Wembdon & Chilton Trinity",0,0,223.0,9.065,639.83
+E02006072,"Westonzoyland",0,0,325.0,39.997,840.30
+E02006073,"Bridgwater South",0,0,152.0,6.244,1378.49
+E02006074,"Stockmoor & North Petherton",0,1,597.0,19.236,2799.24

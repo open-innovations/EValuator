@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006047,"Rode",0,2,1379.0,53.362
-E02006048,"Stratton",0,0,505.0,20.620
-E02006049,"Frome North East",0,0,239.0,12.225
-E02006050,"Frome North West",0,0,239.0,18.462
-E02006051,"Draycott",0,0,610.0,39.025
-E02006052,"Oakhill",0,0,705.0,30.687
-E02006053,"Frome South & East",0,0,239.0,20.083
-E02006054,"Wells Town",0,3,160.0,45.616
-E02006055,"Shepton Mallet",0,4,119.0,24.632
-E02006056,"Evercreech & Nunney",0,0,671.0,23.598
-E02006057,"Glastonbury Town",0,1,141.0,28.775
-E02006058,"Glastonbury West & Street South",0,2,335.0,13.338
-E02006059,"Pilton",0,0,810.0,23.485
-E02006060,"Street Village",0,2,141.0,9.431
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006047,"Rode",0,2,1379.0,53.362,2930.17
+E02006048,"Stratton",0,0,505.0,20.620,673.07
+E02006049,"Frome North East",0,0,239.0,12.225,754.04
+E02006050,"Frome North West",0,0,239.0,18.462,1261.58
+E02006051,"Draycott",0,0,610.0,39.025,629.41
+E02006052,"Oakhill",0,0,705.0,30.687,1481.15
+E02006053,"Frome South & East",0,0,239.0,20.083,1485.97
+E02006054,"Wells Town",0,3,160.0,45.616,2339.26
+E02006055,"Shepton Mallet",0,4,119.0,24.632,1949.50
+E02006056,"Evercreech & Nunney",0,0,671.0,23.598,9364.84
+E02006057,"Glastonbury Town",0,1,141.0,28.775,1525.53
+E02006058,"Glastonbury West & Street South",0,2,335.0,13.338,1356.80
+E02006059,"Pilton",0,0,810.0,23.485,274.09
+E02006060,"Street Village",0,2,141.0,9.431,3490.48

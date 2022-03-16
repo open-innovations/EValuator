@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004356,"Langney West",0,0,168.0,9.499
-E02004357,"Hampden Park North",0,0,97.0,3.894
-E02004358,"Langney East",0,0,168.0,13.265
-E02004359,"Hampden Park South",0,7,597.0,7.475
-E02004361,"Ratton",0,0,429.0,15.265
-E02004362,"Roselands",0,0,265.0,7.210
-E02004363,"Upperton",0,0,298.0,5.516
-E02004364,"Old Town & Motcombe",0,2,429.0,13.909
-E02004365,"Pier",0,15,298.0,7.540
-E02004366,"King Edward's Parade",0,9,429.0,25.344
-E02004367,"Meads",0,1,332.0,20.287
-E02006857,"St Anthony's Hill",0,0,265.0,13.722
-E02006858,"Sovereign Harbour",0,2,168.0,9.443
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004356,"Langney West",0,0,168.0,9.499,542.30
+E02004357,"Hampden Park North",0,0,97.0,3.894,0.00
+E02004358,"Langney East",0,0,168.0,13.265,476.24
+E02004359,"Hampden Park South",0,7,597.0,7.475,2819.62
+E02004361,"Ratton",0,0,429.0,15.265,187.76
+E02004362,"Roselands",0,0,265.0,7.210,720.23
+E02004363,"Upperton",0,0,298.0,5.516,1348.66
+E02004364,"Old Town & Motcombe",0,2,429.0,13.909,103.10
+E02004365,"Pier",0,15,298.0,7.540,897.05
+E02004366,"King Edward's Parade",0,9,429.0,25.344,957.58
+E02004367,"Meads",0,1,332.0,20.287,479.32
+E02006857,"St Anthony's Hill",0,0,265.0,13.722,2175.06
+E02006858,"Sovereign Harbour",0,2,168.0,9.443,2398.34

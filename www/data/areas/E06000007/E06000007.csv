@@ -1,26 +1,26 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02002590,"Culcheth West & Croft",822,0,358.0,32.434
-E02002591,"Culcheth East & Hollins Green",782,0,358.0,27.117
-E02002592,"Winwick & Burtonwood",814,2,750.0,25.717
-E02002593,"Locking Stumps",876,8,358.0,40.409
-E02002594,"Oakwood & Gorse Covert",873,4,358.0,11.804
-E02002595,"Hulme",837,2,173.0,9.651
-E02002596,"Houghton Green & Fearnhead",847,0,173.0,7.853
-E02002597,"Blackbrook",822,0,173.0,9.272
-E02002598,"Kingswood & Whittle Hall",829,7,360.0,44.121
-E02002599,"Callands & Old Hall",761,9,360.0,52.889
-E02002600,"Orford",802,2,289.0,12.036
-E02002601,"Padgate & Paddington",834,1,289.0,9.041
-E02002602,"Bewsey & Dallam",772,0,533.0,47.853
-E02002603,"Woolston",852,0,474.0,10.324
-E02002604,"Great Sankey",744,0,360.0,28.990
-E02002605,"Hood Manor & Sankey Bridges",731,0,360.0,26.869
-E02002606,"Fairfield & Howley",756,0,602.0,26.439
-E02002607,"Central Warrington",752,31,1320.0,162.341
-E02002608,"Penketh & Cuerdley",718,1,1124.0,36.190
-E02002609,"Latchford",756,0,313.0,33.321
-E02002610,"Lymm",774,3,459.0,107.412
-E02002611,"Grappenhall",823,0,313.0,24.184
-E02002612,"Stockton Heath & Hillcliffe",758,0,313.0,31.440
-E02002613,"Appleton Thorn",826,0,313.0,45.681
-E02002614,"Appleton",764,0,313.0,24.319
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02002590,"Culcheth West & Croft",822,0,358.0,32.434,1939.34
+E02002591,"Culcheth East & Hollins Green",782,0,358.0,27.117,527.22
+E02002592,"Winwick & Burtonwood",814,2,750.0,25.717,3444.48
+E02002593,"Locking Stumps",876,8,358.0,40.409,7551.40
+E02002594,"Oakwood & Gorse Covert",873,4,358.0,11.804,2319.27
+E02002595,"Hulme",837,2,173.0,9.651,690.60
+E02002596,"Houghton Green & Fearnhead",847,0,173.0,7.853,559.22
+E02002597,"Blackbrook",822,0,173.0,9.272,220.05
+E02002598,"Kingswood & Whittle Hall",829,7,360.0,44.121,10879.16
+E02002599,"Callands & Old Hall",761,9,360.0,52.889,3723.73
+E02002600,"Orford",802,2,289.0,12.036,1468.03
+E02002601,"Padgate & Paddington",834,1,289.0,9.041,279.70
+E02002602,"Bewsey & Dallam",772,0,533.0,47.853,2389.38
+E02002603,"Woolston",852,0,474.0,10.324,22340.14
+E02002604,"Great Sankey",744,0,360.0,28.990,185.11
+E02002605,"Hood Manor & Sankey Bridges",731,0,360.0,26.869,900.04
+E02002606,"Fairfield & Howley",756,0,602.0,26.439,2768.02
+E02002607,"Central Warrington",752,31,1320.0,162.341,7418.30
+E02002608,"Penketh & Cuerdley",718,1,1124.0,36.190,1294.17
+E02002609,"Latchford",756,0,313.0,33.321,409.24
+E02002610,"Lymm",774,3,459.0,107.412,1363.73
+E02002611,"Grappenhall",823,0,313.0,24.184,395.65
+E02002612,"Stockton Heath & Hillcliffe",758,0,313.0,31.440,318.31
+E02002613,"Appleton Thorn",826,0,313.0,45.681,1445.33
+E02002614,"Appleton",764,0,313.0,24.319,36.00

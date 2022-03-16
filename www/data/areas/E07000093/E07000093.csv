@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02004814,"Andover Charlton & Bourne Valley",0,1,504.0,22.430
-E02004815,"Andover Newbury Road",0,0,504.0,10.245
-E02004816,"Andover London Road & East Anton",0,3,504.0,45.287
-E02004817,"Andover Central",0,6,532.0,47.526
-E02004818,"Andover West",0,5,504.0,30.209
-E02004819,"Andover South",0,3,504.0,17.453
-E02004820,"Over Wallop & Shipton Bellinger",0,2,570.0,36.124
-E02004821,"Chilbolton",0,0,967.0,34.013
-E02004822,"Nether Wallop",0,1,633.0,48.353
-E02004823,"Romsey Cupernham & Halterworth",0,0,287.0,36.915
-E02004824,"Romsey Town",0,8,287.0,83.058
-E02004825,"North Baddesley & Braishfield",0,1,915.0,35.440
-E02004826,"Abbotswood & West Wellow",0,1,548.0,42.037
-E02004827,"Valley Park",0,0,295.0,21.932
-E02004828,"Chilworth",0,3,1206.0,17.535
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02004814,"Andover Charlton & Bourne Valley",0,1,504.0,22.430,353.14
+E02004815,"Andover Newbury Road",0,0,504.0,10.245,569.01
+E02004816,"Andover London Road & East Anton",0,3,504.0,45.287,3179.82
+E02004817,"Andover Central",0,6,532.0,47.526,3326.70
+E02004818,"Andover West",0,5,504.0,30.209,1467.21
+E02004819,"Andover South",0,3,504.0,17.453,796.14
+E02004820,"Over Wallop & Shipton Bellinger",0,2,570.0,36.124,9265.24
+E02004821,"Chilbolton",0,0,967.0,34.013,1680.52
+E02004822,"Nether Wallop",0,1,633.0,48.353,2550.16
+E02004823,"Romsey Cupernham & Halterworth",0,0,287.0,36.915,1112.43
+E02004824,"Romsey Town",0,8,287.0,83.058,3324.09
+E02004825,"North Baddesley & Braishfield",0,1,915.0,35.440,3379.96
+E02004826,"Abbotswood & West Wellow",0,1,548.0,42.037,3688.78
+E02004827,"Valley Park",0,0,295.0,21.932,482.05
+E02004828,"Chilworth",0,3,1206.0,17.535,7558.47

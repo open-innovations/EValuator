@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02006519,"Kenilworth West",0,5,524.0,114.729
-E02006520,"Kenilworth East",0,0,296.0,53.237
-E02006521,"Kenilworth South",0,0,296.0,37.668
-E02006522,"Kingswood & Leek Wootton",0,3,10411.0,67.910
-E02006523,"Cubbington",0,0,2011.0,61.724
-E02006524,"Lillington",0,0,254.0,19.141
-E02006525,"Leamington Central & North",0,11,385.0,82.593
-E02006526,"Warwick North",0,2,4890.0,136.360
-E02006527,"Leamington West & Milverton",0,0,4899.0,46.247
-E02006528,"Leamington East & Sydenham",0,0,1172.0,130.775
-E02006529,"Warwick South West & Aylesford",0,22,4890.0,64.684
-E02006530,"Warwick South East",0,10,4645.0,70.053
-E02006531,"Leamington Brunswick",0,8,4645.0,25.190
-E02006532,"Bishops Tachbrook",0,0,5098.0,66.400
-E02006533,"Whitnash",0,1,4722.0,19.212
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02006519,"Kenilworth West",0,5,524.0,114.729,2352.22
+E02006520,"Kenilworth East",0,0,296.0,53.237,612.92
+E02006521,"Kenilworth South",0,0,296.0,37.668,872.00
+E02006522,"Kingswood & Leek Wootton",0,3,10411.0,67.910,5237.68
+E02006523,"Cubbington",0,0,2011.0,61.724,9586.46
+E02006524,"Lillington",0,0,254.0,19.141,92.30
+E02006525,"Leamington Central & North",0,11,385.0,82.593,1545.92
+E02006526,"Warwick North",0,2,4890.0,136.360,687.66
+E02006527,"Leamington West & Milverton",0,0,4899.0,46.247,473.89
+E02006528,"Leamington East & Sydenham",0,0,1172.0,130.775,1312.39
+E02006529,"Warwick South West & Aylesford",0,22,4890.0,64.684,3674.63
+E02006530,"Warwick South East",0,10,4645.0,70.053,10481.68
+E02006531,"Leamington Brunswick",0,8,4645.0,25.190,4120.00
+E02006532,"Bishops Tachbrook",0,0,5098.0,66.400,2057.22
+E02006533,"Whitnash",0,1,4722.0,19.212,348.09

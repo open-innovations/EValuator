@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003987,"Longtown & Border",27,3,170.0,10.871
-E02003988,"Brampton & Irthing",28,1,104.0,18.467
-E02003989,"Carlisle Belah",38,0,113.0,10.864
-E02003990,"Kingmoor",35,4,291.0,10.969
-E02003991,"Belle Vue & Burgh",35,0,103.0,5.485
-E02003992,"Central Carlisle",33,8,234.0,17.664
-E02003993,"Wetheral",34,0,163.0,26.453
-E02003994,"Longsowerby & Caldewgate",33,2,526.0,14.526
-E02003995,"Raffles & Morton",34,1,59.0,7.156
-E02003996,"Denton Holme & Harraby Green",36,6,234.0,9.095
-E02003997,"Botcherby & Harraby",40,0,62.0,3.738
-E02003998,"Currock & Upperby",41,0,121.0,3.926
-E02003999,"Garlands & Dalston",40,1,224.0,11.011
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003987,"Longtown & Border",27,3,170.0,10.871,1229.26
+E02003988,"Brampton & Irthing",28,1,104.0,18.467,1627.13
+E02003989,"Carlisle Belah",38,0,113.0,10.864,2163.55
+E02003990,"Kingmoor",35,4,291.0,10.969,5464.24
+E02003991,"Belle Vue & Burgh",35,0,103.0,5.485,435.93
+E02003992,"Central Carlisle",33,8,234.0,17.664,4917.49
+E02003993,"Wetheral",34,0,163.0,26.453,2149.11
+E02003994,"Longsowerby & Caldewgate",33,2,526.0,14.526,2186.95
+E02003995,"Raffles & Morton",34,1,59.0,7.156,347.06
+E02003996,"Denton Holme & Harraby Green",36,6,234.0,9.095,2815.10
+E02003997,"Botcherby & Harraby",40,0,62.0,3.738,723.86
+E02003998,"Currock & Upperby",41,0,121.0,3.926,196.56
+E02003999,"Garlands & Dalston",40,1,224.0,11.011,4880.38

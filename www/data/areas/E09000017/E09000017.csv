@@ -1,33 +1,33 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02000494,"Ducks Hill",0,1,904.0,53.694
-E02000495,"Northwood",0,4,1168.0,113.899
-E02000496,"Harefield",0,0,686.0,26.885
-E02000497,"Northwood Hills",0,1,1457.0,38.505
-E02000498,"West Ruislip North",0,0,904.0,18.526
-E02000499,"Eastcote",0,0,916.0,26.584
-E02000500,"Ruislip",0,2,435.0,61.192
-E02000501,"Ruislip Manor",0,0,916.0,24.014
-E02000502,"West Ruislip South",0,1,1503.0,25.151
-E02000503,"Ruislip Gardens",0,1,435.0,16.887
-E02000504,"Ickenham",0,2,474.0,29.706
-E02000506,"Uxbridge Common & Swakeleys",0,2,823.0,23.727
-E02000507,"Hillingdon North East",0,0,526.0,20.320
-E02000508,"Uxbridge Central & Brunel",0,8,671.0,27.714
-E02000509,"Uxbridge West",0,14,3979.0,60.619
-E02000510,"Hillingdon South",0,3,671.0,24.491
-E02000511,"Charville",0,1,204.0,8.867
-E02000512,"Hillingdon Heath",0,0,875.0,16.321
-E02000513,"Yeading North",0,2,486.0,9.722
-E02000514,"Yeading West",0,1,204.0,9.352
-E02000515,"Yiewsley West",0,4,3489.0,13.614
-E02000516,"Yeading Brookside",0,0,486.0,6.897
-E02000517,"Hayes End",0,0,886.0,4.764
-E02000518,"Yiewsley East",0,0,3505.0,9.301
-E02000519,"Hayes Town North",0,4,521.0,6.678
-E02000520,"Hayes Town & Lake Farm",0,6,4066.0,29.884
-E02000521,"West Drayton East",0,0,3473.0,7.958
-E02000522,"West Drayton West",0,3,3140.0,9.487
-E02000523,"Hayes South",0,20,3457.0,5.530
-E02000524,"Heathrow",0,63,4008.0,12.218
-E02000525,"Harlington & Cranford Cross",0,17,958.0,4.163
-E02006796,"South Ruislip",0,5,1331.0,28.780
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02000494,"Ducks Hill",0,1,904.0,53.694,1807.91
+E02000495,"Northwood",0,4,1168.0,113.899,1320.96
+E02000496,"Harefield",0,0,686.0,26.885,1405.64
+E02000497,"Northwood Hills",0,1,1457.0,38.505,253.88
+E02000498,"West Ruislip North",0,0,904.0,18.526,1087.89
+E02000499,"Eastcote",0,0,916.0,26.584,400.68
+E02000500,"Ruislip",0,2,435.0,61.192,804.43
+E02000501,"Ruislip Manor",0,0,916.0,24.014,123.97
+E02000502,"West Ruislip South",0,1,1503.0,25.151,821.95
+E02000503,"Ruislip Gardens",0,1,435.0,16.887,487.52
+E02000504,"Ickenham",0,2,474.0,29.706,272.90
+E02000506,"Uxbridge Common & Swakeleys",0,2,823.0,23.727,1556.64
+E02000507,"Hillingdon North East",0,0,526.0,20.320,73.17
+E02000508,"Uxbridge Central & Brunel",0,8,671.0,27.714,2969.61
+E02000509,"Uxbridge West",0,14,3979.0,60.619,1133.77
+E02000510,"Hillingdon South",0,3,671.0,24.491,1089.04
+E02000511,"Charville",0,1,204.0,8.867,0.00
+E02000512,"Hillingdon Heath",0,0,875.0,16.321,25.93
+E02000513,"Yeading North",0,2,486.0,9.722,180.12
+E02000514,"Yeading West",0,1,204.0,9.352,0.00
+E02000515,"Yiewsley West",0,4,3489.0,13.614,978.65
+E02000516,"Yeading Brookside",0,0,486.0,6.897,1538.31
+E02000517,"Hayes End",0,0,886.0,4.764,302.62
+E02000518,"Yiewsley East",0,0,3505.0,9.301,1323.73
+E02000519,"Hayes Town North",0,4,521.0,6.678,198.58
+E02000520,"Hayes Town & Lake Farm",0,6,4066.0,29.884,1345.68
+E02000521,"West Drayton East",0,0,3473.0,7.958,1613.94
+E02000522,"West Drayton West",0,3,3140.0,9.487,300.34
+E02000523,"Hayes South",0,20,3457.0,5.530,349.30
+E02000524,"Heathrow",0,63,4008.0,12.218,34475.57
+E02000525,"Harlington & Cranford Cross",0,17,958.0,4.163,11924.33
+E02006796,"South Ruislip",0,5,1331.0,28.780,3975.04

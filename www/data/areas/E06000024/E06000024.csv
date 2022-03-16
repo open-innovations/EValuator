@@ -1,27 +1,27 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs
-E02003065,"Portishead Central",0,2,326.0,70.969
-E02003066,"Portishead Redcliffe",0,4,326.0,20.191
-E02003067,"Portishead South",0,0,326.0,37.600
-E02003068,"Pill & Easton",0,3,657.0,32.003
-E02003069,"Clevedon North & Walton",0,0,254.0,24.578
-E02003070,"Long Ashton & Gordano",0,6,1437.0,77.270
-E02003071,"Clevedon Central",0,1,254.0,55.552
-E02003072,"Nailsea West",0,0,265.0,81.614
-E02003073,"Nailsea East",0,2,265.0,31.798
-E02003074,"Clevedon South & Yeo",0,3,254.0,24.327
-E02003075,"Backwell & Flax Bourton",0,1,536.0,41.632
-E02003076,"Yatton & Cleeve",0,0,628.0,50.984
-E02003077,"Wrington",0,11,678.0,57.613
-E02003078,"Congresbury & Kewstoke",0,1,736.0,27.894
-E02003079,"North Worle",0,0,199.0,29.033
-E02003080,"Mid Worle",0,0,199.0,34.538
-E02003081,"Weston Milton",0,0,335.0,19.725
-E02003082,"Weston Hillside",0,0,335.0,10.424
-E02003084,"Weston Town",0,3,335.0,14.025
-E02003085,"Weston Bournville",0,0,709.0,28.775
-E02003086,"Weston Clarence",0,0,136.0,5.239
-E02003087,"Hutton",0,0,373.0,41.082
-E02003088,"Winscombe",0,0,576.0,57.674
-E02003089,"Weston Uphill",0,0,299.0,13.278
-E02006845,"South Worle",0,4,385.0,23.097
-E02006846,"Weston Winterstoke",0,3,498.0,24.247
+MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
+E02003065,"Portishead Central",0,2,326.0,70.969,2996.67
+E02003066,"Portishead Redcliffe",0,4,326.0,20.191,1382.53
+E02003067,"Portishead South",0,0,326.0,37.600,1950.04
+E02003068,"Pill & Easton",0,3,657.0,32.003,39627.16
+E02003069,"Clevedon North & Walton",0,0,254.0,24.578,1171.37
+E02003070,"Long Ashton & Gordano",0,6,1437.0,77.270,38445.69
+E02003071,"Clevedon Central",0,1,254.0,55.552,2032.03
+E02003072,"Nailsea West",0,0,265.0,81.614,1445.00
+E02003073,"Nailsea East",0,2,265.0,31.798,1090.26
+E02003074,"Clevedon South & Yeo",0,3,254.0,24.327,791.35
+E02003075,"Backwell & Flax Bourton",0,1,536.0,41.632,2920.51
+E02003076,"Yatton & Cleeve",0,0,628.0,50.984,1540.26
+E02003077,"Wrington",0,11,678.0,57.613,19783.72
+E02003078,"Congresbury & Kewstoke",0,1,736.0,27.894,3356.45
+E02003079,"North Worle",0,0,199.0,29.033,622.07
+E02003080,"Mid Worle",0,0,199.0,34.538,589.63
+E02003081,"Weston Milton",0,0,335.0,19.725,225.41
+E02003082,"Weston Hillside",0,0,335.0,10.424,544.97
+E02003084,"Weston Town",0,3,335.0,14.025,3166.50
+E02003085,"Weston Bournville",0,0,709.0,28.775,2257.58
+E02003086,"Weston Clarence",0,0,136.0,5.239,918.30
+E02003087,"Hutton",0,0,373.0,41.082,1066.72
+E02003088,"Winscombe",0,0,576.0,57.674,1031.02
+E02003089,"Weston Uphill",0,0,299.0,13.278,1481.91
+E02006845,"South Worle",0,4,385.0,23.097,4079.82
+E02006846,"Weston Winterstoke",0,3,498.0,24.247,2754.87
