@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02006131,"Mayfield",0,0,636.0,28.167,3474.14
-E02006132,"Uttoxeter Heath",0,0,109.0,13.259,296.32
-E02006133,"Uttoxeter Town",0,4,109.0,35.835,6612.36
-E02006134,"Rolleston-on-Dove & Tutbury",0,0,511.0,45.528,153.68
-E02006135,"Burton Stretton",0,0,258.0,28.025,198.38
-E02006136,"Abbots Bromley",0,1,954.0,42.152,2555.29
-E02006137,"Burton Horninglow",0,0,258.0,28.978,1417.96
-E02006138,"Burton Eton Park",0,1,411.0,8.724,968.03
-E02006139,"Burton Shobnall",0,0,153.0,8.778,3102.37
-E02006140,"Burton Winshill",0,0,243.0,19.819,113.57
-E02006141,"Burton Central",0,6,501.0,53.585,7880.51
-E02006142,"Burton Brizlincote",0,0,90.0,13.070,133.06
-E02006143,"Branston",0,6,411.0,14.098,3919.20
-E02006144,"Burton Stapenhill",0,0,90.0,16.838,271.37
-E02006145,"Barton-under-Needwood",0,0,411.0,33.591,3677.53
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02006131,"Mayfield",0,636.0,3474.14,28.167,0,0.00
+E02006132,"Uttoxeter Heath",0,109.0,296.32,13.259,0,0.00
+E02006133,"Uttoxeter Town",0,109.0,6612.36,35.835,4,0.00
+E02006134,"Rolleston-on-Dove & Tutbury",0,511.0,153.68,45.528,0,0.00
+E02006135,"Burton Stretton",0,258.0,198.38,28.025,0,0.00
+E02006136,"Abbots Bromley",0,954.0,2555.29,42.152,1,0.00
+E02006137,"Burton Horninglow",0,258.0,1417.96,28.978,0,0.00
+E02006138,"Burton Eton Park",0,411.0,968.03,8.724,1,0.00
+E02006139,"Burton Shobnall",0,153.0,3102.37,8.778,0,7679.07
+E02006140,"Burton Winshill",0,243.0,113.57,19.819,0,0.00
+E02006141,"Burton Central",0,501.0,7880.51,53.585,6,5674.40
+E02006142,"Burton Brizlincote",0,90.0,133.06,13.070,0,0.00
+E02006143,"Branston",0,411.0,3919.20,14.098,6,19543.36
+E02006144,"Burton Stapenhill",0,90.0,271.37,16.838,0,0.00
+E02006145,"Barton-under-Needwood",0,411.0,3677.53,33.591,0,0.00

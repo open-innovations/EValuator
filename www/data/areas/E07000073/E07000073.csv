@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004544,"Old Harlow & Newhall",0,0,405.0,41.743,1424.92
-E02004545,"Mark Hall & Templefields",0,3,127.0,4.774,4606.83
-E02004546,"Nettleswell",0,1,127.0,3.386,3683.96
-E02004547,"Little Parndon & Hare Street",0,0,215.0,9.133,5225.24
-E02004548,"Church Langley",0,0,183.0,13.358,1156.92
-E02004549,"Bush Fair & Brays Grove",0,0,70.0,6.098,278.25
-E02004550,"Passmores & The High",0,0,468.0,30.427,10004082.65
-E02004551,"Potter Street",0,0,253.0,12.768,413.30
-E02004552,"Great Parndon & Katherines",0,0,88.0,5.623,51.31
-E02004553,"Staple Tye & Latton Bush",0,0,70.0,5.803,640.04
-E02004554,"Kingsmoor",0,0,158.0,4.874,667.33
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004544,"Old Harlow & Newhall",0,405.0,1424.92,41.743,0,0.00
+E02004545,"Mark Hall & Templefields",0,127.0,4606.83,4.774,3,0.00
+E02004546,"Nettleswell",0,127.0,3683.96,3.386,1,0.00
+E02004547,"Little Parndon & Hare Street",0,215.0,5225.24,9.133,0,30930.46
+E02004548,"Church Langley",0,183.0,1156.92,13.358,0,0.00
+E02004549,"Bush Fair & Brays Grove",0,70.0,278.25,6.098,0,0.00
+E02004550,"Passmores & The High",0,468.0,10004082.65,30.427,0,0.00
+E02004551,"Potter Street",0,253.0,413.30,12.768,0,0.00
+E02004552,"Great Parndon & Katherines",0,88.0,51.31,5.623,0,0.00
+E02004553,"Staple Tye & Latton Bush",0,70.0,640.04,5.803,0,0.00
+E02004554,"Kingsmoor",0,158.0,667.33,4.874,0,0.00

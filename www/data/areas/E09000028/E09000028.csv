@@ -1,34 +1,34 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02000807,"Rotherhithe",0,4,255.0,4.692,95.81
-E02000808,"Borough & Southwark Street",0,18,790.0,4.687,140.63
-E02000809,"Bermondsey North",0,10,1045.0,3.333,536.91
-E02000810,"Bermondsey East",0,19,1045.0,4.758,336.89
-E02000812,"London Bridge & Bermondsey West",0,17,1045.0,10.853,128.40
-E02000813,"Canada Water",0,17,384.0,3.910,900.53
-E02000814,"Surrey Quays",0,6,384.0,5.488,931.51
-E02000815,"Elephant & Castle",0,4,918.0,1.181,133.99
-E02000816,"South Bermondsey Central",0,9,1045.0,2.406,94.19
-E02000817,"South Bermondsey East",0,3,559.0,2.342,332.20
-E02000818,"Walworth North",0,10,918.0,0.182,211.11
-E02000819,"South Bermondsey West",0,1,1045.0,0.925,692.34
-E02000820,"Newington",0,16,1052.0,0.132,23.40
-E02000821,"Burgess Park",0,8,1537.0,0.586,101.89
-E02000822,"Walworth South",0,6,1537.0,0.167,71.89
-E02000823,"Burgess Park West & John Ruskin Street",0,4,443.0,1.052,85.80
-E02000824,"Peckham Park Road",0,6,1349.0,2.778,1076.74
-E02000825,"Peckham North West",0,3,874.0,3.029,199.45
-E02000826,"Camberwell North",0,11,619.0,2.935,47.14
-E02000827,"Camberwell Green",0,15,499.0,11.380,395.30
-E02000828,"Peckham North",0,9,304.0,7.264,1033.49
-E02000829,"Queens Road Peckham",0,12,398.0,2.151,251.72
-E02000830,"Camberwell South",0,23,886.0,2.627,283.18
-E02000831,"Peckham Rye",0,8,886.0,3.165,244.62
-E02000832,"Nunhead North",0,12,694.0,2.373,20.91
-E02000833,"North Dulwich",0,7,766.0,4.557,457.28
-E02000834,"Peckham Rye Common",0,27,571.0,12.475,60.67
-E02000835,"Nunhead South & Newlands",0,12,929.0,3.096,0.00
-E02000836,"East Dulwich",0,34,542.0,34.648,50.00
-E02000837,"Herne Hill & Dulwich Park",0,44,1041.0,23.253,345.94
-E02000838,"Dulwich Hill",0,8,777.0,12.810,0.00
-E02000839,"Sydenham Hill",0,7,1152.0,64.096,260.74
-E02006802,"Southwark St George's",0,10,924.0,1.897,147.33
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02000807,"Rotherhithe",0,255.0,95.81,4.692,4,0.00
+E02000808,"Borough & Southwark Street",0,790.0,140.63,4.687,18,0.00
+E02000809,"Bermondsey North",0,1045.0,536.91,3.333,10,0.00
+E02000810,"Bermondsey East",0,1045.0,336.89,4.758,19,0.00
+E02000812,"London Bridge & Bermondsey West",0,1045.0,128.40,10.853,17,0.00
+E02000813,"Canada Water",0,384.0,900.53,3.910,17,0.00
+E02000814,"Surrey Quays",0,384.0,931.51,5.488,6,0.00
+E02000815,"Elephant & Castle",0,918.0,133.99,1.181,4,0.00
+E02000816,"South Bermondsey Central",0,1045.0,94.19,2.406,9,0.00
+E02000817,"South Bermondsey East",0,559.0,332.20,2.342,3,0.00
+E02000818,"Walworth North",0,918.0,211.11,0.182,10,0.00
+E02000819,"South Bermondsey West",0,1045.0,692.34,0.925,1,0.00
+E02000820,"Newington",0,1052.0,23.40,0.132,16,0.00
+E02000821,"Burgess Park",0,1537.0,101.89,0.586,8,0.00
+E02000822,"Walworth South",0,1537.0,71.89,0.167,6,0.00
+E02000823,"Burgess Park West & John Ruskin Street",0,443.0,85.80,1.052,4,0.00
+E02000824,"Peckham Park Road",0,1349.0,1076.74,2.778,6,0.00
+E02000825,"Peckham North West",0,874.0,199.45,3.029,3,0.00
+E02000826,"Camberwell North",0,619.0,47.14,2.935,11,0.00
+E02000827,"Camberwell Green",0,499.0,395.30,11.380,15,0.00
+E02000828,"Peckham North",0,304.0,1033.49,7.264,9,0.00
+E02000829,"Queens Road Peckham",0,398.0,251.72,2.151,12,0.00
+E02000830,"Camberwell South",0,886.0,283.18,2.627,23,0.00
+E02000831,"Peckham Rye",0,886.0,244.62,3.165,8,0.00
+E02000832,"Nunhead North",0,694.0,20.91,2.373,12,0.00
+E02000833,"North Dulwich",0,766.0,457.28,4.557,7,0.00
+E02000834,"Peckham Rye Common",0,571.0,60.67,12.475,27,0.00
+E02000835,"Nunhead South & Newlands",0,929.0,0.00,3.096,12,0.00
+E02000836,"East Dulwich",0,542.0,50.00,34.648,34,0.00
+E02000837,"Herne Hill & Dulwich Park",0,1041.0,345.94,23.253,44,0.00
+E02000838,"Dulwich Hill",0,777.0,0.00,12.810,8,0.00
+E02000839,"Sydenham Hill",0,1152.0,260.74,64.096,7,0.00
+E02006802,"Southwark St George's",0,924.0,147.33,1.897,10,0.00

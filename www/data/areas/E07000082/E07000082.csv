@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004651,"Upton St Leonards & Hardwicke",0,4,1338.0,37.408,3132.05
-E02004652,"Painswick",0,0,981.0,45.349,714.47
-E02004653,"Frampton",0,0,1118.0,30.261,2883.92
-E02004654,"Ebley & Randwick",0,0,744.0,44.470,823.40
-E02004655,"Stonehouse",0,1,135.0,23.494,2623.76
-E02004656,"Stroud Town",0,6,744.0,107.078,3107.68
-E02004657,"Rodborough & Thrupp",0,0,709.0,30.772,587.26
-E02004658,"Chalford & Bussage",0,0,609.0,28.749,437.96
-E02004659,"Leonard Stanley & Uley",0,0,1099.0,29.284,538.87
-E02004660,"Minchinhampton & Amberley",0,0,744.0,35.273,365.13
-E02004661,"Cam",0,2,385.0,44.998,2093.28
-E02004662,"Berkeley & Sharpness",0,7,385.0,36.880,3796.85
-E02004663,"Nailsworth",0,3,714.0,35.544,344.77
-E02004664,"Dursley",0,0,200.0,32.175,1036.84
-E02004665,"Wotton-under-Edge & Kingswood",0,1,364.0,56.587,3244.83
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004651,"Upton St Leonards & Hardwicke",0,1338.0,3132.05,37.408,4,0.00
+E02004652,"Painswick",0,981.0,714.47,45.349,0,0.00
+E02004653,"Frampton",0,1118.0,2883.92,30.261,0,0.00
+E02004654,"Ebley & Randwick",0,744.0,823.40,44.470,0,0.00
+E02004655,"Stonehouse",0,135.0,2623.76,23.494,1,0.00
+E02004656,"Stroud Town",0,744.0,3107.68,107.078,6,0.00
+E02004657,"Rodborough & Thrupp",0,709.0,587.26,30.772,0,0.00
+E02004658,"Chalford & Bussage",0,609.0,437.96,28.749,0,0.00
+E02004659,"Leonard Stanley & Uley",0,1099.0,538.87,29.284,0,0.00
+E02004660,"Minchinhampton & Amberley",0,744.0,365.13,35.273,0,0.00
+E02004661,"Cam",0,385.0,2093.28,44.998,2,0.00
+E02004662,"Berkeley & Sharpness",0,385.0,3796.85,36.880,7,0.00
+E02004663,"Nailsworth",0,714.0,344.77,35.544,3,0.00
+E02004664,"Dursley",0,200.0,1036.84,32.175,0,0.00
+E02004665,"Wotton-under-Edge & Kingswood",0,364.0,3244.83,56.587,1,0.00

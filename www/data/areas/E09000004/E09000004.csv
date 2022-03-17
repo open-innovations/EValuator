@@ -1,29 +1,29 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02000065,"Crossway Park",0,1,301.0,5.106,1022.69
-E02000066,"South Thamesmead",0,1,210.0,4.763,280.63
-E02000067,"Belvedere & Lessness Heath",0,5,82.0,12.862,1102.34
-E02000068,"Erith East",0,1,318.0,9.746,3200.74
-E02000069,"Erith West",0,0,318.0,6.969,0.00
-E02000070,"Lesnes Abbey",0,0,628.0,9.682,101.33
-E02000071,"Northumberland Heath",0,0,516.0,6.631,204.93
-E02000072,"Slade Green & Crayford Marshes",0,0,689.0,23.008,11.65
-E02000073,"Bostall",0,0,428.0,23.438,67.99
-E02000074,"Lesney Farm & Colyers East",0,1,871.0,9.600,0.00
-E02000075,"Bursted Wood",0,1,434.0,18.857,74.02
-E02000077,"St Michael's",0,0,428.0,23.634,170.47
-E02000078,"Barnehurst North",0,1,871.0,15.447,210.40
-E02000079,"Bexleyheath Broadway",0,8,495.0,82.835,1696.92
-E02000080,"Welling",0,7,538.0,34.683,1271.98
-E02000081,"Barnehurst South",0,0,882.0,19.963,537.69
-E02000082,"Falconwood",0,0,954.0,21.556,344.44
-E02000083,"Crayford",0,4,617.0,17.528,2182.61
-E02000084,"Danson Park",0,0,675.0,32.001,134.34
-E02000085,"Blackfen",0,4,718.0,22.099,150.12
-E02000086,"Lamorbey",0,1,308.0,19.224,313.83
-E02000087,"Bexley Village",0,1,247.0,56.735,1296.69
-E02000088,"Albany Park",0,0,685.0,24.674,310.99
-E02000089,"Longlands & Halfway",0,0,921.0,15.800,78.19
-E02000090,"Sidcup West",0,0,505.0,76.308,2984.31
-E02000091,"Sidcup East",0,1,505.0,25.624,2034.99
-E02000092,"Foots Cray Meadows",0,2,377.0,18.676,3512.82
-E02006785,"Wickham Street & East Wickham",0,0,230.0,18.815,120.01
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02000065,"Crossway Park",0,301.0,1022.69,5.106,1,0.00
+E02000066,"South Thamesmead",0,210.0,280.63,4.763,1,0.00
+E02000067,"Belvedere & Lessness Heath",0,82.0,1102.34,12.862,5,0.00
+E02000068,"Erith East",0,318.0,3200.74,9.746,1,15917.51
+E02000069,"Erith West",0,318.0,0.00,6.969,0,0.00
+E02000070,"Lesnes Abbey",0,628.0,101.33,9.682,0,0.00
+E02000071,"Northumberland Heath",0,516.0,204.93,6.631,0,0.00
+E02000072,"Slade Green & Crayford Marshes",0,689.0,11.65,23.008,0,0.00
+E02000073,"Bostall",0,428.0,67.99,23.438,0,0.00
+E02000074,"Lesney Farm & Colyers East",0,871.0,0.00,9.600,1,0.00
+E02000075,"Bursted Wood",0,434.0,74.02,18.857,1,0.00
+E02000077,"St Michael's",0,428.0,170.47,23.634,0,0.00
+E02000078,"Barnehurst North",0,871.0,210.40,15.447,1,0.00
+E02000079,"Bexleyheath Broadway",0,495.0,1696.92,82.835,8,0.00
+E02000080,"Welling",0,538.0,1271.98,34.683,7,0.00
+E02000081,"Barnehurst South",0,882.0,537.69,19.963,0,0.00
+E02000082,"Falconwood",0,954.0,344.44,21.556,0,0.00
+E02000083,"Crayford",0,617.0,2182.61,17.528,4,2539.89
+E02000084,"Danson Park",0,675.0,134.34,32.001,0,0.00
+E02000085,"Blackfen",0,718.0,150.12,22.099,4,0.00
+E02000086,"Lamorbey",0,308.0,313.83,19.224,1,0.00
+E02000087,"Bexley Village",0,247.0,1296.69,56.735,1,0.00
+E02000088,"Albany Park",0,685.0,310.99,24.674,0,0.00
+E02000089,"Longlands & Halfway",0,921.0,78.19,15.800,0,0.00
+E02000090,"Sidcup West",0,505.0,2984.31,76.308,0,0.00
+E02000091,"Sidcup East",0,505.0,2034.99,25.624,1,0.00
+E02000092,"Foots Cray Meadows",0,377.0,3512.82,18.676,2,0.00
+E02006785,"Wickham Street & East Wickham",0,230.0,120.01,18.815,0,0.00

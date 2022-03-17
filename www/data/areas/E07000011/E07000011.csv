@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02003753,"Yaxley & Farcet",0,0,233.0,28.375,1564.74
-E02003754,"Stilton",0,2,1147.0,27.337,2085.43
-E02003755,"Ramsey",0,2,982.0,37.564,1852.27
-E02003756,"Sawtry & Gidding",0,0,826.0,34.110,1096.75
-E02003757,"Warboys & Bury",0,0,696.0,27.526,436.46
-E02003758,"Somersham",0,0,996.0,47.873,4038.46
-E02003759,"Bluntisham",0,3,705.0,18.701,2432.31
-E02003760,"Huntingdon Sapley & Oxmoor",0,0,1227.0,14.908,3016.88
-E02003761,"Huntingdon Hartford",0,1,634.0,7.824,742.18
-E02003762,"Brampton",0,3,1227.0,56.669,8693.40
-E02003763,"St Ives North",0,0,705.0,19.314,2048.76
-E02003764,"Huntingdon Central & West",0,3,1745.0,89.614,5721.47
-E02003765,"St Ives South",0,5,112.0,31.760,2071.45
-E02003766,"Godmanchester",0,2,982.0,13.199,1759.97
-E02003767,"Kimbolton",0,0,1984.0,46.271,3619.00
-E02003768,"Houghton",0,0,705.0,42.482,1792.64
-E02003769,"Buckden & Perry",0,5,941.0,25.180,2043.22
-E02003770,"Little Paxton",0,0,732.0,53.880,1638.19
-E02003771,"St Neots Priory Park",0,1,348.0,48.844,2290.75
-E02003772,"St Neots Eaton Ford",0,2,348.0,33.830,1085.36
-E02003773,"St Neots Eynesbury",0,2,348.0,25.323,2111.92
-E02003774,"St Neots Eaton Socon",0,0,348.0,25.823,1469.76
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02003753,"Yaxley & Farcet",0,233.0,1564.74,28.375,0,0.00
+E02003754,"Stilton",0,1147.0,2085.43,27.337,2,0.00
+E02003755,"Ramsey",0,982.0,1852.27,37.564,2,0.00
+E02003756,"Sawtry & Gidding",0,826.0,1096.75,34.110,0,0.00
+E02003757,"Warboys & Bury",0,696.0,436.46,27.526,0,0.00
+E02003758,"Somersham",0,996.0,4038.46,47.873,0,0.00
+E02003759,"Bluntisham",0,705.0,2432.31,18.701,3,0.00
+E02003760,"Huntingdon Sapley & Oxmoor",0,1227.0,3016.88,14.908,0,0.00
+E02003761,"Huntingdon Hartford",0,634.0,742.18,7.824,1,0.00
+E02003762,"Brampton",0,1227.0,8693.40,56.669,3,0.00
+E02003763,"St Ives North",0,705.0,2048.76,19.314,0,0.00
+E02003764,"Huntingdon Central & West",0,1745.0,5721.47,89.614,3,104.89
+E02003765,"St Ives South",0,112.0,2071.45,31.760,5,0.00
+E02003766,"Godmanchester",0,982.0,1759.97,13.199,2,182408.22
+E02003767,"Kimbolton",0,1984.0,3619.00,46.271,0,0.00
+E02003768,"Houghton",0,705.0,1792.64,42.482,0,0.00
+E02003769,"Buckden & Perry",0,941.0,2043.22,25.180,5,0.00
+E02003770,"Little Paxton",0,732.0,1638.19,53.880,0,0.00
+E02003771,"St Neots Priory Park",0,348.0,2290.75,48.844,1,0.00
+E02003772,"St Neots Eaton Ford",0,348.0,1085.36,33.830,2,0.00
+E02003773,"St Neots Eynesbury",0,348.0,2111.92,25.323,2,0.00
+E02003774,"St Neots Eaton Socon",0,348.0,1469.76,25.823,0,0.00

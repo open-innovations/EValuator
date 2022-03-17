@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02002633,"Little Bispham & Anchorsholme",136,0,206.0,11.867,424.54
-E02002634,"Churchtown",131,0,357.0,11.544,1275.68
-E02002635,"Norbreck & Bispham",94,0,206.0,11.741,440.55
-E02002636,"Warbreck & Bispham Road",123,0,449.0,12.467,1644.31
-E02002637,"Hoohill",154,0,429.0,6.533,8.98
-E02002638,"North Shore",141,1,276.0,5.188,1782.64
-E02002639,"Little Layton & Little Carleton",200,0,92.0,7.572,135.05
-E02002640,"North East Centre",178,0,276.0,3.728,820.88
-E02002641,"Queenstown & Layton",223,0,92.0,10.796,947.29
-E02002642,"Central Blackpool",225,2,591.0,15.769,2208.93
-E02002643,"Park Road",261,0,223.0,3.200,149.55
-E02002644,"Stanley Park & Great Marton",355,0,385.0,8.398,1453.47
-E02002645,"South Promenade & Seasiders Way",337,0,293.0,11.264,4207.08
-E02002646,"Little Marton & Marton Moss Side",456,6,606.0,12.692,1434.83
-E02002647,"Victoria",322,0,293.0,6.020,367.71
-E02002648,"Hawes Side",346,0,162.0,7.458,69.55
-E02002649,"South Shore",283,2,162.0,10.451,1744.00
-E02002650,"Common Edge",401,0,383.0,13.974,315.23
-E02002651,"Squires Gate",354,0,254.0,8.879,308.06
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02002633,"Little Bispham & Anchorsholme",136,206.0,424.54,11.867,0,0.00
+E02002634,"Churchtown",131,357.0,1275.68,11.544,0,0.00
+E02002635,"Norbreck & Bispham",94,206.0,440.55,11.741,0,0.00
+E02002636,"Warbreck & Bispham Road",123,449.0,1644.31,12.467,0,0.00
+E02002637,"Hoohill",154,429.0,8.98,6.533,0,0.00
+E02002638,"North Shore",141,276.0,1782.64,5.188,1,0.00
+E02002639,"Little Layton & Little Carleton",200,92.0,135.05,7.572,0,0.00
+E02002640,"North East Centre",178,276.0,820.88,3.728,0,0.00
+E02002641,"Queenstown & Layton",223,92.0,947.29,10.796,0,0.00
+E02002642,"Central Blackpool",225,591.0,2208.93,15.769,2,0.00
+E02002643,"Park Road",261,223.0,149.55,3.200,0,0.00
+E02002644,"Stanley Park & Great Marton",355,385.0,1453.47,8.398,0,0.00
+E02002645,"South Promenade & Seasiders Way",337,293.0,4207.08,11.264,0,0.00
+E02002646,"Little Marton & Marton Moss Side",456,606.0,1434.83,12.692,6,0.00
+E02002647,"Victoria",322,293.0,367.71,6.020,0,0.00
+E02002648,"Hawes Side",346,162.0,69.55,7.458,0,0.00
+E02002649,"South Shore",283,162.0,1744.00,10.451,2,0.00
+E02002650,"Common Edge",401,383.0,315.23,13.974,0,0.00
+E02002651,"Squires Gate",354,254.0,308.06,8.879,0,0.00

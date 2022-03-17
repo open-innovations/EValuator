@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004856,"Markyate",0,1,1228.0,37.118,938.90
-E02004857,"Tring West & Long Marston",0,2,237.0,68.239,686.81
-E02004858,"Tring North",0,1,237.0,20.718,502.27
-E02004859,"Tring East",0,0,599.0,34.060,1908.80
-E02004860,"Woodhall Farm",0,0,288.0,8.396,273.90
-E02004861,"Northchurch & Potten End",0,0,1054.0,43.179,843.26
-E02004862,"Grovehill",0,0,288.0,10.721,181.12
-E02004863,"Highfield",0,0,288.0,11.948,258.18
-E02004864,"Berkhamsted Town",0,1,529.0,94.495,1347.46
-E02004865,"Gadebridge & Old Town",0,0,455.0,11.742,547.10
-E02004866,"Warners End",0,0,529.0,11.472,158.16
-E02004867,"Berkhamsted West",0,0,362.0,28.605,475.43
-E02004868,"Maylands & Adeyfield",0,0,1071.0,34.396,1103.19
-E02004869,"Berkhamsted South",0,0,529.0,32.979,609.70
-E02004870,"Hemel Hempstead Town",0,2,709.0,74.136,3067.42
-E02004871,"Chaulden",0,0,167.0,8.900,170.60
-E02004872,"Leverstock Green",0,2,542.0,26.335,1510.25
-E02004873,"Boxmoor & Apsley",0,1,709.0,37.118,2798.88
-E02004874,"Corner Hall",0,0,542.0,16.793,1700.45
-E02004875,"Nash Mills & Bennetts End",0,0,254.0,36.467,482.84
-E02004876,"Bovingdon & Chipperfield",0,0,860.0,51.259,1354.37
-E02004877,"Kings Langley",0,1,504.0,53.071,2128.23
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004856,"Markyate",0,1228.0,938.90,37.118,1,0.00
+E02004857,"Tring West & Long Marston",0,237.0,686.81,68.239,2,0.00
+E02004858,"Tring North",0,237.0,502.27,20.718,1,0.00
+E02004859,"Tring East",0,599.0,1908.80,34.060,0,0.00
+E02004860,"Woodhall Farm",0,288.0,273.90,8.396,0,0.00
+E02004861,"Northchurch & Potten End",0,1054.0,843.26,43.179,0,0.00
+E02004862,"Grovehill",0,288.0,181.12,10.721,0,0.00
+E02004863,"Highfield",0,288.0,258.18,11.948,0,0.00
+E02004864,"Berkhamsted Town",0,529.0,1347.46,94.495,1,0.00
+E02004865,"Gadebridge & Old Town",0,455.0,547.10,11.742,0,0.00
+E02004866,"Warners End",0,529.0,158.16,11.472,0,0.00
+E02004867,"Berkhamsted West",0,362.0,475.43,28.605,0,0.00
+E02004868,"Maylands & Adeyfield",0,1071.0,1103.19,34.396,0,0.00
+E02004869,"Berkhamsted South",0,529.0,609.70,32.979,0,0.00
+E02004870,"Hemel Hempstead Town",0,709.0,3067.42,74.136,2,0.00
+E02004871,"Chaulden",0,167.0,170.60,8.900,0,0.00
+E02004872,"Leverstock Green",0,542.0,1510.25,26.335,2,0.00
+E02004873,"Boxmoor & Apsley",0,709.0,2798.88,37.118,1,0.00
+E02004874,"Corner Hall",0,542.0,1700.45,16.793,0,0.00
+E02004875,"Nash Mills & Bennetts End",0,254.0,482.84,36.467,0,0.00
+E02004876,"Bovingdon & Chipperfield",0,860.0,1354.37,51.259,0,0.00
+E02004877,"Kings Langley",0,504.0,2128.23,53.071,1,0.00

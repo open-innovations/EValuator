@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-W02000336,"Abergavenny South & Crucorney",0,0,183.0,53.013,0.00
-W02000337,"Abergavenny North",0,1,144.0,18.511,0.00
-W02000338,"Gilwern & Llanfoist",0,0,352.0,27.091,0.00
-W02000339,"Monmouth & Wyesham",0,6,203.0,64.273,0.00
-W02000340,"Rhaglan & Llantilio Crossenny",0,0,352.0,45.709,0.00
-W02000341,"Usk",0,2,609.0,35.922,0.00
-W02000342,"Chepstow North & Trellech",0,1,417.0,51.436,0.00
-W02000343,"Chepstow South",0,4,209.0,59.821,0.00
-W02000344,"Caldicot North & Caer-went",0,0,413.0,36.063,0.00
-W02000345,"Caldicot South",0,3,125.0,35.444,0.00
-W02000346,"Magor & Rogiet",0,2,125.0,25.556,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+W02000336,"Abergavenny South & Crucorney",0,183.0,0.00,53.013,0,0.00
+W02000337,"Abergavenny North",0,144.0,0.00,18.511,1,0.00
+W02000338,"Gilwern & Llanfoist",0,352.0,0.00,27.091,0,0.00
+W02000339,"Monmouth & Wyesham",0,203.0,0.00,64.273,6,0.00
+W02000340,"Rhaglan & Llantilio Crossenny",0,352.0,0.00,45.709,0,0.00
+W02000341,"Usk",0,609.0,0.00,35.922,2,0.00
+W02000342,"Chepstow North & Trellech",0,417.0,0.00,51.436,1,0.00
+W02000343,"Chepstow South",0,209.0,0.00,59.821,4,0.00
+W02000344,"Caldicot North & Caer-went",0,413.0,0.00,36.063,0,0.00
+W02000345,"Caldicot South",0,125.0,0.00,35.444,3,0.00
+W02000346,"Magor & Rogiet",0,125.0,0.00,25.556,2,0.00

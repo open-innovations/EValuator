@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02006542,"Arundel",0,5,204.0,43.244,1834.90
-E02006543,"Angmering North",0,0,572.0,21.172,1048.58
-E02006544,"Westergate",0,4,633.0,36.356,656.87
-E02006545,"Wick & Toddington",0,3,112.0,18.141,2011.73
-E02006546,"Angmering South",0,1,352.0,30.324,2525.84
-E02006547,"Yapton & Climping",0,0,332.0,20.113,1028.11
-E02006548,"Rustington North",0,0,320.0,52.487,486.49
-E02006549,"Ferring & Kingston Gorse",0,2,466.0,25.438,992.75
-E02006550,"Littlehampton East",0,1,320.0,21.901,625.47
-E02006551,"East Preston & Rustington East",0,0,458.0,34.597,623.56
-E02006552,"Littlehampton West and River",0,3,270.0,15.578,1645.44
-E02006553,"North Bersted",0,1,270.0,15.581,2443.77
-E02006554,"Middleton-on-Sea",0,0,220.0,17.099,431.04
-E02006555,"South Bersted",0,2,270.0,14.810,1454.57
-E02006556,"Felpham",0,0,270.0,26.065,1192.34
-E02006557,"Hawthorn Road",0,0,270.0,7.527,838.80
-E02006558,"Bognor Regis Central",0,4,270.0,41.482,3554.16
-E02006559,"Aldwick",0,0,142.0,14.345,280.58
-E02006560,"Nyetimber & Pagham",0,0,404.0,13.479,905.65
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02006542,"Arundel",0,204.0,1834.90,43.244,5,0.00
+E02006543,"Angmering North",0,572.0,1048.58,21.172,0,0.00
+E02006544,"Westergate",0,633.0,656.87,36.356,4,0.00
+E02006545,"Wick & Toddington",0,112.0,2011.73,18.141,3,0.00
+E02006546,"Angmering South",0,352.0,2525.84,30.324,1,0.00
+E02006547,"Yapton & Climping",0,332.0,1028.11,20.113,0,0.00
+E02006548,"Rustington North",0,320.0,486.49,52.487,0,0.00
+E02006549,"Ferring & Kingston Gorse",0,466.0,992.75,25.438,2,0.00
+E02006550,"Littlehampton East",0,320.0,625.47,21.901,1,0.00
+E02006551,"East Preston & Rustington East",0,458.0,623.56,34.597,0,0.00
+E02006552,"Littlehampton West and River",0,270.0,1645.44,15.578,3,0.00
+E02006553,"North Bersted",0,270.0,2443.77,15.581,1,0.00
+E02006554,"Middleton-on-Sea",0,220.0,431.04,17.099,0,0.00
+E02006555,"South Bersted",0,270.0,1454.57,14.810,2,0.00
+E02006556,"Felpham",0,270.0,1192.34,26.065,0,0.00
+E02006557,"Hawthorn Road",0,270.0,838.80,7.527,0,0.00
+E02006558,"Bognor Regis Central",0,270.0,3554.16,41.482,4,0.00
+E02006559,"Aldwick",0,142.0,280.58,14.345,0,0.00
+E02006560,"Nyetimber & Pagham",0,404.0,905.65,13.479,0,0.00

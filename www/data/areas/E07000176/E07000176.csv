@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02005906,"East Bridgford & Aslockton",0,0,382.0,47.311,3042.05
-E02005907,"Bingham",0,4,557.0,52.473,1331.99
-E02005908,"Radcliffe on Trent & Shelford",0,4,557.0,58.321,709.67
-E02005909,"Lady Bay",0,1,620.0,18.233,627.69
-E02005910,"West Bridgford",0,3,620.0,29.643,2438.15
-E02005911,"Gamston & Holme Pierrepoint",0,1,1143.0,26.131,3654.50
-E02005912,"Compton Acres & Lutterell",0,10,873.0,26.293,4692.79
-E02005913,"Edwalton",0,0,973.0,33.303,1620.85
-E02005914,"Cotgrave",0,0,353.0,38.841,1082.17
-E02005915,"Cropwell Bishop",0,1,697.0,43.133,1060.19
-E02005916,"Ruddington",0,1,186.0,22.465,2664.03
-E02005917,"Keyworth North",0,4,974.0,41.290,1532.80
-E02005918,"Keyworth South",0,0,353.0,42.814,443.27
-E02005919,"Ratcliffe",0,12,1030.0,31.672,6643.28
-E02005920,"East Leake",0,0,667.0,45.261,1189.37
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02005906,"East Bridgford & Aslockton",0,382.0,3042.05,47.311,0,0.00
+E02005907,"Bingham",0,557.0,1331.99,52.473,4,0.00
+E02005908,"Radcliffe on Trent & Shelford",0,557.0,709.67,58.321,4,0.00
+E02005909,"Lady Bay",0,620.0,627.69,18.233,1,0.00
+E02005910,"West Bridgford",0,620.0,2438.15,29.643,3,0.00
+E02005911,"Gamston & Holme Pierrepoint",0,1143.0,3654.50,26.131,1,0.00
+E02005912,"Compton Acres & Lutterell",0,873.0,4692.79,26.293,10,0.00
+E02005913,"Edwalton",0,973.0,1620.85,33.303,0,0.00
+E02005914,"Cotgrave",0,353.0,1082.17,38.841,0,0.00
+E02005915,"Cropwell Bishop",0,697.0,1060.19,43.133,1,0.00
+E02005916,"Ruddington",0,186.0,2664.03,22.465,1,0.00
+E02005917,"Keyworth North",0,974.0,1532.80,41.290,4,0.00
+E02005918,"Keyworth South",0,353.0,443.27,42.814,0,0.00
+E02005919,"Ratcliffe",0,1030.0,6643.28,31.672,12,0.00
+E02005920,"East Leake",0,667.0,1189.37,45.261,0,0.00

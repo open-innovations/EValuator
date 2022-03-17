@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-W02000042,"Prestatyn North",0,0,54.0,9.282,1510.05
-W02000043,"Prestatyn Central & East",0,0,54.0,12.475,3832.29
-W02000044,"Prestatyn South",0,0,54.0,7.416,436.19
-W02000045,"Rhyl North",0,0,131.0,14.500,4658.06
-W02000047,"Rhyl South West",0,1,310.0,16.519,2196.79
-W02000049,"Dyserth & Tremeirchion",0,0,572.0,11.884,1511.75
-W02000050,"Rhuddlan & Bodelwyddan",0,4,256.0,8.658,6857.28
-W02000051,"St Asaph & Trefnant",0,2,189.0,16.652,2582.37
-W02000052,"Denbigh West",0,1,64.0,12.187,1792.89
-W02000053,"Denbigh East & Pentre Llanrhaeadr",0,0,112.0,11.260,1457.25
-W02000054,"Llandyrnog & Llanarmon-yn-Iâl",0,0,485.0,16.444,1892.09
-W02000055,"Ruthin",0,0,48.0,16.875,1571.55
-W02000056,"Corwen",0,3,199.0,15.430,1112.71
-W02000057,"Llangollen & Llandrillo",0,0,136.0,14.584,1873.86
-W02000419,"Rhyl East",0,0,131.0,10.233,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+W02000042,"Prestatyn North",0,54.0,1510.05,9.282,0,0.00
+W02000043,"Prestatyn Central & East",0,54.0,3832.29,12.475,0,0.00
+W02000044,"Prestatyn South",0,54.0,436.19,7.416,0,0.00
+W02000045,"Rhyl North",0,131.0,4658.06,14.500,0,0.00
+W02000047,"Rhyl South West",0,310.0,2196.79,16.519,1,0.00
+W02000049,"Dyserth & Tremeirchion",0,572.0,1511.75,11.884,0,0.00
+W02000050,"Rhuddlan & Bodelwyddan",0,256.0,6857.28,8.658,4,784.20
+W02000051,"St Asaph & Trefnant",0,189.0,2582.37,16.652,2,0.00
+W02000052,"Denbigh West",0,64.0,1792.89,12.187,1,0.00
+W02000053,"Denbigh East & Pentre Llanrhaeadr",0,112.0,1457.25,11.260,0,0.00
+W02000054,"Llandyrnog & Llanarmon-yn-Iâl",0,485.0,1892.09,16.444,0,0.00
+W02000055,"Ruthin",0,48.0,1571.55,16.875,0,0.00
+W02000056,"Corwen",0,199.0,1112.71,15.430,3,0.00
+W02000057,"Llangollen & Llandrillo",0,136.0,1873.86,14.584,0,0.00
+W02000419,"Rhyl East",0,131.0,0.00,10.233,0,0.00

@@ -1,24 +1,24 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02002928,"Newport North",0,0,148.0,17.897,85.08
-E02002929,"Edgmond & Church Aston",0,0,385.0,33.011,1435.34
-E02002930,"Newport South",0,0,148.0,35.794,987.64
-E02002931,"Muxton & Lilleshall",0,1,895.0,13.801,1512.78
-E02002932,"Donnington",0,0,644.0,16.489,1800.08
-E02002933,"Dothill & Shawbirch",0,0,269.0,11.782,318.26
-E02002934,"Apley & Leegomery",0,0,250.0,10.952,1486.72
-E02002935,"Wrockwardine Wood & Trench",0,0,791.0,13.852,3503.84
-E02002936,"Hadley & Horton",0,1,894.0,20.637,6266.95
-E02002937,"Ironbridge",0,0,616.0,38.027,3469.98
-E02002938,"Wellington East",0,1,147.0,9.742,4376.38
-E02002939,"Wellington West",0,1,447.0,26.687,1684.71
-E02002940,"St George's",0,0,644.0,13.339,417.00
-E02002941,"Oakengates & Ketley",0,0,1130.0,34.063,728.25
-E02002942,"Priorslee",0,1,644.0,13.003,1052.12
-E02002943,"Horsehay & The Rock",0,1,260.0,37.767,7668.96
-E02002944,"Malinslee",0,2,992.0,20.332,2917.55
-E02002945,"Hollinswood & Randlay",0,3,1041.0,17.918,1740.88
-E02002946,"Dawley & Aqueduct",0,0,201.0,20.523,190.25
-E02002947,"Brookside",0,0,115.0,9.187,110.60
-E02002948,"Woodside",0,0,59.0,3.832,256.16
-E02002949,"Madeley",0,2,1069.0,38.091,1388.25
-E02002950,"Sutton Hill",0,1,59.0,7.946,1151.42
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02002928,"Newport North",0,148.0,85.08,17.897,0,0.00
+E02002929,"Edgmond & Church Aston",0,385.0,1435.34,33.011,0,0.00
+E02002930,"Newport South",0,148.0,987.64,35.794,0,0.00
+E02002931,"Muxton & Lilleshall",0,895.0,1512.78,13.801,1,0.00
+E02002932,"Donnington",0,644.0,1800.08,16.489,0,0.00
+E02002933,"Dothill & Shawbirch",0,269.0,318.26,11.782,0,0.00
+E02002934,"Apley & Leegomery",0,250.0,1486.72,10.952,0,0.00
+E02002935,"Wrockwardine Wood & Trench",0,791.0,3503.84,13.852,0,0.00
+E02002936,"Hadley & Horton",0,894.0,6266.95,20.637,1,0.00
+E02002937,"Ironbridge",0,616.0,3469.98,38.027,0,0.00
+E02002938,"Wellington East",0,147.0,4376.38,9.742,1,0.00
+E02002939,"Wellington West",0,447.0,1684.71,26.687,1,0.00
+E02002940,"St George's",0,644.0,417.00,13.339,0,0.00
+E02002941,"Oakengates & Ketley",0,1130.0,728.25,34.063,0,0.00
+E02002942,"Priorslee",0,644.0,1052.12,13.003,1,0.00
+E02002943,"Horsehay & The Rock",0,260.0,7668.96,37.767,1,0.00
+E02002944,"Malinslee",0,992.0,2917.55,20.332,2,0.00
+E02002945,"Hollinswood & Randlay",0,1041.0,1740.88,17.918,3,0.00
+E02002946,"Dawley & Aqueduct",0,201.0,190.25,20.523,0,0.00
+E02002947,"Brookside",0,115.0,110.60,9.187,0,0.00
+E02002948,"Woodside",0,59.0,256.16,3.832,0,0.00
+E02002949,"Madeley",0,1069.0,1388.25,38.091,2,0.00
+E02002950,"Sutton Hill",0,59.0,1151.42,7.946,1,0.00

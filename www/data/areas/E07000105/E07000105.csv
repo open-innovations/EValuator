@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004996,"Wye",0,0,662.0,47.207,2303.74
-E02004997,"Charing",0,2,960.0,43.701,5895.20
-E02004998,"Kennington & Little Burton Farm",0,0,364.0,16.826,940.04
-E02004999,"Bybrook",0,2,539.0,33.398,4997.27
-E02005000,"Ashford Central",0,8,764.0,95.340,6154.57
-E02005001,"Highfield & Willesborough",0,6,199.0,23.228,5518.92
-E02005002,"Beaver & Singleton",0,0,175.0,20.021,899.07
-E02005003,"Washford & Stanhope",0,0,175.0,15.409,455.47
-E02005004,"Park Farm",0,0,374.0,14.949,4079.68
-E02005005,"Brabourne Lees & North Romney",0,0,632.0,59.713,11579.01
-E02005006,"Biddenden",0,0,404.0,26.757,9968.49
-E02005007,"Great Chart",0,0,268.0,31.354,531.16
-E02005008,"Tenterden & Rolvenden",0,6,334.0,40.674,2115.44
-E02005009,"Hamstreet & Isle of Oxney",0,2,164.0,25.324,874.51
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004996,"Wye",0,662.0,2303.74,47.207,0,0.00
+E02004997,"Charing",0,960.0,5895.20,43.701,2,0.00
+E02004998,"Kennington & Little Burton Farm",0,364.0,940.04,16.826,0,0.00
+E02004999,"Bybrook",0,539.0,4997.27,33.398,2,7008.69
+E02005000,"Ashford Central",0,764.0,6154.57,95.340,8,0.00
+E02005001,"Highfield & Willesborough",0,199.0,5518.92,23.228,6,0.00
+E02005002,"Beaver & Singleton",0,175.0,899.07,20.021,0,0.00
+E02005003,"Washford & Stanhope",0,175.0,455.47,15.409,0,0.00
+E02005004,"Park Farm",0,374.0,4079.68,14.949,0,0.00
+E02005005,"Brabourne Lees & North Romney",0,632.0,11579.01,59.713,0,0.00
+E02005006,"Biddenden",0,404.0,9968.49,26.757,0,0.00
+E02005007,"Great Chart",0,268.0,531.16,31.354,0,0.00
+E02005008,"Tenterden & Rolvenden",0,334.0,2115.44,40.674,6,0.00
+E02005009,"Hamstreet & Isle of Oxney",0,164.0,874.51,25.324,2,0.00

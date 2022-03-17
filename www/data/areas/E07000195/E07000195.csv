@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02006158,"Kidsgrove East",0,0,410.0,17.384,227.67
-E02006159,"Kidsgrove Central",0,2,254.0,14.702,604.63
-E02006160,"Kidsgrove West",0,0,254.0,38.460,156.75
-E02006161,"Talke & Crackley",0,0,749.0,13.226,1511.33
-E02006162,"Audley & Bignall End",0,0,670.0,19.588,396.29
-E02006163,"Bradwell",0,0,495.0,11.995,157.68
-E02006164,"Chesterton & Knutton",0,0,339.0,18.263,1042.60
-E02006165,"Porthill",0,0,339.0,15.950,1567.90
-E02006166,"May Bank",0,0,611.0,14.157,261.98
-E02006167,"Newcastle West & Cross Heath",0,3,339.0,28.311,977.50
-E02006168,"Newcastle Town",0,1,865.0,44.084,4397.49
-E02006169,"Silverdale & Keele",0,9,416.0,15.527,3971.28
-E02006170,"Madeley & Betley",0,0,635.0,26.407,682.27
-E02006171,"Clayton & Langdale",0,0,339.0,17.784,222.10
-E02006172,"Westlands & Seabridge",0,1,611.0,20.098,771.07
-E02006173,"Loggerheads & Baldwins Gate",0,0,550.0,28.568,709.97
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02006158,"Kidsgrove East",0,410.0,227.67,17.384,0,0.00
+E02006159,"Kidsgrove Central",0,254.0,604.63,14.702,2,0.00
+E02006160,"Kidsgrove West",0,254.0,156.75,38.460,0,0.00
+E02006161,"Talke & Crackley",0,749.0,1511.33,13.226,0,0.00
+E02006162,"Audley & Bignall End",0,670.0,396.29,19.588,0,0.00
+E02006163,"Bradwell",0,495.0,157.68,11.995,0,2739.50
+E02006164,"Chesterton & Knutton",0,339.0,1042.60,18.263,0,0.00
+E02006165,"Porthill",0,339.0,1567.90,15.950,0,0.00
+E02006166,"May Bank",0,611.0,261.98,14.157,0,0.00
+E02006167,"Newcastle West & Cross Heath",0,339.0,977.50,28.311,3,0.00
+E02006168,"Newcastle Town",0,865.0,4397.49,44.084,1,0.00
+E02006169,"Silverdale & Keele",0,416.0,3971.28,15.527,9,0.00
+E02006170,"Madeley & Betley",0,635.0,682.27,26.407,0,0.00
+E02006171,"Clayton & Langdale",0,339.0,222.10,17.784,0,0.00
+E02006172,"Westlands & Seabridge",0,611.0,771.07,20.098,1,0.00
+E02006173,"Loggerheads & Baldwins Gate",0,550.0,709.97,28.568,0,0.00

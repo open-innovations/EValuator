@@ -1,26 +1,26 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02003524,"Paulsgrove East",0,1,6947.0,10.852,210.11
-E02003525,"Wymering",0,4,6947.0,12.024,4221.76
-E02003526,"Cosham North",0,1,7226.0,10.422,402.87
-E02003527,"Paulsgrove West & Port Solent",0,0,7001.0,22.516,6311.56
-E02003529,"Cosham South",0,0,6947.0,10.051,227.39
-E02003530,"Hilsea",0,0,180.0,3.403,507.66
-E02003531,"Anchorage Park & Copnor",0,1,180.0,10.112,5199.54
-E02003532,"Alexandra Park",0,7,58.0,2.008,643.08
-E02003533,"North End West & Whale Island",0,1,58.0,2.008,2363.11
-E02003534,"North End East",0,6,180.0,2.854,197.08
-E02003535,"Fratton North",0,0,257.0,2.807,24.41
-E02003536,"Landport",0,1,135.0,1.954,4691.89
-E02003537,"Baffins",0,3,238.0,6.701,280.54
-E02003538,"Fratton Kingston",0,3,135.0,0.174,30.34
-E02003539,"Fratton West & Portsea",0,4,439.0,9.782,6254.62
-E02003540,"Milton",0,9,238.0,11.409,984.49
-E02003541,"Somers Town",0,1,143.0,3.571,356.07
-E02003542,"Southsea Haslemere Road",0,3,116.0,6.696,123.05
-E02003543,"Southsea Fawcett Road",0,4,182.0,5.883,19.86
-E02003544,"Southsea Prince Albert Road",0,4,116.0,5.870,0.00
-E02003545,"Southsea West",0,2,66.0,3.891,1008.14
-E02003546,"Eastney",0,5,116.0,8.943,877.34
-E02003547,"Old Portsmouth & Southsea Common",0,11,259.0,5.010,2738.23
-E02003548,"Southsea Waverley Road",0,7,182.0,3.925,432.34
-E02006821,"Drayton & Farlington",0,0,6947.0,12.825,1332.82
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02003524,"Paulsgrove East",0,6947.0,210.11,10.852,1,0.00
+E02003525,"Wymering",0,6947.0,4221.76,12.024,4,0.00
+E02003526,"Cosham North",0,7226.0,402.87,10.422,1,0.00
+E02003527,"Paulsgrove West & Port Solent",0,7001.0,6311.56,22.516,0,0.00
+E02003529,"Cosham South",0,6947.0,227.39,10.051,0,0.00
+E02003530,"Hilsea",0,180.0,507.66,3.403,0,0.00
+E02003531,"Anchorage Park & Copnor",0,180.0,5199.54,10.112,1,0.00
+E02003532,"Alexandra Park",0,58.0,643.08,2.008,7,0.00
+E02003533,"North End West & Whale Island",0,58.0,2363.11,2.008,1,0.00
+E02003534,"North End East",0,180.0,197.08,2.854,6,0.00
+E02003535,"Fratton North",0,257.0,24.41,2.807,0,0.00
+E02003536,"Landport",0,135.0,4691.89,1.954,1,0.00
+E02003537,"Baffins",0,238.0,280.54,6.701,3,0.00
+E02003538,"Fratton Kingston",0,135.0,30.34,0.174,3,0.00
+E02003539,"Fratton West & Portsea",0,439.0,6254.62,9.782,4,0.00
+E02003540,"Milton",0,238.0,984.49,11.409,9,0.00
+E02003541,"Somers Town",0,143.0,356.07,3.571,1,0.00
+E02003542,"Southsea Haslemere Road",0,116.0,123.05,6.696,3,0.00
+E02003543,"Southsea Fawcett Road",0,182.0,19.86,5.883,4,0.00
+E02003544,"Southsea Prince Albert Road",0,116.0,0.00,5.870,4,0.00
+E02003545,"Southsea West",0,66.0,1008.14,3.891,2,0.00
+E02003546,"Eastney",0,116.0,877.34,8.943,5,0.00
+E02003547,"Old Portsmouth & Southsea Common",0,259.0,2738.23,5.010,11,0.00
+E02003548,"Southsea Waverley Road",0,182.0,432.34,3.925,7,0.00
+E02006821,"Drayton & Farlington",0,6947.0,1332.82,12.825,0,0.00

@@ -1,2 +1,2 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02006781,"Isles of Scilly",0,0,72.0,0.000,133.57
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02006781,"Isles of Scilly",0,72.0,133.57,0.000,0,0.00

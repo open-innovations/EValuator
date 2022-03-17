@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02000598,"Tudor Drive",0,2,700.0,20.644,244.48
-E02000599,"Kingston Vale & Coombe Hill",0,3,1754.0,22.936,471.56
-E02000600,"Kingston Hill",0,3,519.0,31.469,208.21
-E02000601,"Kingston North",0,0,519.0,31.621,704.59
-E02000602,"Kingston East & Norbiton West",0,7,1254.0,99.452,374.17
-E02000603,"Norbiton East",0,0,868.0,13.859,422.94
-E02000604,"New Malden East",0,9,479.0,77.492,1319.88
-E02000605,"New Malden West",0,3,349.0,21.971,247.08
-E02000606,"Kingston Riverside",0,17,956.0,36.534,1095.08
-E02000607,"Berrylands North",0,0,304.0,19.843,1.80
-E02000608,"Surbiton North",0,6,437.0,27.497,396.93
-E02000609,"Malden Manor",0,2,589.0,22.792,58.49
-E02000610,"Surbiton South",0,4,437.0,31.156,512.98
-E02000611,"Berrylands South",0,0,437.0,24.918,51.45
-E02000612,"Motspur Park",0,0,589.0,24.203,442.32
-E02000613,"Southborough",0,0,437.0,15.502,81.91
-E02000614,"Tolworth",0,7,847.0,26.913,939.02
-E02000615,"Hook",0,5,433.0,24.749,96.36
-E02000616,"Chessington North",0,0,407.0,11.707,81.72
-E02000617,"Chessington South & Malden Rushett",0,3,1040.0,16.059,6681.90
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02000598,"Tudor Drive",0,700.0,244.48,20.644,2,0.00
+E02000599,"Kingston Vale & Coombe Hill",0,1754.0,471.56,22.936,3,0.00
+E02000600,"Kingston Hill",0,519.0,208.21,31.469,3,0.00
+E02000601,"Kingston North",0,519.0,704.59,31.621,0,0.00
+E02000602,"Kingston East & Norbiton West",0,1254.0,374.17,99.452,7,0.00
+E02000603,"Norbiton East",0,868.0,422.94,13.859,0,0.00
+E02000604,"New Malden East",0,479.0,1319.88,77.492,9,0.00
+E02000605,"New Malden West",0,349.0,247.08,21.971,3,0.00
+E02000606,"Kingston Riverside",0,956.0,1095.08,36.534,17,0.00
+E02000607,"Berrylands North",0,304.0,1.80,19.843,0,0.00
+E02000608,"Surbiton North",0,437.0,396.93,27.497,6,0.00
+E02000609,"Malden Manor",0,589.0,58.49,22.792,2,0.00
+E02000610,"Surbiton South",0,437.0,512.98,31.156,4,0.00
+E02000611,"Berrylands South",0,437.0,51.45,24.918,0,0.00
+E02000612,"Motspur Park",0,589.0,442.32,24.203,0,0.00
+E02000613,"Southborough",0,437.0,81.91,15.502,0,0.00
+E02000614,"Tolworth",0,847.0,939.02,26.913,7,0.00
+E02000615,"Hook",0,433.0,96.36,24.749,5,0.00
+E02000616,"Chessington North",0,407.0,81.72,11.707,0,0.00
+E02000617,"Chessington South & Malden Rushett",0,1040.0,6681.90,16.059,3,0.00

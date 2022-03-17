@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004201,"Tedburn",0,0,1976.0,25.208,697.85
-E02004202,"Starcross & Exminster",0,1,1622.0,28.706,3836.53
-E02004203,"Moretonhampstead",0,0,397.0,30.926,2086.58
-E02004204,"Chudleigh & Bovey Tracey",0,0,641.0,29.752,861.88
-E02004205,"Dawlish North",0,9,205.0,17.928,1923.18
-E02004206,"Dawlish South",0,0,342.0,22.746,663.24
-E02004207,"Heathfield & Liverton",0,1,502.0,20.527,3319.38
-E02004208,"Teignmouth North",0,0,203.0,18.443,109.89
-E02004209,"Kingsteignton",0,0,303.0,16.592,1950.37
-E02004210,"Teignmouth South",0,1,137.0,28.309,1623.83
-E02004211,"Bishopsteignton & Shaldon",0,0,784.0,20.639,1180.34
-E02004212,"Newton Abbot",0,0,303.0,8.493,298.92
-E02004213,"Ogwell",0,0,705.0,16.062,2126.26
-E02004214,"Newton Abbot",0,0,639.0,54.267,2050.42
-E02004215,"Newton Abbot",0,0,303.0,15.143,1443.75
-E02004216,"Newton Abbot",0,0,303.0,9.481,0.00
-E02004217,"Ashburton & Buckfastleigh",0,0,551.0,23.929,1894.45
-E02004218,"Kingskerswell",0,0,557.0,12.486,880.98
-E02004219,"Ipplepen & Broadhempston",0,1,850.0,16.305,402.07
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004201,"Tedburn",0,1976.0,697.85,25.208,0,0.00
+E02004202,"Starcross & Exminster",0,1622.0,3836.53,28.706,1,0.00
+E02004203,"Moretonhampstead",0,397.0,2086.58,30.926,0,0.00
+E02004204,"Chudleigh & Bovey Tracey",0,641.0,861.88,29.752,0,0.00
+E02004205,"Dawlish North",0,205.0,1923.18,17.928,9,0.00
+E02004206,"Dawlish South",0,342.0,663.24,22.746,0,0.00
+E02004207,"Heathfield & Liverton",0,502.0,3319.38,20.527,1,0.00
+E02004208,"Teignmouth North",0,203.0,109.89,18.443,0,0.00
+E02004209,"Kingsteignton",0,303.0,1950.37,16.592,0,0.00
+E02004210,"Teignmouth South",0,137.0,1623.83,28.309,1,0.00
+E02004211,"Bishopsteignton & Shaldon",0,784.0,1180.34,20.639,0,0.00
+E02004212,"Newton Abbot",0,303.0,298.92,8.493,0,0.00
+E02004213,"Ogwell",0,705.0,2126.26,16.062,0,0.00
+E02004214,"Newton Abbot",0,639.0,2050.42,54.267,0,0.00
+E02004215,"Newton Abbot",0,303.0,1443.75,15.143,0,0.00
+E02004216,"Newton Abbot",0,303.0,0.00,9.481,0,0.00
+E02004217,"Ashburton & Buckfastleigh",0,551.0,1894.45,23.929,0,0.00
+E02004218,"Kingskerswell",0,557.0,880.98,12.486,0,0.00
+E02004219,"Ipplepen & Broadhempston",0,850.0,402.07,16.305,1,0.00

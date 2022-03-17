@@ -1,7 +1,7 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02005782,"North Richmondshire",346,2,486.0,38.724,1354.66
-E02005783,"Richmond Town",233,0,156.0,33.521,1586.08
-E02005784,"Catterick & Brompton-on-Swale",286,0,95.0,12.603,905.16
-E02005785,"Catterick Garrison & Colburn",209,0,156.0,1.094,3332.69
-E02005786,"Upper Dales",59,1,258.0,27.086,2767.34
-E02005787,"Leyburn",122,1,363.0,28.425,3741.12
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02005782,"North Richmondshire",346,486.0,1354.66,38.724,2,0.00
+E02005783,"Richmond Town",233,156.0,1586.08,33.521,0,0.00
+E02005784,"Catterick & Brompton-on-Swale",286,95.0,905.16,12.603,0,0.00
+E02005785,"Catterick Garrison & Colburn",209,156.0,3332.69,1.094,0,0.00
+E02005786,"Upper Dales",59,258.0,2767.34,27.086,1,0.00
+E02005787,"Leyburn",122,363.0,3741.12,28.425,1,0.00

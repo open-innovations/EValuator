@@ -1,36 +1,36 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02000984,"Dunscar & Egerton",570,0,371.0,33.352,629.99
-E02000985,"Bromley Cross & Bradshaw",601,0,257.0,20.333,1336.10
-E02000986,"Eagley & Sharples",644,0,371.0,14.699,272.56
-E02000987,"Horwich North",745,3,182.0,22.031,697.82
-E02000988,"Astley Bridge & Waters Meeting",715,0,258.0,11.554,1903.89
-E02000989,"Harwood",597,0,1005.0,17.213,521.41
-E02000990,"Horwich South & Middlebrook",703,6,646.0,46.832,7927.80
-E02000991,"Smithills",687,0,402.0,10.638,533.28
-E02000992,"Blackrod & Butterwick Fields",786,0,239.0,17.991,880.24
-E02000993,"Hall I' th' Wood",744,0,402.0,12.069,835.80
-E02000994,"Halliwell & Brownlow Fold",763,0,358.0,14.030,367.50
-E02000995,"Doffcocker & Moss Bank",713,0,440.0,11.385,670.16
-E02000996,"Breightmet North",677,0,144.0,10.371,536.60
-E02000997,"Horwich East",827,0,431.0,25.254,3706.66
-E02000998,"Gilnow & Victory",757,0,487.0,12.475,1319.76
-E02000999,"Central Bolton",841,22,850.0,77.559,10564.90
-E02001000,"Tonge",815,0,402.0,15.211,294.09
-E02001001,"Heaton & Deane",735,0,487.0,8.595,461.42
-E02001002,"Breightmet South & Darcy Lever",684,2,373.0,12.998,1275.11
-E02001003,"Lostock & Ladybridge",858,0,669.0,12.518,872.17
-E02001004,"Rumworth North",746,6,229.0,7.531,997.08
-E02001005,"Burnden & Great Lever",858,0,631.0,19.529,2737.31
-E02001006,"Rumworth South",804,0,229.0,5.009,99.10
-E02001007,"Little Lever",686,2,330.0,7.747,491.11
-E02001008,"Lever Edge",809,0,229.0,5.271,91.22
-E02001009,"Daubhill & Fernhill Gate",898,0,641.0,9.905,1232.25
-E02001010,"Farnworth North",866,0,335.0,6.383,293.78
-E02001011,"Westhoughton East",873,1,511.0,22.291,767.38
-E02001012,"Harper Green",829,0,335.0,5.516,1695.80
-E02001013,"Over Hulton",919,0,478.0,12.234,449.86
-E02001014,"Westhoughton West",777,2,249.0,29.067,2444.01
-E02001015,"Farnworth South",956,0,364.0,12.163,583.95
-E02001016,"Highfield & New Bury",859,0,106.0,5.120,246.10
-E02001017,"Kearsley & Stoneclough",943,0,627.0,14.643,331.11
-E02001018,"Westhoughton Daisy Hill",722,0,249.0,17.069,58.72
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02000984,"Dunscar & Egerton",570,371.0,629.99,33.352,0,0.00
+E02000985,"Bromley Cross & Bradshaw",601,257.0,1336.10,20.333,0,0.00
+E02000986,"Eagley & Sharples",644,371.0,272.56,14.699,0,0.00
+E02000987,"Horwich North",745,182.0,697.82,22.031,3,0.00
+E02000988,"Astley Bridge & Waters Meeting",715,258.0,1903.89,11.554,0,0.00
+E02000989,"Harwood",597,1005.0,521.41,17.213,0,0.00
+E02000990,"Horwich South & Middlebrook",703,646.0,7927.80,46.832,6,0.00
+E02000991,"Smithills",687,402.0,533.28,10.638,0,0.00
+E02000992,"Blackrod & Butterwick Fields",786,239.0,880.24,17.991,0,0.00
+E02000993,"Hall I' th' Wood",744,402.0,835.80,12.069,0,4233.10
+E02000994,"Halliwell & Brownlow Fold",763,358.0,367.50,14.030,0,0.00
+E02000995,"Doffcocker & Moss Bank",713,440.0,670.16,11.385,0,0.00
+E02000996,"Breightmet North",677,144.0,536.60,10.371,0,0.00
+E02000997,"Horwich East",827,431.0,3706.66,25.254,0,0.00
+E02000998,"Gilnow & Victory",757,487.0,1319.76,12.475,0,0.00
+E02000999,"Central Bolton",841,850.0,10564.90,77.559,22,0.00
+E02001000,"Tonge",815,402.0,294.09,15.211,0,0.00
+E02001001,"Heaton & Deane",735,487.0,461.42,8.595,0,0.00
+E02001002,"Breightmet South & Darcy Lever",684,373.0,1275.11,12.998,2,0.00
+E02001003,"Lostock & Ladybridge",858,669.0,872.17,12.518,0,0.00
+E02001004,"Rumworth North",746,229.0,997.08,7.531,6,0.00
+E02001005,"Burnden & Great Lever",858,631.0,2737.31,19.529,0,0.00
+E02001006,"Rumworth South",804,229.0,99.10,5.009,0,0.00
+E02001007,"Little Lever",686,330.0,491.11,7.747,2,0.00
+E02001008,"Lever Edge",809,229.0,91.22,5.271,0,0.00
+E02001009,"Daubhill & Fernhill Gate",898,641.0,1232.25,9.905,0,53388.31
+E02001010,"Farnworth North",866,335.0,293.78,6.383,0,0.00
+E02001011,"Westhoughton East",873,511.0,767.38,22.291,1,0.00
+E02001012,"Harper Green",829,335.0,1695.80,5.516,0,0.00
+E02001013,"Over Hulton",919,478.0,449.86,12.234,0,0.00
+E02001014,"Westhoughton West",777,249.0,2444.01,29.067,2,25624.18
+E02001015,"Farnworth South",956,364.0,583.95,12.163,0,0.00
+E02001016,"Highfield & New Bury",859,106.0,246.10,5.120,0,0.00
+E02001017,"Kearsley & Stoneclough",943,627.0,331.11,14.643,0,0.00
+E02001018,"Westhoughton Daisy Hill",722,249.0,58.72,17.069,0,0.00

@@ -1,21 +1,21 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02005958,"Thame North",0,0,232.0,15.393,930.75
-E02005959,"Beckley & Horspath",0,0,1553.0,41.632,2729.42
-E02005960,"Thame South",0,0,151.0,10.944,485.02
-E02005961,"Wheatley & Great Haseley",0,10,607.0,49.501,2622.43
-E02005962,"Chinnor & Tetsworth",0,0,534.0,68.581,666.14
-E02005963,"Berinsfield & Wittenham",0,0,1807.0,42.324,3604.25
-E02005964,"Chalgrove",0,0,579.0,52.614,157.73
-E02005965,"Watlington & Nettlebed",0,2,985.0,54.251,1221.08
-E02005966,"Didcot Ladygrove",0,2,374.0,24.368,3203.85
-E02005967,"Didcot West",0,2,374.0,63.545,4102.01
-E02005968,"Benson & Crowmarsh Gifford",0,1,1260.0,48.957,2005.70
-E02005969,"Wallingford & Brightwell",0,2,315.0,74.332,1379.95
-E02005970,"Didcot South East",0,0,374.0,19.117,1253.60
-E02005971,"Didcot South West",0,0,374.0,19.656,851.70
-E02005972,"Hagbourne",0,0,1152.0,66.858,1204.70
-E02005973,"Henley North",0,3,419.0,32.334,1212.71
-E02005974,"Henley South",0,2,419.0,79.286,1497.16
-E02005975,"Goring",0,0,1545.0,64.349,1201.13
-E02005976,"Shiplake & Binfield Heath",0,3,767.0,64.173,1099.63
-E02005977,"Sonning Common & Kidmore End",0,0,767.0,31.170,797.40
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02005958,"Thame North",0,232.0,930.75,15.393,0,0.00
+E02005959,"Beckley & Horspath",0,1553.0,2729.42,41.632,0,0.00
+E02005960,"Thame South",0,151.0,485.02,10.944,0,0.00
+E02005961,"Wheatley & Great Haseley",0,607.0,2622.43,49.501,10,0.00
+E02005962,"Chinnor & Tetsworth",0,534.0,666.14,68.581,0,0.00
+E02005963,"Berinsfield & Wittenham",0,1807.0,3604.25,42.324,0,0.00
+E02005964,"Chalgrove",0,579.0,157.73,52.614,0,0.00
+E02005965,"Watlington & Nettlebed",0,985.0,1221.08,54.251,2,0.00
+E02005966,"Didcot Ladygrove",0,374.0,3203.85,24.368,2,19089.39
+E02005967,"Didcot West",0,374.0,4102.01,63.545,2,0.00
+E02005968,"Benson & Crowmarsh Gifford",0,1260.0,2005.70,48.957,1,0.00
+E02005969,"Wallingford & Brightwell",0,315.0,1379.95,74.332,2,0.00
+E02005970,"Didcot South East",0,374.0,1253.60,19.117,0,0.00
+E02005971,"Didcot South West",0,374.0,851.70,19.656,0,0.00
+E02005972,"Hagbourne",0,1152.0,1204.70,66.858,0,0.00
+E02005973,"Henley North",0,419.0,1212.71,32.334,3,0.00
+E02005974,"Henley South",0,419.0,1497.16,79.286,2,0.00
+E02005975,"Goring",0,1545.0,1201.13,64.349,0,0.00
+E02005976,"Shiplake & Binfield Heath",0,767.0,1099.63,64.173,3,0.00
+E02005977,"Sonning Common & Kidmore End",0,767.0,797.40,31.170,0,0.00

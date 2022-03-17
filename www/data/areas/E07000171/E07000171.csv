@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02005835,"Harworth",0,2,466.0,32.843,1322.26
-E02005836,"Clarborough",0,0,537.0,35.752,704.53
-E02005837,"Ranskill",0,0,521.0,29.255,1222.68
-E02005838,"Carlton & Langold",0,0,382.0,25.015,231.49
-E02005839,"Retford North",0,2,174.0,19.445,1152.97
-E02005840,"Worksop North",0,0,156.0,17.942,928.06
-E02005842,"Retford East",0,0,174.0,18.265,1507.60
-E02005843,"Worksop West",0,5,255.0,17.548,3064.19
-E02005844,"Retford South",0,2,174.0,15.904,1560.34
-E02005846,"Worksop Cheapside",0,2,255.0,10.565,975.30
-E02005847,"Worksop Town & South",0,8,255.0,26.496,2442.50
-E02005848,"Manton",0,6,496.0,15.862,4014.59
-E02005849,"Tuxford",0,7,538.0,39.916,3392.21
-E02006903,"Worksop Kilton",0,0,255.0,23.994,917.01
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02005835,"Harworth",0,466.0,1322.26,32.843,2,0.00
+E02005836,"Clarborough",0,537.0,704.53,35.752,0,0.00
+E02005837,"Ranskill",0,521.0,1222.68,29.255,0,0.00
+E02005838,"Carlton & Langold",0,382.0,231.49,25.015,0,0.00
+E02005839,"Retford North",0,174.0,1152.97,19.445,2,0.00
+E02005840,"Worksop North",0,156.0,928.06,17.942,0,0.00
+E02005842,"Retford East",0,174.0,1507.60,18.265,0,0.00
+E02005843,"Worksop West",0,255.0,3064.19,17.548,5,0.00
+E02005844,"Retford South",0,174.0,1560.34,15.904,2,0.00
+E02005846,"Worksop Cheapside",0,255.0,975.30,10.565,2,0.00
+E02005847,"Worksop Town & South",0,255.0,2442.50,26.496,8,0.00
+E02005848,"Manton",0,496.0,4014.59,15.862,6,0.00
+E02005849,"Tuxford",0,538.0,3392.21,39.916,7,0.00
+E02006903,"Worksop Kilton",0,255.0,917.01,23.994,0,0.00

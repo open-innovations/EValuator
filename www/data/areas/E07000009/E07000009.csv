@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02003732,"Littleport",0,0,569.0,31.980,722.64
-E02003733,"Little Downham & Sutton",0,0,419.0,38.716,592.89
-E02003734,"North Ely",0,2,413.0,32.279,2080.60
-E02003735,"South Ely",0,7,413.0,59.266,4580.29
-E02003736,"Haddenham",0,1,1150.0,44.797,561.44
-E02003737,"Soham",0,0,166.0,27.528,1430.13
-E02003738,"Isleham",0,0,608.0,16.625,1719.96
-E02003739,"Burwell",0,0,310.0,34.480,287.47
-E02003740,"Swaffham & Bottisham",0,1,925.0,39.261,1810.20
-E02006825,"Dullingham & Cheveley",0,0,277.0,18.146,560.28
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02003732,"Littleport",0,569.0,722.64,31.980,0,0.00
+E02003733,"Little Downham & Sutton",0,419.0,592.89,38.716,0,0.00
+E02003734,"North Ely",0,413.0,2080.60,32.279,2,0.00
+E02003735,"South Ely",0,413.0,4580.29,59.266,7,0.00
+E02003736,"Haddenham",0,1150.0,561.44,44.797,1,0.00
+E02003737,"Soham",0,166.0,1430.13,27.528,0,0.00
+E02003738,"Isleham",0,608.0,1719.96,16.625,0,0.00
+E02003739,"Burwell",0,310.0,287.47,34.480,0,0.00
+E02003740,"Swaffham & Bottisham",0,925.0,1810.20,39.261,1,0.00
+E02006825,"Dullingham & Cheveley",0,277.0,560.28,18.146,0,0.00

@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004741,"Bridgemary North",0,0,145.0,13.796,1521.04
-E02004742,"Bridgemary South",0,1,145.0,12.771,821.26
-E02004743,"Elson",0,0,258.0,6.757,1345.70
-E02004744,"Rowner",0,2,145.0,18.526,1193.12
-E02004745,"Priddy's Hard & Brockhurst East",0,0,258.0,20.749,385.86
-E02004746,"Lee-on-the-Solent",0,2,145.0,22.468,964.05
-E02004747,"Brockhurst",0,0,258.0,6.674,2422.38
-E02004748,"Gosport Town",0,7,113.0,15.022,3842.79
-E02004749,"Alverstoke & Privett",0,0,258.0,8.624,1015.24
-E02004750,"Clayhall & Anglesey",0,0,113.0,8.510,3095.70
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004741,"Bridgemary North",0,145.0,1521.04,13.796,0,0.00
+E02004742,"Bridgemary South",0,145.0,821.26,12.771,1,0.00
+E02004743,"Elson",0,258.0,1345.70,6.757,0,0.00
+E02004744,"Rowner",0,145.0,1193.12,18.526,2,0.00
+E02004745,"Priddy's Hard & Brockhurst East",0,258.0,385.86,20.749,0,0.00
+E02004746,"Lee-on-the-Solent",0,145.0,964.05,22.468,2,0.00
+E02004747,"Brockhurst",0,258.0,2422.38,6.674,0,0.00
+E02004748,"Gosport Town",0,113.0,3842.79,15.022,7,18.80
+E02004749,"Alverstoke & Privett",0,258.0,1015.24,8.624,0,0.00
+E02004750,"Clayhall & Anglesey",0,113.0,3095.70,8.510,0,0.00

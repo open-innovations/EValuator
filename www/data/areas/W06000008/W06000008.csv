@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-W02000116,"Borth & Bont-goch",0,1,160.0,1.165,2030.27
-W02000117,"Aberystwyth North",0,5,122.0,8.382,2996.53
-W02000118,"Aberystwyth South",0,6,102.0,4.534,3255.47
-W02000120,"Aberaeron & Llanrhystud",0,2,155.0,4.697,909.34
-W02000122,"New Quay & Penbryn",0,0,187.0,5.959,3723.16
-W02000123,"Lampeter & Llanfihangel Ystrad",0,0,245.0,7.506,999.73
-W02000124,"Cardigan & Aber-porth",0,2,97.0,10.096,3821.05
-W02000125,"Beulah",0,0,158.0,8.019,1672.87
-W02000421,"Rheidol",0,0,180.0,8.425,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+W02000116,"Borth & Bont-goch",0,160.0,2030.27,1.165,1,0.00
+W02000117,"Aberystwyth North",0,122.0,2996.53,8.382,5,0.00
+W02000118,"Aberystwyth South",0,102.0,3255.47,4.534,6,0.00
+W02000120,"Aberaeron & Llanrhystud",0,155.0,909.34,4.697,2,0.00
+W02000122,"New Quay & Penbryn",0,187.0,3723.16,5.959,0,0.00
+W02000123,"Lampeter & Llanfihangel Ystrad",0,245.0,999.73,7.506,0,0.00
+W02000124,"Cardigan & Aber-porth",0,97.0,3821.05,10.096,2,0.00
+W02000125,"Beulah",0,158.0,1672.87,8.019,0,0.00
+W02000421,"Rheidol",0,180.0,0.00,8.425,0,0.00

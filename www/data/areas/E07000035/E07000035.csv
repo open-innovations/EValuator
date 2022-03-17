@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004068,"Hathersage",0,0,567.0,40.494,1952.31
-E02004069,"Bakewell North",0,4,739.0,61.159,2900.14
-E02004070,"Bakewell South",0,3,473.0,36.274,2272.67
-E02004071,"Darley Dale & Stanton",0,0,334.0,12.764,1695.17
-E02004072,"Matlock North",0,5,237.0,23.765,3227.20
-E02004073,"Matlock South",0,11,334.0,43.894,3322.43
-E02004074,"Wirksworth",0,3,237.0,14.205,1419.85
-E02004075,"Ashbourne North",0,2,970.0,29.349,3233.86
-E02004076,"Ashbourne South",0,4,240.0,31.982,1422.65
-E02004077,"Doveridge",0,0,349.0,25.842,2872.53
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004068,"Hathersage",0,567.0,1952.31,40.494,0,0.00
+E02004069,"Bakewell North",0,739.0,2900.14,61.159,4,0.00
+E02004070,"Bakewell South",0,473.0,2272.67,36.274,3,0.00
+E02004071,"Darley Dale & Stanton",0,334.0,1695.17,12.764,0,0.00
+E02004072,"Matlock North",0,237.0,3227.20,23.765,5,0.00
+E02004073,"Matlock South",0,334.0,3322.43,43.894,11,0.00
+E02004074,"Wirksworth",0,237.0,1419.85,14.205,3,0.00
+E02004075,"Ashbourne North",0,970.0,3233.86,29.349,2,0.00
+E02004076,"Ashbourne South",0,240.0,1422.65,31.982,4,0.00
+E02004077,"Doveridge",0,349.0,2872.53,25.842,0,0.00

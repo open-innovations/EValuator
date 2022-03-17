@@ -1,8 +1,8 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004229,"Hatherleigh",0,0,297.0,21.077,494.97
-E02004230,"Okehampton",0,0,110.0,14.964,1524.02
-E02004231,"Chagford",0,2,635.0,29.303,2052.58
-E02004232,"Lifton",0,1,441.0,18.060,2020.96
-E02004233,"Tavistock",0,2,238.0,45.747,915.24
-E02004234,"Horrabridge & Mary Tavy",0,0,575.0,19.796,1120.84
-E02004235,"Bere Alston",0,0,228.0,20.028,837.53
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004229,"Hatherleigh",0,297.0,494.97,21.077,0,40480.74
+E02004230,"Okehampton",0,110.0,1524.02,14.964,0,0.00
+E02004231,"Chagford",0,635.0,2052.58,29.303,2,0.00
+E02004232,"Lifton",0,441.0,2020.96,18.060,1,0.00
+E02004233,"Tavistock",0,238.0,915.24,45.747,2,0.00
+E02004234,"Horrabridge & Mary Tavy",0,575.0,1120.84,19.796,0,0.00
+E02004235,"Bere Alston",0,228.0,837.53,20.028,0,0.00

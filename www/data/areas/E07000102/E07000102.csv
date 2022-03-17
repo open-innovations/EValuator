@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004956,"Abbots Langley",0,0,504.0,40.693,1151.14
-E02004957,"Leavesden & Garston Manor",0,34,331.0,39.523,2414.61
-E02004958,"Croxley North & Sarratt",0,4,1266.0,35.563,954.22
-E02004959,"Rickmansworth North & Loudwater",0,0,534.0,93.239,1064.32
-E02004960,"Chorleywood",0,0,534.0,23.340,1014.30
-E02004961,"Croxley Green",0,7,8066.0,30.270,1023.84
-E02004962,"Rickmansworth West",0,0,534.0,55.311,440.50
-E02004963,"Oxhey Hall & Hayling",0,0,8065.0,18.591,252.06
-E02004964,"Mill End",0,4,1216.0,45.886,2191.61
-E02004965,"Carpenders Park",0,0,644.0,17.223,236.45
-E02004966,"Moor Park & Batchworth",0,3,8436.0,54.269,3769.91
-E02004967,"South Oxhey",0,0,163.0,27.799,79.40
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004956,"Abbots Langley",0,504.0,1151.14,40.693,0,0.00
+E02004957,"Leavesden & Garston Manor",0,331.0,2414.61,39.523,34,0.00
+E02004958,"Croxley North & Sarratt",0,1266.0,954.22,35.563,4,0.00
+E02004959,"Rickmansworth North & Loudwater",0,534.0,1064.32,93.239,0,0.00
+E02004960,"Chorleywood",0,534.0,1014.30,23.340,0,0.00
+E02004961,"Croxley Green",0,8066.0,1023.84,30.270,7,0.00
+E02004962,"Rickmansworth West",0,534.0,440.50,55.311,0,0.00
+E02004963,"Oxhey Hall & Hayling",0,8065.0,252.06,18.591,0,0.00
+E02004964,"Mill End",0,1216.0,2191.61,45.886,4,0.00
+E02004965,"Carpenders Park",0,644.0,236.45,17.223,0,0.00
+E02004966,"Moor Park & Batchworth",0,8436.0,3769.91,54.269,3,0.00
+E02004967,"South Oxhey",0,163.0,79.40,27.799,0,0.00

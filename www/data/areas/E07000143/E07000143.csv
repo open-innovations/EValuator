@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02005503,"Bawdeswell",0,0,382.0,24.584,646.85
-E02005504,"Whissonsett",0,0,493.0,25.164,606.03
-E02005505,"Dereham North & Neatherd",0,0,183.0,10.199,889.35
-E02005506,"Dereham West",0,0,338.0,12.935,320.27
-E02005507,"Dereham Central & Toftwood",0,2,416.0,24.253,4099.50
-E02005508,"Hockering",0,0,399.0,22.047,514.75
-E02005509,"Swaffham",0,4,149.0,22.325,1961.14
-E02005510,"Shipdham",0,0,236.0,15.910,465.69
-E02005511,"Watton",0,0,102.0,14.601,1071.60
-E02005512,"Wayland",0,1,422.0,27.982,1675.04
-E02005513,"Attleborough",0,0,171.0,37.442,2443.96
-E02005514,"Mundford",0,0,477.0,15.103,2502.53
-E02005515,"Buckenhams & Snetterton",0,1,171.0,23.750,4037.58
-E02005516,"East Harling",0,1,312.0,22.520,1306.95
-E02005517,"Thetford North",0,0,102.0,5.453,2166.96
-E02005518,"Thetford Central & East",0,2,204.0,18.330,2863.42
-E02005519,"Thetford South",0,2,102.0,10.115,3391.85
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02005503,"Bawdeswell",0,382.0,646.85,24.584,0,0.00
+E02005504,"Whissonsett",0,493.0,606.03,25.164,0,0.00
+E02005505,"Dereham North & Neatherd",0,183.0,889.35,10.199,0,0.00
+E02005506,"Dereham West",0,338.0,320.27,12.935,0,0.00
+E02005507,"Dereham Central & Toftwood",0,416.0,4099.50,24.253,2,0.00
+E02005508,"Hockering",0,399.0,514.75,22.047,0,0.00
+E02005509,"Swaffham",0,149.0,1961.14,22.325,4,0.00
+E02005510,"Shipdham",0,236.0,465.69,15.910,0,0.00
+E02005511,"Watton",0,102.0,1071.60,14.601,0,0.00
+E02005512,"Wayland",0,422.0,1675.04,27.982,1,0.00
+E02005513,"Attleborough",0,171.0,2443.96,37.442,0,0.00
+E02005514,"Mundford",0,477.0,2502.53,15.103,0,0.00
+E02005515,"Buckenhams & Snetterton",0,171.0,4037.58,23.750,1,0.00
+E02005516,"East Harling",0,312.0,1306.95,22.520,1,0.00
+E02005517,"Thetford North",0,102.0,2166.96,5.453,0,0.00
+E02005518,"Thetford Central & East",0,204.0,2863.42,18.330,2,0.00
+E02005519,"Thetford South",0,102.0,3391.85,10.115,2,0.00

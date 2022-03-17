@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02005345,"Loughborough Dishley & Hathern",0,0,796.0,22.146,1027.66
-E02005346,"Loughborough Lemyngton & Hastings",0,5,796.0,72.749,6980.58
-E02005347,"Loughborough Storer & Queen's Park",0,0,796.0,21.071,4052.04
-E02005348,"Loughborough Garendon",0,0,315.0,13.302,774.57
-E02005349,"Shepshed West",0,1,1123.0,41.411,930.95
-E02005350,"Shepshed East",0,0,481.0,30.394,1230.18
-E02005351,"Loughborough - University",0,21,315.0,10.995,3329.60
-E02005352,"Wymeswold",0,0,1306.0,48.669,1746.60
-E02005353,"Loughborough - Shelthorpe & Woodthorpe",0,1,796.0,17.317,2786.54
-E02005354,"Loughborough - Outwoods",0,3,315.0,15.271,3729.40
-E02005355,"Barrow upon Soar",0,0,481.0,33.604,275.01
-E02005356,"Quorn & Mountsorrel Castle",0,0,481.0,44.520,2279.75
-E02005357,"Sileby",0,0,481.0,32.748,722.98
-E02005358,"Mountsorrel & Rothley",0,0,851.0,49.235,841.41
-E02005359,"East Goscote & Queniborough",0,1,596.0,49.171,966.41
-E02005360,"Thurcaston",0,0,1239.0,29.094,2389.79
-E02005361,"Syston West",0,0,370.0,55.732,3237.03
-E02005362,"Syston East",0,0,370.0,31.144,339.99
-E02005363,"Birstall Wanlip & Riverside",0,16,772.0,10.385,3550.47
-E02005364,"Birstall Central",0,0,402.0,4.790,54.20
-E02005365,"Thurmaston",0,0,772.0,8.989,3351.35
-E02005366,"Anstey",0,0,370.0,23.097,598.77
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02005345,"Loughborough Dishley & Hathern",0,796.0,1027.66,22.146,0,0.00
+E02005346,"Loughborough Lemyngton & Hastings",0,796.0,6980.58,72.749,5,0.00
+E02005347,"Loughborough Storer & Queen's Park",0,796.0,4052.04,21.071,0,0.00
+E02005348,"Loughborough Garendon",0,315.0,774.57,13.302,0,0.00
+E02005349,"Shepshed West",0,1123.0,930.95,41.411,1,0.00
+E02005350,"Shepshed East",0,481.0,1230.18,30.394,0,0.00
+E02005351,"Loughborough - University",0,315.0,3329.60,10.995,21,0.00
+E02005352,"Wymeswold",0,1306.0,1746.60,48.669,0,0.00
+E02005353,"Loughborough - Shelthorpe & Woodthorpe",0,796.0,2786.54,17.317,1,0.00
+E02005354,"Loughborough - Outwoods",0,315.0,3729.40,15.271,3,0.00
+E02005355,"Barrow upon Soar",0,481.0,275.01,33.604,0,0.00
+E02005356,"Quorn & Mountsorrel Castle",0,481.0,2279.75,44.520,0,0.00
+E02005357,"Sileby",0,481.0,722.98,32.748,0,0.00
+E02005358,"Mountsorrel & Rothley",0,851.0,841.41,49.235,0,0.00
+E02005359,"East Goscote & Queniborough",0,596.0,966.41,49.171,1,0.00
+E02005360,"Thurcaston",0,1239.0,2389.79,29.094,0,0.00
+E02005361,"Syston West",0,370.0,3237.03,55.732,0,0.00
+E02005362,"Syston East",0,370.0,339.99,31.144,0,0.00
+E02005363,"Birstall Wanlip & Riverside",0,772.0,3550.47,10.385,16,0.00
+E02005364,"Birstall Central",0,402.0,54.20,4.790,0,0.00
+E02005365,"Thurmaston",0,772.0,3351.35,8.989,0,0.00
+E02005366,"Anstey",0,370.0,598.77,23.097,0,0.00

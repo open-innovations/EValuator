@@ -1,8 +1,8 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004008,"Langwathby",39,1,300.0,13.572,1222.83
-E02004009,"Hesket",54,4,360.0,14.592,2377.03
-E02004010,"Penrith Central & West",55,3,183.0,18.906,5850.48
-E02004011,"Penrith Outer",52,0,183.0,16.852,2082.66
-E02004012,"Askham",63,4,305.0,14.026,5674.62
-E02004013,"Appleby",48,3,193.0,26.858,3710.92
-E02004014,"Kirkby Stephen",68,4,183.0,19.504,2836.65
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004008,"Langwathby",39,300.0,1222.83,13.572,1,0.00
+E02004009,"Hesket",54,360.0,2377.03,14.592,4,0.00
+E02004010,"Penrith Central & West",55,183.0,5850.48,18.906,3,0.00
+E02004011,"Penrith Outer",52,183.0,2082.66,16.852,0,0.00
+E02004012,"Askham",63,305.0,5674.62,14.026,4,0.00
+E02004013,"Appleby",48,193.0,3710.92,26.858,3,0.00
+E02004014,"Kirkby Stephen",68,183.0,2836.65,19.504,4,0.00

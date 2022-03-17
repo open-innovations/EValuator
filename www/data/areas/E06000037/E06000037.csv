@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02003367,"Chieveley",0,2,1220.0,43.644,1640.26
-E02003368,"Lambourn & Great Shefford",0,7,632.0,31.905,2194.54
-E02003369,"Streatley & Pangbourne",0,2,742.0,72.064,2191.77
-E02003370,"Purley on Thames",0,0,557.0,23.001,249.56
-E02003371,"Westwood",0,0,245.0,20.931,80.98
-E02003372,"Calcot North & Little Heath",0,3,401.0,29.961,1766.68
-E02003373,"Hermitage & Cold Ash",0,0,721.0,56.484,1052.70
-E02003374,"Calcot South",0,0,401.0,19.725,393.92
-E02003375,"Theale & Beenham",0,1,430.0,41.932,2542.68
-E02003376,"Hungerford",0,9,159.0,38.658,909.86
-E02003377,"Thatcham South East & Bradfield",0,2,1837.0,114.639,8789.55
-E02003378,"Newbury North West",0,4,694.0,24.491,2580.91
-E02003379,"Newbury Clay Hill",0,1,569.0,15.969,990.33
-E02003380,"Thatcham West",0,0,271.0,22.610,1017.40
-E02003381,"Burghfield Common",0,4,586.0,24.467,1095.21
-E02003382,"Thatcham Town",0,1,271.0,27.225,1034.46
-E02003383,"Thatcham North East",0,0,271.0,20.180,721.97
-E02003384,"Kintbury & Boxford",0,0,853.0,45.961,296.25
-E02003385,"Newbury Central & Greenham",0,16,982.0,104.710,7626.88
-E02003386,"Newbury South West",0,14,556.0,20.602,762.73
-E02003387,"Newbury Wash Common",0,1,694.0,21.253,539.42
-E02003388,"Mortimer & Aldermaston Wharf",0,0,586.0,48.394,1656.86
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02003367,"Chieveley",0,1220.0,1640.26,43.644,2,0.00
+E02003368,"Lambourn & Great Shefford",0,632.0,2194.54,31.905,7,0.00
+E02003369,"Streatley & Pangbourne",0,742.0,2191.77,72.064,2,0.00
+E02003370,"Purley on Thames",0,557.0,249.56,23.001,0,0.00
+E02003371,"Westwood",0,245.0,80.98,20.931,0,0.00
+E02003372,"Calcot North & Little Heath",0,401.0,1766.68,29.961,3,0.00
+E02003373,"Hermitage & Cold Ash",0,721.0,1052.70,56.484,0,0.00
+E02003374,"Calcot South",0,401.0,393.92,19.725,0,0.00
+E02003375,"Theale & Beenham",0,430.0,2542.68,41.932,1,0.00
+E02003376,"Hungerford",0,159.0,909.86,38.658,9,0.00
+E02003377,"Thatcham South East & Bradfield",0,1837.0,8789.55,114.639,2,0.00
+E02003378,"Newbury North West",0,694.0,2580.91,24.491,4,0.00
+E02003379,"Newbury Clay Hill",0,569.0,990.33,15.969,1,0.00
+E02003380,"Thatcham West",0,271.0,1017.40,22.610,0,0.00
+E02003381,"Burghfield Common",0,586.0,1095.21,24.467,4,0.00
+E02003382,"Thatcham Town",0,271.0,1034.46,27.225,1,0.00
+E02003383,"Thatcham North East",0,271.0,721.97,20.180,0,0.00
+E02003384,"Kintbury & Boxford",0,853.0,296.25,45.961,0,0.00
+E02003385,"Newbury Central & Greenham",0,982.0,7626.88,104.710,16,0.00
+E02003386,"Newbury South West",0,556.0,762.73,20.602,14,0.00
+E02003387,"Newbury Wash Common",0,694.0,539.42,21.253,1,0.00
+E02003388,"Mortimer & Aldermaston Wharf",0,586.0,1656.86,48.394,0,0.00

@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-W02000323,"Blaenavon",0,2,118.0,5.398,0.00
-W02000324,"Abersychan",0,2,118.0,6.957,0.00
-W02000325,"Trefethin & Pen-y-garn",0,0,118.0,4.562,0.00
-W02000326,"Pontypool",0,3,202.0,11.215,0.00
-W02000327,"New Inn",0,0,255.0,3.500,0.00
-W02000328,"Griffithstown & Sebastopol",0,1,255.0,6.002,0.00
-W02000329,"Pontnewydd & Upper Cwmbran",0,0,255.0,20.430,0.00
-W02000330,"Croesyceiliog",0,7,255.0,18.913,0.00
-W02000331,"West Pontnewydd & Thornhill",0,0,137.0,9.047,0.00
-W02000332,"Cwmbran",0,5,137.0,28.690,0.00
-W02000333,"Fairwater & Greenmeadow",0,1,255.0,13.966,0.00
-W02000334,"Hollybush & Henllys",0,0,137.0,8.179,0.00
-W02000335,"Llantarnam & Oakfield",0,0,386.0,23.024,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+W02000323,"Blaenavon",0,118.0,0.00,5.398,2,0.00
+W02000324,"Abersychan",0,118.0,0.00,6.957,2,0.00
+W02000325,"Trefethin & Pen-y-garn",0,118.0,0.00,4.562,0,0.00
+W02000326,"Pontypool",0,202.0,0.00,11.215,3,0.00
+W02000327,"New Inn",0,255.0,0.00,3.500,0,0.00
+W02000328,"Griffithstown & Sebastopol",0,255.0,0.00,6.002,1,0.00
+W02000329,"Pontnewydd & Upper Cwmbran",0,255.0,0.00,20.430,0,0.00
+W02000330,"Croesyceiliog",0,255.0,0.00,18.913,7,0.00
+W02000331,"West Pontnewydd & Thornhill",0,137.0,0.00,9.047,0,0.00
+W02000332,"Cwmbran",0,137.0,0.00,28.690,5,0.00
+W02000333,"Fairwater & Greenmeadow",0,255.0,0.00,13.966,1,0.00
+W02000334,"Hollybush & Henllys",0,137.0,0.00,8.179,0,0.00
+W02000335,"Llantarnam & Oakfield",0,386.0,0.00,23.024,0,0.00

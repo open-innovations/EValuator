@@ -1,8 +1,8 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02006468,"Polesworth",0,1,425.0,33.339,772.18
-E02006469,"Dordon",0,0,520.0,27.306,6823.71
-E02006470,"Atherstone",0,2,435.0,50.823,2709.12
-E02006471,"Kingsbury & Curdworth",0,4,604.0,32.218,10838.83
-E02006472,"Hartshill & Ansley",0,0,751.0,31.006,8318.01
-E02006473,"Coleshill & Water Orton",0,6,251.0,30.549,2469.52
-E02006474,"New Arley & Fillongley",0,6,937.0,42.408,5157.93
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02006468,"Polesworth",0,425.0,772.18,33.339,1,0.00
+E02006469,"Dordon",0,520.0,6823.71,27.306,0,4846.86
+E02006470,"Atherstone",0,435.0,2709.12,50.823,2,27132.14
+E02006471,"Kingsbury & Curdworth",0,604.0,10838.83,32.218,4,1971541.31
+E02006472,"Hartshill & Ansley",0,751.0,8318.01,31.006,0,269939.29
+E02006473,"Coleshill & Water Orton",0,251.0,2469.52,30.549,6,0.00
+E02006474,"New Arley & Fillongley",0,937.0,5157.93,42.408,6,28066.96

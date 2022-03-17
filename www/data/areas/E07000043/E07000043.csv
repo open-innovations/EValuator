@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004175,"Ilfracombe East",0,0,89.0,9.221,1420.95
-E02004176,"Lynton & Combe Martin",0,0,270.0,10.743,2452.86
-E02004177,"Ilfracombe West",0,0,89.0,10.398,773.60
-E02004178,"Woolacombe",0,2,344.0,17.784,5042.48
-E02004179,"Braunton",0,4,255.0,26.324,2918.21
-E02004180,"Bratton Fleming",0,0,351.0,15.546,897.22
-E02004181,"Barnstaple Pilton",0,0,262.0,11.768,535.95
-E02004182,"Barnstaple Central",0,0,380.0,30.222,1706.36
-E02004183,"Barnstaple Sticklepath",0,6,262.0,9.925,3126.43
-E02004184,"Barnstaple South",0,2,91.0,7.750,1508.20
-E02004185,"Fremington & Instow",0,0,371.0,15.889,615.57
-E02004186,"Roundswell & Landkey",0,0,296.0,22.328,1365.95
-E02004187,"South Molton",0,2,377.0,23.017,686.99
-E02004188,"Bishop's Nympton",0,0,396.0,14.639,329.43
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004175,"Ilfracombe East",0,89.0,1420.95,9.221,0,0.00
+E02004176,"Lynton & Combe Martin",0,270.0,2452.86,10.743,0,0.00
+E02004177,"Ilfracombe West",0,89.0,773.60,10.398,0,0.00
+E02004178,"Woolacombe",0,344.0,5042.48,17.784,2,0.00
+E02004179,"Braunton",0,255.0,2918.21,26.324,4,0.00
+E02004180,"Bratton Fleming",0,351.0,897.22,15.546,0,0.00
+E02004181,"Barnstaple Pilton",0,262.0,535.95,11.768,0,0.00
+E02004182,"Barnstaple Central",0,380.0,1706.36,30.222,0,0.00
+E02004183,"Barnstaple Sticklepath",0,262.0,3126.43,9.925,6,0.00
+E02004184,"Barnstaple South",0,91.0,1508.20,7.750,2,0.00
+E02004185,"Fremington & Instow",0,371.0,615.57,15.889,0,0.00
+E02004186,"Roundswell & Landkey",0,296.0,1365.95,22.328,0,0.00
+E02004187,"South Molton",0,377.0,686.99,23.017,2,0.00
+E02004188,"Bishop's Nympton",0,396.0,329.43,14.639,0,0.00

@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004379,"Chailey",0,0,683.0,39.459,1790.79
-E02004380,"Wivelsfield Green",0,1,2105.0,43.929,3727.35
-E02004381,"Lewes Central & East",0,4,422.0,71.060,2782.60
-E02004382,"Ringmer",0,1,635.0,38.716,1663.43
-E02004383,"Lewes West",0,0,207.0,21.348,1823.27
-E02004384,"East Saltdean & Telscombe Cliffs",0,0,667.0,13.521,398.26
-E02004385,"Peacehaven West",0,0,130.0,25.316,596.54
-E02004386,"Newhaven Town",0,0,45.0,5.433,1897.61
-E02004387,"Newhaven West",0,2,45.0,5.289,239.05
-E02004388,"Peacehaven East",0,1,130.0,17.035,101.44
-E02004389,"East Blatchington",0,0,114.0,20.420,148.58
-E02004390,"Seaford Eastbourne Road",0,0,114.0,19.973,125.43
-E02004391,"Seaford Town",0,1,114.0,31.650,651.10
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004379,"Chailey",0,683.0,1790.79,39.459,0,0.00
+E02004380,"Wivelsfield Green",0,2105.0,3727.35,43.929,1,0.00
+E02004381,"Lewes Central & East",0,422.0,2782.60,71.060,4,0.00
+E02004382,"Ringmer",0,635.0,1663.43,38.716,1,0.00
+E02004383,"Lewes West",0,207.0,1823.27,21.348,0,0.00
+E02004384,"East Saltdean & Telscombe Cliffs",0,667.0,398.26,13.521,0,0.00
+E02004385,"Peacehaven West",0,130.0,596.54,25.316,0,0.00
+E02004386,"Newhaven Town",0,45.0,1897.61,5.433,0,0.00
+E02004387,"Newhaven West",0,45.0,239.05,5.289,2,0.00
+E02004388,"Peacehaven East",0,130.0,101.44,17.035,1,0.00
+E02004389,"East Blatchington",0,114.0,148.58,20.420,0,0.00
+E02004390,"Seaford Eastbourne Road",0,114.0,125.43,19.973,0,0.00
+E02004391,"Seaford Town",0,114.0,651.10,31.650,1,0.00

@@ -1,23 +1,23 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02003237,"Glinton",0,0,364.0,20.632,152.04
-E02003238,"Werrington",0,2,94.0,5.111,403.24
-E02003239,"Newborough & Peakirk",0,0,364.0,25.157,2276.67
-E02003240,"Barnack",0,1,742.0,39.243,2073.48
-E02003241,"Eye & Thorney",0,0,19941.0,29.561,1312.74
-E02003242,"Walton",0,2,22316.0,103.206,840.79
-E02003243,"Paston",0,0,19765.0,12.531,856.72
-E02003244,"Dogsthorpe",0,0,19671.0,3.412,108.85
-E02003245,"North Bretton & Westwood",0,1,301.0,11.988,579.45
-E02003246,"Millfield & Bourges Boulevard",0,0,20387.0,6.398,3369.63
-E02003247,"Bretton Park",0,1,207.0,9.378,1640.34
-E02003248,"Central Park",0,1,19671.0,4.497,600.55
-E02003249,"Fengate & Parnwell",0,5,19941.0,6.759,3482.73
-E02003250,"Peterborough Central",0,9,20086.0,11.655,8249.18
-E02003251,"Longthorpe & Netherton",0,1,477.0,18.694,4880.42
-E02003252,"West Town & Woodston",0,2,20293.0,13.805,2369.31
-E02003253,"Fletton",0,6,20086.0,12.515,1131.03
-E02003254,"Orton West & Castor",0,0,1372.0,40.567,5219.55
-E02003255,"Stanground",0,0,20589.0,15.151,1438.62
-E02003257,"Orton Malborne & Goldhay",0,2,415.0,17.064,1163.18
-E02006877,"Hargate & Orton Longueville",0,0,648.0,33.701,5612.60
-E02006878,"Hampton Vale",0,0,855.0,26.878,1013.40
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02003237,"Glinton",0,364.0,152.04,20.632,0,0.00
+E02003238,"Werrington",0,94.0,403.24,5.111,2,0.00
+E02003239,"Newborough & Peakirk",0,364.0,2276.67,25.157,0,0.00
+E02003240,"Barnack",0,742.0,2073.48,39.243,1,0.00
+E02003241,"Eye & Thorney",0,19941.0,1312.74,29.561,0,0.00
+E02003242,"Walton",0,22316.0,840.79,103.206,2,0.00
+E02003243,"Paston",0,19765.0,856.72,12.531,0,0.00
+E02003244,"Dogsthorpe",0,19671.0,108.85,3.412,0,0.00
+E02003245,"North Bretton & Westwood",0,301.0,579.45,11.988,1,0.00
+E02003246,"Millfield & Bourges Boulevard",0,20387.0,3369.63,6.398,0,0.00
+E02003247,"Bretton Park",0,207.0,1640.34,9.378,1,0.00
+E02003248,"Central Park",0,19671.0,600.55,4.497,1,0.00
+E02003249,"Fengate & Parnwell",0,19941.0,3482.73,6.759,5,0.00
+E02003250,"Peterborough Central",0,20086.0,8249.18,11.655,9,0.00
+E02003251,"Longthorpe & Netherton",0,477.0,4880.42,18.694,1,0.00
+E02003252,"West Town & Woodston",0,20293.0,2369.31,13.805,2,0.00
+E02003253,"Fletton",0,20086.0,1131.03,12.515,6,86633.70
+E02003254,"Orton West & Castor",0,1372.0,5219.55,40.567,0,0.00
+E02003255,"Stanground",0,20589.0,1438.62,15.151,0,0.00
+E02003257,"Orton Malborne & Goldhay",0,415.0,1163.18,17.064,2,0.00
+E02006877,"Hargate & Orton Longueville",0,648.0,5612.60,33.701,0,0.00
+E02006878,"Hampton Vale",0,855.0,1013.40,26.878,0,48860.77

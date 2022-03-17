@@ -1,33 +1,33 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02003090,"Thornbury North",0,0,384.0,41.587,1100.45
-E02003091,"Thornbury South",0,2,384.0,46.723,2005.68
-E02003092,"Charfield",0,0,685.0,43.538,1020.38
-E02003093,"Alveston",0,1,411.0,43.843,3035.00
-E02003094,"Almondsbury",0,12,783.0,46.742,21063.83
-E02003095,"Yate North",0,2,301.0,33.431,2592.77
-E02003096,"Yate West",0,1,301.0,13.696,972.30
-E02003097,"Chipping Sodbury",0,0,301.0,19.196,1077.94
-E02003098,"Bradley Stoke North East",0,3,16244.0,28.799,1373.32
-E02003099,"Yate Kingsgate",0,0,301.0,16.716,809.12
-E02003100,"Patchway",0,9,355.0,102.843,4393.06
-E02003101,"Bradley Stoke Central",0,1,355.0,25.404,2057.73
-E02003102,"Frampton Cotterell",0,0,140.0,32.210,618.04
-E02003103,"Yate South",0,0,301.0,11.971,288.81
-E02003104,"Stoke Gifford",0,0,355.0,15.992,600.79
-E02003105,"Winterbourne",0,0,16330.0,48.747,650.62
-E02003106,"Frenchay & Great Stoke",0,8,16398.0,33.850,20093.28
-E02003107,"Filton",0,1,369.0,25.900,9711.33
-E02003108,"Pucklechurch & Westerleigh",0,0,16693.0,48.140,3429.07
-E02003109,"Downend North",0,1,15889.0,18.086,148.84
-E02003110,"Emersons Green",0,11,16029.0,24.128,2934.77
-E02003111,"Downend South",0,0,15889.0,19.996,726.22
-E02003112,"Mangotsfield",0,1,15889.0,16.514,213.88
-E02003113,"Marshfield",0,0,17753.0,71.242,2872.93
-E02003114,"Staple Hill North",0,1,16057.0,14.257,449.17
-E02003115,"Staple Hill South & Kingswood North West",0,0,16057.0,19.674,889.69
-E02003116,"Kingswood North East",0,0,168.0,6.720,515.98
-E02003117,"Kingswood South",0,3,363.0,30.294,885.85
-E02003118,"Cadbury Heath North & Bridgeyate",0,0,363.0,24.941,957.96
-E02003119,"Cadbury Heath South & North Common",0,0,363.0,35.966,399.99
-E02003120,"Hanham",0,3,363.0,8.669,1345.63
-E02003121,"Longwell Green & Oldland Common",0,0,363.0,38.662,2332.04
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02003090,"Thornbury North",0,384.0,1100.45,41.587,0,0.00
+E02003091,"Thornbury South",0,384.0,2005.68,46.723,2,0.00
+E02003092,"Charfield",0,685.0,1020.38,43.538,0,0.00
+E02003093,"Alveston",0,411.0,3035.00,43.843,1,0.00
+E02003094,"Almondsbury",0,783.0,21063.83,46.742,12,1337157.74
+E02003095,"Yate North",0,301.0,2592.77,33.431,2,0.00
+E02003096,"Yate West",0,301.0,972.30,13.696,1,0.00
+E02003097,"Chipping Sodbury",0,301.0,1077.94,19.196,0,0.00
+E02003098,"Bradley Stoke North East",0,16244.0,1373.32,28.799,3,0.00
+E02003099,"Yate Kingsgate",0,301.0,809.12,16.716,0,0.00
+E02003100,"Patchway",0,355.0,4393.06,102.843,9,279.00
+E02003101,"Bradley Stoke Central",0,355.0,2057.73,25.404,1,0.00
+E02003102,"Frampton Cotterell",0,140.0,618.04,32.210,0,0.00
+E02003103,"Yate South",0,301.0,288.81,11.971,0,0.00
+E02003104,"Stoke Gifford",0,355.0,600.79,15.992,0,0.00
+E02003105,"Winterbourne",0,16330.0,650.62,48.747,0,0.00
+E02003106,"Frenchay & Great Stoke",0,16398.0,20093.28,33.850,8,0.00
+E02003107,"Filton",0,369.0,9711.33,25.900,1,0.00
+E02003108,"Pucklechurch & Westerleigh",0,16693.0,3429.07,48.140,0,41984.37
+E02003109,"Downend North",0,15889.0,148.84,18.086,1,0.00
+E02003110,"Emersons Green",0,16029.0,2934.77,24.128,11,0.00
+E02003111,"Downend South",0,15889.0,726.22,19.996,0,0.00
+E02003112,"Mangotsfield",0,15889.0,213.88,16.514,1,0.00
+E02003113,"Marshfield",0,17753.0,2872.93,71.242,0,0.00
+E02003114,"Staple Hill North",0,16057.0,449.17,14.257,1,0.00
+E02003115,"Staple Hill South & Kingswood North West",0,16057.0,889.69,19.674,0,0.00
+E02003116,"Kingswood North East",0,168.0,515.98,6.720,0,0.00
+E02003117,"Kingswood South",0,363.0,885.85,30.294,3,0.00
+E02003118,"Cadbury Heath North & Bridgeyate",0,363.0,957.96,24.941,0,0.00
+E02003119,"Cadbury Heath South & North Common",0,363.0,399.99,35.966,0,0.00
+E02003120,"Hanham",0,363.0,1345.63,8.669,3,0.00
+E02003121,"Longwell Green & Oldland Common",0,363.0,2332.04,38.662,0,0.00

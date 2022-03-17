@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02005176,"Harle Syke & Lanehead",399,0,108.0,10.615,324.93
-E02005177,"Queensgate",445,1,242.0,7.194,887.34
-E02005178,"Central Burnley & Daneshouse",514,5,320.0,36.138,3503.25
-E02005179,"Padiham",637,2,134.0,21.705,349.80
-E02005180,"Habergham & Ightenhill",654,0,134.0,11.903,204.77
-E02005181,"Whittlefield & Rose Grove",728,3,212.0,13.956,167.20
-E02005182,"Bank Hall & Fulledge",501,2,186.0,6.997,1877.88
-E02005183,"Brunshaw & Brownside",424,0,186.0,6.354,960.19
-E02005184,"Cliviger",276,0,255.0,10.583,232.12
-E02005185,"Barclay Hills & Trinity",638,2,212.0,11.017,2186.56
-E02005186,"Hapton & Lowerhouse",755,0,212.0,9.937,1220.12
-E02006881,"Rose Hill & Burnley Wood",564,2,78.0,7.603,1363.97
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02005176,"Harle Syke & Lanehead",399,108.0,324.93,10.615,0,0.00
+E02005177,"Queensgate",445,242.0,887.34,7.194,1,0.00
+E02005178,"Central Burnley & Daneshouse",514,320.0,3503.25,36.138,5,0.00
+E02005179,"Padiham",637,134.0,349.80,21.705,2,0.00
+E02005180,"Habergham & Ightenhill",654,134.0,204.77,11.903,0,0.00
+E02005181,"Whittlefield & Rose Grove",728,212.0,167.20,13.956,3,0.00
+E02005182,"Bank Hall & Fulledge",501,186.0,1877.88,6.997,2,0.00
+E02005183,"Brunshaw & Brownside",424,186.0,960.19,6.354,0,0.00
+E02005184,"Cliviger",276,255.0,232.12,10.583,0,0.00
+E02005185,"Barclay Hills & Trinity",638,212.0,2186.56,11.017,2,0.00
+E02005186,"Hapton & Lowerhouse",755,212.0,1220.12,9.937,0,0.00
+E02006881,"Rose Hill & Burnley Wood",564,78.0,1363.97,7.603,2,0.00

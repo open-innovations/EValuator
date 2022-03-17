@@ -1,26 +1,26 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02000372,"Old Oak & Wormwood",0,34,2959.0,6.975,1422.56
-E02000373,"White City",0,51,388.0,1.567,0.00
-E02000374,"Wormholt Road",0,24,1033.0,1.603,49.35
-E02000375,"Shepherd's Bush North",0,61,1058.0,8.636,33.58
-E02000376,"Shepherd's Bush West",0,14,350.0,2.212,86.40
-E02000377,"Askew",0,22,1033.0,2.009,112.47
-E02000378,"Shepherd's Bush South",0,17,2902.0,1.938,292.45
-E02000379,"Ravenscourt Park North",0,32,3202.0,2.508,201.40
-E02000380,"Brackenbury",0,30,2686.0,1.636,47.41
-E02000381,"Brook Green",0,43,2552.0,2.970,351.00
-E02000382,"Ravenscourt Park South",0,13,3222.0,11.797,51.61
-E02000383,"West Kensington",0,30,2552.0,11.438,333.46
-E02000384,"Hammersmith Broadway",0,32,2169.0,6.401,79.25
-E02000385,"Barons Court",0,31,3429.0,2.189,81.34
-E02000386,"North End",0,8,1260.0,2.507,69.47
-E02000387,"Lillie Road & Greyhound Road",0,14,3429.0,1.855,0.00
-E02000388,"Fulham Broadway",0,21,877.0,3.187,184.56
-E02000389,"Fulham Reach",0,39,3046.0,2.209,0.00
-E02000390,"Fulham Aintree",0,15,877.0,1.631,26.25
-E02000391,"Parsons Green East & Eel Brook Common",0,38,1148.0,2.616,139.12
-E02000392,"Parsons Green West",0,29,877.0,11.505,161.43
-E02000393,"Munster",0,19,877.0,1.481,1.51
-E02000394,"Sands End & Chelsea Harbour",0,14,1148.0,2.537,215.90
-E02000395,"Fulham Palace & Hurlingham Park",0,65,877.0,2.211,329.60
-E02000396,"South Park",0,25,877.0,1.760,263.92
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02000372,"Old Oak & Wormwood",0,2959.0,1422.56,6.975,34,0.00
+E02000373,"White City",0,388.0,0.00,1.567,51,0.00
+E02000374,"Wormholt Road",0,1033.0,49.35,1.603,24,0.00
+E02000375,"Shepherd's Bush North",0,1058.0,33.58,8.636,61,0.00
+E02000376,"Shepherd's Bush West",0,350.0,86.40,2.212,14,0.00
+E02000377,"Askew",0,1033.0,112.47,2.009,22,0.00
+E02000378,"Shepherd's Bush South",0,2902.0,292.45,1.938,17,0.00
+E02000379,"Ravenscourt Park North",0,3202.0,201.40,2.508,32,0.00
+E02000380,"Brackenbury",0,2686.0,47.41,1.636,30,0.00
+E02000381,"Brook Green",0,2552.0,351.00,2.970,43,0.00
+E02000382,"Ravenscourt Park South",0,3222.0,51.61,11.797,13,0.00
+E02000383,"West Kensington",0,2552.0,333.46,11.438,30,0.00
+E02000384,"Hammersmith Broadway",0,2169.0,79.25,6.401,32,0.00
+E02000385,"Barons Court",0,3429.0,81.34,2.189,31,0.00
+E02000386,"North End",0,1260.0,69.47,2.507,8,0.00
+E02000387,"Lillie Road & Greyhound Road",0,3429.0,0.00,1.855,14,0.00
+E02000388,"Fulham Broadway",0,877.0,184.56,3.187,21,0.00
+E02000389,"Fulham Reach",0,3046.0,0.00,2.209,39,0.00
+E02000390,"Fulham Aintree",0,877.0,26.25,1.631,15,0.00
+E02000391,"Parsons Green East & Eel Brook Common",0,1148.0,139.12,2.616,38,0.00
+E02000392,"Parsons Green West",0,877.0,161.43,11.505,29,0.00
+E02000393,"Munster",0,877.0,1.51,1.481,19,0.00
+E02000394,"Sands End & Chelsea Harbour",0,1148.0,215.90,2.537,14,0.00
+E02000395,"Fulham Palace & Hurlingham Park",0,877.0,329.60,2.211,65,0.00
+E02000396,"South Park",0,877.0,263.92,1.760,25,0.00

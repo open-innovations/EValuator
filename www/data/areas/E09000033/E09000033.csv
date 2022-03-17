@@ -1,25 +1,25 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02000960,"St John's Wood North",0,52,1253.0,14.409,85.65
-E02000961,"Abbey Road",0,82,1671.0,12.506,326.84
-E02000962,"St John's Wood South",0,32,1021.0,31.756,257.09
-E02000963,"Queen's Park Gardens",0,76,686.0,0.604,98.45
-E02000964,"Maida Hill",0,92,1336.0,12.402,130.93
-E02000965,"Maida Vale",0,72,1081.0,3.811,293.76
-E02000966,"Little Venice",0,99,1024.0,4.360,408.12
-E02000967,"Regent's Park",0,24,1706.0,3.012,362.34
-E02000968,"Church Street",0,27,1846.0,12.026,381.63
-E02000969,"Westbourne",0,23,1489.0,3.301,974.37
-E02000970,"Marylebone & Park Lane",0,87,2450.0,0.461,546.11
-E02000971,"Bryanston & Dorset Square",0,43,2299.0,2.170,942.62
-E02000972,"Fitzrovia West & Soho",0,58,2554.0,0.055,516.62
-E02000973,"Westbourne Grove",0,76,1046.0,3.474,269.70
-E02000974,"Paddington & St George's Fields",0,29,1439.0,14.361,105.43
-E02000975,"Bayswater East",0,25,593.0,3.721,278.77
-E02000976,"Queensway",0,44,593.0,4.510,9.37
-E02000977,"Strand",0,55,1120.0,0.000,1317.54
-E02000978,"Knightsbridge",0,90,2524.0,9.056,1627.86
-E02000979,"Central Westminster",0,31,2978.0,1.431,472.36
-E02000980,"Millbank",0,17,402.0,0.000,148.57
-E02000981,"Pimlico North",0,32,257.0,0.000,33.46
-E02000982,"Victoria",0,16,874.0,0.000,357.44
-E02000983,"Pimlico South",0,23,402.0,0.000,110.22
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02000960,"St John's Wood North",0,1253.0,85.65,14.409,52,0.00
+E02000961,"Abbey Road",0,1671.0,326.84,12.506,82,0.00
+E02000962,"St John's Wood South",0,1021.0,257.09,31.756,32,0.00
+E02000963,"Queen's Park Gardens",0,686.0,98.45,0.604,76,0.00
+E02000964,"Maida Hill",0,1336.0,130.93,12.402,92,0.00
+E02000965,"Maida Vale",0,1081.0,293.76,3.811,72,0.00
+E02000966,"Little Venice",0,1024.0,408.12,4.360,99,0.00
+E02000967,"Regent's Park",0,1706.0,362.34,3.012,24,0.00
+E02000968,"Church Street",0,1846.0,381.63,12.026,27,0.00
+E02000969,"Westbourne",0,1489.0,974.37,3.301,23,0.00
+E02000970,"Marylebone & Park Lane",0,2450.0,546.11,0.461,87,0.00
+E02000971,"Bryanston & Dorset Square",0,2299.0,942.62,2.170,43,0.00
+E02000972,"Fitzrovia West & Soho",0,2554.0,516.62,0.055,58,0.00
+E02000973,"Westbourne Grove",0,1046.0,269.70,3.474,76,0.00
+E02000974,"Paddington & St George's Fields",0,1439.0,105.43,14.361,29,0.00
+E02000975,"Bayswater East",0,593.0,278.77,3.721,25,0.00
+E02000976,"Queensway",0,593.0,9.37,4.510,44,0.00
+E02000977,"Strand",0,1120.0,1317.54,0.000,55,0.00
+E02000978,"Knightsbridge",0,2524.0,1627.86,9.056,90,0.00
+E02000979,"Central Westminster",0,2978.0,472.36,1.431,31,0.00
+E02000980,"Millbank",0,402.0,148.57,0.000,17,0.00
+E02000981,"Pimlico North",0,257.0,33.46,0.000,32,0.00
+E02000982,"Victoria",0,874.0,357.44,0.000,16,0.00
+E02000983,"Pimlico South",0,402.0,110.22,0.000,23,0.00

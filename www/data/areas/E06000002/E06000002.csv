@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02002496,"Middlesbrough Central",279,28,96.0,3.696,10133.33
-E02002497,"North Ormesby & Brambles",277,1,93.0,0.024,740.53
-E02002498,"Ayresome",300,0,156.0,2.694,597.42
-E02002499,"Berwick Hills",260,1,39.0,0.000,670.86
-E02002500,"Linthorpe East & Albert Park",267,0,103.0,7.495,65.62
-E02002501,"Park Vale",266,0,85.0,6.466,25.20
-E02002502,"Thorntree",227,0,111.0,1.484,188.59
-E02002503,"Newport & Maze Park",301,0,225.0,9.496,1994.11
-E02002504,"Linthorpe West",295,0,78.0,11.217,24.15
-E02002505,"Park End",235,0,39.0,0.000,0.00
-E02002506,"Beechwood & James Cook",252,0,25.0,6.201,1790.66
-E02002507,"Acklam",296,0,60.0,8.257,298.48
-E02002508,"Kader",299,0,93.0,6.430,268.50
-E02002509,"Easterside",272,2,130.0,7.623,0.00
-E02002510,"Trimdon",280,0,279.0,7.101,31.05
-E02002512,"Marton West",273,0,105.0,12.257,0.00
-E02002513,"Stainton & Hemlington",279,0,180.0,22.029,323.77
-E02002514,"Coulby Newham",261,4,195.0,32.318,1620.43
-E02006811,"Nunthorpe & Marton East",266,0,130.0,32.969,2187.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02002496,"Middlesbrough Central",279,96.0,10133.33,3.696,28,0.00
+E02002497,"North Ormesby & Brambles",277,93.0,740.53,0.024,1,0.00
+E02002498,"Ayresome",300,156.0,597.42,2.694,0,0.00
+E02002499,"Berwick Hills",260,39.0,670.86,0.000,1,0.00
+E02002500,"Linthorpe East & Albert Park",267,103.0,65.62,7.495,0,0.00
+E02002501,"Park Vale",266,85.0,25.20,6.466,0,0.00
+E02002502,"Thorntree",227,111.0,188.59,1.484,0,0.00
+E02002503,"Newport & Maze Park",301,225.0,1994.11,9.496,0,0.00
+E02002504,"Linthorpe West",295,78.0,24.15,11.217,0,0.00
+E02002505,"Park End",235,39.0,0.00,0.000,0,0.00
+E02002506,"Beechwood & James Cook",252,25.0,1790.66,6.201,0,0.00
+E02002507,"Acklam",296,60.0,298.48,8.257,0,0.00
+E02002508,"Kader",299,93.0,268.50,6.430,0,0.00
+E02002509,"Easterside",272,130.0,0.00,7.623,2,0.00
+E02002510,"Trimdon",280,279.0,31.05,7.101,0,0.00
+E02002512,"Marton West",273,105.0,0.00,12.257,0,0.00
+E02002513,"Stainton & Hemlington",279,180.0,323.77,22.029,0,0.00
+E02002514,"Coulby Newham",261,195.0,1620.43,32.318,4,0.00
+E02006811,"Nunthorpe & Marton East",266,130.0,2187.00,32.969,0,0.00

@@ -1,53 +1,53 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02005619,"Clipston",0,0,1931.0,61.207,0.00
-E02005620,"Brixworth & Spratton",0,0,420.0,48.474,0.00
-E02005621,"Braunston & Crick",0,0,956.0,48.984,0.00
-E02005622,"Long Buckby East & Ravensthorpe",0,0,850.0,67.492,0.00
-E02005623,"Walgrave & Moulton",0,0,873.0,50.158,0.00
-E02005624,"Daventry North",0,0,260.0,34.433,0.00
-E02005625,"Daventry Central",0,0,260.0,59.551,0.00
-E02005626,"Daventry South & Southbrook",0,0,260.0,15.636,0.00
-E02005627,"Long Buckby West & Weedon",0,0,1195.0,40.269,0.00
-E02005628,"Woodford Halse",0,0,260.0,37.843,0.00
-E02005650,"Boughton",0,0,117.0,5.081,0.00
-E02005651,"Moulton",0,0,336.0,25.615,0.00
-E02005652,"Sunnyside",0,0,117.0,6.480,0.00
-E02005653,"Thorplands & Round Spinney",0,0,336.0,19.320,0.00
-E02005654,"Overstone Lodge & Rectory Farm",0,0,336.0,12.663,0.00
-E02005655,"Boothville & Spinney Hill",0,0,509.0,14.571,0.00
-E02005656,"Blackthorn & Lings",0,0,336.0,14.110,0.00
-E02005657,"Kingsthorpe",0,0,453.0,7.485,0.00
-E02005658,"St David's",0,0,117.0,4.382,0.00
-E02005659,"Westone",0,0,336.0,7.091,0.00
-E02005660,"Billing & Riverside",0,0,1119.0,53.085,0.00
-E02005661,"Eastfield",0,0,509.0,8.118,0.00
-E02005662,"Phippsville",0,0,626.0,4.901,0.00
-E02005663,"New Duston West",0,0,184.0,8.887,0.00
-E02005664,"Kingsley Park & Racecourse",0,0,626.0,5.153,0.00
-E02005665,"Little Billing",0,0,336.0,18.090,0.00
-E02005666,"King's Heath & Spencer",0,0,184.0,15.456,0.00
-E02005667,"Lodge Farm",0,0,184.0,15.649,0.00
-E02005668,"New Duston East",0,0,184.0,11.979,0.00
-E02005669,"Abington Vale",0,0,509.0,8.796,0.00
-E02005670,"Town Centre & Semilong",0,0,2089.0,159.357,0.00
-E02005671,"Abington",0,0,509.0,2.261,0.00
-E02005672,"St Michael's Road",0,0,173.0,2.631,0.00
-E02005673,"Stornton & Sixfields",0,0,184.0,17.195,0.00
-E02005674,"Cliftonville & Rushmere",0,0,853.0,8.747,0.00
-E02005675,"Briar Hill & Hunsbury Hill",0,0,344.0,23.792,0.00
-E02005676,"Delapre",0,0,344.0,22.927,0.00
-E02005677,"Cotton End",0,0,763.0,62.259,0.00
-E02005678,"Upton & West Hunsbury",0,0,528.0,36.233,0.00
-E02005679,"East Hunsbury",0,0,344.0,21.918,0.00
-E02005680,"Wootton & Collingtree",0,0,344.0,26.100,0.00
-E02005681,"Harpole",0,0,590.0,39.490,0.00
-E02005682,"Cogenhoe",0,0,1187.0,36.587,0.00
-E02005683,"Blisworth",0,0,859.0,56.108,0.00
-E02005684,"Towcester West & Blakesley",0,0,515.0,75.065,0.00
-E02005685,"Towcester East & Paulerspury",0,0,269.0,102.271,0.00
-E02005686,"Middleton Cheney & Chipping Warden",0,0,1231.0,43.354,0.00
-E02005687,"Silverstone & Syresham & Helmdon",0,0,1392.0,38.638,0.00
-E02005688,"Deanshanger",0,0,425.0,66.393,0.00
-E02005689,"Brackley North",0,0,174.0,46.945,0.00
-E02005690,"Brackley South",0,0,174.0,67.906,0.00
-E02005691,"Kings Sutton",0,0,1279.0,44.066,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02005619,"Clipston",0,1931.0,0.00,61.207,0,0.00
+E02005620,"Brixworth & Spratton",0,420.0,0.00,48.474,0,0.00
+E02005621,"Braunston & Crick",0,956.0,0.00,48.984,0,0.00
+E02005622,"Long Buckby East & Ravensthorpe",0,850.0,0.00,67.492,0,0.00
+E02005623,"Walgrave & Moulton",0,873.0,0.00,50.158,0,0.00
+E02005624,"Daventry North",0,260.0,0.00,34.433,0,0.00
+E02005625,"Daventry Central",0,260.0,0.00,59.551,0,0.00
+E02005626,"Daventry South & Southbrook",0,260.0,0.00,15.636,0,0.00
+E02005627,"Long Buckby West & Weedon",0,1195.0,0.00,40.269,0,0.00
+E02005628,"Woodford Halse",0,260.0,0.00,37.843,0,0.00
+E02005650,"Boughton",0,117.0,0.00,5.081,0,0.00
+E02005651,"Moulton",0,336.0,0.00,25.615,0,0.00
+E02005652,"Sunnyside",0,117.0,0.00,6.480,0,0.00
+E02005653,"Thorplands & Round Spinney",0,336.0,0.00,19.320,0,0.00
+E02005654,"Overstone Lodge & Rectory Farm",0,336.0,0.00,12.663,0,0.00
+E02005655,"Boothville & Spinney Hill",0,509.0,0.00,14.571,0,0.00
+E02005656,"Blackthorn & Lings",0,336.0,0.00,14.110,0,0.00
+E02005657,"Kingsthorpe",0,453.0,0.00,7.485,0,0.00
+E02005658,"St David's",0,117.0,0.00,4.382,0,0.00
+E02005659,"Westone",0,336.0,0.00,7.091,0,0.00
+E02005660,"Billing & Riverside",0,1119.0,0.00,53.085,0,0.00
+E02005661,"Eastfield",0,509.0,0.00,8.118,0,0.00
+E02005662,"Phippsville",0,626.0,0.00,4.901,0,0.00
+E02005663,"New Duston West",0,184.0,0.00,8.887,0,0.00
+E02005664,"Kingsley Park & Racecourse",0,626.0,0.00,5.153,0,0.00
+E02005665,"Little Billing",0,336.0,0.00,18.090,0,0.00
+E02005666,"King's Heath & Spencer",0,184.0,0.00,15.456,0,0.00
+E02005667,"Lodge Farm",0,184.0,0.00,15.649,0,0.00
+E02005668,"New Duston East",0,184.0,0.00,11.979,0,0.00
+E02005669,"Abington Vale",0,509.0,0.00,8.796,0,0.00
+E02005670,"Town Centre & Semilong",0,2089.0,0.00,159.357,0,0.00
+E02005671,"Abington",0,509.0,0.00,2.261,0,0.00
+E02005672,"St Michael's Road",0,173.0,0.00,2.631,0,0.00
+E02005673,"Stornton & Sixfields",0,184.0,0.00,17.195,0,0.00
+E02005674,"Cliftonville & Rushmere",0,853.0,0.00,8.747,0,0.00
+E02005675,"Briar Hill & Hunsbury Hill",0,344.0,0.00,23.792,0,0.00
+E02005676,"Delapre",0,344.0,0.00,22.927,0,0.00
+E02005677,"Cotton End",0,763.0,0.00,62.259,0,0.00
+E02005678,"Upton & West Hunsbury",0,528.0,0.00,36.233,0,0.00
+E02005679,"East Hunsbury",0,344.0,0.00,21.918,0,0.00
+E02005680,"Wootton & Collingtree",0,344.0,0.00,26.100,0,0.00
+E02005681,"Harpole",0,590.0,0.00,39.490,0,0.00
+E02005682,"Cogenhoe",0,1187.0,0.00,36.587,0,0.00
+E02005683,"Blisworth",0,859.0,0.00,56.108,0,0.00
+E02005684,"Towcester West & Blakesley",0,515.0,0.00,75.065,0,0.00
+E02005685,"Towcester East & Paulerspury",0,269.0,0.00,102.271,0,0.00
+E02005686,"Middleton Cheney & Chipping Warden",0,1231.0,0.00,43.354,0,0.00
+E02005687,"Silverstone & Syresham & Helmdon",0,1392.0,0.00,38.638,0,0.00
+E02005688,"Deanshanger",0,425.0,0.00,66.393,0,0.00
+E02005689,"Brackley North",0,174.0,0.00,46.945,0,0.00
+E02005690,"Brackley South",0,174.0,0.00,67.906,0,0.00
+E02005691,"Kings Sutton",0,1279.0,0.00,44.066,0,0.00

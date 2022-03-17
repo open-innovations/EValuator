@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02006118,"Rugeley North & Etchinghill",0,0,360.0,18.279,828.16
-E02006119,"Rugeley Town",0,2,186.0,45.167,1829.76
-E02006120,"Rugeley South & Brereton",0,0,186.0,22.797,1943.47
-E02006121,"Hednesford Pye Green",0,0,174.0,8.059,486.43
-E02006122,"Hednesford Central",0,2,521.0,12.749,953.28
-E02006123,"Wimblebury & Cannock Wood",0,0,360.0,17.075,667.47
-E02006124,"Cannock North",0,0,521.0,10.995,7.99
-E02006125,"Cannock North East",0,0,521.0,15.560,426.56
-E02006126,"Hednesford South & Heath Hayes",0,0,521.0,17.911,747.59
-E02006127,"Hawks Green",0,3,521.0,13.901,1000.32
-E02006128,"Cannock West & Mill Green",0,0,521.0,40.448,4576.90
-E02006129,"Cannock South",0,7,347.0,19.574,10928.53
-E02006130,"Norton Canes",0,2,490.0,16.013,6041.94
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02006118,"Rugeley North & Etchinghill",0,360.0,828.16,18.279,0,0.00
+E02006119,"Rugeley Town",0,186.0,1829.76,45.167,2,0.00
+E02006120,"Rugeley South & Brereton",0,186.0,1943.47,22.797,0,0.00
+E02006121,"Hednesford Pye Green",0,174.0,486.43,8.059,0,0.00
+E02006122,"Hednesford Central",0,521.0,953.28,12.749,2,0.00
+E02006123,"Wimblebury & Cannock Wood",0,360.0,667.47,17.075,0,0.00
+E02006124,"Cannock North",0,521.0,7.99,10.995,0,0.00
+E02006125,"Cannock North East",0,521.0,426.56,15.560,0,0.00
+E02006126,"Hednesford South & Heath Hayes",0,521.0,747.59,17.911,0,0.00
+E02006127,"Hawks Green",0,521.0,1000.32,13.901,3,0.00
+E02006128,"Cannock West & Mill Green",0,521.0,4576.90,40.448,0,0.00
+E02006129,"Cannock South",0,347.0,10928.53,19.574,7,0.00
+E02006130,"Norton Canes",0,490.0,6041.94,16.013,2,0.00

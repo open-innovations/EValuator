@@ -1,26 +1,26 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-W02000142,"Llanfihangel-ar-arth & Llanybydder",0,1,207.0,2.113,1060.90
-W02000143,"Llandovery",0,0,147.0,8.656,1034.52
-W02000144,"Tre-lech",0,1,151.0,9.115,1153.35
-W02000145,"Llandeilo",0,1,189.0,16.531,1651.26
-W02000146,"Abergwili",0,0,435.0,18.445,414.58
-W02000147,"Carmarthen West & Cynwyl Elfed",0,0,155.0,10.375,1991.61
-W02000148,"Carmarthen North",0,0,54.0,7.162,2122.75
-W02000149,"Carmarthen South & Llangynnwr",0,9,155.0,23.145,6288.45
-W02000151,"Brynaman",0,3,122.0,14.058,576.67
-W02000152,"Llandybie & Saron",0,1,223.0,14.403,642.82
-W02000153,"Llanddarog",0,1,389.0,20.923,792.27
-W02000154,"Ammanford & Betws",0,2,83.0,19.099,2394.12
-W02000156,"Llan-non",0,2,1563.0,20.020,3417.20
-W02000157,"Glyn & Pontyberem",0,1,335.0,16.834,1048.32
-W02000158,"Yr Hendy & Tŷ-croes",0,0,1484.0,15.841,394.97
-W02000159,"Cydweli & Trimsaran",0,1,176.0,12.177,887.27
-W02000160,"Swiss Valley & Llangennech",0,0,1401.0,16.607,232.33
-W02000161,"Dafen & Felin-foel",0,0,219.0,9.169,1964.82
-W02000162,"Pembrey & Burry Port",0,1,97.0,14.757,3918.24
-W02000163,"Llanelli North",0,1,219.0,6.099,600.17
-W02000164,"Llanelli West",0,3,249.0,20.666,3207.75
-W02000165,"Llanelli Bigyn",0,2,219.0,6.373,4246.79
-W02000166,"Bynea & Llwynhendy",0,1,140.0,18.414,3239.18
-W02000167,"Llanelli South",0,0,79.0,9.623,1632.67
-W02000418,"Whitland",0,5,192.0,24.504,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+W02000142,"Llanfihangel-ar-arth & Llanybydder",0,207.0,1060.90,2.113,1,1214.43
+W02000143,"Llandovery",0,147.0,1034.52,8.656,0,0.00
+W02000144,"Tre-lech",0,151.0,1153.35,9.115,1,0.00
+W02000145,"Llandeilo",0,189.0,1651.26,16.531,1,0.00
+W02000146,"Abergwili",0,435.0,414.58,18.445,0,0.00
+W02000147,"Carmarthen West & Cynwyl Elfed",0,155.0,1991.61,10.375,0,0.00
+W02000148,"Carmarthen North",0,54.0,2122.75,7.162,0,0.00
+W02000149,"Carmarthen South & Llangynnwr",0,155.0,6288.45,23.145,9,0.00
+W02000151,"Brynaman",0,122.0,576.67,14.058,3,0.00
+W02000152,"Llandybie & Saron",0,223.0,642.82,14.403,1,0.00
+W02000153,"Llanddarog",0,389.0,792.27,20.923,1,0.00
+W02000154,"Ammanford & Betws",0,83.0,2394.12,19.099,2,0.00
+W02000156,"Llan-non",0,1563.0,3417.20,20.020,2,0.00
+W02000157,"Glyn & Pontyberem",0,335.0,1048.32,16.834,1,0.00
+W02000158,"Yr Hendy & Tŷ-croes",0,1484.0,394.97,15.841,0,0.00
+W02000159,"Cydweli & Trimsaran",0,176.0,887.27,12.177,1,0.00
+W02000160,"Swiss Valley & Llangennech",0,1401.0,232.33,16.607,0,0.00
+W02000161,"Dafen & Felin-foel",0,219.0,1964.82,9.169,0,0.00
+W02000162,"Pembrey & Burry Port",0,97.0,3918.24,14.757,1,0.00
+W02000163,"Llanelli North",0,219.0,600.17,6.099,1,0.00
+W02000164,"Llanelli West",0,249.0,3207.75,20.666,3,0.00
+W02000165,"Llanelli Bigyn",0,219.0,4246.79,6.373,2,0.00
+W02000166,"Bynea & Llwynhendy",0,140.0,3239.18,18.414,1,0.00
+W02000167,"Llanelli South",0,79.0,1632.67,9.623,0,0.00
+W02000418,"Whitland",0,192.0,0.00,24.504,5,0.00

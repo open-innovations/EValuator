@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02003389,"Caversham Emmer Green",0,2,348.0,47.393,602.25
-E02003390,"Caversham Heights",0,0,348.0,28.011,181.03
-E02003391,"Caversham Balmore Park",0,1,348.0,36.507,455.61
-E02003392,"Lower Caversham",0,1,348.0,36.109,1165.97
-E02003393,"Tilehurst North",0,0,401.0,28.602,445.53
-E02003394,"Norcot North",0,0,401.0,9.510,1157.42
-E02003395,"Battle & Caversham Bridge",0,3,1847.0,57.193,1871.88
-E02003396,"Norcot South",0,1,375.0,10.801,1348.36
-E02003397,"Tilehurst South",0,0,401.0,11.499,355.18
-E02003398,"Palmer Park",0,2,496.0,7.515,1081.24
-E02003399,"Reading Central",0,19,1592.0,77.462,4377.09
-E02003400,"Wokingham Road",0,0,496.0,7.955,606.12
-E02003401,"Coley Park",0,0,701.0,5.860,820.40
-E02003402,"Southampton Street & Redlands Road",0,0,545.0,9.930,2114.05
-E02003403,"Southcote",0,0,433.0,11.739,833.84
-E02003404,"Leighton Park",0,0,822.0,17.040,1351.06
-E02003405,"Kennet Island & Green Park",0,8,2108.0,78.194,7837.16
-E02003406,"Whitley Wood",0,2,326.0,24.659,2474.86
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02003389,"Caversham Emmer Green",0,348.0,602.25,47.393,2,0.00
+E02003390,"Caversham Heights",0,348.0,181.03,28.011,0,0.00
+E02003391,"Caversham Balmore Park",0,348.0,455.61,36.507,1,0.00
+E02003392,"Lower Caversham",0,348.0,1165.97,36.109,1,0.00
+E02003393,"Tilehurst North",0,401.0,445.53,28.602,0,0.00
+E02003394,"Norcot North",0,401.0,1157.42,9.510,0,0.00
+E02003395,"Battle & Caversham Bridge",0,1847.0,1871.88,57.193,3,0.00
+E02003396,"Norcot South",0,375.0,1348.36,10.801,1,0.00
+E02003397,"Tilehurst South",0,401.0,355.18,11.499,0,0.00
+E02003398,"Palmer Park",0,496.0,1081.24,7.515,2,0.00
+E02003399,"Reading Central",0,1592.0,4377.09,77.462,19,0.00
+E02003400,"Wokingham Road",0,496.0,606.12,7.955,0,0.00
+E02003401,"Coley Park",0,701.0,820.40,5.860,0,0.00
+E02003402,"Southampton Street & Redlands Road",0,545.0,2114.05,9.930,0,0.00
+E02003403,"Southcote",0,433.0,833.84,11.739,0,0.00
+E02003404,"Leighton Park",0,822.0,1351.06,17.040,0,0.00
+E02003405,"Kennet Island & Green Park",0,2108.0,7837.16,78.194,8,0.00
+E02003406,"Whitley Wood",0,326.0,2474.86,24.659,2,104745.47

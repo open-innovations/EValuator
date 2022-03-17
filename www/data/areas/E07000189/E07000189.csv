@@ -1,25 +1,25 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02006075,"Bruton",0,0,424.0,19.291,2340.60
-E02006076,"Castle Cary & Kenton Mandeville",0,0,336.0,17.413,619.69
-E02006077,"Somerton",0,0,171.0,23.212,544.77
-E02006078,"Langport & Long Sutton",0,1,175.0,24.648,1018.74
-E02006079,"Wincanton",0,5,468.0,24.132,1023.69
-E02006080,"Ilchester",0,0,457.0,25.366,4475.04
-E02006081,"Curry Rivel & Fivehead",0,0,369.0,19.834,250.63
-E02006082,"Templecombe",0,2,291.0,18.536,646.78
-E02006083,"Martock",0,0,259.0,17.579,1098.29
-E02006084,"South Petherton",0,0,201.0,22.327,645.08
-E02006085,"Yeovil North East",0,0,137.0,12.543,507.64
-E02006086,"Yeovil Lufton & Hollands",0,0,367.0,14.868,1242.07
-E02006087,"Yeovil Larkhill",0,0,286.0,9.721,624.15
-E02006088,"Yeovil Milford Park",0,0,218.0,12.131,783.40
-E02006089,"Yeovil Town",0,2,218.0,17.617,3948.30
-E02006090,"Yeovil Preston Plucknett",0,0,367.0,20.867,2003.30
-E02006091,"Ham Hill & Merriott",0,0,387.0,19.798,364.25
-E02006092,"Yeovil South",0,1,230.0,9.604,3480.65
-E02006093,"Ilminster & Horton",0,1,296.0,23.723,1390.49
-E02006094,"Stoford & the Cokers",0,0,268.0,20.574,728.78
-E02006095,"Crewkerne",0,0,46.0,9.784,261.79
-E02006096,"Chard North & East",0,2,102.0,7.830,606.74
-E02006097,"Chard West",0,0,102.0,12.126,588.45
-E02006098,"Tatworth & Combe St Nicholas",0,1,328.0,18.705,502.31
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02006075,"Bruton",0,424.0,2340.60,19.291,0,0.00
+E02006076,"Castle Cary & Kenton Mandeville",0,336.0,619.69,17.413,0,0.00
+E02006077,"Somerton",0,171.0,544.77,23.212,0,0.00
+E02006078,"Langport & Long Sutton",0,175.0,1018.74,24.648,1,0.00
+E02006079,"Wincanton",0,468.0,1023.69,24.132,5,0.00
+E02006080,"Ilchester",0,457.0,4475.04,25.366,0,0.00
+E02006081,"Curry Rivel & Fivehead",0,369.0,250.63,19.834,0,0.00
+E02006082,"Templecombe",0,291.0,646.78,18.536,2,0.00
+E02006083,"Martock",0,259.0,1098.29,17.579,0,0.00
+E02006084,"South Petherton",0,201.0,645.08,22.327,0,0.00
+E02006085,"Yeovil North East",0,137.0,507.64,12.543,0,0.00
+E02006086,"Yeovil Lufton & Hollands",0,367.0,1242.07,14.868,0,0.00
+E02006087,"Yeovil Larkhill",0,286.0,624.15,9.721,0,0.00
+E02006088,"Yeovil Milford Park",0,218.0,783.40,12.131,0,0.00
+E02006089,"Yeovil Town",0,218.0,3948.30,17.617,2,0.00
+E02006090,"Yeovil Preston Plucknett",0,367.0,2003.30,20.867,0,0.00
+E02006091,"Ham Hill & Merriott",0,387.0,364.25,19.798,0,0.00
+E02006092,"Yeovil South",0,230.0,3480.65,9.604,1,0.00
+E02006093,"Ilminster & Horton",0,296.0,1390.49,23.723,1,0.00
+E02006094,"Stoford & the Cokers",0,268.0,728.78,20.574,0,0.00
+E02006095,"Crewkerne",0,46.0,261.79,9.784,0,0.00
+E02006096,"Chard North & East",0,102.0,606.74,7.830,2,0.00
+E02006097,"Chard West",0,102.0,588.45,12.126,0,0.00
+E02006098,"Tatworth & Combe St Nicholas",0,328.0,502.31,18.705,1,0.00

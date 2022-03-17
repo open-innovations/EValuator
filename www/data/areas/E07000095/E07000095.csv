@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004843,"Hoddesdon Ware Road",0,0,258.0,6.684,79.13
-E02004844,"Rye Park",0,0,109.0,8.168,758.04
-E02004845,"Hoddesdon Town",0,4,239.0,34.339,2001.64
-E02004846,"Broxbourne Town",0,1,239.0,26.207,1631.77
-E02004847,"Wormley & Turnford",0,0,310.0,25.983,162.46
-E02004848,"Flamstead End",0,0,441.0,20.517,203.69
-E02004849,"Goffs Oak",0,0,440.0,35.051,95.68
-E02004850,"Cheshunt Coopers Walk",0,1,180.0,10.131,2210.31
-E02004851,"Rosedale",0,1,311.0,16.563,0.00
-E02004852,"Cheshunt Central",0,7,180.0,11.392,696.50
-E02004853,"Churchgate",0,4,311.0,19.517,375.60
-E02004854,"Cheshunt South",0,0,180.0,9.591,477.44
-E02004855,"Waltham Cross Town",0,5,530.0,49.972,1593.64
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004843,"Hoddesdon Ware Road",0,258.0,79.13,6.684,0,0.00
+E02004844,"Rye Park",0,109.0,758.04,8.168,0,55170.99
+E02004845,"Hoddesdon Town",0,239.0,2001.64,34.339,4,0.00
+E02004846,"Broxbourne Town",0,239.0,1631.77,26.207,1,0.00
+E02004847,"Wormley & Turnford",0,310.0,162.46,25.983,0,0.00
+E02004848,"Flamstead End",0,441.0,203.69,20.517,0,0.00
+E02004849,"Goffs Oak",0,440.0,95.68,35.051,0,0.00
+E02004850,"Cheshunt Coopers Walk",0,180.0,2210.31,10.131,1,0.00
+E02004851,"Rosedale",0,311.0,0.00,16.563,1,0.00
+E02004852,"Cheshunt Central",0,180.0,696.50,11.392,7,0.00
+E02004853,"Churchgate",0,311.0,375.60,19.517,4,0.00
+E02004854,"Cheshunt South",0,180.0,477.44,9.591,0,0.00
+E02004855,"Waltham Cross Town",0,530.0,1593.64,49.972,5,0.00

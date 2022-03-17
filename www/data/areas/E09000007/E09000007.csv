@@ -1,29 +1,29 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02000166,"Highgate West",0,12,2108.0,25.622,279.69
-E02000167,"Hampstead Town",0,18,1778.0,107.427,351.97
-E02000168,"Tufnell Park West",0,22,486.0,2.484,178.28
-E02000169,"Frognal",0,29,1778.0,22.766,129.63
-E02000170,"Fortune Green",0,15,2787.0,11.415,17.17
-E02000171,"Mansfield Road & Park Hill Road",0,10,1382.0,13.168,215.07
-E02000172,"Kentish Town West",0,11,2045.0,7.966,239.66
-E02000173,"Fitzjohns & Royal Free",0,15,1128.0,25.371,541.90
-E02000174,"Kentish Town East",0,18,1610.0,1.882,98.18
-E02000175,"West Hampstead",0,14,1778.0,13.348,830.79
-E02000176,"Belsize Park",0,15,1128.0,15.404,136.22
-E02000177,"Chalk Farm",0,9,2045.0,8.113,87.39
-E02000178,"Kilburn Grange",0,18,2787.0,7.307,51.50
-E02000179,"Adelaide Road",0,8,1128.0,16.063,354.51
-E02000180,"Camden Road South",0,19,1378.0,2.214,107.35
-E02000181,"South Hampstead",0,14,650.0,7.075,109.74
-E02000182,"Swiss Cottage",0,10,2368.0,14.117,197.33
-E02000183,"Primrose Hill",0,20,2381.0,5.010,261.37
-E02000184,"Camden Street & Elm Village",0,10,1417.0,2.990,265.93
-E02000185,"Kilburn East",0,7,1671.0,8.940,219.00
-E02000186,"Camden Town & Mornington Crescent",0,12,663.0,4.843,454.02
-E02000187,"Somers Town",0,16,1878.0,2.569,35.00
-E02000188,"Euston",0,8,663.0,9.677,304.54
-E02000189,"Gray's Inn Road",0,5,1970.0,0.219,109.53
-E02000190,"Bloomsbury East",0,0,814.0,0.276,86.72
-E02000191,"Fitzrovia East & Bloomsbury West",0,25,898.0,0.331,95.15
-E02000192,"Hatton Garden & Theobalds Road",0,10,314.0,0.000,550.15
-E02000193,"Holborn",0,33,517.0,0.000,619.10
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02000166,"Highgate West",0,2108.0,279.69,25.622,12,0.00
+E02000167,"Hampstead Town",0,1778.0,351.97,107.427,18,0.00
+E02000168,"Tufnell Park West",0,486.0,178.28,2.484,22,0.00
+E02000169,"Frognal",0,1778.0,129.63,22.766,29,0.00
+E02000170,"Fortune Green",0,2787.0,17.17,11.415,15,0.00
+E02000171,"Mansfield Road & Park Hill Road",0,1382.0,215.07,13.168,10,0.00
+E02000172,"Kentish Town West",0,2045.0,239.66,7.966,11,0.00
+E02000173,"Fitzjohns & Royal Free",0,1128.0,541.90,25.371,15,0.00
+E02000174,"Kentish Town East",0,1610.0,98.18,1.882,18,0.00
+E02000175,"West Hampstead",0,1778.0,830.79,13.348,14,0.00
+E02000176,"Belsize Park",0,1128.0,136.22,15.404,15,0.00
+E02000177,"Chalk Farm",0,2045.0,87.39,8.113,9,0.00
+E02000178,"Kilburn Grange",0,2787.0,51.50,7.307,18,0.00
+E02000179,"Adelaide Road",0,1128.0,354.51,16.063,8,0.00
+E02000180,"Camden Road South",0,1378.0,107.35,2.214,19,0.00
+E02000181,"South Hampstead",0,650.0,109.74,7.075,14,0.00
+E02000182,"Swiss Cottage",0,2368.0,197.33,14.117,10,0.00
+E02000183,"Primrose Hill",0,2381.0,261.37,5.010,20,0.00
+E02000184,"Camden Street & Elm Village",0,1417.0,265.93,2.990,10,0.00
+E02000185,"Kilburn East",0,1671.0,219.00,8.940,7,0.00
+E02000186,"Camden Town & Mornington Crescent",0,663.0,454.02,4.843,12,0.00
+E02000187,"Somers Town",0,1878.0,35.00,2.569,16,0.00
+E02000188,"Euston",0,663.0,304.54,9.677,8,0.00
+E02000189,"Gray's Inn Road",0,1970.0,109.53,0.219,5,0.00
+E02000190,"Bloomsbury East",0,814.0,86.72,0.276,0,0.00
+E02000191,"Fitzrovia East & Bloomsbury West",0,898.0,95.15,0.331,25,0.00
+E02000192,"Hatton Garden & Theobalds Road",0,314.0,550.15,0.000,10,0.00
+E02000193,"Holborn",0,517.0,619.10,0.000,33,0.00

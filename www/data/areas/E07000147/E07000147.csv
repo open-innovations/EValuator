@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02005570,"Sheringham",0,5,149.0,23.825,1190.67
-E02005571,"Wells & Blakeney",0,5,211.0,22.482,3958.83
-E02005572,"Cromer",0,6,71.0,26.806,2909.58
-E02005573,"Holt & Weybourne",0,4,78.0,26.171,1769.92
-E02005574,"Overstrand",0,2,182.0,22.664,1652.76
-E02005575,"Beeston Regis",0,3,320.0,27.796,1092.07
-E02005576,"Mundesley",0,2,329.0,20.882,1145.62
-E02005577,"Melton Constable",0,0,209.0,7.578,1648.47
-E02005578,"Walsingham & Raynham",0,2,311.0,13.464,617.36
-E02005579,"North Walsham",0,6,486.0,29.676,1236.15
-E02005580,"Fakenham",0,6,113.0,16.763,1503.17
-E02005581,"Felmingham",0,2,448.0,26.021,680.05
-E02005582,"Stalham & Sea Palling",0,2,225.0,28.345,1811.12
-E02005583,"Hoveton",0,1,225.0,32.050,2820.30
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02005570,"Sheringham",0,149.0,1190.67,23.825,5,0.00
+E02005571,"Wells & Blakeney",0,211.0,3958.83,22.482,5,0.00
+E02005572,"Cromer",0,71.0,2909.58,26.806,6,0.00
+E02005573,"Holt & Weybourne",0,78.0,1769.92,26.171,4,0.00
+E02005574,"Overstrand",0,182.0,1652.76,22.664,2,0.00
+E02005575,"Beeston Regis",0,320.0,1092.07,27.796,3,0.00
+E02005576,"Mundesley",0,329.0,1145.62,20.882,2,0.00
+E02005577,"Melton Constable",0,209.0,1648.47,7.578,0,0.00
+E02005578,"Walsingham & Raynham",0,311.0,617.36,13.464,2,0.00
+E02005579,"North Walsham",0,486.0,1236.15,29.676,6,0.00
+E02005580,"Fakenham",0,113.0,1503.17,16.763,6,4338.56
+E02005581,"Felmingham",0,448.0,680.05,26.021,2,0.00
+E02005582,"Stalham & Sea Palling",0,225.0,1811.12,28.345,2,0.00
+E02005583,"Hoveton",0,225.0,2820.30,32.050,1,0.00

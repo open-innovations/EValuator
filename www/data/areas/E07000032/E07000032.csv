@@ -1,17 +1,17 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004029,"Alfreton",0,0,603.0,23.422,1176.66
-E02004030,"Crich",0,1,840.0,21.654,1069.24
-E02004031,"Somercotes & Pye Bridge",0,0,672.0,40.930,1046.94
-E02004032,"Swanwick & Leabrooks",0,1,351.0,17.406,1874.32
-E02004033,"Ripley East",0,0,672.0,12.309,2514.55
-E02004034,"Ripley West",0,7,354.0,14.531,1549.46
-E02004035,"Ambergate",0,0,831.0,38.469,1041.14
-E02004036,"Ripley South & Loscoe",0,0,407.0,12.208,1456.44
-E02004037,"Belper Far Laund",0,0,354.0,31.249,276.50
-E02004038,"Belper Town",0,6,597.0,93.434,2434.30
-E02004039,"Openwoodgate & Holbrook",0,0,2086.0,32.602,443.48
-E02004040,"Heanor Gate & Aldercar",0,2,626.0,23.949,1060.98
-E02004041,"Heanor East & Langley Mill",0,0,626.0,24.572,899.49
-E02004043,"Kilburn & Horsley",0,0,2391.0,15.772,1445.23
-E02004044,"Duffield",0,2,1211.0,52.345,1995.29
-E02006827,"Heanor South & Shipley Park",0,0,626.0,23.909,3098.69
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004029,"Alfreton",0,603.0,1176.66,23.422,0,0.00
+E02004030,"Crich",0,840.0,1069.24,21.654,1,0.00
+E02004031,"Somercotes & Pye Bridge",0,672.0,1046.94,40.930,0,11895.72
+E02004032,"Swanwick & Leabrooks",0,351.0,1874.32,17.406,1,0.00
+E02004033,"Ripley East",0,672.0,2514.55,12.309,0,0.00
+E02004034,"Ripley West",0,354.0,1549.46,14.531,7,0.00
+E02004035,"Ambergate",0,831.0,1041.14,38.469,0,0.00
+E02004036,"Ripley South & Loscoe",0,407.0,1456.44,12.208,0,0.00
+E02004037,"Belper Far Laund",0,354.0,276.50,31.249,0,0.00
+E02004038,"Belper Town",0,597.0,2434.30,93.434,6,0.00
+E02004039,"Openwoodgate & Holbrook",0,2086.0,443.48,32.602,0,0.00
+E02004040,"Heanor Gate & Aldercar",0,626.0,1060.98,23.949,2,0.00
+E02004041,"Heanor East & Langley Mill",0,626.0,899.49,24.572,0,0.00
+E02004043,"Kilburn & Horsley",0,2391.0,1445.23,15.772,0,0.00
+E02004044,"Duffield",0,1211.0,1995.29,52.345,2,0.00
+E02006827,"Heanor South & Shipley Park",0,626.0,3098.69,23.909,0,0.00

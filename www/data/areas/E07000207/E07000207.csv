@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02006317,"West Molesey North",0,2,209.0,23.423,869.32
-E02006318,"East Molesey",0,0,209.0,23.012,765.03
-E02006319,"West Molesey South",0,0,574.0,74.699,123.62
-E02006320,"Walton North & Molesey Heath",0,0,671.0,19.051,828.36
-E02006321,"Thames Ditton",0,0,507.0,44.940,504.92
-E02006322,"Long Ditton",0,2,561.0,21.608,118.83
-E02006323,"Walton Central",0,1,1161.0,31.445,1153.74
-E02006324,"Walton East",0,0,462.0,24.670,427.36
-E02006325,"Hinchley Wood & Weston Green",0,1,1305.0,46.312,991.19
-E02006326,"Walton Hersham Road",0,0,462.0,73.280,1175.25
-E02006327,"Oatlands",0,0,829.0,32.200,431.70
-E02006328,"Weybridge Riverside",0,3,934.0,106.879,2023.80
-E02006329,"Esher",0,5,365.0,106.570,3498.90
-E02006330,"Hersham",0,4,778.0,42.034,2634.79
-E02006331,"Claygate",0,0,365.0,42.864,529.27
-E02006332,"Weybridge St George's Hill",0,6,1460.0,60.861,8797.49
-E02006333,"Cobham",0,6,681.0,114.828,4162.10
-E02006334,"Oxshott & Stoke D'Abernon",0,1,1265.0,53.836,1223.36
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02006317,"West Molesey North",0,209.0,869.32,23.423,2,0.00
+E02006318,"East Molesey",0,209.0,765.03,23.012,0,0.00
+E02006319,"West Molesey South",0,574.0,123.62,74.699,0,0.00
+E02006320,"Walton North & Molesey Heath",0,671.0,828.36,19.051,0,0.00
+E02006321,"Thames Ditton",0,507.0,504.92,44.940,0,0.00
+E02006322,"Long Ditton",0,561.0,118.83,21.608,2,0.00
+E02006323,"Walton Central",0,1161.0,1153.74,31.445,1,0.00
+E02006324,"Walton East",0,462.0,427.36,24.670,0,0.00
+E02006325,"Hinchley Wood & Weston Green",0,1305.0,991.19,46.312,1,0.00
+E02006326,"Walton Hersham Road",0,462.0,1175.25,73.280,0,0.00
+E02006327,"Oatlands",0,829.0,431.70,32.200,0,0.00
+E02006328,"Weybridge Riverside",0,934.0,2023.80,106.879,3,0.00
+E02006329,"Esher",0,365.0,3498.90,106.570,5,0.00
+E02006330,"Hersham",0,778.0,2634.79,42.034,4,0.00
+E02006331,"Claygate",0,365.0,529.27,42.864,0,0.00
+E02006332,"Weybridge St George's Hill",0,1460.0,8797.49,60.861,6,0.00
+E02006333,"Cobham",0,681.0,4162.10,114.828,6,0.00
+E02006334,"Oxshott & Stoke D'Abernon",0,1265.0,1223.36,53.836,1,0.00

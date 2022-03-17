@@ -1,24 +1,24 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004779,"Fordingbridge",0,11,396.0,56.262,1380.69
-E02004780,"Totton Calmore",0,0,242.0,13.264,969.56
-E02004781,"West Totton",0,0,307.0,48.134,2386.54
-E02004782,"Totton Town",0,3,242.0,26.830,3480.47
-E02004783,"Totton Rushington",0,0,242.0,19.294,559.47
-E02004784,"Ashurst & Cadnam",0,0,529.0,17.569,2134.79
-E02004785,"Lyndhurst & Minstead",0,0,857.0,36.627,6229.81
-E02004786,"Marchwood & Dibden",0,2,438.0,19.093,2713.92
-E02004787,"Hythe",0,2,196.0,41.096,1650.72
-E02004788,"Ringwood North & Ibsley",0,0,922.0,54.124,514.86
-E02004789,"Langdown & Dibden Purlieu",0,0,196.0,29.720,549.17
-E02004790,"Ringwood South",0,5,267.0,43.127,1958.77
-E02004791,"Holbury South",0,0,196.0,11.376,492.92
-E02004792,"Holbury North",0,5,273.0,23.987,4472.07
-E02004793,"Brockenhurst & Sway",0,3,557.0,34.806,2557.58
-E02004794,"Bransgore & Burley",0,1,628.0,29.772,1484.37
-E02004795,"Lymington Town & Boldre",0,7,865.0,93.062,8182.23
-E02004796,"Hordle & Bashley",0,0,838.0,22.229,485.88
-E02004797,"Lymington North & West",0,0,347.0,29.220,762.10
-E02004798,"New Milton West",0,0,130.0,12.133,637.41
-E02004799,"New Milton East",0,3,130.0,25.433,1547.83
-E02004800,"Barton on Sea",0,0,477.0,18.133,1262.21
-E02004801,"Milford & Lymington South",0,2,347.0,33.102,1190.44
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004779,"Fordingbridge",0,396.0,1380.69,56.262,11,0.00
+E02004780,"Totton Calmore",0,242.0,969.56,13.264,0,0.00
+E02004781,"West Totton",0,307.0,2386.54,48.134,0,0.00
+E02004782,"Totton Town",0,242.0,3480.47,26.830,3,0.00
+E02004783,"Totton Rushington",0,242.0,559.47,19.294,0,0.00
+E02004784,"Ashurst & Cadnam",0,529.0,2134.79,17.569,0,0.00
+E02004785,"Lyndhurst & Minstead",0,857.0,6229.81,36.627,0,0.00
+E02004786,"Marchwood & Dibden",0,438.0,2713.92,19.093,2,0.00
+E02004787,"Hythe",0,196.0,1650.72,41.096,2,0.00
+E02004788,"Ringwood North & Ibsley",0,922.0,514.86,54.124,0,0.00
+E02004789,"Langdown & Dibden Purlieu",0,196.0,549.17,29.720,0,0.00
+E02004790,"Ringwood South",0,267.0,1958.77,43.127,5,0.00
+E02004791,"Holbury South",0,196.0,492.92,11.376,0,0.00
+E02004792,"Holbury North",0,273.0,4472.07,23.987,5,39694.07
+E02004793,"Brockenhurst & Sway",0,557.0,2557.58,34.806,3,0.00
+E02004794,"Bransgore & Burley",0,628.0,1484.37,29.772,1,0.00
+E02004795,"Lymington Town & Boldre",0,865.0,8182.23,93.062,7,0.00
+E02004796,"Hordle & Bashley",0,838.0,485.88,22.229,0,0.00
+E02004797,"Lymington North & West",0,347.0,762.10,29.220,0,0.00
+E02004798,"New Milton West",0,130.0,637.41,12.133,0,0.00
+E02004799,"New Milton East",0,130.0,1547.83,25.433,3,0.00
+E02004800,"Barton on Sea",0,477.0,1262.21,18.133,0,0.00
+E02004801,"Milford & Lymington South",0,347.0,1190.44,33.102,2,0.00

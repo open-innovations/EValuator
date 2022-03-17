@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,chargepoints,ulev,evhs,estimated-capacity
-E02004727,"Swanwick & Sarisbury Green",0,0,588.0,86.738,2925.17
-E02004728,"Park Gate & Segensworth",0,1,781.0,37.053,4212.42
-E02004729,"Fareham North West",0,0,194.0,31.310,756.88
-E02004730,"Fareham Common",0,0,672.0,29.236,709.62
-E02004731,"Locks Heath",0,2,587.0,24.630,592.97
-E02004732,"Warsash",0,0,587.0,30.832,1012.38
-E02004733,"Titchfield & Titchfield Common",0,2,781.0,23.682,1756.97
-E02004734,"Fareham Town & Cams Hill",0,6,424.0,39.212,2831.79
-E02004735,"Fareham West",0,0,387.0,24.373,5.00
-E02004736,"Portchester North West",0,0,285.0,18.050,661.55
-E02004737,"Fareham Fort",0,0,672.0,81.357,1364.31
-E02004738,"Portchester South East",0,0,231.0,18.390,1333.32
-E02004739,"Stubbington",0,0,338.0,20.365,3935.57
-E02004740,"Hill Head",0,0,338.0,16.966,775.76
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
+E02004727,"Swanwick & Sarisbury Green",0,588.0,2925.17,86.738,0,0.00
+E02004728,"Park Gate & Segensworth",0,781.0,4212.42,37.053,1,0.00
+E02004729,"Fareham North West",0,194.0,756.88,31.310,0,0.00
+E02004730,"Fareham Common",0,672.0,709.62,29.236,0,0.00
+E02004731,"Locks Heath",0,587.0,592.97,24.630,2,0.00
+E02004732,"Warsash",0,587.0,1012.38,30.832,0,0.00
+E02004733,"Titchfield & Titchfield Common",0,781.0,1756.97,23.682,2,0.00
+E02004734,"Fareham Town & Cams Hill",0,424.0,2831.79,39.212,6,0.00
+E02004735,"Fareham West",0,387.0,5.00,24.373,0,0.00
+E02004736,"Portchester North West",0,285.0,661.55,18.050,0,0.00
+E02004737,"Fareham Fort",0,672.0,1364.31,81.357,0,0.00
+E02004738,"Portchester South East",0,231.0,1333.32,18.390,0,0.00
+E02004739,"Stubbington",0,338.0,3935.57,20.365,0,0.00
+E02004740,"Hill Head",0,338.0,775.76,16.966,0,0.00
