@@ -3,10 +3,41 @@
 		"file": "www/data/areas.tsv",
 		"dir": "www/data/areas/"
 	},
+	"osm": {
+		"url": "https://download.geofabrik.de/europe/great-britain-latest.osm.pbf",
+		"file": "raw/great-britain-latest.pbf",
+		"o5m": "raw/great-britain-latest.o5m",
+		"rebuild": true,
+		"extracts":{
+			"supermarket": {
+				"steps": ["--keep=\"shop=supermarket\" --drop=\"entrance= amenity=atm barrier=\""],
+				"file": "raw/GB-supermarket.o5m",
+				"layers": ["points","multipolygons","polygons"]
+			},
+			"parking": {
+				"steps": ["--keep= --keep-ways=\"amenity=parking\" --drop=\"barrier= or entrance=\""],
+				"file": "raw/GB-parking.o5m",
+				"layers": ["points","multipolygons","polygons"]
+			},
+			"distribution": {
+				"steps": ["--keep=\"name=*Distribution*\" --drop=\"amenity=loading_dock or power=generator\" --drop-relations"],
+				"file": "raw/GB-distribution.o5m"
+			},
+			"warehouse": {
+				"steps": ["--keep=\"building=warehouse\" --drop=\"entrance= barrier=\""],
+				"file": "raw/GB-warehouse.o5m"
+			}
+		}
+	},
 	"geojson": {
 		"MSOA": {
 			"url": "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/MSOA11CD/%CODE%.geojsonl",
 			"dir": "../geography-bits/data/MSOA11CD/",
+			"file": "%CODE%.geojsonl"
+		},
+		"LAD": {
+			"url": "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/LAD21CD/%CODE%.geojsonl",
+			"dir": "../geography-bits/data/LAD21CD/",
 			"file": "%CODE%.geojsonl"
 		}
 	},
