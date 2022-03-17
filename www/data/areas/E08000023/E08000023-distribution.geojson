@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_id":"4355644156","name":"PDC Distribution","other":{"shop":"yes","addr:city":"Hebburn","addr:street":"Victoria Industrial Estate"}}, "geometry":{"type":"Point","coordinates":[-1.52754,54.96296 ]}}
+{ "type":"Feature","properties":{"osm_id":"4355644156","name":"PDC Distribution","other":{"addr:city":"Hebburn","addr:street":"Victoria Industrial Estate","shop":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.52754,54.96296 ]}}
 ]
 }

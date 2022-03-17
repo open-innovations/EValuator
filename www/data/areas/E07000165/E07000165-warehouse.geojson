@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"218904466","name":"Harrogate Delivery Office","amenity":"post_depot","building":"warehouse","other":{"addr:city":"Harrogate","addr:postcode":"HG1 4EE","addr:street":"Claro Road","alt_name":"Postal Sorting Office","operator":"Royal Mail"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.52261,54.00264],[-1.52288,54.00201],[-1.52241,54.00194],[-1.52214,54.00257],[-1.52261,54.00264]]]]}}
+]
+}

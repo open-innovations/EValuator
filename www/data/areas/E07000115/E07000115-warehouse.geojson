@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"700251727","name":"Polypipe Terrain Ltd Warehouse","other":{"building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[0.44885,51.30732 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"55839987","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.46809,51.29053],[0.4682,51.29037],[0.46855,51.29046],[0.46844,51.29062],[0.46809,51.29053]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"55840004","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.46835,51.29017],[0.46902,51.29035],[0.46916,51.29015],[0.46848,51.28998],[0.46835,51.29017]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"55840198","name":"Hermes","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.46652,51.29042],[0.46728,51.29062],[0.46768,51.29002],[0.46693,51.28982],[0.46652,51.29042]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"55840217","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.46744,51.29045],[0.46776,51.29053],[0.46818,51.2899],[0.46786,51.28981],[0.46744,51.29045]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"55863656","name":"DHL Sainsbury's","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.4957,51.29526],[0.49766,51.29526],[0.49765,51.29471],[0.49717,51.29471],[0.4971,51.29314],[0.4962,51.29315],[0.49627,51.29472],[0.49569,51.29472],[0.4957,51.29526]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"98256521","name":"Tesco Distribution Centre","building":"warehouse","other":{"addr:housenumber":"1\/2"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.46091,51.28954],[0.46254,51.28997],[0.46199,51.29079],[0.46037,51.29036],[0.46091,51.28954]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"659702691","name":"Booker Cash & Carry","building":"warehouse","shop":"wholesale","other":{"addr:city":"Rochester","addr:country":"GB","addr:county":"Kent","addr:housenumber":"5-9","addr:postcode":"ME1 3QX","addr:street":"Laker Road","fhrs:id":"291659","source:addr":"FHRS Open Data","source:shape":"bing"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.50173,51.3513],[0.50144,51.35175],[0.50163,51.3518],[0.50147,51.35205],[0.50017,51.35174],[0.50061,51.35103],[0.50173,51.3513]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"957577113","name":"Tesco","building":"warehouse","other":{"addr:housenumber":"7a"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.46466,51.28853],[0.46466,51.2883],[0.46518,51.2883],[0.46519,51.28853],[0.46466,51.28853]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"957577114","name":"Tesco","building":"warehouse","other":{"addr:housenumber":"7b"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.46466,51.28853],[0.46412,51.28854],[0.46411,51.2883],[0.46466,51.2883],[0.46466,51.28853]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"969279596","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.4585,51.31029],[0.45934,51.31053],[0.45898,51.31101],[0.45814,51.31077],[0.4585,51.31029]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"969279597","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.45801,51.31084],[0.45841,51.31027],[0.45736,51.30997],[0.45696,51.31053],[0.45801,51.31084]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"969279598","name":"Amazon UK Services Ltd. - Maidstone DME1","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.4561,51.31172],[0.45782,51.3122],[0.4582,51.31167],[0.45648,51.3112],[0.4561,51.31172]]]]}}
+]
+}

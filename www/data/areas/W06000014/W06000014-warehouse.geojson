@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"244291671","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.48628,51.50267],[-3.48634,51.50243],[-3.48567,51.50235],[-3.48564,51.50244],[-3.48604,51.50248],[-3.48599,51.50264],[-3.48628,51.50267]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"956961814","name":"Vale Aggregates","building":"warehouse","other":{"addr:city":"Barry","addr:postcode":"CF63 3DH","addr:street":"Wimborne Road","website":"https:\/\/vale-aggregates.co.uk\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.24706,51.40277],[-3.24658,51.40294],[-3.24637,51.40271],[-3.24688,51.40255],[-3.24706,51.40277]]]]}}
+]
+}

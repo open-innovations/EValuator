@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"26579858","name":"Structural Steel Warehouse","building":"warehouse","other":{"operator":"CMC UK Ltd","website":"http:\/\/www.cmc.com\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.15168,51.47233],[-3.15135,51.47191],[-3.14949,51.47247],[-3.15024,51.47344],[-3.15335,51.47251],[-3.15294,51.47197],[-3.15168,51.47233]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"183844756","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.01129,53.671],[0.01117,53.67085],[0.01149,53.67075],[0.01161,53.67091],[0.01129,53.671]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"972284816","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.26798,51.48778],[-3.26785,51.48782],[-3.26802,51.48802],[-3.26814,51.48798],[-3.26798,51.48778]]]]}}
+]
+}

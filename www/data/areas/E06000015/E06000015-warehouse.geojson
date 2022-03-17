@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"54654361","name":"Great Northern Railway Goods Warehouse","building":"warehouse","other":{"alt_name":"Friargate Bonded Warehouse","disused":"yes","wikidata":"Q26523926"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.48787,52.9219],[-1.48787,52.92224],[-1.48714,52.92224],[-1.48638,52.92226],[-1.48669,52.92191],[-1.48787,52.9219]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"66354916","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.47158,52.87308],[-1.47148,52.87337],[-1.4712,52.87334],[-1.4713,52.87305],[-1.47158,52.87308]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"66354919","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.47212,52.87322],[-1.47215,52.87314],[-1.47247,52.87319],[-1.47244,52.87326],[-1.47212,52.87322]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"66354922","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.47198,52.87314],[-1.47189,52.87342],[-1.47161,52.87339],[-1.47171,52.8731],[-1.47198,52.87314]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"107391371","name":"Armadillo Self Storage Derby","building":"warehouse","shop":"storage_rental","other":{"addr:city":"Derby","addr:postcode":"DE23 8AJ","brand":"Armadillo Self Storage","operator":"ASS1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.47858,52.89482],[-1.47849,52.89457],[-1.47831,52.89459],[-1.4783,52.89457],[-1.4781,52.89459],[-1.47811,52.89462],[-1.47756,52.8947],[-1.47766,52.89495],[-1.47858,52.89482]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"111597290","building":"warehouse","other":{"addr:city":"Derby","addr:postcode":"DE21 6WT","addr:street":"Chequers Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.45344,52.92272],[-1.4528,52.92257],[-1.45316,52.92202],[-1.45382,52.92218],[-1.45344,52.92272]]]]}}
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"166300584","name":"Malta Mill (Safe Records)","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.16878,53.54798],[-2.16958,53.54796],[-2.16965,53.54875],[-2.16957,53.54876],[-2.16957,53.5487],[-2.16952,53.5487],[-2.16936,53.5487],[-2.16936,53.54874],[-2.169,53.54875],[-2.16901,53.54884],[-2.16886,53.54885],[-2.16885,53.54875],[-2.16878,53.54798]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"303477353","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.13977,53.52473],[-2.1394,53.52457],[-2.13987,53.52419],[-2.14023,53.52435],[-2.13977,53.52473]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"303477357","name":"Safe Storage","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.13621,53.52638],[-2.13553,53.52625],[-2.1357,53.52592],[-2.13563,53.52591],[-2.13571,53.52576],[-2.13669,53.52595],[-2.13661,53.52609],[-2.13649,53.52607],[-2.13642,53.5262],[-2.13632,53.52618],[-2.13621,53.52638]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"772437706","name":"R Gledhill Ltd.","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.03201,53.5696],[-2.03178,53.56954],[-2.03196,53.56931],[-2.0324,53.56943],[-2.03229,53.56957],[-2.03208,53.56951],[-2.03201,53.5696]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1010710453","leisure":"garden","other":{"access":"private"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.08697,53.54023],[-2.08693,53.5402],[-2.08702,53.54014],[-2.08707,53.54016],[-2.08697,53.54023]]]]}}
+]
+}

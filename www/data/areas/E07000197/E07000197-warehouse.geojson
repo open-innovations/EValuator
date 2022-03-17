@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"54587052","name":"Screwfix Distribution Centre A","building":"warehouse","other":{"addr:city":"Stafford","addr:postcode":"ST16 1GY","addr:street":"Shackleton Way","operator:wikidata":"Q7439115"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.13809,52.83371],[-2.14322,52.83383],[-2.1433,52.83255],[-2.13817,52.83243],[-2.13809,52.83371]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"54587055","name":"Culina Logistics Stafford","building":"warehouse","other":{"addr:city":"Stafford","addr:postcode":"ST16 1GW","addr:street":"Mustang Drive","operator:wikidata":"Q107630380"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.14355,52.83095],[-2.14109,52.83093],[-2.14111,52.83029],[-2.14094,52.83029],[-2.14095,52.83001],[-2.14123,52.83002],[-2.14123,52.83012],[-2.14357,52.83014],[-2.14355,52.83095]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"54587062","name":"Screwfix Distribution Centre B","building":"warehouse","other":{"addr:city":"Stafford","addr:postcode":"ST16 1GZ","addr:street":"Hurricane Close","operator:wikidata":"Q7439115"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.13607,52.83528],[-2.13446,52.8355],[-2.13397,52.83418],[-2.13378,52.8342],[-2.13365,52.83385],[-2.13416,52.83378],[-2.13421,52.8339],[-2.13548,52.83373],[-2.13607,52.83528]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"182336871","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.01044,52.80434],[-2.01078,52.80436],[-2.01072,52.8049],[-2.01012,52.80488],[-2.01014,52.80471],[-2.01039,52.80472],[-2.01044,52.80434]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"304177358","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.03738,52.83603],[-2.0373,52.83605],[-2.03724,52.83593],[-2.03732,52.83592],[-2.03738,52.83603]]]]}}
+]
+}

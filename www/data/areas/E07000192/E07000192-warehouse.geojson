@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"203521344","name":"Amazon.co.uk","building":"warehouse","other":{"addr:city":"Rugeley","addr:country":"GB","addr:place":"Towers Business Park","addr:postcode":"WS15 1LX","addr:province":"Staffordshire","fhrs:id":"1253921"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.9247,52.75404],[-1.92386,52.75466],[-1.924,52.75473],[-1.92344,52.75514],[-1.92295,52.75491],[-1.92307,52.75482],[-1.92107,52.75383],[-1.92095,52.75392],[-1.9207,52.7538],[-1.92082,52.75372],[-1.91822,52.75244],[-1.91949,52.75149],[-1.92211,52.75277],[-1.9222,52.7527],[-1.92244,52.75282],[-1.92235,52.75288],[-1.9247,52.75404]]]]}}
+]
+}

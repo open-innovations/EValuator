@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"254945658","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.51917,50.84813],[0.51906,50.84831],[0.51923,50.84835],[0.51926,50.8483],[0.51973,50.84843],[0.51981,50.8483],[0.51917,50.84813]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"254945659","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.51835,50.84805],[0.51825,50.84817],[0.51864,50.84829],[0.51874,50.84817],[0.51835,50.84805]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"254945660","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.51844,50.84791],[0.51834,50.84804],[0.51872,50.84816],[0.51882,50.84803],[0.51844,50.84791]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"254945662","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.51853,50.84847],[0.51893,50.8486],[0.51904,50.84847],[0.51865,50.84834],[0.51853,50.84847]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"254945688","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.52003,50.84882],[0.51985,50.84877],[0.51972,50.84894],[0.5199,50.849],[0.52003,50.84882]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"503325830","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.52146,50.84952],[0.52142,50.84958],[0.52157,50.84962],[0.52156,50.84963],[0.5217,50.84968],[0.52175,50.84961],[0.52146,50.84952]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"503325835","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.52095,50.84904],[0.52086,50.84917],[0.5214,50.84931],[0.52148,50.84918],[0.52095,50.84904]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"503325843","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.51963,50.84929],[0.52012,50.84946],[0.52024,50.84932],[0.51976,50.84915],[0.51963,50.84929]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"503325865","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.51824,50.84867],[0.5184,50.84872],[0.5185,50.84859],[0.51834,50.84854],[0.51824,50.84867]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"503325870","name":"Elva Recovery Service","building":"warehouse","shop":"car_repair","other":{"addr:street":"Bridge Way","contact:phone":"+44 1424 203030","contact:website":"http:\/\/www.elvarecovery.com\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.51922,50.84862],[0.51909,50.84876],[0.51931,50.84884],[0.51938,50.84877],[0.51941,50.84879],[0.51948,50.84872],[0.51922,50.84862]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"915318855","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.53097,50.85079],[0.53107,50.85066],[0.53109,50.85064],[0.53157,50.85079],[0.53156,50.85081],[0.53146,50.85093],[0.53097,50.85079]]]]}}
+]
+}

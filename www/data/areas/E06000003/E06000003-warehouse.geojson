@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"23019423","name":"S. P. & C. Morgan Autosalvage","building":"warehouse","shop":"car","other":{"service":"parts","url":"http:\/\/www.morgan-autosalvage.co.uk\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.01176,54.53367],[-1.01225,54.5337],[-1.01224,54.53377],[-1.01223,54.53382],[-1.01174,54.53379],[-1.01174,54.53377],[-1.01176,54.53367]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"23243474","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.0136,54.53348],[-1.01358,54.53361],[-1.01328,54.53359],[-1.01329,54.53351],[-1.0133,54.53346],[-1.0136,54.53348]]]]}}
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1643004490","highway":"traffic_signals"},"geometry":{"type":"Point","coordinates":[-1.80424,51.07241 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"995516991","building":"house","other":{"building:levels":"1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.97145,55.95436],[-2.97151,55.95435],[-2.97152,55.95437],[-2.9716,55.95435],[-2.97165,55.9544],[-2.97151,55.95444],[-2.97145,55.95436]]]]}}
+]
+}

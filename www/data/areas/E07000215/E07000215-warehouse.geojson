@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"553100351","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.04141,51.26774],[0.04177,51.2678],[0.04197,51.26732],[0.04161,51.26726],[0.04141,51.26774]]]]}}
+]
+}

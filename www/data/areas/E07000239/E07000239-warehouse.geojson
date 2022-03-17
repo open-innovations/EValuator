@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"277281649","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.19575,52.34833],[-2.1945,52.3481],[-2.19477,52.34754],[-2.19602,52.34777],[-2.19575,52.34833]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"277281650","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.19687,52.34749],[-2.19594,52.34738],[-2.19611,52.34683],[-2.19705,52.34694],[-2.19687,52.34749]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"277281651","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.19633,52.3464],[-2.19505,52.34637],[-2.19509,52.34579],[-2.19636,52.34582],[-2.19633,52.3464]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"277281652","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.19745,52.34549],[-2.19616,52.34546],[-2.1962,52.34488],[-2.19749,52.34491],[-2.19745,52.34549]]]]}}
+]
+}

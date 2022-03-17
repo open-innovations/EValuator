@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"164335424","name":"Symphony","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.39253,53.57027],[-1.39074,53.57117],[-1.38784,53.56912],[-1.38959,53.56826],[-1.39253,53.57027]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"189217346","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.05734,53.68385],[0.05731,53.68376],[0.05705,53.6838],[0.05708,53.68388],[0.05734,53.68385]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"189217350","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.05798,53.68372],[0.05794,53.68359],[0.05779,53.68361],[0.05774,53.68349],[0.05755,53.68351],[0.05764,53.68376],[0.05798,53.68372]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"276995672","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.67153,53.55396],[-1.67151,53.55375],[-1.67139,53.55375],[-1.67142,53.55397],[-1.67153,53.55396]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"276995673","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.67106,53.55389],[-1.67032,53.55392],[-1.67029,53.55392],[-1.67028,53.55387],[-1.6706,53.55386],[-1.67059,53.55381],[-1.67105,53.5538],[-1.67106,53.55389]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"276995676","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.67134,53.55367],[-1.67133,53.55359],[-1.67122,53.55359],[-1.67123,53.55367],[-1.67134,53.55367]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"283434750","name":"Barnsley Hospice","building":"warehouse","other":{"opening_hours":"Mo-Fr 10:00-14:00"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.53562,53.54541],[-1.53545,53.54517],[-1.53537,53.54506],[-1.5358,53.54495],[-1.53605,53.54531],[-1.53562,53.54541]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"283435565","name":"Perrigo","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.54099,53.54756],[-1.54084,53.54632],[-1.53924,53.54639],[-1.5394,53.54763],[-1.54099,53.54756]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"875309451","name":"Wheeler's Workshops Ltd","building":"warehouse","shop":"car_repair","other":{"addr:housenumber":"106","addr:street":"Reginald Road","building:levels":"2","contact:phone":"+44 1424 220527","height":"9","opening_hours":"Mo-Fr 08:00-17:00; Sa 08:30-12:00","service:vehicle:car_repair":"yes","service:vehicle:diagnostics":"yes","service:vehicle:inspection":"yes"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.46699,50.84333],[0.46719,50.84336],[0.46722,50.84326],[0.46716,50.84325],[0.46703,50.84323],[0.46699,50.84333]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"875328147","building":"warehouse","other":{"disused":"building"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.62214,53.52574],[-1.62202,53.5258],[-1.62176,53.52561],[-1.62188,53.52556],[-1.62214,53.52574]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"883169440","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.62017,53.52307],[-1.61999,53.52316],[-1.61966,53.52293],[-1.61984,53.52284],[-1.62017,53.52307]]]]}}
+]
+}

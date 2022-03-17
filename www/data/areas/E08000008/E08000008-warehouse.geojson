@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1962441812","name":"The Etherow Centre","other":{"addr:housename":"The Etherow Centre","addr:postcode":"SK14 6AX","addr:street":"Market Street","building":"warehouse","leisure":"sports_centre","sport":"equestrian"}}, "geometry":{"type":"Point","coordinates":[-2.01429,53.44098 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"205670715","name":"Ashton Delivery Office","amenity":"post_depot","building":"warehouse","other":{"addr:city":"Ashton-under-Lyne","addr:housenumber":"35","addr:postcode":"OL6 7PW","addr:street":"Fleet Street","operator":"Royal Mail","operator:type":"private","operator:wikidata":"Q638098","operator:wikipedia":"en:Royal Mail"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.09428,53.48645],[-2.09417,53.4863],[-2.09386,53.48638],[-2.09407,53.48667],[-2.09432,53.4866],[-2.09429,53.48655],[-2.09458,53.48647],[-2.09452,53.48638],[-2.09428,53.48645]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"206644168","name":"Big Yellow Self-Store","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.09923,53.48488],[-2.09916,53.48478],[-2.09946,53.48471],[-2.09953,53.48479],[-2.1,53.48467],[-2.10012,53.48483],[-2.09933,53.48503],[-2.09923,53.48488]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"301078197","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.08236,53.46233],[-2.08266,53.46227],[-2.08253,53.46204],[-2.08244,53.46206],[-2.08242,53.46203],[-2.08213,53.46208],[-2.08223,53.46226],[-2.08236,53.46233]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"367011256","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.08292,53.46278],[-2.08287,53.46279],[-2.08261,53.46264],[-2.08257,53.46257],[-2.08278,53.46252],[-2.08292,53.46278]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"412346807","building":"warehouse","other":{"roof:shape":"gabled"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.12292,53.47615],[-2.12287,53.47609],[-2.12258,53.47621],[-2.12264,53.47626],[-2.12292,53.47615]]]]}}
+]
+}

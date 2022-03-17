@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"9576018396","name":"Tesco Stores Distribution Centre","other":{"amenity":"post_depot","operator":"Tesco Stores Ltd"}}, "geometry":{"type":"Point","coordinates":[-0.20025,52.59467 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"39832424","name":"Ikea Distribution Centre","building":"yes","other":{"addr:postcode":"PE2 9ET","addr:street":"Fletton Avenue"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.24039,52.55138],[-0.24023,52.55242],[-0.23988,52.5524],[-0.23979,52.55294],[-0.24012,52.55296],[-0.23975,52.55543],[-0.24252,52.55559],[-0.2429,52.55305],[-0.243,52.55305],[-0.24303,52.55281],[-0.24294,52.55281],[-0.24313,52.55154],[-0.24288,52.55152],[-0.24039,52.55138]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"628684699","name":"Lidl Distribution Centre","building":"warehouse","other":{"addr:postcode":"PE7 3AG","addr:street":"waterworth road","brand":"Lidl","brand:wikidata":"Q151954","brand:wikipedia":"en:Lidl"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.31357,52.53104],[-0.31047,52.5322],[-0.3099,52.53165],[-0.30961,52.53176],[-0.3095,52.53165],[-0.30982,52.53153],[-0.30896,52.53068],[-0.31203,52.52953],[-0.31357,52.53104]]]]}}
+]
+}

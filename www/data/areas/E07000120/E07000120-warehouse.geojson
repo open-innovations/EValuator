@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"91728509","name":"Bensons For Beds","building":"warehouse","other":{"addr:city":"Accrington","addr:postcode":"BB5 6NJ","addr:street":"Bolton Avenue"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.35394,53.76979],[-2.35337,53.76953],[-2.35404,53.769],[-2.35413,53.76904],[-2.35487,53.76846],[-2.35535,53.76867],[-2.35394,53.76979]]]]}}
+]
+}

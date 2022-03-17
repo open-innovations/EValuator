@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"312857025","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.3272,53.19541],[-1.32714,53.19516],[-1.32668,53.1952],[-1.32675,53.19552],[-1.32703,53.19549],[-1.32701,53.19542],[-1.3272,53.19541]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"399669176","name":"Dronfield Delivery Office","amenity":"post_depot","building":"warehouse","other":{"operator":"Royal Mail"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.45258,53.30017],[-1.45266,53.30015],[-1.45264,53.30012],[-1.45303,53.3],[-1.45295,53.2999],[-1.45248,53.30004],[-1.45258,53.30017]]]]}}
+]
+}

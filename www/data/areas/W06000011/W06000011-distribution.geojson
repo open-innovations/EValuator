@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"157272233","name":"Menzies Distribution","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -3.90442,51.67418],[-3.90383,51.67404],[-3.90421,51.67342],[-3.90467,51.67353],[-3.9045,51.67381],[-3.90462,51.67383],[-3.90442,51.67418]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"157272233","name":"Menzies Distribution","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.90442,51.67418],[-3.90462,51.67383],[-3.9045,51.67381],[-3.90467,51.67353],[-3.90421,51.67342],[-3.90383,51.67404],[-3.90442,51.67418]]]]}}
 ]
 }

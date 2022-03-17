@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"60954219","name":"Jewson","building":"warehouse","shop":"building_materials","other":{"addr:city":"Guildford","addr:country":"GB","addr:postcode":"GU1 4UB","addr:street":"Walnut Tree Close","fhrs:authority":"Guildford","fhrs:id":"700432","fhrs:local_authority_id":"4424","phone":"+44 1483 560066"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.58205,51.24142],[-0.58174,51.24146],[-0.58151,51.24071],[-0.58229,51.24061],[-0.58236,51.24085],[-0.58196,51.2409],[-0.58207,51.24124],[-0.58199,51.24125],[-0.58205,51.24142]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"165284055","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.65655,51.31059],[-0.65609,51.31051],[-0.65612,51.31045],[-0.65614,51.3104],[-0.6566,51.31049],[-0.65655,51.31059]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"202594300","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.4834,51.32536],[-0.48304,51.32512],[-0.48335,51.32494],[-0.48359,51.3251],[-0.48369,51.32504],[-0.48382,51.32512],[-0.4834,51.32536]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"744372047","name":"Big Yellow Self Storage","building":"warehouse","shop":"storage_rental","other":{"addr:housenumber":"3","addr:street":"Woodbridge Meadows","brand":"Big Yellow Self Storage","brand:wikidata":"Q4906703","brand:wikipedia":"en:Big Yellow Group"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.58337,51.24659],[-0.5834,51.24681],[-0.58299,51.24683],[-0.58301,51.247],[-0.58387,51.24696],[-0.58382,51.24657],[-0.58337,51.24659]]]]}}
+]
+}

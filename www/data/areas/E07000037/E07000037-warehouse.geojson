@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"8035124","name":"Whaley Bridge Wharf","building":"warehouse","other":{"addr:city":"Whaley Bridge","addr:housename":"Transhipment Warehouse","addr:postcode":"SK23 7LS","addr:street":"Canal Street","description":"Grade 2* historic building","phone":"+44 7920 253075","website":"https:\/\/www.whaleybridgecanal.org"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.98374,53.33136],[-1.98382,53.33164],[-1.9837,53.33165],[-1.98358,53.33166],[-1.9835,53.33138],[-1.98363,53.33137],[-1.98374,53.33136]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"308465557","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.95303,53.38461],[-1.95282,53.38459],[-1.95288,53.38442],[-1.95293,53.38443],[-1.95295,53.38439],[-1.9531,53.38442],[-1.95303,53.38461]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"308469155","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.94468,53.3794],[-1.94461,53.37943],[-1.9445,53.37932],[-1.94457,53.3793],[-1.94468,53.3794]]]]}}
+]
+}

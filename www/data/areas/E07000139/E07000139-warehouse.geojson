@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"263634136","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.3633,53.06028],[-0.36324,53.06021],[-0.36311,53.06025],[-0.36318,53.06032],[-0.3633,53.06028]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"263634140","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.371,53.06448],[-0.37067,53.06456],[-0.37023,53.06389],[-0.37056,53.06381],[-0.371,53.06448]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"263634145","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.36371,53.06089],[-0.36356,53.06093],[-0.36354,53.06093],[-0.36341,53.06073],[-0.36347,53.06071],[-0.36358,53.06069],[-0.36371,53.06089]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"263634146","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.3639,53.05996],[-0.36376,53.05999],[-0.36365,53.05984],[-0.36379,53.0598],[-0.3639,53.05996]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"263634148","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.37047,53.0646],[-0.37022,53.06466],[-0.36979,53.06399],[-0.37011,53.06391],[-0.37053,53.06455],[-0.37047,53.0646]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"263634151","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.36341,53.06039],[-0.3633,53.06028],[-0.36318,53.06032],[-0.36314,53.06033],[-0.36324,53.06044],[-0.36341,53.06039]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"460251089","name":"Lincolnshire Road Transport Museum","building":"warehouse","tourism":"museum","other":{"addr:city":"North Hykeham","addr:postcode":"LN6 3QT","addr:street":"Whisby Road","designation":"Transport Museum","museum":"transport","operator":"Lincolnshire Vintage Vehicle Society"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.59681,53.20208],[-0.59713,53.20195],[-0.59778,53.20256],[-0.59742,53.2027],[-0.59732,53.2026],[-0.59743,53.20256],[-0.59718,53.20233],[-0.59711,53.20236],[-0.59681,53.20208]]]]}}
+]
+}

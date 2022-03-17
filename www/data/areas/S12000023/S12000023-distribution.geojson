@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"75115961","name":"Northwards Ltd Transport and Distribution","building":"yes","other":{"addr:city":"Hatston, Kirkwall","addr:postcode":"KW15 1GP","addr:street":"Skua Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.97387,58.98953],[-2.97321,58.98918],[-2.97361,58.98898],[-2.97426,58.98933],[-2.97387,58.98953]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"75115966","name":"JBT Distribution Ltd","building":"commercial","other":{"addr:city":"Kirkwall","addr:housenumber":"10","addr:postcode":"KW15 1GP","addr:street":"Skua Road","smoking":"no"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.97406,58.98906],[-2.97369,58.98886],[-2.97406,58.98867],[-2.97415,58.98871],[-2.97443,58.98886],[-2.97406,58.98906]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"204393694","name":"Electricity Distribution Site","building":"yes","other":{"addr:postcode":"KW17 2PR"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.98329,59.158],[-2.98327,59.15795],[-2.98311,59.15797],[-2.98313,59.15802],[-2.98329,59.158]]]]}}
+]
+}

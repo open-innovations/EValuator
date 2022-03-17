@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"29120415","name":"Ocado Customer Fulfillment Centre","building":"warehouse","other":{"addr:city":"Erith","addr:postcode":"DA8 1DE","addr:street":"Church Manorway"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.16327,51.49626],[0.16569,51.49575],[0.16562,51.49559],[0.16588,51.49554],[0.1654,51.49462],[0.16515,51.49421],[0.16504,51.49422],[0.16495,51.49403],[0.16505,51.494],[0.16483,51.4936],[0.16333,51.4939],[0.1633,51.49384],[0.16198,51.49413],[0.16246,51.495],[0.16256,51.49498],[0.16327,51.49626]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"124406429","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.75694,54.65743],[-2.7568,54.65739],[-2.75675,54.65745],[-2.75689,54.65749],[-2.75694,54.65743]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"238858992","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.75605,54.65699],[-2.75603,54.65699],[-2.75602,54.65691],[-2.75608,54.65691],[-2.7561,54.65699],[-2.75605,54.65699]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"337589829","name":"Dominos Supply Chain Warehouse","building":"warehouse","other":{"addr:city":"Penrith","addr:street":"Hartness Road","website":"https:\/\/corporate.dominos.co.uk\/Supply-chain-centres"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.77195,54.66506],[-2.77226,54.66584],[-2.77271,54.66578],[-2.7724,54.665],[-2.77195,54.66506]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"546779655","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.75583,54.65313],[-2.7563,54.65321],[-2.75634,54.65313],[-2.75587,54.65305],[-2.75583,54.65313]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"546779656","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.75652,54.65322],[-2.75679,54.65336],[-2.75721,54.65308],[-2.75696,54.65295],[-2.75652,54.65322]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"546779657","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.75633,54.65265],[-2.75658,54.65277],[-2.7572,54.65236],[-2.75695,54.65223],[-2.75633,54.65265]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"965771148","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.75759,54.65253],[-2.75749,54.65249],[-2.75722,54.65267],[-2.75731,54.65272],[-2.75759,54.65253]]]]}}
+]
+}

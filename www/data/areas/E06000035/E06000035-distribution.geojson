@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"61751472","name":"Yearsley Group Cold storage and Distribution","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ 0.57235,51.36645],[0.57252,51.3664],[0.57248,51.36634],[0.5734,51.36607],[0.57334,51.36599],[0.57335,51.36599],[0.57298,51.36551],[0.57188,51.36584],[0.57235,51.36645]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"61751472","name":"Yearsley Group Cold storage and Distribution","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.57235,51.36645],[0.57188,51.36584],[0.57298,51.36551],[0.57335,51.36599],[0.57334,51.36599],[0.5734,51.36607],[0.57248,51.36634],[0.57252,51.3664],[0.57235,51.36645]]]]}}
 ]
 }

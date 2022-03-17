@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"391169254","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.78783,51.53152],[0.7907,51.53195],[0.79129,51.53204],[0.79101,51.53133],[0.79094,51.53132],[0.78807,51.53089],[0.78783,51.53152]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"693958282","name":"AutoRama Garage","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.71009,51.54753],[0.71048,51.54761],[0.71059,51.54745],[0.71019,51.54737],[0.71009,51.54753]]]]}}
+]
+}

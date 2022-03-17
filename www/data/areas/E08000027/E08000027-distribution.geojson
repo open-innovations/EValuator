@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"33822730","name":"Co-operative Retail Logistics Halesowen Regional Distribution Centre","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -2.04711,52.46244],[-2.04663,52.46281],[-2.04651,52.46275],[-2.04642,52.46282],[-2.04491,52.46209],[-2.04547,52.46165],[-2.04711,52.46244]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"33822730","name":"Co-operative Retail Logistics Halesowen Regional Distribution Centre","building":"industrial"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.04711,52.46244],[-2.04547,52.46165],[-2.04491,52.46209],[-2.04642,52.46282],[-2.04651,52.46275],[-2.04663,52.46281],[-2.04711,52.46244]]]]}}
 ]
 }

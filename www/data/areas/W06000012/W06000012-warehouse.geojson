@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"31235882","name":"Amazon Warehouse","building":"warehouse","other":{"addr:city":"Swansea","addr:postcode":"SA1 8QX","addr:street":"Ffordd Amazon"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.86711,51.62509],[-3.86708,51.62509],[-3.86568,51.6253],[-3.86505,51.62539],[-3.86501,51.6253],[-3.86442,51.62539],[-3.86438,51.6254],[-3.86433,51.6254],[-3.86368,51.6255],[-3.86371,51.62558],[-3.86345,51.62562],[-3.86351,51.62577],[-3.8629,51.62586],[-3.86284,51.62571],[-3.86168,51.62588],[-3.86103,51.6242],[-3.86308,51.62389],[-3.86312,51.62399],[-3.86447,51.62379],[-3.86443,51.62369],[-3.86645,51.62339],[-3.86711,51.62509]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1038701866","name":"Bay Studios Unit 1 - First GB Logistics","building":"warehouse","other":{"addr:city":"Swansea","addr:housename":"Unit 1 Main Building, Bay Studios Business Park","addr:postcode":"SA11 8QB 8QX","addr:street":"Fabian Way"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.87806,51.62256],[-3.87779,51.6226],[-3.87793,51.62292],[-3.87559,51.62329],[-3.87528,51.6225],[-3.87733,51.62216],[-3.87784,51.62207],[-3.87806,51.62256]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1038701867","name":"Bay Studios Units 2 & 3 - Sabai Living","building":"warehouse","other":{"addr:city":"Swansea","addr:housename":"Main Building, Bay Studios Business Park","addr:postcode":"SA1 8QB","addr:street":"Fabian Way"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.87714,51.62168],[-3.87506,51.62201],[-3.87528,51.6225],[-3.87733,51.62216],[-3.87714,51.62168]]]]}}
+]
+}

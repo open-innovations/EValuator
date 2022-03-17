@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"225096155","building":"warehouse","other":{"addr:postcode":"GL6 6PZ;GL6 6YN;GL6 6ZQ","building:levels":"1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.2218,51.75309],[-2.22167,51.75308],[-2.22166,51.75313],[-2.22131,51.75311],[-2.22143,51.75251],[-2.22197,51.75256],[-2.22191,51.75285],[-2.22185,51.75285],[-2.2218,51.75309]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"684655056","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.19419,51.69154],[-2.19429,51.69134],[-2.19427,51.69133],[-2.19438,51.69108],[-2.19466,51.69112],[-2.19456,51.69134],[-2.19442,51.69132],[-2.19431,51.69156],[-2.19419,51.69154]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"700838557","name":"Wallbridge warehouse","building":"warehouse","other":{"HE_ref":"1399895","disused":"yes","start_date":"1828","wikidata":"Q26675393"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.22015,51.74384],[-2.21998,51.74377],[-2.2199,51.74383],[-2.22008,51.74389],[-2.22015,51.74384]]]]}}
+]
+}

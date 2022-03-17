@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"263492438","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.63374,51.1041],[0.63355,51.10412],[0.63353,51.10406],[0.63346,51.10407],[0.63344,51.10401],[0.6337,51.10398],[0.63374,51.1041]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"699081503","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.89717,51.1537],[0.89786,51.15389],[0.89815,51.1535],[0.89798,51.15345],[0.89809,51.15329],[0.89756,51.15315],[0.89717,51.1537]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"758637322","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.10943,51.38953],[0.10936,51.38932],[0.10851,51.38945],[0.10859,51.38965],[0.10943,51.38953]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"847723769","building":"house"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.88047,51.13169],[0.88054,51.13166],[0.88048,51.1316],[0.88041,51.13162],[0.88047,51.13169]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"912467088","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.79172,51.01425],[0.79149,51.01423],[0.79158,51.01382],[0.79182,51.01385],[0.79172,51.01425]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"912544655","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.85977,51.05959],[0.86014,51.05961],[0.86018,51.0594],[0.85983,51.05937],[0.85977,51.05959]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"912544656","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.85994,51.05981],[0.86014,51.05983],[0.86018,51.05972],[0.85998,51.0597],[0.85994,51.05981]]]]}}
+]
+}

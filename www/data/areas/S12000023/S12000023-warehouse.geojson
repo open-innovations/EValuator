@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"180191661","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.00221,53.19797],[-1.0018,53.19806],[-1.00152,53.19761],[-1.00193,53.19752],[-1.00221,53.19797]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"337050009","name":"A Flett Builders","building":"warehouse","other":{"addr:city":"St Mary's","addr:postcode":"KW17 2RU"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.91027,58.8968],[-2.9101,58.89679],[-2.91015,58.8965],[-2.91032,58.89651],[-2.91027,58.8968]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"919310144","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.1022,58.99774],[-3.10212,58.99773],[-3.10214,58.99771],[-3.10221,58.99772],[-3.1022,58.99774]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"919377810","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.95511,58.98264],[-2.9547,58.98251],[-2.95478,58.98244],[-2.9552,58.98258],[-2.95511,58.98264]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"937321558","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.97573,58.98847],[-2.97557,58.98855],[-2.97519,58.98837],[-2.97534,58.98828],[-2.97573,58.98847]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"937321559","name":"Birsay Farmers Ltd","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.97612,58.98866],[-2.97609,58.98865],[-2.97597,58.98871],[-2.97588,58.98867],[-2.976,58.9886],[-2.97573,58.98847],[-2.97534,58.98828],[-2.97546,58.98822],[-2.97623,58.9886],[-2.97612,58.98866]]]]}}
+]
+}

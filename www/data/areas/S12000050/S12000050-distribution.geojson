@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"131721072","name":"Royal Mail Scottish Distribution Centre","building":"yes","other":{"railway":"depot"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.94827,55.77312],[-3.9482,55.7732],[-3.94898,55.77349],[-3.95081,55.77423],[-3.95153,55.77455],[-3.95164,55.77449],[-3.95087,55.77413],[-3.95154,55.77363],[-3.94978,55.7729],[-3.94911,55.77342],[-3.94827,55.77312]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"204264608","name":"Cooperative Food Distribution Centre","amenity":"parking","other":{"access":"private","parking":"surface"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.9385,55.83098],[-3.93896,55.83087],[-3.93941,55.83076],[-3.93863,55.82971],[-3.93699,55.8301],[-3.93688,55.83012],[-3.9372,55.83055],[-3.93804,55.83035],[-3.9385,55.83098]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"936374409","name":"Lidl Distribution Centre","building":"warehouse","other":{"addr:country":"GB","addr:housenumber":"2","addr:postcode":"ML1 4YF","addr:street":"Coddington Crescent","brand":"Lidl","brand:wikidata":"Q151954","brand:wikipedia":"en:Lidl","building:levels":"4","fhrs:id":"1199515","operator":"Lidl Great Britain Ltd","roof:levels":"1","roof:shape":"many"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.97623,55.82547],[-3.97616,55.82526],[-3.97375,55.82553],[-3.97497,55.82888],[-3.9749,55.82889],[-3.975,55.82917],[-3.97712,55.82893],[-3.97702,55.82866],[-3.97714,55.82865],[-3.97599,55.8255],[-3.97623,55.82547]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"944792598","name":"NHS NSS National Distribution centre","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.98826,55.83033],[-3.98805,55.82938],[-3.98589,55.82954],[-3.9861,55.83048],[-3.98826,55.83033]]]]}}
+]
+}

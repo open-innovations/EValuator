@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"282936974","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-4.06666,50.80645],[-4.06665,50.80625],[-4.06644,50.80623],[-4.06647,50.80645],[-4.06666,50.80645]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"398891439","building":"warehouse","other":{"building:cladding":"paint","building:colour":"green","building:levels":"1","building:structure":"cement_block","description":"Range stores.","operator":"Ministry of Defence","roof:material":"roofing_felt","roof:shape":"flat","roof:structure":"wood"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-4.07949,50.63191],[-4.07956,50.63202],[-4.07953,50.63203],[-4.07955,50.63205],[-4.0795,50.63207],[-4.0794,50.63193],[-4.07949,50.63191]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"827499173","name":"Willswothy Range Control","building":"warehouse","other":{"building:cladding":"paint","building:colour":"green","building:levels":"1","building:structure":"cement_block","description":"Range control post.","operator":"Ministry of Defence","roof:colour":"grey","roof:material":"slate","roof:orientation":"ENE","roof:shape":"skillion","roof:structure":"wood_frame"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-4.07946,50.6319],[-4.07939,50.63192],[-4.07935,50.63186],[-4.07942,50.63184],[-4.07946,50.6319]]]]}}
+]
+}

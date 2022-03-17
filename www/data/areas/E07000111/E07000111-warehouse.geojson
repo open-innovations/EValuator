@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"27763767","name":"Healthcare at Home","building":"warehouse","other":{"addr:city":"Sevenoaks","addr:postcode":"TN14 5DF","addr:street":"Vestry Road","addr:unit":"7"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.19526,51.29478],[0.19555,51.29474],[0.19547,51.29449],[0.19519,51.29452],[0.19526,51.29478]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"27763780","name":"Tacwise Group PLC","building":"warehouse","other":{"addr:city":"Sevenoaks","addr:street":"Vestry Road","addr:unit":"1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.19531,51.29658],[0.1952,51.29615],[0.19581,51.29609],[0.19595,51.29652],[0.19531,51.29658]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"152789442","building":"warehouse","other":{"addr:postcode":"TN16 1DE","addr:street":"The Flyers Way"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.07473,51.27125],[0.07473,51.27111],[0.07468,51.27111],[0.07469,51.2708],[0.07488,51.2708],[0.07488,51.27064],[0.07488,51.27057],[0.07533,51.27057],[0.07531,51.27096],[0.07536,51.27096],[0.07535,51.27112],[0.07516,51.27112],[0.07516,51.27125],[0.07473,51.27125]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"152789449","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.07616,51.27101],[0.07621,51.27095],[0.07636,51.27077],[0.07692,51.27095],[0.0766,51.27133],[0.07648,51.2713],[0.07616,51.27101]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"317837826","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.07648,51.27022],[0.07673,51.26992],[0.0759,51.26964],[0.07565,51.26994],[0.07648,51.27022]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1032651204","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.16939,51.4083],[0.16947,51.40834],[0.16933,51.40844],[0.16964,51.4086],[0.17038,51.40801],[0.16999,51.40782],[0.16939,51.4083]]]]}}
+]
+}

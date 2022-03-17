@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"309648671","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.21319,53.13155],[-1.21257,53.13152],[-1.21192,53.13148],[-1.21197,53.1312],[-1.21263,53.13124],[-1.21324,53.13128],[-1.21319,53.13155]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"311891175","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.19199,53.14173],[-1.19153,53.14162],[-1.19185,53.14112],[-1.19231,53.14123],[-1.19199,53.14173]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"318012798","name":"Mitchells","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.21566,53.131],[-1.21564,53.13072],[-1.21596,53.13071],[-1.21599,53.13099],[-1.21566,53.131]]]]}}
+]
+}

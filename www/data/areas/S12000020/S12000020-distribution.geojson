@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"108557413","name":"Benchmark Distribution Ltd","building":"industrial"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.89145,52.49113],[-1.8916,52.49065],[-1.89169,52.49037],[-1.892,52.4904],[-1.89187,52.49084],[-1.89184,52.49092],[-1.89176,52.49117],[-1.89145,52.49113]]]]}}
+]
+}

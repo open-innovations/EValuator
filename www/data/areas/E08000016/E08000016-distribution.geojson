@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"69000465","name":"Distribution Centre","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -1.50277,53.54864],[-1.5019,53.54814],[-1.50221,53.54796],[-1.50077,53.54712],[-1.50153,53.54666],[-1.50382,53.54801],[-1.50277,53.54864]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"69000465","name":"Distribution Centre","building":"industrial"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.50277,53.54864],[-1.50382,53.54801],[-1.50153,53.54666],[-1.50077,53.54712],[-1.50221,53.54796],[-1.5019,53.54814],[-1.50277,53.54864]]]]}}
 ]
 }

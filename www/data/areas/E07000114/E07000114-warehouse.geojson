@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"339731310","name":"Brewers Merchants","building":"warehouse","other":{"building:levels":"1","roof:levels":"0"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[1.39573,51.38753],[1.39558,51.38737],[1.39536,51.38745],[1.39552,51.38761],[1.39573,51.38753]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"548989371","name":"Flambeau Europlast Ltd","building":"warehouse","other":{"BLR:SiteNameAddress":"Flambeau Europlast Ltd, Manston Road, Ramsgate, CT12 6HW","addr:city":"Ramsgate","addr:postcode":"CT12 6HW","addr:street":"Manston Road","building:levels":"1","check_date":"2018-12-17","disused":"yes","ref:BLR":"OLTH150187","roof:levels":"0","roof:shape":"gabled"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[1.39102,51.34045],[1.39117,51.33951],[1.39379,51.33968],[1.39375,51.33989],[1.39333,51.33985],[1.3933,51.34],[1.39286,51.33997],[1.39283,51.34013],[1.3924,51.3401],[1.39238,51.34025],[1.39195,51.34022],[1.3919,51.34037],[1.39145,51.34035],[1.39142,51.3405],[1.39102,51.34045]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"993059754","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.38729,51.33916],[1.38736,51.33891],[1.38858,51.33905],[1.38851,51.33929],[1.38729,51.33916]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"993059755","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.38678,51.33979],[1.38731,51.33952],[1.38773,51.33986],[1.38726,51.34008],[1.38737,51.34015],[1.38728,51.34021],[1.38678,51.33979]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"993059769","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.40942,51.34236],[1.40959,51.34226],[1.40961,51.34228],[1.40978,51.34243],[1.4098,51.34244],[1.40963,51.34253],[1.40942,51.34236]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"993059770","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.40961,51.34228],[1.40975,51.34221],[1.40984,51.34228],[1.40993,51.34236],[1.40978,51.34243],[1.40961,51.34228]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"993059771","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.40975,51.34221],[1.40993,51.34213],[1.41001,51.34219],[1.40984,51.34228],[1.40975,51.34221]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"993059772","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.4092,51.34219],[1.40936,51.34231],[1.40985,51.34207],[1.40969,51.34193],[1.4092,51.34219]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1030216182","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.39133,51.39006],[1.39172,51.39001],[1.39168,51.38987],[1.39129,51.38992],[1.39133,51.39006]]]]}}
+]
+}

@@ -1,6 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{ "type":"Feature","properties":{"osm_id":"9557402538","other":{"entrance":"main"}}, "geometry":{"type":"Point","coordinates":[-0.14583,51.60622 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"187728210","name":"Marathon Warehouse Distribution","building":"warehouse","other":{"addr:postcode":"N10 2PA","addr:street":"Hampden Road","operator":"Marathon Warehouse Distribution","operator:website":"http:\/\/www.mwd.uk.com"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.14604,51.60628],[-0.14595,51.60616],[-0.14585,51.60619],[-0.14586,51.60621],[-0.14583,51.60622],[-0.1457,51.60625],[-0.14582,51.60641],[-0.14579,51.60641],[-0.14584,51.60647],[-0.14591,51.60656],[-0.14592,51.60657],[-0.14614,51.6065],[-0.14598,51.6063],[-0.14604,51.60628]]]]}}
 ]
 }

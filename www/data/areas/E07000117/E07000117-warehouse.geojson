@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"799405263","building":"warehouse","other":{"addr:city":"Salford","addr:postcode":"M5 3EZ","addr:street":"Modwen Road","addr:unit":"8","building:levels":"2","building:material":"brick","roof:colour":"grey","roof:levels":"1","roof:material":"metal","roof:orientation":"across","roof:shape":"gabled"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.27767,53.46769],[-2.27751,53.46779],[-2.27748,53.46777],[-2.27746,53.46776],[-2.27743,53.46774],[-2.2774,53.46772],[-2.27738,53.46771],[-2.27735,53.46769],[-2.27733,53.46768],[-2.2773,53.46766],[-2.27728,53.46765],[-2.27721,53.46761],[-2.27738,53.46751],[-2.27767,53.46769]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"799405267","building":"warehouse","other":{"addr:city":"Salford","addr:postcode":"M5 3EZ","addr:street":"Modwen Road","addr:unit":"4","building:levels":"2","building:material":"brick","roof:colour":"grey","roof:levels":"1","roof:material":"metal","roof:orientation":"across","roof:shape":"gabled"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.27829,53.46792],[-2.27807,53.46805],[-2.27778,53.46788],[-2.27799,53.46775],[-2.27829,53.46792]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"799405268","building":"warehouse","other":{"addr:city":"Salford","addr:postcode":"M5 3EZ","addr:street":"Modwen Road","addr:unit":"6","building:levels":"2","building:material":"brick","roof:colour":"grey","roof:levels":"1","roof:material":"metal","roof:orientation":"across","roof:shape":"gabled"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.2785,53.4678],[-2.27829,53.46792],[-2.27799,53.46775],[-2.27821,53.46762],[-2.2785,53.4678]]]]}}
+]
+}

@@ -1,10 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_id":"691906488","z_order": 0, "other":{"power":"generator","location":"rooftop","generator:type":"solar_photovoltaic_panel","generator:method":"photovoltaic","generator:source":"solar","generator:output:electricity":"yes"}}, "geometry":{"type":"LineString","coordinates":[[0.02738,51.49199],[0.02733,51.49214],[0.02741,51.49215],[0.02739,51.49219],[0.02878,51.4924],[0.0288,51.49233],[0.02853,51.4923],[0.02858,51.49217],[0.02738,51.49199]]}},
-{ "type":"Feature","properties":{"osm_id":"691906489","z_order": 0, "other":{"power":"generator","location":"rooftop","generator:type":"solar_photovoltaic_panel","generator:method":"photovoltaic","generator:source":"solar","generator:output:electricity":"yes"}}, "geometry":{"type":"LineString","coordinates":[[0.02569,51.49175],[0.02563,51.49188],[0.026,51.49194],[0.02605,51.492],[0.027,51.49214],[0.02707,51.49195],[0.02569,51.49175]]}},
-{ "type":"Feature","properties":{"osm_id":"691906490","z_order": 0, "other":{"power":"generator","location":"rooftop","generator:type":"solar_photovoltaic_panel","generator:method":"photovoltaic","generator:source":"solar","generator:output:electricity":"yes"}}, "geometry":{"type":"LineString","coordinates":[[0.02538,51.49258],[0.02854,51.49303],[0.02864,51.49278],[0.02548,51.49232],[0.02538,51.49258]]}},
-{ "type":"Feature","properties":{"osm_way_id":"165335080","name":"Menzies Distribution","building":"commercial","other":{"roof:orientation":"along","roof:shape":"gabled"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.01073,51.49159],[0.01129,51.49162],[0.01138,51.49103],[0.01082,51.49099],[0.01073,51.49159]] ]}},
-{ "type":"Feature","properties":{"osm_way_id":"530037883","name":"Sainsbury's Distribution Centre","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ 0.0253,51.49259],[0.02862,51.49308],[0.02896,51.49221],[0.02564,51.49171],[0.0253,51.49259]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"165335080","name":"Menzies Distribution","building":"commercial","other":{"roof:orientation":"along","roof:shape":"gabled"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.01073,51.49159],[0.01129,51.49162],[0.01138,51.49103],[0.01082,51.49099],[0.01073,51.49159]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"530037883","name":"Sainsbury's Distribution Centre","building":"industrial"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.0253,51.49259],[0.02862,51.49308],[0.02896,51.49221],[0.02564,51.49171],[0.0253,51.49259]]]]}}
 ]
 }

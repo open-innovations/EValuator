@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_id":"5735211027","name":"Auto Partz Distribution","other":{"shop":"car_repair","service":"parts"}}, "geometry":{"type":"Point","coordinates":[-0.75485,51.63587 ]}},
-{ "type":"Feature","properties":{"osm_id":"5949407914","name":"Abbey Distribution","other":{"website":"http:\/\/www.abbeydistribution.co.uk\/","industrial":"factory"}}, "geometry":{"type":"Point","coordinates":[-0.75507,51.63926 ]}}
+{ "type":"Feature","properties":{"osm_id":"5735211027","name":"Auto Partz Distribution","other":{"service":"parts","shop":"car_repair"}}, "geometry":{"type":"Point","coordinates":[-0.75485,51.63587 ]}},
+{ "type":"Feature","properties":{"osm_id":"5949407914","name":"Abbey Distribution","other":{"industrial":"factory","website":"http:\/\/www.abbeydistribution.co.uk\/"}}, "geometry":{"type":"Point","coordinates":[-0.75507,51.63926 ]}}
 ]
 }

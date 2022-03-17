@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"7630262306","other":{"amenity":"loading_dock"}}, "geometry":{"type":"Point","coordinates":[-1.56151,54.99496 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"166850034","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.58259,54.97161],[-1.58207,54.97169],[-1.58198,54.97148],[-1.58249,54.97141],[-1.58259,54.97161]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"391983513","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.70207,54.97414],[-1.70217,54.97394],[-1.70228,54.97396],[-1.70219,54.97416],[-1.70207,54.97414]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"397557730","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.72765,54.9769],[-1.72731,54.97679],[-1.72756,54.97653],[-1.72758,54.97653],[-1.7279,54.97664],[-1.72765,54.9769]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"397557978","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.72709,54.97726],[-1.72718,54.97717],[-1.72734,54.97722],[-1.7275,54.97705],[-1.72765,54.9769],[-1.72731,54.97679],[-1.72691,54.9772],[-1.72709,54.97726]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"400471764","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.57659,54.96599],[-1.57656,54.96627],[-1.57641,54.96626],[-1.57644,54.96599],[-1.57659,54.96599]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"400471765","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.57644,54.96599],[-1.57641,54.96626],[-1.57625,54.96626],[-1.57628,54.96598],[-1.57644,54.96599]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"400471766","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.57679,54.966],[-1.57676,54.96628],[-1.57656,54.96627],[-1.57659,54.96599],[-1.57679,54.966]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"400471767","name":"Warehouse No 1","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.57699,54.96631],[-1.57676,54.9663],[-1.57676,54.96628],[-1.57679,54.966],[-1.57702,54.96601],[-1.57699,54.96631]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"469375921","building":"warehouse","other":{"addr:city":"Newcastle upon Tyne","addr:street":"Industry Road","old_name":"1St Storage Centres"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.56222,54.99526],[-1.5616,54.9954],[-1.56149,54.99525],[-1.56168,54.9952],[-1.56151,54.99496],[-1.56142,54.99484],[-1.56184,54.99474],[-1.56222,54.99526]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"884491676","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.66362,55.04066],[-1.66355,55.04038],[-1.66301,55.04042],[-1.66307,55.0407],[-1.66362,55.04066]]]]}}
+]
+}

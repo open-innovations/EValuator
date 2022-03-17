@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"183157116","name":"Tesco Distribution Centre","building":"warehouse","other":{"height":"4"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.16796,51.52144],[0.16834,51.52254],[0.1666,51.52279],[0.16668,51.52301],[0.16635,51.52306],[0.16633,51.52299],[0.16574,51.52307],[0.16569,51.52291],[0.16401,51.52315],[0.1636,51.52204],[0.16796,51.52144]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"558340963","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.19791,51.55042],[0.19825,51.55048],[0.19839,51.55017],[0.19805,51.55011],[0.19791,51.55042]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"558340966","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.19824,51.55013],[0.19838,51.55016],[0.19841,51.55009],[0.19857,51.55012],[0.19854,51.55019],[0.19876,51.55023],[0.1988,51.55015],[0.19863,51.55012],[0.19872,51.54992],[0.19837,51.54986],[0.19824,51.55013]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"711269927","building":"warehouse","other":{"addr:city":"Rainham","addr:housename":"Unit 2, Segro Industrial Park","addr:postcode":"RM13 8HY","addr:street":"Consul Avenue","addr:unit":"2","building:levels":"2"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.17496,51.51888],[0.17569,51.51941],[0.17651,51.51898],[0.17578,51.51844],[0.17496,51.51888]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"711269928","name":"Babcock Rainham","building":"warehouse","other":{"addr:city":"Rainham","addr:housename":"Segro Industrial Park","addr:postcode":"RM13 8HY","addr:street":"Consul Avenue","addr:unit":"1","building:levels":"2"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.17427,51.51925],[0.17499,51.51978],[0.17567,51.51943],[0.17494,51.5189],[0.17427,51.51925]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"711269930","name":"MEP Plant Hire","building":"warehouse","other":{"addr:city":"Rainham","addr:housename":"Unit 5, Segro Industrial Park","addr:postcode":"RM13 8HY","addr:street":"Consul Avenue","addr:unit":"5","building:levels":"2"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.17544,51.5201],[0.17589,51.52042],[0.17635,51.52017],[0.17584,51.5198],[0.1756,51.51993],[0.17567,51.51998],[0.17544,51.5201]]]]}}
+]
+}

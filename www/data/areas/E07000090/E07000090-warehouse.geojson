@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"543231124","name":"Europa Worldwide Group","building":"warehouse","other":{"addr:postcode":"DA1 5PZ","addr:street":"Albion Road","building:colour":"grey","building:levels":"2","building:material":"metal","height":"10","roof:colour":"white","roof:height":"1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.24192,51.46356],[0.24459,51.46229],[0.24461,51.46231],[0.24466,51.46228],[0.2449,51.46247],[0.24484,51.4625],[0.24506,51.46268],[0.24531,51.46288],[0.24546,51.463],[0.24407,51.46366],[0.24392,51.46354],[0.24265,51.46415],[0.2424,51.46394],[0.24216,51.46375],[0.24192,51.46356]]]]}}
+]
+}

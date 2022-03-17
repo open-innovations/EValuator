@@ -7,25 +7,27 @@
 		"url": "https://download.geofabrik.de/europe/great-britain-latest.osm.pbf",
 		"file": "raw/great-britain-latest.pbf",
 		"o5m": "raw/great-britain-latest.o5m",
-		"rebuild": true,
 		"extracts":{
-			"supermarket": {
-				"steps": ["--keep=\"shop=supermarket\" --drop=\"entrance= amenity=atm barrier=\""],
-				"file": "raw/GB-supermarket.o5m",
-				"layers": ["points","multipolygons","polygons"]
-			},
-			"parking": {
-				"steps": ["--keep= --keep-ways=\"amenity=parking\" --drop=\"barrier= or entrance=\""],
-				"file": "raw/GB-parking.o5m",
-				"layers": ["points","multipolygons","polygons"]
-			},
 			"distribution": {
 				"steps": ["--keep=\"name=*Distribution*\" --drop=\"amenity=loading_dock or power=generator\" --drop-relations"],
-				"file": "raw/GB-distribution.o5m"
+				"file": "raw/GB-distribution.o5m",
+				"layers": ["points","polygons","multipolygons"]
+			},
+			"parking": {
+				"steps": ["--keep=\"amenity=parking\" --drop=\"barrier= or entrance=\" --drop-relations"],
+				"file": "raw/GB-parking.o5m",
+				"layers": ["points","polygons","multipolygons"],
+				"rebuild": true
+			},
+			"supermarket": {
+				"steps": ["--keep=\"shop=supermarket\" --drop=\"entrance= amenity=atm barrier=\" --drop-relations"],
+				"file": "raw/GB-supermarket.o5m",
+				"layers": ["points","polygons","multipolygons"]
 			},
 			"warehouse": {
-				"steps": ["--keep=\"building=warehouse\" --drop=\"entrance= barrier=\""],
-				"file": "raw/GB-warehouse.o5m"
+				"steps": ["--keep=\"building=warehouse\" --drop=\"entrance= barrier=\" --drop-relations"],
+				"file": "raw/GB-warehouse.o5m",
+				"layers": ["points","polygons","multipolygons"]
 			}
 		}
 	},
@@ -38,6 +40,11 @@
 		"LAD": {
 			"url": "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/LAD21CD/%CODE%.geojsonl",
 			"dir": "../geography-bits/data/LAD21CD/",
+			"file": "%CODE%.geojsonl"
+		},
+		"CAUTH": {
+			"url": "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/CAUTH21CD/%CODE%.geojsonl",
+			"dir": "../geography-bits/data/CAUTH21CD/",
 			"file": "%CODE%.geojsonl"
 		}
 	},

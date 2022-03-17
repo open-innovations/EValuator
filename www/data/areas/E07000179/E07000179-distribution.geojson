@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"58306940","name":"Accord Healthcare Distribution Centre","building":"yes","other":{"addr:city":"Didcot","addr:housename":"Accord Distribution Centre","addr:postcode":"OX11 7WB","addr:street":"Collett","building:levels":"0","operator":"Accord Healthcare"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.25065,51.61582],[-1.24916,51.617],[-1.24898,51.61691],[-1.24883,51.61703],[-1.24803,51.61664],[-1.24798,51.61662],[-1.24813,51.6165],[-1.24794,51.61641],[-1.24942,51.61523],[-1.25065,51.61582]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"58306940","name":"Accord Healthcare Distribution Centre","building":"yes","other":{"addr:city":"Didcot","addr:housename":"Accord Distribution Centre","addr:postcode":"OX11 7WB","addr:street":"Collett","building:levels":"0","operator":"Accord Healthcare"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.25065,51.61582],[-1.24942,51.61523],[-1.24794,51.61641],[-1.24813,51.6165],[-1.24798,51.61662],[-1.24803,51.61664],[-1.24883,51.61703],[-1.24898,51.61691],[-1.24916,51.617],[-1.25065,51.61582]]]]}}
 ]
 }

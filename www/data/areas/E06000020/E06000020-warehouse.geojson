@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"451121385","building":"warehouse","other":{"architect":"Thomas Telford","building:levels":"2","start_date":"1830","website":"http:\/\/cms.snct.co.uk\/wappenshall-wharf"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.50042,52.72792],[-2.50024,52.72788],[-2.50029,52.72779],[-2.50047,52.72783],[-2.50042,52.72792]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"451121386","building":"warehouse","other":{"building:levels":"3","start_date":"1830","website":"http:\/\/cms.snct.co.uk\/wappenshall-wharf"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.50069,52.72794],[-2.50058,52.7279],[-2.5007,52.72779],[-2.50073,52.72777],[-2.50074,52.72775],[-2.50076,52.72773],[-2.50088,52.72778],[-2.50084,52.72781],[-2.5008,52.72785],[-2.50069,52.72794]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"791525823","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.41116,52.6877],[-2.41119,52.68764],[-2.41087,52.68756],[-2.41083,52.68763],[-2.41116,52.6877]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1027678099","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.57295,52.70981],[-2.57286,52.70956],[-2.57268,52.70958],[-2.57259,52.70935],[-2.57144,52.70951],[-2.57158,52.70985],[-2.57203,52.70979],[-2.57206,52.70985],[-2.57252,52.70978],[-2.57255,52.70986],[-2.57295,52.70981]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1027678100","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.57149,52.70986],[-2.57141,52.70962],[-2.57113,52.70965],[-2.57121,52.7099],[-2.57149,52.70986]]]]}}
+]
+}

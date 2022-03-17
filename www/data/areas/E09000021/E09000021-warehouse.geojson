@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"890755625","name":"The Circulatory","building":"warehouse","other":{"addr:postcode":"KT5 8LS"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.28188,51.39855],[-0.28183,51.39846],[-0.2814,51.39854],[-0.28145,51.39863],[-0.28188,51.39855]]]]}}
+]
+}

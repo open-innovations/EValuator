@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"170090148","name":"Trago Mills Main Warehouse","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.66151,50.55713],[-3.66116,50.55714],[-3.66115,50.55709],[-3.66072,50.5571],[-3.66072,50.55716],[-3.66047,50.55717],[-3.66049,50.55766],[-3.66146,50.55765],[-3.66146,50.55761],[-3.66153,50.55761],[-3.66151,50.55713]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"170090158","name":"Trago Mills Furniture Warehouse","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.66151,50.55686],[-3.66149,50.5566],[-3.66047,50.55662],[-3.66049,50.55689],[-3.66074,50.55688],[-3.66074,50.55693],[-3.66118,50.55691],[-3.66118,50.55687],[-3.66151,50.55686]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"225376753","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.67485,50.58131],[-3.67485,50.58122],[-3.67478,50.58122],[-3.67479,50.58131],[-3.67485,50.58131]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"225376754","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.67496,50.58142],[-3.67495,50.58137],[-3.6748,50.58138],[-3.67481,50.58143],[-3.67496,50.58142]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"225376757","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.67522,50.58114],[-3.6752,50.58107],[-3.6749,50.5811],[-3.67492,50.58117],[-3.67522,50.58114]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"225376761","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.67528,50.5814],[-3.67524,50.5812],[-3.6751,50.58121],[-3.67514,50.58141],[-3.67528,50.5814]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"369010028","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.77434,50.48125],[-3.77427,50.48121],[-3.77437,50.48113],[-3.77444,50.48117],[-3.77434,50.48125]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"636918539","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.65296,50.54523],[-3.6529,50.54527],[-3.65266,50.54513],[-3.65271,50.54509],[-3.65296,50.54523]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"636918551","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.65253,50.54512],[-3.65263,50.54518],[-3.65246,50.5453],[-3.65237,50.54525],[-3.65253,50.54512]]]]}}
+]
+}

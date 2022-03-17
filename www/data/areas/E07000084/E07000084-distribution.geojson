@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"871722456","name":"Sainsbury's Distribution Centre","landuse":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -1.10667,51.27095],[-1.10646,51.27149],[-1.10626,51.27159],[-1.1042,51.27112],[-1.10344,51.27113],[-1.1034,51.27099],[-1.1053,51.27084],[-1.10583,51.27085],[-1.10667,51.27095]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"871722456","name":"Sainsbury's Distribution Centre","landuse":"industrial"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.10667,51.27095],[-1.10646,51.27149],[-1.10626,51.27159],[-1.1042,51.27112],[-1.10344,51.27113],[-1.1034,51.27099],[-1.1053,51.27084],[-1.10583,51.27085],[-1.10667,51.27095]]]]}}
 ]
 }

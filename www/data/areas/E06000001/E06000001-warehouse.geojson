@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"552837107","building":"warehouse","other":{"addr:street":"Tofts Farm Road East"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.20384,54.65096],[-1.2032,54.65118],[-1.20295,54.65094],[-1.20359,54.65071],[-1.20384,54.65096]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"552837108","building":"warehouse","other":{"addr:street":"Tofts Farm Road East"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.20343,54.65056],[-1.20279,54.65078],[-1.20254,54.65054],[-1.20318,54.65032],[-1.20343,54.65056]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"552837109","building":"warehouse","other":{"addr:street":"Tofts Farm Road East"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.20301,54.65018],[-1.20237,54.6504],[-1.20212,54.65016],[-1.20276,54.64994],[-1.20301,54.65018]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"552837110","building":"warehouse","other":{"addr:street":"Tofts Farm Road East"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.20261,54.64978],[-1.20195,54.65001],[-1.2017,54.64977],[-1.20236,54.64954],[-1.20261,54.64978]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"552837111","building":"warehouse","other":{"addr:street":"Tofts Farm Road East"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.2023,54.64949],[-1.20166,54.64972],[-1.2014,54.64948],[-1.20203,54.64924],[-1.2023,54.64949]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"552837113","name":"Sir Robert McAlpine","building":"warehouse","other":{"addr:street":"Tofts Road West"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.20393,54.64516],[-1.20369,54.64523],[-1.20355,54.64509],[-1.20378,54.64501],[-1.20393,54.64516]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"552837116","name":"Factory Cover Ltd","building":"warehouse","other":{"addr:street":"Tofts Road West","description":"Sheeting & Cladding Contractors"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.20564,54.64451],[-1.20539,54.64459],[-1.20524,54.64444],[-1.20549,54.64436],[-1.20564,54.64451]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"552837120","name":"G Abbott & Co Ltd","building":"warehouse","other":{"addr:street":"Brenda Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.207,54.65637],[-1.2067,54.65635],[-1.20679,54.65593],[-1.20628,54.6559],[-1.2063,54.6558],[-1.20711,54.65586],[-1.207,54.65637]]]]}}
+]
+}

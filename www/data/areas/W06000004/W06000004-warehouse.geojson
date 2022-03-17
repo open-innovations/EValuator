@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"3778736299","name":"Howden's Joinery","other":{"building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-3.48199,53.31219 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"60555626","name":"Fruit Import Terminal","building":"warehouse","other":{"mapseg:extra_node":"FIXME"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.74408,51.43927],[0.7443,51.4392],[0.74388,51.43865],[0.74409,51.43859],[0.74397,51.43843],[0.74374,51.43849],[0.74341,51.43805],[0.74083,51.4388],[0.74171,51.43998],[0.74395,51.43933],[0.744,51.43941],[0.74382,51.43947],[0.74409,51.43983],[0.74493,51.43959],[0.74473,51.43932],[0.74462,51.43935],[0.74455,51.43926],[0.74416,51.43937],[0.74408,51.43927]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"295287117","name":"Self-Storage","building":"warehouse","other":{"addr:city":"Rhyl","addr:housenumber":"209","addr:postcode":"LL18 1LR","addr:street":"Wellington Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.50063,53.31468],[-3.50049,53.31459],[-3.50008,53.31429],[-3.50024,53.31423],[-3.50044,53.31416],[-3.50055,53.31412],[-3.5006,53.31416],[-3.5004,53.31428],[-3.50047,53.31433],[-3.50053,53.31438],[-3.5006,53.31442],[-3.50064,53.31446],[-3.50069,53.31449],[-3.50073,53.31452],[-3.50085,53.31461],[-3.50063,53.31468]]]]}}
+]
+}

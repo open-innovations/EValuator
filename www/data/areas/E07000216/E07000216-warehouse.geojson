@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"57832033","name":"Redfern Park Delivery Office","building":"warehouse","other":{"addr:city":"Birmingham","addr:postcode":"B11 2DY","addr:street":"Redfern Road","operator":"Royal Mail"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.8343,52.45488],[-1.83386,52.45516],[-1.83379,52.45512],[-1.83375,52.45514],[-1.83358,52.45504],[-1.83362,52.45501],[-1.83351,52.45495],[-1.83395,52.45467],[-1.8343,52.45488]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"60267815","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.54222,51.19292],[-0.54223,51.19301],[-0.54228,51.19301],[-0.54228,51.19299],[-0.54237,51.19299],[-0.54236,51.19292],[-0.54233,51.19292],[-0.54233,51.1929],[-0.54225,51.19291],[-0.54225,51.19292],[-0.54222,51.19292]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"278711178","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.79322,51.21709],[-0.79338,51.21722],[-0.79372,51.21707],[-0.79356,51.21693],[-0.79322,51.21709]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"278711179","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.79338,51.21722],[-0.79372,51.21707],[-0.79394,51.21725],[-0.79359,51.21741],[-0.79338,51.21722]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"746404698","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.60829,51.19734],[-0.60816,51.19723],[-0.60794,51.19734],[-0.60807,51.19744],[-0.60829,51.19734]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"746404699","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.60832,51.19732],[-0.60857,51.19719],[-0.6084,51.19707],[-0.60815,51.1972],[-0.60832,51.19732]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"746404700","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.60885,51.19748],[-0.60876,51.1974],[-0.60863,51.19746],[-0.60872,51.19754],[-0.60885,51.19748]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"746404701","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.60907,51.19739],[-0.60902,51.19735],[-0.60903,51.19735],[-0.60896,51.19729],[-0.60889,51.19732],[-0.60889,51.19732],[-0.60895,51.19737],[-0.60889,51.1974],[-0.60894,51.19744],[-0.60898,51.19744],[-0.60907,51.19739]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"806843188","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.80125,51.20747],[-0.80107,51.20729],[-0.80184,51.20699],[-0.80199,51.207],[-0.80205,51.20697],[-0.80221,51.20713],[-0.80125,51.20747]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"819258487","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.81756,51.20145],[-0.81743,51.20165],[-0.81711,51.20182],[-0.81693,51.2019],[-0.81664,51.20164],[-0.81685,51.20156],[-0.81742,51.20133],[-0.81756,51.20145]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"819258488","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.81653,51.20153],[-0.81641,51.20141],[-0.81661,51.20134],[-0.81659,51.20132],[-0.81728,51.20099],[-0.81739,51.2011],[-0.81745,51.20116],[-0.81672,51.20145],[-0.81653,51.20153]]]]}}
+]
+}

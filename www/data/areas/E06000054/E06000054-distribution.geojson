@@ -3,6 +3,6 @@
 "features": [
 { "type":"Feature","properties":{"osm_id":"1643004490","highway":"traffic_signals"},"geometry":{"type":"Point","coordinates":[-1.80424,51.07241 ]}},
 { "type":"Feature","properties":{"osm_id":"3253406609","name":"Minton Distribution Park","other":{"building":"commercial"}}, "geometry":{"type":"Point","coordinates":[-1.76553,51.17667 ]}},
-{ "type":"Feature","properties":{"osm_id":"4473775","name":"TJ Morris - Amesbury Distribution Centre","type":"multipolygon","building":"commercial","other":{"addr:city":"Amesbury","addr:street":"Equinox Drive"}}, "geometry":{"type":"Polygon","coordinates":[[[ -1.75089,51.17422],[-1.75124,51.17411],[-1.75134,51.17421],[-1.75364,51.17341],[-1.7536,51.17319],[-1.75385,51.17311],[-1.75416,51.17352],[-1.7546,51.17342],[-1.75546,51.17447],[-1.75462,51.17472],[-1.75526,51.17545],[-1.75552,51.17539],[-1.75571,51.17567],[-1.75301,51.17656],[-1.75112,51.17427],[-1.75097,51.17433],[-1.75089,51.17422]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"995516991","building":"house","other":{"building:levels":"1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.97145,55.95436],[-2.97151,55.95435],[-2.97152,55.95437],[-2.9716,55.95435],[-2.97165,55.9544],[-2.97151,55.95444],[-2.97145,55.95436]]]]}}
 ]
 }

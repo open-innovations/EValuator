@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"188354390","building":"warehouse","other":{"building:levels":"1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.06954,50.8607],[0.06959,50.86061],[0.06966,50.86063],[0.06961,50.86071],[0.06954,50.8607]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"256498097","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.01385,50.87557],[0.01369,50.87577],[0.01375,50.8758],[0.01399,50.87589],[0.01402,50.87585],[0.01499,50.87618],[0.01521,50.87592],[0.01473,50.87576],[0.01466,50.87585],[0.01385,50.87557]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"648794035","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09265,50.94887],[-0.09327,50.949],[-0.09394,50.94776],[-0.09332,50.94763],[-0.09265,50.94887]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"648794037","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09185,50.94804],[-0.09165,50.94796],[-0.09218,50.9474],[-0.09238,50.94748],[-0.09185,50.94804]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"648794038","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09316,50.94667],[-0.09246,50.94737],[-0.09235,50.94732],[-0.09235,50.94731],[-0.09224,50.94727],[-0.09232,50.94719],[-0.09294,50.94658],[-0.09316,50.94667]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"648794040","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09293,50.94759],[-0.09326,50.94699],[-0.09343,50.94703],[-0.0931,50.94763],[-0.09293,50.94759]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"648794041","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09376,50.94705],[-0.09359,50.94758],[-0.09378,50.9476],[-0.09387,50.94728],[-0.09395,50.94729],[-0.09396,50.94723],[-0.0941,50.94725],[-0.09415,50.94709],[-0.09376,50.94705]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"648794042","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09231,50.94826],[-0.09203,50.94878],[-0.09244,50.94887],[-0.09272,50.94835],[-0.09231,50.94826]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"689967038","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.06304,50.96221],[-0.06331,50.96225],[-0.06335,50.96215],[-0.06308,50.96211],[-0.06304,50.96221]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"972603038","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.00947,50.90482],[-0.00958,50.90466],[-0.00932,50.90459],[-0.00922,50.90475],[-0.00947,50.90482]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"972603040","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.01005,50.90484],[-0.00967,50.90473],[-0.00972,50.90466],[-0.00975,50.90467],[-0.00986,50.90452],[-0.00995,50.90454],[-0.01013,50.90467],[-0.01007,50.90475],[-0.0101,50.90476],[-0.01005,50.90484]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"972603041","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.00956,50.90455],[-0.00939,50.9045],[-0.00956,50.90428],[-0.00972,50.90432],[-0.00956,50.90455]]]]}}
+]
+}

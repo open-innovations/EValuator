@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"891571097","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.71512,51.57764],[0.71517,51.57755],[0.71526,51.57757],[0.71521,51.57766],[0.71512,51.57764]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"891571098","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.71364,51.57777],[0.71376,51.57755],[0.71426,51.57765],[0.71414,51.57787],[0.71364,51.57777]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"891571120","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.71772,51.579],[0.71778,51.57884],[0.71787,51.57885],[0.71781,51.57901],[0.71772,51.579]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"917942276","building":"warehouse","other":{"building:levels":"2","building:material":"brick","roof:shape":"hipped"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[1.73031,52.59071],[1.73029,52.59077],[1.73049,52.5908],[1.73051,52.59074],[1.73031,52.59071]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"953186219","name":"Ipeco","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.68703,51.57475],[0.68911,51.57451],[0.68892,51.57387],[0.68685,51.5741],[0.68703,51.57475]]]]}}
+]
+}

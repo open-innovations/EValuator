@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"28693520","name":"ALAS Posture and Mobility Centre","amenity":"clinic","building":"warehouse","other":{"building:colour":"green","building:levels":"1","building:material":"metal","building:min_level":"1","roof:colour":"green","roof:levels":"1","roof:material":"metal","roof:orientation":"across","roof:shape":"gabled"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.29071,51.5717],[-3.29086,51.57182],[-3.29059,51.57196],[-3.29081,51.57213],[-3.29073,51.57217],[-3.2907,51.57218],[-3.29088,51.57231],[-3.29099,51.57226],[-3.29125,51.57212],[-3.29132,51.57208],[-3.29145,51.57202],[-3.2915,51.57199],[-3.29153,51.57197],[-3.29156,51.57196],[-3.29179,51.57184],[-3.29172,51.57179],[-3.29165,51.57174],[-3.29163,51.57172],[-3.29125,51.57143],[-3.29071,51.5717]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"175812734","name":"Merlin's Castle Play Centre","building":"warehouse","other":{"addr:housenumber":"Unit 17","addr:postcode":"CF72 9DZ","addr:street":"Ely Valley Industrial Estate"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.39446,51.52388],[-3.39422,51.52422],[-3.39404,51.52417],[-3.39428,51.52383],[-3.39446,51.52388]]]]}}
+]
+}

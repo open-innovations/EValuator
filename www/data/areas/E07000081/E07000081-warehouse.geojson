@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1693854573","name":"Partner Logistics Gloucester","other":{"addr:city":"Gloucester","addr:postcode":"GL4 3BW","addr:street":"Corinuim Avenue","building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-2.20459,51.86736 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"89573374","name":"Great Western Warehouse","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.25406,51.86181],[-2.25462,51.86197],[-2.25453,51.86208],[-2.25397,51.86192],[-2.25406,51.86181]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"91094811","name":"Allstone","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.22337,51.86232],[-2.22337,51.8626],[-2.2216,51.8626],[-2.2216,51.86232],[-2.22337,51.86232]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"91094812","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.2354,51.86459],[-2.23502,51.86483],[-2.23593,51.86536],[-2.2363,51.86512],[-2.2354,51.86459]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"120744295","name":"South Gloucester Delivery Office","amenity":"post_depot","building":"warehouse","other":{"addr:city":"Gloucester","addr:postcode":"GL2 4BB","addr:street":"Olympus Park","operator":"Royal Mail"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.27451,51.82805],[-2.27451,51.82807],[-2.27431,51.82804],[-2.27377,51.82799],[-2.27385,51.82769],[-2.27459,51.82776],[-2.27451,51.82805]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"400754574","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.25421,51.85956],[-2.25443,51.85965],[-2.25429,51.85983],[-2.25425,51.85982],[-2.25424,51.85984],[-2.25416,51.85985],[-2.25418,51.85989],[-2.25416,51.85992],[-2.25398,51.85986],[-2.25421,51.85956]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"400754575","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.25447,51.85966],[-2.25481,51.85977],[-2.2546,51.86004],[-2.25427,51.85995],[-2.25428,51.85994],[-2.25437,51.85992],[-2.25434,51.85987],[-2.25435,51.85985],[-2.25432,51.85984],[-2.25447,51.85966]]]]}}
+]
+}

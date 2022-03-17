@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"7560861806","other":{"amenity":"loading_dock"}}, "geometry":{"type":"Point","coordinates":[-0.76189,52.02689 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"36744371","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.76202,52.02701],[-0.7615,52.02723],[-0.76099,52.02678],[-0.76139,52.02661],[-0.7615,52.02656],[-0.76151,52.02655],[-0.76189,52.02689],[-0.76202,52.02701]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"488538406","name":"Big Yellow Storage","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.06206,51.57641],[0.06291,51.5764],[0.06291,51.57603],[0.06233,51.57604],[0.06233,51.57613],[0.06211,51.57613],[0.06211,51.57619],[0.062,51.5762],[0.062,51.57629],[0.06206,51.57641]]]]}}
+]
+}

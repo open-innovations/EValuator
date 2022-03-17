@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"508717687","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-4.39407,55.89344],[-4.39406,55.89343],[-4.39286,55.89283],[-4.39265,55.89295],[-4.39357,55.89342],[-4.39386,55.89356],[-4.39407,55.89344]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1021731110","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-4.59699,56.00463],[-4.59704,56.00454],[-4.59675,56.0045],[-4.59671,56.00459],[-4.59699,56.00463]]]]}}
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1968537832","name":"Turners (Soham) Ltd","other":{"addr:country":"GB","addr:place":"Donington","addr:postcode":"PE11 4UP","addr:street":"Station Yard","building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-0.21364,52.89905 ]}},
+{ "type":"Feature","properties":{"osm_id":"1968539582","name":"Turners (Soham) Ltd (Quadring)","other":{"addr:housename":"Quadring","addr:postcode":"PE11 4PU","addr:street":"Town Drove","building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-0.19738,52.87954 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"164597881","name":"Econo-med","building":"warehouse","other":{"addr:postcode":"PE12 9BP","addr:street":"Station Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.11656,52.7848],[0.1169,52.78494],[0.11633,52.78542],[0.11598,52.78528],[0.11656,52.7848]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"428936399","building":"warehouse","other":{"addr:postcode":"PE11 3BB"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.13681,52.80726],[-0.13643,52.80697],[-0.13636,52.807],[-0.13625,52.80691],[-0.13632,52.80688],[-0.13591,52.80655],[-0.13659,52.80624],[-0.13717,52.80669],[-0.13725,52.80665],[-0.13758,52.80691],[-0.13681,52.80726]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"435532614","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.13706,52.80717],[-0.13722,52.80731],[-0.13752,52.80768],[-0.13779,52.80762],[-0.13788,52.80771],[-0.13807,52.80765],[-0.13798,52.80755],[-0.13821,52.80747],[-0.13791,52.80709],[-0.13763,52.80717],[-0.13742,52.807],[-0.13706,52.80717]]]]}}
+]
+}

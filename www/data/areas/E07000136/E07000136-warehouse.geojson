@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1968536131","name":"Browns Chilled Distribution Limited","other":{"addr:housename":"Bar Farm","addr:postcode":"PE20 3AN","building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-0.15655,52.92856 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"203033709","name":"Augro Fresh Ltd.","building":"warehouse","other":{"addr:postcode":"PE20 3PN","addr:street":"Station Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.1765,52.96129],[-0.17606,52.96161],[-0.17591,52.96153],[-0.17613,52.96138],[-0.17578,52.96121],[-0.17601,52.96104],[-0.1765,52.96129]]]]}}
+]
+}

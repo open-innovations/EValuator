@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"23294692","name":"Heathrow Worldwide Distribution Centre","amenity":"post_depot","building":"commercial","other":{"wikidata":"Q5694351","wikipedia":"en:Heathrow Worldwide Distribution Centre","addr:postcode":"SL3 8AQ"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.5329,51.49805],[-0.52999,51.49724],[-0.5311,51.49568],[-0.53112,51.49566],[-0.534,51.49646],[-0.53338,51.49733],[-0.53365,51.49741],[-0.53328,51.49793],[-0.53304,51.49786],[-0.5329,51.49805]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"23294692","name":"Heathrow Worldwide Distribution Centre","amenity":"post_depot","building":"commercial","other":{"addr:postcode":"SL3 8AQ","wikidata":"Q5694351","wikipedia":"en:Heathrow Worldwide Distribution Centre"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.5329,51.49805],[-0.53304,51.49786],[-0.53328,51.49793],[-0.53365,51.49741],[-0.53338,51.49733],[-0.534,51.49646],[-0.53112,51.49566],[-0.5311,51.49568],[-0.52999,51.49724],[-0.5329,51.49805]]]]}}
 ]
 }

@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"164974504","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.29873,53.59962],[-2.2984,53.5997],[-2.29814,53.59928],[-2.29847,53.59921],[-2.29873,53.59962]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164974505","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.30002,53.60123],[-2.2996,53.60129],[-2.29911,53.60024],[-2.29953,53.60018],[-2.30002,53.60123]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164974507","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.29817,53.59904],[-2.29797,53.59905],[-2.29788,53.59864],[-2.29808,53.59862],[-2.29817,53.59904]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164974508","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.30051,53.60136],[-2.29999,53.60169],[-2.29978,53.60157],[-2.3003,53.60124],[-2.30051,53.60136]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164974513","name":"Mayplas","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.29963,53.5987],[-2.29905,53.59883],[-2.29858,53.59809],[-2.29916,53.59796],[-2.29963,53.5987]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164974514","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.29819,53.59798],[-2.29782,53.59796],[-2.29784,53.5978],[-2.29821,53.59782],[-2.29819,53.59798]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164974517","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.30065,53.60089],[-2.30029,53.60095],[-2.3001,53.60054],[-2.30045,53.60048],[-2.30065,53.60089]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164974518","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.29864,53.59915],[-2.29821,53.59924],[-2.29817,53.59918],[-2.29825,53.59916],[-2.29819,53.59907],[-2.29854,53.599],[-2.29864,53.59915]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164974520","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.29803,53.59853],[-2.29787,53.59853],[-2.29783,53.5982],[-2.29799,53.59819],[-2.29803,53.59853]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164974521","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.29932,53.60013],[-2.29913,53.60019],[-2.29868,53.59972],[-2.29887,53.59966],[-2.29932,53.60013]]]]}}
+]
+}

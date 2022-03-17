@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"92749049","name":"Darlington Delivery Office","amenity":"post_depot","building":"warehouse","other":{"addr:city":"Darlington","addr:postcode":"DL1 1AA","addr:street":"St Cuthberts Way","alt_name":"Darlington Mail Centre","operator":"Royal Mail"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.55112,54.52252],[-1.55032,54.52239],[-1.55058,54.52181],[-1.55139,54.52193],[-1.55112,54.52252]]]]}}
+]
+}

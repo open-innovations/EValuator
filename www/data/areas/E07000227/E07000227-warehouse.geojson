@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"104230472","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.51466,50.95827],[-0.51472,50.95844],[-0.51452,50.95858],[-0.51385,50.95867],[-0.51379,50.95848],[-0.51452,50.95838],[-0.51449,50.95829],[-0.51466,50.95827]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"104230473","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.51396,50.95813],[-0.51388,50.95787],[-0.51512,50.95772],[-0.5152,50.95798],[-0.51396,50.95813]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"230616300","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.4369,50.94121],[-0.43675,50.94137],[-0.43662,50.94132],[-0.43677,50.94116],[-0.4369,50.94121]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"596137697","name":"Freight Forwarding Solutions","building":"warehouse","other":{"addr:city":"Horsham","addr:street":"Redkiln Way"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30687,51.06988],[-0.30669,51.06981],[-0.3065,51.06999],[-0.30658,51.07002],[-0.3066,51.07003],[-0.30668,51.07006],[-0.30687,51.06988]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"846977609","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.44598,51.01498],[-0.44618,51.01449],[-0.44577,51.01443],[-0.44562,51.01479],[-0.44557,51.01479],[-0.44553,51.01491],[-0.44598,51.01498]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"846977610","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.44702,51.01505],[-0.44642,51.015],[-0.44643,51.01489],[-0.44704,51.01493],[-0.44702,51.01505]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"846977611","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.44694,51.01486],[-0.44704,51.01464],[-0.44688,51.01461],[-0.44678,51.01483],[-0.44694,51.01486]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"846977612","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.44672,51.01482],[-0.44661,51.0148],[-0.44668,51.01463],[-0.4468,51.01465],[-0.44672,51.01482]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"846977613","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.44657,51.01476],[-0.44664,51.01456],[-0.44635,51.01452],[-0.44632,51.0146],[-0.44651,51.01463],[-0.44647,51.01475],[-0.44657,51.01476]]]]}}
+]
+}

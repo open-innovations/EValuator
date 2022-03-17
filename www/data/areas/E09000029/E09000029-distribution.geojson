@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"94787466","name":"Argos & Sainsburys Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -0.12859,51.37614],[-0.12831,51.37617],[-0.12829,51.37604],[-0.12779,51.37608],[-0.12781,51.3762],[-0.12737,51.37624],[-0.12721,51.37548],[-0.12842,51.37538],[-0.12859,51.37614]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"94787466","name":"Argos & Sainsburys Distribution Centre","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.12859,51.37614],[-0.12842,51.37538],[-0.12721,51.37548],[-0.12737,51.37624],[-0.12781,51.3762],[-0.12779,51.37608],[-0.12829,51.37604],[-0.12831,51.37617],[-0.12859,51.37614]]]]}}
 ]
 }

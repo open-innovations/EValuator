@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"496715055","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.00666,55.82971],[-3.00664,55.82972],[-3.00662,55.82974],[-3.00651,55.82981],[-3.00675,55.82991],[-3.00689,55.82981],[-3.00666,55.82971]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"496715057","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.00662,55.82974],[-3.00637,55.82964],[-3.00628,55.82971],[-3.00651,55.82981],[-3.00662,55.82974]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"496715058","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.00721,55.82949],[-3.00733,55.82954],[-3.00708,55.82973],[-3.00695,55.82968],[-3.00721,55.82949]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"496715059","name":"Borthwick Mains","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.00695,55.82968],[-3.00691,55.82971],[-3.00642,55.82951],[-3.00682,55.82922],[-3.00686,55.82924],[-3.00691,55.82927],[-3.00698,55.82931],[-3.00707,55.82935],[-3.00702,55.8294],[-3.00721,55.82949],[-3.00695,55.82968]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"935487226","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.16252,55.82368],[-3.16232,55.82371],[-3.16228,55.82363],[-3.16248,55.82359],[-3.16252,55.82368]]]]}}
+]
+}

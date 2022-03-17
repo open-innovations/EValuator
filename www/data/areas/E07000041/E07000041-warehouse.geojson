@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"55933584","building":"warehouse","other":{"building:levels":"2","roof:shape":"gabled"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.47286,50.72419],[-3.47231,50.72353],[-3.47118,50.7239],[-3.47161,50.72442],[-3.47169,50.72439],[-3.47181,50.72454],[-3.47286,50.72419]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"88511466","name":"West Country Milk","building":"warehouse","other":{"addr:housename":"Otter Building","addr:street":"Grenadier Road","building:levels":"1","roof:shape":"hipped"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.46972,50.72745],[-3.46958,50.72699],[-3.46898,50.72706],[-3.46902,50.7272],[-3.46912,50.72753],[-3.46945,50.72748],[-3.46972,50.72745]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"88511889","name":"DHL","building":"warehouse","other":{"roof:shape":"hipped"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.46936,50.72964],[-3.46817,50.72969],[-3.46815,50.72958],[-3.46811,50.72919],[-3.46905,50.72915],[-3.46904,50.72913],[-3.46933,50.72912],[-3.46934,50.72924],[-3.46934,50.72934],[-3.46936,50.72964]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"93591803","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.53071,50.70543],[-3.5309,50.7054],[-3.53077,50.70512],[-3.53059,50.70516],[-3.53057,50.70512],[-3.52994,50.70524],[-3.53011,50.70559],[-3.53073,50.70548],[-3.53071,50.70543]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"116457043","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.5206,50.6957],[-3.5202,50.69543],[-3.52058,50.6952],[-3.52098,50.69546],[-3.5206,50.6957]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"246367716","name":"Quay Antiques Centre","building":"warehouse","shop":"antiques","other":{"opening_hours":"Mo-Su 10:00-16:45"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.46531,50.68107],[-3.46513,50.68086],[-3.46498,50.68091],[-3.46516,50.68111],[-3.46516,50.68112],[-3.46531,50.68107]]]]}}
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"28074052","building":"warehouse","other":{"addr:housenumber":"5","addr:street":"Warsash Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.24686,50.8555],[-1.24654,50.85497],[-1.24601,50.8551],[-1.24554,50.85522],[-1.24586,50.85575],[-1.24588,50.85574],[-1.24596,50.85572],[-1.24597,50.85575],[-1.24631,50.85567],[-1.24629,50.85564],[-1.24651,50.85559],[-1.24653,50.85562],[-1.24663,50.8556],[-1.24661,50.85556],[-1.24684,50.85551],[-1.24686,50.8555]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"28074103","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.24792,50.85669],[-1.24747,50.8564],[-1.24705,50.85666],[-1.2475,50.85695],[-1.24775,50.85679],[-1.24792,50.85669]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"302489030","building":"warehouse","other":{"addr:city":"Fareham","addr:country":"GB","addr:county":"Hampshire","addr:housenumber":"6","addr:place":"Titchfield","addr:postcode":"PO14 4FL","addr:street":"Kite's Croft Business Park"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.24618,50.85604],[-1.24641,50.85642],[-1.24651,50.85639],[-1.24724,50.85621],[-1.24727,50.85621],[-1.24728,50.8562],[-1.24705,50.85583],[-1.24618,50.85604]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"318129553","name":"Yodel","building":"warehouse","other":{"addr:city":"Fareham","addr:housenumber":"3","addr:postcode":"PO15 5ST","addr:street":"Barnes Wallis Road","phone":"+44843 5385235","website":"https:\/\/www.yodel.co.uk\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.2504,50.86985],[-1.25048,50.86854],[-1.25097,50.86855],[-1.2509,50.86986],[-1.2504,50.86985]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"401013361","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.24811,50.85604],[-1.24815,50.85629],[-1.24817,50.85637],[-1.24946,50.85628],[-1.24928,50.85523],[-1.24798,50.85532],[-1.24808,50.85589],[-1.24811,50.85604]]]]}}
+]
+}

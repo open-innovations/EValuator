@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"151831505","name":"Power and Distribution Workshop","building":"yes"},"geometry":{"type":"Polygon","coordinates":[[[ -0.62667,53.58574],[-0.62597,53.58577],[-0.62596,53.58567],[-0.62678,53.58563],[-0.62679,53.58567],[-0.62667,53.58567],[-0.62667,53.58574]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"151831505","name":"Power and Distribution Workshop","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.62667,53.58574],[-0.62597,53.58577],[-0.62596,53.58567],[-0.62678,53.58563],[-0.62679,53.58567],[-0.62667,53.58567],[-0.62667,53.58574]]]]}}
 ]
 }

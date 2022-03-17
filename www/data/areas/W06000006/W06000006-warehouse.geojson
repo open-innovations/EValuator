@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"814005236","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.94496,53.06381],[-2.94485,53.06364],[-2.94421,53.0638],[-2.94433,53.06396],[-2.94496,53.06381]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"874792372","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.98642,53.04193],[-2.98624,53.04189],[-2.98606,53.04186],[-2.98589,53.04183],[-2.98589,53.04182],[-2.986,53.04161],[-2.98618,53.04165],[-2.98635,53.04168],[-2.98653,53.04171],[-2.98642,53.04193]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"874792373","name":"Wolseley","building":"warehouse","other":{"addr:city":"Wrexham","addr:housename":"Unit 1","addr:postcode":"LL13 8DT","addr:street":"Rivulet Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.98676,53.04203],[-2.98668,53.04201],[-2.98644,53.04197],[-2.98658,53.0417],[-2.9869,53.04176],[-2.98676,53.04203]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"893175304","name":"Aston & Fincher - Hair and Beauty Supplies","building":"warehouse","other":{"addr:city":"Wrexham","addr:housename":"Unit B","addr:postcode":"LL13 8DT","addr:street":"Rivulet Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.98624,53.04189],[-2.98635,53.04168],[-2.98618,53.04165],[-2.98606,53.04186],[-2.98624,53.04189]]]]}}
+]
+}

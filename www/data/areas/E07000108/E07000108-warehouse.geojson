@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"55291962","building":"warehouse","other":{"description":"P&O Bonded warehouse"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[1.30051,51.15185],[1.30147,51.15236],[1.30223,51.1518],[1.30124,51.15128],[1.30051,51.15185]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"55343402","name":"UK Border Force Warehouse","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.28553,51.14751],[1.28476,51.14705],[1.28559,51.1465],[1.28636,51.14696],[1.28553,51.14751]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"187640517","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.30727,51.11885],[1.30711,51.11871],[1.30748,51.11854],[1.30764,51.11869],[1.30727,51.11885]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"321508731","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.30505,51.11826],[1.3041,51.11734],[1.30444,51.1172],[1.30539,51.11812],[1.30505,51.11826]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"471543472","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.34897,51.28686],[1.34832,51.28688],[1.34833,51.28701],[1.34786,51.28703],[1.34785,51.2869],[1.34766,51.2869],[1.34763,51.28655],[1.34772,51.28655],[1.3477,51.28625],[1.34912,51.28621],[1.34915,51.28647],[1.34905,51.28647],[1.34907,51.28671],[1.34895,51.28672],[1.34897,51.28686]]]]}}
+]
+}

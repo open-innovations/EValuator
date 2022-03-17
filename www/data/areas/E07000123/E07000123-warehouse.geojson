@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"56969215","name":"CPC Farnell","building":"warehouse","other":{"industrial":"warehouse"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.68275,53.79649],[-2.6839,53.7958],[-2.68277,53.79514],[-2.68208,53.79555],[-2.6819,53.79545],[-2.68144,53.79572],[-2.68275,53.79649]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"56969263","amenity":"post_depot","building":"warehouse","other":{"operator":"Royal Mail"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.68441,53.79757],[-2.68324,53.79706],[-2.68454,53.79604],[-2.68586,53.79662],[-2.68535,53.79703],[-2.68518,53.79696],[-2.68441,53.79757]]]]}}
+]
+}

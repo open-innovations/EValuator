@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"313278190","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.86032,53.49084],[-2.86017,53.49134],[-2.86003,53.49132],[-2.86001,53.49139],[-2.85955,53.49134],[-2.85942,53.49174],[-2.85783,53.49157],[-2.85796,53.49117],[-2.8577,53.49114],[-2.85788,53.49054],[-2.85789,53.49051],[-2.85931,53.49067],[-2.85931,53.49069],[-2.8593,53.49069],[-2.85929,53.49073],[-2.86032,53.49084]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"681491568","name":"Ocado","building":"warehouse","other":{"addr:city":"Liverpool","addr:housenumber":"2","addr:postcode":"L33 7SA","addr:street":"Lees Road","building:levels":"2"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.86568,53.47925],[-2.86573,53.47909],[-2.86549,53.47907],[-2.86463,53.47896],[-2.86438,53.47893],[-2.86445,53.47874],[-2.86433,53.47873],[-2.86433,53.47875],[-2.86428,53.47875],[-2.86417,53.47907],[-2.86568,53.47925]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"973285831","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.86645,53.46622],[-2.86651,53.46667],[-2.86521,53.46673],[-2.86516,53.46628],[-2.86645,53.46622]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"973285832","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.86647,53.46541],[-2.86652,53.46573],[-2.86557,53.46577],[-2.86553,53.46546],[-2.86647,53.46541]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"973285833","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.86814,53.46545],[-2.86819,53.46585],[-2.86705,53.4659],[-2.867,53.4655],[-2.86814,53.46545]]]]}}
+]
+}

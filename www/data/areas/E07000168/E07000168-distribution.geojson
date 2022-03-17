@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{ "type":"Feature","properties":{"osm_way_id":"944256577","name":"Western Power Distribution","building":"office"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-4.25147,52.03386],[-4.25114,52.03392],[-4.25116,52.03397],[-4.25073,52.03405],[-4.25063,52.03383],[-4.25139,52.0337],[-4.25147,52.03386]]]]}}
 ]
 }

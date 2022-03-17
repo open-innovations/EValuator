@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"150546484","name":"Borsan Global Logistics","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.5232,52.4571],[-1.52196,52.45676],[-1.52238,52.4562],[-1.52375,52.45658],[-1.52368,52.45667],[-1.52355,52.45663],[-1.5232,52.4571]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"150546485","name":"Palm Recycling","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.5195,52.4574],[-1.51831,52.45707],[-1.51866,52.45661],[-1.51985,52.45694],[-1.5195,52.4574]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"150546491","name":"ParcelForce","building":"warehouse","other":{"addr:city":"Coventry","addr:housename":"Coventry Depot","addr:postcode":"CV6 4QE","addr:street":"West Avenue","building:levels":"5"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.52795,52.45856],[-1.52722,52.45807],[-1.52715,52.45811],[-1.52697,52.45798],[-1.52723,52.45784],[-1.52733,52.4579],[-1.52821,52.45741],[-1.52903,52.45796],[-1.52795,52.45856]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"150546492","name":"Bridgestone","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.53177,52.45754],[-1.53065,52.45815],[-1.52916,52.45713],[-1.52905,52.45719],[-1.52885,52.45706],[-1.52928,52.45682],[-1.52935,52.45687],[-1.53015,52.45644],[-1.53177,52.45754]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"711059254","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.5184,52.45581],[-1.51724,52.45564],[-1.51747,52.45506],[-1.51863,52.45523],[-1.5184,52.45581]]]]}}
+]
+}

@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"9383979201","other":{"natural":"tree"}}, "geometry":{"type":"Point","coordinates":[-1.46692,53.057 ]}},
+{ "type":"Feature","properties":{"osm_id":"9383979221","other":{"natural":"tree"}}, "geometry":{"type":"Point","coordinates":[-1.45706,53.05754 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"164978673","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.22727,53.58643],[-2.22645,53.58651],[-2.22635,53.58615],[-2.22717,53.58606],[-2.22719,53.58614],[-2.22721,53.58621],[-2.22727,53.58643]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164978678","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.17609,53.59441],[-2.17532,53.59516],[-2.17484,53.59499],[-2.17546,53.59439],[-2.17554,53.59442],[-2.1757,53.59427],[-2.17609,53.59441]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164978689","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.22787,53.58713],[-2.22562,53.58735],[-2.22554,53.58707],[-2.22549,53.58688],[-2.22773,53.58665],[-2.22787,53.58713]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164978690","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.23037,53.58671],[-2.22952,53.5868],[-2.22938,53.58635],[-2.22972,53.58631],[-2.23024,53.58626],[-2.23037,53.58671]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"164978706","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.22911,53.58684],[-2.22799,53.58695],[-2.22786,53.58651],[-2.22899,53.5864],[-2.22911,53.58684]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"172527493","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.27794,53.58909],[-2.27723,53.58904],[-2.27716,53.5894],[-2.27788,53.58945],[-2.27794,53.58909]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1025276916","name":"Lineage Logistics","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.22732,53.58192],[-2.22638,53.58174],[-2.22683,53.58101],[-2.22782,53.58124],[-2.22732,53.58192]]]]}}
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"482390508","name":"Lidl Distribution Centre","building":"warehouse","other":{"addr:city":"Exeter","addr:postcode":"EX5 2FU","addr:street":"Chillpark Brake","addr:village":"Clyst Honiton","brand":"Lidl","brand:wikidata":"Q151954","brand:wikipedia":"en:Lidl","fhrs:id":"1021060"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.43593,50.74017],[-3.43585,50.74011],[-3.43297,50.73792],[-3.43273,50.73774],[-3.43242,50.73771],[-3.43122,50.73834],[-3.43136,50.73845],[-3.43454,50.74086],[-3.43457,50.74089],[-3.43593,50.74017]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"520993035","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.42486,50.74178],[-3.42454,50.74168],[-3.42468,50.74149],[-3.425,50.74158],[-3.42486,50.74178]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"682095719","name":"Mole Avon","building":"warehouse","other":{"addr:city":"Axminster","addr:postcode":"EX13 5FP","addr:street":"Station Yard"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.00361,50.77942],[-3.00339,50.77932],[-3.00372,50.77905],[-3.00394,50.77916],[-3.00361,50.77942]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"682095720","name":"Bradfords","building":"warehouse","other":{"addr:city":"Axminster","addr:postcode":"EX13 5PJ","addr:street":"Woodmead Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.00475,50.77828],[-3.00456,50.77816],[-3.00512,50.77782],[-3.0053,50.77795],[-3.00475,50.77828]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"724075474","name":"Amazon UK Services Ltd","building":"warehouse","other":{"building:cladding":"metal","building:levels":"1","building:structure":"metal","operator":"Amazon UK Services Ltd","ref":"DC13","roof:material":"metal","roof:shape":"gabled","roof:structure":"metal"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.4282,50.73925],[-3.42841,50.73942],[-3.42915,50.73996],[-3.43049,50.73926],[-3.42957,50.73854],[-3.4282,50.73925]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"967482285","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.06948,50.70413],[-3.06933,50.70414],[-3.06936,50.70449],[-3.06955,50.7044],[-3.06948,50.70413]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1012835686","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.77648,55.43075],[-2.77644,55.43064],[-2.77626,55.43067],[-2.7763,55.43077],[-2.77648,55.43075]]]]}}
+]
+}

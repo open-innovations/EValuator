@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"24017920","name":"Shurgard Self-Storage","building":"warehouse","other":{"building:levels":"2","roof:levels":"1","roof:shape":"double_saltbox"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.24494,51.35417],[-0.24493,51.35388],[-0.24431,51.35388],[-0.24432,51.35417],[-0.24494,51.35417]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"247555881","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.24888,51.364],[-0.24897,51.36386],[-0.24889,51.36384],[-0.24879,51.36398],[-0.24888,51.364]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"248055378","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.26485,51.34154],[-0.26449,51.34138],[-0.2643,51.34156],[-0.26466,51.34172],[-0.26485,51.34154]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"660002541","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.25757,51.33554],[-0.25738,51.33561],[-0.25748,51.33572],[-0.25767,51.33565],[-0.25757,51.33554]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"660002542","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.25754,51.33554],[-0.25744,51.33557],[-0.2573,51.33536],[-0.25741,51.33533],[-0.25754,51.33554]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"963350038","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.23918,51.3305],[-0.23885,51.33065],[-0.2386,51.33042],[-0.23893,51.33028],[-0.23918,51.3305]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"963350039","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.23959,51.33032],[-0.23923,51.33048],[-0.2391,51.33036],[-0.23946,51.3302],[-0.23959,51.33032]]]]}}
+]
+}

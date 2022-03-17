@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"173744113","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.127,53.62512],[0.12702,53.62499],[0.12761,53.62499],[0.12759,53.62513],[0.127,53.62512]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"173744155","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.12685,53.62638],[0.12688,53.62617],[0.1275,53.62619],[0.12749,53.62629],[0.12765,53.6263],[0.12763,53.62646],[0.12703,53.62644],[0.12704,53.62639],[0.12685,53.62638]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"173744180","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.08801,53.64335],[0.08799,53.64311],[0.08827,53.6431],[0.08827,53.64335],[0.08801,53.64335]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"173744222","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.08829,53.6434],[0.08828,53.64326],[0.0885,53.64327],[0.08849,53.64321],[0.08876,53.64319],[0.08881,53.64337],[0.08849,53.6434],[0.08829,53.6434]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"173744231","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.1272,53.62532],[0.12721,53.62525],[0.12763,53.62526],[0.12762,53.62532],[0.12768,53.62532],[0.12766,53.62541],[0.12709,53.62539],[0.1271,53.62531],[0.1272,53.62532]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"536108164","name":"Groves","building":"warehouse","other":{"addr:city":"Thame","addr:postcode":"OX9 3FU","addr:street":"Eastern Bypass"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.95704,51.74068],[-0.95553,51.74049],[-0.95574,51.73987],[-0.95724,51.74006],[-0.95704,51.74068]]]]}}
+]
+}

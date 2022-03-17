@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"377563621","name":"HM Coast Guard","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.87259,60.75739],[-0.87248,60.75737],[-0.87252,60.75732],[-0.87263,60.75734],[-0.87259,60.75739]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"953852730","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.99992,60.69759],[-1.00009,60.6977],[-1.00067,60.69747],[-1.0005,60.69736],[-0.99992,60.69759]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"965766731","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.30102,59.88425],[-1.30116,59.8844],[-1.30136,59.88435],[-1.30122,59.8842],[-1.30102,59.88425]]]]}}
+]
+}

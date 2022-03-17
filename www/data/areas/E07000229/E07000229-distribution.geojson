@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"981319223","name":"Hospice Shops Distribution & Donation Centre","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ -0.36581,50.83011],[-0.36579,50.83015],[-0.36578,50.83015],[-0.36572,50.83031],[-0.36561,50.83029],[-0.36561,50.83028],[-0.36529,50.83024],[-0.36535,50.83005],[-0.36581,50.83011]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"981319223","name":"Hospice Shops Distribution & Donation Centre","building":"industrial"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.36581,50.83011],[-0.36579,50.83015],[-0.36578,50.83015],[-0.36572,50.83031],[-0.36561,50.83029],[-0.36561,50.83028],[-0.36529,50.83024],[-0.36535,50.83005],[-0.36581,50.83011]]]]}}
 ]
 }

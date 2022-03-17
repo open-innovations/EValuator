@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"600397531","building":"warehouse","other":{"addr:city":"St Dogmaels","building:levels":"4","description":"Disused warehouse.  A grade II listed building.","disused":"yes","heritage":"2","heritage:operator":"cadw","ref:cadw":"10552","wikimedia_commons":"File:St Dogmaels Warehouse.jpg"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-4.67749,52.08161],[-4.67726,52.0817],[-4.6772,52.08165],[-4.67744,52.08156],[-4.67746,52.08157],[-4.67749,52.08161]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"624238171","building":"warehouse","other":{"description":"Formerly Reids Linens, now apparently vacant.","old_name":"Reids Linens"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-4.62329,52.05348],[-4.62325,52.05351],[-4.62329,52.05353],[-4.62315,52.05364],[-4.62311,52.05362],[-4.62282,52.05383],[-4.6227,52.05377],[-4.62264,52.05382],[-4.62255,52.05378],[-4.62262,52.05373],[-4.62249,52.05366],[-4.62296,52.0533],[-4.62307,52.05337],[-4.6231,52.05335],[-4.62324,52.05342],[-4.62323,52.05343],[-4.62329,52.05348]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"661302074","name":"Brooks Barn","building":"warehouse","other":{"addr:city":"Crymych,","addr:housename":"Brooks Barn","addr:housenumber":"Unit 2","addr:postcode":"SA41 3RQ","addr:street":"Parc Gwynfryn","building:levels":"1","description":"Online and retail sales"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-4.64158,51.97874],[-4.6413,51.9786],[-4.64119,51.97869],[-4.64147,51.97883],[-4.64158,51.97874]]]]}}
+]
+}

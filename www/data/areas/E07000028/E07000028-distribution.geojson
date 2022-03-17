@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"333248481","name":"Menzies Distribution","building":"commercial"},"geometry":{"type":"Polygon","coordinates":[[[ -2.95235,54.89722],[-2.95292,54.8969],[-2.95313,54.89703],[-2.95257,54.89735],[-2.95235,54.89722]] ]}},
-{ "type":"Feature","properties":{"osm_way_id":"385838859","name":"Eddie Stobart Distribution Centre","building":"warehouse"},"geometry":{"type":"Polygon","coordinates":[[[ -2.80531,54.93439],[-2.8079,54.9335],[-2.80798,54.93357],[-2.80911,54.93468],[-2.8065,54.93557],[-2.80536,54.93444],[-2.80531,54.93439]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"333248481","name":"Menzies Distribution","building":"commercial"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.95235,54.89722],[-2.95257,54.89735],[-2.95313,54.89703],[-2.95292,54.8969],[-2.95235,54.89722]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"385838859","name":"Eddie Stobart Distribution Centre","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.80531,54.93439],[-2.80536,54.93444],[-2.8065,54.93557],[-2.80911,54.93468],[-2.80798,54.93357],[-2.8079,54.9335],[-2.80531,54.93439]]]]}}
 ]
 }

@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"288575799","name":"Autoparts Distribution","building":"viaduct","shop":"car_parts","other":{"addr:city":"London","addr:street":"Dunbridge Street","addr:housenumber":"80"}}, "geometry":{"type":"Polygon","coordinates":[[[ -0.06258,51.5238],[-0.06254,51.52342],[-0.06266,51.52341],[-0.06268,51.52358],[-0.06269,51.5238],[-0.06258,51.5238]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"288575799","name":"Autoparts Distribution","building":"viaduct","shop":"car_parts","other":{"addr:city":"London","addr:housenumber":"80","addr:street":"Dunbridge Street"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.06258,51.5238],[-0.06269,51.5238],[-0.06268,51.52358],[-0.06266,51.52341],[-0.06254,51.52342],[-0.06258,51.5238]]]]}}
 ]
 }

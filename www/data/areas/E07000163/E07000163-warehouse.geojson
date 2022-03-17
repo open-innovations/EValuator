@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"3695179389","name":"S&J Distribution","other":{"addr:city":"Skipton","addr:housenumber":"7","addr:postcode":"BD23 2TZ","addr:street":"Ghyll Way","building":"warehouse","phone":"+44 1756 796300","website":"www.sjdistribution.co.uk"}}, "geometry":{"type":"Point","coordinates":[-2.01583,53.94138 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"506986557","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.98535,53.96172],[-1.9853,53.9616],[-1.98488,53.96165],[-1.98496,53.96187],[-1.98532,53.96182],[-1.98528,53.96173],[-1.98535,53.96172]]]]}}
+]
+}

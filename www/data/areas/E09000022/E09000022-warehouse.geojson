@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"39644621","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.10456,51.45769],[-0.10418,51.45765],[-0.10425,51.45737],[-0.10418,51.45736],[-0.10425,51.45711],[-0.10434,51.45712],[-0.10432,51.45719],[-0.10468,51.45723],[-0.10456,51.45769]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"115978908","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.11015,51.50528],[-0.11007,51.50508],[-0.10992,51.5051],[-0.10995,51.50516],[-0.10997,51.5052],[-0.11003,51.50535],[-0.11017,51.50534],[-0.11015,51.50528]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"452835858","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.10414,51.42867],[-0.10355,51.42869],[-0.10349,51.4282],[-0.10399,51.42818],[-0.10401,51.42833],[-0.1041,51.42833],[-0.10414,51.42867]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"503468883","building":"warehouse","other":{"addr:housenumber":"15","addr:street":"Newport Street"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.11756,51.49295],[-0.11739,51.49286],[-0.11773,51.49259],[-0.1179,51.49267],[-0.11756,51.49295]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"828245105","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.13684,51.47225],[-0.13671,51.47232],[-0.13664,51.47227],[-0.13656,51.47222],[-0.13659,51.4722],[-0.1367,51.47214],[-0.13684,51.47225]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"828245106","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.13706,51.47238],[-0.13656,51.47269],[-0.13644,51.47262],[-0.13693,51.47231],[-0.13706,51.47238]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"828245108","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.1369,51.47209],[-0.13688,51.4721],[-0.13677,51.47202],[-0.13684,51.47198],[-0.13686,51.47199],[-0.13703,51.4719],[-0.13711,51.47195],[-0.13695,51.47204],[-0.13696,51.47205],[-0.1369,51.47209]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"828245109","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.13703,51.47218],[-0.1369,51.47209],[-0.13696,51.47205],[-0.13713,51.47196],[-0.13726,51.47205],[-0.13703,51.47218]]]]}}
+]
+}

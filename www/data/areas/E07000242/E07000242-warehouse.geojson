@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"1018254871","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09066,51.79938],[-0.09066,51.79925],[-0.09054,51.79925],[-0.09055,51.79938],[-0.09066,51.79938]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1018254873","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09049,51.7991],[-0.0904,51.799],[-0.0903,51.79903],[-0.09038,51.79914],[-0.09049,51.7991]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1018254875","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09023,51.79904],[-0.0901,51.7989],[-0.09016,51.79888],[-0.09018,51.7989],[-0.09025,51.79888],[-0.09036,51.79899],[-0.09023,51.79904]]]]}}
+]
+}

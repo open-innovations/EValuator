@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"439393762","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.75797,51.26128],[-0.75762,51.2612],[-0.75764,51.26117],[-0.7575,51.26114],[-0.75756,51.26103],[-0.75759,51.26104],[-0.75759,51.26103],[-0.7577,51.26105],[-0.7577,51.26104],[-0.75806,51.26112],[-0.75797,51.26128]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"439688963","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.74889,51.25706],[-0.74888,51.25685],[-0.74791,51.25688],[-0.74793,51.25709],[-0.74889,51.25706]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"540172690","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.738,51.24704],[-0.73747,51.24698],[-0.73752,51.24682],[-0.73805,51.24688],[-0.738,51.24704]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"553864137","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.76769,51.2859],[-0.76729,51.28605],[-0.76724,51.286],[-0.76719,51.28602],[-0.76712,51.28596],[-0.76692,51.28603],[-0.76689,51.286],[-0.76755,51.28575],[-0.76769,51.2859]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"553864139","building":"warehouse","other":{"addr:housenumber":"23","addr:postcode":"GU14 7QU","addr:street":"Invincible Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.7668,51.28603],[-0.76655,51.28577],[-0.7674,51.28545],[-0.76748,51.28552],[-0.76738,51.28556],[-0.76755,51.28575],[-0.76689,51.286],[-0.7668,51.28603]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"606434620","name":"Yodel","building":"warehouse","office":"company"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.79659,51.29241],[-0.79679,51.29328],[-0.79623,51.29333],[-0.79603,51.29246],[-0.79659,51.29241]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"606434621","name":"Loma Systems","building":"warehouse","office":"company"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.79575,51.29263],[-0.79438,51.29276],[-0.79432,51.29253],[-0.79569,51.29239],[-0.79575,51.29263]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"609530371","building":"warehouse","other":{"building:levels":"1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.801,51.29249],[-0.80051,51.29253],[-0.80049,51.29243],[-0.80097,51.29238],[-0.801,51.29249]]]]}}
+]
+}

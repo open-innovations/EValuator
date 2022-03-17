@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"616173017","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.07471,51.88196],[-2.07446,51.8822],[-2.07378,51.88194],[-2.07403,51.88169],[-2.07471,51.88196]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"616173019","building":"warehouse","other":{"addr:city":"Cheltenham","addr:postcode":"GL53 0DL"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.07637,51.88271],[-2.07623,51.88286],[-2.07523,51.88248],[-2.07537,51.88233],[-2.07637,51.88271]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"616173025","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.07699,51.88307],[-2.07647,51.88298],[-2.07658,51.88274],[-2.0771,51.88283],[-2.07699,51.88307]]]]}}
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"172009875","name":"DPD","building":"warehouse","other":{"addr:city":"Leicester","addr:housename":"Meridian Business Park","addr:housenumber":"Unit 28A","addr:postcode":"LE19 1WH","addr:street":"Centurion Way"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.1961,52.60761],[-1.19507,52.60815],[-1.195,52.6081],[-1.1949,52.60815],[-1.19465,52.60797],[-1.19473,52.60793],[-1.19468,52.60789],[-1.19571,52.60734],[-1.1961,52.60761]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"558392586","name":"Boden","building":"warehouse","other":{"addr:city":"Leicester","addr:place":"Glenfield","addr:postcode":"LE3 8DU","addr:street":"Kirby Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.22146,52.64516],[-1.21872,52.64643],[-1.21779,52.64574],[-1.22051,52.64442],[-1.22146,52.64516]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"667915232","name":"James Latham Timber","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.21488,52.64268],[-1.21403,52.64281],[-1.21371,52.642],[-1.21452,52.64188],[-1.21458,52.64202],[-1.21476,52.64199],[-1.21488,52.64227],[-1.21472,52.6423],[-1.21488,52.64268]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"671561823","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.19753,52.59635],[-1.19765,52.59533],[-1.19783,52.59534],[-1.19786,52.59519],[-1.19766,52.59518],[-1.19777,52.59427],[-1.19786,52.59428],[-1.19788,52.59406],[-1.19747,52.59404],[-1.19746,52.59409],[-1.19599,52.59404],[-1.19572,52.59627],[-1.19753,52.59635]]]]}}
+]
+}

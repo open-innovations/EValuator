@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"9170284107","man_made":"surveillance","other":{"surveillance:type":"camera"}}, "geometry":{"type":"Point","coordinates":[-0.00506,53.36516 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"170604120","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.13068,53.21256],[-0.13053,53.2123],[-0.12929,53.21255],[-0.12944,53.21281],[-0.13068,53.21256]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"641170314","name":"Parker Products Ltd","building":"warehouse","other":{"addr:city":"Louth","addr:housename":"Parker Products Limited","addr:housenumber":"Richmond Park","addr:postcode":"LN11 0FU","addr:street":"Richmond Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.00776,53.38252],[-0.00803,53.38293],[-0.00868,53.38281],[-0.00838,53.3824],[-0.00776,53.38252]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"641170316","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.00901,53.38274],[-0.00881,53.38244],[-0.00874,53.38233],[-0.00917,53.38224],[-0.00925,53.38225],[-0.00932,53.38228],[-0.00935,53.38233],[-0.00943,53.38263],[-0.00926,53.38267],[-0.00901,53.38274]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"641176623","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.00927,53.38269],[-0.00939,53.38286],[-0.00943,53.38293],[-0.00949,53.38302],[-0.0091,53.38311],[-0.00893,53.38315],[-0.00871,53.38283],[-0.00927,53.38269]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"992533822","name":"John Taylors The Wool Mart Auction Rooms","building":"warehouse","office":"auctioneer","other":{"building:colour":"brown","building:levels":"3","building:material":"brick","phone":"+44 1507 611107","roof:colour":"brown"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.00516,53.36515],[-0.00506,53.36516],[-0.00495,53.36498],[-0.00511,53.36494],[-0.0052,53.36493],[-0.00521,53.36496],[-0.00513,53.36497],[-0.00506,53.36499],[-0.00516,53.36515]]]]}}
+]
+}

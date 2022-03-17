@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"335553567","name":"Summer Infant Europe","building":"warehouse","other":{"addr:housenumber":"Unit 2","addr:street":"Carver Way"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[1.30103,52.39665],[1.30101,52.39632],[1.30192,52.3963],[1.30194,52.39657],[1.30203,52.39657],[1.30203,52.39668],[1.30157,52.39669],[1.30156,52.39664],[1.30103,52.39665]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"383480174","name":"Williams Lea Tag","building":"warehouse","other":{"addr:city":"Wymondham","addr:country":"GB","addr:housename":"Abbey View","addr:postcode":"NR18 0WZ","addr:street":"Penfold Drive","website":"https:\/\/www.wlt.com\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[1.13689,52.57387],[1.13659,52.57373],[1.13588,52.57429],[1.13689,52.57476],[1.1376,52.57421],[1.13713,52.57398],[1.1372,52.57392],[1.13697,52.57382],[1.13689,52.57387]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"831559685","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.16928,52.4823],[1.16931,52.48222],[1.16947,52.48186],[1.16958,52.48163],[1.16984,52.48174],[1.17016,52.48186],[1.16999,52.48235],[1.16928,52.4823]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1019578320","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[1.08682,52.5353],[1.08683,52.53529],[1.08689,52.53526],[1.08669,52.53514],[1.08662,52.53518],[1.08682,52.5353]]]]}}
+]
+}

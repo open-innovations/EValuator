@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "features": [
 { "type":"Feature","properties":{"osm_id":"487168354","name":"Coates Distribution","highway":"bus_stop","other":{"bus":"yes","naptan:AtcoCode":"4200F131851","naptan:Bearing":"N","naptan:CommonName":"Coates Distribution","naptan:Indicator":"Adj","naptan:Landmark":"Swift Valley","naptan:NaptanCode":"wardgdad","naptan:Street":"Cosford Lane","naptan:verified":"no","public_transport":"platform"}}, "geometry":{"type":"Point","coordinates":[-1.26672,52.39707 ]}},
-{ "type":"Feature","properties":{"osm_id":"487168359","name":"Coates Distribution","other":{"naptan:Street":"Cosford Lane","naptan:Bearing":"S","naptan:AtcoCode":"4200F131852","naptan:Landmark":"Swift Valley","naptan:verified":"no","naptan:Indicator":"Opp","naptan:CommonName":"Coates Distribution","naptan:NaptanCode":"wardgdag","naptan:BusStopType":"CUS"}}, "geometry":{"type":"Point","coordinates":[-1.26649,52.39705 ]}}
+{ "type":"Feature","properties":{"osm_id":"487168359","name":"Coates Distribution","other":{"naptan:AtcoCode":"4200F131852","naptan:Bearing":"S","naptan:BusStopType":"CUS","naptan:CommonName":"Coates Distribution","naptan:Indicator":"Opp","naptan:Landmark":"Swift Valley","naptan:NaptanCode":"wardgdag","naptan:Street":"Cosford Lane","naptan:verified":"no"}}, "geometry":{"type":"Point","coordinates":[-1.26649,52.39705 ]}}
 ]
 }

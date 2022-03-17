@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"249978110","name":"Barrow in Furness Delivery Office","amenity":"post_depot","building":"warehouse","other":{"addr:city":"Barrow in Furness","addr:housename":"Barrow in Furness Delivery Office","addr:housenumber":"142","addr:postcode":"LA14 1AA","addr:street":"Abbey Road","brand":"Royal Mail","brand:wikidata":"Q638098","brand:wikipedia":"en:Royal Mail","operator":"Royal Mail","operator:type":"private","operator:wikidata":"Q638098","operator:wikipedia":"en:Royal Mail"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.22482,54.11752],[-3.22466,54.11761],[-3.22467,54.11762],[-3.2242,54.11785],[-3.22391,54.11766],[-3.2241,54.11756],[-3.22424,54.11765],[-3.22452,54.11751],[-3.22457,54.11755],[-3.22472,54.11747],[-3.22482,54.11752]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"319889452","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.14549,54.1755],[-3.14595,54.17504],[-3.1457,54.17495],[-3.14524,54.17542],[-3.14549,54.1755]]]]}}
+]
+}

@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"3406255297","name":"Inspire Day Nursery","other":{"addr:street":"Windmill Road","amenity":"childcare"}}, "geometry":{"type":"Point","coordinates":[-0.10009,51.38494 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"180779571","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.12255,51.36542],[-0.12131,51.36564],[-0.12094,51.36483],[-0.12217,51.3646],[-0.12255,51.36542]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"180779605","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.1208,51.36243],[-0.12092,51.36242],[-0.12106,51.36252],[-0.12139,51.36233],[-0.12131,51.36203],[-0.1211,51.36205],[-0.12071,51.36209],[-0.12073,51.36216],[-0.1208,51.36243]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"196777165","building":"warehouse","other":{"building:levels":"1","roof:shape":"gabled"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.08204,51.41859],[-0.08183,51.41862],[-0.08176,51.41844],[-0.08195,51.41841],[-0.08204,51.41859]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"284995232","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.08051,51.38155],[-0.08019,51.38139],[-0.08079,51.38097],[-0.08076,51.38096],[-0.08088,51.38086],[-0.08125,51.38106],[-0.08112,51.38116],[-0.0811,51.38114],[-0.08051,51.38155]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"325114824","name":"Waitrose","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.13044,51.31535],[-0.13127,51.31633],[-0.13131,51.31638],[-0.13057,51.31663],[-0.1297,51.31559],[-0.13044,51.31535]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"333507520","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.10075,51.38511],[-0.10049,51.38483],[-0.10029,51.3849],[-0.10055,51.38518],[-0.10075,51.38511]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"333507523","name":"centrePeace","building":"warehouse","other":{"addr:housenumber":"64-66","addr:street":"Windmill Road","source:name":"survey"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.10032,51.38516],[-0.10009,51.38494],[-0.10003,51.38497],[-0.10025,51.38518],[-0.10018,51.3852],[-0.10037,51.38539],[-0.10045,51.38536],[-0.10037,51.38527],[-0.10041,51.38525],[-0.10032,51.38516]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"333507527","name":"1st South Asian Warehouse","building":"warehouse","shop":"cash_and_carry"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.10016,51.38542],[-0.09979,51.38505],[-0.09964,51.38511],[-0.10002,51.38547],[-0.10016,51.38542]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"968877349","name":"Red Star Parcels","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09219,51.37636],[-0.09205,51.37637],[-0.09202,51.37615],[-0.09208,51.37619],[-0.0921,51.37619],[-0.09213,51.37621],[-0.09217,51.37624],[-0.09219,51.37636]]]]}}
+]
+}

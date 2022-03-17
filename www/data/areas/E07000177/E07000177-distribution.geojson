@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{ "type":"Feature","properties":{"osm_way_id":"135164437","name":"Perspex Distribution","building":"yes","other":{"addr:city":"Tamworth","addr:housenumber":"Unit C","addr:postcode":"B77 5DY","addr:street":"Vanguard","website":"https:\/\/www.perspex.co.uk\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.67827,52.60404],[-1.67827,52.60454],[-1.6778,52.60454],[-1.6778,52.60421],[-1.67763,52.60421],[-1.67763,52.6041],[-1.67779,52.6041],[-1.67779,52.60404],[-1.67827,52.60404]]]]}}
 ]
 }

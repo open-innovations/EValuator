@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"58858447","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.26074,52.79452],[-1.26082,52.79467],[-1.26048,52.79474],[-1.2604,52.79459],[-1.26074,52.79452]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"73420783","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.1745,52.78044],[-1.17499,52.7802],[-1.1753,52.78046],[-1.17472,52.78073],[-1.17461,52.78065],[-1.1747,52.78061],[-1.1745,52.78044]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"96046592","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.26027,52.79514],[-1.26017,52.79495],[-1.26059,52.79487],[-1.26067,52.79501],[-1.26051,52.79504],[-1.26054,52.79509],[-1.26027,52.79514]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"103746816","name":"Unit 61","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.12456,52.79324],[-1.12455,52.79297],[-1.12399,52.79297],[-1.124,52.79325],[-1.12456,52.79324]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"398707618","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.12482,52.7932],[-1.12481,52.79286],[-1.12466,52.79286],[-1.12466,52.7932],[-1.12482,52.7932]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"398707620","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.12467,52.7928],[-1.12467,52.79271],[-1.12486,52.79271],[-1.12486,52.7928],[-1.12467,52.7928]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"398707630","name":"Unit E","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.12449,52.79332],[-1.1245,52.79364],[-1.12487,52.79363],[-1.12485,52.79331],[-1.12449,52.79332]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"597352787","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.26009,52.79481],[-1.26001,52.79467],[-1.26035,52.7946],[-1.26043,52.79474],[-1.26009,52.79481]]]]}}
+]
+}

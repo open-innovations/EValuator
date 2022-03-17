@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"695372338","name":"MKM Building Supplies","building":"warehouse","shop":"building_materials","other":{"addr:postcode":"FY4 5NZ","addr:street":"Hallam Way"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.98737,53.78847],[-2.98766,53.78866],[-2.98699,53.789],[-2.98669,53.78881],[-2.98737,53.78847]]]]}}
+]
+}

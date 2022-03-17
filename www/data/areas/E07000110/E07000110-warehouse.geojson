@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"55046860","name":"Amethyst Group","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.54755,51.16983],[0.54929,51.1697],[0.54914,51.16891],[0.5474,51.16904],[0.54755,51.16983]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"55863656","name":"DHL Sainsbury's","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.4957,51.29526],[0.49766,51.29526],[0.49765,51.29471],[0.49717,51.29471],[0.4971,51.29314],[0.4962,51.29315],[0.49627,51.29472],[0.49569,51.29472],[0.4957,51.29526]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"463528195","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.58439,51.18102],[0.58479,51.18096],[0.58485,51.18112],[0.58444,51.18118],[0.58444,51.18117],[0.58439,51.18102]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"463535628","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.61077,51.19003],[0.61097,51.18996],[0.6111,51.19011],[0.6109,51.19018],[0.61077,51.19003]]]]}}
+]
+}

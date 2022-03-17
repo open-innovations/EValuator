@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"119550067","building":"warehouse","other":{"addr:city":"Reading","addr:postcode":"RG30 6QQ","building:levels":"1","source:building":"OS_OpenData_StreetView"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.01823,51.46533],[-1.01808,51.4655],[-1.01744,51.46528],[-1.01759,51.46511],[-1.01823,51.46533]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"119550069","building":"warehouse","other":{"addr:city":"Reading","addr:housenumber":"19","addr:postcode":"RG30 6QG","addr:street":"Deacon Way","building:levels":"2","source:building":"OS_OpenData_StreetView"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.02037,51.46674],[-1.02019,51.4669],[-1.01962,51.46664],[-1.0198,51.46648],[-1.02037,51.46674]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"148092477","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.47357,54.34499],[-1.47351,54.34499],[-1.47352,54.34502],[-1.47345,54.34503],[-1.47344,54.345],[-1.4734,54.345],[-1.47338,54.34492],[-1.47356,54.34491],[-1.47357,54.34499]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"157276296","name":"Direct Business Supplies","building":"warehouse","office":"company","other":{"addr:city":"Stokesley","addr:housename":"Units 5-7, Terry Dicken Estate","addr:postcode":"TS9 7AE","addr:street":"Ellerbeck Way","description":"Business Supplies, Furniture, Printing"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.1792,54.46274],[-1.17917,54.46268],[-1.17957,54.46261],[-1.17955,54.46256],[-1.17968,54.46254],[-1.17973,54.46264],[-1.1792,54.46274]]]]}}
+]
+}

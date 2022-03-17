@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"2756840103","name":"E2","other":{"building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-0.09235,51.57781 ]}},
+{ "type":"Feature","properties":{"osm_id":"2756840135","name":"Arena Design Centre","other":{"building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-0.09201,51.57804 ]}},
+{ "type":"Feature","properties":{"osm_id":"4113647091","name":"MacFixCentre","other":{"building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-0.05603,51.59289 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"181399689","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.1015,51.59865],[-0.10147,51.59859],[-0.10157,51.59857],[-0.1016,51.59862],[-0.1015,51.59865]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"270674463","name":"E2 (Left)","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09231,51.57787],[-0.09208,51.57788],[-0.09207,51.57769],[-0.09229,51.57769],[-0.09231,51.57787]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"270674465","name":"Monkey Farm","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09236,51.57799],[-0.09259,51.57799],[-0.09259,51.57781],[-0.09235,51.57781],[-0.09235,51.57788],[-0.09236,51.57799]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"270674467","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09237,51.57814],[-0.09261,51.57814],[-0.09262,51.57829],[-0.09237,51.5783],[-0.09237,51.57833],[-0.09222,51.57833],[-0.09221,51.57825],[-0.09237,51.57824],[-0.09237,51.57814]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"270674469","amenity":"cafe","building":"warehouse","other":{"name:signed":"no"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09237,51.57814],[-0.09236,51.57799],[-0.09259,51.57799],[-0.09261,51.57814],[-0.09237,51.57814]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"270674470","name":"Arena Design Centre","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09222,51.57833],[-0.09223,51.57835],[-0.09136,51.57846],[-0.09132,51.57835],[-0.09221,51.57824],[-0.09221,51.57825],[-0.09222,51.57833]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"270674472","name":"Arena Design Centre","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09208,51.57788],[-0.09177,51.57789],[-0.09179,51.57822],[-0.09125,51.57823],[-0.09121,51.57771],[-0.09207,51.57769],[-0.09208,51.57788]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"725162532","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09175,51.57634],[-0.09157,51.57642],[-0.09156,51.5764],[-0.09149,51.57643],[-0.09143,51.57637],[-0.0912,51.57646],[-0.09116,51.57642],[-0.09102,51.57648],[-0.09087,51.57633],[-0.09205,51.57585],[-0.09219,51.57597],[-0.09213,51.576],[-0.0923,51.57616],[-0.09179,51.57637],[-0.09175,51.57634]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"725162601","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09152,51.57766],[-0.09122,51.57766],[-0.09121,51.57744],[-0.09151,51.57743],[-0.09152,51.57766]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"725162602","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09181,51.57765],[-0.09152,51.57766],[-0.09151,51.57743],[-0.09178,51.57743],[-0.0918,51.57743],[-0.09181,51.57765]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"725162603","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.09231,51.57765],[-0.09181,51.57765],[-0.0918,51.57743],[-0.0922,51.57742],[-0.0923,51.57742],[-0.09231,51.57765]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1028432198","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.07149,51.59372],[-0.07172,51.5939],[-0.07198,51.59377],[-0.07195,51.59375],[-0.07204,51.59371],[-0.07215,51.59379],[-0.07178,51.59397],[-0.07175,51.59395],[-0.0715,51.59407],[-0.07133,51.59393],[-0.07129,51.59395],[-0.07118,51.59386],[-0.07149,51.59372]]]]}}
+]
+}

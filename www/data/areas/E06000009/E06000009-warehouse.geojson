@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"214405004","name":"Lightworks","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.0241,53.77396],[-3.02506,53.77378],[-3.0253,53.77424],[-3.02561,53.77418],[-3.02586,53.77466],[-3.0246,53.77489],[-3.0241,53.77396]]]]}}
+]
+}

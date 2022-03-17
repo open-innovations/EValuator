@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_id":"4419173430","name":"M& D Electrical Distribution","other":{"shop":"wholesale","phone":"+44 1900 66217","addr:city":"Workington","addr:street":"Ramsay Brow"}}, "geometry":{"type":"Point","coordinates":[-3.54084,54.64312 ]}}
+{ "type":"Feature","properties":{"osm_id":"4419173430","name":"M& D Electrical Distribution","other":{"addr:city":"Workington","addr:street":"Ramsay Brow","phone":"+44 1900 66217","shop":"wholesale"}}, "geometry":{"type":"Point","coordinates":[-3.54084,54.64312 ]}}
 ]
 }

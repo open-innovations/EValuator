@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"185498765","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.10857,53.58028],[-0.10862,53.5801],[-0.10815,53.58006],[-0.1081,53.58024],[-0.10857,53.58028]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"377951810","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.10899,53.57989],[-0.10862,53.57975],[-0.10897,53.57945],[-0.10935,53.5796],[-0.10899,53.57989]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"377951812","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.11056,53.57978],[-0.10973,53.57965],[-0.10945,53.58028],[-0.11028,53.58041],[-0.11056,53.57978]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"395903565","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.11144,53.57834],[-0.11159,53.5782],[-0.1117,53.57824],[-0.11155,53.57838],[-0.11144,53.57834]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"815242535","building":"warehouse","other":{"addr:postcode":"DN31 2TB","addr:street":"Estate Road No 1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.11225,53.57986],[-0.11156,53.57975],[-0.11185,53.57911],[-0.11255,53.57922],[-0.11225,53.57986]]]]}}
+]
+}

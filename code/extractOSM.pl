@@ -121,7 +121,7 @@ foreach $key (sort(keys(%{$conf->{'osm'}{'extracts'}}))){
 
 
 
-		if(!-e $gfile || $conf->{'osm'}{'rebuild'}){
+		if(!-e $gfile || $ARGV[0] eq "rebuild" || $conf->{'osm'}{'extracts'}{$key}{'rebuild'}){
 			
 			print "\t$files[$f]{'code'}\n";
 			
@@ -153,37 +153,41 @@ foreach $key (sort(keys(%{$conf->{'osm'}{'extracts'}}))){
 			}
 
 			# We need to find the layers
-			@lines = `$ogrinfo $tfile`;
+			#@lines = `$ogrinfo $tfile`;
+
+			# Set which layers we want
+			if($conf->{'osm'}{'extracts'}{$key}{'layers'}){
+				@layers = @{$conf->{'osm'}{'extracts'}{$key}{'layers'}};
+			}else{
+				@layers = ("points","polygons","multipolygons");
+			}
 			@features = ();
+			for($l = 0; $l < @layers; $l++){
+				$layer = $layers[$l];
+				$lfile = $basedir.$conf->{'areas'}{'dir'}.$files[$f]{'code'}.'/'.$files[$f]{'code'}.'-'.$key."-".$layer.".geojson";
 
-			for($l = 0; $l < @lines; $l++){
-				if($lines[$l] =~ /^[0-9]+\: ([a-z]+) /){
-					$layer = $1;
-					$lfile = $basedir.$conf->{'areas'}{'dir'}.$files[$f]{'code'}.'/'.$files[$f]{'code'}.'-'.$key."-".$layer.".geojson";
+				# Remove any existing layer file
+				if(-e $lfile){
+					`rm $lfile`;
+				}
 
-					# Remove any existing layer file
-					if(-e $lfile){
-						`rm $lfile`;
+				# Extract the layer
+				#print "\t\tExtracting $layer\n";
+				`$ogr -f GeoJSON $lfile -lco "COORDINATE_PRECISION=5" -skipfailures $tfile $layer 2>&1`;
+
+				# Read in the GeoJSON file and collect the features
+				open(FILE,$lfile);
+				@flines = <FILE>;
+				close(FILE);
+				for($j = 0; $j < @flines; $j++){
+					$row = $flines[$j];
+					if($row =~ /{ "type": "Feature"/){
+						$row =~ s/\,?[\n\r]+//g;
+						push(@features,$row);
 					}
-
-					# Extract the layer
-					#print "\t\tExtracting $layer\n";
-					`$ogr -f GeoJSON $lfile -lco "COORDINATE_PRECISION=5" -skipfailures $tfile $layer 2>&1`;
-
-					# Read in the GeoJSON file and collect the features
-					open(FILE,$lfile);
-					@flines = <FILE>;
-					close(FILE);
-					for($j = 0; $j < @flines; $j++){
-						$row = $flines[$j];
-						if($row =~ /{ "type": "Feature"/){
-							$row =~ s/\,?[\n\r]+//g;
-							push(@features,$row);
-						}
-					}
-					if(-e $lfile){
-						`rm $lfile`;
-					}
+				}
+				if(-e $lfile){
+					`rm $lfile`;
 				}
 			}
 
@@ -203,7 +207,8 @@ foreach $key (sort(keys(%{$conf->{'osm'}{'extracts'}}))){
 			if(-e $tfile){
 				`rm $tfile`;
 			}
-			print "\t\tSaved to $gfile\n";
+			$nfeat = @features;
+			print "\t\tSaved to $gfile ($nfeat features)\n";
 		}
 	}
 

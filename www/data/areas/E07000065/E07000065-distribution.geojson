@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"448203081","name":"John Lewis Distribution Centre","building":"warehouse","other":{"addr:city":"Maresfield","addr:postcode":"TN22 2DU"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.07876,50.99347],[0.07933,50.99367],[0.08003,50.99284],[0.07946,50.99265],[0.07876,50.99347]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"448203081","name":"John Lewis Distribution Centre","building":"warehouse","other":{"addr:city":"Maresfield","addr:postcode":"TN22 2DU"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.07876,50.99347],[0.07933,50.99367],[0.08003,50.99284],[0.07946,50.99265],[0.07876,50.99347]]]]}}
 ]
 }

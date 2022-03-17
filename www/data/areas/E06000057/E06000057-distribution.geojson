@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_id":"794807144","barrier":"fence","z_order": 0 }, "geometry":{"type":"LineString","coordinates":[[-2.49364,54.884],[-2.49365,54.88393],[-2.49362,54.88388],[-2.49359,54.88385],[-2.4937,54.88361],[-2.4933,54.88355],[-2.49333,54.8835],[-2.49311,54.88347]]}}
+{ "type":"Feature","properties":{"osm_way_id":"60693771","name":"Menzies Distribution","building":"yes","other":{"source:name":"survey (seen from motorway)"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.64915,53.78271],[-2.64857,53.78284],[-2.64803,53.78201],[-2.6486,53.78188],[-2.64915,53.78271]]]]}}
 ]
 }

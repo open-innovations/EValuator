@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"531186366","name":"Argos Distribution Centre","building":"industrial","other":{"addr:city":"Basildon","addr:street":"Miles Gray Road","addr:postcode":"SS14 3FF","addr:housename":"Argos Distribution Centre"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.45069,51.58468],[0.45293,51.58501],[0.45301,51.58482],[0.45362,51.58328],[0.45261,51.58313],[0.45266,51.58295],[0.45242,51.58293],[0.45236,51.58308],[0.45227,51.58307],[0.45233,51.58292],[0.45142,51.58278],[0.45085,51.58427],[0.45069,51.58468]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"531186366","name":"Argos Distribution Centre","building":"industrial","other":{"addr:city":"Basildon","addr:housename":"Argos Distribution Centre","addr:postcode":"SS14 3FF","addr:street":"Miles Gray Road"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.45069,51.58468],[0.45293,51.58501],[0.45301,51.58482],[0.45362,51.58328],[0.45261,51.58313],[0.45266,51.58295],[0.45242,51.58293],[0.45236,51.58308],[0.45227,51.58307],[0.45233,51.58292],[0.45142,51.58278],[0.45085,51.58427],[0.45069,51.58468]]]]}}
 ]
 }

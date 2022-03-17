@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"500063461","name":"Western Power Distribution (Hereford)","building":"yes","office":"energy_supplier"},"geometry":{"type":"Polygon","coordinates":[[[ -2.68391,52.03994],[-2.68398,52.03996],[-2.68402,52.03991],[-2.68419,52.03997],[-2.68416,52.04001],[-2.68427,52.04005],[-2.68397,52.04042],[-2.68361,52.04031],[-2.68391,52.03994]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"500063461","name":"Western Power Distribution (Hereford)","building":"yes","office":"energy_supplier"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.68391,52.03994],[-2.68361,52.04031],[-2.68397,52.04042],[-2.68427,52.04005],[-2.68416,52.04001],[-2.68419,52.03997],[-2.68402,52.03991],[-2.68398,52.03996],[-2.68391,52.03994]]]]}}
 ]
 }

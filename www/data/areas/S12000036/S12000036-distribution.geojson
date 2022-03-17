@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"4202034735","name":"Distribution Unlimited","other":{"addr:city":"Edinburgh","addr:housenumber":"44","addr:street":"Swanfield","office":"company","phone":"+44 131 555 6677","website":"http:\/\/www.distributionunlimited.co.uk\/"}}, "geometry":{"type":"Point","coordinates":[-3.17738,55.97167 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"96739079","name":"Menzies Distribution","building":"yes","other":{"addr:city":"Edinburgh","addr:housenumber":"2","addr:street":"Lochside Avenue"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-3.31723,55.93403],[-3.31772,55.93398],[-3.31788,55.93445],[-3.31739,55.93451],[-3.31735,55.9344],[-3.31732,55.9344],[-3.31723,55.93415],[-3.31726,55.93414],[-3.31723,55.93403]]]]}}
+]
+}

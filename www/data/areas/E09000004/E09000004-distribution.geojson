@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"29120478","name":"Ocado General Merchandise Distribution Centre","building":"warehouse","other":{"addr:city":"Erith","addr:street":"Church Manorway","addr:postcode":"DA8 1PQ"}}, "geometry":{"type":"Polygon","coordinates":[[[ 0.17007,51.48971],[0.1721,51.48909],[0.17201,51.48897],[0.17146,51.48827],[0.16943,51.48889],[0.17007,51.48971]] ]}},
-{ "type":"Feature","properties":{"osm_way_id":"700881929","name":"ADI Global Distribution","building":"industrial"},"geometry":{"type":"Polygon","coordinates":[[[ 0.18526,51.45212],[0.18582,51.45216],[0.18593,51.45159],[0.18535,51.45155],[0.18526,51.45212]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"29120478","name":"Ocado General Merchandise Distribution Centre","building":"warehouse","other":{"addr:city":"Erith","addr:postcode":"DA8 1PQ","addr:street":"Church Manorway"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.17007,51.48971],[0.1721,51.48909],[0.17201,51.48897],[0.17146,51.48827],[0.16943,51.48889],[0.17007,51.48971]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"700881929","name":"ADI Global Distribution","building":"industrial"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.18526,51.45212],[0.18582,51.45216],[0.18593,51.45159],[0.18535,51.45155],[0.18526,51.45212]]]]}}
 ]
 }

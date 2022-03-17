@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"203870915","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.66887,53.33503],[-1.66857,53.33531],[-1.66835,53.33522],[-1.66864,53.33495],[-1.66874,53.33499],[-1.66876,53.33496],[-1.66883,53.33499],[-1.6688,53.33501],[-1.66887,53.33503]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"203914180","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.53554,53.13701],[-1.535,53.13692],[-1.53507,53.13677],[-1.53523,53.1368],[-1.53527,53.13671],[-1.5355,53.13675],[-1.53544,53.13688],[-1.53552,53.13689],[-1.53551,53.13691],[-1.53558,53.13692],[-1.53554,53.13701]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"233844980","name":"Budget Self Storage","building":"warehouse","shop":"storage_rental","other":{"website":"http:\/\/www.budgetselfstorageltd.co.uk\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.57226,53.07788],[-1.57198,53.07766],[-1.57213,53.07759],[-1.57242,53.07781],[-1.57226,53.07788]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"535207578","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.59282,53.15972],[-1.5927,53.15978],[-1.59245,53.15962],[-1.59258,53.15955],[-1.59282,53.15972]]]]}}
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"4038655","name":"Bestway Wholesalers","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.00637,51.44389],[0.00758,51.44269],[0.0069,51.44242],[0.00578,51.44363],[0.00637,51.44389]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"4076619","name":"Halfords","building":"warehouse","other":{"addr:housenumber":"1a","addr:postcode":"SE6 4NU","addr:street":"Catford Hill","opening_hours":"Mo-Fr 09:00-20:00; Sa 09:00-18:00; Su 10:00-17:00","phone":"+44 20 8690 9600","website":"https:\/\/www.halfords.com\/stores\/catford"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.02543,51.44388],[-0.02519,51.44386],[-0.02525,51.44353],[-0.02565,51.44356],[-0.0256,51.44379],[-0.02543,51.44388]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"4076620","name":"Wickes","building":"warehouse","other":{"addr:housenumber":"7","addr:postcode":"SE6 4NU","addr:street":"Catford Hill","addr:suburb":"Catford","opening_hours":"Su 10:00-16:00; Mo-Fr 07:00-20:00; Sa 07:00-19:00","website":"https:\/\/www.wickes.co.uk\/store\/8083"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.02601,51.44219],[-0.02586,51.443],[-0.02533,51.44296],[-0.02548,51.44215],[-0.02601,51.44219]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"4076621","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.02579,51.442],[-0.02551,51.44199],[-0.02558,51.44157],[-0.02586,51.44159],[-0.02579,51.442]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"521708683","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.01903,51.45749],[-0.01888,51.45769],[-0.01826,51.45752],[-0.01841,51.45731],[-0.01903,51.45749]]]]}}
+]
+}

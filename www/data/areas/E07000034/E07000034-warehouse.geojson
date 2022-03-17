@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"376741855","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.41997,53.25325],[-1.41961,53.25328],[-1.41951,53.25289],[-1.41988,53.25286],[-1.41997,53.25325]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"376741863","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.42021,53.25272],[-1.41954,53.25278],[-1.41948,53.25253],[-1.42015,53.25247],[-1.42021,53.25272]]]]}}
+]
+}

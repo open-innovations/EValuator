@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"33832661","building":"warehouse","other":{"building:levels":"1"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.21888,51.51],[-0.2188,51.50975],[-0.21818,51.50983],[-0.21818,51.50985],[-0.21826,51.51006],[-0.21829,51.51008],[-0.21888,51.51]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"613719090","building":"warehouse","other":{"building:levels":"2"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.21341,51.5266],[-0.21341,51.52674],[-0.21254,51.52672],[-0.21255,51.52658],[-0.21341,51.5266]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"663358318","name":"Shurgard Self-Storage Kensington","building":"warehouse","other":{"addr:housenumber":"167-185","addr:street":"Freston Road","building:levels":"2"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.22018,51.51291],[-0.22016,51.51292],[-0.21995,51.51299],[-0.21963,51.5131],[-0.21935,51.51278],[-0.21939,51.51277],[-0.2192,51.51255],[-0.21961,51.5124],[-0.2196,51.51239],[-0.21969,51.51236],[-0.22018,51.51291]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"768262337","building":"warehouse","other":{"addr:street":"Lonsdale Mews","building:levels":"2","description":"Traders Stores"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.20011,51.51534],[-0.20014,51.5154],[-0.20074,51.51528],[-0.20072,51.51523],[-0.20011,51.51534]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"768262338","building":"warehouse","other":{"addr:street":"Lonsdale Mews","building:levels":"2","description":"Traders Stores"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.20069,51.51518],[-0.20067,51.51515],[-0.20067,51.51514],[-0.20036,51.5152],[-0.20038,51.51524],[-0.20069,51.51518]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"768262339","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.20037,51.51525],[-0.20036,51.51522],[-0.20026,51.51524],[-0.20027,51.51527],[-0.20037,51.51525]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"790740457","building":"terrace","other":{"building:levels":"2"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-0.2162,51.50526],[-0.21618,51.50526],[-0.21618,51.50525],[-0.21617,51.50525],[-0.21617,51.50522],[-0.21611,51.50522],[-0.21603,51.50547],[-0.21613,51.50548],[-0.21617,51.50534],[-0.21615,51.50533],[-0.21616,51.50533],[-0.21614,51.50533],[-0.21615,51.50531],[-0.21616,51.50531],[-0.21616,51.5053],[-0.21618,51.50531],[-0.2162,51.50526]]]]}}
+]
+}

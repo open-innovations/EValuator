@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{ "type":"Feature","properties":{"osm_way_id":"181252263","name":"Fuller's Distribution Centre","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.99641,50.90747],[-0.99631,50.90747],[-0.99631,50.9075],[-0.99584,50.90752],[-0.99584,50.90749],[-0.99574,50.9075],[-0.99573,50.90745],[-0.99563,50.90746],[-0.99561,50.90722],[-0.99638,50.90719],[-0.99641,50.90747]]]]}}
 ]
 }

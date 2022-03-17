@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"1025131309","name":"Mole Valley Farmers","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-4.35635,50.8063],[-4.35596,50.80638],[-4.35589,50.80625],[-4.35596,50.80624],[-4.35586,50.80607],[-4.35618,50.80599],[-4.35635,50.8063]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1025131310","name":"Mole Valley Farmers","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-4.35516,50.80616],[-4.35495,50.80621],[-4.35486,50.80605],[-4.35506,50.806],[-4.35516,50.80616]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1025131311","name":"Mole Valley Farmers","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-4.35602,50.80577],[-4.35589,50.80558],[-4.35567,50.80564],[-4.35564,50.80559],[-4.35546,50.80563],[-4.35549,50.80568],[-4.3556,50.80565],[-4.35573,50.80585],[-4.35602,50.80577]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1025131312","name":"Mole Valley Farmers","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-4.35453,50.80654],[-4.35434,50.80661],[-4.3542,50.80647],[-4.3544,50.80639],[-4.35453,50.80654]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1025801550","name":"Tamar Trading","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-4.35685,50.80767],[-4.35658,50.80767],[-4.35657,50.80743],[-4.35684,50.80743],[-4.35685,50.80767]]]]}}
+]
+}

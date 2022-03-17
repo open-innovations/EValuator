@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"194557168","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30353,53.20526],[-0.30415,53.20544],[-0.30426,53.2053],[-0.30363,53.20512],[-0.30353,53.20526]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"194557554","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30379,53.20439],[-0.30309,53.20424],[-0.30331,53.20385],[-0.30401,53.20399],[-0.30379,53.20439]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"194557555","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.3051,53.20528],[-0.30452,53.20493],[-0.30457,53.2049],[-0.30408,53.2046],[-0.30437,53.20443],[-0.30447,53.20449],[-0.30504,53.20415],[-0.30518,53.20423],[-0.30568,53.20394],[-0.30646,53.2044],[-0.30596,53.2047],[-0.30601,53.20473],[-0.30551,53.20503],[-0.30508,53.20476],[-0.30506,53.20477],[-0.30554,53.20506],[-0.30534,53.20519],[-0.3053,53.20516],[-0.3051,53.20528]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"194557556","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30475,53.20411],[-0.30464,53.20403],[-0.30474,53.20397],[-0.30486,53.20405],[-0.30475,53.20411]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"194557557","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30399,53.20458],[-0.30375,53.20472],[-0.30427,53.20503],[-0.30451,53.2049],[-0.30399,53.20458]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"194557558","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30466,53.20515],[-0.30435,53.20543],[-0.30473,53.20558],[-0.30505,53.20531],[-0.30466,53.20515]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"194557920","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30359,53.2045],[-0.30324,53.20443],[-0.3033,53.20432],[-0.30365,53.20439],[-0.30359,53.2045]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"194557953","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30321,53.20444],[-0.30303,53.2044],[-0.30305,53.20437],[-0.30323,53.20441],[-0.30321,53.20444]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"194557954","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30297,53.20418],[-0.30252,53.20424],[-0.30221,53.20343],[-0.30267,53.20337],[-0.30297,53.20418]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"431581835","name":"Topper's Warehouse","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.30337,53.49751],[-0.30344,53.49766],[-0.30362,53.49763],[-0.30354,53.49748],[-0.30337,53.49751]]]]}}
+]
+}

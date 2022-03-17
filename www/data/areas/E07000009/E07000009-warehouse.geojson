@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"166500112","name":"ShawSpencer","building":"warehouse","other":{"phone":"+44 1638 744201","website":"http:\/\/www.shawspencerfurniturestores.co.uk\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.35232,52.24646],[0.35293,52.24697],[0.35314,52.24688],[0.35337,52.24677],[0.35276,52.24626],[0.35257,52.24634],[0.35232,52.24646]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"190036834","name":"City Link","building":"warehouse","other":{"addr:postcode":"CB8 7LG","website":"http:\/\/www.city-link.co.uk\/our-locations\/location\/newmarket.html"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.39368,52.28623],[0.39381,52.28642],[0.39478,52.28616],[0.39461,52.28592],[0.39438,52.28598],[0.39434,52.28593],[0.39361,52.28613],[0.39368,52.28623]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"354099767","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.27029,52.39442],[0.26995,52.39415],[0.2701,52.39408],[0.27019,52.39415],[0.27025,52.39412],[0.27051,52.39431],[0.27029,52.39442]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"354099770","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.26963,52.39435],[0.26976,52.39442],[0.26953,52.39457],[0.2694,52.3945],[0.26963,52.39435]]]]}}
+]
+}

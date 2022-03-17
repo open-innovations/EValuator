@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"38417862","name":"Heinz","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.68037,53.55547],[-2.68013,53.55545],[-2.68016,53.55532],[-2.67889,53.55519],[-2.67886,53.55533],[-2.67748,53.5552],[-2.67701,53.5569],[-2.67991,53.55716],[-2.68037,53.55547]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"61123368","name":"XPO Logistics","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.5076,53.48575],[-2.50728,53.48582],[-2.50737,53.48599],[-2.50718,53.48602],[-2.50746,53.48668],[-2.50754,53.48689],[-2.50812,53.48681],[-2.50768,53.48579],[-2.50763,53.48581],[-2.5076,53.48575]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"579458958","name":"Poundland","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.63795,53.50317],[-2.6369,53.504],[-2.63358,53.50249],[-2.63464,53.50167],[-2.63795,53.50317]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"769113480","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.61757,53.55193],[-2.61741,53.55206],[-2.61727,53.55202],[-2.6173,53.55193],[-2.61742,53.55198],[-2.61751,53.5519],[-2.61757,53.55193]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"979877164","name":"Cash for Clothes","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.63282,53.49016],[-2.63263,53.49005],[-2.63272,53.48999],[-2.63292,53.4901],[-2.63282,53.49016]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1009266601","name":"Hall's Storage","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.59899,53.51753],[-2.59862,53.51732],[-2.59889,53.51715],[-2.59937,53.51742],[-2.59909,53.51759],[-2.59899,53.51753]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1021053073","name":"R Swain and Sons","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.44247,53.50393],[-2.44175,53.50432],[-2.44242,53.50476],[-2.44313,53.50437],[-2.44274,53.50412],[-2.44265,53.50417],[-2.44256,53.50411],[-2.44266,53.50406],[-2.44247,53.50393]]]]}}
+]
+}

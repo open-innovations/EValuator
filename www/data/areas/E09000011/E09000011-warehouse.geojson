@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"102602130","name":"Parcel Force","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.02797,51.49114],[0.02872,51.49125],[0.02892,51.49077],[0.02853,51.49072],[0.0286,51.49052],[0.02854,51.49051],[0.02866,51.4902],[0.02839,51.49016],[0.02827,51.49047],[0.02821,51.49046],[0.02797,51.49114]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"258702212","name":"Meantime Brewery and Visitor Centre","building":"warehouse","craft":"brewery","tourism":"attraction","other":{"addr:city":"London","addr:housename":"Lawrence Trading Estate","addr:postcode":"SE10 0AR","addr:street":"Blackwall Lane","opening_hours":"Mo-We 12:00-22:30; Th-Fr 12:00-23:00; Sa 11:00-23:00; Su 12:00-18:00","operator":"Meantime Brewing Company","phone":"+44 20 8293 1111","website":"https:\/\/www.meantimebrewing.com\/contact\/"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[0.00699,51.48926],[0.00698,51.48935],[0.00698,51.48948],[0.00718,51.48948],[0.00718,51.4896],[0.0085,51.48961],[0.00851,51.48927],[0.00699,51.48926]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"299381892","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.02935,51.49128],[0.02941,51.49114],[0.02905,51.49108],[0.029,51.49123],[0.02935,51.49128]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"299381897","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.02941,51.49114],[0.02946,51.49099],[0.02911,51.49094],[0.02905,51.49108],[0.02941,51.49114]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"299381899","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.02946,51.49099],[0.02952,51.49083],[0.02917,51.49078],[0.02911,51.49094],[0.02946,51.49099]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"299381901","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.02924,51.49158],[0.0293,51.49143],[0.02894,51.49137],[0.02889,51.49152],[0.02924,51.49158]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"299381903","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.02889,51.49152],[0.02884,51.49165],[0.0292,51.49171],[0.02924,51.49158],[0.02889,51.49152]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"299381905","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[0.0293,51.49143],[0.02935,51.49128],[0.029,51.49123],[0.02894,51.49137],[0.0293,51.49143]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1038377608","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.01903,51.47697],[-0.01922,51.47685],[-0.01875,51.47656],[-0.01855,51.47668],[-0.01903,51.47697]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1038377609","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.01879,51.47654],[-0.01898,51.47642],[-0.01945,51.47671],[-0.01926,51.47683],[-0.01879,51.47654]]]]}}
+]
+}

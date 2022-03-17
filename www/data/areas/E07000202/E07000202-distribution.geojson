@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"28912506","name":"Whitehouse Distribution Centre","building":"warehouse","other":{"operator":"Carlsberg UK"}}, "geometry":{"type":"Polygon","coordinates":[[[ 1.11343,52.08187],[1.11398,52.08259],[1.11497,52.08231],[1.11504,52.0824],[1.11526,52.08234],[1.11509,52.08211],[1.11496,52.08214],[1.11452,52.08156],[1.11343,52.08187]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"28912506","name":"Whitehouse Distribution Centre","building":"warehouse","other":{"operator":"Carlsberg UK"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[1.11343,52.08187],[1.11452,52.08156],[1.11496,52.08214],[1.11509,52.08211],[1.11526,52.08234],[1.11504,52.0824],[1.11497,52.08231],[1.11398,52.08259],[1.11343,52.08187]]]]}}
 ]
 }

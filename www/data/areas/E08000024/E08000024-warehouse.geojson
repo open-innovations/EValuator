@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"3856561693","name":"North East Vending","other":{"addr:city":"Sunderland","addr:street":"Villiers Street","building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-1.37587,54.90684 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"396424064","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.35822,54.90379],[-1.35785,54.90379],[-1.35786,54.90345],[-1.35767,54.90345],[-1.35768,54.90331],[-1.35761,54.90331],[-1.35761,54.90317],[-1.35787,54.90317],[-1.35787,54.90295],[-1.35824,54.90295],[-1.35822,54.90379]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"396424084","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.35766,54.90264],[-1.35787,54.90264],[-1.35787,54.90306],[-1.3576,54.90306],[-1.3576,54.90295],[-1.35767,54.90295],[-1.35766,54.90264]]]]}}
+]
+}

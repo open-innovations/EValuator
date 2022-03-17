@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_way_id":"54778098","name":"Clarks (Distribution Centre)","building":"warehouse","other":{"operator":"Clarks","addr:city":"Street","addr:street":"Westway","addr:postcode":"BA16 0LN","source:position":"OS_OpenData_StreetView"}}, "geometry":{"type":"Polygon","coordinates":[[[ -2.75278,51.12612],[-2.74999,51.12614],[-2.74997,51.12475],[-2.7527,51.12472],[-2.75272,51.12593],[-2.75276,51.12601],[-2.75278,51.12612]] ]}}
+{ "type":"Feature","properties":{"osm_way_id":"54778098","name":"Clarks (Distribution Centre)","building":"warehouse","other":{"addr:city":"Street","addr:postcode":"BA16 0LN","addr:street":"Westway","operator":"Clarks","source:position":"OS_OpenData_StreetView"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.75278,51.12612],[-2.75276,51.12601],[-2.75272,51.12593],[-2.7527,51.12472],[-2.74997,51.12475],[-2.74999,51.12614],[-2.75278,51.12612]]]]}}
 ]
 }

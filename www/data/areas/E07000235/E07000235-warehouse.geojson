@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"1309564744","other":{"power":"pole"}}, "geometry":{"type":"Point","coordinates":[-2.19892,52.14765 ]}},
+{ "type":"Feature","properties":{"osm_id":"1309564749","name":"Saint Marys Church Kempsey","other":{"power":"pole","transformer":"distribution"}}, "geometry":{"type":"Point","coordinates":[-2.22215,52.13958 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"700694251","name":"J & L Builders Merchant","building":"warehouse","other":{"building:use":"retail"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.42477,52.29187],[-2.42472,52.29165],[-2.42446,52.29167],[-2.42451,52.29189],[-2.42477,52.29187]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"957433554","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.55261,51.47068],[-1.5515,51.47069],[-1.5515,51.47036],[-1.55261,51.47035],[-1.55261,51.47068]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"957433555","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.55289,51.47107],[-1.55161,51.47107],[-1.55161,51.47074],[-1.55289,51.47074],[-1.55289,51.47107]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1017192555","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.33352,52.12791],[-2.33346,52.12786],[-2.33328,52.12792],[-2.33333,52.12798],[-2.33352,52.12791]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1017192556","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.33321,52.12795],[-2.33326,52.12801],[-2.33302,52.12809],[-2.33296,52.12804],[-2.33321,52.12795]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1017192557","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-2.33381,52.12804],[-2.33389,52.12812],[-2.33381,52.12815],[-2.33384,52.12817],[-2.33376,52.1282],[-2.33367,52.1281],[-2.33381,52.12804]]]]}}
+]
+}

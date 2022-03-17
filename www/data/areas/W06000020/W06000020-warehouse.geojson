@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_way_id":"399734040","name":"Pimlico Beds","building":"warehouse","shop":"mall"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.0079,51.67919],[-3.0086,51.67925],[-3.00862,51.67912],[-3.00837,51.6791],[-3.00839,51.679],[-3.00821,51.67898],[-3.00825,51.67876],[-3.00798,51.67874],[-3.0079,51.67919]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"678023749","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.0725,51.7279],[-3.07229,51.72789],[-3.07226,51.72824],[-3.07247,51.72825],[-3.0725,51.7279]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"792074420","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.0144,51.64428],[-3.01382,51.64454],[-3.01392,51.64464],[-3.01449,51.64437],[-3.0144,51.64428]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"792074421","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.01368,51.64402],[-3.01341,51.64414],[-3.01318,51.64396],[-3.01348,51.64383],[-3.01368,51.64402]]]]}}
+]
+}

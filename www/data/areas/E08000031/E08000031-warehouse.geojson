@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"4086636343","name":"Independent Living Service","other":{"addr:city":"Wolverhampton","addr:street":"Racecourse Road","building":"warehouse"}}, "geometry":{"type":"Point","coordinates":[-2.14129,52.60052 ]}}
+]
+}
