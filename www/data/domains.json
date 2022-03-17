@@ -6,18 +6,21 @@
 		"title": "Transport accessibility",
 		"desc": "An index created to show transport accessibilty across the North of England. This builds on the <a href='https://github.com/odileeds/OpenJourneyTime'>Open Journey Time</a> work by Open Innovations for Transport for the North.",
 		"src": "https://github.com/dringtech/index-of-transport-accessibility/raw/main/accessibility_index.csv",
+		"weight": 0.5,
 		"attrib": ["<a href=\"https://open-innovations.org/\">Open Innovations</a>","<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"]
 	},{
 		"id": "ulev",
 		"title": "ULEVs",
 		"desc": "A representative value for ULEVs registered per MSOA in Q3 2021.",
 		"src": "layers/ULEVs_MSOA.csv",
+		"weight": 0.5,
 		"attrib": ["DfT"]
 	},{
 		"id": "estimated-parking-capacity",
 		"title": "Estimated car park capacity",
 		"desc": "An estimate of the total capacity for car parks. This uses an extract of car parks from OpenStreetMap. Where a car park has a capacity attributes set we use those. If the capacity attribute is not set we estimate the capacity from a scaling of the area.",
 		"src": "layers/estimated-parking-capacity.csv",
+		"weight": 0.5,
 		"attrib": ["<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"]
 	}]
 },{
@@ -28,6 +31,7 @@
 		"title": "Home charging points",
 		"desc": "A value representing charging devices installed as part of the <a href='https://www.gov.uk/government/statistics/electric-vehicle-charging-device-grant-scheme-statistics-october-2021/electric-vehicle-charging-device-grant-scheme-statistics-october-2021'>Electric Vehicle Homecharge Scheme</a> (EVHS) as of 1 October 2021. The data are originally provided by Postcode District and have been apportioned to MSOA by the distribution of postcodes.",
 		"src": "layers/EVHS.csv",
+		"weight": 0.5,
 		"attrib": ["DfT"]
 	},{
 		"id": "chargepoints",
@@ -35,7 +39,7 @@
 		"desc": "The number of chargepoints in the National Chargepoint Registry.",
 		"src": "layers/chargepoints.csv",
 		"invert": true,
-		"weight": 1,
+		"weight": 0.5,
 		"attrib": ["<a href=\"https://chargepoints.dft.gov.uk/\">National Chargepoint Registry</a>"]
 	}]
 },{
@@ -46,6 +50,7 @@
 		"title": "Distribution Centres",
 		"desc": "An estimate of the size of distribution centres. This uses an extract from OpenStreetMap where <code>name=*Distribution*</code>.",
 		"src": "layers/distribution-centres.csv",
+		"weight": 0.5,
 		"attrib": ["<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"]
 	}]
 }]
