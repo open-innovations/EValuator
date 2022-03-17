@@ -53,6 +53,9 @@
 		"dir": "www/data/layers/"
 	},
 	"lookup":{
-		"file": "www/data/lookup/OA11-LAD21-CAUTH21.tsv"
+		"file": "www/data/lookup/OA11-LAD21-CAUTH21.tsv",
+		"names": "www/data/lookup/MSOA-Names-Latest.csv",
+		"namesurl": "https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-Latest.csv",
+		"area": "www/data/lookup/lookupArea.tsv"
 	}
 }

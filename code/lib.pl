@@ -1,11 +1,9 @@
 #!/usr/bin/perl
 
-use strict;
 use warnings;
 use JSON::XS;
 use Data::Dumper;
 use Math::Trig;
-
 
 sub loadConf {
 	# Version 1.1
@@ -132,32 +130,26 @@ sub makeDir {
 	return 1;
 }
 
-sub getLookup {
-	my $file = "../www/data/lookupArea.tsv";
-	my (%lookup,$i,$line,$lad,$ms,$n,$m);
-
-	%lookup = ('LAD'=>{},'MSOA'=>{});
-
-	# Open the LAD/MSOA lookup file
-	open(FILE,$file) || error("Couldn't open the file");
-	$i = 0;
-	while(<FILE>){
-		$line = $_;
-		if($i > 0){
-			$line =~ s/[\n\r]//;
-			($lad,$ms) = split(/\t/,$line);
-			# Split the MSOAs for the LAD
-			@{$lookup{'LAD'}{$lad}} = split(/;/,$ms);
-			# Count the number of MSOAs
-			$n = @{$lookup{'LAD'}{$lad}};
-			for($m = 0; $m < $n;$m++){
-				# Create a lookup for MSOAs
-				$lookup{'MSOA'}{$lookup{'LAD'}{$lad}[$m]} = $lad;
-			}
-		}
-		$i++;
+# Get the GeoJSON for the area
+#   code = Area code
+#   dir = Directory to geojsonl files
+#   url = The URL to get the GeoJSON
+sub getGeoJSON {
+	my (%config) = @_;
+	my (@lines,$url);
+	
+	if(-d $config{'dir'}){
+		open(FILE,$config{'dir'}.$config{'code'}.".geojsonl");
+		@lines = <FILE>;
+		close(FILE);
+	}else{
+		$url = $config{'url'}||"https://raw.githubusercontent.com/odileeds/geography-bits/master/data/%TYPE%/%CODE%.geojsonl";
+		$url =~ s/\%CODE\%/$config{'code'}/g;
+		$url =~ s/\%TYPE\%/$config{'type'}/g;
+		print "URL = $url\n";
+		@lines = `wget -q --no-check-certificate -O- $url`;
 	}
-	return %lookup;
+	return join("",@lines);
 }
 
 sub polyify {
