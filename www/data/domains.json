@@ -44,7 +44,7 @@
 	"layers": [{
 		"id": "distribution-centres",
 		"title": "Distribution Centres",
-		"desc": "An estimate of the size of distribution centres. This uses an extract of car parks from OpenStreetMap where <code>name=*Distribution*</code>.",
+		"desc": "An estimate of the size of distribution centres. This uses an extract from OpenStreetMap where <code>name=*Distribution*</code>.",
 		"src": "layers/distribution-centres.csv",
 		"attrib": ["<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"]
 	}]
