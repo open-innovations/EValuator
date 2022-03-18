@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02005203,"Elswick",342,1326.0,1320.98,27.161,0,0.00
-E02005204,"Kirkham & Wesham",491,406.0,1310.71,45.565,0,0.00
-E02005205,"Clifton & Newton-with-Scales",407,406.0,114.41,40.042,0,0.00
-E02005206,"St Annes North & Airport",254,383.0,1850.14,19.847,0,0.00
-E02005207,"Heyhouses & Park",244,383.0,405.88,22.790,0,0.00
-E02005208,"St Annes Town",214,221.0,1176.04,62.382,0,0.00
-E02005209,"Warton & Freckleton",271,627.0,3567.76,28.806,0,0.00
-E02005210,"Ansdell & Fairhaven",171,221.0,1206.11,25.145,3,0.00
-E02005211,"Lytham",305,221.0,1186.91,30.840,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02005203,"Elswick",342,1326.0,1358.55,27.161,0,0.00,3372.32,1673.16
+E02005204,"Kirkham & Wesham",491,406.0,1310.71,45.565,0,0.00,5642.17,0.00
+E02005205,"Clifton & Newton-with-Scales",407,406.0,114.41,40.042,0,0.00,0.00,0.00
+E02005206,"St Annes North & Airport",254,383.0,1903.06,19.847,0,0.00,9660.30,0.00
+E02005207,"Heyhouses & Park",244,383.0,405.88,22.790,0,0.00,0.00,0.00
+E02005208,"St Annes Town",214,221.0,1210.53,62.382,0,0.00,3413.68,0.00
+E02005209,"Warton & Freckleton",271,627.0,3567.76,28.806,0,0.00,0.00,0.00
+E02005210,"Ansdell & Fairhaven",171,221.0,1206.11,25.145,3,0.00,579.34,0.00
+E02005211,"Lytham",305,221.0,1186.91,30.840,0,0.00,4955.95,0.00

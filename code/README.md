@@ -1,19 +1,36 @@
 # Code
 
-## Setting up
-
-
-
-
 ## Create a new geographic area
 
 Currently the tool contains Local Authorities and Combined Authorities. If you want to add a new area, add it to the file `www/data/areas.tsv` with the ONS code and the name. Make sure that the code is included in the lookup file `www/data/lookup/OA11-LAD21-CAUTH21.tsv` in a column with a header ending with `CD` so that we know which MSOAs it is connected to. Then run the following steps:
 
   * `perl generateAreas.pl` - this will create `www/data/lookup/lookupArea.tsv` which contains all the area codes with their associated MSOAs. For each area it will generate:
-     * `www/data/areas/CODE/` - the sub-directory
-	 * `www/data/areas/CODE/CODE-msoas.tsv` - the MSOAs for this area with their House of Commons names
-	 * `www/data/areas/CODE/CODE.geojson` - a GeoJSON file with all the MSOA polygons for this area
+    * `www/data/areas/CODE/` - the sub-directory
+	* `www/data/areas/CODE/CODE-msoas.tsv` - the MSOAs for this area with their House of Commons names
+	* `www/data/areas/CODE/CODE.geojson` - a GeoJSON file with all the MSOA polygons for this area
+  * `perl makeMSOAGeoJSON.pl`  - creates MSOA-level extracts from the area extracts in preparation for analysis
   * `perl buildScores.pl` - this will update the scores for every area listed in `www/data/areas.tsv` creating `www/data/areas/CODE/CODE.csv` as necessary
+
+
+
+Also:
+
+`extractOSM.pl` - 
+
+`buildLayer-carpark-capacity.pl` - builds the carpark capacity CSV using the MSOA-level extracts of parking
+`buildLayer-distribution-centres.pl` - builds the distribution centre CSV using the MSOA-level extracts of distribution centres
+
+
+### Command line examples
+
+
+```
+ogr2ogr -f GeoJSON E02006875.geojson E08000035.geojson -clipsrc ../geography-bits/data/MSOA11CD/E02006875.geojsonl
+```
+
+where `E08000035.geojson` is our input GeoJSON for the area, `E02006875.geojson` is our output GeoJSON for a particular MSOA, and `../geography-bits/data/MSOA11CD/E02006875.geojsonl` is the boundary for the MSOA in our [geography-bits repo](https://github.com/odileeds/geography-bits/).
+
+
 
 
 
@@ -67,22 +84,3 @@ ogr2ogr -f SQLite E08000035-data.geojson temporary.sqlite -clipsrc www/boundarie
 ```
 
 For some big/fractal-coasty Local Authorities, this two-step process makes it much quicker.
-
-### MSOA-level data
-
-We can now create temporary extracts of the data at MSOA level in preparation for analysis. 
-
-```
-perl makeMSOAGeoJSON.pl
-```
-
-It loads the LAD-MSOA lookup table from `www/data/lookupLAD.tsv` to get a mapping from LAD to MSOA. Rather than clip to each MSOA (there are 7201) from the GB-level data - which would be slow - we clip the LAD-level data that we created previously.
-
-For every layer and MSOA we can run something like this:
-
-```
-ogr2ogr -f GeoJSON E02006875.geojson E08000035.geojson -clipsrc ../geography-bits/data/MSOA11CD/E02006875.geojsonl
-```
-
-where `E08000035.geojson` is our input file for the LAD, `E02006875.geojson` is our output file for MSOA, and `../geography-bits/data/MSOA11CD/E02006875.geojsonl` is the boundary for the MSOA in our [geography-bits repo](https://github.com/odileeds/geography-bits/).
-

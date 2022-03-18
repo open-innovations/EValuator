@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02004712,"Hiltingbury",0,295.0,989.79,46.435,1,0.00
-E02004713,"Chandler's Ford East",0,961.0,811.83,89.267,0,0.00
-E02004714,"Chandler's Ford West",0,628.0,1257.70,41.392,0,0.00
-E02004715,"Boyatt Wood",0,333.0,675.91,24.347,3,0.00
-E02004716,"Bishopstoke",0,333.0,119.43,21.564,0,0.00
-E02004717,"Eastleigh West",0,1016.0,9100.09,43.171,14,0.00
-E02004718,"Central Eastleigh",0,628.0,1141.72,30.815,27,0.00
-E02004719,"Fair Oak",0,816.0,744.15,29.678,0,0.00
-E02004720,"West End & Chartwell Green",0,954.0,3795.79,25.695,0,73584.32
-E02004721,"Hedge End North & Botley North",0,483.0,2386.34,25.228,0,0.00
-E02004722,"Hedge End Wildern & Botley South",0,610.0,2403.53,62.975,1,1213.53
-E02004723,"Hedge End South",0,762.0,4321.22,22.634,2,0.00
-E02004724,"Lowford",0,889.0,2621.90,30.534,3,0.00
-E02004725,"Netley",0,394.0,518.45,20.457,0,0.00
-E02004726,"Hamble-le-Rice",0,394.0,2738.30,25.049,3,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02004712,"Hiltingbury",0,295.0,989.79,46.435,1,0.00,0.00,0.00
+E02004713,"Chandler's Ford East",0,961.0,813.99,89.267,0,0.00,1303.11,0.00
+E02004714,"Chandler's Ford West",0,628.0,1257.70,41.392,0,0.00,1188.82,10822.87
+E02004715,"Boyatt Wood",0,333.0,675.91,24.347,3,0.00,0.00,0.00
+E02004716,"Bishopstoke",0,333.0,119.43,21.564,0,0.00,0.00,0.00
+E02004717,"Eastleigh West",0,1016.0,9608.14,43.171,14,0.00,13214.56,0.00
+E02004718,"Central Eastleigh",0,628.0,1147.18,30.815,27,0.00,8094.26,0.00
+E02004719,"Fair Oak",0,816.0,744.15,29.678,0,0.00,0.00,5319.76
+E02004720,"West End & Chartwell Green",0,954.0,3799.87,25.695,0,73584.32,3586.39,0.00
+E02004721,"Hedge End North & Botley North",0,483.0,2386.34,25.228,0,0.00,276.97,1166.16
+E02004722,"Hedge End Wildern & Botley South",0,610.0,2403.53,62.975,1,1213.53,0.00,4847.59
+E02004723,"Hedge End South",0,762.0,4321.22,22.634,2,0.00,13109.89,889.26
+E02004724,"Lowford",0,889.0,2649.17,30.534,3,0.00,11182.68,0.00
+E02004725,"Netley",0,394.0,518.45,20.457,0,0.00,0.00,0.00
+E02004726,"Hamble-le-Rice",0,394.0,2872.75,25.049,3,0.00,0.00,1539.37

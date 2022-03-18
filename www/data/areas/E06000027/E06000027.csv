@@ -1,18 +1,18 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02003154,"Watcombe",0,287.0,3.58,9.237,0,0.00
-E02003155,"St Marychurch & Maidencombe",0,287.0,585.13,6.144,0,0.00
-E02003156,"Shiphay & the Willows",0,702.0,3943.48,26.552,1,0.00
-E02003157,"Upton & Hele",0,287.0,738.06,7.132,0,0.00
-E02003158,"Babbacombe & Plainmoor",0,287.0,350.95,4.540,1,0.00
-E02003159,"Ellacombe",0,145.0,8.27,3.911,0,0.00
-E02003161,"Torquay Central",0,287.0,1772.41,26.524,0,0.00
-E02003163,"Wellswood",0,145.0,652.60,11.336,0,0.00
-E02003164,"Preston & Shorton",0,112.0,374.42,16.640,1,0.00
-E02003165,"Clifton & Maidenway",0,112.0,0.00,9.316,0,0.00
-E02003166,"Blatchcombe & Blagdon",0,241.0,3423.78,18.048,11,0.00
-E02003167,"Paignton Central",0,241.0,2306.64,34.259,1,0.00
-E02003168,"Goodrington & Roselands",0,241.0,4108.55,9.972,1,0.00
-E02003169,"Churston & Galmpton",0,215.0,1989.31,8.154,0,0.00
-E02003170,"Brixham Town",0,86.0,932.26,19.596,0,0.00
-E02003171,"Higher Brixham",0,86.0,186.06,8.219,0,0.00
-E02006840,"Chelston",0,254.0,615.60,17.070,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02003154,"Watcombe",0,287.0,3.58,9.237,0,0.00,0.00,0.00
+E02003155,"St Marychurch & Maidencombe",0,287.0,585.13,6.144,0,0.00,469.18,0.00
+E02003156,"Shiphay & the Willows",0,702.0,3943.48,26.552,1,0.00,12990.01,0.00
+E02003157,"Upton & Hele",0,287.0,738.06,7.132,0,0.00,3362.40,0.00
+E02003158,"Babbacombe & Plainmoor",0,287.0,350.95,4.540,1,0.00,1425.41,0.00
+E02003159,"Ellacombe",0,145.0,8.27,3.911,0,0.00,0.00,0.00
+E02003161,"Torquay Central",0,287.0,1772.41,26.524,0,0.00,0.00,357.31
+E02003163,"Wellswood",0,145.0,652.60,11.336,0,0.00,0.00,0.00
+E02003164,"Preston & Shorton",0,112.0,374.42,16.640,1,0.00,0.00,0.00
+E02003165,"Clifton & Maidenway",0,112.0,0.00,9.316,0,0.00,0.00,0.00
+E02003166,"Blatchcombe & Blagdon",0,241.0,3423.78,18.048,11,0.00,12925.55,0.00
+E02003167,"Paignton Central",0,241.0,2306.64,34.259,1,0.00,820.88,1839.14
+E02003168,"Goodrington & Roselands",0,241.0,4108.55,9.972,1,0.00,6206.67,0.00
+E02003169,"Churston & Galmpton",0,215.0,1986.09,8.154,0,0.00,368.40,0.00
+E02003170,"Brixham Town",0,86.0,932.26,19.596,0,0.00,1577.21,0.00
+E02003171,"Higher Brixham",0,86.0,186.06,8.219,0,0.00,0.00,0.00
+E02006840,"Chelston",0,254.0,615.60,17.070,0,0.00,0.00,0.00

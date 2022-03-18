@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02005397,"Castle Donington",0,879.0,23497.43,57.817,2,491631.71
-E02005398,"Kegworth & Belton",0,1232.0,6920.84,37.108,2,3018.74
-E02005399,"Ashby de la Zouch North",0,214.0,5248.04,77.412,2,0.00
-E02005400,"Thringstone & Swannington",0,388.0,595.87,18.713,0,0.00
-E02005401,"Packington",0,1418.0,1761.11,33.843,0,0.00
-E02005402,"Ashby de la Zouch South",0,214.0,669.00,28.703,0,0.00
-E02005403,"Whitwick",0,388.0,81.23,18.160,0,0.00
-E02005404,"Donisthope & Blackfordby",0,520.0,1278.91,33.124,0,0.00
-E02005405,"Agar Nook",0,869.0,643.02,21.886,0,0.00
-E02005406,"Coalville",0,388.0,3468.46,62.850,2,0.00
-E02005407,"Hugglescote & Bardon Hill",0,388.0,975.01,34.061,0,0.00
-E02005408,"Measham & Appleby Magna",0,666.0,655.55,34.461,0,0.00
-E02005409,"Ibstock & Ellistown",0,388.0,1374.01,41.220,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02005397,"Castle Donington",0,879.0,23742.69,57.817,2,491631.71,2247.85,209360.27
+E02005398,"Kegworth & Belton",0,1232.0,6921.59,37.108,2,3018.74,650.91,104398.50
+E02005399,"Ashby de la Zouch North",0,214.0,5248.04,77.412,2,0.00,14814.76,0.00
+E02005400,"Thringstone & Swannington",0,388.0,595.87,18.713,0,0.00,0.00,0.00
+E02005401,"Packington",0,1418.0,1761.11,33.843,0,0.00,0.00,0.00
+E02005402,"Ashby de la Zouch South",0,214.0,669.00,28.703,0,0.00,2059.48,0.00
+E02005403,"Whitwick",0,388.0,81.23,18.160,0,0.00,1443.84,0.00
+E02005404,"Donisthope & Blackfordby",0,520.0,1287.75,33.124,0,0.00,440.45,0.00
+E02005405,"Agar Nook",0,869.0,643.02,21.886,0,0.00,749.05,0.00
+E02005406,"Coalville",0,388.0,3468.46,62.850,2,0.00,15627.23,0.00
+E02005407,"Hugglescote & Bardon Hill",0,388.0,975.01,34.061,0,0.00,0.00,0.00
+E02005408,"Measham & Appleby Magna",0,666.0,657.51,34.461,0,0.00,342.02,45553.02
+E02005409,"Ibstock & Ellistown",0,388.0,1374.01,41.220,0,0.00,1680.93,165688.31

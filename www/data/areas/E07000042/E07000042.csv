@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02004164,"Bampton",0,541.0,581.58,21.940,0,0.00
-E02004165,"Tiverton North & Outer",0,153.0,1157.09,14.120,0,0.00
-E02004166,"Uffculme & Hemyock",0,525.0,522.33,20.789,0,0.00
-E02004167,"Tiverton East",0,153.0,1564.36,12.793,3,0.00
-E02004168,"Tiverton West",0,153.0,1556.44,20.042,2,0.00
-E02004169,"Willand",0,300.0,1454.29,16.604,1,0.00
-E02004170,"Cullompton",0,147.0,2518.79,23.629,3,0.00
-E02004171,"Bradninch",0,641.0,1732.30,26.261,0,0.00
-E02004172,"Bow",0,401.0,373.56,17.136,0,0.00
-E02004173,"Morchard Bishop",0,633.0,404.48,20.731,0,0.00
-E02004174,"Crediton",0,128.0,1643.04,21.456,2,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02004164,"Bampton",0,541.0,615.58,21.940,0,0.00,0.00,0.00
+E02004165,"Tiverton North & Outer",0,153.0,1157.09,14.120,0,0.00,0.00,0.00
+E02004166,"Uffculme & Hemyock",0,525.0,522.33,20.789,0,0.00,0.00,1730.86
+E02004167,"Tiverton East",0,153.0,1619.04,12.793,3,0.00,6993.34,0.00
+E02004168,"Tiverton West",0,153.0,1556.44,20.042,2,0.00,4738.06,0.00
+E02004169,"Willand",0,300.0,1454.29,16.604,1,0.00,715.58,0.00
+E02004170,"Cullompton",0,147.0,2543.64,23.629,3,0.00,7349.05,0.00
+E02004171,"Bradninch",0,641.0,1729.01,26.261,0,0.00,0.00,0.00
+E02004172,"Bow",0,401.0,373.56,17.136,0,0.00,0.00,0.00
+E02004173,"Morchard Bishop",0,633.0,404.48,20.731,0,0.00,0.00,0.00
+E02004174,"Crediton",0,128.0,1643.04,21.456,2,0.00,7979.17,0.00

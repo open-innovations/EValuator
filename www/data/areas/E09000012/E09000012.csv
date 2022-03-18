@@ -1,29 +1,29 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02000345,"Stamford Hill North",0,685.0,0.00,0.780,5,0.00
-E02000346,"Woodberry Down & Manor House",0,718.0,131.62,1.592,0,0.00
-E02000347,"Stamford Hill West",0,636.0,11.69,3.908,4,0.00
-E02000348,"Stamford Hill South",0,507.0,259.96,0.676,3,0.00
-E02000350,"Stoke Newington East & Cazenove",0,507.0,19.73,0.739,1,0.00
-E02000351,"Brownswood",0,466.0,0.00,1.407,4,0.00
-E02000352,"Clissold North",0,540.0,81.60,0.804,6,0.00
-E02000353,"Stoke Newington North",0,305.0,28.57,1.201,8,0.00
-E02000354,"Hackney Downs",0,507.0,82.57,0.150,1,0.00
-E02000355,"Lower Clapton",0,202.0,61.91,0.000,13,0.00
-E02000356,"Clissold South",0,536.0,90.14,0.949,4,0.00
-E02000357,"Hackney Marshes",0,644.0,629.60,0.514,2,0.00
-E02000358,"Stoke Newington South",0,698.0,211.12,1.299,4,0.00
-E02000359,"Homerton North",0,401.0,456.68,0.314,6,0.00
-E02000360,"Amhurst Road & Pembury Estate",0,900.0,22.12,0.029,2,0.00
-E02000361,"Hackney Central",0,794.0,520.15,0.878,2,0.00
-E02000362,"Hackney Wick",0,484.0,872.58,2.246,10,0.00
-E02000363,"Homerton South",0,401.0,207.20,2.447,3,0.00
-E02000364,"Dalston East",0,393.0,320.16,0.000,9,0.00
-E02000365,"Dalston Kingsland & De Beauvoir",0,1436.0,390.16,2.310,10,0.00
-E02000366,"South Hackney",0,199.0,49.84,1.807,11,0.00
-E02000367,"London Fields & Mare Street",0,592.0,319.95,1.719,12,1007.45
-E02000368,"Haggerston East",0,1131.0,105.95,0.639,3,0.00
-E02000369,"Haggerston West & Kingsland Basin",0,1869.0,128.40,3.211,2,0.00
-E02000370,"Hoxton & Wenlock",0,923.0,125.54,2.713,1,0.00
-E02000371,"Shoreditch",0,2185.0,650.73,4.408,14,0.00
-E02006918,"Clapton Leaside",0,202.0,345.39,0.000,2,0.00
-E02006921,"Upper Clapton",0,507.0,3.43,0.104,1,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02000345,"Stamford Hill North",0,685.0,0.00,0.780,5,0.00,4785.51,0.00
+E02000346,"Woodberry Down & Manor House",0,718.0,147.95,1.592,0,0.00,0.00,0.00
+E02000347,"Stamford Hill West",0,636.0,11.69,3.908,4,0.00,0.00,0.00
+E02000348,"Stamford Hill South",0,507.0,259.96,0.676,3,0.00,3987.03,0.00
+E02000350,"Stoke Newington East & Cazenove",0,507.0,19.73,0.739,1,0.00,149.85,0.00
+E02000351,"Brownswood",0,466.0,0.00,1.407,4,0.00,0.00,0.00
+E02000352,"Clissold North",0,540.0,81.60,0.804,6,0.00,0.00,0.00
+E02000353,"Stoke Newington North",0,305.0,28.57,1.201,8,0.00,0.00,1283.02
+E02000354,"Hackney Downs",0,507.0,82.57,0.150,1,0.00,328.20,0.00
+E02000355,"Lower Clapton",0,202.0,61.91,0.000,13,0.00,0.00,0.00
+E02000356,"Clissold South",0,536.0,90.14,0.949,4,0.00,0.00,0.00
+E02000357,"Hackney Marshes",0,644.0,629.60,0.514,2,0.00,0.00,0.00
+E02000358,"Stoke Newington South",0,698.0,211.12,1.299,4,0.00,0.00,638.01
+E02000359,"Homerton North",0,401.0,456.68,0.314,6,0.00,0.00,0.00
+E02000360,"Amhurst Road & Pembury Estate",0,900.0,22.12,0.029,2,0.00,0.00,376.38
+E02000361,"Hackney Central",0,794.0,520.15,0.878,2,0.00,4380.22,0.00
+E02000362,"Hackney Wick",0,484.0,881.66,2.246,10,0.00,0.00,1187.49
+E02000363,"Homerton South",0,401.0,207.20,2.447,3,0.00,105.19,556.00
+E02000364,"Dalston East",0,393.0,320.16,0.000,9,0.00,0.00,0.00
+E02000365,"Dalston Kingsland & De Beauvoir",0,1436.0,381.16,2.310,10,0.00,465.07,0.00
+E02000366,"South Hackney",0,199.0,49.84,1.807,11,0.00,2293.20,0.00
+E02000367,"London Fields & Mare Street",0,592.0,319.95,1.719,12,0.00,1943.44,566.52
+E02000368,"Haggerston East",0,1131.0,105.95,0.639,3,0.00,0.00,0.00
+E02000369,"Haggerston West & Kingsland Basin",0,1869.0,128.40,3.211,2,0.00,0.00,0.00
+E02000370,"Hoxton & Wenlock",0,923.0,426.03,2.713,1,0.00,0.00,3880.01
+E02000371,"Shoreditch",0,2185.0,652.70,4.408,14,0.00,346.53,1593.52
+E02006918,"Clapton Leaside",0,202.0,345.39,0.000,2,0.00,0.00,0.00
+E02006921,"Upper Clapton",0,507.0,3.43,0.104,1,0.00,308.53,0.00

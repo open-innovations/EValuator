@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02006429,"Warlingham West & Whyteleafe",0,663.0,634.74,36.244,3,0.00
-E02006430,"Caterham North",0,950.0,580.48,17.396,0,0.00
-E02006431,"Caterham Valley",0,392.0,816.69,60.294,0,0.00
-E02006432,"Caterham West",0,249.0,368.67,12.019,0,0.00
-E02006433,"Oxted North",0,899.0,8072.97,76.584,0,0.00
-E02006434,"Oxted South",0,183.0,409.00,21.455,0,0.00
-E02006435,"Nutfield & Bletchingley",0,660.0,2185.32,19.547,0,0.00
-E02006436,"Godstone",0,475.0,1715.97,18.869,0,0.00
-E02006437,"Lingfield & Dormansland",0,665.0,6853.54,43.901,4,0.00
-E02006438,"Smallfield & Felbridge",0,1531.0,2055.01,22.755,0,0.00
-E02006790,"Warlingham East & Tatsfield",0,721.0,3399.23,46.974,4,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02006429,"Warlingham West & Whyteleafe",0,663.0,634.74,36.244,3,0.00,0.00,0.00
+E02006430,"Caterham North",0,950.0,580.48,17.396,0,0.00,3113.42,0.00
+E02006431,"Caterham Valley",0,392.0,816.69,60.294,0,0.00,4571.24,0.00
+E02006432,"Caterham West",0,249.0,368.67,12.019,0,0.00,0.00,0.00
+E02006433,"Oxted North",0,899.0,8072.97,76.584,0,0.00,4449.69,0.00
+E02006434,"Oxted South",0,183.0,409.00,21.455,0,0.00,0.00,0.00
+E02006435,"Nutfield & Bletchingley",0,660.0,2199.60,19.547,0,0.00,0.00,0.00
+E02006436,"Godstone",0,475.0,1766.18,18.869,0,0.00,0.00,0.00
+E02006437,"Lingfield & Dormansland",0,665.0,6853.54,43.901,4,0.00,282.41,0.00
+E02006438,"Smallfield & Felbridge",0,1531.0,2407.51,22.755,0,0.00,0.00,0.00
+E02006790,"Warlingham East & Tatsfield",0,721.0,3425.79,46.974,4,0.00,6778.78,1432.85

@@ -49,7 +49,21 @@
 		"id": "distribution-centres",
 		"title": "Distribution Centres",
 		"desc": "An estimate of the size of distribution centres. This uses an extract from OpenStreetMap where <code>name=*Distribution*</code>.",
-		"src": "layers/distribution-centres.csv",
+		"src": "layers/distribution.csv",
+		"weight": 0.5,
+		"attrib": ["<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"]
+	},{
+		"id": "supermarket",
+		"title": "Supermarket",
+		"desc": "An estimate of the size of supermarkets. This uses an extract from OpenStreetMap where <code>shop=supermarket</code>.",
+		"src": "layers/supermarket.csv",
+		"weight": 0.5,
+		"attrib": ["<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"]
+	},{
+		"id": "warehouse",
+		"title": "Warehouse",
+		"desc": "An estimate of the size of warehouses. This uses an extract from OpenStreetMap where <code>building=warehouse</code>.",
+		"src": "layers/warehouse.csv",
 		"weight": 0.5,
 		"attrib": ["<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"]
 	}]

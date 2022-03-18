@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02004045,"Clowne & Barlborough",0,415.0,2388.68,29.519,6,0.00
-E02004046,"Whitwell & Elmton",0,306.0,309.16,11.305,0,0.00
-E02004047,"Creswell & Hodthorpe",0,99.0,316.74,7.828,0,0.00
-E02004048,"Bolsover North & Shuttlewood",0,246.0,755.15,14.576,5,0.00
-E02004049,"Bolsover South & Glapwell",0,80.0,318.02,9.421,0,0.00
-E02004050,"Shirebrook North",0,67.0,111.42,7.579,0,0.00
-E02004051,"Langwith",0,291.0,1759.91,14.421,0,0.00
-E02004052,"Tibshelf",0,924.0,2851.65,20.911,3,0.00
-E02004053,"South Normanton West",0,351.0,384.16,13.780,1,0.00
-E02004054,"South Normanton Broadmeadows & Pinxton",0,570.0,2397.96,24.715,4,264960.24
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02004045,"Clowne & Barlborough",0,415.0,2388.68,29.519,6,0.00,7504.25,47277.67
+E02004046,"Whitwell & Elmton",0,306.0,314.66,11.305,0,0.00,586.76,0.00
+E02004047,"Creswell & Hodthorpe",0,99.0,316.74,7.828,0,0.00,200.13,0.00
+E02004048,"Bolsover North & Shuttlewood",0,246.0,755.15,14.576,5,0.00,1032.23,0.00
+E02004049,"Bolsover South & Glapwell",0,80.0,318.02,9.421,0,0.00,0.00,0.00
+E02004050,"Shirebrook North",0,67.0,126.04,7.579,0,0.00,0.00,0.00
+E02004051,"Langwith",0,291.0,1762.34,14.421,0,0.00,3834.11,151695.85
+E02004052,"Tibshelf",0,924.0,2854.68,20.911,3,0.00,0.00,4656.71
+E02004053,"South Normanton West",0,351.0,384.16,13.780,1,0.00,3074.30,911.67
+E02004054,"South Normanton Broadmeadows & Pinxton",0,570.0,2403.12,24.715,4,264960.24,0.00,132489.08

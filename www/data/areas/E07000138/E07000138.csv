@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02005442,"Ermine",0,352.0,75.42,12.457,0,0.00
-E02005443,"Glebe Park",0,176.0,1197.64,11.115,0,0.00
-E02005444,"Cathedral & West Common",0,352.0,2899.39,31.400,2,5848.82
-E02005445,"Monks Road",0,237.0,4068.56,32.837,6,0.00
-E02005446,"Wharf & University",0,1122.0,2259.56,81.051,8,0.00
-E02005447,"Pelham Bridge & South Common",0,885.0,3641.85,14.175,12,0.00
-E02005448,"Birchwood West",0,330.0,282.21,14.851,0,0.00
-E02005449,"Boultham & New Boultham",0,1061.0,5295.63,18.848,7,0.00
-E02005450,"Hartsholme & Birchwood East",0,330.0,890.30,26.917,1,1244.40
-E02005451,"Bracebridge North & Boultham Moor",0,490.0,493.66,16.327,0,0.00
-E02005452,"Bracebridge South & Swallow Beck",0,490.0,1568.72,19.322,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02005442,"Ermine",0,352.0,75.42,12.457,0,0.00,0.00,0.00
+E02005443,"Glebe Park",0,176.0,1197.64,11.115,0,0.00,7344.18,0.00
+E02005444,"Cathedral & West Common",0,352.0,2899.39,31.400,2,5848.82,11355.59,0.00
+E02005445,"Monks Road",0,237.0,4068.56,32.837,6,0.00,4364.69,0.00
+E02005446,"Wharf & University",0,1122.0,2270.34,81.051,8,0.00,0.00,0.00
+E02005447,"Pelham Bridge & South Common",0,885.0,3641.85,14.175,12,0.00,4477.44,0.00
+E02005448,"Birchwood West",0,330.0,282.21,14.851,0,0.00,0.00,0.00
+E02005449,"Boultham & New Boultham",0,1061.0,5295.63,18.848,7,0.00,9884.65,0.00
+E02005450,"Hartsholme & Birchwood East",0,330.0,890.30,26.917,1,2807.62,0.00,0.00
+E02005451,"Bracebridge North & Boultham Moor",0,490.0,493.66,16.327,0,0.00,1501.47,0.00
+E02005452,"Bracebridge South & Swallow Beck",0,490.0,1568.72,19.322,0,0.00,11319.26,0.00

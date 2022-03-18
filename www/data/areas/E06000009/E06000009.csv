@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02002633,"Little Bispham & Anchorsholme",136,206.0,424.54,11.867,0,0.00
-E02002634,"Churchtown",131,357.0,1275.68,11.544,0,0.00
-E02002635,"Norbreck & Bispham",94,206.0,440.55,11.741,0,0.00
-E02002636,"Warbreck & Bispham Road",123,449.0,1644.31,12.467,0,0.00
-E02002637,"Hoohill",154,429.0,8.98,6.533,0,0.00
-E02002638,"North Shore",141,276.0,1782.64,5.188,1,0.00
-E02002639,"Little Layton & Little Carleton",200,92.0,135.05,7.572,0,0.00
-E02002640,"North East Centre",178,276.0,820.88,3.728,0,0.00
-E02002641,"Queenstown & Layton",223,92.0,947.29,10.796,0,0.00
-E02002642,"Central Blackpool",225,591.0,2208.93,15.769,2,0.00
-E02002643,"Park Road",261,223.0,149.55,3.200,0,0.00
-E02002644,"Stanley Park & Great Marton",355,385.0,1453.47,8.398,0,0.00
-E02002645,"South Promenade & Seasiders Way",337,293.0,4207.08,11.264,0,0.00
-E02002646,"Little Marton & Marton Moss Side",456,606.0,1434.83,12.692,6,0.00
-E02002647,"Victoria",322,293.0,367.71,6.020,0,0.00
-E02002648,"Hawes Side",346,162.0,69.55,7.458,0,0.00
-E02002649,"South Shore",283,162.0,1744.00,10.451,2,0.00
-E02002650,"Common Edge",401,383.0,315.23,13.974,0,0.00
-E02002651,"Squires Gate",354,254.0,308.06,8.879,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02002633,"Little Bispham & Anchorsholme",136,206.0,566.00,11.867,0,0.00,1842.60,0.00
+E02002634,"Churchtown",131,357.0,1318.85,11.544,0,0.00,410.81,0.00
+E02002635,"Norbreck & Bispham",94,206.0,556.02,11.741,0,0.00,2084.10,0.00
+E02002636,"Warbreck & Bispham Road",123,449.0,1879.38,12.467,0,0.00,64.69,0.00
+E02002637,"Hoohill",154,429.0,8.98,6.533,0,0.00,0.00,0.00
+E02002638,"North Shore",141,276.0,1779.36,5.188,1,0.00,1.10,0.00
+E02002639,"Little Layton & Little Carleton",200,92.0,135.05,7.572,0,0.00,325.43,0.00
+E02002640,"North East Centre",178,276.0,844.62,3.728,0,0.00,1843.31,0.00
+E02002641,"Queenstown & Layton",223,92.0,1015.65,10.796,0,0.00,0.00,0.00
+E02002642,"Central Blackpool",225,591.0,2520.38,15.769,2,0.00,12441.18,0.00
+E02002643,"Park Road",261,223.0,149.55,3.200,0,0.00,0.00,0.00
+E02002644,"Stanley Park & Great Marton",355,385.0,1576.85,8.398,0,0.00,0.00,0.00
+E02002645,"South Promenade & Seasiders Way",337,293.0,4207.08,11.264,0,0.00,0.00,0.00
+E02002646,"Little Marton & Marton Moss Side",456,606.0,1473.02,12.692,6,0.00,23896.39,0.00
+E02002647,"Victoria",322,293.0,533.36,6.020,0,0.00,1710.21,0.00
+E02002648,"Hawes Side",346,162.0,69.55,7.458,0,0.00,0.00,0.00
+E02002649,"South Shore",283,162.0,1744.00,10.451,2,0.00,0.00,0.00
+E02002650,"Common Edge",401,383.0,367.68,13.974,0,0.00,8927.33,8358.05
+E02002651,"Squires Gate",354,254.0,288.94,8.879,0,0.00,0.00,0.00

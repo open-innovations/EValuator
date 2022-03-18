@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02004015,"Windermere North",37,118.0,7022.68,23.639,5,0.00
-E02004016,"Windermere South & Staveley",55,160.0,3317.65,24.952,2,0.00
-E02004017,"Kendal North & Burneside",68,240.0,3603.01,19.745,5,21094.38
-E02004018,"Kendal Town & Greenside",97,240.0,1516.04,35.301,0,0.00
-E02004019,"Kendal East & Whinfell",99,345.0,1082.37,18.776,2,0.00
-E02004020,"Kendal South",100,141.0,3278.50,10.682,1,0.00
-E02004021,"Hawkshead & Cartmel Fell",62,430.0,3538.61,26.916,2,0.00
-E02004022,"Coniston",40,177.0,2042.57,9.326,3,0.00
-E02004023,"Sedbergh & Kirkby Lonsdale",85,204.0,1990.28,13.870,6,0.00
-E02004024,"Burton-in-Kendal",171,354.0,1896.60,28.124,5,0.00
-E02004025,"Arnside",159,238.0,1861.89,30.474,0,0.00
-E02004026,"Ulverston",39,111.0,3106.14,23.354,1,0.00
-E02004027,"Grange-over-Sands & Cartmel Peninsula",48,185.0,1389.35,38.849,0,0.00
-E02004028,"Swarthmoor & Low Furness",32,162.0,1100.74,18.334,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02004015,"Windermere North",37,118.0,7042.04,23.639,5,0.00,2924.60,1964.36
+E02004016,"Windermere South & Staveley",55,160.0,3317.54,24.952,2,0.00,165.64,471.80
+E02004017,"Kendal North & Burneside",68,240.0,3617.11,19.745,5,21094.38,16429.29,4388.20
+E02004018,"Kendal Town & Greenside",97,240.0,1516.04,35.301,0,0.00,1544.99,169.48
+E02004019,"Kendal East & Whinfell",99,345.0,1082.45,18.776,2,0.00,0.00,0.00
+E02004020,"Kendal South",100,141.0,3278.50,10.682,1,0.00,7928.67,0.00
+E02004021,"Hawkshead & Cartmel Fell",62,430.0,3538.61,26.916,2,0.00,0.00,0.00
+E02004022,"Coniston",40,177.0,2042.57,9.326,3,0.00,0.00,38.44
+E02004023,"Sedbergh & Kirkby Lonsdale",85,204.0,2021.82,13.870,6,0.00,1593.98,0.00
+E02004024,"Burton-in-Kendal",171,354.0,1896.60,28.124,5,0.00,0.00,2437.04
+E02004025,"Arnside",159,238.0,1854.62,30.474,0,0.00,1248.14,667.80
+E02004026,"Ulverston",39,111.0,3106.14,23.354,1,0.00,3294.43,77.21
+E02004027,"Grange-over-Sands & Cartmel Peninsula",48,185.0,1389.35,38.849,0,0.00,339.31,0.00
+E02004028,"Swarthmoor & Low Furness",32,162.0,1112.16,18.334,0,0.00,1880.36,0.00

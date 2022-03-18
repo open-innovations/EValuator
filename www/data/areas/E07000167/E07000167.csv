@@ -1,7 +1,7 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02005788,"Kirkbymoorside & Moors",58,282.0,1613.91,23.505,6,0.00
-E02005789,"Pickering & Thornton Dale",56,269.0,3038.46,30.465,9,0.00
-E02005790,"Helmsley & Ampleforth",107,744.0,1867.95,28.607,4,0.00
-E02005791,"Rillington & Sherburn",49,451.0,6944.97,15.272,0,0.00
-E02005794,"Sheriff Hutton",83,597.0,4760.25,53.542,2,0.00
-E02006870,"Malton & Norton",54,130.0,4166.52,31.602,15,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02005788,"Kirkbymoorside & Moors",58,282.0,1613.91,23.505,6,0.00,630.35,0.00
+E02005789,"Pickering & Thornton Dale",56,269.0,3038.46,30.465,9,0.00,3545.54,517.02
+E02005790,"Helmsley & Ampleforth",107,744.0,1967.38,28.607,4,0.00,0.00,0.00
+E02005791,"Rillington & Sherburn",49,451.0,6944.97,15.272,0,0.00,0.00,0.00
+E02005794,"Sheriff Hutton",83,597.0,4781.67,53.542,2,0.00,0.00,0.00
+E02006870,"Malton & Norton",54,130.0,4166.52,31.602,15,0.00,8306.76,0.00

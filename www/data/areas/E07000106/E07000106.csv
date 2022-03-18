@@ -1,20 +1,20 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02005010,"Herne Bay Parade",0,151.0,825.87,21.821,0,0.00
-E02005011,"Beltinge & Bishopstone",0,374.0,349.77,16.260,0,0.00
-E02005012,"Herne Bay South & Greenhill",0,151.0,200.72,27.690,0,0.00
-E02005013,"Hampton",0,329.0,489.40,19.212,1,0.00
-E02005014,"Chestfield & South Tankerton",0,329.0,1173.94,25.855,1,0.00
-E02005015,"Herne & Broomfield",0,151.0,1372.16,19.639,0,0.00
-E02005016,"Whitstable Central & Tankerton",0,178.0,171.67,21.533,0,0.00
-E02005017,"Whitstable West",0,178.0,957.39,48.014,0,0.00
-E02005018,"Seasalter",0,178.0,2107.37,25.025,0,0.00
-E02005019,"Hoath",0,808.0,1188.57,28.828,0,0.00
-E02005020,"Sturry and Fordwich",0,693.0,1889.58,18.748,0,0.00
-E02005021,"Blean Forest",0,757.0,8540.41,24.375,1,0.00
-E02005022,"Canterbury St Stephen's",0,223.0,512.84,16.516,0,0.00
-E02005023,"Canterbury Barracks",0,747.0,3881.67,42.427,2,0.00
-E02005025,"South Canterbury",0,747.0,2713.22,12.303,0,0.00
-E02005026,"Thanington & Chartham",0,589.0,776.83,31.960,1,0.00
-E02005027,"Bridge",0,586.0,146.69,30.710,2,0.00
-E02006855,"Canterbury Wincheap",0,589.0,2190.18,7.186,2,0.00
-E02006856,"Canterbury Central & Westgate",0,562.0,3580.57,28.996,10,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02005010,"Herne Bay Parade",0,151.0,825.87,21.821,0,0.00,6140.17,0.00
+E02005011,"Beltinge & Bishopstone",0,374.0,349.77,16.260,0,0.00,240.59,0.00
+E02005012,"Herne Bay South & Greenhill",0,151.0,200.72,27.690,0,0.00,311.79,0.00
+E02005013,"Hampton",0,329.0,489.40,19.212,1,0.00,2474.40,0.00
+E02005014,"Chestfield & South Tankerton",0,329.0,1173.94,25.855,1,0.00,5269.79,0.00
+E02005015,"Herne & Broomfield",0,151.0,1373.73,19.639,0,0.00,9247.27,0.00
+E02005016,"Whitstable Central & Tankerton",0,178.0,237.64,21.533,0,0.00,236.01,0.00
+E02005017,"Whitstable West",0,178.0,957.39,48.014,0,0.00,1933.45,0.00
+E02005018,"Seasalter",0,178.0,2108.43,25.025,0,0.00,12883.85,0.00
+E02005019,"Hoath",0,808.0,1188.57,28.828,0,0.00,0.00,1835.21
+E02005020,"Sturry and Fordwich",0,693.0,1889.58,18.748,0,0.00,1719.15,2491.04
+E02005021,"Blean Forest",0,757.0,8578.29,24.375,1,0.00,0.00,0.00
+E02005022,"Canterbury St Stephen's",0,223.0,512.84,16.516,0,0.00,302.99,0.00
+E02005023,"Canterbury Barracks",0,747.0,3881.67,42.427,2,0.00,20384.39,0.00
+E02005025,"South Canterbury",0,747.0,2722.45,12.303,0,0.00,3353.54,0.00
+E02005026,"Thanington & Chartham",0,589.0,776.83,31.960,1,0.00,0.00,0.00
+E02005027,"Bridge",0,586.0,146.69,30.710,2,0.00,0.00,0.00
+E02006855,"Canterbury Wincheap",0,589.0,2204.66,7.186,2,0.00,6409.63,3086.23
+E02006856,"Canterbury Central & Westgate",0,562.0,3578.50,28.996,10,0.00,2569.43,0.00

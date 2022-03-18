@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02006227,"Lavenham",0,869.0,440.86,22.532,1,0.00
-E02006228,"Glemsford & Lawshall",0,608.0,502.65,19.738,0,0.00
-E02006229,"North Sudbury & Long Melford",0,266.0,1115.70,12.650,0,0.00
-E02006230,"Hadleigh",0,112.0,1582.94,33.831,2,0.00
-E02006231,"Sproughton",0,462.0,5391.51,26.649,3,0.00
-E02006232,"Acton",0,521.0,228.11,28.280,0,0.00
-E02006233,"Sudbury",0,266.0,2514.87,40.892,2,0.00
-E02006234,"Great Cornard",0,266.0,214.69,9.710,0,0.00
-E02006235,"Leavenheath",0,1051.0,1273.18,45.559,1,0.00
-E02006236,"East Bergholt",0,419.0,1375.96,44.228,2,0.00
-E02006237,"Shotley Peninsula",0,94.0,1589.68,39.474,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02006227,"Lavenham",0,869.0,440.86,22.532,1,0.00,255.72,91821.45
+E02006228,"Glemsford & Lawshall",0,608.0,502.65,19.738,0,0.00,0.00,0.00
+E02006229,"North Sudbury & Long Melford",0,266.0,1096.08,12.650,0,0.00,8717.88,0.00
+E02006230,"Hadleigh",0,112.0,1582.94,33.831,2,0.00,6509.92,36514.72
+E02006231,"Sproughton",0,462.0,5391.51,26.649,3,0.00,13305.68,0.00
+E02006232,"Acton",0,521.0,228.11,28.280,0,0.00,0.00,7634.29
+E02006233,"Sudbury",0,266.0,2514.87,40.892,2,0.00,6427.57,0.00
+E02006234,"Great Cornard",0,266.0,214.69,9.710,0,0.00,0.00,0.00
+E02006235,"Leavenheath",0,1051.0,1273.18,45.559,1,0.00,0.00,2616.02
+E02006236,"East Bergholt",0,419.0,1375.96,44.228,2,0.00,733.31,0.00
+E02006237,"Shotley Peninsula",0,94.0,1708.31,39.474,0,0.00,620.47,0.00

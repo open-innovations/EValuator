@@ -1,7 +1,7 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02005412,"Oadby South & West",0,1437.0,2731.60,22.466,9,0.00
-E02005414,"Wigston Town",0,437.0,2199.39,38.344,18,0.00
-E02005415,"South Wigston",0,437.0,1457.39,24.030,3,0.00
-E02005416,"Wigston Harcourt & Little Hill",0,437.0,550.12,26.730,0,0.00
-E02006818,"Wigston North",0,1874.0,846.38,20.844,0,0.00
-E02006911,"Oadby North & East",0,1437.0,1567.50,26.689,1,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02005412,"Oadby South & West",0,1437.0,2731.60,22.466,9,0.00,7870.82,0.00
+E02005414,"Wigston Town",0,437.0,2199.39,38.344,18,0.00,1637.24,0.00
+E02005415,"South Wigston",0,437.0,1455.18,24.030,3,0.00,10942.32,0.00
+E02005416,"Wigston Harcourt & Little Hill",0,437.0,550.12,26.730,0,0.00,638.61,0.00
+E02006818,"Wigston North",0,1874.0,846.38,20.844,0,0.00,0.00,0.00
+E02006911,"Oadby North & East",0,1437.0,1567.50,26.689,1,0.00,8414.15,0.00

@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02004403,"Forest Row & Coleman's Hatch",0,703.0,1487.98,36.939,0,0.00
-E02004404,"Frant & Groombridge",0,829.0,1698.79,56.265,0,0.00
-E02004405,"Crowborough North East",0,225.0,536.12,25.359,0,0.00
-E02004406,"Crowborough Whitehill & Warren",0,250.0,1503.49,71.989,1,0.00
-E02004407,"Mayfield & Wadhurst",0,731.0,1540.01,49.381,0,0.00
-E02004408,"Crowborough South East",0,250.0,827.89,30.866,4,0.00
-E02004409,"Chelwood & Nutley",0,901.0,4810.02,35.939,3,0.00
-E02004410,"Buxted",0,679.0,1035.90,42.822,0,0.00
-E02004411,"Uckfield Town & North",0,580.0,2337.37,79.576,2,0.00
-E02004412,"Heathfield",0,140.0,1127.92,43.500,0,0.00
-E02004413,"Broad Oak & Horam",0,730.0,584.66,33.228,0,0.00
-E02004414,"Uckfield South",0,261.0,620.96,16.349,0,0.00
-E02004415,"Five Ash Down",0,927.0,2186.82,33.002,1,4732.47
-E02004416,"Herstmonceux & Ninfield",0,593.0,753.51,24.772,2,0.00
-E02004417,"Hailsham Central & East",0,197.0,1317.12,32.600,7,0.00
-E02004418,"Hailsham South & West",0,270.0,398.61,9.715,0,0.00
-E02004419,"Hailsham East",0,270.0,148.84,14.064,0,0.00
-E02004420,"Hailsham North",0,870.0,4518.64,39.343,2,0.00
-E02004421,"Polegate",0,73.0,824.87,29.991,0,0.00
-E02004422,"Stone Cross",0,829.0,774.96,46.226,1,0.00
-E02004423,"Willingdon",0,301.0,58.07,15.428,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02004403,"Forest Row & Coleman's Hatch",0,703.0,1487.98,36.939,0,0.00,0.00,0.00
+E02004404,"Frant & Groombridge",0,829.0,1701.49,56.265,0,0.00,0.00,0.00
+E02004405,"Crowborough North East",0,225.0,536.12,25.359,0,0.00,0.00,0.00
+E02004406,"Crowborough Whitehill & Warren",0,250.0,1503.49,71.989,1,0.00,7484.82,0.00
+E02004407,"Mayfield & Wadhurst",0,731.0,1540.01,49.381,0,0.00,0.00,0.00
+E02004408,"Crowborough South East",0,250.0,827.89,30.866,4,0.00,2633.30,0.00
+E02004409,"Chelwood & Nutley",0,901.0,4851.98,35.939,3,0.00,0.00,0.00
+E02004410,"Buxted",0,679.0,1035.90,42.822,0,0.00,0.00,0.00
+E02004411,"Uckfield Town & North",0,580.0,2337.37,79.576,2,0.00,5753.92,9090.98
+E02004412,"Heathfield",0,140.0,1127.92,43.500,0,0.00,4803.47,0.00
+E02004413,"Broad Oak & Horam",0,730.0,584.66,33.228,0,0.00,473.00,0.00
+E02004414,"Uckfield South",0,261.0,620.96,16.349,0,0.00,0.00,162.32
+E02004415,"Five Ash Down",0,927.0,2255.61,33.002,1,4732.47,0.00,5284.30
+E02004416,"Herstmonceux & Ninfield",0,593.0,753.51,24.772,2,0.00,0.00,4222.33
+E02004417,"Hailsham Central & East",0,197.0,1317.12,32.600,7,0.00,9152.56,0.00
+E02004418,"Hailsham South & West",0,270.0,398.61,9.715,0,0.00,0.00,0.00
+E02004419,"Hailsham East",0,270.0,148.84,14.064,0,0.00,214.32,0.00
+E02004420,"Hailsham North",0,870.0,4518.64,39.343,2,0.00,181.40,161.08
+E02004421,"Polegate",0,73.0,824.87,29.991,0,0.00,42.46,0.00
+E02004422,"Stone Cross",0,829.0,774.96,46.226,1,0.00,1869.69,0.00
+E02004423,"Willingdon",0,301.0,58.07,15.428,0,0.00,0.00,0.00

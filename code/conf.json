@@ -50,7 +50,8 @@
 	},
 	"layers": {
 		"file": "www/data/domains.json",
-		"dir": "www/data/layers/"
+		"dir": "www/data/layers/",
+		"keys": ["chargepoints","distribution","parking","supermarket","warehouse"]
 	},
 	"lookup":{
 		"file": "www/data/lookup/OA11-LAD21-CAUTH21.tsv",

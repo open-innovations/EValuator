@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02006575,"Langley Green & Gatwick Airport",0,984.0,25316.33,23.022,5,0.00
-E02006576,"Pound Hill",0,799.0,13784.96,21.961,4,0.00
-E02006577,"Ewhurst & West Green",0,720.0,2161.35,10.407,1,0.00
-E02006578,"Manor Royal & Northgate",0,984.0,7942.95,117.371,15,46026.06
-E02006579,"Three Bridges",0,535.0,2204.35,21.494,15,890.99
-E02006580,"Ifield & Gossops Green",0,185.0,358.14,10.027,1,0.00
-E02006581,"Southgate",0,720.0,1422.08,14.155,0,0.00
-E02006582,"Maidenbower East & Worth",0,535.0,1468.32,12.263,1,0.00
-E02006583,"Maidenbower West & Furnace Green",0,535.0,1287.94,15.156,0,0.00
-E02006584,"Bewbush",0,185.0,102.72,7.569,0,0.00
-E02006585,"Tilgate",0,720.0,1383.36,12.965,0,0.00
-E02006586,"Broadfield West",0,185.0,158.31,5.592,0,0.00
-E02006587,"Broadfield East",0,185.0,531.46,7.810,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02006575,"Langley Green & Gatwick Airport",0,984.0,26439.75,23.022,5,0.00,0.00,4520.75
+E02006576,"Pound Hill",0,799.0,13784.96,21.961,4,0.00,0.00,720.50
+E02006577,"Ewhurst & West Green",0,720.0,2153.94,10.407,1,0.00,10389.31,0.00
+E02006578,"Manor Royal & Northgate",0,984.0,7031.42,117.371,15,46026.06,0.00,17225.74
+E02006579,"Three Bridges",0,535.0,2423.93,21.494,15,890.99,8493.82,9386.79
+E02006580,"Ifield & Gossops Green",0,185.0,358.14,10.027,1,0.00,0.00,0.00
+E02006581,"Southgate",0,720.0,1422.08,14.155,0,0.00,7849.90,0.00
+E02006582,"Maidenbower East & Worth",0,535.0,1470.98,12.263,1,0.00,0.00,0.00
+E02006583,"Maidenbower West & Furnace Green",0,535.0,1287.94,15.156,0,0.00,0.00,0.00
+E02006584,"Bewbush",0,185.0,103.32,7.569,0,0.00,0.00,0.00
+E02006585,"Tilgate",0,720.0,1383.36,12.965,0,0.00,154.46,0.00
+E02006586,"Broadfield West",0,185.0,158.31,5.592,0,0.00,0.00,0.00
+E02006587,"Broadfield East",0,185.0,531.46,7.810,0,0.00,0.00,0.00

@@ -1,22 +1,22 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02004485,"Great Leighs & the Walthams",0,1612.0,2536.75,40.041,3,0.00
-E02004486,"South Broomfield",0,435.0,2473.12,21.461,0,0.00
-E02004487,"Melbourne Park",0,987.0,833.31,17.159,1,0.00
-E02004488,"Springfield North",0,881.0,1073.84,24.698,0,0.00
-E02004489,"Boreham & Little Baddow",0,1458.0,5165.67,35.591,1,0.00
-E02004490,"Melbourne",0,435.0,410.72,10.844,0,0.00
-E02004491,"Springfield South & Coronation Park",0,789.0,1021.57,20.569,0,0.00
-E02004492,"Chelmer Village",0,1235.0,2980.30,46.849,2,2530.09
-E02004493,"Waterhouse Lane & Admirals Park",0,789.0,2691.05,19.728,1,818.93
-E02004494,"Central Chelmsford",0,1235.0,9717.14,126.023,10,0.00
-E02004495,"Writtle & Highwood",0,915.0,2629.00,21.430,0,0.00
-E02004496,"Moulsham West",0,354.0,1270.65,19.643,0,0.00
-E02004497,"Great Baddow North & East",0,926.0,2711.98,27.263,3,0.00
-E02004498,"Great Baddow South & West",0,354.0,731.20,27.857,0,0.00
-E02004499,"Moulsham East",0,354.0,415.60,15.119,0,0.00
-E02004500,"Danbury & Bicknacre",0,800.0,1065.20,47.200,0,0.00
-E02004501,"Galleywood",0,354.0,1324.91,18.810,0,0.00
-E02004502,"Margaretting",0,1616.0,2284.30,44.465,0,0.00
-E02004503,"South Woodham Ferrers North",0,446.0,2298.79,39.170,5,0.00
-E02004504,"South Woodham Ferrers South",0,446.0,829.41,15.311,0,0.00
-E02004505,"Rettendon & Runwell",0,556.0,1359.31,16.744,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02004485,"Great Leighs & the Walthams",0,1612.0,2536.75,40.041,3,0.00,0.00,2877.34
+E02004486,"South Broomfield",0,435.0,2476.06,21.461,0,0.00,0.00,0.00
+E02004487,"Melbourne Park",0,987.0,836.68,17.159,1,0.00,3758.01,0.00
+E02004488,"Springfield North",0,881.0,1073.84,24.698,0,0.00,0.00,0.00
+E02004489,"Boreham & Little Baddow",0,1458.0,5189.82,35.591,1,0.00,11810.80,44597.43
+E02004490,"Melbourne",0,435.0,410.72,10.844,0,0.00,0.00,0.00
+E02004491,"Springfield South & Coronation Park",0,789.0,1021.57,20.569,0,0.00,1819.14,0.00
+E02004492,"Chelmer Village",0,1235.0,3595.31,46.849,2,2447.23,2422.74,39950.74
+E02004493,"Waterhouse Lane & Admirals Park",0,789.0,3403.22,19.728,1,1347.45,3373.70,10281.86
+E02004494,"Central Chelmsford",0,1235.0,9717.01,126.023,10,0.00,8152.57,8180.93
+E02004495,"Writtle & Highwood",0,915.0,2629.00,21.430,0,0.00,937.16,891.59
+E02004496,"Moulsham West",0,354.0,1270.65,19.643,0,0.00,7887.19,0.00
+E02004497,"Great Baddow North & East",0,926.0,2711.98,27.263,3,0.00,3291.86,0.00
+E02004498,"Great Baddow South & West",0,354.0,731.20,27.857,0,0.00,655.94,0.00
+E02004499,"Moulsham East",0,354.0,415.60,15.119,0,0.00,1989.05,0.00
+E02004500,"Danbury & Bicknacre",0,800.0,1065.20,47.200,0,0.00,0.00,1985.79
+E02004501,"Galleywood",0,354.0,1324.91,18.810,0,0.00,0.00,6137.07
+E02004502,"Margaretting",0,1616.0,2284.30,44.465,0,0.00,0.00,0.00
+E02004503,"South Woodham Ferrers North",0,446.0,2298.79,39.170,5,0.00,6150.68,0.00
+E02004504,"South Woodham Ferrers South",0,446.0,829.41,15.311,0,0.00,0.00,0.00
+E02004505,"Rettendon & Runwell",0,556.0,1359.31,16.744,0,0.00,0.00,0.00

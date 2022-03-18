@@ -20,11 +20,16 @@ require "./".$basedir."lib.pl";
 my ($conf,$coder,$file,$csv,@lines,$str,$json,@features,$f,$i,@cols,$dir,$area,$capacity,$estimate,$totalarea,$totalcapacity,$levels,$multi,%msoas,$msoa);
 
 
-$dir = $ARGV[0]||"../raw/MSOA/parking/";
 
 # Read in the configuration JSON file
 $conf = loadConf($basedir."conf.json");
 
+
+# Step up a directory
+$basedir = "../".$basedir;
+
+
+$dir = $basedir."tmp/MSOA/";
 
 
 # Define a JSON loader
@@ -102,6 +107,7 @@ foreach $msoa (sort(keys(%msoas))){
 }
 
 # Save the output
+print "Saving to $conf->{'basedir'}$conf->{'layers'}{'dir'}estimated-parking-capacity.csv\n";
 open(FILE,">",$conf->{'basedir'}.$conf->{'layers'}{'dir'}."estimated-parking-capacity.csv");
 print FILE $csv;
 close(FILE);

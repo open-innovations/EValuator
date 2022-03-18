@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02004093,"Hadfield East & Tintwistle",0,296.0,231.85,20.573,0,0.00
-E02004094,"Hadfield West & Gamesley",0,296.0,513.28,30.666,0,0.00
-E02004095,"Glossop",0,160.0,2234.06,31.114,5,0.00
-E02004096,"Dinting",0,296.0,721.10,31.857,0,0.00
-E02004097,"New Mills West & Furness Vale",0,509.0,849.78,44.514,0,0.00
-E02004098,"New Mills East & Hayfield",0,349.0,585.38,34.892,0,0.00
-E02004100,"Whaley Bridge & Chinley",0,417.0,1048.42,58.517,0,0.00
-E02004102,"Buxton North",0,273.0,2266.50,28.289,1,0.00
-E02004103,"Buxton South & East",0,139.0,427.64,10.029,5,0.00
-E02004104,"Buxton Burbage & Harpur Hill",0,139.0,1618.14,13.212,0,0.00
-E02006872,"Chapel-en-le-Frith & Hope Valley",0,541.0,4089.69,75.187,1,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02004093,"Hadfield East & Tintwistle",0,296.0,242.73,20.573,0,0.00,0.00,0.00
+E02004094,"Hadfield West & Gamesley",0,296.0,513.28,30.666,0,0.00,0.00,0.00
+E02004095,"Glossop",0,160.0,2234.06,31.114,5,0.00,7420.94,0.00
+E02004096,"Dinting",0,296.0,727.58,31.857,0,0.00,0.00,0.00
+E02004097,"New Mills West & Furness Vale",0,509.0,849.78,44.514,0,0.00,0.00,0.00
+E02004098,"New Mills East & Hayfield",0,349.0,585.38,34.892,0,0.00,1382.83,381.76
+E02004100,"Whaley Bridge & Chinley",0,417.0,1048.42,58.517,0,0.00,16605.29,508.40
+E02004102,"Buxton North",0,273.0,2266.45,28.289,1,0.00,3829.02,0.00
+E02004103,"Buxton South & East",0,139.0,470.97,10.029,5,0.00,3642.05,0.00
+E02004104,"Buxton Burbage & Harpur Hill",0,139.0,1621.35,13.212,0,0.00,0.00,0.00
+E02006872,"Chapel-en-le-Frith & Hope Valley",0,541.0,4109.43,75.187,1,0.00,5791.01,0.00

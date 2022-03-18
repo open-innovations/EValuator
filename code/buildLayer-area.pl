@@ -14,15 +14,21 @@ my $basedir = "./";
 if($0 =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
 require "./".$basedir."lib.pl";
 
-my ($conf,$coder,$file,$csv,@lines,$str,$json,@features,$f,$i,@cols,$dir,$area,$capacity,$estimate,$totalarea,$totalcapacity,$levels,$multi,%msoas,$msoa);
+my ($conf,$layer,$coder,$file,$csv,@lines,$str,$json,@features,$f,$i,@cols,$dir,$area,$capacity,$estimate,$totalarea,$totalcapacity,$levels,$multi,%msoas,$msoa);
 
-
-$dir = $basedir.($ARGV[0]||"../raw/MSOA/distribution/");
 
 # Read in the configuration JSON file
 $conf = loadConf($basedir."conf.json");
 
 
+$layer = $ARGV[0]||"distribution";
+print "Calculating areas for $layer layer.\n";
+
+# Step up a directory
+$basedir = "../".$basedir;
+
+
+$dir = $basedir."tmp/MSOA/";
 
 # Define a JSON loader
 $coder = JSON::XS->new->utf8->canonical(1);
@@ -44,7 +50,7 @@ $csv = "msoa,estimated capacity\n";
 foreach $msoa (sort(keys(%msoas))){
 
 	$csv .= "$msoa,";
-	$file = $dir.$msoa."-distribution.geojson";
+	$file = $dir.$msoa."-$layer.geojson";
 
 	$totalarea = 0;
 	
@@ -56,8 +62,10 @@ foreach $msoa (sort(keys(%msoas))){
 		if($str eq ""){
 			$str = "{\"features\":[]}";
 		}
+
 		# Decode the string
 		$json = $coder->decode($str);
+
 		# Get the features
 		@features = @{$json->{'features'}};
 
@@ -65,41 +73,19 @@ foreach $msoa (sort(keys(%msoas))){
 		# Calculate the total area
 		for($f = 0; $f < @features; $f++){
 
-			#print "Feature ".$f." ($features[$f]{'geometry'}{'type'} ".($features[$f]{'properties'}{'osm_way_id'}||$features[$f]{'properties'}{'osm_id'})." / $msoa):\n";
-
 			if($features[$f]{'geometry'}{'type'} eq "Polygon" || $features[$f]{'geometry'}{'type'} eq "MultiPolygon"){
 				$area = geometry($features[$f]{'geometry'});
 				$totalarea += $area;
-
-				$capacity = $features[$f]{'properties'}{'other'}{'capacity'}||0;
-				$capacity =~ s/[^0-9]//g;	# Remove non-numeric values e.g. "100 approx"
-				$levels = ($features[$f]{'properties'}{'other'}{'building:levels'}||1);
-				$multi = 0;
-				if($features[$f]{'properties'}{'other'} && $features[$f]{'properties'}{'other'}{'parking'}){
-					$multi = ($features[$f]{'properties'}{'other'}{'parking'} eq "multi-storey" ? 1 : 0);
-				}
-
-				$estimate = (1/0.34) * 0.0145*$area*$levels;
-
-				$totalcapacity += ($capacity || $estimate);
-	#			print "$estimate\n";
-
-				#if($features[$f]{'properties'}{'other'}{'power'}){
-				#	print "\tName = ".($features[$f]{'properties'}{'name'}||"")."\n";
-				#	print "\tArea = ".sprintf("%.2f",$area)." m²\n";
-				#}
 			}else{
-	#			print "\n\tType = $features[$f]{'geometry'}{'type'}\n";
 			}
 		}
-#		print "Total area ($msoa): $totalarea m²\n";
-#	print "Estimated capacity: $totalcapacity\n";
 	}
 	$csv .= sprintf("%.2f",$totalarea)."\n";
 
 }
 
 # Save the output
-open(FILE,">",$conf->{'basedir'}.$conf->{'layers'}{'dir'}."distribution-centres.csv");
+print "Saving to $conf->{'basedir'}$conf->{'layers'}{'dir'}$layer.csv\n";
+open(FILE,">",$conf->{'basedir'}.$conf->{'layers'}{'dir'}."$layer.csv");
 print FILE $csv;
 close(FILE);

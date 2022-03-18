@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02006061,"Cheddar & Axbridge",0,683.0,4191.07,56.469,0,0.00
-E02006062,"Berrow & Brent Knoll",0,377.0,4408.53,34.314,5,0.00
-E02006063,"Wedmore & Mark",0,514.0,455.78,42.263,0,0.00
-E02006064,"Burnham-on-Sea",0,163.0,678.03,33.725,2,0.00
-E02006065,"Highbridge",0,163.0,809.42,19.308,0,0.00
-E02006066,"Pawlett",0,336.0,3704.74,21.473,0,0.00
-E02006067,"Cannington",0,71.0,2834.02,15.110,0,0.00
-E02006068,"Bridgwater North",0,152.0,4613.53,7.436,1,0.00
-E02006069,"Bridgwater Town",0,315.0,3722.16,26.324,1,4397.03
-E02006070,"Bridgwater East",0,244.0,2929.52,9.120,0,63678.02
-E02006071,"Wembdon & Chilton Trinity",0,223.0,639.83,9.065,0,0.00
-E02006072,"Westonzoyland",0,325.0,840.30,39.997,0,0.00
-E02006073,"Bridgwater South",0,152.0,1378.49,6.244,0,0.00
-E02006074,"Stockmoor & North Petherton",0,597.0,2799.24,19.236,1,29799.84
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02006061,"Cheddar & Axbridge",0,683.0,4191.07,56.469,0,0.00,988.42,0.00
+E02006062,"Berrow & Brent Knoll",0,377.0,4408.53,34.314,5,0.00,0.00,0.00
+E02006063,"Wedmore & Mark",0,514.0,455.78,42.263,0,0.00,0.00,0.00
+E02006064,"Burnham-on-Sea",0,163.0,678.03,33.725,2,0.00,4167.61,0.00
+E02006065,"Highbridge",0,163.0,809.42,19.308,0,0.00,6151.62,0.00
+E02006066,"Pawlett",0,336.0,3735.70,21.473,0,0.00,0.00,963.56
+E02006067,"Cannington",0,71.0,2921.48,15.110,0,0.00,0.00,3313.58
+E02006068,"Bridgwater North",0,152.0,4651.02,7.436,1,0.00,4930.03,1162.10
+E02006069,"Bridgwater Town",0,315.0,3723.68,26.324,1,4397.03,16808.31,0.00
+E02006070,"Bridgwater East",0,244.0,2929.52,9.120,0,63678.02,1537.19,64510.63
+E02006071,"Wembdon & Chilton Trinity",0,223.0,639.83,9.065,0,0.00,0.00,0.00
+E02006072,"Westonzoyland",0,325.0,852.38,39.997,0,0.00,0.00,0.00
+E02006073,"Bridgwater South",0,152.0,1378.49,6.244,0,0.00,5983.35,0.00
+E02006074,"Stockmoor & North Petherton",0,597.0,2803.44,19.236,1,29799.84,0.00,35377.54

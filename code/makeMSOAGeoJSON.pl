@@ -1,67 +1,104 @@
 #!/usr/bin/perl
+# Create MSOA-level extracts of the data layers by clipping the LAD-level extracts with the MSOA boundary
 
 use Data::Dumper;
-require "./lib.pl";
-
-$osmconvert = "osmconvert";
-$osmfilter = "osmfilter";
-$mode = "info";
-$ogr = "ogr2ogr";
-$ogrinfo = "ogrinfo";
-
-$rootdir = "../";
-$lookup = $rootdir."www/data/lookupArea.tsv";
-
-$msoadir = $rootdir."../geography-bits/data/MSOA11CD/";
-$laddir = $rootdir."www/data/areas/";
-
-%data = (
-	'chargepoints' => { 'odir'=>$rootdir.'raw/MSOA/chargepoints/' },
-	'supermarkets' => { 'odir'=>$rootdir.'raw/MSOA/supermarkets/' },
-	'distribution' => { 'odir'=>$rootdir.'raw/MSOA/distribution/' },
-	'parking' => { 'odir'=>$rootdir.'raw/MSOA/parking/' }
-);
+# Get the real base directory for this script
+my $basedir = "./";
+if((readlink $ENV{'SCRIPT_FILENAME'} || $0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+require "./".$basedir."lib.pl";
 
 
+# Read in the configuration JSON file
+$conf = loadConf($basedir."conf.json");
+
+# Step up a directory
+$basedir = "../".$basedir;
+
+
+
+%lookup = getLookup($basedir.$conf->{'lookup'}{'file'});
+@msoaorder = sort(keys(%{$lookup{'MSOA'}}));
+@ladorder = sort(keys(%{$lookup{'LAD'}}));
+
+
+
+$msoadir = $basedir.$conf->{'geojson'}{'MSOA'}{'dir'};
 if(!-d $msoadir){
 	print "ERROR: $msoadir doesn't exist. This should contain all the geography bits https://github.com/odileeds/geography-bits/\n";
 	exit;
 }
 
-if(!-d $laddir){
-	makeDir($laddir);
+
+if(!-d $basedir.$conf->{'areas'}{'dir'}){
+	makeDir($basedir.$conf->{'areas'}{'dir'});
 }
 
-%lookup = getLookup();
+
+# Make the output directory if it doesn't already exist
+$dir = $basedir."tmp/MSOA/";
+makeDir($dir);
 
 
-@msoaorder = sort(keys(%{$lookup{'MSOA'}}));
-@ladorder = sort(keys(%{$lookup{'LAD'}}));
 
-foreach $layer (sort(keys(%data))){
+# Loop over MSOAs (ordered)
+for($m = 0; $m < @msoaorder; $m++){
 
-	# Make the output directory if it doesn't already exist
-	makeDir($data{$layer}{'odir'});
+	# Get the MSOA code
+	$msoa = $msoaorder[$m];
 
-	# Loop over MSOAs (ordered)
-	for($m = 0; $m < @msoaorder; $m++){
+	# Get the boundary file
+	$bfile = $msoadir.$msoa.".geojsonl";
 
-		# Get the MSOA code
-		$msoa = $msoaorder[$m];
+	
+	if(!-e $bfile){
+			print "WARNING: No GeoJSON boundary for MSOA $msoa.\n";
+	}else{
 
-		print "$msoa\n";
-		$bfile = $msoadir.$msoa.".geojsonl";
-		if(!-e $bfile){
-#			print "WARNING: No GeoJSON boundary for MSOA $msoa. $gfile\n";
-		}else{
-			$gfile = $data{$layer}{'odir'}.$msoa."-$layer.geojson";
-			$lfile = $laddir.$lookup{'MSOA'}{$msoa}."-$layer.geojson";
-			if(!-e $gfile){
-				`ogr2ogr -f GeoJSON $gfile $lfile -clipsrc $bfile 2>&1`;
-				trimGeoJSONFile($gfile);
+		for($k = 0; $k < @{$conf->{'layers'}{'keys'}}; $k++){
+
+			$layer = $conf->{'layers'}{'keys'}[$k];
+			$gfile = $dir.$msoa."-$layer.geojson";
+			$lfile = $basedir.$conf->{'areas'}{'dir'}.$lookup{'MSOA'}{$msoa}."/$lookup{'MSOA'}{$msoa}-$layer.geojson";
+
+			if(-e $lfile){
+				if(!-e $gfile){
+					print "Creating $gfile\n";
+					`ogr2ogr -f GeoJSON $gfile $lfile -clipsrc $bfile 2>&1`;
+					trimGeoJSONFile($gfile);
+				}
+			}else{
+				print "No file $lfile (you should run the other script first)\n";
 			}
 		}
 	}
 }
 
 
+
+################################
+
+sub getLookup {
+	my $file = $_[0];
+	my (%lookup,$i,$line,$msoa,$name,$junk,$lad);
+
+	%lookup = ('area'=>{},'MSOA'=>{});
+
+	# Open the Area/MSOA lookup file
+	open(FILE,$file) || error("Couldn't open the file");
+	$i = 0;
+	while(<FILE>){
+		$line = $_;
+		if($i > 0){
+			$line =~ s/[\n\r]//;
+			#MSOA11CD	MSOA11NM	MSOA11HCLNM	LAD21CD	LAD21NM	CAUTH21CD	CAUTH21NM	Area
+			#E02000001	City of London 001	City of London	E09000001	City of London			46155312.6057659
+			($msoa,$junk,$name,$lad,$junk) = split(/\t/,$line);
+			
+			$lookup{'MSOA'}{$msoa} = $lad;
+			if(!$lookup{'LAD'}{$lad}){ $lookup{'LAD'}{$lad} = (); }
+			push(@{$lookup{'LAD'}{$lad}},$msoa);
+		}
+		$i++;
+	}
+	return %lookup;
+}

@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02004814,"Andover Charlton & Bourne Valley",0,504.0,353.14,22.430,1,0.00
-E02004815,"Andover Newbury Road",0,504.0,569.01,10.245,0,0.00
-E02004816,"Andover London Road & East Anton",0,504.0,3179.82,45.287,3,0.00
-E02004817,"Andover Central",0,532.0,3326.70,47.526,6,0.00
-E02004818,"Andover West",0,504.0,1467.21,30.209,5,45872.40
-E02004819,"Andover South",0,504.0,796.14,17.453,3,0.00
-E02004820,"Over Wallop & Shipton Bellinger",0,570.0,9265.24,36.124,2,0.00
-E02004821,"Chilbolton",0,967.0,1680.52,34.013,0,0.00
-E02004822,"Nether Wallop",0,633.0,2550.16,48.353,1,14715.82
-E02004823,"Romsey Cupernham & Halterworth",0,287.0,1112.43,36.915,0,0.00
-E02004824,"Romsey Town",0,287.0,3324.09,83.058,8,0.00
-E02004825,"North Baddesley & Braishfield",0,915.0,3379.96,35.440,1,2573.74
-E02004826,"Abbotswood & West Wellow",0,548.0,3688.78,42.037,1,0.00
-E02004827,"Valley Park",0,295.0,482.05,21.932,0,0.00
-E02004828,"Chilworth",0,1206.0,7558.47,17.535,3,96242.12
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02004814,"Andover Charlton & Bourne Valley",0,504.0,353.14,22.430,1,0.00,0.00,0.00
+E02004815,"Andover Newbury Road",0,504.0,569.01,10.245,0,0.00,268.92,0.00
+E02004816,"Andover London Road & East Anton",0,504.0,3179.82,45.287,3,0.00,6348.68,22438.46
+E02004817,"Andover Central",0,532.0,3326.70,47.526,6,0.00,12737.39,2817.13
+E02004818,"Andover West",0,504.0,1467.21,30.209,5,45872.40,1596.08,45872.40
+E02004819,"Andover South",0,504.0,796.14,17.453,3,0.00,5717.18,0.00
+E02004820,"Over Wallop & Shipton Bellinger",0,570.0,9265.24,36.124,2,0.00,0.00,0.00
+E02004821,"Chilbolton",0,967.0,1680.52,34.013,0,0.00,451.59,0.00
+E02004822,"Nether Wallop",0,633.0,2563.38,48.353,1,14715.82,0.00,0.00
+E02004823,"Romsey Cupernham & Halterworth",0,287.0,1112.43,36.915,0,0.00,1690.19,0.00
+E02004824,"Romsey Town",0,287.0,3362.31,83.058,8,0.00,3306.90,0.00
+E02004825,"North Baddesley & Braishfield",0,915.0,3378.30,35.440,1,2573.74,345.65,0.00
+E02004826,"Abbotswood & West Wellow",0,548.0,3699.96,42.037,1,0.00,0.00,751.83
+E02004827,"Valley Park",0,295.0,482.05,21.932,0,0.00,0.00,0.00
+E02004828,"Chilworth",0,1206.0,7962.13,17.535,3,103845.86,0.00,26623.05

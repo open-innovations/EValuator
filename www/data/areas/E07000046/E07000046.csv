@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02004220,"Appledore & Northam North",0,200.0,1003.99,13.588,1,0.00
-E02004221,"Westward Ho! & Northam South",0,200.0,637.25,11.580,2,0.00
-E02004222,"Bideford North",0,200.0,1590.65,24.518,1,0.00
-E02004223,"Bideford South & East",0,419.0,1131.12,18.654,3,0.00
-E02004224,"Hartland Coast",0,248.0,2408.09,19.760,0,0.00
-E02004225,"Great Torrington",0,48.0,718.90,10.654,0,0.00
-E02004226,"Winkleigh & High Bickington",0,446.0,482.56,20.457,0,0.00
-E02004227,"Holsworthy",0,400.0,1034.65,25.748,3,0.00
-E02004228,"Shebbear",0,364.0,349.69,21.126,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02004220,"Appledore & Northam North",0,200.0,1003.99,13.588,1,0.00,0.00,0.00
+E02004221,"Westward Ho! & Northam South",0,200.0,637.25,11.580,2,0.00,0.00,0.00
+E02004222,"Bideford North",0,200.0,1680.44,24.518,1,0.00,7051.96,0.00
+E02004223,"Bideford South & East",0,419.0,1205.76,18.654,3,0.00,13754.09,0.00
+E02004224,"Hartland Coast",0,248.0,2408.87,19.760,0,0.00,0.00,0.00
+E02004225,"Great Torrington",0,48.0,718.90,10.654,0,0.00,1933.66,0.00
+E02004226,"Winkleigh & High Bickington",0,446.0,482.56,20.457,0,0.00,0.00,0.00
+E02004227,"Holsworthy",0,400.0,1034.65,25.748,3,0.00,2518.76,2619.49
+E02004228,"Shebbear",0,364.0,349.69,21.126,0,0.00,0.00,0.00

@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-E02006174,"Penkridge & Acton Trussell",0,811.0,3556.07,43.072,3,98033.83
-E02006175,"Huntington",0,946.0,4350.36,10.861,0,0.00
-E02006176,"Brewood & Wheaton Aston",0,410.0,762.35,34.044,0,0.00
-E02006177,"Cheslyn Hay",0,399.0,1153.77,17.640,0,0.00
-E02006178,"Great Wyrley",0,52.0,1190.08,24.291,0,0.00
-E02006179,"Featherstone West",0,306.0,3402.89,8.899,0,0.00
-E02006180,"Featherstone East & Essington",0,433.0,2601.45,10.016,4,0.00
-E02006181,"Bilbrook",0,304.0,5248.83,19.682,9,0.00
-E02006182,"Codsall",0,316.0,271.97,19.514,5,0.00
-E02006183,"Perton West & Pattingham",0,316.0,380.80,19.796,1,0.00
-E02006184,"Perton East",0,205.0,760.31,9.893,0,0.00
-E02006185,"Wombourne Inner",0,301.0,641.74,39.955,0,0.00
-E02006186,"Wombourne Outer",0,845.0,2848.94,55.213,0,0.00
-E02006187,"Kinver",0,740.0,1101.34,40.545,2,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+E02006174,"Penkridge & Acton Trussell",0,811.0,3556.07,43.072,3,118896.06,2388.00,96216.75
+E02006175,"Huntington",0,946.0,4416.66,10.861,0,0.00,0.00,0.00
+E02006176,"Brewood & Wheaton Aston",0,410.0,762.35,34.044,0,0.00,336.98,0.00
+E02006177,"Cheslyn Hay",0,399.0,1153.77,17.640,0,0.00,449.10,0.00
+E02006178,"Great Wyrley",0,52.0,1190.08,24.291,0,0.00,1215.45,0.00
+E02006179,"Featherstone West",0,306.0,3430.43,8.899,0,0.00,210.09,0.00
+E02006180,"Featherstone East & Essington",0,433.0,2601.45,10.016,4,0.00,0.00,0.00
+E02006181,"Bilbrook",0,304.0,5250.05,19.682,9,0.00,1848.44,0.00
+E02006182,"Codsall",0,316.0,271.97,19.514,5,0.00,0.00,0.00
+E02006183,"Perton West & Pattingham",0,316.0,380.80,19.796,1,0.00,0.00,0.00
+E02006184,"Perton East",0,205.0,760.31,9.893,0,0.00,4577.45,0.00
+E02006185,"Wombourne Inner",0,301.0,641.74,39.955,0,0.00,4268.24,0.00
+E02006186,"Wombourne Outer",0,845.0,2848.94,55.213,0,0.00,0.00,312.17
+E02006187,"Kinver",0,740.0,1101.34,40.545,2,0.00,0.00,0.00

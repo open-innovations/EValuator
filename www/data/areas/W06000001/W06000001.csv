@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-W02000001,"Amlwch & Llannerch-y-medd",0,77.0,2423.29,1.588,0,0.00
-W02000002,"Rhos-y-bol",0,77.0,870.72,0.000,1,0.00
-W02000003,"Holyhead",0,52.0,2458.05,13.738,5,0.00
-W02000004,"Llain-goch & Valley",0,52.0,2582.53,14.218,0,0.00
-W02000005,"Beaumaris & Benllech",0,76.0,2378.08,22.123,1,0.00
-W02000006,"Llangefni",0,111.0,3645.70,0.997,9,0.00
-W02000007,"Bodedern & Rhosneigr",0,52.0,3243.74,7.460,0,0.00
-W02000008,"Llanfair Pwllgwyngyll & Menai Bridge",0,80.0,1488.74,20.978,0,0.00
-W02000009,"Newborough",0,123.0,1971.84,17.868,4,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+W02000001,"Amlwch & Llannerch-y-medd",0,77.0,2422.87,1.588,0,0.00,1264.24,0.00
+W02000002,"Rhos-y-bol",0,77.0,870.72,0.000,1,0.00,0.00,0.00
+W02000003,"Holyhead",0,52.0,2627.99,13.738,5,0.00,18594.50,0.00
+W02000004,"Llain-goch & Valley",0,52.0,2582.53,14.218,0,0.00,2510.64,0.00
+W02000005,"Beaumaris & Benllech",0,76.0,2405.60,22.123,1,0.00,0.00,0.00
+W02000006,"Llangefni",0,111.0,3645.70,0.997,9,0.00,6515.36,2188.97
+W02000007,"Bodedern & Rhosneigr",0,52.0,3243.74,7.460,0,0.00,0.00,5036.27
+W02000008,"Llanfair Pwllgwyngyll & Menai Bridge",0,80.0,1492.93,20.978,0,0.00,3882.13,5564.82
+W02000009,"Newborough",0,123.0,1971.84,17.868,4,0.00,0.00,0.00

@@ -1,19 +1,19 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres
-W02000080,"Llay South & Gwersyllt East",0,242.0,1054.56,11.568,2,0.00
-W02000081,"Gwersyllt West & Summerhill",0,242.0,23.26,7.617,0,0.00
-W02000082,"New Broughton & Bryn Cefn",0,242.0,411.33,11.416,0,0.00
-W02000083,"Coedpoeth & Brymbo",0,319.0,650.89,11.485,0,0.00
-W02000084,"Borras & Rhosnesni",0,366.0,52.04,7.460,0,0.00
-W02000085,"Town North",0,443.0,3672.76,39.200,1,0.00
-W02000086,"Acton & Maes-y-dre",0,366.0,1474.94,11.613,1,0.00
-W02000087,"Caia Park",0,252.0,344.11,7.178,0,0.00
-W02000088,"Wrexham West",0,329.0,6230.43,14.897,3,0.00
-W02000089,"Hermitage & Whitegate",0,252.0,2173.46,10.261,3,0.00
-W02000090,"Pen-y-cae & Minera",0,205.0,267.83,7.179,0,0.00
-W02000091,"Johnstown North & Rhostyllen",0,201.0,216.35,9.500,0,0.00
-W02000092,"Rhosllannerchrugog & Johnstown South",0,77.0,536.96,11.410,0,0.00
-W02000093,"Ruabon & Marchwiel",0,329.0,845.87,13.730,0,0.00
-W02000094,"Cefn Mawr",0,113.0,1563.87,14.902,4,0.00
-W02000095,"Bangor-on-Dee",0,419.0,287.51,17.804,0,0.00
-W02000096,"Chirk & Ceiriog Valley",0,243.0,5312.72,10.640,0,0.00
-W02000420,"Gresford",0,366.0,0.00,36.109,0,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
+W02000080,"Llay South & Gwersyllt East",0,242.0,1054.56,11.568,2,0.00,2102.72,0.00
+W02000081,"Gwersyllt West & Summerhill",0,242.0,23.26,7.617,0,0.00,0.00,0.00
+W02000082,"New Broughton & Bryn Cefn",0,242.0,411.33,11.416,0,0.00,0.00,0.00
+W02000083,"Coedpoeth & Brymbo",0,319.0,650.89,11.485,0,0.00,0.00,0.00
+W02000084,"Borras & Rhosnesni",0,366.0,52.04,7.460,0,0.00,0.00,0.00
+W02000085,"Town North",0,443.0,3393.44,39.200,1,0.00,11120.80,0.00
+W02000086,"Acton & Maes-y-dre",0,366.0,1434.50,11.613,1,0.00,10239.16,0.00
+W02000087,"Caia Park",0,252.0,344.11,7.178,0,0.00,0.00,0.00
+W02000088,"Wrexham West",0,329.0,6230.43,14.897,3,0.00,12224.91,0.00
+W02000089,"Hermitage & Whitegate",0,252.0,2173.46,10.261,3,0.00,8613.75,1930.79
+W02000090,"Pen-y-cae & Minera",0,205.0,267.83,7.179,0,0.00,0.00,0.00
+W02000091,"Johnstown North & Rhostyllen",0,201.0,216.35,9.500,0,0.00,0.00,0.00
+W02000092,"Rhosllannerchrugog & Johnstown South",0,77.0,536.96,11.410,0,0.00,1622.63,0.00
+W02000093,"Ruabon & Marchwiel",0,329.0,845.87,13.730,0,0.00,2065.09,0.00
+W02000094,"Cefn Mawr",0,113.0,1563.87,14.902,4,0.00,5119.14,0.00
+W02000095,"Bangor-on-Dee",0,419.0,290.67,17.804,0,0.00,0.00,0.00
+W02000096,"Chirk & Ceiriog Valley",0,243.0,5312.72,10.640,0,0.00,886.18,0.00
+W02000420,"Gresford",0,366.0,2874.50,36.109,0,0.00,454.71,912.96
