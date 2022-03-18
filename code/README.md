@@ -15,8 +15,7 @@ Currently the tool contains Local Authorities and Combined Authorities. If you w
 
 Also:
 
-`extractOSM.pl` - 
-
+`extractOSM.pl` - creates GeoJSON extracts per local authority for various OSM layers
 `buildLayer-carpark-capacity.pl` - builds the carpark capacity CSV using the MSOA-level extracts of parking
 `buildLayer-distribution-centres.pl` - builds the distribution centre CSV using the MSOA-level extracts of distribution centres
 
