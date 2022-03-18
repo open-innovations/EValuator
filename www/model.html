@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<title>EValuator :: EV Bulk Charging Planner</title>
+	<link rel="StyleSheet" href="resources/style-map.css" type="text/css" />
+	<link rel="StyleSheet" href="resources/ev-model.css" type="text/css" />
+	<script type="text/javascript" src="resources/ev-model.js"></script>
+</head>
+<body class="b6-bg">
+
+	<div id="messages"></div>
+
+	<div id="app" class="doublepadded">
+		<div class="bg"></div>
+		<div id="ev-model" class="holder"></div>
+	</div>
+	
+	<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      evModel.init(document.querySelector('#ev-model'));
+    });
+	</script>
+</body>
+</html>

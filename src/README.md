@@ -1,0 +1,1 @@
+Using a technique for combining Svelte and Leaflet found here: https://imfeld.dev/writing/svelte_domless_components
