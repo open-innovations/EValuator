@@ -1,7 +1,7 @@
 <script>
   export let inputs;
   export let models = []
-  let params;
+  export let params;
 </script>
 <h1>EV Model</h1>
 

@@ -1,9 +1,10 @@
 <script>
-  export const params = {
+  export let params = {
     slow: 0,
     fast: 0,
     rapid: 0,
   };
+
 </script>
 <div>
   <label for='slow'>Slow chargers</label>

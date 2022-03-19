@@ -20,6 +20,11 @@
   const mapClick = e => location = e.latlng;
 
   let location = undefined;
+  let modelParams = {
+    slow: 0,
+    fast: 0,
+    rapid: 0,
+  };
 </script>
 
 
@@ -28,7 +33,7 @@
   <Leaflet bind:map bounds={uk} baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
     <Pin bind:latLng={ location }>
       <Popup>
-        <ModelPane inputs={ ModelInputs } { models }></ModelPane>
+        <ModelPane inputs={ ModelInputs } { models } bind:params={ modelParams }></ModelPane>
       </Popup>
     </Pin>
   </Leaflet>
