@@ -7,7 +7,6 @@
   const RAPID = 43;
 
   function calcDemand({ slow, fast, rapid }) {
-    console.log('Calcin!');
     return slow * SLOW + fast * FAST + rapid * RAPID;
   }
   $: demand = calcDemand(params);
