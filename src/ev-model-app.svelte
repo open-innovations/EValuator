@@ -3,7 +3,7 @@
   import Leaflet from './components/Leaflet.svelte';
   import Sources from './components/Sources.svelte';
   import Popup from './components/Popup.svelte';
-  import Pin from './components/Pin.svelte';
+  import Marker from './components/Marker.svelte';
   import ModelPane from './components/ModelPane.svelte';
 
   import { uk } from './lib/maps/bounds';
@@ -31,11 +31,11 @@
 <h1>EValuator - EV Bulk Charging Planner Model</h1>
 <section id='map' class="screen">
   <Leaflet bind:map bounds={uk} baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
-    <Pin bind:latLng={ location }>
+    <Marker bind:latLng={ location }>
       <Popup>
         <ModelPane inputs={ ModelInputs } { models } bind:params={ modelParams }></ModelPane>
       </Popup>
-    </Pin>
+    </Marker>
   </Leaflet>
 </section>
 
