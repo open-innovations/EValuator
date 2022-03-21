@@ -32,12 +32,10 @@
 <section id='map' class="screen">
   <Leaflet bind:map bounds={uk} baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
     <Marker bind:latLng={ location }>
-      <Popup>
-        <ModelPane inputs={ ModelInputs } { models } bind:params={ modelParams }></ModelPane>
-      </Popup>
     </Marker>
   </Leaflet>
 </section>
+<ModelPane inputs={ ModelInputs } { models } bind:params={ modelParams }></ModelPane>
 
 <Key></Key>
 <Sources></Sources>
