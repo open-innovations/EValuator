@@ -12,6 +12,11 @@
 
   import ModelInputs from './components/model/ModelInputs.svelte';
   import EnergyModel from './components/model/EnergyModel.svelte';
+  import { getMapState, storeMapState } from './lib/location';
+
+  const { view, zoom } = getMapState();
+  let bounds = undefined;
+  if (!view) bounds = uk;
 
   const models = [ EnergyModel ];
 
@@ -30,7 +35,7 @@
 
 <h1>EValuator - EV Bulk Charging Planner Model</h1>
 <section id='map' class="screen">
-  <Leaflet bind:map bounds={uk} baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
+  <Leaflet bind:map { bounds } { view } { zoom } baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
     <Marker bind:latLng={ location }>
     </Marker>
   </Leaflet>
