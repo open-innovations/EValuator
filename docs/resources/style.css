@@ -146,14 +146,14 @@ section { padding: 1em 0; }
 #weights label { text-align: left; padding-right: 0.5em; }
 #weights label.invert { padding-right: 0.25em; }
 #weights .value { min-width: 3em; padding-left: 0.25em; padding-right: 1em; text-align: right; }
-#weights .info { width: 1.5em; height: 1.5em; position: relative; display: inline-block; padding: 0; background: #ddd; color: black; text-align:center; border-radius: 100%; margin-left: 0.5em; font-style: italic; }
+#weights .info { width: 1.5em; height: 1.5em; position: relative; display: inline-block; padding: 0; background: #d4dadc; color: black; text-align:center; border-radius: 100%; margin-left: 0.5em; font-style: italic; }
 #weights .info::before { content: "i"; font-family: serif;}
 #weights .info:hover,#weights .info:focus { background: #2254F4; color: white; }
 #weights .more-info { position: absolute; z-index: 100; width: 300px; top: 100%; left: 50%; transform: translate3d(-50%,0,0); background: #111; color: white; padding: 1em; font-style: normal; margin-top: 1em; filter: drop-shadow(2px 1px 1px rgba(0,0,0,0.5));	 }
 #weights .more-info::before { content: ""; width: 0; height: 0; position: absolute; left: 50%; top: 0%; border-left: 0.5em solid transparent; border-right: 0.5em solid transparent; border-bottom: 0.5em solid #000; transform: translate3d(-50%,-100%,0); }
 #weights .more-info a { color: inherit; }
 
-#presets button { margin-right: 0.5em; background: #bbbbbb; }
+#presets button { margin-right: 0.5em; background: #d4dadc; }
 #presets button:hover, #presets button:focus { background:#2254F4; color: white; }
 
 #ranking tr { cursor: pointer; }
@@ -171,7 +171,7 @@ section { padding: 1em 0; }
 /* End of CSS Grid */
 
 .grid.tabs { margin-top: 1em; }
-.grid.tabs li a { position: relative; display: block; width: 100%; height: 100%; background-color: #bbbbbb; color: black; font: inherit;font-size: 1.5em; box-shadow: inset 0 -0.25em 0.25em -0.25em rgba(0,0,0,0.2); text-align: center; padding: 0.5em; line-height: 2em; text-decoration: none; }
+.grid.tabs li a { position: relative; display: block; width: 100%; height: 100%; background-color: #d4dadc; color: black; font: inherit;font-size: 1.5em; box-shadow: inset 0 -0.25em 0.25em -0.25em rgba(0,0,0,0.2); text-align: center; padding: 0.5em; line-height: 2em; text-decoration: none; }
 .grid.tabs li a h2 { margin-bottom: 0; font-size: inherit; }
 .grid.tabs li a[aria-selected=true] { background-color: #efefef; color: black !important; box-shadow: unset; }
 .grid.tabs li a svg { width: 1em; height: 1em; display: inline-block; float: right; }
