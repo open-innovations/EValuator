@@ -399,7 +399,7 @@
 
 	function Slider(opt){
 		if(!opt) opt = {};
-		var inp,inv,lbl,invlbl,val,cls,_obj;
+		var inp,inv,lbl,invlbl,val,cls,desc,info_obj;
 
 		_obj = this;
 
@@ -456,16 +456,36 @@
 		
 
 		desc = document.createElement('div');
-		desc.classList.add('description');
+		desc.classList.add('more-info');
 		desc.innerHTML = opt.desc||"";
+		desc.style.display = 'none';
+		info = document.createElement('button');
+		info.classList.add('info');
+		info.setAttribute('title',(opt.desc||"").replace(/<[^\>]*>/g,''));
+		info.addEventListener('click',function(e){
+			els = document.querySelectorAll('.more-info');
+			el = e.target.querySelector('.more-info');
+			for(var i = 0; i < els.length; i++){
+				if(els[i] == el){
+					if(el.style.display) el.style.display = '';
+					else el.style.display = 'none';
+				}else{
+					els[i].style.display = 'none';
+				}
+			}
+				console.log(e.target.parentNode.querySelector('.more-info'));
+		});
+		lbl.appendChild(info);
+		info.appendChild(desc);
 		
+		
+
 		this.addTo = function(el){
 			el.appendChild(lbl);
 			el.appendChild(inp);
 			el.appendChild(val);
-//			el.appendChild(inv);
 			el.appendChild(invlbl);
-			el.appendChild(desc);
+//			el.appendChild(desc);
 			
 			// Trigger the change event when we first add it
 			var event = document.createEvent('HTMLEvents');
