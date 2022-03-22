@@ -2,14 +2,14 @@
 
 ## Create a new geographic area
 
-Currently the tool contains Local Authorities and Combined Authorities. If you want to add a new area, add it to the file `www/data/areas.tsv` with the ONS code and the name. Make sure that the code is included in the lookup file `www/data/lookup/OA11-LAD21-CAUTH21.tsv` in a column with a header ending with `CD` so that we know which MSOAs it is connected to. Then run the following steps:
+Currently the tool contains Local Authorities and Combined Authorities. If you want to add a new area, add it to the file `docs/data/areas.tsv` with the ONS code and the name. Make sure that the code is included in the lookup file `docs/data/lookup/OA11-LAD21-CAUTH21.tsv` in a column with a header ending with `CD` so that we know which MSOAs it is connected to. Then run the following steps:
 
-  * `perl generateAreas.pl` - this will create `www/data/lookup/lookupArea.tsv` which contains all the area codes with their associated MSOAs. For each area it will generate:
-    * `www/data/areas/CODE/` - the sub-directory
-	* `www/data/areas/CODE/CODE-msoas.tsv` - the MSOAs for this area with their House of Commons names
-	* `www/data/areas/CODE/CODE.geojson` - a GeoJSON file with all the MSOA polygons for this area
+  * `perl generateAreas.pl` - this will create `docs/data/lookup/lookupArea.tsv` which contains all the area codes with their associated MSOAs. For each area it will generate:
+    * `docs/data/areas/CODE/` - the sub-directory
+	* `docs/data/areas/CODE/CODE-msoas.tsv` - the MSOAs for this area with their House of Commons names
+	* `docs/data/areas/CODE/CODE.geojson` - a GeoJSON file with all the MSOA polygons for this area
   * `perl makeMSOAGeoJSON.pl`  - creates MSOA-level extracts from the area extracts in preparation for analysis
-  * `perl buildScores.pl` - this will update the scores for every area listed in `www/data/areas.tsv` creating `www/data/areas/CODE/CODE.csv` as necessary
+  * `perl buildScores.pl` - this will update the scores for every area listed in `docs/data/areas.tsv` creating `docs/data/areas/CODE/CODE.csv` as necessary
 
 
 
@@ -60,13 +60,13 @@ The supermarkets, distribution centres, and parking all come from OpenStreetMap 
 Running `perl makeLADs.pl` will loop over all the LADs to create extracts for each layer using their boundaries e.g.
 
 ```
-ogr2ogr -f GeoJSON E08000035-data.geojson chargepoints.csv.sqlite -clipsrc www/boundaries/E08000035.geojsonl
+ogr2ogr -f GeoJSON E08000035-data.geojson chargepoints.csv.sqlite -clipsrc docs/boundaries/E08000035.geojsonl
 ```
 
 But it could be more efficient to clip the SQLite for the whole of GB to the bounding box of the LAD first. We could use `ogrinfo` to find the extent:
 
 ```
-ogrinfo -so -al www/boundaries/E08000035.geojsonl | grep Extent
+ogrinfo -so -al docs/boundaries/E08000035.geojsonl | grep Extent
 ```
 
 which returns
@@ -79,7 +79,7 @@ Then we could clip the SQLite file with `osmconvert` and then clip that file wit
 
 ```
 osmconvert chargepoints.csv.sqlite -b=lon1,lat1,lon2,lat2 --complete-ways -o=temporary.sqlite
-ogr2ogr -f SQLite E08000035-data.geojson temporary.sqlite -clipsrc www/boundaries/E08000035.geojsonl 2>&1`;
+ogr2ogr -f SQLite E08000035-data.geojson temporary.sqlite -clipsrc docs/boundaries/E08000035.geojsonl 2>&1`;
 ```
 
 For some big/fractal-coasty Local Authorities, this two-step process makes it much quicker.

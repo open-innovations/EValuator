@@ -8,9 +8,9 @@ $rootdir = "../";
 	'chargepoint'=>{
 		'url'=>'https://chargepoints.dft.gov.uk/api/retrieve/registry/format/csv',
 		'raw'=>$rootdir.'raw/chargepoints.csv',
-		'processed'=>$rootdir.'www/data/chargepoints.csv',
-		'dir'=>$rootdir.'www/data/chargepoints/'
-		'dir'=>$rootdir.'www/data/chargepoints/'
+		'processed'=>$rootdir.'docs/data/chargepoints.csv',
+		'dir'=>$rootdir.'docs/data/chargepoints/'
+		'dir'=>$rootdir.'docs/data/chargepoints/'
 	}
 );
 

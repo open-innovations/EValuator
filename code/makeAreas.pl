@@ -10,7 +10,7 @@ $ogr = "ogr2ogr";
 $ogrinfo = "ogrinfo";
 
 $rootdir = "../";
-$adir = $rootdir."www/data/areas/";
+$adir = $rootdir."docs/data/areas/";
 $osmpbf = $rootdir."raw/great-britain-latest.pbf";
 $osmfile = $rootdir."raw/great-britain-latest.o5m";
 # Directories to look for boundaries
@@ -41,8 +41,8 @@ if(!-d $adir){
 %chargepoints = (
 	'url'=>'https://chargepoints.dft.gov.uk/api/retrieve/registry/format/csv',
 	'raw'=>$rootdir.'raw/chargepoints.csv',
-	'processed'=>$rootdir.'www/data/chargepoints.csv',
-	'dir'=>$rootdir.'www/data/chargepoints/'
+	'processed'=>$rootdir.'docs/data/chargepoints.csv',
+	'dir'=>$rootdir.'docs/data/chargepoints/'
 );
 
 

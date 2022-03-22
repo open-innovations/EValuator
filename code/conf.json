@@ -1,7 +1,7 @@
 {
 	"areas":{
-		"file": "www/data/areas.tsv",
-		"dir": "www/data/areas/"
+		"file": "docs/data/areas.tsv",
+		"dir": "docs/data/areas/"
 	},
 	"osm": {
 		"url": "https://download.geofabrik.de/europe/great-britain-latest.osm.pbf",
@@ -49,14 +49,14 @@
 		}
 	},
 	"layers": {
-		"file": "www/data/domains.json",
-		"dir": "www/data/layers/",
+		"file": "docs/data/domains.json",
+		"dir": "docs/data/layers/",
 		"keys": ["chargepoints","distribution","parking","supermarket","warehouse"]
 	},
 	"lookup":{
-		"file": "www/data/lookup/OA11-LAD21-CAUTH21.tsv",
-		"names": "www/data/lookup/MSOA-Names-Latest.csv",
+		"file": "docs/data/lookup/OA11-LAD21-CAUTH21.tsv",
+		"names": "docs/data/lookup/MSOA-Names-Latest.csv",
 		"namesurl": "https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-Latest.csv",
-		"area": "www/data/lookup/lookupArea.tsv"
+		"area": "docs/data/lookup/lookupArea.tsv"
 	}
 }

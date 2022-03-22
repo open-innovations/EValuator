@@ -52,7 +52,7 @@ for($i = 0; $i < @files ; $i++){
 	}
 }
 
-open(FILE,">",$rootdir."www/data/layers/chargepoints.csv");
+open(FILE,">",$rootdir."docs/data/layers/chargepoints.csv");
 for($i = 0; $i < @files ; $i++){
 	#$files[$i]{'n'} /= $max;
 #	print FILE "$files[$i]{'code'},".sprintf("%0.2f",$files[$i]{'n'})."\n";

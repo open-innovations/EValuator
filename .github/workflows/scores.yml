@@ -7,7 +7,7 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     paths:
-      - www/data/domains.json
+      - docs/data/domains.json
       - .github/workflows/scores.yml
 
   # Allows you to run this workflow manually from the Actions tab
@@ -37,7 +37,7 @@ jobs:
           perl code/buildScores.pl
 
       - name: Commit changes to files
-        working-directory: www/data/areas/
+        working-directory: docs/data/areas/
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
