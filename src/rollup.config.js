@@ -6,7 +6,7 @@ import css from 'rollup-plugin-css-only';
 import copy from 'rollup-plugin-copy'
 
 const production = process.env.NODE_ENV !== 'development';
-const targetDir = '../www/resources';
+const targetDir = '../docs/resources';
 
 export default {
 	input: 'ev-model.js',
