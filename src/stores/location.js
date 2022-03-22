@@ -2,7 +2,7 @@ import { writable } from 'svelte/store';
 import { getMapState } from '../lib/location';
 
 async function getAreaData(areaCode) {
-  const prefix = `/data/areas/${areaCode}`;
+  const prefix = `data/areas/${areaCode}`;
   const req = [
     fetch(`${prefix}/${areaCode}.geojson`).then(x => x.json()).catch(_ => undefined),
     fetch(`${prefix}/${areaCode}-warehouse.geojson`).then(x => x.json()).catch(_ => undefined),
