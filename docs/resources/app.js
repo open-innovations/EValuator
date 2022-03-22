@@ -386,9 +386,9 @@
 		list += '</tr>';
 		for(t = 0; t < totals.length; t++){
 			msoa = totals[t][0];
-			list += '<tr><td class="num">'+(t+1)+'</td>';
+			list += '<tr data="'+msoa+'"><td class="num">'+(t+1)+'</td>';
 			list += '<td>'+msoa+'</td>';
-			list += '<td><a href="model.html?area='+this.area+'&msoa='+msoa+'">'+this.arealookup[this.area].MSOA[msoa].name+'</a></td>';
+			list += '<td>'+this.arealookup[this.area].MSOA[msoa].name+'</td>';
 			for(c = 0; c < this.categories.length; c++){
 				for(l = 0; l < this.categories[c].layers.length; l++){
 					list += '<td class="num">'+this.scores[msoa][this.categories[c].layers[l].id]+'</td>';
@@ -403,6 +403,16 @@
 			this.el.map.insertAdjacentElement('afterend', this.el.ranking);
 		}
 		this.el.ranking.innerHTML = '<div class="table-wrapper"><table>'+list+'</table></div>';
+		
+		var trs = this.el.ranking.querySelectorAll('tr');
+		var _obj = this;
+		for(t = 0; t < trs.length; t++){
+			trs[t].addEventListener('click',function(e){
+				var tr = e.target.closest('tr');
+				var msoa = tr.getAttribute('data');
+				location.href = "model.html?area="+_obj.area+"&msoa="+msoa;
+			});
+		}
 
 		if(!this.arealookup[id].geoJSON){
 			fetch('data/areas/'+id+'/'+id+'.geojson').then(response => {

@@ -133,7 +133,7 @@ input#area { width: 300px; }
 
 .table-wrapper { max-width: 100%; overflow-x: auto; }
 table { border-collapse: collapse; width: 100%; }
-table tr:hover { background: #ddd; }
+table tr:hover { background: #2254F4; color: white; }
 table td, table th { border: 1px solid #ddd; padding: 0.25em 0.5em; }
 table th { background: #222; color: white; vertical-align: bottom; }
 table td.num { text-align: center; }
@@ -155,6 +155,8 @@ section { padding: 1em 0; }
 
 #presets button { margin-right: 0.5em; background: #bbbbbb; }
 #presets button:hover, #presets button:focus { background:#2254F4; color: white; }
+
+#ranking tr { cursor: pointer; }
 
 /* Use CSS Grid */
 .grid {
