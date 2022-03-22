@@ -1,13 +1,13 @@
 <script>
-  import Key from './components/Key.svelte';
-  import Leaflet from './components/Leaflet.svelte';
-  import Sources from './components/Sources.svelte';
-  import Popup from './components/Popup.svelte';
-  import Marker from './components/Marker.svelte';
+  import Leaflet from './components/leaflet/Leaflet.svelte';
+  import Marker from './components/leaflet/Marker.svelte';
   import GeoJson from './components/leaflet/GeoJson.svelte'; 
-  
+
   import ModelPane from './components/ModelPane.svelte';
 
+  import Key from './components/Key.svelte';
+  import Sources from './components/Sources.svelte';
+  
   import { location } from './stores/location';
 
   import { uk } from './lib/maps/bounds';
