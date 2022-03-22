@@ -386,7 +386,7 @@
 		list += '</tr>';
 		for(t = 0; t < totals.length; t++){
 			msoa = totals[t][0];
-			list += '<tr data="'+msoa+'"><td class="num">'+(t+1)+'</td>';
+			list += '<tr class="row" data="'+msoa+'"><td class="num">'+(t+1)+'</td>';
 			list += '<td>'+msoa+'</td>';
 			list += '<td>'+this.arealookup[this.area].MSOA[msoa].name+'</td>';
 			for(c = 0; c < this.categories.length; c++){
@@ -404,7 +404,7 @@
 		}
 		this.el.ranking.innerHTML = '<div class="table-wrapper"><table>'+list+'</table></div>';
 		
-		var trs = this.el.ranking.querySelectorAll('tr');
+		var trs = this.el.ranking.querySelectorAll('tr.row');
 		var _obj = this;
 		for(t = 0; t < trs.length; t++){
 			trs[t].addEventListener('click',function(e){
