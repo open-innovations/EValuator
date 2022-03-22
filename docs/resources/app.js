@@ -308,7 +308,7 @@
 			else return b[1] - a[1];
 		});
 
-		var list = '<tr><th>Rank</th><th>MSOA</th><th>Name</th>';
+		var list = '<tr><th></th><th>Name</th>';
 		for(c = 0; c < this.categories.length; c++){
 			for(l = 0; l < this.categories[c].layers.length; l++){
 				list += '<th><div><span>'+this.categories[c].layers[l].title+'</span></div></th>';
@@ -318,7 +318,8 @@
 		list += '</tr>';
 		for(t = 0; t < totals.length; t++){
 			msoa = totals[t][0];
-			list += '<tr><td class="num">'+(t+1)+'</td><td>'+msoa+'</td>';
+			list += '<tr><td class="num">'+(t+1)+'</td>';
+			//list += '<td>'+msoa+'</td>';
 			list += '<td><a href="https://findthatpostcode.uk/areas/'+msoa+'.html">'+this.arealookup[this.area].MSOA[msoa].name+'</a></td>';
 			for(c = 0; c < this.categories.length; c++){
 				for(l = 0; l < this.categories[c].layers.length; l++){
