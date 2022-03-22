@@ -4,6 +4,8 @@ const deserialiseLatLng = (s) => s?.split(',').map(x => parseFloat(x));
 
 const VIEW_PARAM = 'view';
 const ZOOM_PARAM = 'zoom';
+const AREA_PARAM = 'area';
+const MSOA_PARAM = 'msoa';
 
 export const storeMapState = (map) => {
   const params = getParams();
@@ -16,6 +18,8 @@ export const getMapState = () => {
   const params = getParams();
   const view = deserialiseLatLng(params.get(VIEW_PARAM));
   const zoom = parseFloat(params.get(ZOOM_PARAM)) || 12;
-  return { view, zoom };
+  const area = params.get(AREA_PARAM);
+  const msoa = params.get(MSOA_PARAM);
+  return { view, zoom, area, msoa };
 }
 

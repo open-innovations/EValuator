@@ -7,6 +7,7 @@
   export let latLng;
 
   const layerGroup = getContext('layerGroup')();
+
   setContext('layer', () => marker);
 
   function createMarker() {
