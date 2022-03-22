@@ -21,7 +21,7 @@
 			<h1>EValuator - EV Bulk Charging Planner</h1>
 			
 			<form id="area-typeahead">
-				<label for="typeahead">Local Authority name:</label>
+				<label for="typeahead">Area name:</label>
 				<input type="text" id="area" value="" placeholder="e.g. Leeds" autocomplete=“off”>
 			</form>
 			
@@ -29,15 +29,19 @@
 				<div id="location"><div id='tooltip'></div></div>
 			</section>
 			
-			<section>
-				<h2>Weightings</h2>
-				<div id="weights"></div>
-			</section>
+			<ul class="grid tabs" role="tablist">
+				<li role="presentation"><a role="tab" href="#weightings" title="Switch to weightings" class="active" aria-selected="true"><h2>Weightings<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-sliders" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z"/></svg></h2></a></li>
+				<li role="presentation"><a role="tab" href="#rankings" title="Switch to rankings of MSOAs" aria-selected="false" class=""><h2>Ranked MSOAs<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-list-ol" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z"/><path d="M1.713 11.865v-.474H2c.217 0 .363-.137.363-.317 0-.185-.158-.31-.361-.31-.223 0-.367.152-.373.31h-.59c.016-.467.373-.787.986-.787.588-.002.954.291.957.703a.595.595 0 0 1-.492.594v.033a.615.615 0 0 1 .569.631c.003.533-.502.8-1.051.8-.656 0-1-.37-1.008-.794h.582c.008.178.186.306.422.309.254 0 .424-.145.422-.35-.002-.195-.155-.348-.414-.348h-.3zm-.004-4.699h-.604v-.035c0-.408.295-.844.958-.844.583 0 .96.326.96.756 0 .389-.257.617-.476.848l-.537.572v.03h1.054V9H1.143v-.395l.957-.99c.138-.142.293-.304.293-.508 0-.18-.147-.32-.342-.32a.33.33 0 0 0-.342.338v.041zM2.564 5h-.635V2.924h-.031l-.598.42v-.567l.629-.443h.635V5z"/></svg></h2></a></li>
+			</ul>
+			<div class="panes" role="tabpanel">
+				<section id="weightings">
+					<div id="weights"></div>
+				</section>
 
-			<section>
-				<h2>Ranked MSOAs</h2>
-				<div id="ranking"></div>
-			</section>
+				<section id="rankings">
+					<div id="ranking">No area has been chosen.</div>
+				</section>
+			</div>
 			
 		</div>
 	</div>
@@ -64,6 +68,46 @@
 	<script>
 	OI.ready(function(){
 		app = new OI.EValuator({'map':document.getElementById('map'),'ranking':document.getElementById('ranking'),'weights':document.getElementById('weights')});
+
+
+		// Make tabbed interface
+		function Tabbed(opt){
+			if(!opt) opt = {};
+			if(!opt.tabs){
+				console.error('No tabs provided');
+				return this;
+			}
+			var tabs = opt.tabs;
+			var panes = [];
+			var _obj = this;
+			for(var t = 0; t < tabs.length; t++){
+				panes[t] = document.getElementById(tabs[t].getAttribute('href').substring(1,));
+				tabs[t].setAttribute('data',t);
+				tabs[t].addEventListener('click',function(e){
+					e.preventDefault();
+					el = e.target;
+					if(el.tagName != "A") el = el.closest('a');
+					var i = parseInt(el.getAttribute('data'));
+					_obj.set(i);
+				});
+			}
+			this.set = function(i){
+				for(var p = 0; p < panes.length; p++){
+					if(p==i){
+						panes[p].style.display = '';
+						tabs[p].setAttribute('aria-selected',true);
+					}else{
+						panes[p].style.display = 'none';
+						tabs[p].setAttribute('aria-selected',false);
+					}
+				}
+			}
+			this.set(0);
+			return this;
+		}
+		
+		var tabbed = new Tabbed({'tabs': document.querySelectorAll('.grid.tabs a')});
+
 	})
 	</script>
 </body>
