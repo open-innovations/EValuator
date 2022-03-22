@@ -4,6 +4,8 @@
   import Sources from './components/Sources.svelte';
   import Popup from './components/Popup.svelte';
   import Marker from './components/Marker.svelte';
+  import GeoJson from './components/leaflet/GeoJson.svelte'; 
+  
   import ModelPane from './components/ModelPane.svelte';
 
   import { location } from './stores/location';
@@ -19,7 +21,11 @@
 
   const models = [ EnergyModel ];
 
+  // Map state
   let map;
+  let msoaOutline;
+
+  $: if (msoaOutline) map.fitBounds(msoaOutline.getBounds());
 
   const mapClick = e => site = e.latlng;
 
@@ -38,6 +44,7 @@
   <Leaflet bind:map { bounds } baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
     <Marker bind:latLng={ site }>
     </Marker>
+    <GeoJson feature={ $location?.msoa } bind:layer={ msoaOutline }></GeoJson>
   </Leaflet>
 </section>
 <ModelPane inputs={ ModelInputs } { models } bind:params={ modelParams }></ModelPane>
