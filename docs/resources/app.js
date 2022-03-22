@@ -26,23 +26,6 @@
 		return Object.keys(a).map(function(i){a[i].id = i;return a[i];});
 	}
 
-	// Define a shortcut for checking variable types
-	function is(a,b){ return (typeof a == b) ? true : false; }
-	function indexOfMax(arr) {
-		if(arr.length === 0) return -1;
-
-		var max = arr[0];
-		var maxIndex = 0;
-
-		for(var i = 1; i < arr.length; i++){
-			if(arr[i] > max){
-				maxIndex = i;
-				max = arr[i];
-			}
-		}
-		return maxIndex;
-	}
-
 	function EValuator(opts){
 
 		this.name = "EValuator";
@@ -68,7 +51,7 @@
 			return this;
 		}
 		// Map
-		baseMaps = {
+		var baseMaps = {
 			'Greyscale': L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
 				attribution: 'Tiles: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
 				subdomains: 'abcd',
@@ -99,7 +82,7 @@
 			if(!response.ok) throw new Error('Network response was not OK');
 			return response.text();
 		}).then(data => {
-			lines = data.split(/\n/);
+			var lines = data.split(/\n/);
 			lines.shift();
 			for(var i = 0; i < lines.length; i++){
 				if(lines[i][1]){
@@ -131,6 +114,7 @@
 	EValuator.prototype.init = function(){
 
 		var _obj = this;
+		var c,heading,desc,category,l,inp;
 
 		this.input = document.getElementById('area');
 
@@ -152,7 +136,7 @@
 		});
 
 		// Sliders
-		for(var c = 0; c < this.categories.length; c++){
+		for(c = 0; c < this.categories.length; c++){
 			heading = document.createElement('h3');
 			heading.innerHTML = this.categories[c].title;
 			this.el.weights.appendChild(heading);
@@ -164,7 +148,7 @@
 			}
 			category = document.createElement('div');
 			category.classList.add('category');
-			for(var l = 0; l < this.categories[c].layers.length; l++){
+			for(l = 0; l < this.categories[c].layers.length; l++){
 				inp = new Slider({
 					'id':this.categories[c].layers[l].id,
 					'label':this.categories[c].layers[l].title,
@@ -175,8 +159,7 @@
 					'value': this.categories[c].layers[l].weight||1,
 					'onchange':function(e){
 						this.updateValue(e.currentTarget.value);
-						_obj.categories[e.data.category].layers[e.data.layer].weight = parseFloat(e.currentTarget.value);
-						_obj.postArea();
+						_obj.setLayerWeight(e.data.category,e.data.layer,parseFloat(e.currentTarget.value));
 					},
 					'oninvert':function(e){
 						console.log('invert',e,this,_obj);
@@ -189,6 +172,12 @@
 		}
 		//this.el.weights.setAttribute('style','grid-template-columns: repeat('+this.layers.length+',1fr);');
 
+		return this;
+	};
+	
+	EValuator.prototype.setLayerWeight = function(c,l,w){
+		this.categories[c].layers[l].weight = w;
+		this.postArea();
 		return this;
 	};
 
@@ -207,10 +196,11 @@
 					if(!response.ok) throw new Error('Network response was not OK');
 					return response.text();
 				}).then(data => {
-					lines = data.split(/\n/);
+					var lines = data.split(/\n/);
 					this.arealookup[id].MSOA = {};
-					header = lines[0].replace(/\r/g,'').split(/,/);
-					for(var i = 1; i < lines.length; i++){
+					var header = lines[0].replace(/\r/g,'').split(/,/);
+					var i,h;
+					for(i = 1; i < lines.length; i++){
 						if(lines[i][1]){
 							lines[i] = lines[i].split(/\,/);
 							this.arealookup[id].MSOA[lines[i][0]] = {'name':lines[i][1].replace(/(^\"|\"$)/g,"")};
@@ -236,6 +226,7 @@
 	EValuator.prototype.postArea = function(id){
 		
 		if(!id) id = this.area;
+		var c,l,msoa,min,max,a,v,weight,credits,t;
 
 		if(!this.arealookup[id].MSOA){
 			this.log.warning('No MSOAs defined for '+this.arealookup[id].name+' ('+id+')');
@@ -249,8 +240,8 @@
 		this.input.value = "";
 
 		// Find the min/max for each layers
-		for(var c = 0; c < this.categories.length; c++){
-			for(var l = 0; l < this.categories[c].layers.length; l++){
+		for(c = 0; c < this.categories.length; c++){
+			for(l = 0; l < this.categories[c].layers.length; l++){
 				min = 1e100;
 				max = -1e100;
 				// Loop over the MSOAs in this area
@@ -270,35 +261,34 @@
 		}
 
 		this.attribution = "";
-		var credits = {};
-		for(var c = 0; c < this.categories.length; c++){
-			for(var l = 0; l < this.categories[c].layers.length; l++){
+		credits = {};
+		for(c = 0; c < this.categories.length; c++){
+			for(l = 0; l < this.categories[c].layers.length; l++){
 				if(this.categories[c].layers[l].weight > 0){
 					if(this.categories[c].layers[l].attrib){
-						for(var a = 0; a < this.categories[c].layers[l].attrib.length; a++){
+						for(a = 0; a < this.categories[c].layers[l].attrib.length; a++){
 							credits[this.categories[c].layers[l].attrib[a]] = 1;
 						}
 					}
 				}
 			}
 		}
-		for(var c in credits) this.attribution += (this.attribution ? ', ':'')+c;
+		for(c in credits) this.attribution += (this.attribution ? ', ':'')+c;
 
 
-		var weight = 0;
-		for(var c = 0; c < this.categories.length; c++){
-			for(var l = 0; l < this.categories[c].layers.length; l++){
+		weight = 0;
+		for(c = 0; c < this.categories.length; c++){
+			for(l = 0; l < this.categories[c].layers.length; l++){
 				if(this.categories[c].layers[l].range > 0) weight += this.categories[c].layers[l].weight;
 			}
 		}
 
-		var v;
 		for(msoa in this.arealookup[id].MSOA){
 			this.scores[msoa].total = 0;
 			// Avoid divide-by-zero errors
 			if(weight > 0){
-				for(var c = 0; c < this.categories.length; c++){
-					for(var l = 0; l < this.categories[c].layers.length; l++){
+				for(c = 0; c < this.categories.length; c++){
+					for(l = 0; l < this.categories[c].layers.length; l++){
 						// Only include if the range for this layer is non-zero
 						if(this.categories[c].layers[l].range > 0){
 							v = (this.scores[msoa][this.categories[c].layers[l].id] - this.categories[c].layers[l].min)/this.categories[c].layers[l].range;
@@ -311,27 +301,27 @@
 		}
 
 
-		totals = [];
-		for(var msoa in this.arealookup[this.area].MSOA) totals.push([msoa,this.scores[msoa].total,this.arealookup[this.area].MSOA[msoa].name]);
+		var totals = [];
+		for(msoa in this.arealookup[this.area].MSOA) totals.push([msoa,this.scores[msoa].total,this.arealookup[this.area].MSOA[msoa].name]);
 		totals.sort(function(a,b){
 			if(b[1] == a[1]) return a[2].localeCompare(b[2]);
 			else return b[1] - a[1];
 		});
 
-		list = '<tr><th>Rank</th><th>MSOA</th><th>Name</th>';
-		for(var c = 0; c < this.categories.length; c++){
-			for(var l = 0; l < this.categories[c].layers.length; l++){
+		var list = '<tr><th>Rank</th><th>MSOA</th><th>Name</th>';
+		for(c = 0; c < this.categories.length; c++){
+			for(l = 0; l < this.categories[c].layers.length; l++){
 				list += '<th><div><span>'+this.categories[c].layers[l].title+'</span></div></th>';
 			}
 		}
 		list += '<th>Score</th>';
 		list += '</tr>';
-		for(var t = 0; t < totals.length; t++){
+		for(t = 0; t < totals.length; t++){
 			msoa = totals[t][0];
 			list += '<tr><td class="num">'+(t+1)+'</td><td>'+msoa+'</td>';
 			list += '<td><a href="https://findthatpostcode.uk/areas/'+msoa+'.html">'+this.arealookup[this.area].MSOA[msoa].name+'</a></td>';
-			for(var c = 0; c < this.categories.length; c++){
-				for(var l = 0; l < this.categories[c].layers.length; l++){
+			for(c = 0; c < this.categories.length; c++){
+				for(l = 0; l < this.categories[c].layers.length; l++){
 					list += '<td class="num">'+this.scores[msoa][this.categories[c].layers[l].id]+'</td>';
 				}
 			}
@@ -371,15 +361,15 @@
 			var _obj = this;
 			this.arealayer = L.geoJSON(this.arealookup[id].geoJSON, {
 				style: function (feature){
-					msoa = feature.properties['msoa11cd'];
+					var msoa = feature.properties.msoa11cd;
 					// Scale the opacity to the range 0.1 - 0.8 so that we can still see some map
-					v = (_obj.scores[msoa].total||0)*0.7 + 0.1;
+					var v = (_obj.scores[msoa].total||0)*0.7 + 0.1;
 					return {
 						"color": "#2254F4",
 						"weight": 0.6,
 						"opacity":0.3,
 						"fillOpacity": v
-					}
+					};
 				},
 				onEachFeature: function(feature, layer) {
 					var popupContent = '<h3>'+feature.properties.msoa11hclnm+'</h3>';
@@ -399,7 +389,7 @@
 
 	function Slider(opt){
 		if(!opt) opt = {};
-		var inp,inv,lbl,invlbl,val,cls,desc,info_obj;
+		var inp,inv,lbl,invlbl,val,cls,desc,info,span,_obj;
 
 		_obj = this;
 
@@ -463,8 +453,8 @@
 		info.classList.add('info');
 		info.setAttribute('title',(opt.desc||"").replace(/<[^\>]*>/g,''));
 		info.addEventListener('click',function(e){
-			els = document.querySelectorAll('.more-info');
-			el = e.target.querySelector('.more-info');
+			var els = document.querySelectorAll('.more-info');
+			var el = e.target.querySelector('.more-info');
 			for(var i = 0; i < els.length; i++){
 				if(els[i] == el){
 					if(el.style.display) el.style.display = '';
@@ -479,13 +469,11 @@
 		info.appendChild(desc);
 		
 		
-
 		this.addTo = function(el){
 			el.appendChild(lbl);
 			el.appendChild(inp);
 			el.appendChild(val);
 			el.appendChild(invlbl);
-//			el.appendChild(desc);
 			
 			// Trigger the change event when we first add it
 			var event = document.createEvent('HTMLEvents');
@@ -496,11 +484,11 @@
 		this.setValue = function(v){
 			inp.setAttribute('value',v);
 			this.updateValue(v);
-		}
+		};
 		this.updateValue = function(txt){
 			val.innerHTML = parseFloat(txt).toFixed(1);
 			return this;
-		}
+		};
 		this.setValue(opt.value||1);
 		return this;
 	}
@@ -518,7 +506,7 @@
 	Logger.prototype.error = function(){ this.log('ERROR',arguments); };
 	Logger.prototype.warning = function(){ this.log('WARNING',arguments); };
 	Logger.prototype.info = function(){ this.log('INFO',arguments); };
-	Logger.prototype.message = function(){ this.log('MESSAGE',arguments); }
+	Logger.prototype.message = function(){ this.log('MESSAGE',arguments); };
 	Logger.prototype.log = function(){
 		if(this.logging || arguments[0]=="ERROR" || arguments[0]=="WARNING" || arguments[0]=="INFO"){
 			var args,bold;
@@ -532,7 +520,7 @@
 			}
 		}
 		return this;
-	}
+	};
 	Logger.prototype.time = function(key){
 		if(!this.metrics[key]) this.metrics[key] = {'times':[],'start':''};
 		if(!this.metrics[key].start) this.metrics[key].start = new Date();
@@ -565,7 +553,7 @@
 	
 	root.OI.EValuator = function(opts){
 		return new EValuator(opts);
-	}
+	};
 	root.Logger = Logger;
 
 })(window || this);
@@ -707,7 +695,7 @@
 			ev.initEvent('keyup', false, true);
 			el.dispatchEvent(ev);
 			return this;
-		}
+		};
 		this.on = function(event,data,fn){
 			if(!el){
 				console.warn('Unable to attach event '+event);
@@ -762,7 +750,7 @@
 			if(!items) items = [];
 			items = items.concat(d);
 		};
-		this.clearItems = function(){ items = []; }
+		this.clearItems = function(){ items = []; };
 		this.on('change',{'test':'blah'},function(e){  });
 
 		return this;
