@@ -136,6 +136,7 @@
 		});
 
 		// Sliders
+		this.sliders = {};
 		for(c = 0; c < this.categories.length; c++){
 			heading = document.createElement('h3');
 			heading.innerHTML = this.categories[c].title;
@@ -154,37 +155,104 @@
 					'label':this.categories[c].layers[l].title,
 					'desc':this.categories[c].layers[l].desc,
 					'class':'slider',
-					'data': {'layer':l,'category':c},
+					'data': {'layer':this.categories[c].layers[l].id,'category':c},
 					'invert': this.categories[c].layers[l].invert,
 					'value': this.categories[c].layers[l].weight||1,
 					'onchange':function(e){
-						this.updateValue(e.currentTarget.value);
-						_obj.setLayerWeight(e.data.category,e.data.layer,parseFloat(e.currentTarget.value));
-					},
-					'oninvert':function(e){
-						console.log('invert',e,this,_obj);
-						_obj.invertLayer(e.data.category,e.data.layer);
+						_obj.updateLayer(e.data.layer,e.data.value,e.data.invert);
+						_obj.postArea();
 					}
 				});
 				inp.addTo(category);
+				this.sliders[this.categories[c].layers[l].id] = inp;
 			}
 			this.el.weights.appendChild(category);
 		}
-		//this.el.weights.setAttribute('style','grid-template-columns: repeat('+this.layers.length+',1fr);');
 
+
+
+		// Get presets
+		fetch('data/presets.json').then(response => {
+			if(!response.ok) throw new Error('Network response was not OK');
+			return response.json();
+		}).then(data => {
+
+			// Add default values as first element of array
+			var def = {"title":"Default","weights":{}};
+			var c,l;
+			for(c = 0; c < this.categories.length; c++){
+				for(l = 0; l < this.categories[c].layers.length; l++){
+					def.weights[this.categories[c].layers[l].id] = {"value":this.categories[c].layers[l].weight,"invert":this.categories[c].layers[l].invert||false};
+				}
+			}
+			data.unshift(def);
+
+			this.el.presets = document.createElement('div');
+			this.el.presets.id = "presets";
+			this.el.weights.insertBefore(this.el.presets, this.el.weights.firstChild);
+
+			// Add presets here
+			if(this.el.presets){
+				this.el.presets.innerHTML = "";
+				var i,btns,btn,_obj;
+				btns = [];
+				_obj = this;
+				if(data.length){
+					var h = document.createElement('h2');
+					h.innerHTML = "Presets";
+					this.el.presets.appendChild(h);
+				}
+				for(i = 0; i < data.length; i++){
+					btn = document.createElement('button');
+					btn.innerHTML = data[i].title||"?";
+					btn.setAttribute('data',i);
+					btn.addEventListener('click',function(e){
+						var i,s;
+						s = document.querySelectorAll('button.selected');
+						for(i = 0; i < s.length; i++) s[i].classList.remove('selected');
+						e.target.classList.add('selected');
+						i = parseInt(e.target.getAttribute('data'));
+						_obj.setWeights(data[i].weights);
+					});
+					this.el.presets.appendChild(btn);
+					btns[i] = btn;
+				}
+			}
+		}).catch(error => {
+			console.error('There has been a problem with your fetch operation:', error);
+		});
 		return this;
 	};
 	
-	EValuator.prototype.setLayerWeight = function(c,l,w){
-		this.categories[c].layers[l].weight = w;
+	EValuator.prototype.setWeights = function(weights){
+		var weight,w,inv;
+		for(weight in this.sliders){
+			w = 0;
+			inv = false;
+			if(weights[weight]){
+				if(typeof weights[weight].value==="number") w = weights[weight].value;
+				if(typeof weights[weight].invert==="boolean") inv = weights[weight].invert;
+			}
+			this.sliders[weight].setValue(w);
+			this.sliders[weight].setInvert(inv);
+			this.updateLayer(weight,w,inv);
+		}
 		this.postArea();
 		return this;
 	};
 
-	EValuator.prototype.invertLayer = function(cat,lay){
-		if(typeof this.categories[cat].layers[lay].invert!=="boolean") this.categories[cat].layers[lay].invert = false;
-		this.categories[cat].layers[lay].invert = !this.categories[cat].layers[lay].invert;
-		this.postArea();
+	EValuator.prototype.updateLayer = function(lay,w,inv){
+		var c,l;
+		if(typeof w!=="number") w = 0;
+		if(typeof inv!=="boolean") inv = false;
+		for(c in this.categories){
+			for(l = 0; l < this.categories[c].layers.length; l++){
+				if(this.categories[c].layers[l].id==lay){
+					this.categories[c].layers[l].weight = w;
+					this.categories[c].layers[l].invert = inv;
+				}
+			}
+		}
 		return this;
 	};
 
@@ -308,7 +376,7 @@
 			else return b[1] - a[1];
 		});
 
-		var list = '<tr><th></th><th>Name</th>';
+		var list = '<tr><th></th><th>MSOA</th><th>Name</th>';
 		for(c = 0; c < this.categories.length; c++){
 			for(l = 0; l < this.categories[c].layers.length; l++){
 				list += '<th><div><span>'+this.categories[c].layers[l].title+'</span></div></th>';
@@ -319,8 +387,8 @@
 		for(t = 0; t < totals.length; t++){
 			msoa = totals[t][0];
 			list += '<tr><td class="num">'+(t+1)+'</td>';
-			//list += '<td>'+msoa+'</td>';
-			list += '<td><a href="https://findthatpostcode.uk/areas/'+msoa+'.html">'+this.arealookup[this.area].MSOA[msoa].name+'</a></td>';
+			list += '<td>'+msoa+'</td>';
+			list += '<td><a href="model.html?area='+this.area+'&msoa='+msoa+'">'+this.arealookup[this.area].MSOA[msoa].name+'</a></td>';
 			for(c = 0; c < this.categories.length; c++){
 				for(l = 0; l < this.categories[c].layers.length; l++){
 					list += '<td class="num">'+this.scores[msoa][this.categories[c].layers[l].id]+'</td>';
@@ -419,6 +487,10 @@
 			var fn = function(e){ _obj.updateValue(inp.value); };
 			if(typeof opt.onchange==="function") fn = opt.onchange;
 			if(opt.data) e.data = opt.data;
+			e.data.value = parseFloat(inp.value);
+			_obj.updateValue(e.data.value);
+			e.data.invert = inv.checked;
+			// Call the callback function
 			fn.call(_obj,e);
 		});
 		
@@ -427,11 +499,10 @@
 		inv.setAttribute('type','checkbox');
 		if(typeof opt.invert==="boolean" && opt.invert) inv.setAttribute('checked','checked');
 		if(opt.id) inv.setAttribute('id',opt.id+'-invert');
-		inv.addEventListener('change',function(e){
-			if(typeof opt.oninvert==="function"){
-				if(opt.data) e.data = opt.data;
-				opt.oninvert.call(_obj,e);
-			}
+		inv.addEventListener('click',function(e){
+			var event = document.createEvent('HTMLEvents');
+			event.initEvent('input', true, false);
+			inp.dispatchEvent(event);
 		});
 
 		invlbl = document.createElement('label');
@@ -488,6 +559,12 @@
 		};
 		this.updateValue = function(txt){
 			val.innerHTML = parseFloat(txt).toFixed(1);
+			return this;
+		};
+		this.setInvert = function(state){
+			// Set the state
+			if(typeof state!=="boolean") state = false;
+			inv.checked = state;
 			return this;
 		};
 		this.setValue(opt.value||1);

@@ -1,0 +1,7 @@
+[{
+	"title": "Distribution",
+	"weights": {
+		"index-of-transport-accessibility": { "value": 0.7, "invert": false },
+		"distribution-centres": { "value": 0.5 }
+	}
+}]
