@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-E02004697,"Bentley & Holybourne",0,1088.0,3314.82,46.336,0,0.00,0.00,0.00
-E02004698,"Alton Westbrooke & Eastbrooke",0,378.0,1674.04,73.770,1,0.00,3816.88,0.00
-E02004699,"Alton Ashdell",0,378.0,2661.46,46.282,2,0.00,7881.12,0.00
-E02004700,"Bordon Camp",0,825.0,1103.83,37.683,1,0.00,4891.82,0.00
-E02004702,"Bordon & Lindford",0,180.0,139.47,21.336,0,0.00,0.00,586.71
-E02004703,"Four Marks & Tisted",0,530.0,903.68,63.513,0,0.00,664.77,0.00
-E02004704,"Whitehill & Selborne",0,658.0,3716.33,36.399,1,0.00,0.00,361.38
-E02004705,"Liphook",0,394.0,1520.02,71.855,2,0.00,4133.08,0.00
-E02004706,"Liss & Hawkley",0,715.0,712.99,51.831,0,0.00,0.00,0.00
-E02004707,"Petersfield North & East Meon",0,968.0,2720.00,66.105,9,0.00,1936.49,0.00
-E02004708,"Petersfield South",0,394.0,1576.80,76.670,4,0.00,6026.37,0.00
-E02004709,"Clanfield & Finchdean",0,196.0,264.45,29.303,0,0.00,0.00,0.00
-E02004710,"Horndean North",0,475.0,299.04,25.231,0,0.00,0.00,0.00
-E02006829,"Horndean South & Rowlands Castle",0,494.0,1576.41,25.847,1,1789.44,6536.39,0.00
-E02006838,"Headley Down & Grayshott",0,363.0,149.56,37.109,0,0.00,320.92,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+E02004697,"Bentley & Holybourne",0,1088.0,3314.82,46.336,0,0.00,0.00,0.00,0
+E02004698,"Alton Westbrooke & Eastbrooke",0,378.0,1674.04,73.770,1,0.00,3816.88,0.00,0
+E02004699,"Alton Ashdell",0,378.0,2661.46,46.282,2,0.00,7881.12,0.00,0
+E02004700,"Bordon Camp",0,825.0,1103.83,37.683,1,0.00,4891.82,0.00,0
+E02004702,"Bordon & Lindford",0,180.0,139.47,21.336,0,0.00,0.00,586.71,0
+E02004703,"Four Marks & Tisted",0,530.0,903.68,63.513,0,0.00,664.77,0.00,0
+E02004704,"Whitehill & Selborne",0,658.0,3716.33,36.399,1,0.00,0.00,361.38,0
+E02004705,"Liphook",0,394.0,1520.02,71.855,2,0.00,4133.08,0.00,0
+E02004706,"Liss & Hawkley",0,715.0,712.99,51.831,0,0.00,0.00,0.00,0
+E02004707,"Petersfield North & East Meon",0,968.0,2720.00,66.105,9,0.00,1936.49,0.00,0
+E02004708,"Petersfield South",0,394.0,1576.80,76.670,4,0.00,6026.37,0.00,0
+E02004709,"Clanfield & Finchdean",0,196.0,264.45,29.303,0,0.00,0.00,0.00,0
+E02004710,"Horndean North",0,475.0,299.04,25.231,0,0.00,0.00,0.00,0
+E02006829,"Horndean South & Rowlands Castle",0,494.0,1576.41,25.847,1,1789.44,6536.39,0.00,0
+E02006838,"Headley Down & Grayshott",0,363.0,149.56,37.109,0,0.00,320.92,0.00,0

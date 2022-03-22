@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-E02004149,"Pennsylvania & University",0,221.0,1216.16,11.560,0,0.00,0.00,0.00
-E02004150,"Mincinglake & Beacon Heath",0,221.0,81.15,7.173,0,0.00,0.00,0.00
-E02004151,"Pinhoe & Whipton North",0,335.0,1541.30,12.454,5,0.00,9919.32,0.00
-E02004152,"St James's Park & Hoopern",0,335.0,1176.77,9.707,2,0.00,300.43,0.00
-E02004153,"Exwick & Foxhayes",0,221.0,130.43,6.723,0,0.00,0.00,0.00
-E02004154,"Heavitree West & Polsloe",0,1752.0,773.93,6.956,1,0.00,5212.59,0.00
-E02004155,"Heavitree East & Whipton South",0,335.0,252.53,5.762,0,0.00,0.00,0.00
-E02004156,"Central Exeter",0,2280.0,4982.08,74.799,12,0.00,3910.27,0.00
-E02004157,"St Leonard's",0,1531.0,1741.91,13.201,0,0.00,0.00,0.00
-E02004158,"St Thomas East",0,1638.0,891.76,11.227,0,0.00,0.00,0.00
-E02004159,"Middlemoor & Sowton",0,1945.0,14158.77,29.284,7,0.00,9931.73,14438.53
-E02004160,"St Thomas West",0,1638.0,192.15,10.566,0,0.00,201.24,0.00
-E02004161,"Wonford & St Loye's",0,1531.0,2551.31,14.140,0,0.00,2556.81,0.00
-E02004162,"Alphington & Marsh Barton",0,1417.0,5723.24,20.012,6,0.00,11280.75,3857.60
-E02004163,"Countess Wear & Topsham",0,1479.0,1003.19,15.949,0,0.00,1809.89,310.94
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+E02004149,"Pennsylvania & University",0,221.0,1216.16,11.560,0,0.00,0.00,0.00,0
+E02004150,"Mincinglake & Beacon Heath",0,221.0,81.15,7.173,0,0.00,0.00,0.00,0
+E02004151,"Pinhoe & Whipton North",0,335.0,1541.30,12.454,5,0.00,9919.32,0.00,0
+E02004152,"St James's Park & Hoopern",0,335.0,1176.77,9.707,2,0.00,300.43,0.00,0
+E02004153,"Exwick & Foxhayes",0,221.0,130.43,6.723,0,0.00,0.00,0.00,0
+E02004154,"Heavitree West & Polsloe",0,1752.0,773.93,6.956,1,0.00,5212.59,0.00,0
+E02004155,"Heavitree East & Whipton South",0,335.0,252.53,5.762,0,0.00,0.00,0.00,0
+E02004156,"Central Exeter",0,2280.0,4982.08,74.799,12,0.00,3910.27,0.00,0
+E02004157,"St Leonard's",0,1531.0,1741.91,13.201,0,0.00,0.00,0.00,0
+E02004158,"St Thomas East",0,1638.0,891.76,11.227,0,0.00,0.00,0.00,0
+E02004159,"Middlemoor & Sowton",0,1945.0,14158.77,29.284,7,0.00,9931.73,14438.53,0
+E02004160,"St Thomas West",0,1638.0,192.15,10.566,0,0.00,201.24,0.00,0
+E02004161,"Wonford & St Loye's",0,1531.0,2551.31,14.140,0,0.00,2556.81,0.00,0
+E02004162,"Alphington & Marsh Barton",0,1417.0,5723.24,20.012,6,0.00,11280.75,3857.60,0
+E02004163,"Countess Wear & Topsham",0,1479.0,1003.19,15.949,0,0.00,1809.89,310.94,0

@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-E02004055,"Old Whittington",0,1431.0,1192.58,15.833,1,0.00,0.00,0.00
-E02004056,"Staveley & Norbriggs",0,140.0,1547.51,27.474,1,0.00,8418.96,0.00
-E02004057,"New Whittington",0,427.0,237.00,15.941,3,0.00,0.00,0.00
-E02004058,"Dunston",0,1482.0,535.03,13.041,0,0.00,1824.30,0.00
-E02004059,"Brimington South & Tapton",0,1622.0,1028.56,15.579,0,0.00,7897.15,0.00
-E02004060,"Inkersall Green & Duckmanton",0,220.0,478.89,14.681,3,0.00,0.00,0.00
-E02004061,"Newbold",0,1482.0,2631.03,12.587,4,0.00,15458.24,2345.04
-E02004062,"Loundsley Green & Holme Hall",0,1661.0,860.53,16.825,0,0.00,387.08,0.00
-E02004063,"Ashgate & Brockwell",0,1482.0,474.32,11.834,0,0.00,966.35,0.00
-E02004064,"Central Chesterfield & Stonegravels",0,2160.0,10205.41,69.475,20,0.00,4084.27,0.00
-E02004065,"Brookside & Walton",0,370.0,854.62,16.105,4,0.00,5175.32,0.00
-E02004066,"Spital & Hasland",0,1702.0,2977.16,16.657,0,0.00,776.39,0.00
-E02004067,"Boythorpe & Birdholme",0,191.0,779.78,7.952,0,0.00,0.00,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+E02004055,"Old Whittington",0,1431.0,1192.58,15.833,1,0.00,0.00,0.00,0
+E02004056,"Staveley & Norbriggs",0,140.0,1547.51,27.474,1,0.00,8418.96,0.00,0
+E02004057,"New Whittington",0,427.0,237.00,15.941,3,0.00,0.00,0.00,0
+E02004058,"Dunston",0,1482.0,535.03,13.041,0,0.00,1824.30,0.00,0
+E02004059,"Brimington South & Tapton",0,1622.0,1028.56,15.579,0,0.00,7897.15,0.00,0
+E02004060,"Inkersall Green & Duckmanton",0,220.0,478.89,14.681,3,0.00,0.00,0.00,0
+E02004061,"Newbold",0,1482.0,2631.03,12.587,4,0.00,15458.24,2345.04,0
+E02004062,"Loundsley Green & Holme Hall",0,1661.0,860.53,16.825,0,0.00,387.08,0.00,0
+E02004063,"Ashgate & Brockwell",0,1482.0,474.32,11.834,0,0.00,966.35,0.00,0
+E02004064,"Central Chesterfield & Stonegravels",0,2160.0,10205.41,69.475,20,0.00,4084.27,0.00,0
+E02004065,"Brookside & Walton",0,370.0,854.62,16.105,4,0.00,5175.32,0.00,0
+E02004066,"Spital & Hasland",0,1702.0,2977.16,16.657,0,0.00,776.39,0.00,0
+E02004067,"Boythorpe & Birdholme",0,191.0,779.78,7.952,0,0.00,0.00,0.00,0

@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-E02006118,"Rugeley North & Etchinghill",0,360.0,828.16,18.279,0,0.00,1196.56,0.00
-E02006119,"Rugeley Town",0,186.0,1829.76,45.167,2,0.00,10952.18,0.00
-E02006120,"Rugeley South & Brereton",0,186.0,2081.12,22.797,0,0.00,848.36,63124.82
-E02006121,"Hednesford Pye Green",0,174.0,486.43,8.059,0,0.00,0.00,0.00
-E02006122,"Hednesford Central",0,521.0,953.28,12.749,2,0.00,10605.24,0.00
-E02006123,"Wimblebury & Cannock Wood",0,360.0,667.47,17.075,0,0.00,0.00,0.00
-E02006124,"Cannock North",0,521.0,7.99,10.995,0,0.00,0.00,0.00
-E02006125,"Cannock North East",0,521.0,426.56,15.560,0,0.00,0.00,0.00
-E02006126,"Hednesford South & Heath Hayes",0,521.0,747.59,17.911,0,0.00,0.00,0.00
-E02006127,"Hawks Green",0,521.0,1000.32,13.901,3,0.00,7085.24,0.00
-E02006128,"Cannock West & Mill Green",0,521.0,4576.90,40.448,0,0.00,581.99,0.00
-E02006129,"Cannock South",0,347.0,11278.27,19.574,7,0.00,12825.49,0.00
-E02006130,"Norton Canes",0,490.0,6041.94,16.013,2,0.00,11802.83,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+E02006118,"Rugeley North & Etchinghill",0,360.0,828.16,18.279,0,0.00,1196.56,0.00,0
+E02006119,"Rugeley Town",0,186.0,1829.76,45.167,2,0.00,10952.18,0.00,0
+E02006120,"Rugeley South & Brereton",0,186.0,2081.12,22.797,0,0.00,848.36,63124.82,0
+E02006121,"Hednesford Pye Green",0,174.0,486.43,8.059,0,0.00,0.00,0.00,0
+E02006122,"Hednesford Central",0,521.0,953.28,12.749,2,0.00,10605.24,0.00,0
+E02006123,"Wimblebury & Cannock Wood",0,360.0,667.47,17.075,0,0.00,0.00,0.00,0
+E02006124,"Cannock North",0,521.0,7.99,10.995,0,0.00,0.00,0.00,0
+E02006125,"Cannock North East",0,521.0,426.56,15.560,0,0.00,0.00,0.00,0
+E02006126,"Hednesford South & Heath Hayes",0,521.0,747.59,17.911,0,0.00,0.00,0.00,0
+E02006127,"Hawks Green",0,521.0,1000.32,13.901,3,0.00,7085.24,0.00,0
+E02006128,"Cannock West & Mill Green",0,521.0,4576.90,40.448,0,0.00,581.99,0.00,0
+E02006129,"Cannock South",0,347.0,11278.27,19.574,7,0.00,12825.49,0.00,0
+E02006130,"Norton Canes",0,490.0,6041.94,16.013,2,0.00,11802.83,0.00,0

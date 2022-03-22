@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-E02005055,"Northfleet North",0,171.0,398.01,10.313,0,37766.37,1368.70,37766.37
-E02005056,"Gravesend Town",0,367.0,3408.97,21.920,1,0.00,16297.29,0.00
-E02005057,"Milton & Chalk",0,505.0,452.38,48.519,0,0.00,0.00,0.00
-E02005058,"Perry Street",0,171.0,0.00,7.722,0,0.00,0.00,0.00
-E02005059,"Windmill Hill",0,367.0,100.86,11.523,0,0.00,0.00,0.00
-E02005060,"Northfleet South",0,171.0,1031.79,9.785,0,0.00,11447.66,0.00
-E02005061,"Westcourt",0,196.0,28.49,8.108,0,0.00,0.00,0.00
-E02005062,"Riverview Park",0,196.0,580.23,6.611,0,0.00,0.00,0.00
-E02005063,"Gravesend South & Coldharbour",0,505.0,840.88,10.105,0,0.00,6890.84,0.00
-E02005064,"Higham & Shorne",0,985.0,956.40,22.349,0,0.00,0.00,0.00
-E02005065,"Singlewell",0,196.0,208.25,8.669,1,0.00,0.00,0.00
-E02005066,"Istead Rise & Meopham",0,261.0,599.15,38.788,3,0.00,0.00,0.00
-E02005067,"Sole Street & Vigo",0,705.0,248.38,21.249,0,0.00,0.00,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+E02005055,"Northfleet North",0,171.0,398.01,10.313,0,37766.37,1368.70,37766.37,0
+E02005056,"Gravesend Town",0,367.0,3408.97,21.920,1,0.00,16297.29,0.00,0
+E02005057,"Milton & Chalk",0,505.0,452.38,48.519,0,0.00,0.00,0.00,0
+E02005058,"Perry Street",0,171.0,0.00,7.722,0,0.00,0.00,0.00,0
+E02005059,"Windmill Hill",0,367.0,100.86,11.523,0,0.00,0.00,0.00,0
+E02005060,"Northfleet South",0,171.0,1031.79,9.785,0,0.00,11447.66,0.00,0
+E02005061,"Westcourt",0,196.0,28.49,8.108,0,0.00,0.00,0.00,0
+E02005062,"Riverview Park",0,196.0,580.23,6.611,0,0.00,0.00,0.00,0
+E02005063,"Gravesend South & Coldharbour",0,505.0,840.88,10.105,0,0.00,6890.84,0.00,0
+E02005064,"Higham & Shorne",0,985.0,956.40,22.349,0,0.00,0.00,0.00,0
+E02005065,"Singlewell",0,196.0,208.25,8.669,1,0.00,0.00,0.00,0
+E02005066,"Istead Rise & Meopham",0,261.0,599.15,38.788,3,0.00,0.00,0.00,0
+E02005067,"Sole Street & Vigo",0,705.0,248.38,21.249,0,0.00,0.00,0.00,0

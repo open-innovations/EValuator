@@ -1,2 +1,2 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-E02000001,"City of London",0,1067.0,612.30,0.320,70,0.00,3675.30,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+E02000001,"City of London",0,1067.0,612.30,0.320,70,0.00,3675.30,0.00,0

@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-E02006696,"Hagley",0,600.0,972.35,31.308,0,0.00,0.00,0.00
-E02006697,"Dodford",0,1003.0,2681.64,50.887,2,0.00,0.00,0.00
-E02006698,"Rubery West",0,738.0,277.33,24.894,0,0.00,292.65,0.00
-E02006699,"Hollywood & Drakes Cross",0,162.0,153.87,23.402,0,0.00,29.48,0.00
-E02006700,"Wythall & Gay Hill",0,608.0,1280.09,32.532,1,0.00,0.00,0.00
-E02006701,"Barnt Green & Lickey Hills",0,813.0,1371.63,32.088,0,0.00,40.87,0.00
-E02006702,"Catshill",0,163.0,472.19,15.375,1,0.00,0.00,0.00
-E02006703,"Marlbrook & Lickey End",0,738.0,413.03,32.019,2,0.00,0.00,0.00
-E02006704,"Alvechurch",0,942.0,2613.23,39.423,3,0.00,279.68,506.09
-E02006705,"Bromsgrove Sidemoor",0,163.0,255.07,21.375,0,0.00,1864.09,0.00
-E02006706,"Bromsgrove Central & Sanders Park",0,539.0,2112.08,46.701,4,0.00,10100.77,0.00
-E02006707,"Bromsgrove Stoney Hill",0,376.0,541.77,28.828,0,0.00,0.00,0.00
-E02006708,"Bromsgrove Charford",0,539.0,937.87,68.583,3,427.59,1691.10,0.00
-E02006709,"Stoke Heath",0,762.0,2548.56,63.847,3,0.00,5869.59,161.37
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+E02006696,"Hagley",0,600.0,972.35,31.308,0,0.00,0.00,0.00,0
+E02006697,"Dodford",0,1003.0,2681.64,50.887,2,0.00,0.00,0.00,0
+E02006698,"Rubery West",0,738.0,277.33,24.894,0,0.00,292.65,0.00,0
+E02006699,"Hollywood & Drakes Cross",0,162.0,153.87,23.402,0,0.00,29.48,0.00,0
+E02006700,"Wythall & Gay Hill",0,608.0,1280.09,32.532,1,0.00,0.00,0.00,0
+E02006701,"Barnt Green & Lickey Hills",0,813.0,1371.63,32.088,0,0.00,40.87,0.00,0
+E02006702,"Catshill",0,163.0,472.19,15.375,1,0.00,0.00,0.00,0
+E02006703,"Marlbrook & Lickey End",0,738.0,413.03,32.019,2,0.00,0.00,0.00,0
+E02006704,"Alvechurch",0,942.0,2613.23,39.423,3,0.00,279.68,506.09,0
+E02006705,"Bromsgrove Sidemoor",0,163.0,255.07,21.375,0,0.00,1864.09,0.00,0
+E02006706,"Bromsgrove Central & Sanders Park",0,539.0,2112.08,46.701,4,0.00,10100.77,0.00,0
+E02006707,"Bromsgrove Stoney Hill",0,376.0,541.77,28.828,0,0.00,0.00,0.00,0
+E02006708,"Bromsgrove Charford",0,539.0,937.87,68.583,3,427.59,1691.10,0.00,0
+E02006709,"Stoke Heath",0,762.0,2548.56,63.847,3,0.00,5869.59,161.37,0

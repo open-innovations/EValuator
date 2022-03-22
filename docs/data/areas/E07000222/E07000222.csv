@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-E02006519,"Kenilworth West",0,524.0,2352.22,114.729,5,0.00,5954.19,0.00
-E02006520,"Kenilworth East",0,296.0,612.92,53.237,0,0.00,0.00,0.00
-E02006521,"Kenilworth South",0,296.0,872.00,37.668,0,0.00,217.69,0.00
-E02006522,"Kingswood & Leek Wootton",0,10411.0,5265.47,67.910,3,0.00,0.00,0.00
-E02006523,"Cubbington",0,2011.0,9586.46,61.724,0,0.00,0.00,63600.17
-E02006524,"Lillington",0,254.0,92.30,19.141,0,0.00,0.00,0.00
-E02006525,"Leamington Central & North",0,385.0,1566.35,82.593,11,0.00,0.00,0.00
-E02006526,"Warwick North",0,4890.0,687.66,136.360,2,0.00,514.99,3302.43
-E02006527,"Leamington West & Milverton",0,4899.0,473.89,46.247,0,0.00,153.10,0.00
-E02006528,"Leamington East & Sydenham",0,1172.0,1312.39,130.775,0,0.00,7663.66,0.00
-E02006529,"Warwick South West & Aylesford",0,4890.0,3674.63,64.684,22,0.00,5195.05,0.00
-E02006530,"Warwick South East",0,4645.0,10534.06,70.053,10,301.80,22586.32,0.76
-E02006531,"Leamington Brunswick",0,4645.0,4148.11,25.190,8,0.00,8665.40,0.00
-E02006532,"Bishops Tachbrook",0,5098.0,2057.22,66.400,0,0.00,0.00,11687.68
-E02006533,"Whitnash",0,4722.0,348.09,19.212,1,0.00,0.00,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+E02006519,"Kenilworth West",0,524.0,2352.22,114.729,5,0.00,5954.19,0.00,0
+E02006520,"Kenilworth East",0,296.0,612.92,53.237,0,0.00,0.00,0.00,0
+E02006521,"Kenilworth South",0,296.0,872.00,37.668,0,0.00,217.69,0.00,0
+E02006522,"Kingswood & Leek Wootton",0,10411.0,5265.47,67.910,3,0.00,0.00,0.00,0
+E02006523,"Cubbington",0,2011.0,9586.46,61.724,0,0.00,0.00,63600.17,0
+E02006524,"Lillington",0,254.0,92.30,19.141,0,0.00,0.00,0.00,0
+E02006525,"Leamington Central & North",0,385.0,1566.35,82.593,11,0.00,0.00,0.00,0
+E02006526,"Warwick North",0,4890.0,687.66,136.360,2,0.00,514.99,3302.43,0
+E02006527,"Leamington West & Milverton",0,4899.0,473.89,46.247,0,0.00,153.10,0.00,0
+E02006528,"Leamington East & Sydenham",0,1172.0,1312.39,130.775,0,0.00,7663.66,0.00,0
+E02006529,"Warwick South West & Aylesford",0,4890.0,3674.63,64.684,22,0.00,5195.05,0.00,0
+E02006530,"Warwick South East",0,4645.0,10534.06,70.053,10,301.80,22586.32,0.76,0
+E02006531,"Leamington Brunswick",0,4645.0,4148.11,25.190,8,0.00,8665.40,0.00,0
+E02006532,"Bishops Tachbrook",0,5098.0,2057.22,66.400,0,0.00,0.00,11687.68,0
+E02006533,"Whitnash",0,4722.0,348.09,19.212,1,0.00,0.00,0.00,0

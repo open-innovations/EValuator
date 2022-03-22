@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-E02004727,"Swanwick & Sarisbury Green",0,588.0,2925.17,86.738,0,0.00,0.00,0.00
-E02004728,"Park Gate & Segensworth",0,781.0,4621.56,37.053,1,0.00,0.00,5077.08
-E02004729,"Fareham North West",0,194.0,756.88,31.310,0,0.00,1186.22,0.00
-E02004730,"Fareham Common",0,672.0,709.62,29.236,0,0.00,0.00,0.00
-E02004731,"Locks Heath",0,587.0,592.97,24.630,2,0.00,4748.76,0.00
-E02004732,"Warsash",0,587.0,1012.38,30.832,0,0.00,0.00,0.00
-E02004733,"Titchfield & Titchfield Common",0,781.0,1756.97,23.682,2,0.00,0.00,20458.10
-E02004734,"Fareham Town & Cams Hill",0,424.0,2896.24,39.212,6,0.00,15125.79,0.00
-E02004735,"Fareham West",0,387.0,5.00,24.373,0,0.00,0.00,0.00
-E02004736,"Portchester North West",0,285.0,661.55,18.050,0,0.00,0.00,0.00
-E02004737,"Fareham Fort",0,672.0,1431.61,81.357,0,0.00,1662.86,0.00
-E02004738,"Portchester South East",0,231.0,1383.02,18.390,0,0.00,1349.69,0.00
-E02004739,"Stubbington",0,338.0,3935.57,20.365,0,0.00,12758.08,0.00
-E02004740,"Hill Head",0,338.0,775.76,16.966,0,0.00,0.00,0.00
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+E02004727,"Swanwick & Sarisbury Green",0,588.0,2925.17,86.738,0,0.00,0.00,0.00,0
+E02004728,"Park Gate & Segensworth",0,781.0,4621.56,37.053,1,0.00,0.00,5077.08,0
+E02004729,"Fareham North West",0,194.0,756.88,31.310,0,0.00,1186.22,0.00,0
+E02004730,"Fareham Common",0,672.0,709.62,29.236,0,0.00,0.00,0.00,0
+E02004731,"Locks Heath",0,587.0,592.97,24.630,2,0.00,4748.76,0.00,0
+E02004732,"Warsash",0,587.0,1012.38,30.832,0,0.00,0.00,0.00,0
+E02004733,"Titchfield & Titchfield Common",0,781.0,1756.97,23.682,2,0.00,0.00,20458.10,0
+E02004734,"Fareham Town & Cams Hill",0,424.0,2896.24,39.212,6,0.00,15125.79,0.00,0
+E02004735,"Fareham West",0,387.0,5.00,24.373,0,0.00,0.00,0.00,0
+E02004736,"Portchester North West",0,285.0,661.55,18.050,0,0.00,0.00,0.00,0
+E02004737,"Fareham Fort",0,672.0,1431.61,81.357,0,0.00,1662.86,0.00,0
+E02004738,"Portchester South East",0,231.0,1383.02,18.390,0,0.00,1349.69,0.00,0
+E02004739,"Stubbington",0,338.0,3935.57,20.365,0,0.00,12758.08,0.00,0
+E02004740,"Hill Head",0,338.0,775.76,16.966,0,0.00,0.00,0.00,0

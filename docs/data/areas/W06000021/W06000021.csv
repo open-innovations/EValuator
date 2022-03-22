@@ -1,12 +1,12 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse
-W02000336,"Abergavenny South & Crucorney",0,183.0,2517.86,53.013,0,0.00,1079.94,0.00
-W02000337,"Abergavenny North",0,144.0,568.19,18.511,1,0.00,4282.69,0.00
-W02000338,"Gilwern & Llanfoist",0,352.0,998.37,27.091,0,0.00,6059.77,815.10
-W02000339,"Monmouth & Wyesham",0,203.0,2185.84,64.273,6,0.00,5856.94,0.00
-W02000340,"Rhaglan & Llantilio Crossenny",0,352.0,1578.45,45.709,0,0.00,0.00,0.00
-W02000341,"Usk",0,609.0,1855.74,35.922,2,0.00,0.00,0.00
-W02000342,"Chepstow North & Trellech",0,417.0,2744.02,51.436,1,0.00,0.00,0.00
-W02000343,"Chepstow South",0,209.0,2254.21,59.821,4,0.00,7698.43,0.00
-W02000344,"Caldicot North & Caer-went",0,413.0,1769.36,36.063,0,0.00,0.00,0.00
-W02000345,"Caldicot South",0,125.0,867.22,35.444,3,0.00,3344.04,0.00
-W02000346,"Magor & Rogiet",0,125.0,1238.13,25.556,2,0.00,0.00,12224.19
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
+W02000336,"Abergavenny South & Crucorney",0,183.0,2517.86,53.013,0,0.00,1079.94,0.00,0
+W02000337,"Abergavenny North",0,144.0,568.19,18.511,1,0.00,4282.69,0.00,0
+W02000338,"Gilwern & Llanfoist",0,352.0,998.37,27.091,0,0.00,6059.77,815.10,0
+W02000339,"Monmouth & Wyesham",0,203.0,2185.84,64.273,6,0.00,5856.94,0.00,0
+W02000340,"Rhaglan & Llantilio Crossenny",0,352.0,1578.45,45.709,0,0.00,0.00,0.00,0
+W02000341,"Usk",0,609.0,1855.74,35.922,2,0.00,0.00,0.00,0
+W02000342,"Chepstow North & Trellech",0,417.0,2744.02,51.436,1,0.00,0.00,0.00,0
+W02000343,"Chepstow South",0,209.0,2254.21,59.821,4,0.00,7698.43,0.00,0
+W02000344,"Caldicot North & Caer-went",0,413.0,1769.36,36.063,0,0.00,0.00,0.00,0
+W02000345,"Caldicot South",0,125.0,867.22,35.444,3,0.00,3344.04,0.00,0
+W02000346,"Magor & Rogiet",0,125.0,1238.13,25.556,2,0.00,0.00,12224.19,0
