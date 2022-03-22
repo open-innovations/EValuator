@@ -187,6 +187,7 @@
 			}
 			data.unshift(def);
 
+			this.presets = data;
 			this.el.presets = document.createElement('div');
 			this.el.presets.id = "presets";
 			this.el.weights.insertBefore(this.el.presets, this.el.weights.firstChild);
@@ -212,7 +213,7 @@
 						for(i = 0; i < s.length; i++) s[i].classList.remove('selected');
 						e.target.classList.add('selected');
 						i = parseInt(e.target.getAttribute('data'));
-						_obj.setWeights(data[i].weights);
+						_obj.setWeights(_obj.presets[i].weights);
 					});
 					this.el.presets.appendChild(btn);
 					btns[i] = btn;
@@ -493,7 +494,7 @@
 			inp.setAttribute('orient','vertical');
 			inp.setAttribute('style','writing-mode: bt-lr;-webkit-appearance: slider-vertical;');
 		}
-		inp.addEventListener('input',function(e){
+		inp.addEventListener('change',function(e){
 			var fn = function(e){ _obj.updateValue(inp.value); };
 			if(typeof opt.onchange==="function") fn = opt.onchange;
 			if(opt.data) e.data = opt.data;
@@ -511,7 +512,7 @@
 		if(opt.id) inv.setAttribute('id',opt.id+'-invert');
 		inv.addEventListener('click',function(e){
 			var event = document.createEvent('HTMLEvents');
-			event.initEvent('input', true, false);
+			event.initEvent('change', true, false);
 			inp.dispatchEvent(event);
 		});
 
@@ -545,7 +546,6 @@
 					els[i].style.display = 'none';
 				}
 			}
-				console.log(e.target.parentNode.querySelector('.more-info'));
 		});
 		lbl.appendChild(info);
 		info.appendChild(desc);
@@ -560,11 +560,11 @@
 			// Trigger the change event when we first add it
 			var event = document.createEvent('HTMLEvents');
 			event.initEvent('change', true, false);
-			el.dispatchEvent(event);
+			inp.dispatchEvent(event);
 			return this;
 		};
 		this.setValue = function(v){
-			inp.setAttribute('value',v);
+			inp.value = v;
 			this.updateValue(v);
 		};
 		this.updateValue = function(txt){
