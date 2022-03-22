@@ -66,5 +66,12 @@
 		"src": "layers/warehouse.csv",
 		"weight": 0.5,
 		"attrib": ["<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"]
+	},{
+		"id": "brownfield",
+		"title": "Brownfield sites",
+		"desc": "<a href=\"https://www.digital-land.info/dataset/brownfield-land\">Brownfield land</a> is currently, or was previously, land built on and therefore is prioritised for development.",
+		"src": "https://raw.githubusercontent.com/open-innovations/brownfield-land/main/data/brownfield-areas.csv",
+		"weight": 0.5,
+		"attrib": ["<a href=\"https://github.com/digital-land/brownfield-land-collection\">&copy; Crown copyright and Local Authorities (OGL3)</a>"]
 	}]
 }]
