@@ -109,6 +109,7 @@ input#area { width: 300px; }
 .leaflet-popup-content { margin: 2em; }
 .leaflet-popup-content *:last-child { margin-bottom: 0; }
 .leaflet-popup-content-wrapper { border-radius: 0; }
+.leaflet-container .leaflet-control-attribution { text-align:right; }
 
 #map {
 	width: 100%;
@@ -141,6 +142,8 @@ table th div { writing-mode: vertical-lr; left: 50%; position: relative; transfo
 
 section { padding: 1em 0; }
 
+#weights #presets { text-align: center; }
+#weights .preset-label { display: inline-block; line-height: 2.25em; font-weight: bold; font-family: Poppins; margin-right: 0.5em; }
 #weights .category { display: grid; grid-template-columns: minmax(auto, 240px) 1fr auto auto; vertical-align: middle; grid-gap: 0.5em; }
 #weights input { margin: auto; padding: 0; width: 100%; }
 #weights label { text-align: left; padding-right: 0.5em; }
@@ -176,7 +179,7 @@ section { padding: 1em 0; }
 .grid.tabs li a[aria-selected=true] { background-color: #efefef; color: black !important; box-shadow: unset; }
 .grid.tabs li a svg { width: 1em; height: 1em; display: inline-block; float: right; }
 
-.panes section { background: #efefef; padding: 1em; min-height: 240px; }
+.panes section { background: #efefef; padding: 2em; min-height: 240px; }
 
 html, footer { background: #000; color: white; }
 footer ul { list-style: disc; }
@@ -309,4 +312,11 @@ footer a, footer a:visited { color: inherit; }
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
+}
+
+
+@media only screen and (max-width: 700px) {
+	#weights .category { grid-template-columns: 1fr auto auto; }
+	#weights label { grid-column: 1 / span 3; padding-right: 0; }
+	#weights label.invert { grid-column: 3 / span 1; }
 }

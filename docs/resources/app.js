@@ -202,8 +202,9 @@
 				btns = [];
 				_obj = this;
 				if(data.length){
-					var h = document.createElement('h2');
-					h.innerHTML = "Presets";
+					var h = document.createElement('div');
+					h.classList.add('preset-label');
+					h.innerHTML = "Presets:";
 					this.el.presets.appendChild(h);
 				}
 				for(i = 0; i < data.length; i++){
@@ -345,7 +346,7 @@
 				}
 			}
 		}
-		for(c in credits) this.attribution += (this.attribution ? ', ':'')+c;
+		for(c in credits) this.attribution += (this.attribution ? ' / ':'')+c;
 
 
 		weight = 0;
