@@ -1,12 +1,12 @@
 MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02004544,"Old Harlow & Newhall",0,405.0,1424.92,41.743,0,0.00,0.00,0.00,0
-E02004545,"Mark Hall & Templefields",0,127.0,4606.83,4.774,3,0.00,7836.65,58291.10,0
+E02004544,"Old Harlow & Newhall",0,405.0,1424.92,41.743,0,0.00,0.00,0.00,1.25
+E02004545,"Mark Hall & Templefields",0,127.0,4606.83,4.774,3,0.00,7836.65,58291.10,0.73
 E02004546,"Nettleswell",0,127.0,3612.16,3.386,1,0.00,0.00,0.00,0
-E02004547,"Little Parndon & Hare Street",0,215.0,5226.94,9.133,0,30930.46,7623.64,15941.61,0
+E02004547,"Little Parndon & Hare Street",0,215.0,5226.94,9.133,0,30930.46,7623.64,15941.61,2.69
 E02004548,"Church Langley",0,183.0,1156.92,13.358,0,0.00,6742.30,0.00,0
 E02004549,"Bush Fair & Brays Grove",0,70.0,278.25,6.098,0,0.00,0.00,0.00,0
-E02004550,"Passmores & The High",0,468.0,10004192.10,30.427,0,0.00,0.00,0.00,0
+E02004550,"Passmores & The High",0,468.0,10004192.10,30.427,0,0.00,0.00,0.00,1.08
 E02004551,"Potter Street",0,253.0,413.30,12.768,0,0.00,0.00,0.00,0
-E02004552,"Great Parndon & Katherines",0,88.0,51.31,5.623,0,0.00,0.00,0.00,0
-E02004553,"Staple Tye & Latton Bush",0,70.0,640.04,5.803,0,0.00,0.00,0.00,0
+E02004552,"Great Parndon & Katherines",0,88.0,51.31,5.623,0,0.00,0.00,0.00,0.42
+E02004553,"Staple Tye & Latton Bush",0,70.0,640.04,5.803,0,0.00,0.00,0.00,0.29
 E02004554,"Kingsmoor",0,158.0,667.33,4.874,0,0.00,0.00,0.00,0

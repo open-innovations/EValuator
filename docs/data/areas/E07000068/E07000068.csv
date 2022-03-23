@@ -1,10 +1,10 @@
 MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02004464,"Kelvedon Hatch & Doddinghurst",0,651.0,2940.63,46.904,0,0.00,0.00,0.00,0
-E02004465,"Ingatestone & Mountnessing",0,866.0,1339.84,40.103,1,0.00,996.38,0.00,0
+E02004464,"Kelvedon Hatch & Doddinghurst",0,651.0,2940.63,46.904,0,0.00,0.00,0.00,18.44
+E02004465,"Ingatestone & Mountnessing",0,866.0,1339.84,40.103,1,0.00,996.38,0.00,0.09
 E02004466,"Hutton",0,241.0,42.17,34.528,0,0.00,0.00,0.00,0
-E02004467,"Brentwood North",0,370.0,243.12,20.930,0,0.00,0.00,0.00,0
-E02004468,"Shenfield & Hutton Mount",0,450.0,1660.28,51.158,1,0.00,209.99,0.00,0
-E02004469,"Brook Street & Pilgrim's Hatch",0,370.0,2418.62,20.407,3,0.00,0.00,0.00,0
-E02004470,"Brentwood Central",0,611.0,3345.39,87.218,1,0.00,8913.70,0.00,0
-E02004471,"Brentwood South & Warley",0,819.0,3070.07,34.995,5,0.00,0.00,226.19,0
+E02004467,"Brentwood North",0,370.0,243.12,20.930,0,0.00,0.00,0.00,1.16
+E02004468,"Shenfield & Hutton Mount",0,450.0,1660.28,51.158,1,0.00,209.99,0.00,4.1
+E02004469,"Brook Street & Pilgrim's Hatch",0,370.0,2418.62,20.407,3,0.00,0.00,0.00,26.64
+E02004470,"Brentwood Central",0,611.0,3345.39,87.218,1,0.00,8913.70,0.00,29.38
+E02004471,"Brentwood South & Warley",0,819.0,3070.07,34.995,5,0.00,0.00,226.19,14.6
 E02004472,"Herongate",0,531.0,520.86,28.871,0,0.00,0.00,0.00,0
