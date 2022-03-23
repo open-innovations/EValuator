@@ -3,6 +3,7 @@
 	"weights": {
 		"index-of-transport-accessibility": { "value": 0.5 },
 		"distribution-centres": { "value": 0.5 },
+		"evhs": { "invert": true },
 		"chargepoints": { "invert": true },
 		"warehouse": { "value": 0.5 }
 	}
