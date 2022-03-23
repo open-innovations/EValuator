@@ -179,12 +179,15 @@
 
 			// Add default values as first element of array
 			var def = {"title":"Default","weights":{}};
+			var zero = {"title":"Zero","weights":{}};
 			var c,l;
 			for(c = 0; c < this.categories.length; c++){
 				for(l = 0; l < this.categories[c].layers.length; l++){
 					def.weights[this.categories[c].layers[l].id] = {"value":this.categories[c].layers[l].weight,"invert":this.categories[c].layers[l].invert||false};
+					zero.weights[this.categories[c].layers[l].id] = {"value":0,"invert":this.categories[c].layers[l].invert||false};
 				}
 			}
+			data.unshift(zero);
 			data.unshift(def);
 
 			this.presets = data;
@@ -380,7 +383,7 @@
 		var list = '<tr><th></th><th>MSOA</th><th>Name</th>';
 		for(c = 0; c < this.categories.length; c++){
 			for(l = 0; l < this.categories[c].layers.length; l++){
-				list += '<th><div><span>'+this.categories[c].layers[l].title+'</span></div></th>';
+				list += '<th><div title="'+this.categories[c].layers[l].title+'">'+this.categories[c].layers[l].title+'</div></th>';
 			}
 		}
 		list += '<th>Score</th>';
