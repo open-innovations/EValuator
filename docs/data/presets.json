@@ -13,10 +13,8 @@
 	"title": "Last Mile",
 	"weights": {
 		"index-of-transport-accessibility": { "value": 0.5 },
-		"distribution-centres": { "value": 0.5 },
-		"evhs": { "invert": true },
-		"chargepoints": { "invert": true },
-		"warehouse": { "value": 0.5 },
+		"estimated-parking-capacity": { "value": 0.3 },
+		"supermarket": { "value": 0.3 },
 		"brownfield": { "value": 0.5 }	
 	}
 }]
