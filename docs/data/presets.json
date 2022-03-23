@@ -5,6 +5,7 @@
 		"distribution-centres": { "value": 0.5 },
 		"evhs": { "invert": true },
 		"chargepoints": { "invert": true },
-		"warehouse": { "value": 0.5 }
+		"warehouse": { "value": 0.5 },
+		"brownfield": { "value": 0.5 }	
 	}
 }]
