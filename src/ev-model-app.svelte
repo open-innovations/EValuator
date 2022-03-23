@@ -4,9 +4,6 @@
   import GeoJson from './components/leaflet/GeoJson.svelte'; 
 
   import ModelPane from './components/ModelPane.svelte';
-
-  import Key from './components/Key.svelte';
-  import Sources from './components/Sources.svelte';
   
   import { location } from './stores/location';
 
@@ -50,6 +47,3 @@
   </Leaflet>
 </section>
 <ModelPane inputs={ ModelInputs } { models } bind:params={ modelParams }></ModelPane>
-
-<Key></Key>
-<Sources></Sources>
