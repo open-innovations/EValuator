@@ -1,4 +1,4 @@
-.leaflet-control-container{position:static}div.svelte-1dubgia{height:100%;width:100%}div.svelte-145oxpm{display:flex}label.svelte-145oxpm{flex-grow:1}input[type=number].svelte-145oxpm{text-align:right;width:6em}/* required styles */
+h2.svelte-v1z5rh{background-color:#efefef;padding:0.5em;text-align:center;margin:0}.main-content.svelte-v1z5rh{background-color:#efefef;padding:0.5em 1em}.leaflet-control-container{position:static}div.svelte-1dubgia{height:100%;width:100%}div.svelte-145oxpm{display:flex}label.svelte-145oxpm{flex-grow:1}input[type=number].svelte-145oxpm{text-align:right;width:6em}/* required styles */
 
 .leaflet-pane,
 .leaflet-tile,
@@ -638,3 +638,4 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	margin-left: -12px;
 	border-right-color: #fff;
 	}
+.tabs.svelte-x15ly0{display:flex;gap:4px}div.svelte-12js5h7.svelte-12js5h7{display:none}.svelte-12js5h7:checked+div.svelte-12js5h7{display:block}input.svelte-12js5h7.svelte-12js5h7{display:none}.background [slot='tab-top']{background:#d4dadc}

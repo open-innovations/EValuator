@@ -4,8 +4,8 @@
     fast: 0,
     rapid: 0,
   };
-
 </script>
+
 <div>
   <label for='slow'>Slow chargers</label>
   <input id='slow' type='number' bind:value={ params.slow } min=0 />

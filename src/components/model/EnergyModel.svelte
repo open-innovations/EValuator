@@ -12,9 +12,6 @@
   $: demand = calcDemand(params);
 </script>
 
-<section>
-  <h2>Energy model</h2>
-  <p>Demand estimated at { demand }kW</p>
-  <p>Model assumes { SLOW}kW per slow charger, { FAST }kW per fast charger and { RAPID }kW per rapid charger.</p>
-</section>
+<p>Demand estimated at { demand }kW</p>
+<p>Model assumes { SLOW}kW per slow charger, { FAST }kW per fast charger and { RAPID }kW per rapid charger.</p>
 
