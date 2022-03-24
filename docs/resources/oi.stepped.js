@@ -4,12 +4,13 @@
 
 	function Stepped(opt){
 		if(!opt) opt = {};
+		if(!opt.id) opt.id = "step";
 		this.steps = [];
-		var popup = document.getElementById('step');
+		var popup = document.getElementById(opt.id);
 		var _obj = this;
 		if(!popup){
 			popup = document.createElement('div');
-			popup.setAttribute('id','step');
+			popup.setAttribute('id',opt.id);
 			popup.style.position = 'absolute';
 			popup.style.background = opt.background||"black";
 			popup.style.border = opt.border||"0px";
@@ -75,7 +76,7 @@
 					popup.style.opacity = "1";
 					popup.style.display = "";
 					popup.setAttribute('data',n);
-					styles.innerHTML = '#step *:last-child { margin-bottom: 0; max-width: 300px; } #step::before { content:""; position: absolute; width: 0em; height: 0em; '+arrow+' }';
+					styles.innerHTML = '#'+opt.id+' *:last-child { margin-bottom: 0; max-width: 300px; } #'+opt.id+'::before { content:""; position: absolute; width: 0em; height: 0em; '+arrow+' }';
 					return this;
 				}
 				return this;
@@ -103,8 +104,8 @@
 		return this;
 	}
 	
-	root.OI.Stepped = function(){
-		return new Stepped();
+	root.OI.Stepped = function(opt){
+		return new Stepped(opt);
 	};
 
 })(window || this);

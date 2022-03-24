@@ -67,7 +67,7 @@
 		this.map = L.map(this.el.map,{'layers':[baseMaps["Greyscale"]],'scrollWheelZoom':true,'editable': true,'zoomControl': true}).fitBounds(bbox);
 
 		// Create the tutorial steps
-		this.steps = OI.Stepped();
+		this.steps = OI.Stepped({'id':'tutorial'});
 
 		// Create a map label pane so labels can sit above polygons
 		this.map.createPane('labels');
@@ -218,10 +218,21 @@
 					h.innerHTML = "Presets:";
 					this.el.presets.appendChild(h);
 				}
+				var steps = OI.Stepped({'id':'buttons'});
 				for(i = 0; i < data.length; i++){
 					btn = document.createElement('button');
 					btn.innerHTML = data[i].title||"?";
+					btn.setAttribute('title',data[i].desc);
 					btn.setAttribute('data',i);
+					if(data[i].desc){
+						btn.addEventListener('mouseover',function(e){
+							i = parseInt(e.target.getAttribute('data'));
+							if(i >= 0 && i < steps.steps.length) steps.steps[i].open();
+						});
+						btn.addEventListener('mouseout',function(e){
+							steps.close();
+						});
+					}
 					btn.addEventListener('click',function(e){
 						var i,s;
 						s = document.querySelectorAll('button.selected');
@@ -232,6 +243,7 @@
 					});
 					this.el.presets.appendChild(btn);
 					btns[i] = btn;
+					steps.add(btn,data[i].desc,'bottom');
 				}
 			}
 		}).catch(error => {

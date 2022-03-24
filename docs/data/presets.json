@@ -1,5 +1,6 @@
 [{
 	"title": "Distribution",
+	"desc": "A description",
 	"weights": {
 		"index-of-transport-accessibility": { "value": 0.5 },
 		"distribution-centres": { "value": 0.5 },
@@ -11,6 +12,7 @@
 },
 {
 	"title": "Last Mile",
+	"desc": "A description of last mile",
 	"weights": {
 		"index-of-transport-accessibility": { "value": 0.5 },
 		"estimated-parking-capacity": { "value": 0.3 },
