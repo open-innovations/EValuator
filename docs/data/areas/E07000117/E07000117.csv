@@ -1,13 +1,13 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02005176,"Harle Syke & Lanehead",399,108.0,324.93,10.615,0,0.00,237.12,0.00,0
-E02005177,"Queensgate",445,242.0,890.39,7.194,1,0.00,0.00,0.00,2.39
-E02005178,"Central Burnley & Daneshouse",514,320.0,3503.25,36.138,5,0.00,16948.52,0.00,1.97
-E02005179,"Padiham",637,134.0,349.80,21.705,2,0.00,4767.74,0.00,7.63
-E02005180,"Habergham & Ightenhill",654,134.0,204.77,11.903,0,0.00,0.00,0.00,0.23
-E02005181,"Whittlefield & Rose Grove",728,212.0,167.20,13.956,3,0.00,0.00,0.00,1.74
-E02005182,"Bank Hall & Fulledge",501,186.0,1875.60,6.997,2,0.00,0.00,0.00,0
-E02005183,"Brunshaw & Brownside",424,186.0,960.19,6.354,0,0.00,0.00,0.00,0.25
-E02005184,"Cliviger",276,255.0,232.12,10.583,0,0.00,0.00,0.00,0
-E02005185,"Barclay Hills & Trinity",638,212.0,2186.56,11.017,2,0.00,2664.30,0.00,5.46
-E02005186,"Hapton & Lowerhouse",755,212.0,1220.12,9.937,0,0.00,0.00,0.00,6.61
-E02006881,"Rose Hill & Burnley Wood",564,78.0,1363.97,7.603,2,0.00,8940.36,0.00,3.2
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02005176,"Harle Syke & Lanehead",399,108.0,324.93,10.615,0,0,0.00,237.12,0.00,0
+E02005177,"Queensgate",445,242.0,890.39,7.194,1,0,0.00,0.00,0.00,2.39
+E02005178,"Central Burnley & Daneshouse",514,320.0,3503.25,36.138,5,0,0.00,16948.52,0.00,1.97
+E02005179,"Padiham",637,134.0,349.80,21.705,2,0,0.00,4767.74,0.00,7.63
+E02005180,"Habergham & Ightenhill",654,134.0,204.77,11.903,0,0,0.00,0.00,0.00,0.23
+E02005181,"Whittlefield & Rose Grove",728,212.0,167.20,13.956,3,0,0.00,0.00,0.00,1.74
+E02005182,"Bank Hall & Fulledge",501,186.0,1875.60,6.997,2,0,0.00,0.00,0.00,0
+E02005183,"Brunshaw & Brownside",424,186.0,960.19,6.354,0,0,0.00,0.00,0.00,0.25
+E02005184,"Cliviger",276,255.0,232.12,10.583,0,0,0.00,0.00,0.00,0
+E02005185,"Barclay Hills & Trinity",638,212.0,2186.56,11.017,2,0,0.00,2664.30,0.00,5.46
+E02005186,"Hapton & Lowerhouse",755,212.0,1220.12,9.937,0,0,0.00,0.00,0.00,6.61
+E02006881,"Rose Hill & Burnley Wood",564,78.0,1363.97,7.603,2,0,0.00,8940.36,0.00,3.2

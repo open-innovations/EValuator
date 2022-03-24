@@ -1,16 +1,16 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-W02000027,"Llandudno Town & Gogarth",0,62.0,5166.05,13.722,0,0.00,11271.57,0.00,0
-W02000028,"Llandudno South",0,194.0,1050.78,14.812,0,0.00,0.00,0.00,0
-W02000029,"Penrhyn Bay",0,228.0,384.21,9.282,0,0.00,552.24,0.00,0
-W02000030,"Rhos-on-Sea",0,74.0,1094.71,11.894,0,0.00,1039.17,0.00,0
-W02000031,"Kinmel Bay & Towyn",0,216.0,2389.67,10.831,0,0.00,7310.53,0.00,0
-W02000032,"Llandudno Junction North & Deganwy",0,179.0,1073.13,15.714,3,0.00,6149.19,0.00,0
-W02000033,"Colwyn Bay North",0,139.0,1394.26,26.990,3,0.00,3973.53,0.00,0
-W02000034,"Upper Colwyn Bay",0,139.0,362.41,13.756,0,0.00,0.00,0.00,0
-W02000035,"Old Colwyn & Llanddulas",0,150.0,824.82,17.392,0,0.00,1973.05,0.00,0
-W02000036,"Abergele",0,85.0,2146.30,20.923,3,0.00,4357.89,0.00,0
-W02000037,"Llandudno Junction South & Llasanffraid Glan Conwy",0,231.0,2144.94,16.915,0,0.00,0.00,0.00,0
-W02000038,"Conwy & Afon Roe",0,161.0,1845.54,12.064,0,0.00,0.00,0.00,0
-W02000039,"Llanfairfechan & Penmaenmawr",0,56.0,1080.53,0.040,0,0.00,210.11,0.00,0
-W02000040,"Betws-yn-Rhos",0,375.0,1862.11,19.670,0,0.00,0.00,122.42,0
-W02000041,"Llanrwst & Betws-y-coed",0,208.0,5183.60,3.586,2,0.00,1520.54,0.00,0
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+W02000027,"Llandudno Town & Gogarth",0,62.0,5166.05,13.722,0,0,0.00,11271.57,0.00,0
+W02000028,"Llandudno South",0,194.0,1050.78,14.812,0,0,0.00,0.00,0.00,0
+W02000029,"Penrhyn Bay",0,228.0,384.21,9.282,0,0,0.00,552.24,0.00,0
+W02000030,"Rhos-on-Sea",0,74.0,1094.71,11.894,0,0,0.00,1039.17,0.00,0
+W02000031,"Kinmel Bay & Towyn",0,216.0,2389.67,10.831,0,0,0.00,7310.53,0.00,0
+W02000032,"Llandudno Junction North & Deganwy",0,179.0,1073.13,15.714,3,0,0.00,6149.19,0.00,0
+W02000033,"Colwyn Bay North",0,139.0,1394.26,26.990,3,0,0.00,3973.53,0.00,0
+W02000034,"Upper Colwyn Bay",0,139.0,362.41,13.756,0,0,0.00,0.00,0.00,0
+W02000035,"Old Colwyn & Llanddulas",0,150.0,824.82,17.392,0,0,0.00,1973.05,0.00,0
+W02000036,"Abergele",0,85.0,2146.30,20.923,3,0,0.00,4357.89,0.00,0
+W02000037,"Llandudno Junction South & Llasanffraid Glan Conwy",0,231.0,2144.94,16.915,0,0,0.00,0.00,0.00,0
+W02000038,"Conwy & Afon Roe",0,161.0,1845.54,12.064,0,0,0.00,0.00,0.00,0
+W02000039,"Llanfairfechan & Penmaenmawr",0,56.0,1080.53,0.040,0,0,0.00,210.11,0.00,0
+W02000040,"Betws-yn-Rhos",0,375.0,1862.11,19.670,0,0,0.00,0.00,122.42,0
+W02000041,"Llanrwst & Betws-y-coed",0,208.0,5183.60,3.586,2,0,0.00,1520.54,0.00,0

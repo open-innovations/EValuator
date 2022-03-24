@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02006393,"Egham Town",0,186.0,3820.49,21.084,2,0.00,5222.18,13907.52,2.38
-E02006394,"Englefield Green & University",0,4369.0,4100.40,28.795,7,0.00,0.00,1244.71,11.12
-E02006395,"Egham Hythe & Pooley Green",0,492.0,4897.21,71.683,11,0.00,6186.31,2385.23,2.54
-E02006396,"Thorpe",0,532.0,7279.88,18.848,3,0.00,0.00,3310.19,13.51
-E02006397,"Virginia Water",0,890.0,2115.63,63.528,1,0.00,0.00,2854.10,31.56
-E02006398,"Chertsey",0,162.0,2756.04,35.274,0,0.00,4215.07,0.00,5.16
-E02006399,"Addlestone North",0,720.0,4322.19,36.486,3,0.00,7810.47,942.64,7.92
-E02006400,"Ottershaw & Lyne",0,496.0,6616.95,17.086,0,0.00,0.00,0.00,17.63
-E02006401,"Addlestone South",0,191.0,1013.94,47.657,0,0.00,0.00,0.00,6.086
-E02006402,"New Haw & Woodham",0,315.0,1952.68,24.413,0,0.00,281.73,333.15,2.85
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02006393,"Egham Town",0,186.0,3820.49,21.084,2,0,0.00,5222.18,13907.52,2.38
+E02006394,"Englefield Green & University",0,4369.0,4100.40,28.795,7,0,0.00,0.00,1244.71,11.12
+E02006395,"Egham Hythe & Pooley Green",0,492.0,4897.21,71.683,11,0,0.00,6186.31,2385.23,2.54
+E02006396,"Thorpe",0,532.0,7279.88,18.848,3,0,0.00,0.00,3310.19,13.51
+E02006397,"Virginia Water",0,890.0,2115.63,63.528,1,0,0.00,0.00,2854.10,31.56
+E02006398,"Chertsey",0,162.0,2756.04,35.274,0,0,0.00,4215.07,0.00,5.16
+E02006399,"Addlestone North",0,720.0,4322.19,36.486,3,0,0.00,7810.47,942.64,7.92
+E02006400,"Ottershaw & Lyne",0,496.0,6616.95,17.086,0,0,0.00,0.00,0.00,17.63
+E02006401,"Addlestone South",0,191.0,1013.94,47.657,0,0,0.00,0.00,0.00,6.086
+E02006402,"New Haw & Woodham",0,315.0,1952.68,24.413,0,0,0.00,281.73,333.15,2.85

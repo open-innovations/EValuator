@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-W02000323,"Blaenavon",0,118.0,561.10,5.398,2,0.00,0.00,0.00,0
-W02000324,"Abersychan",0,118.0,85.02,6.957,2,0.00,0.00,566.46,0
-W02000325,"Trefethin & Pen-y-garn",0,118.0,26.83,4.562,0,0.00,0.00,0.00,0
-W02000326,"Pontypool",0,202.0,491.37,11.215,3,0.00,4592.06,0.00,0
-W02000327,"New Inn",0,255.0,380.72,3.500,0,0.00,0.00,1522.18,0
-W02000328,"Griffithstown & Sebastopol",0,255.0,89.88,6.002,1,0.00,0.00,0.00,0
-W02000329,"Pontnewydd & Upper Cwmbran",0,255.0,270.83,20.430,0,0.00,0.00,0.00,0
-W02000330,"Croesyceiliog",0,255.0,36.59,18.913,7,0.00,0.00,0.00,0
-W02000331,"West Pontnewydd & Thornhill",0,137.0,26.08,9.047,0,0.00,0.00,0.00,0
-W02000332,"Cwmbran",0,137.0,3081.97,28.690,5,0.00,1596.78,1225.75,0
-W02000333,"Fairwater & Greenmeadow",0,255.0,111.85,13.966,1,0.00,0.00,0.00,0
-W02000334,"Hollybush & Henllys",0,137.0,58.19,8.179,0,0.00,0.00,0.00,0
-W02000335,"Llantarnam & Oakfield",0,386.0,2393.08,23.024,0,0.00,0.00,0.00,0
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+W02000323,"Blaenavon",0,118.0,561.10,5.398,2,0,0.00,0.00,0.00,0
+W02000324,"Abersychan",0,118.0,85.02,6.957,2,0,0.00,0.00,566.46,0
+W02000325,"Trefethin & Pen-y-garn",0,118.0,26.83,4.562,0,0,0.00,0.00,0.00,0
+W02000326,"Pontypool",0,202.0,491.37,11.215,3,0,0.00,4592.06,0.00,0
+W02000327,"New Inn",0,255.0,380.72,3.500,0,0,0.00,0.00,1522.18,0
+W02000328,"Griffithstown & Sebastopol",0,255.0,89.88,6.002,1,0,0.00,0.00,0.00,0
+W02000329,"Pontnewydd & Upper Cwmbran",0,255.0,270.83,20.430,0,0,0.00,0.00,0.00,0
+W02000330,"Croesyceiliog",0,255.0,36.59,18.913,7,0,0.00,0.00,0.00,0
+W02000331,"West Pontnewydd & Thornhill",0,137.0,26.08,9.047,0,0,0.00,0.00,0.00,0
+W02000332,"Cwmbran",0,137.0,3081.97,28.690,5,0,0.00,1596.78,1225.75,0
+W02000333,"Fairwater & Greenmeadow",0,255.0,111.85,13.966,1,0,0.00,0.00,0.00,0
+W02000334,"Hollybush & Henllys",0,137.0,58.19,8.179,0,0,0.00,0.00,0.00,0
+W02000335,"Llantarnam & Oakfield",0,386.0,2393.08,23.024,0,0,0.00,0.00,0.00,0

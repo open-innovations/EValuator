@@ -1,14 +1,14 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02004896,"Potters Bar Parkfield",0,997.0,4112.42,69.932,2,0.00,2760.43,1305.78,0
-E02004897,"Potters Bar Furzefield",0,685.0,1150.53,21.488,0,0.00,0.00,1912.23,0
-E02004898,"Potters Bar Oakmere",0,309.0,759.65,25.787,1,0.00,0.00,347.99,0
-E02004899,"Shenley & South Mimms",0,1994.0,6166.14,47.335,3,0.00,399.43,796.82,0
-E02004900,"Radlett",0,989.0,781.15,149.211,0,0.00,450.62,0.00,0
-E02004901,"Borehamwood Cowley Hill",0,487.0,886.40,31.446,3,0.00,0.00,0.00,0
-E02004902,"Borehamwood Brookmeadow",0,761.0,933.54,74.364,0,0.00,3321.44,0.00,0
-E02004903,"Bushey North",0,488.0,2567.81,39.632,1,0.00,0.00,9433.92,0
-E02004904,"Borehamwood Kenilworth",0,487.0,611.20,22.741,1,0.00,0.00,41880.56,0
-E02004905,"Elstree & Aldenham",0,998.0,2995.21,40.214,0,0.00,0.00,0.00,0
-E02004906,"Borehamwood Hillside",0,487.0,2042.39,31.990,1,0.00,19645.22,0.00,0
-E02004907,"Bushey Central",0,414.0,537.08,88.623,0,0.00,0.00,0.00,0
-E02004908,"Bushey Heath",0,1413.0,363.85,60.042,1,0.00,0.00,0.00,0
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02004896,"Potters Bar Parkfield",0,997.0,4112.42,69.932,2,0,0.00,2760.43,1305.78,0
+E02004897,"Potters Bar Furzefield",0,685.0,1150.53,21.488,0,0,0.00,0.00,1912.23,0
+E02004898,"Potters Bar Oakmere",0,309.0,759.65,25.787,1,0,0.00,0.00,347.99,0
+E02004899,"Shenley & South Mimms",0,1994.0,6166.14,47.335,3,0,0.00,399.43,796.82,0
+E02004900,"Radlett",0,989.0,781.15,149.211,0,0,0.00,450.62,0.00,0
+E02004901,"Borehamwood Cowley Hill",0,487.0,886.40,31.446,3,0,0.00,0.00,0.00,0
+E02004902,"Borehamwood Brookmeadow",0,761.0,933.54,74.364,0,0,0.00,3321.44,0.00,0
+E02004903,"Bushey North",0,488.0,2567.81,39.632,1,0,0.00,0.00,9433.92,0
+E02004904,"Borehamwood Kenilworth",0,487.0,611.20,22.741,1,0,0.00,0.00,41880.56,0
+E02004905,"Elstree & Aldenham",0,998.0,2995.21,40.214,0,0,0.00,0.00,0.00,0
+E02004906,"Borehamwood Hillside",0,487.0,2042.39,31.990,1,0,0.00,19645.22,0.00,0
+E02004907,"Bushey Central",0,414.0,537.08,88.623,0,0,0.00,0.00,0.00,0
+E02004908,"Bushey Heath",0,1413.0,363.85,60.042,1,0,0.00,0.00,0.00,0

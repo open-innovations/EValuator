@@ -1,15 +1,15 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02004829,"South Wonston",0,303.0,1560.06,45.405,0,0.00,0.00,3747.82,0.9
-E02004830,"Springvale & Itchen Abbas",0,776.0,2956.79,29.829,4,0.00,0.00,0.00,3.09
-E02004831,"Winchester North & Sparsholt",0,918.0,1753.13,53.912,5,0.00,0.00,2904.16,0
-E02004832,"New Alresford",0,1127.0,1164.99,78.488,1,0.00,316.79,292.32,4.53
-E02004833,"Winchester West",0,615.0,363.08,47.387,2,0.00,4375.75,0.00,4.31
-E02004834,"Winchester East",0,1001.0,10836.09,88.970,14,0.00,10005.74,1872.49,1.41
-E02004835,"Winchester Central & South",0,615.0,3976.83,49.424,24,0.00,439.99,0.00,2.25
-E02004836,"Winchester Stanmore",0,615.0,303.94,23.376,0,0.00,0.00,0.00,0.12
-E02004837,"Oliver's Battery and Hursley",0,1500.0,4758.15,43.991,3,0.00,8288.68,0.00,0
-E02004838,"Colden Common & Twyford",0,919.0,3300.44,68.321,1,0.00,474.85,0.00,2.83
-E02004839,"Swanmore",0,1116.0,1874.14,61.244,2,0.00,0.00,0.00,0
-E02004840,"Bishop's Waltham & Waltham Chase",0,337.0,909.53,81.405,6,0.00,1054.23,987.07,1.03
-E02004841,"Whiteley",0,731.0,7376.07,62.271,9,0.00,6029.72,0.00,0.04
-E02004842,"Denmead & Southwick",0,923.0,3893.66,39.390,1,0.00,532.96,0.00,2.86
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02004829,"South Wonston",0,303.0,1560.06,45.405,0,0,0.00,0.00,3747.82,0.9
+E02004830,"Springvale & Itchen Abbas",0,776.0,2956.79,29.829,4,0,0.00,0.00,0.00,3.09
+E02004831,"Winchester North & Sparsholt",0,918.0,1753.13,53.912,5,0,0.00,0.00,2904.16,0
+E02004832,"New Alresford",0,1127.0,1164.99,78.488,1,0,0.00,316.79,292.32,4.53
+E02004833,"Winchester West",0,615.0,363.08,47.387,2,0,0.00,4375.75,0.00,4.31
+E02004834,"Winchester East",0,1001.0,10836.09,88.970,14,0,0.00,10005.74,1872.49,1.41
+E02004835,"Winchester Central & South",0,615.0,3976.83,49.424,24,0,0.00,439.99,0.00,2.25
+E02004836,"Winchester Stanmore",0,615.0,303.94,23.376,0,0,0.00,0.00,0.00,0.12
+E02004837,"Oliver's Battery and Hursley",0,1500.0,4758.15,43.991,3,0,0.00,8288.68,0.00,0
+E02004838,"Colden Common & Twyford",0,919.0,3300.44,68.321,1,0,0.00,474.85,0.00,2.83
+E02004839,"Swanmore",0,1116.0,1874.14,61.244,2,0,0.00,0.00,0.00,0
+E02004840,"Bishop's Waltham & Waltham Chase",0,337.0,909.53,81.405,6,0,0.00,1054.23,987.07,1.03
+E02004841,"Whiteley",0,731.0,7376.07,62.271,9,0,0.00,6029.72,0.00,0.04
+E02004842,"Denmead & Southwick",0,923.0,3893.66,39.390,1,0,0.00,532.96,0.00,2.86

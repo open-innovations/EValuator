@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02005278,"Crawshawbooth",579,288.0,247.78,25.966,0,0.00,0.00,0.00,3.68
-E02005279,"Haslingden",778,376.0,1814.13,30.652,3,0.00,451.84,0.00,0.69
-E02005280,"Bacup",314,78.0,118.76,34.551,3,0.00,2320.41,0.00,1.7
-E02005281,"Rawtenstall",776,210.0,3126.11,48.369,6,0.00,17978.86,0.00,3.55
-E02005284,"Helmshore",787,1233.0,590.28,14.780,0,0.00,0.00,0.00,0.25
-E02005285,"Townsend Fold & Edenfield",897,586.0,1109.33,30.544,2,0.00,6845.32,0.00,0.66
-E02005286,"Whitworth",490,207.0,687.88,17.843,0,0.00,0.00,0.00,3.09
-E02006884,"Waterfoot & Stacksteads",570,288.0,771.67,43.315,0,0.00,0.00,157.02,6.37
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02005278,"Crawshawbooth",579,288.0,247.78,25.966,0,0,0.00,0.00,0.00,3.68
+E02005279,"Haslingden",778,376.0,1814.13,30.652,3,0,0.00,451.84,0.00,0.69
+E02005280,"Bacup",314,78.0,118.76,34.551,3,0,0.00,2320.41,0.00,1.7
+E02005281,"Rawtenstall",776,210.0,3126.11,48.369,6,0,0.00,17978.86,0.00,3.55
+E02005284,"Helmshore",787,1233.0,590.28,14.780,0,0,0.00,0.00,0.00,0.25
+E02005285,"Townsend Fold & Edenfield",897,586.0,1109.33,30.544,2,0,0.00,6845.32,0.00,0.66
+E02005286,"Whitworth",490,207.0,687.88,17.843,0,0,0.00,0.00,0.00,3.09
+E02006884,"Waterfoot & Stacksteads",570,288.0,771.67,43.315,0,0,0.00,0.00,157.02,6.37

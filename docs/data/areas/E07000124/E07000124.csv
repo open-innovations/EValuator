@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02005270,"Waddington",273,947.0,1745.76,45.370,2,0.00,0.00,0.00,0
-E02005271,"Clitheroe North",339,265.0,1544.91,57.320,14,0.00,4613.88,0.00,0.85
-E02005272,"Clitheroe South",301,265.0,1219.66,30.122,0,0.00,5427.27,0.00,0.13
-E02005273,"Longridge North",297,559.0,1162.52,35.522,0,0.00,0.00,0.00,0
-E02005274,"Read",549,449.0,1345.28,39.076,0,0.00,463.93,0.00,0
-E02005275,"Longridge South",354,294.0,170.76,26.048,0,0.00,0.00,0.00,0
-E02005276,"Whalley & Brockhall",527,315.0,2536.30,41.589,3,0.00,378.93,0.00,0
-E02005277,"Wilpshire & Mellor",523,801.0,3760.84,15.409,1,0.00,0.00,0.00,0
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02005270,"Waddington",273,947.0,1745.76,45.370,2,0,0.00,0.00,0.00,0
+E02005271,"Clitheroe North",339,265.0,1544.91,57.320,14,0,0.00,4613.88,0.00,0.85
+E02005272,"Clitheroe South",301,265.0,1219.66,30.122,0,0,0.00,5427.27,0.00,0.13
+E02005273,"Longridge North",297,559.0,1162.52,35.522,0,0,0.00,0.00,0.00,0
+E02005274,"Read",549,449.0,1345.28,39.076,0,0,0.00,463.93,0.00,0
+E02005275,"Longridge South",354,294.0,170.76,26.048,0,0,0.00,0.00,0.00,0
+E02005276,"Whalley & Brockhall",527,315.0,2536.30,41.589,3,0,0.00,378.93,0.00,0
+E02005277,"Wilpshire & Mellor",523,801.0,3760.84,15.409,1,0,0.00,0.00,0.00,0

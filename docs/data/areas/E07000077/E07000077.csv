@@ -1,10 +1,10 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02004591,"Audley End",0,1064.0,2598.52,38.410,2,0.00,0.00,0.00,0
-E02004592,"Saffron Walden Town",0,373.0,1891.19,83.917,2,0.00,10717.26,0.00,3.536
-E02004593,"Newport",0,801.0,1589.34,65.980,1,0.00,0.00,0.00,0.02
-E02004594,"Thaxted",0,1202.0,511.14,40.300,1,0.00,0.00,0.00,160.183
-E02004595,"Stansted Mountfitchet & Elsenham",0,1324.0,3644.32,60.787,6,0.00,477.85,0.00,1.378
-E02004596,"Takeley",0,705.0,41155.13,52.912,1,0.00,308.70,0.00,0
-E02004597,"Great Dunmow",0,409.0,1290.61,46.459,9,0.00,5470.04,0.00,4.477
-E02004598,"Flitch Green",0,1612.0,616.75,57.446,0,0.00,576.89,0.00,1.428
-E02004599,"Hatfield Heath",0,1655.0,1033.51,51.656,0,0.00,0.00,0.00,1.1
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02004591,"Audley End",0,1064.0,2598.52,38.410,2,0,0.00,0.00,0.00,0
+E02004592,"Saffron Walden Town",0,373.0,1891.19,83.917,2,0,0.00,10717.26,0.00,3.536
+E02004593,"Newport",0,801.0,1589.34,65.980,1,0,0.00,0.00,0.00,0.02
+E02004594,"Thaxted",0,1202.0,511.14,40.300,1,0,0.00,0.00,0.00,160.183
+E02004595,"Stansted Mountfitchet & Elsenham",0,1324.0,3644.32,60.787,6,0,0.00,477.85,0.00,1.378
+E02004596,"Takeley",0,705.0,41155.13,52.912,1,0,0.00,308.70,0.00,0
+E02004597,"Great Dunmow",0,409.0,1290.61,46.459,9,0,0.00,5470.04,0.00,4.477
+E02004598,"Flitch Green",0,1612.0,616.75,57.446,0,0,0.00,576.89,0.00,1.428
+E02004599,"Hatfield Heath",0,1655.0,1033.51,51.656,0,0,0.00,0.00,0.00,1.1

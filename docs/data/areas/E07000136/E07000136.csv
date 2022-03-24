@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02005417,"Leake & Butterwick",0,218.0,507.66,16.468,1,0.00,209.04,0.00,0.5
-E02005418,"Fenside & Lister Way",0,133.0,1755.68,7.301,0,0.00,11472.83,0.00,2.46
-E02005419,"Boston Central & North",0,283.0,4987.03,25.040,6,0.00,4210.01,0.00,11.99
-E02005420,"Skirbeck",0,133.0,0.00,5.709,0,0.00,0.00,0.00,4.59
-E02005422,"Swineshead",0,617.0,320.04,17.834,0,0.00,0.00,1321.57,2.47
-E02005423,"Kirton",0,420.0,351.00,19.483,0,0.00,0.00,0.00,7.52
-E02006864,"Fishtoft & Wyberton East",0,283.0,1601.65,7.786,2,0.00,0.00,0.00,0.62
-E02006865,"Wyberton West & Fen",0,133.0,3013.87,7.335,4,0.00,10767.53,0.00,6.1
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02005417,"Leake & Butterwick",0,218.0,507.66,16.468,1,0,0.00,209.04,0.00,0.5
+E02005418,"Fenside & Lister Way",0,133.0,1755.68,7.301,0,0,0.00,11472.83,0.00,2.46
+E02005419,"Boston Central & North",0,283.0,4987.03,25.040,6,0,0.00,4210.01,0.00,11.99
+E02005420,"Skirbeck",0,133.0,0.00,5.709,0,0,0.00,0.00,0.00,4.59
+E02005422,"Swineshead",0,617.0,320.04,17.834,0,0,0.00,0.00,1321.57,2.47
+E02005423,"Kirton",0,420.0,351.00,19.483,0,0,0.00,0.00,0.00,7.52
+E02006864,"Fishtoft & Wyberton East",0,283.0,1601.65,7.786,2,0,0.00,0.00,0.00,0.62
+E02006865,"Wyberton West & Fen",0,133.0,3013.87,7.335,4,0,0.00,10767.53,0.00,6.1

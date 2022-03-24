@@ -1,11 +1,11 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02003977,"Askam & Dalton North",24,188.0,1531.75,5.220,0,0.00,0.00,1110.46,2.75
-E02003978,"Dalton South",23,59.0,307.74,9.361,0,0.00,1125.85,0.00,1.44
-E02003979,"Hawcoat & Furness Abbey",21,108.0,1458.68,8.386,0,0.00,220.04,0.00,0.42
-E02003980,"Orsmgill & Hindpool",21,71.0,6248.87,4.847,3,0.00,18765.59,0.00,16
-E02003981,"Parkside",19,108.0,187.94,5.271,0,0.00,419.77,0.00,3.19
-E02003982,"Roose",18,45.0,581.38,16.400,0,0.00,1672.44,0.00,10.91
-E02003983,"Abbotsmead & Salthouse",18,108.0,219.79,12.609,0,0.00,2106.48,0.00,0
-E02003984,"Barrow Central",16,130.0,2040.28,10.002,1,0.00,7195.14,967.10,27.76
-E02003985,"Walney Island North",14,63.0,600.69,3.221,1,0.00,0.00,0.00,6.96
-E02003986,"Walney Island South & Barrow Island",15,108.0,2793.87,3.099,4,0.00,963.78,0.00,1.1
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02003977,"Askam & Dalton North",24,188.0,1531.75,5.220,0,0,0.00,0.00,1110.46,2.75
+E02003978,"Dalton South",23,59.0,307.74,9.361,0,0,0.00,1125.85,0.00,1.44
+E02003979,"Hawcoat & Furness Abbey",21,108.0,1458.68,8.386,0,0,0.00,220.04,0.00,0.42
+E02003980,"Orsmgill & Hindpool",21,71.0,6248.87,4.847,3,0,0.00,18765.59,0.00,16
+E02003981,"Parkside",19,108.0,187.94,5.271,0,0,0.00,419.77,0.00,3.19
+E02003982,"Roose",18,45.0,581.38,16.400,0,0,0.00,1672.44,0.00,10.91
+E02003983,"Abbotsmead & Salthouse",18,108.0,219.79,12.609,0,0,0.00,2106.48,0.00,0
+E02003984,"Barrow Central",16,130.0,2040.28,10.002,1,0,0.00,7195.14,967.10,27.76
+E02003985,"Walney Island North",14,63.0,600.69,3.221,1,0,0.00,0.00,0.00,6.96
+E02003986,"Walney Island South & Barrow Island",15,108.0,2793.87,3.099,4,0,0.00,963.78,0.00,1.1

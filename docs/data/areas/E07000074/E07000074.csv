@@ -1,9 +1,9 @@
-MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,distribution-centres,supermarket,warehouse,brownfield
-E02004555,"Tollesbury",0,410.0,139.48,14.076,0,0.00,0.00,0.00,2.73
-E02004556,"Great Totham",0,1017.0,2234.21,20.964,0,0.00,0.00,0.00,0.3
-E02004557,"Heybridge",0,223.0,972.25,23.090,0,0.00,841.39,2125.21,0.1
-E02004558,"Maldon North",0,223.0,3804.38,41.499,2,0.00,14885.78,4990.78,0.26
-E02004559,"Maldon South",0,223.0,899.69,11.260,0,0.00,5490.11,0.00,0
-E02004560,"Southminster",0,112.0,1320.63,32.924,0,0.00,223.29,0.00,0
-E02004561,"Mayland",0,830.0,596.33,47.640,0,0.00,410.63,0.00,0
-E02004562,"Burnham-on-Crouch",0,112.0,1081.04,29.076,0,0.00,2767.92,0.00,0.06
+MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
+E02004555,"Tollesbury",0,410.0,139.48,14.076,0,0,0.00,0.00,0.00,2.73
+E02004556,"Great Totham",0,1017.0,2234.21,20.964,0,0,0.00,0.00,0.00,0.3
+E02004557,"Heybridge",0,223.0,972.25,23.090,0,0,0.00,841.39,2125.21,0.1
+E02004558,"Maldon North",0,223.0,3804.38,41.499,2,0,0.00,14885.78,4990.78,0.26
+E02004559,"Maldon South",0,223.0,899.69,11.260,0,0,0.00,5490.11,0.00,0
+E02004560,"Southminster",0,112.0,1320.63,32.924,0,0,0.00,223.29,0.00,0
+E02004561,"Mayland",0,830.0,596.33,47.640,0,0,0.00,410.63,0.00,0
+E02004562,"Burnham-on-Crouch",0,112.0,1081.04,29.076,0,0,0.00,2767.92,0.00,0.06
