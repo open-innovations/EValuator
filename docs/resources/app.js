@@ -404,25 +404,28 @@
 			else return b[1] - a[1];
 		});
 
-		var list = '<tr><th></th><th>MSOA</th><th>Name</th>';
+		var list = '<tr><th></th><th>Name</th><th>Score</th>';
 		for(c = 0; c < this.categories.length; c++){
 			for(l = 0; l < this.categories[c].layers.length; l++){
 				list += '<th><div title="'+this.categories[c].layers[l].title+'">'+this.categories[c].layers[l].title+'</div></th>';
 			}
 		}
-		list += '<th>Score</th>';
 		list += '</tr>';
 		for(t = 0; t < totals.length; t++){
 			msoa = totals[t][0];
 			list += '<tr class="row" data="'+msoa+'" id="row-'+msoa+'"><td class="num">'+(t+1)+'</td>';
-			list += '<td>'+msoa+'</td>';
+			//list += '<td>'+msoa+'</td>';
 			list += '<td>'+this.arealookup[this.area].MSOA[msoa].name+'</td>';
+			list += '<td class="num">'+this.scores[msoa].total.toFixed(2)+'</td>';
 			for(c = 0; c < this.categories.length; c++){
 				for(l = 0; l < this.categories[c].layers.length; l++){
-					list += '<td class="num">'+this.scores[msoa][this.categories[c].layers[l].id]+'</td>';
+					v = this.scores[msoa][this.categories[c].layers[l].id];
+					if(typeof this.categories[c].layers[l].precision==="number"){
+						v = Math.round(v/this.categories[c].layers[l].precision)*this.categories[c].layers[l].precision;
+					}
+					list += '<td class="num">'+v+'</td>';
 				}
 			}
-			list += '<td class="num">'+this.scores[msoa].total.toFixed(2)+'</td>';
 			list += '</tr>';
 		}
 		if(!this.el.ranking){
