@@ -423,7 +423,7 @@
 					if(typeof this.categories[c].layers[l].precision==="number"){
 						v = Math.round(v/this.categories[c].layers[l].precision)*this.categories[c].layers[l].precision;
 					}
-					list += '<td class="num">'+v+'</td>';
+					list += '<td class="num'+(this.categories[c].layers[l].weight==0 ? ' inactive':'')+'">'+v+'</td>';
 				}
 			}
 			list += '</tr>';

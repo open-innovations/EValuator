@@ -145,6 +145,7 @@ table tr:hover { background: #2254F4; color: white; }
 table td, table th { border: 1px solid #ddd; padding: 0.25em 0.5em; }
 table th { background: #222; color: white; vertical-align: bottom; }
 table td.num { text-align: center; }
+table td.inactive { opacity: 0.3; }
 table th div { writing-mode: vertical-lr; left: 50%; position: relative; transform: translate3d(-50%,0,0); padding: 0.25em 0; }
 
 section { padding: 1em 0; }
