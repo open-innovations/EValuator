@@ -70,9 +70,9 @@
 	},{
 		"id": "brownfield",
 		"title": "Brownfield sites",
-		"desc": "<a href=\"https://www.digital-land.info/dataset/brownfield-land\">Brownfield land</a> is currently, or was previously, land built on and therefore is prioritised for development.",
+		"desc": "<a href=\"https://www.digital-land.info/dataset/brownfield-land\">Brownfield land</a> is currently, or was previously, land built on and therefore is prioritised for development. This uses the latest data included in <a href=\"https://github.com/digital-land/brownfield-land-collection/blob/main/collection/source.csv\">Digital Land's collection</a> of local authority Brownfield Land publications.",
 		"src": "https://raw.githubusercontent.com/open-innovations/brownfield-land/main/data/brownfield-areas.csv",
 		"weight": 0.5,
-		"attrib": ["<a href=\"https://github.com/digital-land/brownfield-land-collection\">&copy; Crown copyright and Local Authorities (OGL3)</a>"]
+		"attrib": ["<a href=\"https://github.com/digital-land/brownfield-land-collection\">Digital Land &copy; Crown copyright (OGL3)</a>"]
 	}]
 }]
