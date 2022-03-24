@@ -11,6 +11,7 @@
 		this.active = -1;
 		if(!popup){
 			popup = document.createElement('div');
+			popup.classList.add('popup');
 			popup.setAttribute('id',opt.id);
 			popup.style.position = 'absolute';
 			popup.style.background = opt.background||"black";

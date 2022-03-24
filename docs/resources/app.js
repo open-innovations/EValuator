@@ -483,7 +483,7 @@
 					};
 				},
 				onEachFeature: function(feature, layer) {
-					var popupContent = '<h3>'+feature.properties.msoa11hclnm+': '+_obj.scores[feature.properties.msoa11cd].total.toFixed(2)+'</h3><a href="#row-'+feature.properties.msoa11cd+'">View ranking and scores</a>';
+					var popupContent = '<h3>'+feature.properties.msoa11hclnm+': '+_obj.scores[feature.properties.msoa11cd].total.toFixed(2)+'</h3><p>MSOA: '+feature.properties.msoa11cd+'</p><a href="#row-'+feature.properties.msoa11cd+'">View ranking and scores</a>';
 					if(feature.properties && feature.properties.popupContent) popupContent += feature.properties.popupContent;
 					layer.bindPopup(popupContent);
 				}
