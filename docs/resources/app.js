@@ -402,7 +402,7 @@
 		list += '</tr>';
 		for(t = 0; t < totals.length; t++){
 			msoa = totals[t][0];
-			list += '<tr class="row" data="'+msoa+'"><td class="num">'+(t+1)+'</td>';
+			list += '<tr class="row" data="'+msoa+'" id="row-'+msoa+'"><td class="num">'+(t+1)+'</td>';
 			list += '<td>'+msoa+'</td>';
 			list += '<td>'+this.arealookup[this.area].MSOA[msoa].name+'</td>';
 			for(c = 0; c < this.categories.length; c++){
@@ -454,6 +454,7 @@
 			if(this.arealayer) this.map.removeLayer(this.arealayer);
 
 			var _obj = this;
+			
 			this.arealayer = L.geoJSON(this.arealookup[id].geoJSON, {
 				style: function (feature){
 					var msoa = feature.properties.msoa11cd;
@@ -467,7 +468,7 @@
 					};
 				},
 				onEachFeature: function(feature, layer) {
-					var popupContent = '<h3>'+feature.properties.msoa11hclnm+'</h3>';
+					var popupContent = '<h3>'+feature.properties.msoa11hclnm+': '+_obj.scores[feature.properties.msoa11cd].total.toFixed(2)+'</h3><a href="#row-'+feature.properties.msoa11cd+'">View ranking and scores</a>';
 					if(feature.properties && feature.properties.popupContent) popupContent += feature.properties.popupContent;
 					layer.bindPopup(popupContent);
 				}
@@ -476,6 +477,18 @@
 			this.map.attributionControl.setPrefix('<span class="AttributionClass">Data: '+this.attribution+' | <a href=\"https://geoportal.statistics.gov.uk/datasets/middle-layer-super-output-areas-december-2011-boundaries-ew-bgc\">Boundaries</a>: ONS (Contains OS data © Crown copyright and database right 2021).</span>');
 			
 			this.map.fitBounds(this.arealayer.getBounds());
+			this.map.on('popupopen', function(e) {
+				var marker = e.popup._source;
+				marker._popup._container.addEventListener('click',function(e){
+					// Go to the ranking tab
+					rankings = document.querySelector('#tab-rankings a');
+					if(rankings){
+						var event = document.createEvent('HTMLEvents');
+						event.initEvent('click', true, false);
+						rankings.dispatchEvent(event);
+					}
+				});
+			});
 		}else{
 			this.log.error('No GeoJSON for '+id);
 		}
