@@ -7,6 +7,10 @@
 	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
 	<link rel="StyleSheet" href="resources/ev-model.css" type="text/css" />
 	<script type="text/javascript" src="resources/ev-model.js"></script>
+
+  <!-- Add issuer script -->
+  <script defer src="//cdn.jsdelivr.net/gh/open-innovations/issuer@0.2.0/lib/issuer.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/open-innovations/issuer@0.2.0/lib/issuer.css"/>
 </head>
 <body class="b6-bg">
 
@@ -37,6 +41,20 @@
 			</ul>
 		</div>
 	</footer>
+
+  <aside id="issuer-root"></aside>
+  <script>
+    // Attach the issue form component passing the required config
+    addEventListener('DOMContentLoaded', function () {
+      oi.issuer({
+        target: document.querySelector('#issuer-root'),
+        endpoint: 'https://8098cec81e241af408f7acc6b778cfd4.m.pipedream.net',
+        owner: 'open-innovations',
+        repo: 'EValuator',
+        heading: 'Give us some feedback',
+      });
+    });
+  </script>
 	
 	<script>
     document.addEventListener('DOMContentLoaded', function () {
