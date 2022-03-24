@@ -327,14 +327,14 @@ footer a, footer a:visited { color: inherit; }
   position: fixed;
   bottom: 0;
   right: 0;
-  left: 0;
   border: 1px solid gray;
+  z-index: 1000;
 }
 .issuer {
   /* Variable overrides - set at :root in issuer.css */
   --issuer-header-fg: hsl(0, 0%, 100%);
   --issuer-header-bg: hsl(325, 69%, 48%);
-  --issuer-font-size: 0.8rem;
+  --issuer-font-size: 1.2rem;
   --issuer-error-colour: hsl(0, 75%, 50%);
 }
 .issuer .error {
