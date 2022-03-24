@@ -4,17 +4,16 @@ use Data::Dumper;
 
 # Get the real base directory for this script
 my $basedir = "./";
-if((readlink $ENV{'SCRIPT_FILENAME'} || $0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+if(($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
 require "./".$basedir."lib.pl";
 
+#$basedir = "../";
 
 # Read in the configuration JSON file
 $conf = loadConf($basedir."conf.json");
 
 # Step up a directory
-$basedir = "../".$basedir;
-
-
+$basedir .= "../";
 
 # Load file with areas we need to create scores for
 %areas;
