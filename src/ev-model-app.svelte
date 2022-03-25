@@ -7,11 +7,14 @@
   
   import { location } from './stores/location';
 
+  import L from './lib/vendor/leaflet';
+
   import { uk } from './lib/maps/bounds';
   import { greyscale } from './lib/maps/basemaps';
   import { lightCarto } from './lib/maps/labels';
   import * as style from './lib/maps/styles';
   import { pin } from './lib/maps/icons';
+  import { saveAppState, loadAppState } from './lib/appState';
 
   let bounds = uk;
 
@@ -21,9 +24,21 @@
 
   $: if (msoaOutline) map.fitBounds(msoaOutline.getBounds());
 
-  const mapClick = e => site = e.latlng;
+  const mapClick = e => {
+    site = e.latlng;
+    site.lat = parseFloat(site.lat.toFixed(5));
+    site.lng = parseFloat(site.lng.toFixed(5));
+  };
 
   let site = undefined;
+  function initSite() {
+    const { lat, lng } = loadAppState(['lat', 'lng']);
+    return L.latLng(lat, lng);
+  }
+  site = initSite();
+
+  const saveSiteLocation = ({ lat, lng } = {}) => saveAppState({ lat, lng });
+  $: saveSiteLocation(site);
 </script>
 
 <h1>EValuator - EV Bulk Charging Planner Model</h1>
