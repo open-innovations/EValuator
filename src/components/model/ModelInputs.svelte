@@ -1,31 +1,49 @@
 <script>
-  export let params = {
+  const defaults = {
+    chargepoints: 0,
     slow: 0,
     fast: 0,
     rapid: 0,
+    ultraRapid: 0,
   };
+  export let params = defaults;
+  params = { ...defaults, ...params };
+  $: {
+    params.fast = params.chargepoints - params.slow - params.rapid - params.ultraRapid; params = params;
+  }
 </script>
 
+<p>
+  Use this pane to enter the details of the plan.
+  This will be provided to the individual models which can be accessed in the subsequent tabs.
+</p>
+
 <div>
-  <label for='slow'>Slow chargers</label>
-  <input id='slow' type='number' bind:value={ params.slow } min=0 />
+  <label for='chargepoints'>Total Electric Vehicle Chargepoints</label>
+  <input id='chargepoints' type='number' bind:value={ params.chargepoints } min=0 />
 </div>
+<h3>Chargepoint breakdown</h3>
+<p>All chargepoints are assumed to be <strong>Fast</strong> unless otherwise stated.</p>
 <div>
-  <label for='fast'>Fast chargers</label>
-  <input id='fast' type='number' bind:value={ params.fast } min=0 default=0/>  
-</div>
-<div>
-  <label for='rapid'>Rapid chargers</label>
-  <input id='rapid' type='number' bind:value={ params.rapid } min=0 />  
+  <label for='slow'>Slow</label>
+  <input id='slow' type='number' bind:value={ params.slow } min=0 max={ params.chargepoints } />
+  <label for='fast'>Fast</label>
+  <input id='fast' disabled bind:value={ params.fast } min=0 />  
+  <label for='rapid'>Rapid</label>
+  <input id='rapid' type='number' bind:value={ params.rapid } min=0 max={ params.chargepoints } />  
+  <label for='ultra-rapid'>Ultra-Rapid</label>
+  <input id='ultra-rapid' type='number' bind:value={ params.ultraRapid } min=0 max={ params.chargepoints } />  
 </div>
 <style>
   div {
     display: flex;
+    gap: 1em;
+    align-items: center;
   }
   label {
     flex-grow: 1;
   }
-  input[type=number] {
+  input {
     text-align: right;
     width: 6em;
   }

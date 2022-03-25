@@ -24,7 +24,7 @@
       <ModelInputs slot="tab-content" bind:params />
     </Tabbed.Content>
     <Tabbed.Content>
-      <div slot='tab-top'><h2>Energy Impact</h2><EnergyIcon></EnergyIcon></div>
+      <div slot='tab-top'><h2>Network Demand</h2><EnergyIcon></EnergyIcon></div>
       <EnergyModel slot="tab-content" {params} />
     </Tabbed.Content>
   </div>
@@ -32,7 +32,6 @@
 
 <style>
   h2 {
-    /* background-color: #efefef; */
     text-align: center;
     margin: 0;
   }
@@ -47,8 +46,8 @@
   }
   [slot=tab-top] :global(svg) {
     height: 1em;
-    /* height: 10em; */
-    /* border: 1px solid black; */
+    /* height: 10em;
+    border: 1px solid black; */
   }
   h2 {
     flex-grow: 2;
