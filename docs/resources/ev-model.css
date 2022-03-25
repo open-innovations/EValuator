@@ -1,4 +1,4 @@
-h2.svelte-v1z5rh{background-color:#efefef;padding:0.5em;text-align:center;margin:0}.main-content.svelte-v1z5rh{background-color:#efefef;padding:0.5em 1em}.leaflet-control-container{position:static}div.svelte-1dubgia{height:100%;width:100%}div.svelte-145oxpm{display:flex}label.svelte-145oxpm{flex-grow:1}input[type=number].svelte-145oxpm{text-align:right;width:6em}/* required styles */
+h2.svelte-1dl90mh{text-align:center;margin:0}.main-content.svelte-1dl90mh{background-color:#efefef;padding:0.5em 1em}[slot=tab-top].svelte-1dl90mh{display:flex;gap:0.5em;padding:0.5em}[slot=tab-top].svelte-1dl90mh svg{height:1em}h2.svelte-1dl90mh{flex-grow:2}.leaflet-control-container{position:static}div.svelte-1dubgia{height:100%;width:100%}div.svelte-145oxpm{display:flex}label.svelte-145oxpm{flex-grow:1}input[type=number].svelte-145oxpm{text-align:right;width:6em}/* required styles */
 
 .leaflet-pane,
 .leaflet-tile,
@@ -638,4 +638,4 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	margin-left: -12px;
 	border-right-color: #fff;
 	}
-.tabs.svelte-x15ly0{display:flex;gap:4px}div.svelte-12js5h7.svelte-12js5h7{display:none}.svelte-12js5h7:checked+div.svelte-12js5h7{display:block}input.svelte-12js5h7.svelte-12js5h7{display:none}.background [slot='tab-top']{background:#d4dadc}
+div.svelte-12js5h7.svelte-12js5h7{display:none}.svelte-12js5h7:checked+div.svelte-12js5h7{display:block}input.svelte-12js5h7.svelte-12js5h7{display:none}.background [slot='tab-top']{background:#d4dadc}.tabs.svelte-1phdk7b{display:flex;gap:4px}.tab-top.svelte-1phdk7b{font-size:1.5em}.tab-top.svelte-1phdk7b *{font-size:inherit}.tab-top.svelte-1phdk7b [slot='tab-top']{background-color:#d4dadc;box-shadow:inset 0 -0.25em 0.25em -0.25em rgba(0,0,0,0.2)}.active.svelte-1phdk7b [slot='tab-top']{background-color:#efefef;box-shadow:unset}

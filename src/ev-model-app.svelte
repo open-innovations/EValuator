@@ -12,12 +12,7 @@
   import { lightCarto } from './lib/maps/labels';
   import * as style from './lib/maps/styles';
 
-  import ModelInputs from './components/model/ModelInputs.svelte';
-  import EnergyModel from './components/model/EnergyModel.svelte';
-
   let bounds = uk;
-
-  const models = [ EnergyModel ];
 
   // Map state
   let map;
@@ -28,11 +23,6 @@
   const mapClick = e => site = e.latlng;
 
   let site = undefined;
-  let modelParams = {
-    slow: 0,
-    fast: 0,
-    rapid: 0,
-  };
 </script>
 
 <h1>EValuator - EV Bulk Charging Planner Model</h1>
@@ -46,4 +36,5 @@
     <GeoJson feature={ $location?.distribution } style={ style.distribution }></GeoJson>
   </Leaflet>
 </section>
-<ModelPane inputs={ ModelInputs } { models } bind:params={ modelParams }></ModelPane>
+
+<ModelPane></ModelPane>

@@ -11,7 +11,7 @@
 <div>
   <div class='tabs'>
     {#each titles as title, i}
-      <div class:background={ i !== current } use:addTabTop={ title } on:click={() => current = i }></div>
+      <div class='tab-top' class:active={ i === current } use:addTabTop={ title } on:click={() => current = i }></div>
     {/each}
   </div>
   <slot></slot>
@@ -21,5 +21,19 @@
   .tabs {
     display: flex;
     gap: 4px;
+  }
+  .tab-top {
+    font-size: 1.5em;
+  }
+  .tab-top :global(*) {
+    font-size: inherit;
+  }
+  .tab-top :global([slot='tab-top']) {
+    background-color: #d4dadc;
+    box-shadow: inset 0 -0.25em 0.25em -0.25em rgba(0,0,0,0.2);
+  }
+  .active :global([slot='tab-top']) {
+    background-color: #efefef;
+    box-shadow: unset;
   }
 </style>
