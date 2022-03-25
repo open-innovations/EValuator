@@ -3,6 +3,7 @@
   import ModelInputs from './model/ModelInputs.svelte';
   import EnergyModel from './model/EnergyModel.svelte';
 
+  import SlidersIcon from './icons/Sliders.svelte';
   import EnergyIcon from './icons/Energy.svelte';
 
   let params = {
@@ -19,11 +20,11 @@
 <Tabbed.Set name="modelSelection">
   <div class="main-content">
     <Tabbed.Content checked={true}>
-      <div slot='tab-top'><h2>Model Inputs</h2></div>
+      <div slot='tab-top'><h2>Model Inputs</h2><SlidersIcon></SlidersIcon></div>
       <ModelInputs slot="tab-content" bind:params />
     </Tabbed.Content>
     <Tabbed.Content>
-      <div slot='tab-top'><h2>Energy Impact Model</h2><EnergyIcon></EnergyIcon></div>
+      <div slot='tab-top'><h2>Energy Impact</h2><EnergyIcon></EnergyIcon></div>
       <EnergyModel slot="tab-content" {params} />
     </Tabbed.Content>
   </div>

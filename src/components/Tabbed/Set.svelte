@@ -21,9 +21,11 @@
   .tabs {
     display: flex;
     gap: 4px;
+    justify-content: space-between;
   }
   .tab-top {
     font-size: 1.5em;
+    flex-grow: 1;
   }
   .tab-top :global(*) {
     font-size: inherit;
