@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
-    "dev": "NODE_ENV=development rollup -c -w",
+    "dev": "concurrently npm:dev:build npm:dev:serve",
+    "dev:build": "NODE_ENV=development rollup -c -w",
+    "dev:serve": "site.js ../docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "@small-tech/site.js": "^17.3.3",
     "@types/leaflet": "^1.7.9",
+    "concurrently": "^7.0.0",
     "rollup": "^2.3.4",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-css-only": "^3.1.0",
