@@ -1,5 +1,6 @@
 import {
   geoJSON,
+  icon,
   map,
   marker,
   tileLayer,
@@ -7,6 +8,7 @@ import {
 
 export default {
   geoJSON,
+  icon,
   map,
   marker,
   tileLayer,

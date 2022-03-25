@@ -11,6 +11,7 @@
   import { greyscale } from './lib/maps/basemaps';
   import { lightCarto } from './lib/maps/labels';
   import * as style from './lib/maps/styles';
+  import { pin } from './lib/maps/icons';
 
   let bounds = uk;
 
@@ -29,8 +30,7 @@
 <p>{ $location?.msoa.properties.msoa11hclnm }</p>
 <section id='map' class="screen">
   <Leaflet bind:map { bounds } baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
-    <Marker bind:latLng={ site }>
-    </Marker>
+    <Marker bind:latLng={ site } icon={ pin }></Marker>
     <GeoJson feature={ $location?.msoa } bind:layer={ msoaOutline } style={ style.msoaFocus }></GeoJson>
     <GeoJson feature={ $location?.warehouse } style={ style.distribution }></GeoJson>
     <GeoJson feature={ $location?.distribution } style={ style.distribution }></GeoJson>

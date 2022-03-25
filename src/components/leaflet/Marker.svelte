@@ -3,6 +3,7 @@
   import { getContext, setContext } from 'svelte';
 
   export let marker = undefined;
+  export let icon = undefined;
 
   export let latLng;
 
@@ -24,7 +25,7 @@
     if (marker) {
       marker.setLatLng(latLng);
     } else {
-      marker = L.marker(latLng).addTo(layerGroup);
+      marker = L.marker(latLng, { icon }).addTo(layerGroup);
     }
   }
 </script>
