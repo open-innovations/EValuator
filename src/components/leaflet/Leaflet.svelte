@@ -1,6 +1,6 @@
 <script>
   import { createEventDispatcher, setContext } from 'svelte';
-  import L from 'leaflet';
+  import L from '../../lib/vendor/leaflet';
   import 'leaflet/dist/leaflet.css';
   
   export let baseLayer;

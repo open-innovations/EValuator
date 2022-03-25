@@ -1,5 +1,5 @@
 <script>
-  import L from 'leaflet';
+  import L from '../../lib/vendor/leaflet';
   import { getContext } from 'svelte';
   let classNames = undefined;
   export { classNames as class };
