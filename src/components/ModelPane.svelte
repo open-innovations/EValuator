@@ -6,11 +6,7 @@
   import SlidersIcon from './icons/Sliders.svelte';
   import EnergyIcon from './icons/Energy.svelte';
 
-  let params = {
-    slow: 0,
-    fast: 0,
-    rapid: 0,
-  };
+  let params = {};
 </script>
 
 <h1>EV Model</h1>

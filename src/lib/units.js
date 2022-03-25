@@ -1,5 +1,4 @@
 const prefix = ['', 'k', 'M', 'G', 'T'];
-console.log(prefix);
 
 export const prefixed = (value, unit = '') => {
   if (!value) return 0 + unit;

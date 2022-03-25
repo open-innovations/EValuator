@@ -1,4 +1,6 @@
 <script>
+  import { saveAppState, loadAppState } from '../../lib/appState';
+
   const defaults = {
     chargepoints: 0,
     slow: 0,
@@ -7,10 +9,15 @@
     ultraRapid: 0,
   };
   export let params = defaults;
-  params = { ...defaults, ...params };
+
+  const appState = loadAppState(Object.keys(defaults));
+  params = { ...defaults, ...appState, ...params };
+
   $: {
     params.fast = params.chargepoints - params.slow - params.rapid - params.ultraRapid; params = params;
   }
+
+  $: saveAppState(params);
 </script>
 
 <p>
