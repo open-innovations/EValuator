@@ -2,16 +2,23 @@
   import Tabbed from './Tabbed';
   import ModelInputs from './model/ModelInputs.svelte';
   import EnergyModel from './model/EnergyModel.svelte';
+  import CarbonModel from './model/CarbonModel.svelte';
+
+  import WarningMessage from './WarningMessage.svelte';
 
   import SlidersIcon from './icons/Sliders.svelte';
   import EnergyIcon from './icons/Energy.svelte';
+  import Co2Icon from './icons/Co2.svelte';
 
   let params = {};
 </script>
 
 <h1>EV Model</h1>
 
-<p>Please note, these models are for illustrative purposes only.</p>
+<WarningMessage>
+  These models presented here are not yet validated, and <strong>must not be used for planning purposes</strong>.
+  Please get in touch if you can help us improve or validate them.
+</WarningMessage>
 
 <Tabbed.Set name="modelSelection">
   <div class="main-content">
@@ -22,6 +29,10 @@
     <Tabbed.Content>
       <div slot='tab-top'><h2>Network Demand</h2><EnergyIcon></EnergyIcon></div>
       <EnergyModel slot="tab-content" {params} />
+    </Tabbed.Content>
+    <Tabbed.Content>
+      <div slot='tab-top'><h2>Carbon Abatement</h2><Co2Icon></Co2Icon></div>
+      <CarbonModel slot="tab-content" {params} />
     </Tabbed.Content>
   </div>
 </Tabbed.Set>
