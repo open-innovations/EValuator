@@ -4,6 +4,7 @@
   import GeoJson from './components/leaflet/GeoJson.svelte'; 
 
   import ModelPane from './components/ModelPane.svelte';
+  import Attributions from './components/Attributions.svelte';
   
   import { location } from './stores/location';
 
@@ -41,3 +42,5 @@
 </div>
 
 <ModelPane></ModelPane>
+
+<Attributions></Attributions>
