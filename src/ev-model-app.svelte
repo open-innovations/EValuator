@@ -31,13 +31,13 @@
 
 <h1>EValuator - EV Bulk Charging Planner Model</h1>
 <p>{ $location?.msoa.properties.msoa11hclnm }</p>
-<section id='map' class="screen">
+<div id='map' class="screen">
   <Leaflet bind:map { bounds } baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
     <Marker bind:latLng={ $site } icon={ pin }></Marker>
     <GeoJson feature={ $location?.msoa } bind:layer={ msoaOutline } style={ style.msoaFocus }></GeoJson>
     <GeoJson feature={ $location?.warehouse } style={ style.distribution }></GeoJson>
     <GeoJson feature={ $location?.distribution } style={ style.distribution }></GeoJson>
   </Leaflet>
-</section>
+</div>
 
 <ModelPane></ModelPane>
