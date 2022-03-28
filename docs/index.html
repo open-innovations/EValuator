@@ -9,6 +9,9 @@
 	<script type="text/javascript" src="resources/leaflet.js"></script>
 	<script type="text/javascript" src="resources/leaflet.markercluster.js"></script>
 	<script type="text/javascript" src="resources/app.js"></script>
+  <!-- Add issuer script -->
+  <script defer src="//cdn.jsdelivr.net/gh/open-innovations/issuer@0.2.0/lib/issuer.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/open-innovations/issuer@0.2.0/lib/issuer.css"/>  
 </head>
 <body class="b6-bg">
 
@@ -73,5 +76,19 @@
 			
 		</div>
 	</footer>
+
+  <aside id="issuer-root"></aside>
+  <script>
+    // Attach the issue form component passing the required config
+    addEventListener('DOMContentLoaded', function () {
+      oi.issuer({
+        target: document.querySelector('#issuer-root'),
+        endpoint: 'https://8098cec81e241af408f7acc6b778cfd4.m.pipedream.net',
+        owner: 'open-innovations',
+        repo: 'EValuator',
+        heading: 'Give us feedback on this prototype',
+      });
+    });
+  </script>
 </body>
 </html>
