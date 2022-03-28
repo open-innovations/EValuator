@@ -1,4 +1,5 @@
 <script>
+  import { location } from '../../stores/location';
   import { prefixed } from '../../lib/units';
   export let params = {};
   let demand;
@@ -12,6 +13,9 @@
     return slow * SLOW + fast * FAST + rapid * RAPID + ultraRapid * ULTRA_RAPID;
   }
   $: demand = calcDemand(params);
+  $: availability = $location?.msoaData['grid-capacity'] * 1e6;
+  $: msoaName = $location?.msoaData.Name;
+  $: utilisation = demand / availability;
 </script>
 
 <p>
@@ -22,6 +26,10 @@
 
 <p class='output'>
   Demand estimated at { prefixed(demand, 'W') }.
+</p>
+
+<p>
+  Available capacity in { msoaName } is estimated at { prefixed(availability, 'W') }. This scheme would use { Math.round(100 * utilisation) }% if the existing capacity.
 </p>
 
 <p>
