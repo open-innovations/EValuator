@@ -1,21 +1,21 @@
 [{
 	"title": "Distribution",
-	"desc": "A description",
+	"desc": "Model to identify areas which might be suitable for EV rollout for large distributors.",
 	"weights": {
 		"index-of-transport-accessibility": { "value": 0.5 },
 		"distribution-centres": { "value": 0.5 },
-		"evhs": { "invert": true },
-		"chargepoints": { "invert": true },
+    "grid-capacity": { "value": 0.5 },
 		"warehouse": { "value": 0.5 },
 		"brownfield": { "value": 0.5 }	
 	}
 },
 {
 	"title": "Last Mile",
-	"desc": "A description of last mile",
+	"desc": "Model to identify areas where low-impact last mile delivery hubs could be located (e.g. EV cargo bikes).",
 	"weights": {
 		"index-of-transport-accessibility": { "value": 0.5 },
 		"estimated-parking-capacity": { "value": 0.3 },
+    "grid-capacity": { "value": 0.5 },
 		"supermarket": { "value": 0.3 },
 		"brownfield": { "value": 0.5 }	
 	}
