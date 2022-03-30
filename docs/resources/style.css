@@ -359,6 +359,9 @@ a.call-to-action {
   background-color: var(--colour-blue);
   border: 2px solid var(--colour-blue);
   text-decoration: none;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 1em;
 }
 a.call-to-action:hover {
   color: var(--colour-blue);
