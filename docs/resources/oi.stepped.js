@@ -25,10 +25,11 @@
 			popup.style.cursor = "pointer";
 			document.body.appendChild(popup);
 			popup.addEventListener('click',function(){ _obj.close(); });
+			// Need to do this better so it doesn't interrupt new 
 			popup.addEventListener('transitionend', function(){
-				if(popup.parentNode !== null){
-					popup.style.display = "none";
-				}
+			//	if(popup.parentNode !== null){
+			//		popup.style.display = "none";
+			//	}
 			});
 		}
 
