@@ -554,7 +554,10 @@
 
 		inv = document.createElement('input');
 		inv.setAttribute('type','checkbox');
-		if(typeof opt.invert==="boolean" && opt.invert) inv.setAttribute('checked','checked');
+		if(typeof opt.invert==="boolean" && opt.invert){
+			inv.setAttribute('checked','checked');
+			inp.style.direction = 'rtl';
+		}
 		if(opt.id) inv.setAttribute('id',opt.id+'-invert');
 		inv.addEventListener('click',function(e){
 			var event = document.createEvent('HTMLEvents');
