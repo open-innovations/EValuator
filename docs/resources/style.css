@@ -377,14 +377,18 @@ a.call-to-action:hover {
   justify-content: space-between;
   position: relative;
   z-index: 10000;
-  padding: 0 1rem;
+  padding: 0 1em;
+  font-size: 1.25em;
+  background: #111;
+  color: white;
 }
+.site-header a { color: inherit; }
+.site-header .site-title { font-size: inherit; font-family: 'Poppins', sans-serif; }
 .menu-items {
   display: flex;
   flex-direction: column;
   gap: 1em;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2em;
   position: absolute;
   top: var(--header-height);
   background-color: white;
