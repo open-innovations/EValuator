@@ -544,6 +544,9 @@
 			e.data.value = parseFloat(inp.value);
 			_obj.updateValue(e.data.value);
 			e.data.invert = inv.checked;
+			// Switch direction of slider for inverted state
+			inp.style.direction = (inv.checked ? 'rtl' : 'ltr');
+
 			// Call the callback function
 			fn.call(_obj,e);
 		});
