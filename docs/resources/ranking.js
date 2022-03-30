@@ -624,6 +624,7 @@
 			// Set the state
 			if(typeof state!=="boolean") state = false;
 			inv.checked = state;
+			inp.style.direction = (inv.checked ? 'rtl' : 'ltr');
 			return this;
 		};
 		this.setValue(opt.value||1);
