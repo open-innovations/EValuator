@@ -9,6 +9,8 @@
 		this.steps = [];
 		var popup = document.getElementById(opt.id);
 		this.active = -1;
+		var _obj = this;
+
 		if(!popup){
 			popup = document.createElement('div');
 			popup.classList.add('popup');
@@ -19,14 +21,16 @@
 			popup.style.color = opt.color||"white";
 			popup.style.padding = opt.padding||"1em";
 			popup.style.zIndex = 9999;
-			//popup.style.transition = "all 0.3s ease-in";
 			popup.style.display = "none";
 			popup.style.cursor = "pointer";
 			document.body.appendChild(popup);
 			popup.addEventListener('click',function(){ _obj.close(); });
+			popup.addEventListener('transitionend', function(){
+				if(popup.parentNode !== null){
+					popup.style.display = "none";
+				}
+			});
 		}
-
-		var _obj = this;
 
 		function Step(n,el,txt,placement){
 			this.el = el;
