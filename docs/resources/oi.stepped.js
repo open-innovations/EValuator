@@ -9,6 +9,11 @@
 		this.steps = [];
 		var popup = document.getElementById(opt.id);
 		this.active = -1;
+		var transitioning = false;
+		this.transition = function(){
+			if(popup.parentNode !== null) popup.style.display = "none";
+			return;
+		};
 		var _obj = this;
 
 		if(!popup){
@@ -25,12 +30,6 @@
 			popup.style.cursor = "pointer";
 			document.body.appendChild(popup);
 			popup.addEventListener('click',function(){ _obj.close(); });
-			// Need to do this better so it doesn't interrupt new 
-			popup.addEventListener('transitionend', function(){
-			//	if(popup.parentNode !== null){
-			//		popup.style.display = "none";
-			//	}
-			});
 		}
 
 		function Step(n,el,txt,placement){
@@ -43,6 +42,10 @@
 			var styles = document.createElement('style');
 			document.head.appendChild(styles);
 			this.open = function(){
+				if(transitioning){
+					popup.removeEventListener('transitionend',_obj.transition);
+					transitioning = false;
+				}
 				_obj.active = n;
 				if(this.el){
 					var content = txt;
@@ -56,6 +59,7 @@
 
 					return this;
 				}
+
 				return this;
 			};
 			this.position = function(){
@@ -111,6 +115,9 @@
 				if(_obj.active == n){
 					popup.style.opacity = "0";
 					_obj.active = -1;
+					transitioning = true;
+					// Add the transitionend event
+					popup.addEventListener('transitionend', _obj.transition);
 					// Reset the transition
 					popup.style.transition = "all 0.3s ease-in";
 				}
