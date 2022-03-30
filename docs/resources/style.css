@@ -5,6 +5,7 @@
 :root {
   --colour-white: #fff;
   --colour-blue: #2254F4;
+  --header-height: 5rem;
 }
 
 @font-face {
@@ -367,4 +368,83 @@ a.call-to-action:hover {
   color: var(--colour-blue);
   background-color: var(--colour-white);
   text-decoration: underline;
+}
+
+.site-header {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10000;
+  padding: 0 1rem;
+}
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: var(--header-height);
+  background-color: white;
+  border: 1px solid grey;
+  left: -100%;
+  right: 100%;
+  padding: 1rem 1rem;
+  transition: 250ms ease;
+  transition-property: left, right;
+}
+.menu-toggle {
+  width: 1.5rem;
+  height: 1.5rem;
+  z-index: 1000;
+  transition: transform 250ms ease;
+}
+.menu-state {
+  display: none;
+}
+.menu-burger {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3em;
+}
+.menu-burger i {
+  display: block;
+  background-color: #000;
+  height: 0.2rem;
+  transition: transform 250ms ease;
+}
+
+.menu-state:checked ~ .menu-items {
+  left: 0;
+  right: 0;
+}
+
+.menu-state:checked ~ .menu-toggle {
+  /* transform: translateY(var(--header-height)); */
+}
+.menu-state:checked ~ .menu-toggle .menu-burger i:nth-of-type(1) {
+  transform: translateY(0.5rem) scaleX(0);
+}
+.menu-state:checked ~ .menu-toggle .menu-burger i:nth-of-type(2) {
+  transform: rotate(225deg) scale(1.41);
+}
+.menu-state:checked ~ .menu-toggle .menu-burger i:nth-of-type(3) {
+  transform: translateY(-0.5rem) rotate(135deg) scale(1.41);
+}
+
+@media screen and (min-width: 640px) {
+  .menu-toggle {
+    display: none;
+  }
+  .menu-items {
+    flex-direction: row;
+    position: unset;
+    background-color: unset;
+    border: unset;
+    padding: unset;
+  }
 }

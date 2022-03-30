@@ -30,7 +30,7 @@
   };
 </script>
 
-<h1>EValuator - EV Bulk Charging Planner Model</h1>
+<h1>Stage 2: Modelling</h1>
 <p>{ $location?.msoa.properties.msoa11hclnm }</p>
 <div id='map' class="screen">
   <Leaflet bind:map { bounds } baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
