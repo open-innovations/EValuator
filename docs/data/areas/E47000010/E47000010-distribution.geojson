@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"3817257144","name":"Bondgate Electrical Distribution","other":{"addr:city":"Bishop Auckland","addr:street":"Fore Bondgate","shop":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.67745,54.66522 ]}},
+{ "type":"Feature","properties":{"osm_id":"4355644156","name":"PDC Distribution","other":{"addr:city":"Hebburn","addr:street":"Victoria Industrial Estate","shop":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.52754,54.96296 ]}},
+{ "type":"Feature","properties":{"osm_id":"4364788690","name":"ADI Global Distribution","other":{"addr:city":"Gateshead","addr:street":"Stadium Road","office":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.58281,54.96134 ]}},
+{ "type":"Feature","properties":{"osm_id":"4409386495","name":"Bondgate Electrical Distribution","other":{"addr:city":"Gateshead","addr:street":"Mayoral Way","shop":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.61765,54.92596 ]}},
+{ "type":"Feature","properties":{"osm_id":"4931237521","barrier":"gate"},"geometry":{"type":"Point","coordinates":[-1.57815,54.59015 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"168974777","name":"Asda Distribution Centre","building":"yes"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.50771,54.88958],[-1.50772,54.88856],[-1.50518,54.88855],[-1.50518,54.88837],[-1.50424,54.88837],[-1.50424,54.88856],[-1.50398,54.88856],[-1.50397,54.88956],[-1.50668,54.88956],[-1.50668,54.88968],[-1.50703,54.88968],[-1.50703,54.88957],[-1.50771,54.88958]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"427224952","name":"Co-op Birtley Distribution Centre","building":"industrial","other":{"addr:city":"Chester-le-Street","addr:postcode":"DH2 1AE","fhrs:id":"1040887","operator":"The Co-operative Group","operator:wikidata":"Q117202","operator:wikipedia":"en:The Co-operative Group"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.58211,54.87453],[-1.58111,54.8746],[-1.58114,54.87474],[-1.58058,54.87478],[-1.58039,54.87388],[-1.58013,54.8739],[-1.5801,54.87375],[-1.58036,54.87373],[-1.58011,54.87254],[-1.58118,54.87246],[-1.5812,54.87258],[-1.58169,54.87255],[-1.58177,54.87294],[-1.58211,54.87453]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"502744763","name":"Lidl Regional Distribution Centre","landuse":"industrial","other":{"brand":"Lidl","brand:wikidata":"Q151954","brand:wikipedia":"en:Lidl","industrial":"warehouse","operator":"Lidl"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.57105,54.58942],[-1.57815,54.59015],[-1.57839,54.59018],[-1.57864,54.58945],[-1.57997,54.58953],[-1.57995,54.58942],[-1.57983,54.58807],[-1.57177,54.58714],[-1.57105,54.58942]]]]}}
+]
+}

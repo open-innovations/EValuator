@@ -4,6 +4,7 @@
 { "type":"Feature","properties":{"osm_way_id":"56969215","name":"CPC Farnell","building":"warehouse","other":{"industrial":"warehouse"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.68275,53.79649],[-2.6839,53.7958],[-2.68277,53.79514],[-2.68208,53.79555],[-2.6819,53.79545],[-2.68144,53.79572],[-2.68275,53.79649]]]]}},
 { "type":"Feature","properties":{"osm_way_id":"160613124","name":"Screwfix","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.71887,52.20214],[-1.71852,52.20197],[-1.71857,52.20193],[-1.71849,52.20189],[-1.71844,52.20193],[-1.71821,52.2018],[-1.71815,52.20184],[-1.71808,52.20181],[-1.71828,52.20166],[-1.719,52.20205],[-1.71887,52.20214]]]]}},
 { "type":"Feature","properties":{"osm_way_id":"364987908","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.719,52.20205],[-1.71916,52.20194],[-1.71843,52.20155],[-1.71828,52.20166],[-1.719,52.20205]]]]}},
-{ "type":"Feature","properties":{"osm_way_id":"669697904","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.87686,52.29776],[-1.87668,52.29766],[-1.87695,52.29748],[-1.87713,52.29757],[-1.87686,52.29776]]]]}}
+{ "type":"Feature","properties":{"osm_way_id":"669697904","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.87686,52.29776],[-1.87668,52.29766],[-1.87695,52.29748],[-1.87713,52.29757],[-1.87686,52.29776]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"846412623","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.567,52.02517],[-1.56664,52.02531],[-1.56659,52.02527],[-1.56654,52.02522],[-1.56686,52.0251],[-1.56691,52.02508],[-1.567,52.02517]]]]}}
 ]
 }

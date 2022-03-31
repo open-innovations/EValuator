@@ -1,7 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_id":"4119334","name":"Boathouse № 4: Boatbuilding & Heritage Skills Training Centre","type":"multipolygon","building":"warehouse","other":{"access":"private"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-1.10866,50.79955],[-1.10854,50.7996],[-1.10839,50.79968],[-1.10795,50.79933],[-1.10811,50.79925],[-1.10857,50.79903],[-1.10896,50.79935],[-1.109,50.79938],[-1.10867,50.79954],[-1.10866,50.79955]]]]}},
 { "type":"Feature","properties":{"osm_way_id":"32015859","name":"Ferryspeed","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.05987,50.83198],[-1.06055,50.83218],[-1.06103,50.83232],[-1.06104,50.83232],[-1.06078,50.83268],[-1.06044,50.83258],[-1.05995,50.83243],[-1.05961,50.83233],[-1.05987,50.83198]]]]}},
 { "type":"Feature","properties":{"osm_way_id":"32137888","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.05699,50.83168],[-1.05662,50.83217],[-1.05657,50.83224],[-1.05717,50.83242],[-1.05722,50.83235],[-1.05766,50.83175],[-1.05838,50.83077],[-1.05827,50.83074],[-1.05802,50.83067],[-1.05778,50.8306],[-1.05699,50.83168]]]]}},
 { "type":"Feature","properties":{"osm_way_id":"32137889","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-1.06031,50.8311],[-1.06094,50.83127],[-1.06098,50.83128],[-1.06165,50.83147],[-1.0619,50.83154],[-1.06169,50.83185],[-1.06009,50.8314],[-1.0602,50.83125],[-1.06031,50.8311]]]]}},

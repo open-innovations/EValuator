@@ -5,7 +5,7 @@
 { "type":"Feature","properties":{"osm_id":"15749667","other":{"access":"yes","amenity":"parking","capacity":"10","capacity:disabled":"0","fee":"no","parking":"surface","surface":"ground"}}, "geometry":{"type":"Point","coordinates":[-1.31757,50.85444 ]}},
 { "type":"Feature","properties":{"osm_id":"29588073","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-1.35139,50.9667 ]}},
 { "type":"Feature","properties":{"osm_id":"267200021","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-1.33268,50.87641 ]}},
-{ "type":"Feature","properties":{"osm_id":"369680687","ref":"SO30 28","other":{"amenity":"post_box","collection_plate":"CP1","collection_times":"Mo-Fr 16:00; Sa 08:00","operator":"Royal Mail","post_box:type":"wall","royal_cypher":"GR"}}, "geometry":{"type":"Point","coordinates":[-1.3385,50.92414 ]}},
+{ "type":"Feature","properties":{"osm_id":"369680687","ref":"SO30 28","other":{"amenity":"post_box","brand":"Royal Mail","brand:wikidata":"Q638098","brand:wikipedia":"en:Royal Mail","collection_plate":"CP1","collection_times":"Mo-Fr 16:00; Sa 08:00","operator":"Royal Mail","operator:wikidata":"Q638098","operator:wikipedia":"en:Royal Mail","post_box:type":"wall","royal_cypher":"GR"}}, "geometry":{"type":"Point","coordinates":[-1.3385,50.92414 ]}},
 { "type":"Feature","properties":{"osm_id":"537616156","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-1.30472,50.96828 ]}},
 { "type":"Feature","properties":{"osm_id":"632871220","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-1.29272,50.95852 ]}},
 { "type":"Feature","properties":{"osm_id":"1147335937","other":{"odbl":"clean"}}, "geometry":{"type":"Point","coordinates":[-1.28272,50.93111 ]}},

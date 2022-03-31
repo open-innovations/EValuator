@@ -24,7 +24,7 @@
 { "type":"Feature","properties":{"osm_id":"1313517376","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-3.02309,51.69443 ]}},
 { "type":"Feature","properties":{"osm_id":"1315535747","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-3.00454,51.66205 ]}},
 { "type":"Feature","properties":{"osm_id":"1337236565","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-3.00395,51.65145 ]}},
-{ "type":"Feature","properties":{"osm_id":"1340987766","name":"Warren Hill","man_made":"survey_point","other":{"natural":"peak","tpuk_ref":"TP6753"}}, "geometry":{"type":"Point","coordinates":[-1.76033,50.7157 ]}},
+{ "type":"Feature","properties":{"osm_id":"1340987766","name":"Warren Hill","man_made":"survey_point","other":{"natural":"peak","tpuk_ref":"TP6753","wikidata":"Q7970264"}}, "geometry":{"type":"Point","coordinates":[-1.76033,50.7157 ]}},
 { "type":"Feature","properties":{"osm_id":"1342466780","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-3.0176,51.63169 ]}},
 { "type":"Feature","properties":{"osm_id":"1342466796","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-3.01806,51.63263 ]}},
 { "type":"Feature","properties":{"osm_id":"1356116657","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-3.01403,51.66935 ]}},

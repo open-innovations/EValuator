@@ -2,14 +2,10 @@
 "type": "FeatureCollection",
 "features": [
 { "type":"Feature","properties":{"osm_id":"279158","highway":"traffic_signals","other":{"traffic_signals:direction":"forward"}}, "geometry":{"type":"Point","coordinates":[-0.96874,51.4532 ]}},
-{ "type":"Feature","properties":{"osm_id":"279169","highway":"traffic_signals"},"geometry":{"type":"Point","coordinates":[-0.97641,51.45075 ]}},
 { "type":"Feature","properties":{"osm_id":"269804745","highway":"traffic_signals","other":{"traffic_signals:direction":"forward"}}, "geometry":{"type":"Point","coordinates":[-0.97226,51.45153 ]}},
-{ "type":"Feature","properties":{"osm_id":"366339597","highway":"traffic_signals"},"geometry":{"type":"Point","coordinates":[-0.97619,51.45084 ]}},
 { "type":"Feature","properties":{"osm_id":"1525082446","highway":"traffic_signals"},"geometry":{"type":"Point","coordinates":[-0.97371,51.45054 ]}},
 { "type":"Feature","properties":{"osm_id":"1525082448","highway":"traffic_signals"},"geometry":{"type":"Point","coordinates":[-0.97365,51.45048 ]}},
-{ "type":"Feature","properties":{"osm_id":"1956595148","highway":"traffic_signals"},"geometry":{"type":"Point","coordinates":[-0.97624,51.45069 ]}},
-{ "type":"Feature","properties":{"osm_id":"1956595170","highway":"traffic_signals"},"geometry":{"type":"Point","coordinates":[-0.97648,51.451 ]}},
-{ "type":"Feature","properties":{"osm_id":"3353026669","highway":"traffic_signals"},"geometry":{"type":"Point","coordinates":[-0.97495,51.45047 ]}},
+{ "type":"Feature","properties":{"osm_id":"3353026669","highway":"traffic_signals","other":{"traffic_signals":"junction","traffic_signals:direction":"forward"}}, "geometry":{"type":"Point","coordinates":[-0.97495,51.45047 ]}},
 { "type":"Feature","properties":{"osm_id":"4374716957","highway":"crossing","other":{"button_operated":"yes","crossing":"traffic_signals","crossing_ref":"pelican","kerb":"lowered","sloped_curb":"yes","tactile_paving":"yes","traffic_signals:sound":"no","traffic_signals:vibration":"yes"}}, "geometry":{"type":"Point","coordinates":[-0.96853,51.45319 ]}},
 { "type":"Feature","properties":{"osm_id":"4374716969","highway":"crossing","other":{"button_operated":"yes","crossing":"traffic_signals","crossing_ref":"pelican","kerb":"lowered","sloped_curb":"yes","tactile_paving":"yes","traffic_signals:sound":"no","traffic_signals:vibration":"yes"}}, "geometry":{"type":"Point","coordinates":[-0.96868,51.45323 ]}},
 { "type":"Feature","properties":{"osm_id":"4376127568","highway":"crossing","other":{"button_operated":"yes","crossing":"traffic_signals","crossing_ref":"pelican","kerb":"lowered","sloped_curb":"yes","tactile_paving":"yes","traffic_signals:sound":"no","traffic_signals:vibration":"yes"}}, "geometry":{"type":"Point","coordinates":[-0.97222,51.45156 ]}},
@@ -20,6 +16,8 @@
 { "type":"Feature","properties":{"osm_id":"6331786666","highway":"traffic_signals","other":{"traffic_signals:direction":"forward"}}, "geometry":{"type":"Point","coordinates":[-0.97742,51.45825 ]}},
 { "type":"Feature","properties":{"osm_id":"6331793189","highway":"traffic_signals","other":{"traffic_signals:direction":"forward"}}, "geometry":{"type":"Point","coordinates":[-0.97669,51.45916 ]}},
 { "type":"Feature","properties":{"osm_id":"7314651879","name":"Marathon Warehouse Distribution","other":{"office":"yes"}}, "geometry":{"type":"Point","coordinates":[-0.99708,51.46161 ]}},
+{ "type":"Feature","properties":{"osm_id":"9588571010","highway":"traffic_signals","other":{"traffic_signals":"junction","traffic_signals:direction":"forward"}}, "geometry":{"type":"Point","coordinates":[-0.97589,51.45054 ]}},
+{ "type":"Feature","properties":{"osm_id":"9588571011","highway":"traffic_signals","other":{"traffic_signals":"junction","traffic_signals:direction":"forward"}}, "geometry":{"type":"Point","coordinates":[-0.97662,51.45114 ]}},
 { "type":"Feature","properties":{"osm_way_id":"112156995","name":"Tesco Distribution Centre","landuse":"industrial"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-0.97624,51.41661],[-0.97796,51.41492],[-0.98151,51.41607],[-0.98438,51.41722],[-0.98459,51.41773],[-0.98333,51.41845],[-0.98118,51.42056],[-0.9808,51.4209],[-0.98036,51.42086],[-0.97925,51.42068],[-0.97849,51.42041],[-0.97802,51.42001],[-0.97762,51.41937],[-0.97691,51.4187],[-0.97664,51.41818],[-0.97724,51.4174],[-0.9771,51.41707],[-0.97686,51.41687],[-0.97624,51.41661]]]]}}
 ]
 }

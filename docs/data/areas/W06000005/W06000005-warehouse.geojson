@@ -18,6 +18,7 @@
 { "type":"Feature","properties":{"osm_way_id":"990097104","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.01535,53.23602],[-3.01549,53.23581],[-3.01526,53.23575],[-3.01512,53.23597],[-3.01535,53.23602]]]]}},
 { "type":"Feature","properties":{"osm_way_id":"990097105","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.01316,53.2359],[-3.01326,53.23576],[-3.01298,53.23569],[-3.01288,53.23583],[-3.01316,53.2359]]]]}},
 { "type":"Feature","properties":{"osm_way_id":"990097106","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.0182,53.23373],[-3.01834,53.23353],[-3.01785,53.23341],[-3.01771,53.23361],[-3.0182,53.23373]]]]}},
-{ "type":"Feature","properties":{"osm_way_id":"990097107","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.01863,53.23311],[-3.01875,53.23292],[-3.01836,53.23283],[-3.01824,53.23302],[-3.01863,53.23311]]]]}}
+{ "type":"Feature","properties":{"osm_way_id":"990097107","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.01863,53.23311],[-3.01875,53.23292],[-3.01836,53.23283],[-3.01824,53.23302],[-3.01863,53.23311]]]]}},
+{ "type":"Feature","properties":{"osm_way_id":"1041222426","name":"Amazon Distribution Centre","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.00749,53.22295],[-3.00591,53.22287],[-3.00603,53.22179],[-3.00764,53.22183],[-3.00749,53.22295]]]]}}
 ]
 }

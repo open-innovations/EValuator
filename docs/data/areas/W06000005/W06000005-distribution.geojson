@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{ "type":"Feature","properties":{"osm_way_id":"1041222426","name":"Amazon Distribution Centre","building":"warehouse"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-3.00749,53.22295],[-3.00591,53.22287],[-3.00603,53.22179],[-3.00764,53.22183],[-3.00749,53.22295]]]]}}
 ]
 }

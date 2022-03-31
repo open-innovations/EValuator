@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type":"Feature","properties":{"osm_id":"4561866802","name":"NBS Distribution","other":{"addr:city":"Newcastle Upon Tyne","addr:street":"Invincible Drive","office":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.63802,54.96157 ]}},
+{ "type":"Feature","properties":{"osm_id":"4625628641","name":"Brown Brothers Distribution","other":{"addr:city":"Newcastle Upon Tyne","addr:street":"Brough Park Way","shop":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.56699,54.97907 ]}},
+{ "type":"Feature","properties":{"osm_id":"4695686031","name":"Bondgate Electrical Distribution Ltd.","other":{"addr:city":"North Shields","addr:street":"Hamar Close","office":"yes"}}, "geometry":{"type":"Point","coordinates":[-1.48287,55.00445 ]}},
+{ "type":"Feature","properties":{"osm_way_id":"60693771","name":"Menzies Distribution","building":"yes","other":{"source:name":"survey (seen from motorway)"}}, "geometry":{"type":"MultiPolygon","coordinates":[[[[-2.64915,53.78271],[-2.64857,53.78284],[-2.64803,53.78201],[-2.6486,53.78188],[-2.64915,53.78271]]]]}}
+]
+}

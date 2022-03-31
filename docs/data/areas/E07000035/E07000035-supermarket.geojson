@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type":"Feature","properties":{"osm_id":"313074689","name":"Lidl","other":{"addr:city":"Orpington","addr:country":"GB","addr:housenumber":"168","addr:postcode":"Orpington","addr:street":"Sevenoaks Way","brand":"Lidl","brand:wikidata":"Q151954","brand:wikipedia":"en:Lidl","fhrs:id":"1450625","shop":"supermarket"}}, "geometry":{"type":"Point","coordinates":[0.11247,51.3992 ]}},
+{ "type":"Feature","properties":{"osm_id":"313074689","name":"Lidl","other":{"addr:city":"Orpington","addr:country":"GB","addr:housenumber":"168","addr:postcode":"BR5 3AE","addr:street":"Sevenoaks Way","brand":"Lidl","brand:wikidata":"Q151954","brand:wikipedia":"en:Lidl","fhrs:id":"1450625","opening_hours":"Mo-Sa 08:00-22:00; Su 10:00-16:00","shop":"supermarket"}}, "geometry":{"type":"Point","coordinates":[0.11247,51.3992 ]}},
 { "type":"Feature","properties":{"osm_id":"667486663","name":"Co-op Food","other":{"addr:city":"Ashbourne","addr:postcode":"DE6 1GF","brand":"Co-op Food","brand:wikidata":"Q3277439","brand:wikipedia":"en:Co-op Food","operator":"The Co-operative Group","operator:wikidata":"Q117202","operator:wikipedia":"en:The Co-operative Group","shop":"supermarket"}}, "geometry":{"type":"Point","coordinates":[-1.73166,53.01678 ]}},
 { "type":"Feature","properties":{"osm_id":"983320360","name":"The Co-operative Food","other":{"addr:postcode":"S33 9JL","addr:street":"Netherside","operator":"The Co-operative Group","phone":"+44 1433 620429","shop":"supermarket"}}, "geometry":{"type":"Point","coordinates":[-1.7404,53.3277 ]}},
 { "type":"Feature","properties":{"osm_id":"5048053667","other":{"emergency":"defibrillator"}}, "geometry":{"type":"Point","coordinates":[-1.55669,53.13911 ]}},

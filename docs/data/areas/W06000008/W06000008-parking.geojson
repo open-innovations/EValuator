@@ -70,7 +70,6 @@
 { "type":"Feature","properties":{"osm_id":"3357436514","other":{"traffic_calming":"bump"}}, "geometry":{"type":"Point","coordinates":[-4.07853,52.41328 ]}},
 { "type":"Feature","properties":{"osm_id":"4268805243","other":{"amenity":"parking","parking":"surface"}}, "geometry":{"type":"Point","coordinates":[-3.90668,52.52869 ]}},
 { "type":"Feature","properties":{"osm_id":"5158893763","other":{"amenity":"parking","parking":"layby"}}, "geometry":{"type":"Point","coordinates":[-4.31622,52.18832 ]}},
-{ "type":"Feature","properties":{"osm_id":"5239483017","other":{"amenity":"charging_station","amperage":"64","capacity":"2","operator":"Chargemaster","socket:type2":"2","socket:type2:current":"32","socket:type2:output":"7360","voltage":"230"}}, "geometry":{"type":"Point","coordinates":[-4.65955,52.08286 ]}},
 { "type":"Feature","properties":{"osm_id":"7854903528","other":{"generator:method":"photovoltaic","generator:output:electricity":"yes","generator:source":"solar","generator:type":"solar_photovoltaic_panel","location":"roof","power":"generator"}}, "geometry":{"type":"Point","coordinates":[0.62407,51.63828 ]}},
 { "type":"Feature","properties":{"osm_id":"8585364885","name":"Layby","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-3.93932,52.3824 ]}},
 { "type":"Feature","properties":{"osm_id":"8585384452","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-4.02928,52.39521 ]}},

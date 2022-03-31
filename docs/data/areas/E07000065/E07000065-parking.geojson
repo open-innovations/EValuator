@@ -44,7 +44,7 @@
 { "type":"Feature","properties":{"osm_id":"4634631068","other":{"amenity":"parking","parking":"layby"}}, "geometry":{"type":"Point","coordinates":[0.0713,51.01432 ]}},
 { "type":"Feature","properties":{"osm_id":"4796193675","other":{"amenity":"parking","parking":"surface"}}, "geometry":{"type":"Point","coordinates":[0.11813,51.03565 ]}},
 { "type":"Feature","properties":{"osm_id":"4796193683","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[0.12717,51.03973 ]}},
-{ "type":"Feature","properties":{"osm_id":"4796425604","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[0.11007,51.00386 ]}},
+{ "type":"Feature","properties":{"osm_id":"4796425604","other":{"amenity":"parking","parking":"lane"}}, "geometry":{"type":"Point","coordinates":[0.11007,51.00386 ]}},
 { "type":"Feature","properties":{"osm_id":"4854106718","name":"Newnham Way","other":{"amenity":"parking","capacity:disabled":"2","fee":"no"}}, "geometry":{"type":"Point","coordinates":[0.25206,50.96856 ]}},
 { "type":"Feature","properties":{"osm_id":"4879811866","other":{"access":"customers","amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[0.28986,50.94062 ]}},
 { "type":"Feature","properties":{"osm_id":"4908569078","name":"White Horse Inn","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[0.34617,50.90624 ]}},

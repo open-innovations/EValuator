@@ -1,19 +1,34 @@
 #!/usr/bin/perl
 # Creates GeoJSON extracts per local authority for various OSM layers
 use Data::Dumper;
+use Cwd qw(abs_path);
+
 # Get the real base directory for this script
-my $basedir = "";
-if($0 =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
-require "./".$basedir."lib.pl";
+my $basedir = "./";
+if(abs_path($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+# Step back out of the code directory
+$basedir =~ s/code\/$//g;
+require $basedir."code/lib.pl";
 
 
 # Read in the configuration JSON file
-$conf = loadConf($basedir."conf.json");
+$conf = loadConf($basedir."code/conf.json");
 
 
-# Step up a directory
-$basedir = "../".$basedir;
+$rebuild = ($ARGV[0] eq "rebuild");
 
+
+
+open(FILE,$basedir.$conf->{'lookup'}{'area'});
+@lines = <FILE>;
+close(FILE);
+%areas;
+for($i = 0; $i < @lines ; $i++){
+	$lines[$i] =~ s/[\n\r]//g;
+	($id,$name,$list) = split(/\t/,$lines[$i]);
+	$areas{$id} = {'name'=>$name};
+	@{$areas{$id}{'msoas'}} = split(/;/,$list);
+}
 
 # Define some command line tools
 $osmconvert = "osmconvert";
@@ -44,17 +59,15 @@ if(!-d $basedir.$conf->{'areas'}{'dir'}){
 
 
 
-
-# Find all the LAD GeoJSON files
-@files = ();
-opendir(SUBDIR,$basedir.$conf->{'geojson'}{'LAD'}{'dir'}) or die "Couldn't open directory, $!";
-while($file = readdir SUBDIR){
-	if($file =~ /^(.*).geojsonl/){
-		$code = $1;
-		push(@files,{'code'=>$code,'geojson'=>$basedir.$conf->{'geojson'}{'LAD'}{'dir'}.$file,'poly'=>$basedir.$conf->{'geojson'}{'LAD'}{'dir'}.$code.".poly",'dir'=>$basedir.$conf->{'geojson'}{'LAD'}{'dir'}});
+# Find all the area GeoJSON files (using the geography-bits repo)
+foreach $code (sort(keys(%areas))){
+	$type = "";
+	foreach $type (keys(%{$conf->{'geojson'}})){
+		if(-e $basedir.$conf->{'geojson'}{$type}{'dir'}.$code.".geojsonl"){
+			push(@files,{'code'=>$code,'geojson'=>$basedir.$conf->{'geojson'}{$type}{'dir'}.$file,'poly'=>$basedir.$conf->{'geojson'}{$type}{'dir'}.$code.".poly",'dir'=>$basedir.$conf->{'geojson'}{$type}{'dir'}});
+		}
 	}
 }
-closedir(SUBDIR);
 
 
 
@@ -68,6 +81,11 @@ foreach $key (sort(keys(%{$conf->{'osm'}{'extracts'}}))){
 
 	print "Layer: $key\n";
 
+	if($rebuild && -e $outfile){
+		`rm $outfile`;
+	}
+
+	# Only create the output file if we don't already have it
 	if(!-e $outfile){
 
 		print "\t$infile -> $outfile\n";
@@ -89,12 +107,17 @@ foreach $key (sort(keys(%{$conf->{'osm'}{'extracts'}}))){
 		if($outfile ne $basedir.$conf->{'osm'}{'extracts'}{$key}{'file'}){
 			`mv $outfile $basedir$conf->{'osm'}{'extracts'}{$key}{'file'}`;
 		}
+	}else{
+		print "\tSkip making extract\n";
 	}
 
 	$filesql = $basedir.$conf->{'osm'}{'extracts'}{$key}{'file'}.".sqlite";
 	$filepbf = $basedir.$conf->{'osm'}{'extracts'}{$key}{'file'}.".pbf";
 
 	# Convert to SQLite
+	if($rebuild && -e $filesql){
+		 `rm $filesql`;
+	}
 	if(!-e $filesql){
 		print "\tConverting $basedir$conf->{'osm'}{'extracts'}{$key}{'file'} to SQLite file $filesql\n";
 		`$ogr $filesql $basedir$conf->{'osm'}{'extracts'}{$key}{'file'}`;
@@ -102,7 +125,7 @@ foreach $key (sort(keys(%{$conf->{'osm'}{'extracts'}}))){
 		#print "\tAlready have SQLite file ($filesql)\n";
 	}
 
-
+print "Here\n";
 
 	for($f = 0; $f < @files; $f++){
 		
@@ -120,8 +143,7 @@ foreach $key (sort(keys(%{$conf->{'osm'}{'extracts'}}))){
 		$gfile = $adir.$files[$f]{'code'}.'-'.$key.".geojson";
 
 
-
-		if(!-e $gfile || $ARGV[0] eq "rebuild" || $conf->{'osm'}{'extracts'}{$key}{'rebuild'}){
+		if(!-e $gfile || $rebuild || $conf->{'osm'}{'extracts'}{$key}{'rebuild'}){
 			
 			print "\t$files[$f]{'code'}\n";
 			

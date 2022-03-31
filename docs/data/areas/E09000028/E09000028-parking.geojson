@@ -7,6 +7,8 @@
 { "type":"Feature","properties":{"osm_id":"481643842","other":{"access":"private","amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-0.09784,51.4776 ]}},
 { "type":"Feature","properties":{"osm_id":"481644166","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-0.09358,51.47529 ]}},
 { "type":"Feature","properties":{"osm_id":"648861195","other":{"amenity":"parking","operator":"UCP","postal_code":"SE1 0UE","url":"http:\/\/www.unioncarparks.co.uk\/Great%20Suffolk%20%20St.html"}}, "geometry":{"type":"Point","coordinates":[-0.10117,51.50417 ]}},
+{ "type":"Feature","properties":{"osm_id":"1023150511","other":{"noexit":"yes"}}, "geometry":{"type":"Point","coordinates":[-2.56191,51.4492 ]}},
+{ "type":"Feature","properties":{"osm_id":"1023151202","other":{"noexit":"yes"}}, "geometry":{"type":"Point","coordinates":[-2.5619,51.44905 ]}},
 { "type":"Feature","properties":{"osm_id":"1165697952","other":{"amenity":"parking","capacity":"1"}}, "geometry":{"type":"Point","coordinates":[-0.05267,51.50132 ]}},
 { "type":"Feature","properties":{"osm_id":"1185814937","other":{"amenity":"parking"}}, "geometry":{"type":"Point","coordinates":[-0.10034,51.49835 ]}},
 { "type":"Feature","properties":{"osm_id":"1695350243","name":"Edward Square & Prince Regent Court Parking","other":{"amenity":"parking","capacity":"30","maxstay":"Resident only","noexit":"yes","operator":"Private","parking":"surface"}}, "geometry":{"type":"Point","coordinates":[-0.03596,51.50674 ]}},

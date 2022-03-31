@@ -9,6 +9,7 @@ Currently the tool contains Local Authorities and Combined Authorities. If you w
 	* `docs/data/areas/CODE/CODE-msoas.tsv` - the MSOAs for this area with their House of Commons names
 	* `docs/data/areas/CODE/CODE.geojson` - a GeoJSON file with all the MSOA polygons for this area
   * `perl makeMSOAGeoJSON.pl`  - creates MSOA-level extracts from the area extracts in preparation for analysis
+  * `perl extractOSM.pl rebuild` - re-creates all the OSM data and saves area-based extracts in `docs/data/areas/CODE/`
   * `perl buildScores.pl` - this will update the scores for every area listed in `docs/data/areas.tsv` creating `docs/data/areas/CODE/CODE.csv` as necessary
 
 ## Updating layers
