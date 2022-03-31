@@ -2,16 +2,16 @@
 
 <!-- Start Badges -->
 [![score update](badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)
-[![score update index-of-transport-accessibility](index-of-transport-accessibility.svg)](https://github.com/dringtech/index-of-transport-accessibility/)
-![score update ulev](ulev.svg)
-![score update estimated-parking-capacity](estimated-parking-capacity.svg)
-![score update evhs](evhs.svg)
-[![score update chargepoints](chargepoints.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateChargepointLayer.pl)
-[![score update grid-capacity](grid-capacity.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateCapacityLayer.pl)
-![score update distribution-centres](distribution-centres.svg)
-![score update supermarket](supermarket.svg)
-![score update warehouse](warehouse.svg)
-[![score update brownfield](brownfield.svg)](https://github.com/open-innovations/brownfield-land/actions/workflows/update.yml)
+[![score update index-of-transport-accessibility](badge-score-update-index-of-transport-accessibility.svg)](https://github.com/dringtech/index-of-transport-accessibility/)
+![score update ulev](badge-score-update-ulev.svg)
+![score update estimated-parking-capacity](badge-score-update-estimated-parking-capacity.svg)
+![score update evhs](badge-score-update-evhs.svg)
+[![score update chargepoints](badge-score-update-chargepoints.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateChargepointLayer.pl)
+[![score update grid-capacity](badge-score-update-grid-capacity.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateCapacityLayer.pl)
+![score update distribution-centres](badge-score-update-distribution-centres.svg)
+![score update supermarket](badge-score-update-supermarket.svg)
+![score update warehouse](badge-score-update-warehouse.svg)
+[![score update brownfield](badge-score-update-brownfield.svg)](https://github.com/open-innovations/brownfield-land/actions/workflows/update.yml)
 <!-- End Badges -->
 
 The EValuator is a prototype which demonstrates an approach to integrated planning across several disciplines (land use, sustainability, energy, transport). It aims to encourage cross-domain collaboration by presenting ***data*** in the form of contextually presented layers and ***expert knowledge*** in the form of simple estimation models. This puts the ability to explore scheme feasibility in the hands of non-domain experts.

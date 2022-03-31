@@ -90,7 +90,7 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 				# Save a badge for this layer
 				saveBadge($basedir."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg","layer: $json->[$c]{'layers'}[$l]{'id'}",$lastmod);
 				$badges .= ($json->[$c]{'layers'}[$l]{'update'} ? '[':'');
-				$badges .= "![score update $json->[$c]{'layers'}[$l]{'id'}]($json->[$c]{'layers'}[$l]{'id'}.svg)";
+				$badges .= "![score update $json->[$c]{'layers'}[$l]{'id'}](badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg)";
 				$badges .= ($json->[$c]{'layers'}[$l]{'update'} ? ']('.$json->[$c]{'layers'}[$l]{'update'}.')' : '')."\n";
 			}
 		}
