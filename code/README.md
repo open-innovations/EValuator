@@ -8,20 +8,19 @@ Currently the tool contains Local Authorities and Combined Authorities. If you w
     * `docs/data/areas/CODE/` - the sub-directory
 	* `docs/data/areas/CODE/CODE-msoas.tsv` - the MSOAs for this area with their House of Commons names
 	* `docs/data/areas/CODE/CODE.geojson` - a GeoJSON file with all the MSOA polygons for this area
-  * `perl makeMSOAGeoJSON.pl`  - creates MSOA-level extracts from the area extracts in preparation for analysis
-  * `perl extractOSM.pl rebuild` - re-creates all the OSM data and saves area-based extracts in `docs/data/areas/CODE/`
-  * `perl buildScores.pl` - this will update the scores for every area listed in `docs/data/areas.tsv` creating `docs/data/areas/CODE/CODE.csv` as necessary
 
 ## Updating layers
 
-  * `extractOSM.pl` - creates GeoJSON extracts per local authority for various OSM layers
-  * `buildLayer-carpark-capacity.pl` - builds the carpark capacity CSV using the MSOA-level extracts of parking
-  * `buildLayer-distribution-centres.pl` - builds the distribution centre CSV using the MSOA-level extracts of distribution centres
+  * `perl extractOSM.pl rebuild` - creates GeoJSON extracts per local authority for various OSM layers
+  * `perl makeMSOAGeoJSON.pl rebuild`  - creates MSOA-level extracts from the area extracts in preparation for analysis
+  * `perl updateCarparkLayer.pl` - builds the carpark capacity CSV using the MSOA-level extracts of parking
+  * `perl updateDistributionLayer.pl` - builds the distribution centre CSV using the MSOA-level extracts of distribution centres
   * `perl updateChargepointLayer.pl` - this will:
      1. download the latest data from the National Chargepoint Registry
 	 2. update the chargepoint list at `docs/data/chargepoints.csv` and the individual chargepoint JSON files in `docs/data/chargepoints` for the map view
 	 3. update the chargepoint MSOA layer at `docs/data/layers/chargepoints.csv` (you'll need to run `buildScores.pl` again to update the layers properly)
   * `perl updateCapacityLayer.pl` - builds the grid capacity layer at `docs/data/layers/grid-capacity.csv`
+  * `perl buildScores.pl` - this will update the scores for every area listed in `docs/data/areas.tsv` creating `docs/data/areas/CODE/CODE.csv` as necessary
 
 
 

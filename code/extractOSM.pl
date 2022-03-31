@@ -125,8 +125,6 @@ foreach $key (sort(keys(%{$conf->{'osm'}{'extracts'}}))){
 		#print "\tAlready have SQLite file ($filesql)\n";
 	}
 
-print "Here\n";
-
 	for($f = 0; $f < @files; $f++){
 		
 		$adir = $basedir.$conf->{'areas'}{'dir'}.$files[$f]{'code'}."/";

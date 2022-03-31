@@ -10,23 +10,21 @@ use strict;
 use warnings;
 use JSON::XS;
 use Data::Dumper;
-
+use Cwd qw(abs_path);
 
 # Get the real base directory for this script
 my $basedir = "./";
-if($0 =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
-require "./".$basedir."lib.pl";
+if(abs_path($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+# Step back out of the code directory
+$basedir =~ s/code\/$//g;
+require $basedir."code/lib.pl";
 
-my ($conf,$coder,$file,$csv,@lines,$str,$json,@features,$f,$i,@cols,$dir,$area,$capacity,$estimate,$totalarea,$totalcapacity,$levels,$multi,%msoas,$msoa);
 
+my ($conf,$coder,$file,$csv,@lines,$str,$json,@features,$f,$i,@cols,$dir,$area,$capacity,$estimate,$totalarea,$totalcapacity,$levels,$multi,%msoas,$msoa,$n);
 
 
 # Read in the configuration JSON file
-$conf = loadConf($basedir."conf.json");
-
-
-# Step up a directory
-$basedir = "../".$basedir;
+$conf = loadConf($basedir."code/conf.json");
 
 
 $dir = $basedir."tmp/MSOA/";
@@ -71,6 +69,7 @@ foreach $msoa (sort(keys(%msoas))){
 		# Get the features
 		@features = @{$json->{'features'}};
 
+		$n += @features;
 
 		# Calculate the total area
 		for($f = 0; $f < @features; $f++){
@@ -111,3 +110,5 @@ print "Saving to $conf->{'basedir'}$conf->{'layers'}{'dir'}estimated-parking-cap
 open(FILE,">",$conf->{'basedir'}.$conf->{'layers'}{'dir'}."estimated-parking-capacity.csv");
 print FILE $csv;
 close(FILE);
+
+saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-carpark.svg","carpark",$n,"SUCCESS");

@@ -1,5 +1,4 @@
 #!/usr/bin/perl
-# buildLayer-area (version 1.0)
 # We read in the MSOA-level GeoJSON extracts for distribution centres that we've previously created
 # For each polygon/multipolygon we:
 #	- calculate the area
@@ -7,25 +6,26 @@ use strict;
 use warnings;
 use JSON::XS;
 use Data::Dumper;
-
+use Cwd qw(abs_path);
 
 # Get the real base directory for this script
 my $basedir = "./";
-if($0 =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
-require "./".$basedir."lib.pl";
+if(abs_path($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+# Step back out of the code directory
+$basedir =~ s/code\/$//g;
+require $basedir."code/lib.pl";
 
-my ($conf,$layer,$coder,$file,$csv,@lines,$str,$json,@features,$f,$i,@cols,$dir,$area,$capacity,$estimate,$totalarea,$totalcapacity,$levels,$multi,%msoas,$msoa);
+
+my ($conf,$layer,$coder,$file,$csv,@lines,$str,$json,@features,$f,$i,@cols,$dir,$area,$capacity,$estimate,$totalarea,$totalcapacity,$levels,$multi,%msoas,$msoa,$n);
 
 
 # Read in the configuration JSON file
-$conf = loadConf($basedir."conf.json");
+$conf = loadConf($basedir."code/conf.json");
 
 
 $layer = $ARGV[0]||"distribution";
 print "Calculating areas for $layer layer.\n";
 
-# Step up a directory
-$basedir = "../".$basedir;
 
 
 $dir = $basedir."tmp/MSOA/";
@@ -69,16 +69,17 @@ foreach $msoa (sort(keys(%msoas))){
 		# Get the features
 		@features = @{$json->{'features'}};
 
-
+		$n += @features;
 		# Calculate the total area
 		for($f = 0; $f < @features; $f++){
 
 			if($features[$f]{'geometry'}{'type'} eq "Polygon" || $features[$f]{'geometry'}{'type'} eq "MultiPolygon"){
 				$area = geometry($features[$f]{'geometry'});
 				$totalarea += $area;
-			}else{
 			}
 		}
+	}else{
+		print "No file for $msoa\n";
 	}
 	$csv .= sprintf("%.2f",$totalarea)."\n";
 
@@ -89,3 +90,6 @@ print "Saving to $conf->{'basedir'}$conf->{'layers'}{'dir'}$layer.csv\n";
 open(FILE,">",$conf->{'basedir'}.$conf->{'layers'}{'dir'}."$layer.csv");
 print FILE $csv;
 close(FILE);
+
+
+saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-distribution.svg","distribution",$n,"SUCCESS");

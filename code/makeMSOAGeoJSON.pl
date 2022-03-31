@@ -2,18 +2,21 @@
 # Create MSOA-level extracts of the data layers by clipping the LAD-level extracts with the MSOA boundary
 
 use Data::Dumper;
+use Cwd qw(abs_path);
+
 # Get the real base directory for this script
 my $basedir = "./";
-if((readlink $ENV{'SCRIPT_FILENAME'} || $0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
-require "./".$basedir."lib.pl";
+if(abs_path($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+# Step back out of the code directory
+$basedir =~ s/code\/$//g;
+require $basedir."code/lib.pl";
 
 
 # Read in the configuration JSON file
-$conf = loadConf($basedir."conf.json");
+$conf = loadConf($basedir."code/conf.json");
 
-# Step up a directory
-$basedir = "../".$basedir;
 
+$rebuild = ($ARGV[0] eq "rebuild");
 
 
 %lookup = getLookup($basedir.$conf->{'lookup'}{'file'});
@@ -61,6 +64,9 @@ for($m = 0; $m < @msoaorder; $m++){
 			$lfile = $basedir.$conf->{'areas'}{'dir'}.$lookup{'MSOA'}{$msoa}."/$lookup{'MSOA'}{$msoa}-$layer.geojson";
 
 			if(-e $lfile){
+				if($rebuild && -e $gfile){
+					`rm $gfile`;
+				}
 				if(!-e $gfile){
 					print "Creating $gfile\n";
 					`ogr2ogr -f GeoJSON $gfile $lfile -clipsrc $bfile 2>&1`;
