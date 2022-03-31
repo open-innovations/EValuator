@@ -7,6 +7,7 @@
 
 	export let layer = undefined;
   export let style = undefined;
+  export let filter = undefined;
 
   export let feature = undefined;
  
@@ -29,7 +30,7 @@
     if (layer) {
       // layer.setLatLng(latLng);
     } else {
-      layer = L.geoJSON(feature).addTo(layerGroup);
+      layer = L.geoJSON(feature, { filter }).addTo(layerGroup);
     }
   }
   $: if(style && layer) layer.setStyle(style);

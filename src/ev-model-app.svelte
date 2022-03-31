@@ -30,6 +30,8 @@
     latlng.lng = parseFloat(latlng.lng.toFixed(5));
     site.setLocation(latlng);
   };
+
+  const filter = (feature) => !(feature.geometry.type === 'Point');
 </script>
 
 <h1>Stage 2: Modelling</h1>
@@ -42,8 +44,10 @@
       </Popup>
     </Marker>
     <GeoJson feature={ $location?.msoa } bind:layer={ msoaOutline } style={ style.msoaFocus }></GeoJson>
-    <GeoJson feature={ $location?.warehouse } style={ style.distribution }></GeoJson>
-    <GeoJson feature={ $location?.distribution } style={ style.distribution }></GeoJson>
+    <GeoJson feature={ $location?.parking } style={ style.parking } { filter }></GeoJson>
+    <GeoJson feature={ $location?.supermarket } style={ style.supermarket } { filter }></GeoJson>
+    <GeoJson feature={ $location?.distribution } style={ style.distribution } { filter }></GeoJson>
+    <GeoJson feature={ $location?.warehouse } style={ style.warehouse } { filter }></GeoJson>
   </Leaflet>
 </div>
 

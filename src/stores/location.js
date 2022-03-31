@@ -8,7 +8,7 @@ function tryToConvertToNumber(x) {
 }
 
 function parseCsv(text) {
-  const [ heading, ...data ] = text.split('\n').map(r => r.split(/\"{0,1},\"{0,1}/));
+  const [heading, ...data] = text.split('\n').map(r => r.split(/\"{0,1},\"{0,1}/));
   return data.map(row => {
     return heading.reduce((a, k, i) => ({ ...a, [k]: tryToConvertToNumber(row[i]) }), {})
   });
@@ -20,13 +20,17 @@ async function getAreaData(areaCode) {
     fetch(`${prefix}/${areaCode}.geojson`).then(x => x.json()).catch(_ => undefined),
     fetch(`${prefix}/${areaCode}-warehouse.geojson`).then(x => x.json()).catch(_ => undefined),
     fetch(`${prefix}/${areaCode}-distribution.geojson`).then(x => x.json()).catch(_ => undefined),
+    fetch(`${prefix}/${areaCode}-parking.geojson`).then(x => x.json()).catch(_ => undefined),
+    fetch(`${prefix}/${areaCode}-supermarket.geojson`).then(x => x.json()).catch(_ => undefined),
     fetch(`${prefix}/${areaCode}.csv`).then(x => x.text()).then(parseCsv).catch(_ => undefined),
   ];
-  const [geojson, warehouse, distribution, layerData, ...rest] = await Promise.all(req);
+  const [geojson, warehouse, distribution, parking, supermarket, layerData] = await Promise.all(req);
   return {
     geojson,
     warehouse,
     distribution,
+    parking,
+    supermarket,
     layerData,
   };
 }
