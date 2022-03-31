@@ -40,7 +40,7 @@ $csv = Text::CSV->new ({ binary => 1 });
 
 
 # Load the MSOA features
-@msoafeatures = loadMSOAs($basedir.$conf->{'geojson'}{'MSOA'}{'all'});
+@msoafeatures = loadFeatures($basedir.$conf->{'geojson'}{'MSOA'}{'all'});
 
 
 # Step 1: Get the chargepoints data
@@ -195,46 +195,4 @@ sub getFile {
 	return (-e $file);
 }
 
-
-sub loadMSOAs {
-	my $file = $_[0];
-	my (@lines,$str,$coder,$json,@features,$f,$g,$minlat,$maxlat,$minlon,$maxlon,@gs,$n);
-
-	# Create a JSON parser
-	$coder = JSON::XS->new->utf8->canonical(1);
-
-	print "Reading MSOA GeoJSON file from $file\n";
-	open(FILE,$file);
-	@lines = <FILE>;
-	close(FILE);
-	
-	
-
-	$str = join("",@lines);
-	$json = $coder->decode($str);
-	@features = @{$json->{'features'}};
-	$f = @features;
-	# Loop over features and add rough bounding box
-	for($g = 0; $g < $f; $g++){
-		$minlat = 90;
-		$maxlat = -90;
-		$minlon = 180;
-		$maxlon = -180;
-		if($features[$g]->{'geometry'}->{'type'} eq "Polygon"){
-			@gs = @{$features[$g]->{'geometry'}->{'coordinates'}[0]};
-		}elsif($features[$g]->{'geometry'}->{'type'} eq "MultiPolygon"){
-			# Only keep first item of MultiPolygon as the rest are holes
-			@gs = @{$features[$g]->{'geometry'}->{'coordinates'}[0][0]};
-		}
-		$n = @gs;
-		for($i = 0; $i < $n; $i++){
-			if($gs[$i][0] < $minlon){ $minlon = $gs[$i][0]; }
-			if($gs[$i][0] > $maxlon){ $maxlon = $gs[$i][0]; }
-			if($gs[$i][1] < $minlat){ $minlat = $gs[$i][1]; }
-			if($gs[$i][1] > $maxlat){ $maxlat = $gs[$i][1]; }
-		}
-		$features[$g]->{'geometry'}{'bbox'} = {'S'=>$minlat,'N'=>$maxlat,'W'=>$minlon,'E'=>$maxlon};
-	}
-	return @features;
-}
 

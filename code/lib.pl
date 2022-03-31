@@ -433,25 +433,132 @@ sub getFeature {
 	my $lon = shift(@_);
 	my @features = @_;
 	
-	my ($g,$n,$ok,@gs);
-	for($g = 0; $g < @features; $g++){
+	my ($f,$n,$ok,@gs);
+	for($f = 0; $f < @features; $f++){
+		$ok = 0;
+
 		# Use pre-computed bounding box to do a first cut - this makes things a lot quicker
-		if($lat >= $features[$g]->{'geometry'}{'bbox'}{'S'} && $lat <= $features[$g]->{'geometry'}{'bbox'}{'N'} && $lon >= $features[$g]->{'geometry'}{'bbox'}{'W'} && $lon <= $features[$g]->{'geometry'}{'bbox'}{'E'}){
-			if($features[$g]->{'geometry'}->{'type'} eq "Polygon"){
-				@gs = @{$features[$g]->{'geometry'}->{'coordinates'}[0]};
-			}elsif($features[$g]->{'geometry'}->{'type'} eq "MultiPolygon"){
-				# Only keep first item of MultiPolygon as the rest are holes
-				@gs = @{$features[$g]->{'geometry'}->{'coordinates'}[0][0]};
+		if($lat >= $features[$f]->{'geometry'}{'bbox'}{'lat'}{'min'} && $lat <= $features[$f]->{'geometry'}{'bbox'}{'lat'}{'max'} && $lon >= $features[$f]->{'geometry'}{'bbox'}{'lon'}{'min'} && $lon <= $features[$f]->{'geometry'}{'bbox'}{'lon'}{'max'}){
+
+			# Is this a Polygon?
+			if($features[$f]->{'geometry'}->{'type'} eq "Polygon"){
+
+				@gs = @{$features[$f]->{'geometry'}->{'coordinates'}[0]};
+				$ok = withinPolygon($lat,$lon,@{$features[$f]->{'geometry'}->{'coordinates'}});
+
+			}elsif($features[$f]->{'geometry'}->{'type'} eq "MultiPolygon"){
+
+				$n = @{$features[$f]->{'geometry'}->{'coordinates'}};
+				$ok = withinMultiPolygon($lat,$lon,@{$features[$f]->{'geometry'}->{'coordinates'}});
+
 			}
-			$n = @gs;
-			$ok = (PtInPoly( \@gs, [$lon,$lat]) ? 1 : 0);
 			if($ok){
-				return $features[$g]->{'properties'}->{$key};
+				return $features[$f]->{'properties'}->{'msoa11cd'};
 			}
 		}
 	}
 	return "";
 }
 
+sub withinMultiPolygon {
+	my @gs = @_;
+	my ($lat,$lon,$p,$n,$ok);
+	$lat = shift(@gs);
+	$lon = shift(@gs);
+	$n = @gs;
+
+	for($p = 0; $p < $n; $p++){
+		if(withinPolygon($lat,$lon,@{$gs[$p]})){
+			return 1;
+		}
+	}
+	return 0;
+}
+
+sub withinPolygon {
+	my @gs = @_;
+	my ($lat,$lon,$p,$n,$ok,$hole);
+	$lat = shift(@gs);
+	$lon = shift(@gs);
+	$ok = 0;
+	$n = @gs;
+
+	$ok = (PtInPoly( \@{$gs[0]}, [$lon,$lat]) ? 1 : 0);
+
+	if($ok){
+		if($n > 1){
+			#print "Check if in hole\n";
+			for($p = 1; $p < $n; $p++){
+				$hole = (PtInPoly( \@{$gs[$p]}, [$lon,$lat]) ? 1 : 0);
+				if($hole){
+					return 0;
+				}
+			}
+		}
+		return 1;
+	}
+
+	return 0;
+}
+
+sub loadFeatures {
+	my $file = $_[0];
+	my (@lines,$str,$coder,$json,@features,$f,$minlat,$maxlat,$minlon,$maxlon,@gs,$n);
+
+	# Create a JSON parser
+	$coder = JSON::XS->new->utf8->canonical(1);
+
+	print "Reading MSOA GeoJSON file from $file\n";
+	open(FILE,$file);
+	@lines = <FILE>;
+	close(FILE);
+	
+	
+
+	$str = join("",@lines);
+	$json = $coder->decode($str);
+	@features = @{$json->{'features'}};
+	# Loop over features and add rough bounding box
+	for($f = 0; $f < @features; $f++){
+		$minlat = 90;
+		$maxlat = -90;
+		$minlon = 180;
+		$maxlon = -180;
+		if($features[$f]->{'geometry'}->{'type'} eq "Polygon"){
+			($minlat,$maxlat,$minlon,$maxlon) = getBBox($minlat,$maxlat,$minlon,$maxlon,@{$features[$f]->{'geometry'}->{'coordinates'}});
+			# Set the bounding box
+			$features[$f]->{'geometry'}{'bbox'} = {'lat'=>{'min'=>$minlat,'max'=>$maxlat},'lon'=>{'min'=>$minlon,'max'=>$maxlon}};
+		}elsif($features[$f]->{'geometry'}->{'type'} eq "MultiPolygon"){
+			$n = @{$features[$f]->{'geometry'}->{'coordinates'}};
+			for($p = 0; $p < $n; $p++){
+				($minlat,$maxlat,$minlon,$maxlon) = getBBox($minlat,$maxlat,$minlon,$maxlon,@{$features[$f]->{'geometry'}->{'coordinates'}[$p]});
+			}
+			# Set the bounding box
+			$features[$f]->{'geometry'}{'bbox'} = {'lat'=>{'min'=>$minlat,'max'=>$maxlat},'lon'=>{'min'=>$minlon,'max'=>$maxlon}};
+		}else{
+			#print "ERROR: Unknown geometry type $features[$f]->{'geometry'}->{'type'}\n";
+		}
+
+	}
+	return @features;
+}
+
+sub getBBox {
+	my @gs = @_;
+	my ($minlat,$maxlat,$minlon,$maxlon,$n,$i);
+	$minlat = shift(@gs);
+	$maxlat = shift(@gs);
+	$minlon = shift(@gs);
+	$maxlon = shift(@gs);
+	$n = @{$gs[0]};
+
+	for($i = 0; $i < $n; $i++){
+		if($gs[0][$i][0] < $minlon){ $minlon = $gs[0][$i][0]; }
+		if($gs[0][$i][0] > $maxlon){ $maxlon = $gs[0][$i][0]; }
+		if($gs[0][$i][1] < $minlat){ $minlat = $gs[0][$i][1]; }
+		if($gs[0][$i][1] > $maxlat){ $maxlat = $gs[0][$i][1]; }
+	}
+	return ($minlat,$maxlat,$minlon,$maxlon);
+}
 
 1;
