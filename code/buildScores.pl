@@ -16,7 +16,7 @@ require $basedir."code/lib.pl";
 $conf = loadConf($basedir."code/conf.json");
 
 
-
+%months = ('Jan'=>'01','Feb'=>'02','Mar'=>'03','Apr'=>'04','May'=>'05','Jun'=>'06','Jul'=>'07','Aug'=>'08','Sep'=>'09','Oct'=>'10','Nov'=>'11','Dec'=>'12');
 
 # Load file with areas we need to create scores for
 %areas;
@@ -30,9 +30,8 @@ for($i = 1; $i < @lines; $i++){
 close(FILE);
 
 
-
 $coder = JSON::XS->new->utf8->canonical(1);
-
+$badges = "";
 %msoa;
 if(!-e $basedir.$conf->{'layers'}{'file'}){
 	print "WARNING: No domains file at $basedir$conf->{'layers'}{'file'}\n";
@@ -66,6 +65,8 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 				if($src =~ /^http/){
 					print "Downloading file from: $src\n";
 					@lines = `wget -q --no-check-certificate -O- "$src"`;
+					
+					$lastmod = getLastUpdateURL($src);
 				}else{
 					$tdir = $basedir.$conf->{'layers'}{'file'};
 					$tdir =~ s/[^\/]*$//;
@@ -75,6 +76,7 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 						@lines = <FILE>;
 						close(FILE);
 					}
+					$lastmod = strftime("%FT%H:%M",gmtime((stat($tdir.$src))[9]));
 				}
 
 				for($i = 0; $i < @lines; $i++){
@@ -85,10 +87,33 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 						$msoa{$m}{$json->[$c]{'layers'}[$l]{'id'}} = $score;
 					}
 				}
+				# Save a badge for this layer
+				saveBadge($basedir."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg","layer: $json->[$c]{'layers'}[$l]{'id'}",$lastmod);
+				$badges .= ($json->[$c]{'layers'}[$l]{'update'} ? '[':'');
+				$badges .= "![score update $json->[$c]{'layers'}[$l]{'id'}]($json->[$c]{'layers'}[$l]{'id'}.svg)";
+				$badges .= ($json->[$c]{'layers'}[$l]{'update'} ? ']('.$json->[$c]{'layers'}[$l]{'update'}.')' : '')."\n";
 			}
 		}
 	}
 }
+
+
+saveBadge($basedir."badge-score-update.svg","scores updated",strftime("%F",gmtime));
+$badges = "[![score update](badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)\n".$badges;
+
+# Add badge list to README.md
+open(README,$basedir."README.md");
+@lines = <README>;
+close(README);
+$str = join("",@lines);
+$str =~ s/[\n]/:NEWLINE:/g;
+$str =~ s/(\<\!-- Start Badges --\>).*(\<\!-- End Badges --\>)/$1\n$badges$2/g;
+$str =~ s/:NEWLINE:/\n/g;
+open(README,">",$basedir."README.md");
+print README $str;
+close(README);
+
+
 
 
 foreach $a (sort(keys(%areas))){
@@ -132,4 +157,30 @@ foreach $a (sort(keys(%areas))){
 
 }
 
-saveBadge($basedir."badge-score-update.svg","scores updated",strftime("%F",gmtime));
+
+
+
+
+###########################
+sub getLastUpdateURL {
+	my $src = $_[0];
+	my (@hlines,$lastmod,$line,$json,$str);
+	$lastmod = "";
+
+	if($src =~ /\/\/github.com\/([^\/]+)\/([^\/]+)\/raw\/[^\/]+\/(.*)/){
+		# Use the Github API to find out the data about the last commit
+		$src = "https://api.github.com/repos/$1/$2/commits?path=$3\&page=1\&per_page=1";
+		$str = `wget -q --no-check-certificate -O- "$src"`;
+		$json = $coder->decode($str);
+		return $json->[0]{'commit'}{'author'}{'date'};
+	}else{
+		# Get the URL headers
+		@hlines = `curl -sI "$src"`;
+		foreach $line (@hlines){
+			if($line =~ /last-modified.*([0-9]{1,2}) ([A-Za-z]+) ([0-9]{4}) ([0-9]{2}:[0-9]{2}):[0-9]{2} ([A-Z]+)/i){
+				$lastmod = "$3-".($months{substr($2,0,3)})."-".sprintf("%02d",$1)."T$4";
+			}
+		}
+	}
+	return $lastmod;
+}

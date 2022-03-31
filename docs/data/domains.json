@@ -6,6 +6,7 @@
 		"title": "Transport accessibility",
 		"desc": "An index created to show transport accessibilty across the North of England. This builds on the <a href='https://github.com/odileeds/OpenJourneyTime'>Open Journey Time</a> work by Open Innovations for Transport for the North.",
 		"src": "https://github.com/dringtech/index-of-transport-accessibility/raw/main/accessibility_index.csv",
+		"update": "https://github.com/dringtech/index-of-transport-accessibility/",
 		"weight": 0.5,
 		"attrib": ["<a href=\"https://open-innovations.org/\">Open Innovations</a>","<a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"]
 	},{
@@ -39,6 +40,7 @@
 		"title": "Existing chargepoints",
 		"desc": "The number of chargepoints in the National Chargepoint Registry.",
 		"src": "layers/chargepoints.csv",
+		"update": "https://github.com/open-innovations/EValuator/blob/main/code/updateChargepointLayer.pl",
 		"invert": true,
 		"weight": 0.5,
 		"attrib": ["<a href=\"https://chargepoints.dft.gov.uk/\">National Chargepoint Registry</a>"]
@@ -47,6 +49,7 @@
 		"title": "Grid capacity",
 		"desc": "A prediction of the largest available capacity (MW) of a nearby Primary Supply Point. This uses 2030 values from the Steady Progression DFES scenario. We only have data for Northern Powergrid's DNO area.",
 		"src": "layers/grid-capacity.csv",
+		"update": "https://github.com/open-innovations/EValuator/blob/main/code/updateCapacityLayer.pl",
 		"weight": 0.5,
 		"attrib": ["<a href=\"https://github.com/odileeds/northern-powergrid/tree/master/2021-DFES/data/scenarios/primaries\">NorthernPowergrid & ElementEnergy 2021</a>"]
 	}]
@@ -78,7 +81,8 @@
 		"id": "brownfield",
 		"title": "Brownfield sites",
 		"desc": "<a href=\"https://www.digital-land.info/dataset/brownfield-land\">Brownfield land</a> is currently, or was previously, land built on and therefore is prioritised for development. This uses the latest data included in <a href=\"https://github.com/digital-land/brownfield-land-collection/blob/main/collection/source.csv\">Digital Land's collection</a> of local authority Brownfield Land publications.",
-		"src": "https://raw.githubusercontent.com/open-innovations/brownfield-land/main/data/brownfield-areas.csv",
+		"src": "https://github.com/open-innovations/brownfield-land/raw/main/data/brownfield-areas.csv",
+		"update": "https://github.com/open-innovations/brownfield-land/actions/workflows/update.yml",
 		"weight": 0.5,
 		"attrib": ["<a href=\"https://github.com/digital-land/brownfield-land-collection\">Digital Land &copy; Crown copyright (OGL3)</a>"]
 	}]
