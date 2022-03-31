@@ -11,23 +11,31 @@
 			"distribution": {
 				"steps": ["--keep=\"name=*Distribution*\" --drop=\"amenity=loading_dock or power=generator\" --drop-relations"],
 				"file": "raw/GB-distribution.o5m",
-				"layers": ["points","polygons","multipolygons"]
+				"layers": ["points","polygons","multipolygons"],
+				"csv": "distribution.csv",
+				"badge": "badge-distribution-centres.svg"
 			},
 			"parking": {
 				"steps": ["--keep=\"amenity=parking\" --drop=\"barrier= or entrance=\" --drop-relations"],
 				"file": "raw/GB-parking.o5m",
 				"layers": ["points","polygons","multipolygons"],
-				"rebuild": true
+				"rebuild": true,
+				"csv": "estimated-parking-capacity.csv",
+				"badge": "badge-parking.svg"
 			},
 			"supermarket": {
 				"steps": ["--keep=\"shop=supermarket\" --drop=\"entrance= amenity=atm barrier=\" --drop-relations"],
 				"file": "raw/GB-supermarket.o5m",
-				"layers": ["points","polygons","multipolygons"]
+				"layers": ["points","polygons","multipolygons"],
+				"csv": "supermarket.csv",
+				"badge": "badge-supermarket.svg"
 			},
 			"warehouse": {
 				"steps": ["--keep=\"building=warehouse\" --drop=\"entrance= barrier=\" --drop-relations"],
 				"file": "raw/GB-warehouse.o5m",
-				"layers": ["points","polygons","multipolygons"]
+				"layers": ["points","polygons","multipolygons"],
+				"csv": "warehouse.csv",
+				"badge": "badge-warehouse.svg"
 			}
 		}
 	},

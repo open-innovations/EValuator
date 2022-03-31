@@ -13,8 +13,10 @@ Currently the tool contains Local Authorities and Combined Authorities. If you w
 
   * `perl extractOSM.pl rebuild` - creates GeoJSON extracts per local authority for various OSM layers
   * `perl makeMSOAGeoJSON.pl rebuild`  - creates MSOA-level extracts from the area extracts in preparation for analysis
-  * `perl updateParkingLayer.pl` - builds the carpark capacity CSV using the MSOA-level extracts of parking
-  * `perl updateDistributionLayer.pl` - builds the distribution centre CSV using the MSOA-level extracts of distribution centres
+  * `perl updateOSMAreaLayer.pl parking` - builds the carpark capacity CSV using the MSOA-level extracts of parking
+  * `perl updateOSMAreaLayer.pl distribution` - builds the distribution centre CSV using the MSOA-level extracts of distribution centres
+  * `perl updateOSMAreaLayer.pl supermarket` - builds the supermarket CSV using the MSOA-level extracts of supermarkets
+  * `perl updateOSMAreaLayer.pl warehouse` - builds the warehouse CSV using the MSOA-level extracts of warehouses
   * `perl updateChargepointLayer.pl` - this will:
      1. download the latest data from the National Chargepoint Registry
 	 2. update the chargepoint list at `docs/data/chargepoints.csv` and the individual chargepoint JSON files in `docs/data/chargepoints` for the map view

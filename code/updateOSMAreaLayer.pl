@@ -16,7 +16,7 @@ $basedir =~ s/code\/$//g;
 require $basedir."code/lib.pl";
 
 
-my ($conf,$layer,$coder,$file,$csv,@lines,$str,$json,@features,$f,$i,@cols,$dir,$area,$capacity,$estimate,$totalarea,$totalcapacity,$levels,$multi,%msoas,$msoa,$n);
+my ($conf,$layer,$coder,$file,$csv,@lines,$str,$json,@features,$f,$i,@cols,$dir,$area,$capacity,$estimate,$total,$levels,$multi,%msoas,$msoa,$n,$ok);
 
 
 # Read in the configuration JSON file
@@ -24,6 +24,12 @@ $conf = loadConf($basedir."code/conf.json");
 
 
 $layer = $ARGV[0]||"distribution";
+
+if(!$conf->{'osm'}{'extracts'}{$layer}){
+	print "No OSM extract defined for $layer.\n";
+	exit;
+}
+
 print "Calculating areas for $layer layer.\n";
 
 
@@ -52,7 +58,7 @@ foreach $msoa (sort(keys(%msoas))){
 	$csv .= "$msoa,";
 	$file = $dir.$msoa."-$layer.geojson";
 
-	$totalarea = 0;
+	$total = 0;
 	
 	if(-e $file){
 		open(FILE,$file);
@@ -75,21 +81,44 @@ foreach $msoa (sort(keys(%msoas))){
 
 			if($features[$f]{'geometry'}{'type'} eq "Polygon" || $features[$f]{'geometry'}{'type'} eq "MultiPolygon"){
 				$area = geometry($features[$f]{'geometry'});
-				$totalarea += $area;
+
+				if($layer eq "parking"){
+
+					$capacity = $features[$f]{'properties'}{'other'}{'capacity'}||0;
+					$capacity =~ s/[^0-9]//g;	# Remove non-numeric values e.g. "100 approx"
+					$levels = ($features[$f]{'properties'}{'other'}{'building:levels'}||1);
+					$multi = 0;
+					if($features[$f]{'properties'}{'other'} && $features[$f]{'properties'}{'other'}{'parking'}){
+						$multi = ($features[$f]{'properties'}{'other'}{'parking'} eq "multi-storey" ? 1 : 0);
+					}
+
+					# Our estimate of the number of spaces based on the distribution of car park areas with "capacity" set on OSM
+					$estimate = (1/0.34) * 0.0145*$area*$levels;
+
+					$total += ($capacity || $estimate);
+
+		#			print "\n\tArea = ".sprintf("%.2f",$area)." m²\n\tLevels = ".($features[$f]{'properties'}{'other'}{'building:levels'}||1).($multi ? " (MULTI)":"")."\n\tCapacity = ".($capacity)." (est = ".sprintf("%.2f",$estimate).")\n";
+
+				}else{
+
+					$total += $area;
+
+				}
 			}
 		}
 	}else{
 		print "No file for $msoa\n";
 	}
-	$csv .= sprintf("%.2f",$totalarea)."\n";
+	$csv .= sprintf("%.2f",$total)."\n";
 
 }
 
 # Save the output
-print "Saving to $conf->{'basedir'}$conf->{'layers'}{'dir'}$layer.csv\n";
-open(FILE,">",$conf->{'basedir'}.$conf->{'layers'}{'dir'}."$layer.csv");
+print "Saving to $conf->{'basedir'}$conf->{'layers'}{'dir'}$conf->{'osm'}{'extracts'}{$layer}{'csv'}\n";
+open(FILE,">",$conf->{'basedir'}.$conf->{'layers'}{'dir'}.$conf->{'osm'}{'extracts'}{$layer}{'csv'});
 print FILE $csv;
 close(FILE);
 
 
-saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-distribution-centres.svg","distribution centres",$n,"SUCCESS");
+print "Update badge at $basedir$conf->{'badges'}{'dir'}$conf->{'osm'}{'extracts'}{$layer}{'badge'}\n";
+saveBadge($basedir.$conf->{'badges'}{'dir'}.$conf->{'osm'}{'extracts'}{$layer}{'badge'},$layer,$n,"SUCCESS");
