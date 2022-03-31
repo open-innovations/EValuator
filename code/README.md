@@ -21,6 +21,7 @@ Also:
      1. download the latest data from the National Chargepoint Registry
 	 2. update the chargepoint list at `docs/data/chargepoints.csv` and the individual chargepoint JSON files in `docs/data/chargepoints` for the map view
 	 3. update the chargepoint MSOA layer at `docs/data/layers/chargepoints.csv` (you'll need to run `buildScores.pl` again to update the layers properly)
+  * `perl updateCapacityLayer.pl` - builds the grid capacity layer at `docs/data/layers/grid-capacity.csv`
 
 
 ### Command line examples

@@ -4,20 +4,32 @@ use strict;
 use warnings;
 use JSON::XS;
 use Data::Dumper;
+use Cwd qw(abs_path);
+
+# Get the real base directory for this script
+my $basedir = "./";
+if(abs_path($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+# Step back out of the code directory
+$basedir =~ s/code\/$//g;
+require $basedir."code/lib.pl";
 
 
 my ($file,$coder,@lines,$str,$json,$url,$i,@cols,%primarydata,$id,%header,$c,$primary,%msoalookup,$msoa,$csv,$max,$year);
+
+
+# Set the output file
+$file = $basedir."docs/data/layers/grid-capacity.csv";
+
 
 # Define the reference year to calculate capacity
 $year = "2030";
 
 
-my $rootdir = "../";
 $coder = JSON::XS->new->utf8->canonical(1);
 
 
 # Open the Primaries to MSOA mapping file
-open(FILE,"primaries2msoa.json");
+open(FILE,$basedir."code/primaries2msoa.json");
 @lines = <FILE>;
 close(FILE);
 $str = join("",@lines);
@@ -87,7 +99,7 @@ foreach $msoa (sort(keys(%msoalookup))){
 	}
 	$csv .= "$msoa,".sprintf("%0.2f",$max)."\n";
 }
-open(FILE,">",$rootdir."docs/data/layers/grid-capacity.csv");
+open(FILE,">",$file);
 print FILE $csv;
 close(FILE);
 
