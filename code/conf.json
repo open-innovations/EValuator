@@ -35,7 +35,8 @@
 		"MSOA": {
 			"url": "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/MSOA11CD/%CODE%.geojsonl",
 			"dir": "../geography-bits/data/MSOA11CD/",
-			"file": "%CODE%.geojsonl"
+			"file": "%CODE%.geojsonl",
+			"all": "code/MSOA.geojson"
 		},
 		"LAD": {
 			"url": "https://raw.githubusercontent.com/odileeds/geography-bits/master/data/LAD21CD/%CODE%.geojsonl",

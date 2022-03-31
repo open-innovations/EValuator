@@ -12,12 +12,15 @@ Currently the tool contains Local Authorities and Combined Authorities. If you w
   * `perl buildScores.pl` - this will update the scores for every area listed in `docs/data/areas.tsv` creating `docs/data/areas/CODE/CODE.csv` as necessary
 
 
-
 Also:
 
-`extractOSM.pl` - creates GeoJSON extracts per local authority for various OSM layers
-`buildLayer-carpark-capacity.pl` - builds the carpark capacity CSV using the MSOA-level extracts of parking
-`buildLayer-distribution-centres.pl` - builds the distribution centre CSV using the MSOA-level extracts of distribution centres
+  * `extractOSM.pl` - creates GeoJSON extracts per local authority for various OSM layers
+  * `buildLayer-carpark-capacity.pl` - builds the carpark capacity CSV using the MSOA-level extracts of parking
+  * `buildLayer-distribution-centres.pl` - builds the distribution centre CSV using the MSOA-level extracts of distribution centres
+  * `perl updateChargepointLayer.pl` - this will:
+     1. download the latest data from the National Chargepoint Registry
+	 2. update the chargepoint list at `docs/data/chargepoints.csv` and the individual chargepoint JSON files in `docs/data/chargepoints` for the map view
+	 3. update the chargepoint MSOA layer at `docs/data/layers/chargepoints.csv` (you'll need to run `buildScores.pl` again to update the layers properly)
 
 
 ### Command line examples
@@ -41,6 +44,9 @@ Next make a clone of our [geography-bits repo](https://github.com/odileeds/geogr
 
 
 
+
+
+
 ### Local Authority District data
 
 The next step is to create JSON files for chargepoints (UK Chargepoint Registry), supermarkets (OSM), distribution centres (OSM), and parking (OSM) for every LAD.
@@ -57,7 +63,7 @@ The command drops the two entries that are missing geometry and sets the longitu
 
 The supermarkets, distribution centres, and parking all come from OpenStreetMap data. If you don't already have it, the code will download the [latest GB extract from GeoFabrik](https://download.geofabrik.de/europe/great-britain-latest.osm.pbf) into the `raw/` directory.
 
-Running `perl makeLADs.pl` will loop over all the LADs to create extracts for each layer using their boundaries e.g.
+Running `perl makeAreas.pl` will loop over all the areas (e.g. Local and Combined Authorities) to create extracts for each layer using their boundaries e.g.
 
 ```
 ogr2ogr -f GeoJSON E08000035-data.geojson chargepoints.csv.sqlite -clipsrc docs/boundaries/E08000035.geojsonl

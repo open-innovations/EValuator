@@ -4,6 +4,12 @@ use warnings;
 use JSON::XS;
 use Data::Dumper;
 use Math::Trig;
+use constant PI => 4 * atan2(1, 1);
+use constant X         => 0;
+use constant Y         => 1;
+use constant TWOPI    => 2*PI;
+
+
 
 sub loadConf {
 	# Version 1.1
@@ -330,5 +336,62 @@ sub ringArea {
 sub rad {
 	return $_[0] * pi() / 180;
 }
+
+
+sub mapAdjPairs (&@) {
+    my $code = shift;
+    map { local ($a, $b) = (shift, $_[0]); $code->() } 0 .. @_-2;
+}
+
+sub Angle{
+    my ($x1, $y1, $x2, $y2) = @_;
+    my $dtheta = atan2($y1, $x1) - atan2($y2, $x2);
+    $dtheta -= TWOPI while $dtheta >   PI;
+    $dtheta += TWOPI while $dtheta < - PI;
+    return $dtheta;
+}
+
+sub PtInPoly{
+    my ($poly, $pt) = @_;
+    my $angle=0;
+
+    mapAdjPairs{
+        $angle += Angle(
+            $a->[X] - $pt->[X],
+            $a->[Y] - $pt->[Y],
+            $b->[X] - $pt->[X],
+            $b->[Y] - $pt->[Y]
+        )
+    } @$poly, $poly->[0];
+
+    return !(abs($angle) < PI);
+}
+
+sub getFeature {
+	my $key = shift(@_);
+	my $lat = shift(@_);
+	my $lon = shift(@_);
+	my @features = @_;
+	
+	my ($g,$n,$ok,@gs);
+	for($g = 0; $g < @features; $g++){
+		# Use pre-computed bounding box to do a first cut - this makes things a lot quicker
+		if($lat >= $features[$g]->{'geometry'}{'bbox'}{'S'} && $lat <= $features[$g]->{'geometry'}{'bbox'}{'N'} && $lon >= $features[$g]->{'geometry'}{'bbox'}{'W'} && $lon <= $features[$g]->{'geometry'}{'bbox'}{'E'}){
+			if($features[$g]->{'geometry'}->{'type'} eq "Polygon"){
+				@gs = @{$features[$g]->{'geometry'}->{'coordinates'}[0]};
+			}elsif($features[$g]->{'geometry'}->{'type'} eq "MultiPolygon"){
+				# Only keep first item of MultiPolygon as the rest are holes
+				@gs = @{$features[$g]->{'geometry'}->{'coordinates'}[0][0]};
+			}
+			$n = @gs;
+			$ok = (PtInPoly( \@gs, [$lon,$lat]) ? 1 : 0);
+			if($ok){
+				return $features[$g]->{'properties'}->{$key};
+			}
+		}
+	}
+	return "";
+}
+
 
 1;
