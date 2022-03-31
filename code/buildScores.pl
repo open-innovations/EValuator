@@ -31,7 +31,7 @@ close(FILE);
 
 
 $coder = JSON::XS->new->utf8->canonical(1);
-$badges = "";
+@badges = ();
 %msoa;
 if(!-e $basedir.$conf->{'layers'}{'file'}){
 	print "WARNING: No domains file at $basedir$conf->{'layers'}{'file'}\n";
@@ -89,9 +89,7 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 				}
 				# Save a badge for this layer
 				saveBadge($basedir."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg","layer: $json->[$c]{'layers'}[$l]{'id'}",$lastmod);
-				$badges .= ($json->[$c]{'layers'}[$l]{'update'} ? '[':'');
-				$badges .= "![score update $json->[$c]{'layers'}[$l]{'id'}](badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg)";
-				$badges .= ($json->[$c]{'layers'}[$l]{'update'} ? ']('.$json->[$c]{'layers'}[$l]{'update'}.')' : '')."\n";
+				push(@badges,"$lastmod\t".($json->[$c]{'layers'}[$l]{'update'} ? '[':'')."![score update $json->[$c]{'layers'}[$l]{'id'}](badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg)".($json->[$c]{'layers'}[$l]{'update'} ? ']('.$json->[$c]{'layers'}[$l]{'update'}.')' : ''));
 			}
 		}
 	}
@@ -99,15 +97,22 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 
 
 saveBadge($basedir."badge-score-update.svg","scores updated",strftime("%F",gmtime));
-$badges = "[![score update](badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)\n".$badges;
+
+@badges = reverse(sort(@badges));
+unshift(@badges,"\t[![score update](badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)");
 
 # Add badge list to README.md
 open(README,$basedir."README.md");
 @lines = <README>;
 close(README);
 $str = join("",@lines);
+$badgestr = "";
+for($b = 0; $b < @badges; $b++){
+	($junk,$badge) = split(/\t/,$badges[$b]);
+	$badgestr .= $badge."\n";
+}
 $str =~ s/[\n]/:NEWLINE:/g;
-$str =~ s/(\<\!-- Start Badges --\>).*(\<\!-- End Badges --\>)/$1\n$badges$2/g;
+$str =~ s/(\<\!-- Start Badges --\>).*(\<\!-- End Badges --\>)/$1\n$badgestr$2/g;
 $str =~ s/:NEWLINE:/\n/g;
 open(README,">",$basedir."README.md");
 print README $str;
