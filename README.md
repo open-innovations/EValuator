@@ -2,13 +2,13 @@
 
 <!-- Start Badges -->
 [![score update](badges/badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)
-![score update estimated-parking-capacity](badges/badge-score-update-estimated-parking-capacity.svg)
 ![score update distribution-centres](badges/badge-score-update-distribution-centres.svg)
+![score update supermarket](badges/badge-score-update-supermarket.svg)
+![score update warehouse](badges/badge-score-update-warehouse.svg)
+![score update estimated-parking-capacity](badges/badge-score-update-estimated-parking-capacity.svg)
 [![score update brownfield](badges/badge-score-update-brownfield.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateBrownfieldLayer.pl)
 [![score update chargepoints](badges/badge-score-update-chargepoints.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateChargepointLayer.pl)
 [![score update grid-capacity](badges/badge-score-update-grid-capacity.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateCapacityLayer.pl)
-![score update warehouse](badges/badge-score-update-warehouse.svg)
-![score update supermarket](badges/badge-score-update-supermarket.svg)
 [![score update index-of-transport-accessibility](badges/badge-score-update-index-of-transport-accessibility.svg)](https://github.com/dringtech/index-of-transport-accessibility/)
 ![score update evhs](badges/badge-score-update-evhs.svg)
 ![score update ulev](badges/badge-score-update-ulev.svg)

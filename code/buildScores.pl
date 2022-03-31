@@ -37,6 +37,8 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 	print "WARNING: No domains file at $basedir$conf->{'layers'}{'file'}\n";
 	exit;
 }else{
+	
+	print "Reading $basedir$conf->{'layers'}{'file'}\n";
 	open(FILE,$basedir.$conf->{'layers'}{'file'});
 	@lines = <FILE>;
 	close(FILE);
@@ -63,7 +65,7 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 				$mcount = 0;
 
 				if($src =~ /^http/){
-					print "Downloading file from: $src\n";
+					print "\tDownloading file from: $src\n";
 					@lines = `wget -q --no-check-certificate -O- "$src"`;
 					
 					$lastmod = getLastUpdateURL($src);
@@ -71,7 +73,7 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 					$tdir = $basedir.$conf->{'layers'}{'file'};
 					$tdir =~ s/[^\/]*$//;
 					if(-e $tdir.$src){
-						print "Using file: $tdir$src\n";
+						print "\tUsing file: $tdir$src\n";
 						open(FILE,$tdir.$src);
 						@lines = <FILE>;
 						close(FILE);
@@ -89,36 +91,13 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 					}
 				}
 				# Save a badge for this layer
+				print "\tSaving badge for $json->[$c]{'layers'}[$l]{'id'} ($lastmod)\n";
 				saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg","layer: $json->[$c]{'layers'}[$l]{'id'}",$lastmod,($lastmod && $mcount > 0 ? "" : "FAIL"));
 				push(@badges,"$lastmod\t".($json->[$c]{'layers'}[$l]{'update'} ? '[':'')."![score update $json->[$c]{'layers'}[$l]{'id'}](".$conf->{'badges'}{'dir'}."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg)".($json->[$c]{'layers'}[$l]{'update'} ? ']('.$json->[$c]{'layers'}[$l]{'update'}.')' : ''));
 			}
 		}
 	}
 }
-
-
-saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-score-update.svg","scores updated",strftime("%F",gmtime));
-
-@badges = reverse(sort(@badges));
-unshift(@badges,"\t[![score update](".$conf->{'badges'}{'dir'}."badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)");
-
-# Add badge list to README.md
-open(README,$basedir."README.md");
-@lines = <README>;
-close(README);
-$str = join("",@lines);
-$badgestr = "";
-for($b = 0; $b < @badges; $b++){
-	($junk,$badge) = split(/\t/,$badges[$b]);
-	$badgestr .= $badge."\n";
-}
-$str =~ s/[\n]/:NEWLINE:/g;
-$str =~ s/(\<\!-- Start Badges --\>).*(\<\!-- End Badges --\>)/$1\n$badgestr$2/g;
-$str =~ s/:NEWLINE:/\n/g;
-open(README,">",$basedir."README.md");
-print README $str;
-close(README);
-
 
 
 
@@ -162,6 +141,30 @@ foreach $a (sort(keys(%areas))){
 	close(OUT);
 
 }
+
+saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-score-update.svg","scores updated",strftime("%F",gmtime));
+
+@badges = reverse(sort(@badges));
+unshift(@badges,"\t[![score update](".$conf->{'badges'}{'dir'}."badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)");
+
+print "Update README.md\n";
+# Add badge list to README.md
+open(README,$basedir."README.md");
+@lines = <README>;
+close(README);
+$str = join("",@lines);
+$badgestr = "";
+for($b = 0; $b < @badges; $b++){
+	($junk,$badge) = split(/\t/,$badges[$b]);
+	$badgestr .= $badge."\n";
+}
+$str =~ s/[\n]/:NEWLINE:/g;
+$str =~ s/(\<\!-- Start Badges --\>).*(\<\!-- End Badges --\>)/$1\n$badgestr$2/g;
+$str =~ s/:NEWLINE:/\n/g;
+open(README,">",$basedir."README.md");
+print README $str;
+close(README);
+
 
 
 
