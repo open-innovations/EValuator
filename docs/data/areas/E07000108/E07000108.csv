@@ -1,6 +1,6 @@
 MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
 E02005041,"Ash & Wingham",0,296.0,1030.46,35.895,0,0,0.00,0.00,0.00,9.0122
-E02005042,"Sandwich & Eastry",0,339.0,7137.93,26.280,5,0,0.00,1638.43,7477.09,86.5038
+E02005042,"Sandwich & Eastry",0,339.0,7137.93,26.280,10,0,0.00,1638.43,7477.09,86.5038
 E02005043,"Deal North & West",0,133.0,144.98,13.125,0,0,0.00,0.00,0.00,4.9658
 E02005044,"Deal East",0,181.0,1268.91,27.848,9,0,0.00,5708.89,0.00,1.6505
 E02005045,"Mill Hill",0,181.0,722.83,14.424,0,0,0.00,0.00,0.00,1.1

@@ -1,8 +1,8 @@
 MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
 E02003742,"Leverington",0,133.0,445.95,12.418,0,0,55957.37,0.00,33971.91,13.621984
 E02003743,"Wisbech North",0,216.0,1637.00,14.141,0,0,0.00,0.00,11760.51,2.437
-E02003744,"Wisbech South & Peckover",0,216.0,7739.27,39.600,0,0,606.77,24208.02,43315.14,6.182
-E02003745,"Wisbech St Mary",0,769.0,589.61,20.185,0,0,0.00,0.00,16020.70,0.45
+E02003744,"Wisbech South & Peckover",0,216.0,7739.27,39.600,3,0,606.77,24208.02,43315.14,6.182
+E02003745,"Wisbech St Mary",0,769.0,589.61,20.185,2,0,0.00,0.00,16020.70,0.45
 E02003746,"March North",0,464.0,2196.63,17.873,1,0,0.00,6143.68,0.00,1.183
 E02003747,"Whittlesey",0,233.0,1798.92,42.198,0,0,0.00,0.00,0.00,9.298
 E02003748,"March East",0,181.0,225.40,11.495,0,0,0.00,4168.84,0.00,0.081
