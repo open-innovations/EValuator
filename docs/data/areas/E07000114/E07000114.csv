@@ -1,11 +1,11 @@
 MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
-E02005132,"Cliftonville West",0,128.0,1338.52,15.193,0,0,0.00,5300.94,799.59,3.39
+E02005132,"Cliftonville West",0,128.0,1384.20,15.193,0,0,0.00,5358.16,1495.15,3.39
 E02005133,"Cliftonville East & Kingsgate",0,353.0,1118.11,17.184,0,0,0.00,1049.04,0.00,3.03
 E02005134,"Margate Town",0,376.0,1776.20,10.389,2,0,0.00,0.00,0.00,0.72
 E02005135,"Salmestone",0,222.0,972.59,23.913,0,0,0.00,0.00,0.00,1.41
 E02005136,"Westbrook & Garlinge",0,151.0,549.89,7.999,0,0,0.00,0.00,0.00,0
 E02005137,"Dane Valley & Northdown Hill",0,282.0,172.03,8.771,0,0,0.00,0.00,0.00,0.18
-E02005138,"Westgate",0,222.0,78.94,16.521,0,0,0.00,0.00,0.00,0.61
+E02005138,"Westgate",0,222.0,81.84,16.521,0,0,0.00,0.00,0.00,0.61
 E02005139,"Birchington",0,353.0,437.65,26.083,1,0,0.00,0.00,0.00,0.67
 E02005140,"Broadstairs North",0,154.0,235.55,21.656,0,0,0.00,232.13,0.00,3.13
 E02005141,"Broadstairs South",0,237.0,551.40,40.696,0,0,0.00,505.69,0.00,1.11
