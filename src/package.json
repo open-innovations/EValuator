@@ -7,7 +7,7 @@
     "build": "rollup -c",
     "dev": "concurrently npm:dev:build npm:dev:serve",
     "dev:build": "NODE_ENV=development rollup -c -w",
-    "dev:serve": "site.js ../docs",
+    "dev:serve": "npx site ../docs",
     "test": "jest src"
   },
   "devDependencies": {
@@ -15,7 +15,6 @@
     "@babel/preset-env": "^7.16.11",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
-    "@small-tech/site.js": "^17.3.3",
     "@types/leaflet": "^1.7.9",
     "babel-jest": "^27.5.1",
     "concurrently": "^7.0.0",
