@@ -189,8 +189,8 @@
 		}).then(data => {
 
 			// Add default values as first element of array
-			var def = {"title":"Default","weights":{}};
-			var zero = {"title":"Zero","weights":{}};
+			var def = {"title":"Default","desc":"Our default model.","weights":{}};
+			var zero = {"title":"Zero","desc":"Set all the layers to zero.","weights":{}};
 			var c,l;
 			for(c = 0; c < this.categories.length; c++){
 				for(l = 0; l < this.categories[c].layers.length; l++){
@@ -222,7 +222,7 @@
 				for(i = 0; i < data.length; i++){
 					btn = document.createElement('button');
 					btn.innerHTML = data[i].title||"?";
-					btn.setAttribute('title',data[i].desc);
+					if(data[i].desc) btn.setAttribute('title',data[i].desc);
 					btn.setAttribute('data',i);
 					if(data[i].desc){
 						btn.addEventListener('mouseover',function(e){
