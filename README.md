@@ -17,6 +17,8 @@
 ![score update chargepoints](badges/badge-chargepoints.svg)
 ![score update distribution centres](badges/badge-distribution-centres.svg)
 ![score update parking](badges/badge-parking.svg)
+![score update supermarket](badges/badge-supermarket.svg)
+![score update warehouse](badges/badge-warehouse.svg)
 
 The EValuator is a prototype which demonstrates an approach to integrated planning across several disciplines (land use, sustainability, energy, transport). It aims to encourage cross-domain collaboration by presenting ***data*** in the form of contextually presented layers and ***expert knowledge*** in the form of simple estimation models. This puts the ability to explore scheme feasibility in the hands of non-domain experts.
 
