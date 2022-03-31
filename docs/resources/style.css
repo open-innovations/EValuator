@@ -398,7 +398,7 @@ a.call-to-action:hover {
   z-index: 10000;
   font-size: 1.25em;
 }
-.site-header a { color: inherit; }
+.site-header a { color: inherit; text-align: right; }
 .site-header .site-title { font-size: inherit; font-family: 'Poppins', sans-serif; }
 .menu-items {
   display: flex;
