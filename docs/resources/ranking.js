@@ -544,6 +544,7 @@
 			e.data.value = parseFloat(inp.value);
 			_obj.updateValue(e.data.value);
 			e.data.invert = inv.checked;
+			if(opt.label) invlbl.setAttribute('title','Invert '+opt.label+' so that '+(inv.checked ? 'larger values contribute more':'smaller values contribute more'));
 			// Switch direction of slider for inverted state
 			inp.style.direction = (inv.checked ? 'rtl' : 'ltr');
 
@@ -568,7 +569,7 @@
 		invlbl = document.createElement('label');
 		invlbl.classList.add('checkbox-label');
 		invlbl.innerHTML = '<span>Inverted</span>';
-		if(opt.label) invlbl.setAttribute('title','Invert '+opt.label);
+		if(opt.label) invlbl.setAttribute('title','Invert '+opt.label+' so that '+(inv.checked ? 'larger values contribute more':'smaller values contribute more'));
 		invlbl.classList.add('invert');
 		if(opt.id) invlbl.setAttribute('for',opt.id+'-invert');
 		span = document.createElement('span');

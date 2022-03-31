@@ -11,8 +11,7 @@ Currently the tool contains Local Authorities and Combined Authorities. If you w
   * `perl makeMSOAGeoJSON.pl`  - creates MSOA-level extracts from the area extracts in preparation for analysis
   * `perl buildScores.pl` - this will update the scores for every area listed in `docs/data/areas.tsv` creating `docs/data/areas/CODE/CODE.csv` as necessary
 
-
-Also:
+## Updating layers
 
   * `extractOSM.pl` - creates GeoJSON extracts per local authority for various OSM layers
   * `buildLayer-carpark-capacity.pl` - builds the carpark capacity CSV using the MSOA-level extracts of parking
@@ -22,6 +21,7 @@ Also:
 	 2. update the chargepoint list at `docs/data/chargepoints.csv` and the individual chargepoint JSON files in `docs/data/chargepoints` for the map view
 	 3. update the chargepoint MSOA layer at `docs/data/layers/chargepoints.csv` (you'll need to run `buildScores.pl` again to update the layers properly)
   * `perl updateCapacityLayer.pl` - builds the grid capacity layer at `docs/data/layers/grid-capacity.csv`
+
 
 
 ### Command line examples
