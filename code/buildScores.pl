@@ -120,7 +120,7 @@ print README $str;
 close(README);
 
 
-exit;
+
 
 foreach $a (sort(keys(%areas))){
 	
