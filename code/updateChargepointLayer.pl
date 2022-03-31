@@ -5,19 +5,20 @@ use warnings;
 use JSON::XS;
 use Text::CSV;
 use Data::Dumper;
+use Cwd qw(abs_path);
 
 # Get the real base directory for this script
 my $basedir = "./";
-if(($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
-require "./".$basedir."lib.pl";
+if(abs_path($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+require $basedir."lib.pl";
 
 
 # Read in the configuration JSON file
 my $conf = loadConf($basedir."conf.json");
 
 
-# Step up a directory
-$basedir = "../".$basedir;
+# Step back out of the code directory
+$basedir =~ s/code\/$//g;
 
 
 # Define some variables
@@ -31,6 +32,7 @@ my (@cols,$row,@head,$shortid,$tinyid,$c,%nspeed,$i,%ids,$added,%tinyids,$msoadi
 	'processed'=>$basedir.'docs/data/chargepoints.csv',
 	'dir'=>$basedir.'docs/data/chargepoints/'
 );
+
 
 
 # Create the CSV parser
@@ -140,21 +142,25 @@ if(getFile($chargepoints{'url'},$chargepoints{'raw'},86400)){
 		print OUT "$rows[$r]\n";
 	}
 	close(OUT);
+		
+	# Now save the MSOA-based layer
+	$ofile = $basedir.$conf->{'layers'}{'dir'}."chargepoints.csv";
+	print "Saving $ofile\n";
+	open(FILE,">",$ofile);
+	print FILE "msoa,chargepoints\n";
+	foreach $msoa (sort(keys(%msoalookup))){
+		print FILE "$msoa,$msoalookup{$msoa}\n";
+	}
+	close(FILE);
+
+	# Make a badge
+	my $pc = 100*$hasmsoa/$i;
+	saveBadge($basedir."badge-chargepoints.svg","chargepoints",sprintf("%d",$pc)."%",($pc > 50 ? "SUCCESS" : "FAIL"));
 
 }else{
 	print "ERROR: No file $chargepoints{'raw'}\n";
+	saveBadge($basedir."badge-chargepoints.svg","chargepoints","failing","FAIL");
 }
-
-
-# Now save the MSOA-based layer
-$ofile = $basedir.$conf->{'layers'}{'dir'}."chargepoints.csv";
-print "Saving $ofile\n";
-open(FILE,">",$ofile);
-print FILE "msoa,chargepoints\n";
-foreach $msoa (sort(keys(%msoalookup))){
-	print FILE "$msoa,$msoalookup{$msoa}\n";
-}
-close(FILE);
 
 
 

@@ -10,6 +10,65 @@ use constant Y         => 1;
 use constant TWOPI    => 2*PI;
 
 
+sub getPixelLength {
+	my $str = $_[0];
+	my $fs = $_[1]||11;
+	my ($i,$chr,$len,$ch,$l);
+	
+	$chr = {'i'=>0.6,'l'=>0.6,'m'=>1.2,'w'=>1.2,'1'=>0.8,'%'=>1.8};
+	$len = 0;
+
+	for($i = 0; $i < length($str); $i++){
+		$ch = substr($str,$i,1);
+		$l = $chr->{$ch}||1;
+		$len += $l*$fs*0.6;
+	}
+	return $len;	
+}
+sub saveBadge {
+	my $file = $_[0];
+	my $key = $_[1];
+	my $value = $_[2];
+	my $status = $_[3];
+	my ($wk,$wv,$w,$fs,$scale,$colour,$tcolour,$icolour,$pt,$pl,$h,%len);
+	
+	$fs = 11;
+	$scale = 10;
+	$h = 20;
+
+	$wk = getPixelLength($key,$fs);
+	$wv = getPixelLength($value,$fs);
+	
+	$pt = 4;
+	$pl = 6;
+
+	$colour = "#7dc5ea";
+	$tcolour = "black";
+	$icolour = "#010101";
+	if($status eq "SUCCESS"){ $colour = "#67E767"; $tcolour = "black"; $icolour = "white"; }
+	elsif($status eq "FAIL"){ $colour = "#D60303"; $tcolour = "white"; $icolour = "black"; }
+
+	$w = $pl + $wk + $pt*2 + $wv + $pl;
+
+	# Make a badge
+	open(BADGE,">",$file);
+	print BADGE "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"$w\" height=\"20\" role=\"img\" aria-label=\"$key: $value\">";
+	print BADGE "<title>$key: $value</title><linearGradient id=\"s\" x2=\"0\" y2=\"100%\"><stop offset=\"0\" stop-color=\"#bbb\" stop-opacity=\".1\"/><stop offset=\"1\" stop-opacity=\".1\"/></linearGradient>";
+	print BADGE "<clipPath id=\"r\"><rect width=\"$w\" height=\"20\" rx=\"3\" fill=\"#fff\"/></clipPath>";
+	print BADGE "<g clip-path=\"url(#r)\">";
+	print BADGE "<rect width=\"".(($pl + $wk + 4))."\" height=\"20\" fill=\"#555\"/>";
+	print BADGE "<rect x=\"".(($pl + $wk + 4))."\" width=\"".(($pl + $wv + 4))."\" height=\"20\" fill=\"$colour\"/>";
+	print BADGE "<rect width=\"$w\" height=\"20\" fill=\"url(#s)\"/>";
+	print BADGE "</g><g fill=\"#fff\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Verdana,Geneva,DejaVu Sans,sans-serif\" text-rendering=\"geometricPrecision\" font-size=\"".($fs*10)."\">";
+	print BADGE "<text aria-hidden=\"true\" x=\"".(($pl + $wk/2)*$scale)."\" y=\"".(($h * 0.5 + 1) * $scale)."\" fill=\"#010101\" fill-opacity=\".3\" transform=\"scale(".(1/$scale).")\" textLength=\"".($wk*$scale)."\">$key</text>";
+	print BADGE "<text x=\"".(($pl + $wk/2)*$scale)."\" y=\"".(($h * 0.5) * $scale)."\" fill=\"#fff\" transform=\"scale(".(1/$scale).")\" textLength=\"".($wk*$scale)."\">$key</text>";
+	print BADGE "<text aria-hidden=\"true\" x=\"".(($pl + $wk + $pt*2 + $wv/2)*$scale)."\" y=\"".(($h * 0.5 + 1) * $scale)."\" fill=\"$icolour\" transform=\"scale(".(1/$scale).")\" fill-opacity=\".3\" textLength=\"".($wv*$scale)."\">$value</text>";
+	print BADGE "<text x=\"".(($pl + $wk + $pt*2 + $wv/2)*$scale)."\" y=\"".(($h * 0.5) * $scale)."\" fill=\"$tcolour\" transform=\"scale(".(1/$scale).")\" textLength=\"".($wv*$scale)."\">$value</text>";
+	print BADGE "</g></svg>";
+	close(BADGE);
+
+}
+
 
 sub loadConf {
 	# Version 1.1
