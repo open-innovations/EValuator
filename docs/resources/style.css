@@ -381,7 +381,14 @@ a.call-to-action:hover {
 .site-header {
   background: #111;
   color: white;
+  padding: 0 2em;
 }
+@media only screen and (max-width: 700px) {
+  .site-header {
+    padding: 0 1em;
+  }  
+}
+
 .site-header .holder {
   height: var(--header-height);
   display: flex;
@@ -400,10 +407,9 @@ a.call-to-action:hover {
   font-family: 'Poppins', sans-serif;
   position: absolute;
   top: var(--header-height);
-  background-color: white;
-  border: 1px solid grey;
-  left: -100%;
-  right: 100%;
+  background-color: black;
+  left: -120%;
+  right: 120%;
   padding: 1rem 1rem;
   transition: 250ms ease;
   transition-property: left, right;
@@ -426,14 +432,14 @@ a.call-to-action:hover {
 }
 .menu-burger i {
   display: block;
-  background-color: #000;
+  background-color: #fff;
   height: 0.2rem;
   transition: transform 250ms ease;
 }
 
 .menu-state:checked ~ .menu-items {
-  left: 0;
-  right: 0;
+  left: -1em;
+  right: -1em;
 }
 
 .menu-state:checked ~ .menu-toggle {
@@ -449,7 +455,7 @@ a.call-to-action:hover {
   transform: translateY(-0.5rem) rotate(135deg) scale(1.41);
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 700px) {
   .menu-toggle {
     display: none;
   }
