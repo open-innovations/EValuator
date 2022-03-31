@@ -428,13 +428,13 @@ a.call-to-action:hover {
   height: 100%;
   flex-direction: column;
   justify-content: center;
-  gap: 0.3em;
+  gap: 0.25rem;
   caret-color: transparent;
 }
 .menu-burger i {
   display: block;
   background-color: #fff;
-  height: 0.2rem;
+  height: 0.25rem;
   transition: transform 250ms ease;
 }
 
