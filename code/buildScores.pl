@@ -89,18 +89,18 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 					}
 				}
 				# Save a badge for this layer
-				saveBadge($basedir."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg","layer: $json->[$c]{'layers'}[$l]{'id'}",$lastmod,($lastmod && $mcount > 0 ? "" : "FAIL"));
-				push(@badges,"$lastmod\t".($json->[$c]{'layers'}[$l]{'update'} ? '[':'')."![score update $json->[$c]{'layers'}[$l]{'id'}](badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg)".($json->[$c]{'layers'}[$l]{'update'} ? ']('.$json->[$c]{'layers'}[$l]{'update'}.')' : ''));
+				saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg","layer: $json->[$c]{'layers'}[$l]{'id'}",$lastmod,($lastmod && $mcount > 0 ? "" : "FAIL"));
+				push(@badges,"$lastmod\t".($json->[$c]{'layers'}[$l]{'update'} ? '[':'')."![score update $json->[$c]{'layers'}[$l]{'id'}](".$conf->{'badges'}{'dir'}."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg)".($json->[$c]{'layers'}[$l]{'update'} ? ']('.$json->[$c]{'layers'}[$l]{'update'}.')' : ''));
 			}
 		}
 	}
 }
 
 
-saveBadge($basedir."badge-score-update.svg","scores updated",strftime("%F",gmtime));
+saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-score-update.svg","scores updated",strftime("%F",gmtime));
 
 @badges = reverse(sort(@badges));
-unshift(@badges,"\t[![score update](badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)");
+unshift(@badges,"\t[![score update](".$conf->{'badges'}{'dir'}."badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)");
 
 # Add badge list to README.md
 open(README,$basedir."README.md");
@@ -120,7 +120,7 @@ print README $str;
 close(README);
 
 
-
+exit;
 
 foreach $a (sort(keys(%areas))){
 	

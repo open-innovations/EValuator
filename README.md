@@ -1,20 +1,20 @@
 # CPC EV project (PROTOTYPE)
 
 <!-- Start Badges -->
-[![score update](badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)
-[![score update chargepoints](badge-score-update-chargepoints.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateChargepointLayer.pl)
-[![score update grid-capacity](badge-score-update-grid-capacity.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateCapacityLayer.pl)
-[![score update brownfield](badge-score-update-brownfield.svg)](https://github.com/open-innovations/brownfield-land/actions/workflows/update.yml)
-![score update warehouse](badge-score-update-warehouse.svg)
-![score update supermarket](badge-score-update-supermarket.svg)
-![score update distribution-centres](badge-score-update-distribution-centres.svg)
-![score update estimated-parking-capacity](badge-score-update-estimated-parking-capacity.svg)
-[![score update index-of-transport-accessibility](badge-score-update-index-of-transport-accessibility.svg)](https://github.com/dringtech/index-of-transport-accessibility/)
-![score update evhs](badge-score-update-evhs.svg)
-![score update ulev](badge-score-update-ulev.svg)
+[![score update](badges/badge-score-update.svg)](https://github.com/open-innovations/EValuator/actions/workflows/scores.yml)
+[![score update brownfield](badges/badge-score-update-brownfield.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateBrownfieldLayer.pl)
+[![score update chargepoints](badges/badge-score-update-chargepoints.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateChargepointLayer.pl)
+[![score update grid-capacity](badges/badge-score-update-grid-capacity.svg)](https://github.com/open-innovations/EValuator/blob/main/code/updateCapacityLayer.pl)
+![score update warehouse](badges/badge-score-update-warehouse.svg)
+![score update supermarket](badges/badge-score-update-supermarket.svg)
+![score update distribution-centres](badges/badge-score-update-distribution-centres.svg)
+![score update estimated-parking-capacity](badges/badge-score-update-estimated-parking-capacity.svg)
+[![score update index-of-transport-accessibility](badges/badge-score-update-index-of-transport-accessibility.svg)](https://github.com/dringtech/index-of-transport-accessibility/)
+![score update evhs](badges/badge-score-update-evhs.svg)
+![score update ulev](badges/badge-score-update-ulev.svg)
 <!-- End Badges -->
-![score update brownfield](badge-brownfield.svg)
-![score update chargepoints](badge-chargepoints.svg)
+![score update brownfield](badges/badge-brownfield.svg)
+![score update chargepoints](badges/badge-chargepoints.svg)
 
 The EValuator is a prototype which demonstrates an approach to integrated planning across several disciplines (land use, sustainability, energy, transport). It aims to encourage cross-domain collaboration by presenting ***data*** in the form of contextually presented layers and ***expert knowledge*** in the form of simple estimation models. This puts the ability to explore scheme feasibility in the hands of non-domain experts.
 

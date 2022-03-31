@@ -59,5 +59,8 @@
 		"names": "docs/data/lookup/MSOA-Names-Latest.csv",
 		"namesurl": "https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-Latest.csv",
 		"area": "docs/data/lookup/lookupArea.tsv"
+	},
+	"badges":{
+		"dir": "badges/"
 	}
 }

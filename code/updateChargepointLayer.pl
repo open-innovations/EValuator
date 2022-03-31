@@ -155,11 +155,11 @@ if(getFile($chargepoints{'url'},$chargepoints{'raw'},86400)){
 
 	# Make a badge
 	my $pc = 100*$hasmsoa/$i;
-	saveBadge($basedir."badge-chargepoints.svg","chargepoints",sprintf("%d",$pc)."%",($pc > 50 ? "SUCCESS" : "FAIL"));
+	saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-chargepoints.svg","chargepoints",sprintf("%d",$pc)."%",($pc > 50 ? "SUCCESS" : "FAIL"));
 
 }else{
 	print "ERROR: No file $chargepoints{'raw'}\n";
-	saveBadge($basedir."badge-chargepoints.svg","chargepoints","failing","FAIL");
+	saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-chargepoints.svg","chargepoints","failing","FAIL");
 }
 
 
