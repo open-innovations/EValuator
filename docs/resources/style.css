@@ -108,7 +108,7 @@ code .str, pre .str { color: #D73058; }
 
 h1 + * { margin-top: 1em; }
 
-ul,ol { margin-left: 1em; }
+ul,ol { margin-left: 1.5em; }
 
 .warning {
 	background: #F9BC26;
@@ -467,4 +467,8 @@ a.call-to-action:hover {
     border: unset;
     padding: unset;
   }
+}
+
+.bulleted {
+  list-style: disc;
 }
