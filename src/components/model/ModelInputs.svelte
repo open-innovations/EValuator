@@ -62,7 +62,7 @@
     <input id='slow' type='number' bind:value={ params.slow } min=0 max={ params.chargepoints } />
   </div>
   <div class='param'>
-    <label for='fast'>Fast</label>
+    <label for='fast'>Fast (default)</label>
     <input id='fast' disabled bind:value={ params.fast } min=0 />
   </div>
   <div class='param'>
