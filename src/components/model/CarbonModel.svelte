@@ -18,11 +18,13 @@
   and has not yet been validated by experts in sustainability.
 </p>
 
+<p class='output'>
 {#if abatement > 0}
-  <p class='output'>
-    The specified scheme could save { prefixed(abatement.toPrecision(3), 'g') } of CO<sub>2</sub> per year.
-  </p>
+  The scheme could save { prefixed(abatement.toPrecision(3), 'g') } of CO<sub>2</sub> per year.
+{:else}
+  Please fill in the details of the scheme on the Model Inputs tab.
 {/if}
+</p>
 
 <h3>
   Modelling assumptions

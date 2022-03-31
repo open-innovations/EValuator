@@ -25,7 +25,11 @@
 </p>
 
 <p class='output'>
-  Demand estimated at { prefixed(demand, 'W') }.
+  {#if demand > 0 }
+    Demand estimated at { prefixed(demand, 'W') }.
+  {:else}
+    Please fill in the details of the scheme on the Model Inputs tab.
+  {/if}
 </p>
 
 <p>
