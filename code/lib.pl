@@ -29,7 +29,7 @@ sub saveBadge {
 	my $file = $_[0];
 	my $key = $_[1];
 	my $value = $_[2];
-	my $status = $_[3];
+	my $status = $_[3]||"default";
 	my ($wk,$wv,$w,$fs,$scale,$colour,$tcolour,$icolour,$pt,$pl,$h,%len);
 	
 	$fs = 11;
@@ -42,9 +42,10 @@ sub saveBadge {
 	$pt = 4;
 	$pl = 6;
 
-	$colour = "#7dc5ea";
+	$colour = "#08DEF9";
 	$tcolour = "black";
 	$icolour = "#010101";
+
 	if($status eq "SUCCESS"){ $colour = "#67E767"; $tcolour = "black"; $icolour = "white"; }
 	elsif($status eq "FAIL"){ $colour = "#D60303"; $tcolour = "white"; $icolour = "black"; }
 

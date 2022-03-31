@@ -1,19 +1,22 @@
 #!/usr/bin/perl
 use JSON::XS;
 use Data::Dumper;
+use Cwd qw(abs_path);
+use POSIX qw(strftime);
 
 # Get the real base directory for this script
 my $basedir = "./";
-if(($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
-require "./".$basedir."lib.pl";
+if(abs_path($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+# Step back out of the code directory
+$basedir =~ s/code\/$//g;
+require $basedir."code/lib.pl";
 
-#$basedir = "../";
 
 # Read in the configuration JSON file
-$conf = loadConf($basedir."conf.json");
+$conf = loadConf($basedir."code/conf.json");
 
-# Step up a directory
-$basedir .= "../";
+
+
 
 # Load file with areas we need to create scores for
 %areas;
@@ -128,3 +131,5 @@ foreach $a (sort(keys(%areas))){
 	close(OUT);
 
 }
+
+saveBadge($basedir."badge-score-update.svg","scores updated",strftime("%F",gmtime));

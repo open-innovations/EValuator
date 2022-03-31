@@ -10,15 +10,15 @@ use Cwd qw(abs_path);
 # Get the real base directory for this script
 my $basedir = "./";
 if(abs_path($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
-require $basedir."lib.pl";
+# Step back out of the code directory
+$basedir =~ s/code\/$//g;
+require $basedir."code/lib.pl";
 
 
 # Read in the configuration JSON file
-my $conf = loadConf($basedir."conf.json");
+my $conf = loadConf($basedir."code/conf.json");
 
 
-# Step back out of the code directory
-$basedir =~ s/code\/$//g;
 
 
 # Define some variables
