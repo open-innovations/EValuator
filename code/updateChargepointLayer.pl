@@ -155,7 +155,8 @@ if(getFile($chargepoints{'url'},$chargepoints{'raw'},86400)){
 
 	# Make a badge
 	my $pc = 100*$hasmsoa/$i;
-	saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-chargepoints.svg","chargepoints",sprintf("%d",$pc)."%",($pc > 50 ? "SUCCESS" : "FAIL"));
+	#saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-chargepoints.svg","chargepoints",sprintf("%d",$pc)."%",($pc > 50 ? "SUCCESS" : "FAIL"));
+	saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-chargepoints.svg","chargepoints",$hasmsoa,($pc > 50 ? "SUCCESS" : "FAIL"));
 
 }else{
 	print "ERROR: No file $chargepoints{'raw'}\n";
@@ -185,7 +186,7 @@ sub getFile {
 		$str = join("",@lines);
 
 		# Fix newline inconsistencies
-#		$str =~ s/\r([^\n])/\r\n$1/g;
+		$str =~ s/\r([^\n])/\r\n$1/g;
 
 		# Save fixed file
 		open(FILE,">:encoding(utf8)",$file);

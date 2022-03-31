@@ -91,7 +91,8 @@ close(FILE);
 
 # Make a badge
 my $pc = 100*$good/$n;
-saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-brownfield.svg","brownfield",sprintf("%d",$pc)."%",($pc > 50 ? "SUCCESS" : "FAIL"));
+#saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-brownfield.svg","brownfield",sprintf("%d",$pc)."%",($pc > 50 ? "SUCCESS" : "FAIL"));
+saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-brownfield.svg","brownfield",$good,($pc > 50 ? "SUCCESS" : "FAIL"));
 
 
 
