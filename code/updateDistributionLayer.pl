@@ -92,4 +92,4 @@ print FILE $csv;
 close(FILE);
 
 
-saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-distribution.svg","distribution",$n,"SUCCESS");
+saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-distribution-centres.svg","distribution centres",$n,"SUCCESS");

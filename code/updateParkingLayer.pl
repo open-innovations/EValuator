@@ -111,4 +111,4 @@ open(FILE,">",$conf->{'basedir'}.$conf->{'layers'}{'dir'}."estimated-parking-cap
 print FILE $csv;
 close(FILE);
 
-saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-carpark.svg","carpark",$n,"SUCCESS");
+saveBadge($basedir.$conf->{'badges'}{'dir'}."badge-parking.svg","parking",$n,"SUCCESS");
