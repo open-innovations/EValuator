@@ -10,11 +10,14 @@
   export let filter = undefined;
 
   export let feature = undefined;
+
+  export let name = undefined;
  
 	const layerGroup = getContext('layerGroup')();
+  const control = getContext('control');
 
   setContext('layer', () => layer);
-	
+
   function createLayer() {
     return {
       destroy() {
@@ -25,12 +28,13 @@
       },
     };
   }
-
+  
   $: if (feature) {
     if (layer) {
       // layer.setLatLng(latLng);
     } else {
       layer = L.geoJSON(feature, { filter }).addTo(layerGroup);
+      if (control) control().addOverlay(layer, name);
     }
   }
   $: if(style && layer) layer.setStyle(style);
