@@ -429,6 +429,7 @@ a.call-to-action:hover {
   flex-direction: column;
   justify-content: center;
   gap: 0.3em;
+  caret-color: transparent;
 }
 .menu-burger i {
   display: block;
