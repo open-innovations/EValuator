@@ -9,24 +9,31 @@ export const site = (() => {
   let locked = lock === 'true';
 
   const saveSiteLocation = ({ lat, lng } = {}) => {
-    if (!locked) saveAppState({ lat, lng })
+    if (!locked) saveAppState({ lat, lng });
   };
   
   const setLock = (status) => {
     locked = status;
     saveAppState({ lock: status });
   }
+
+  const clear = () => {
+    set(undefined);
+    saveAppState({ lat: undefined, lng: undefined });
+    setLock(false);
+  }
   
   const setLocation = (({ lat, lng }) => {
-    if (!locked) set(L.latLng(lat, lng))
+    if (!locked) set(L.latLng(lat, lng));
+    setLock(true);
   });
   
   subscribe(saveSiteLocation);
 
   return {
-    subscribe,
-    set,
+    clear,
     setLocation,
     setLock,
+    subscribe,
   }
 })();

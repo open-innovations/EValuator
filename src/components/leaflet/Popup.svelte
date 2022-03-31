@@ -4,28 +4,11 @@
   let classNames = undefined;
   export { classNames as class };
   export let popup = undefined;
-  let showContents = false;
-  let popupOpen = false;
   let layer = getContext('layer')();
   
 	function createPopup(popupElement) {
-    popup = L.popup().setContent(popupElement);
-
+    popup = L.popup().setContent(popupElement);    
     layer.bindPopup(popup);
-    layer.on('popupopen', () => {
-      popupOpen = true;
-      showContents = true;
-    });
-    layer.on('popupclose', () => {
-      popupOpen = false;
-      // Wait for the popup to completely fade out before destroying it.
-      // Otherwise the fade out looks weird as the contents disappear too early.
-      setTimeout(() => {
-        if (!popupOpen) {
-          showContents = false;
-        }
-      }, 500);
-    });
     return {
       destroy() {
         if (popup) {
@@ -38,10 +21,8 @@
   }
 </script>
 
-<div class="hidden">
+<div hidden>
   <div use:createPopup class={classNames}>
-    {#if showContents}
-      <slot />
-    {/if}
+    <slot />
   </div>
 </div>

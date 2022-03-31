@@ -19,10 +19,8 @@
     params = params;
   }
 
-  let locked = loadAppState(['lock']).lock === 'true';
-
   $: saveAppState(params);
-  $: site.setLock(locked);
+  $: siteLoc = `${$site?.lat}, ${$site?.lng}`;
 </script>
 
 <p>
@@ -32,22 +30,18 @@
 
 <div class='param-grid'>
   <div class='param'>
-    <p>
-      {#if $site?.lat && $site?.lng }
-        Site location: { $site?.lat }, { $site?.lng }
+    {#if $site?.lat && $site?.lng }
+      <div>
+        Site: { siteLoc }
+      </div>
+      <div>
+        <button on:click={ () => site.clear() }>Clear site</button>
+      </div>
       {:else}
-        Click on the map to select a site.
-      {/if}
-    </p>
-    <p>
-      <button on:click={ () => locked = !locked }>
-        {#if locked }
-          Unlock Site
-        {:else}
-          Lock Site
-        {/if}
-      </button>
-    </p>
+      <div>
+        Select a site on the map
+      </div>
+    {/if}
   </div>
   <div class='param'>
     <label for='chargepoints'>Total Electric Vehicle Chargepoints</label>
@@ -99,6 +93,7 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 1em;
+      align-items: center;
     }
   }
 </style>

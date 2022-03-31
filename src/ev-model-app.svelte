@@ -2,9 +2,11 @@
   import Leaflet from './components/leaflet/Leaflet.svelte';
   import Marker from './components/leaflet/Marker.svelte';
   import GeoJson from './components/leaflet/GeoJson.svelte'; 
+  import Popup from './components/leaflet/Popup.svelte';
 
   import ModelPane from './components/ModelPane.svelte';
   import Attributions from './components/Attributions.svelte';
+  import Location from './components/Location.svelte';
   
   import { location } from './stores/location';
 
@@ -34,7 +36,11 @@
 <p>{ $location?.msoa.properties.msoa11hclnm }</p>
 <div id='map' class="screen">
   <Leaflet bind:map { bounds } baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
-    <Marker bind:latLng={ $site } icon={ pin }></Marker>
+    <Marker latLng={ $site } icon={ pin }>
+      <Popup>
+        <Location></Location>
+      </Popup>
+    </Marker>
     <GeoJson feature={ $location?.msoa } bind:layer={ msoaOutline } style={ style.msoaFocus }></GeoJson>
     <GeoJson feature={ $location?.warehouse } style={ style.distribution }></GeoJson>
     <GeoJson feature={ $location?.distribution } style={ style.distribution }></GeoJson>

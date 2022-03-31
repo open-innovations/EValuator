@@ -2,7 +2,13 @@ const getUrl = () => new URL(window.location);
 
 export const saveAppState = (update) => {
   const currentPage = getUrl();
-  Object.entries(update).forEach(([k, v]) => { if (v !== null && v !== undefined) currentPage.searchParams.set(k, v)});
+  Object.entries(update).forEach(([k, v]) => {
+    if (v !== null && v !== undefined) {
+      currentPage.searchParams.set(k, v)
+    } else {
+      currentPage.searchParams.delete(k);
+    }
+  });
   window.history.replaceState(null, null, currentPage.href);
 }
 

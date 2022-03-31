@@ -11,23 +11,25 @@
 
   setContext('layer', () => marker);
 
+  const destroy = () => {
+    if (marker) {
+      marker.remove();
+      marker = undefined;
+    }
+  };
+
   function createMarker() {
     return {
-      destroy() {
-        if (marker) {
-          marker.remove();
-          marker = undefined;
-        }
-      },
+      destroy,
     };
   }
-  $: if (latLng) {
-    if (marker) {
+  $: if (latLng && marker) {
       marker.setLatLng(latLng);
-    } else {
+    } else if (latLng) {
       marker = L.marker(latLng, { icon }).addTo(layerGroup);
+    } else if (marker) {
+      destroy();
     }
-  }
 </script>
 
 <div class="hidden">
