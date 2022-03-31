@@ -57,10 +57,10 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 
 			for($l = 0; $l < $n; $l++){
 				$src = $json->[$c]{'layers'}[$l]{'src'};
-		#		print "$l - $src\n";
 				push(@headers,$json->[$c]{'layers'}[$l]{'id'});
 
 				@lines = "";
+				$mcount = 0;
 
 				if($src =~ /^http/){
 					print "Downloading file from: $src\n";
@@ -83,12 +83,13 @@ if(!-e $basedir.$conf->{'layers'}{'file'}){
 					$lines[$i] =~ s/[\n\r]//g;
 					($m,$score) = split(/\,/,$lines[$i]);
 					if($m){
+						$mcount++;
 						if(!$msoa{$m}){ $msoa{$m} = {}; }
 						$msoa{$m}{$json->[$c]{'layers'}[$l]{'id'}} = $score;
 					}
 				}
 				# Save a badge for this layer
-				saveBadge($basedir."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg","layer: $json->[$c]{'layers'}[$l]{'id'}",$lastmod);
+				saveBadge($basedir."badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg","layer: $json->[$c]{'layers'}[$l]{'id'}",$lastmod,($lastmod && $mcount > 0 ? "" : "FAIL"));
 				push(@badges,"$lastmod\t".($json->[$c]{'layers'}[$l]{'update'} ? '[':'')."![score update $json->[$c]{'layers'}[$l]{'id'}](badge-score-update-$json->[$c]{'layers'}[$l]{'id'}.svg)".($json->[$c]{'layers'}[$l]{'update'} ? ']('.$json->[$c]{'layers'}[$l]{'update'}.')' : ''));
 			}
 		}

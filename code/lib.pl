@@ -508,11 +508,15 @@ sub loadFeatures {
 	# Create a JSON parser
 	$coder = JSON::XS->new->utf8->canonical(1);
 
-	print "Reading MSOA GeoJSON file from $file\n";
-	open(FILE,$file);
-	@lines = <FILE>;
-	close(FILE);
-	
+	if(-e $file){
+		print "Reading GeoJSON file from $file\n";
+		open(FILE,$file);
+		@lines = <FILE>;
+		close(FILE);
+	}else{
+		print "Error: Unable to open $file\n";
+		return ();
+	}
 	
 
 	$str = join("",@lines);
