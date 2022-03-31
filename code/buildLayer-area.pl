@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# getDistributionCentres (version 1.0)
+# buildLayer-area (version 1.0)
 # We read in the MSOA-level GeoJSON extracts for distribution centres that we've previously created
 # For each polygon/multipolygon we:
 #	- calculate the area

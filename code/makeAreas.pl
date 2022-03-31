@@ -15,7 +15,7 @@ $osmpbf = $rootdir."raw/great-britain-latest.pbf";
 $osmfile = $rootdir."raw/great-britain-latest.o5m";
 # Directories to look for boundaries
 @boundarydirs = ($rootdir."../geography-bits/data/LAD21CD/");
-
+$overwrite = $ARGV[0];
 
 # Download the GB extract
 if(!-e $osmfile && !-e $osmpbf){
@@ -182,17 +182,26 @@ if(getFile($chargepoints{'url'},$chargepoints{'raw'},86400)){
 	print "Got chargepoints: $chargepoints{'raw'}\n";
 
 	$sqlfile = $chargepoints{'raw'}.".sqlite";
+	if(-e $sqlfile && $overwrite){
+		`rm $sqlfile`;
+	}
+
 	if(!-e $sqlfile){
 		$layer = $chargepoints{'raw'};
 		$layer =~ s/\.([^\.]*)$//;
+		$layer =~ s/^.*\/([^\/]*)/$1/g;
 		# Convert the CSV into SQLite (for speed of access)
 		# We want to drop any chargepoints that have no geometry (there are 2)
+		print "Create SQLite file\n";
 		`ogr2ogr -f SQLite $sqlfile $chargepoints{'raw'} -dialect sqlite -sql "select * from $layer where geometry is not null" -oo X_POSSIBLE_NAMES=longitude -oo Y_POSSIBLE_NAMES=latitude -oo KEEP_GEOM_COLUMNS=NO -a_srs 'EPSG:4326'`;
 	}
 
 	for($f = 0; $f < @files; $f++){
-		$gfile = $adir.$files[$f]{'code'}."-chargepoints.geojson";
+		$gfile = $adir.$files[$f]{'code'}."/$files[$f]{'code'}-chargepoints.geojson";
 		$bfile = $files[$f]{'geojson'};
+		if(-e $gfile && $overwrite){
+			`rm $gfile`;
+		}
 		if(!-e $gfile){
 			print "\tCreating chargepoints for $files[$f]{'code'} using $bfile\n";
 			`ogr2ogr -f GeoJSON $gfile 	$sqlfile -clipsrc $bfile`;

@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Once you have chargepoints by MSOA we can build the chargepoints layer
+# Make the grid capacity layer
 use strict;
 use warnings;
 use JSON::XS;
