@@ -1,6 +1,6 @@
 MSOA,Name,index-of-transport-accessibility,ulev,estimated-parking-capacity,evhs,chargepoints,grid-capacity,distribution-centres,supermarket,warehouse,brownfield
-E02006362,"Ashtead East",0,466.0,411.62,66.913,1,0,0.00,0.00,0.00,0.23
-E02006363,"Ashtead West",0,764.0,407.62,34.728,5,0,0.00,0.00,0.00,0
+E02006362,"Ashtead East",0,466.0,411.62,66.913,0,0,0.00,0.00,0.00,0.23
+E02006363,"Ashtead West",0,764.0,407.62,34.728,6,0,0.00,0.00,0.00,0
 E02006364,"Leatherhead North",0,909.0,6883.10,89.658,5,0,0.00,7094.82,2421.07,6.75
 E02006365,"Leatherhead South & Ashtead South",0,764.0,2023.34,42.372,0,0,0.00,0.00,0.00,0.11
 E02006366,"Fetcham",0,900.0,372.71,29.450,0,0,0.00,0.00,0.00,0.09
