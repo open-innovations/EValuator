@@ -1,16 +1,17 @@
 #!/usr/bin/perl
 use Data::Dumper;
+use Cwd qw(abs_path);
+
 # Get the real base directory for this script
 my $basedir = "./";
-if(($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
-require "./".$basedir."lib.pl";
+if(abs_path($0) =~ /^(.*\/)[^\/]*/){ $basedir = $1; }
+# Step back out of the code directory
+$basedir =~ s/code\/$//g;
+require $basedir."code/lib.pl";
 
 
 # Read in the configuration JSON file
-$conf = loadConf($basedir."conf.json");
-
-# Step up a directory
-$basedir = "../".$basedir;
+$conf = loadConf($basedir."code/conf.json");
 
 
 
