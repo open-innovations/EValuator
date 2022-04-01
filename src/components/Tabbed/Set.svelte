@@ -20,6 +20,7 @@
 <style>
   .tabs {
     display: flex;
+    flex-wrap: wrap;
     gap: 4px;
     justify-content: space-between;
   }
