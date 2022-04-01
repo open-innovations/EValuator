@@ -1,7 +1,6 @@
-.key-code{width:2em;vertical-align:bottom;fill-opacity:0.2;stroke-width:1.5}.speed-S { fill: #efd463; background: #efd463; color: white; }
-.speed-F { fill: #00a3da; background: #00a3da; color: black; }
-.speed-R { fill: #d772da; background: #d772da; color: black; }
-.speed-U { fill: #93da72; background: #93da72; color: black;}
+.key-code{width:2em;vertical-align:bottom;fill-opacity:0.2;stroke-width:1.5}.leaflet-marker-icon .marker-group { display: inline-block; height: 2.5em; line-height: 2em; text-align:center; background: white; color: black; }
+.leaflet-marker-icon .marker-group .marker-group-head { width: 100%; height: 0.5em; }
+.leaflet-marker-icon .marker-group span { padding: 0 0.5em; }
 
 /* Marker Cluster styles */
 .marker-cluster-small {
@@ -717,4 +716,4 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	margin-left: -12px;
 	border-right-color: #fff;
 	}
-div.svelte-12js5h7.svelte-12js5h7{display:none}.svelte-12js5h7:checked+div.svelte-12js5h7{display:block}input.svelte-12js5h7.svelte-12js5h7{display:none}.background [slot='tab-top']{background:#d4dadc}.tabs.svelte-7eukav{display:flex;flex-wrap:wrap;gap:4px;justify-content:space-between}.tab-top.svelte-7eukav{font-size:1.5em;flex-grow:1}.tab-top.svelte-7eukav *{font-size:inherit}.tab-top.svelte-7eukav [slot='tab-top']{background-color:#d4dadc;box-shadow:inset 0 -0.25em 0.25em -0.25em rgba(0,0,0,0.2)}.active.svelte-7eukav [slot='tab-top']{background-color:#efefef;box-shadow:unset}
+.tabs.svelte-7eukav{display:flex;flex-wrap:wrap;gap:4px;justify-content:space-between}.tab-top.svelte-7eukav{font-size:1.5em;flex-grow:1}.tab-top.svelte-7eukav *{font-size:inherit}.tab-top.svelte-7eukav [slot='tab-top']{background-color:#d4dadc;box-shadow:inset 0 -0.25em 0.25em -0.25em rgba(0,0,0,0.2)}.active.svelte-7eukav [slot='tab-top']{background-color:#efefef;box-shadow:unset}div.svelte-12js5h7.svelte-12js5h7{display:none}.svelte-12js5h7:checked+div.svelte-12js5h7{display:block}input.svelte-12js5h7.svelte-12js5h7{display:none}.background [slot='tab-top']{background:#d4dadc}

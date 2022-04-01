@@ -40,9 +40,9 @@
   const layerName = (key) => {
     const n = key.replace(/^\w/, c => c.toUpperCase())
     const l = style[key]();
-    return `<svg viewBox="-2 -2 14 14" class="key-code" stroke="${l.color}" fill="${ l.color }">
+    return `${ n } <svg viewBox="-2 -2 14 14" class="key-code" stroke="${l.color}" fill="${ l.color }">
       <rect width=10 height=10></rect>
-    </svg> ${ n }`;
+    </svg>`;
   }
 </script>
 
