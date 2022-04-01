@@ -37,10 +37,14 @@ async function getAreaData(areaCode) {
 
 function locationStore() {
   const { area, msoa } = getMapState();
+  const params = { area, msoa };
 
   const { subscribe, set } = writable();
 
   async function update() {
+    if (!area) { throw 'Area not defined'; }
+    if (!msoa) { throw 'MSOA not defined'; }
+    console.log('are we here');
     const areaData = await getAreaData(area);
     const feature = areaData.geojson.features.find(l => l.properties.msoa11cd === msoa);
     const msoaData = areaData.layerData.find(l => l.MSOA === msoa);
@@ -51,9 +55,8 @@ function locationStore() {
       msoaData,
     });
   }
-
-  update();
-  return { subscribe };
+  const loading = update();
+  return { subscribe, loading, params };
 }
 
 export const location = locationStore();
