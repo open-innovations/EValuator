@@ -1,6 +1,6 @@
 <script>
   import { createEventDispatcher, setContext } from 'svelte';
-  import L from '../../lib/vendor/leaflet';
+  import L from 'leaflet';
   import 'leaflet/dist/leaflet.css';
   
   export let baseLayer;
@@ -26,6 +26,7 @@
   setContext('layerGroup', getMap);
   setContext('layer', getMap);
   setContext('map', getMap);
+  setContext('control', () => undefined);
 
   function createLeaflet(node) {
     map = L.map(node).on('zoom', (e) => dispatch('zoom', e));

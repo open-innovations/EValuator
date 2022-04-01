@@ -1,5 +1,5 @@
 <script>
-  import L from '../../lib/vendor/leaflet';
+  import L from 'leaflet';
   import { getContext, setContext } from 'svelte';
 
   export let marker = undefined;

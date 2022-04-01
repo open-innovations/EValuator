@@ -4,19 +4,22 @@
   import GeoJson from './components/leaflet/GeoJson.svelte'; 
   import Popup from './components/leaflet/Popup.svelte';
   import Control from './components/leaflet/Control.svelte';
+  import ChargepointLayer from './components/ChargepointLayer.svelte';
 
   import ModelPane from './components/ModelPane.svelte';
   import Attributions from './components/Attributions.svelte';
   import Location from './components/Location.svelte';
   
   import { location } from './stores/location';
-
+  
   import { uk } from './lib/maps/bounds';
   import { greyscale } from './lib/maps/basemaps';
   import { lightCarto } from './lib/maps/labels';
   import * as style from './lib/maps/styles';
   import { pin } from './lib/maps/icons';
   import { site } from './stores/site';
+
+  import './leaflet.css';
 
   let bounds = uk;
 
@@ -52,11 +55,6 @@
   <p>{ $location?.msoa.properties.msoa11hclnm }</p>
   <div id='map' class="screen">
     <Leaflet bind:map { bounds } baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
-      <Marker latLng={ $site } icon={ pin }>
-        <Popup>
-          <Location></Location>
-        </Popup>
-      </Marker>
       <GeoJson feature={ $location?.msoa } bind:layer={ msoaOutline } style={ style.msoaFocus }></GeoJson>
       <Control>
         {#each ['parking', 'supermarket', 'distribution', 'warehouse'] as layer }
@@ -64,7 +62,13 @@
             <GeoJson feature={ $location[layer] } style={ style[layer] } { filter } name={ layerName(layer) }></GeoJson>
           {/if}
         {/each}
+        <ChargepointLayer></ChargepointLayer>
       </Control>
+      <Marker latLng={ $site } icon={ pin }>
+        <Popup>
+          <Location></Location>
+        </Popup>
+      </Marker>
     </Leaflet>
   </div>
 

@@ -22,16 +22,18 @@ async function getAreaData(areaCode) {
     fetch(`${prefix}/${areaCode}-distribution.geojson`).then(x => x.json()).catch(_ => undefined),
     fetch(`${prefix}/${areaCode}-parking.geojson`).then(x => x.json()).catch(_ => undefined),
     fetch(`${prefix}/${areaCode}-supermarket.geojson`).then(x => x.json()).catch(_ => undefined),
+    fetch(`${prefix}/${areaCode}-chargepoints.geojson`).then(x => x.json()).catch(_ => undefined),
     fetch(`${prefix}/${areaCode}.csv`).then(x => x.text()).then(parseCsv).catch(_ => undefined),
   ];
-  const [geojson, warehouse, distribution, parking, supermarket, layerData] = await Promise.all(req);
+  const [geojson, warehouse, distribution, parking, supermarket, chargepoints, layerData] = await Promise.all(req);
   return {
-    geojson,
-    warehouse,
+    chargepoints, 
     distribution,
+    geojson,
+    layerData,
     parking,
     supermarket,
-    layerData,
+    warehouse,
   };
 }
 
@@ -44,7 +46,6 @@ function locationStore() {
   async function update() {
     if (!area) { throw 'Area not defined'; }
     if (!msoa) { throw 'MSOA not defined'; }
-    console.log('are we here');
     const areaData = await getAreaData(area);
     const feature = areaData.geojson.features.find(l => l.properties.msoa11cd === msoa);
     const msoaData = areaData.layerData.find(l => l.MSOA === msoa);

@@ -1,6 +1,6 @@
 <script>
   import { getContext, setContext } from 'svelte';
-  import L from '../../lib/vendor/leaflet';
+  import L from 'leaflet';
 
   export let options = {}
   const control = L.control.layers({}, {}, options)

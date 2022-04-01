@@ -1,4 +1,4 @@
-import L from '../vendor/leaflet';
+import L from 'leaflet';
 
 export const pin = L.icon({
   iconUrl: 'resources/images/noun-pin-1233347.svg',

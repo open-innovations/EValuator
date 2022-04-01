@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import L from '../lib/vendor/leaflet';
+import L from 'leaflet';
 import { loadAppState, saveAppState } from '../lib/appState';
 
 const { lat, lng, lock } = loadAppState(['lat', 'lng', 'lock']);

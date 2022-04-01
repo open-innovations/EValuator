@@ -1,4 +1,83 @@
-.key-code{width:2em;vertical-align:bottom;fill-opacity:0.2;stroke-width:1.5}h2.svelte-84m7lq{text-align:center;margin:0}.main-content.svelte-84m7lq{background-color:#efefef;padding:0.5em 1em}[slot=tab-top].svelte-84m7lq{display:flex;gap:0.5em;padding:0.5em}[slot=tab-top].svelte-84m7lq svg{height:1em}h2.svelte-84m7lq{flex-grow:2}.controls.svelte-1goh6sb{display:flex;gap:1em}button.svelte-1goh6sb{background-color:#d4dadc;vertical-align:unset;width:100%}button.svelte-1goh6sb:hover{background-color:hsl(195, 10%, 75%)}.leaflet-control-container{position:static}div.svelte-1dubgia{height:100%;width:100%}aside.svelte-1lj7d5u{--warning-colour:rgb(208, 55, 0);display:flex;align-items:center;border:3px solid var(--warning-colour);padding:1em;gap:1em;margin-bottom:1em}aside.svelte-1lj7d5u svg{width:3em;float:left}aside.svelte-1lj7d5u .warning-icon{fill:var(--warning-colour)}p.svelte-1lj7d5u{margin:0}.param.svelte-1ij1id8{display:flex;gap:1em;align-items:center}label.svelte-1ij1id8{flex-grow:1}input.svelte-1ij1id8{text-align:right;width:6em}button.svelte-1ij1id8{background-color:#d4dadc;vertical-align:unset}button.svelte-1ij1id8:hover{background-color:hsl(195, 10%, 75%)}@media only screen and (min-width: 600px){.param-grid.svelte-1ij1id8{display:grid;grid-template-columns:repeat(2, 1fr);gap:1em;align-items:center}}ul.svelte-vhc38c{list-style-type:disc;margin-left:2em}.output.svelte-vhc38c{font-size:1.5em;font-weight:bold;text-align:center}ul.svelte-vhc38c{list-style-type:disc;margin-left:2em}.output.svelte-vhc38c{font-size:1.5em;font-weight:bold;text-align:center}/* required styles */
+.key-code{width:2em;vertical-align:bottom;fill-opacity:0.2;stroke-width:1.5}.speed-S { fill: #efd463; background: #efd463; color: white; }
+.speed-F { fill: #00a3da; background: #00a3da; color: black; }
+.speed-R { fill: #d772da; background: #d772da; color: black; }
+.speed-U { fill: #93da72; background: #93da72; color: black;}
+
+/* Marker Cluster styles */
+.marker-cluster-small {
+	background-color: rgba(181, 226, 140, 0.6);
+	}
+.marker-cluster-small div {
+	background-color: rgba(110, 204, 57, 0.6);
+	}
+
+.marker-cluster-medium {
+	background-color: rgba(241, 211, 87, 0.6);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(240, 194, 12, 0.6);
+	}
+
+.marker-cluster-large {
+	background-color: rgba(253, 156, 115, 0.6);
+	}
+.marker-cluster-large div {
+	background-color: rgba(241, 128, 23, 0.6);
+	}
+
+	/* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small {
+	background-color: rgb(181, 226, 140);
+	}
+.leaflet-oldie .marker-cluster-small div {
+	background-color: rgb(110, 204, 57);
+	}
+
+.leaflet-oldie .marker-cluster-medium {
+	background-color: rgb(241, 211, 87);
+	}
+.leaflet-oldie .marker-cluster-medium div {
+	background-color: rgb(240, 194, 12);
+	}
+
+.leaflet-oldie .marker-cluster-large {
+	background-color: rgb(253, 156, 115);
+	}
+.leaflet-oldie .marker-cluster-large div {
+	background-color: rgb(241, 128, 23);
+}
+
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 20px;
+	}
+.marker-cluster div {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+	text-align: center;
+	border-radius: 15px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+.marker-cluster span {
+	line-height: 30px;
+	}
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow {
+	-webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-moz-transition: -moz-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-o-transition: -o-transform 0.3s ease-out, opacity 0.3s ease-in;
+	transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+}
+.leaflet-cluster-spider-leg {
+	/* stroke-dashoffset (duration and function) should match with leaflet-marker-icon transform in order to track it exactly */
+	-webkit-transition: -webkit-stroke-dashoffset 0.3s ease-out, -webkit-stroke-opacity 0.3s ease-in;
+	-moz-transition: -moz-stroke-dashoffset 0.3s ease-out, -moz-stroke-opacity 0.3s ease-in;
+	-o-transition: -o-stroke-dashoffset 0.3s ease-out, -o-stroke-opacity 0.3s ease-in;
+	transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
+}
+/* End of Marker Cluster styles */h2.svelte-84m7lq{text-align:center;margin:0}.main-content.svelte-84m7lq{background-color:#efefef;padding:0.5em 1em}[slot=tab-top].svelte-84m7lq{display:flex;gap:0.5em;padding:0.5em}[slot=tab-top].svelte-84m7lq svg{height:1em}h2.svelte-84m7lq{flex-grow:2}.controls.svelte-1goh6sb{display:flex;gap:1em}button.svelte-1goh6sb{background-color:#d4dadc;vertical-align:unset;width:100%}button.svelte-1goh6sb:hover{background-color:hsl(195, 10%, 75%)}.leaflet-control-container{position:static}div.svelte-1dubgia{height:100%;width:100%}aside.svelte-1lj7d5u{--warning-colour:rgb(208, 55, 0);display:flex;align-items:center;border:3px solid var(--warning-colour);padding:1em;gap:1em;margin-bottom:1em}aside.svelte-1lj7d5u svg{width:3em;float:left}aside.svelte-1lj7d5u .warning-icon{fill:var(--warning-colour)}p.svelte-1lj7d5u{margin:0}.param.svelte-1ij1id8{display:flex;gap:1em;align-items:center}label.svelte-1ij1id8{flex-grow:1}input.svelte-1ij1id8{text-align:right;width:6em}button.svelte-1ij1id8{background-color:#d4dadc;vertical-align:unset}button.svelte-1ij1id8:hover{background-color:hsl(195, 10%, 75%)}@media only screen and (min-width: 600px){.param-grid.svelte-1ij1id8{display:grid;grid-template-columns:repeat(2, 1fr);gap:1em;align-items:center}}ul.svelte-vhc38c{list-style-type:disc;margin-left:2em}.output.svelte-vhc38c{font-size:1.5em;font-weight:bold;text-align:center}ul.svelte-vhc38c{list-style-type:disc;margin-left:2em}.output.svelte-vhc38c{font-size:1.5em;font-weight:bold;text-align:center}/* required styles */
 
 .leaflet-pane,
 .leaflet-tile,
