@@ -95,6 +95,8 @@ code .comment, pre .comment { color: #0DBC37; }
 code .fn, pre .fn { color: #00B6FF; }
 code .str, pre .str { color: #D73058; }
 
+footer code, footer pre { color: #efefef; background-color: #555555; }
+
 
 .holder { position: relative; width: 1080px; max-width: 100%; margin: auto; }
 .padded { padding: 1em; }
