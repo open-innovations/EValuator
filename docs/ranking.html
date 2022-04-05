@@ -3,6 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />
+	<link rel="icon" href="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='640' height='640' overflow='auto' viewBox='-32 -32 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='oi-person'%3E%3Cpath d='m-32-32h64v64h-12v-24a4 4 0 0 0 -4 -4h-8a4 4 0 0 0 -4 4v24h-36zm44 27m-8 0a8 8 0 1 0 16 0 8 8 0 1 0-16 0' fill='%23fff'%3E%3C/path%3E%3C/mask%3E%3Cg id='oi-logo' fill='black'%3E%3Ccircle r='32' mask='url(%23oi-person)'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E" />
 	<title>EValuator - EV Bulk Charging Planner: Stage 1</title>
 	<link rel="StyleSheet" href="resources/leaflet.css" type="text/css" />
 	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
@@ -71,26 +72,40 @@
 	
 	<footer class="doublepadded">
 		<div class="holder">
+			<h2>Notes</h2>
+			<p>Note that all the "layers" used in this tool come from different data sources (see below). That means that often complex factors have been simplified into individal values per small area (MSOA). The source data for layers can be incomplete, out-of-date, contain errors, or be based on predictions and approximations so all values should be seen as indicative estimates rather than precise and/or accurate.</p>
+			<p>Each "layer" may have specific units relevant to the data source (e.g. MW or number of chargepoints) but these are turned into unit-less "scores" before being weighted so that a "total score" can be calculated for each MSOA.</p>
+
+			<h3>Names/boundaries</h3>
+			<p>The House of Commons Library maintain a list of <a href="https://houseofcommonslibrary.github.io/msoanames/">MSOA names</a>. We used the version of of March 2022.</p>
+			<p>We obtained the <a href="https://geoportal.statistics.gov.uk/datasets/middle-layer-super-output-areas-december-2011-boundaries-ew-bgc">MSOA boundaries</a> from the Office for National Statistics (licensed under the Open Government Licence v.3.0; Contains OS data © Crown copyright and database right 2021).</p>
+			<p>We have also made use of <a href="https://geoportal.statistics.gov.uk/datasets/ons::output-areas-december-2011-boundaries-ew-bgc-1/about">Output Areas (December 2011) Boundaries EW BGC</a> from ONS, <a href="https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-december-2021-gb-bgc/about">Local Authority Districts (December 2021) GB BGC</a> (ONS), <a href="https://geoportal.statistics.gov.uk/datasets/ons::output-area-to-lower-layer-super-output-area-to-middle-layer-super-output-area-to-local-authority-district-december-2020-lookup-in-england-and-wales/about">Output Area to Lower Layer Super Output Area to Middle Layer Super Output Area to Local Authority District (December 2020) Lookup in England and Wales</a> (ONS), and <a href="https://geoportal.statistics.gov.uk/documents/local-authority-district-to-combined-authority-december-2021-lookup-in-england-v2/about">Local Authority District to Combined Authority (December 2021) Lookup in England v2</a> (ONS).</p>
+
+			<h3>Transport accessibility</h3>
+			<p>The <a href="https://github.com/dringtech/index-of-transport-accessibility/">"Transport accessibility"</a> layer builds on <a href="https://github.com/odileeds/OpenJourneyTime">MSOA to MSOA journey times</a> created by Tom Forth / Open Innovations using Open Street Map/Open Trip Planner and an arrival at the MSOA centroid by 08:30am on 10 September 2019. For each MSOA <a href="https://github.com/dringtech/index-of-transport-accessibility/blob/main/calculate_index_of_transport_accessibility.ipynb">a score is calculated</a> by scaling the area of the 15 minute car accessibility for each MSOA centroid.</p>
+
+			<h3>ULEVs</h3>
+			<p>The number of <a href="https://www.gov.uk/government/statistical-data-sets/all-vehicles-veh01#ultra-low-emissions-vehicles-ulevs">ultra low emission vehicles</a> (ULEVs) per MSOA is estimated from <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1046003/veh0134.ods">licensed ultra low emission vehicles by postcode district</a> as of the 3rd quarter of 2021 using our <a href="https://open-innovations.github.io/PostcodeDistrict2MSOA/">Postcode District to MSOA estimator tool</a>.</p>
+
+			<h3>Home charging points</h3>
+			<p>The Department for Transport provide experimental statistics on the <a href="https://www.gov.uk/government/statistics/electric-vehicle-charging-device-grant-scheme-statistics-october-2021/electric-vehicle-charging-device-grant-scheme-statistics-october-2021">number of grants awarded for the installation of electric vehicle charging devices</a> by MSOA as of October 2021. We use this as a best proxy for the relative number of home charging devices by MSOA.</li>
+			
+			<h3>Existing chargepoints</h3>
+			<p>We use data about <a href="https://chargepoints.dft.gov.uk/">chargepoint locations from the National Chargepoint Registry</a> to <a href="https://github.com/open-innovations/EValuator/blob/main/code/updateChargepointLayer.pl">estimate the number of existing chargepoint sites per MSOA</a>. Note that a single chargepoint site may contain multiple charging stations of different ratings. The National Chargepoint Registry can be incomplete, out-of-date, or contain errors as it is the responsibility of individual providers to keep the data updated.</li>
+			
+			<h3>Grid capacity</h3>
+			<p>Grid capacity is estimated at MSOA level using <a href="https://odileeds.github.io/northern-powergrid/2021-DFES/index.html">Northern Powergrid's Distribution Future Energy Scenarios 2021</a>. We used a reference year of 2030, the Steady Progression, and calculated substation-level capacity from <a href="https://github.com/odileeds/northern-powergrid/blob/master/2021-DFES/data/scenarios/primaries/PeakUtilisation-SP.csv">peak utilisation</a> and <a href="https://github.com/odileeds/northern-powergrid/blob/master/2021-DFES/data/scenarios/primaries/PeakDemand-SP.csv">peak demand</a>. We then used <a href="https://github.com/odileeds/northern-powergrid/blob/master/2021-DFES/data/primaries2msoa.json">a mapping from substation to MSOA</a> to find the largest capacity substation connected to an MSOA to use as a representative value.</li>
+
+			<h3>Distribution centres/Supermarket/Warehouse/Car park capacity</h3>
+			<p>We extracted polygons for each of these types from a <a href="https://download.geofabrik.de/europe/great-britain.html">GB extract of Open Street Map</a>. Distribution sites do not have a specific type in Open Street Map so we extracted all polygons with <code>*Distribution*</code> in the name whilst dropping any that are <code>amenity=loading_dock</code> or <code>power=generator</code>. Supermarket polygons are those tagged <code>shop=supermarket</code> and warehouses are tagged <code>building=warehouse</code>. For car parking capacity we extracted polygons with <code>amenity=parking</code>. In cases where <code>capacity=X</code> is set we use the provided capacity. For polygons with no capacity set we estimate the capacity using: <code>spaces = (1/0.34) * 0.0145 * area * building:levels</code>. This linear relationship was determined by plotting all GB car parks with known capacity (areas multiplied by the specified levels for multi-story car parks) and fitting a straight line - there is quite a lot of scatter in the distribution so final values are only indicative.</p>
+
+			<h3>Brownfield sites</h3>
+			<p>The Department for Levelling Up, Housing, and Communities maintain a dataset of individual local authority <a href="https://www.digital-land.info/dataset/brownfield-land">Brownfield Land Registers</a> (OGL v3). This gives a centroid location and area (hectares) for each brownfield site. Note that the data from individual local authorities may be out-of-date, incomplete, or inaccurate. We last updated the layer on 31st March 2022.</p>
+
 			<h2>Credits</h2>
 			<p>Visualisation &copy; Open Innovations 2022.</p>
+			<p><a href="https://icons.getbootstrap.com/icons/list-ol/">Icons</a> - Bootstrap (MIT licence)</p>
 			
-			<h2>Data sources</h2>
-
-			<ul>
-				<li><a href="https://houseofcommonslibrary.github.io/msoanames/">MSOA names</a>: House of Commons Library</li>
-				<li><a href="https://geoportal.statistics.gov.uk/datasets/middle-layer-super-output-areas-december-2011-boundaries-ew-bgc">MSOA boundaries</a>: Office for National Statistics licensed under the Open Government Licence v.3.0. Contains OS data © Crown copyright and database right 2021</li>
-				<li><a href="https://geoportal.statistics.gov.uk/datasets/ons::output-areas-december-2011-boundaries-ew-bgc-1/about">Output Areas (December 2011) Boundaries EW BGC</a>: ONS</li>
-				<li><a href="https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-december-2021-gb-bgc/about">Local Authority Districts (December 2021) GB BGC</a>: ONS</li>
-				<li><a href="https://geoportal.statistics.gov.uk/datasets/ons::output-area-to-lower-layer-super-output-area-to-middle-layer-super-output-area-to-local-authority-district-december-2020-lookup-in-england-and-wales/about">Output Area to Lower Layer Super Output Area to Middle Layer Super Output Area to Local Authority District (December 2020) Lookup in England and Wales</a>: ONS</li>
-				<li><a href="https://geoportal.statistics.gov.uk/documents/local-authority-district-to-combined-authority-december-2021-lookup-in-england-v2/about">Local Authority District to Combined Authority (December 2021) Lookup in England v2</a>: ONS</li>
-				<li><a href="https://github.com/odileeds/OpenJourneyTime">MSOA to MSOA journey times</a> - Tom Forth / Open Innovations</li>
-				<li><a href="https://download.geofabrik.de/europe/great-britain.html">OpenStreetMap GB extract</a> - Open Street Map</li>
-				<li><a href="https://www.gov.uk/government/statistics/electric-vehicle-charging-device-grant-scheme-statistics-october-2021/electric-vehicle-charging-device-grant-scheme-statistics-october-2021">Electric Vehicle Homecharge Scheme</a> - EVHS</li>
-				<li><a href="https://chargepoints.dft.gov.uk/">Chargepoint locations</a> - National Chargepoint Registry</li>
-				<li>Grid capacity (from <a href="https://github.com/odileeds/northern-powergrid/blob/master/2021-DFES/data/scenarios/primaries/PeakUtilisation-SP.csv">peak utilisation</a> and <a href="https://github.com/odileeds/northern-powergrid/blob/master/2021-DFES/data/scenarios/primaries/PeakDemand-SP.csv">peak demand</a> in 2030 under Steady Progression) - Northern Powergrid</li>
-				<li><a href="https://www.digital-land.info/dataset/brownfield-land">Brownfield land</a> - DLUHC (OGL v3)</li>
-				<li><a href="https://icons.getbootstrap.com/icons/list-ol/">Icons</a> - Bootstrap (MIT licence)</li>
-			</ul>
 		</div>
 	</footer>
 
