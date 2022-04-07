@@ -37,7 +37,7 @@
 		"attrib": ["DfT"]
 	},{
 		"id": "chargepoints",
-		"title": "Existing chargepoints",
+		"title": "Public chargepoints",
 		"desc": "The number of chargepoints in the National Chargepoint Registry.",
 		"src": "layers/chargepoints.csv",
 		"update": "https://github.com/open-innovations/EValuator/blob/main/code/updateChargepointLayer.pl",
