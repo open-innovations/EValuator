@@ -45,7 +45,7 @@
     </svg>`;
   }
   const controlOptions = {
-    collapsed: false,
+    collapsed: true,
   };
 </script>
 
