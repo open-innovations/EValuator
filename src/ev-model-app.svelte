@@ -40,10 +40,13 @@
   const layerName = (key) => {
     const n = key.replace(/^\w/, c => c.toUpperCase())
     const l = style[key]();
-    return `${ n } <svg viewBox="-2 -2 14 14" class="key-code" stroke="${l.color}" fill="${ l.color }">
+    return `<span>${ n }</span><svg viewBox="-2 -2 14 14" class="key-code" stroke="${l.color}" fill="${ l.color }">
       <rect width=10 height=10></rect>
     </svg>`;
   }
+  const controlOptions = {
+    collapsed: true,
+  };
 </script>
 
 <h1>Stage 2: Modelling</h1>
@@ -56,7 +59,7 @@
   <div id='map' class="screen">
     <Leaflet bind:map { bounds } baseLayer={ greyscale } labelLayer={ lightCarto } clickHandler={ mapClick }>
       <GeoJson feature={ $location?.msoa } bind:layer={ msoaOutline } style={ style.msoaFocus }></GeoJson>
-      <Control>
+      <Control options={ controlOptions }>
         {#each ['parking', 'supermarket', 'distribution', 'warehouse'] as layer }
           {#if $location }
             <GeoJson feature={ $location[layer] } style={ style[layer] } { filter } name={ layerName(layer) }></GeoJson>
